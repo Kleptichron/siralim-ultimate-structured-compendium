@@ -74,6 +74,14 @@ Three creatures, three structurally distinct roles.
     modify other mechanics ("ignores traits that…") go in `notes` if their core is
     already modeled.
 
+## Semi-structured params (validated + faceted)
+
+A few conventional `params` keys are read by facet derivation and validated against
+lexicons — use exactly these names: `params.class` (∈ classes) and `params.race`
+(∈ families) on conditions; `params.stat` (∈ stats) on `stat_comparison` conditions and
+`after_stat_change` triggers; `params.sourceClass`/`vsClass` on damage modifiers
+("less damage from Death spells" → class × vs facet).
+
 ## Every status name in the text must be accounted for
 
 The validator rejects annotations that ignore a mentioned status. If a status is

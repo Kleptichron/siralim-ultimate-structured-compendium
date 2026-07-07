@@ -1,11 +1,7 @@
-import { emptyQuery, runQuery, facetCounts } from '/filter.js';
+import { PICKERS, emptyQuery, runQuery, facetCounts } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
 const MAX_CARDS = 250;
-const INTERACTIONS = [
-  'inflicts', 'grants', 'removes', 'prevents', 'modifies', 'steals',
-  'detonates', 'triggers_off', 'conditions_on',
-];
 
 let index = null;
 let query = emptyQuery();
@@ -39,23 +35,25 @@ function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
   return `<div class="facet-group"><h3>${title}</h3>${rows}</div>`;
 }
 
-function statusFacetHtml() {
-  const counts = facetCounts(index.records, query, 'statusInteractions');
-  const perStatus = new Map();
-  for (const [si, n] of counts) {
-    const [s] = si.split('|');
-    perStatus.set(s, (perStatus.get(s) ?? 0) + n);
+function pickerHtml(cfg) {
+  const sel = query.pickers[cfg.id];
+  const { pairs, perInteraction } = facetCounts(index.records, query, `picker:${cfg.id}`);
+  const perKey = new Map();
+  for (const [pair, n] of pairs) {
+    const k = pair.split('|')[0];
+    if (k === '*') continue; // wildcard (unnamed statuses) serves any-key queries only
+    perKey.set(k, (perKey.get(k) ?? 0) + n);
   }
-  const options = ['<option value="">— status —</option>',
-    ...[...perStatus.entries()].sort((a, b) => b[1] - a[1])
-      .map(([s, n]) => `<option value="${s}" ${query.status === s ? 'selected' : ''}>${s} (${n})</option>`)];
-  const chips = INTERACTIONS.map(i => {
-    const n = query.status ? (counts.get(`${query.status}|${i}`) ?? 0) : 0;
-    const on = query.interactions.has(i);
-    return `<span class="ichip ${on ? 'on' : ''}" data-i="${i}">${i.replace('_', ' ')}${query.status ? ` ${n}` : ''}</span>`;
+  const options = [`<option value="">— any ${cfg.id} —</option>`,
+    ...[...perKey.entries()].sort((a, b) => b[1] - a[1])
+      .map(([k, n]) => `<option value="${k}" ${sel.key === k ? 'selected' : ''}>${k} (${n})</option>`)];
+  const chips = cfg.interactions.map(i => {
+    const n = sel.key ? (pairs.get(`${sel.key}|${i}`) ?? 0) : (perInteraction.get(i) ?? 0);
+    const on = sel.on.has(i);
+    return `<span class="ichip ${on ? 'on' : ''} ${n === 0 && !on ? 'zero' : ''}" data-p="${cfg.id}" data-i="${i}">${i.replace(/_/g, ' ')} ${n}</span>`;
   }).join('');
-  return `<div class="facet-group"><h3>Status × interaction</h3>
-    <select id="status-sel">${options.join('')}</select>
+  return `<div class="facet-group"><h3>${cfg.title}</h3>
+    <select data-psel="${cfg.id}">${options.join('')}</select>
     <div class="ichips">${chips}</div></div>`;
 }
 
@@ -63,7 +61,7 @@ function renderFacets() {
   const el = $('#facets');
   el.innerHTML = `
     <button class="clear">Clear all filters</button>
-    ${statusFacetHtml()}
+    ${PICKERS.map(pickerHtml).join('')}
     ${facetGroupHtml('Source', 'types', query.types, facetCounts(index.records, query, 'types'))}
     ${facetGroupHtml('Trigger', 'triggers', query.triggers, facetCounts(index.records, query, 'triggers'), v => v.replace(/_/g, ' '))}
     ${facetGroupHtml('Action', 'verbs', query.verbs, facetCounts(index.records, query, 'verbs'), v => v.replace(/_/g, ' '))}
@@ -77,10 +75,11 @@ function renderFacets() {
   el.querySelectorAll('.fv').forEach(fv => {
     fv.onclick = () => { toggle(query[fv.dataset.g], fv.dataset.v); render(); };
   });
-  const sel = el.querySelector('#status-sel');
-  sel.onchange = () => { query.status = sel.value; render(); };
+  el.querySelectorAll('select[data-psel]').forEach(s => {
+    s.onchange = () => { query.pickers[s.dataset.psel].key = s.value; render(); };
+  });
   el.querySelectorAll('.ichip').forEach(c => {
-    c.onclick = () => { toggle(query.interactions, c.dataset.i); render(); };
+    c.onclick = () => { toggle(query.pickers[c.dataset.p].on, c.dataset.i); render(); };
   });
 }
 

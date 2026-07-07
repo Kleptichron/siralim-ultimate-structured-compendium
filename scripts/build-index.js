@@ -37,6 +37,7 @@ function deriveFacets(ann) {
     triggers: new Set(), verbs: new Set(), actors: new Set(), targets: new Set(),
     conditions: new Set(), tiers: new Set(), scaleStats: new Set(), scaleRefs: new Set(),
     qualifiers: new Set(), flows: new Set(), statusInteractions: new Set(),
+    statInteractions: new Set(), classInteractions: new Set(), raceInteractions: new Set(),
   };
   let chanceBased = false, perRank = false;
   const statusesOf = v => (typeof v === 'string' ? [v] : Array.isArray(v) ? v : []);
@@ -46,10 +47,18 @@ function deriveFacets(ann) {
     for (const s of [...statusesOf(t.params?.status), ...statusesOf(t.params?.statuses)]) {
       f.statusInteractions.add(`${s}|triggers_off`);
     }
+    if (t.type === 'after_stat_change' && t.params?.stat) {
+      f.statInteractions.add(`${t.params.stat}|triggers_off`);
+    }
     for (const c of rule.conditions ?? []) {
       f.conditions.add(c.type);
       for (const s of [...statusesOf(c.params?.status), ...statusesOf(c.params?.statuses)]) {
         f.statusInteractions.add(`${s}|conditions_on`);
+      }
+      if (c.params?.class) f.classInteractions.add(`${c.params.class}|conditions_on`);
+      if (c.params?.race) f.raceInteractions.add(`${c.params.race}|conditions_on`);
+      if (c.type === 'stat_comparison' && c.params?.stat) {
+        f.statInteractions.add(`${c.params.stat}|conditions_on`);
       }
     }
     if (rule.chance) chanceBased = true;
@@ -63,10 +72,35 @@ function deriveFacets(ann) {
       for (const s of a.statuses ?? []) {
         f.statusInteractions.add(`${s}|${inter ? inter(s) : 'interacts'}`);
       }
+      // Unnamed statuses ("a random debuff", "lose 1 buff") still answer
+      // interaction-only queries via a wildcard key.
+      if (inter && !(a.statuses?.length)) {
+        const kind = a.statusKind;
+        const wildInter = a.verb === 'apply_status'
+          ? (kind === 'buff' ? 'grants' : kind === 'debuff' ? 'inflicts' : null)
+          : inter('');
+        if (wildInter) f.statusInteractions.add(`*|${wildInter}`);
+        else if (a.verb === 'apply_status') { f.statusInteractions.add('*|grants'); f.statusInteractions.add('*|inflicts'); }
+      }
+      if (a.verb === 'stat_change') {
+        const stolen = a.qualifiers?.includes('stolen');
+        const dirInter = a.magnitude?.direction === 'down' ? 'decreases' : 'increases';
+        for (const s of a.stats ?? []) {
+          f.statInteractions.add(`${s}|${dirInter}`);
+          if (stolen) f.statInteractions.add(`${s}|steals`);
+        }
+      }
+      if (a.verb === 'stat_rule') {
+        for (const s of a.stats ?? []) f.statInteractions.add(`${s}|modifies`);
+      }
+      // "damage from/to <class> creatures|spells" lives in conventional params
+      if (a.params?.sourceClass) f.classInteractions.add(`${a.params.sourceClass}|vs`);
+      if (a.params?.vsClass) f.classInteractions.add(`${a.params.vsClass}|vs`);
+      if (a.params?.sourceRace) f.raceInteractions.add(`${a.params.sourceRace}|vs`);
       const m = a.magnitude;
       if (m) {
         if (m.tier) f.tiers.add(m.tier);
-        if (m.scaleStat) f.scaleStats.add(m.scaleStat);
+        if (m.scaleStat) { f.scaleStats.add(m.scaleStat); f.statInteractions.add(`${m.scaleStat}|scales_with`); }
         if (m.scaleRef) f.scaleRefs.add(m.scaleRef);
         if (m.perRank) perRank = true;
       }

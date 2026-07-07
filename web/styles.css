@@ -61,6 +61,7 @@ select {
   font-size: 12px; cursor: pointer; border: 1px solid transparent;
 }
 .ichip.on { background: var(--chip-hit); color: var(--accent); border-color: var(--accent); }
+.ichip.zero { opacity: .4; }
 
 .card {
   background: var(--panel); border: 1px solid var(--border);

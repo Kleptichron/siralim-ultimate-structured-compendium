@@ -197,6 +197,18 @@ export function validateAnnotation(ann, record, lex) {
       for (const k of Object.keys(c)) if (!CONDITION_KEYS.has(k)) re(`unknown condition key "${k}"`);
       if (!CONDITION_TYPES.includes(c.type)) re(`bad condition.type "${c.type}"`);
       if (c.who !== undefined && !SCOPES.includes(c.who)) re(`bad condition.who "${c.who}"`);
+      // Semi-structured params: when these conventional keys appear, their
+      // values must come from the lexicons (facet derivation reads them).
+      if (c.params?.class !== undefined && !lex.classes.includes(c.params.class)) {
+        re(`condition params.class "${c.params.class}" not a class`);
+      }
+      if (c.params?.race !== undefined && !lex.families.includes(c.params.race)) {
+        re(`condition params.race "${c.params.race}" not a known family`);
+      }
+      if (c.type === 'stat_comparison' && c.params?.stat !== undefined
+          && !lex.stats.includes(c.params.stat) && !SCALE_SPECIALS.includes(c.params.stat)) {
+        re(`condition params.stat "${c.params.stat}" not a stat`);
+      }
     }
     const actions = rule.actions;
     if (!Array.isArray(actions) || actions.length === 0) re('actions must be a non-empty array');

@@ -47,14 +47,22 @@ function magText(m) {
 const chip = (label, cls = '') => `<span class="chip ${cls}">${esc(label)}</span>`;
 
 function ruleHtml(rule, query) {
+  const ps = query.pickers.status;
+  const pst = query.pickers.stat;
+  const pcl = query.pickers.class;
+  const prc = query.pickers.race;
   const parts = ['<span class="rk">when</span>'];
   const t = rule.trigger ?? {};
   parts.push(chip(t.type + (t.subject ? `: ${t.subject}` : ''), query.triggers.has(t.type) ? 'hit' : ''));
   for (const c of rule.conditions ?? []) {
     parts.push('<span class="rk">if</span>');
     const st = c.params?.status ?? (c.params?.statuses ?? []).join('/');
-    const hit = query.status && st?.includes(query.status) && query.interactions.has('conditions_on');
-    parts.push(chip(`${c.type}${c.who ? `[${c.who}]` : ''}${st ? ': ' + st : ''}`, hit ? 'hit' : ''));
+    const kr = c.params?.class ?? c.params?.race;
+    const hit =
+      (ps.on.has('conditions_on') && st && (!ps.key || st.includes(ps.key)))
+      || (pcl.on.has('conditions_on') && c.params?.class && (!pcl.key || c.params.class === pcl.key))
+      || (prc.on.has('conditions_on') && c.params?.race && (!prc.key || c.params.race === prc.key));
+    parts.push(chip(`${c.type}${c.who ? `[${c.who}]` : ''}${st ? ': ' + st : ''}${kr ? ': ' + kr : ''}`, hit ? 'hit' : ''));
   }
   if (rule.chance) parts.push(chip(`${rule.chance}% chance`));
   parts.push('<span class="rk">do</span>');
@@ -65,15 +73,18 @@ function ruleHtml(rule, query) {
     if (a.target) label += ` → ${a.target}`;
     parts.push(chip(label, hit));
     for (const s of a.statuses ?? []) {
-      const sHit = query.status === s && query.interactions.size ? 'hit' : `st-${statusKind[s] ?? ''}`;
+      const sHit = ps.on.size && (!ps.key || ps.key === s) ? 'hit' : `st-${statusKind[s] ?? ''}`;
       parts.push(chip(s, sHit));
     }
     if (a.statusKind) parts.push(chip(`${a.qualifiers?.includes('random') ? 'random ' : ''}${a.statusKind}s`));
-    if (a.stats?.length) parts.push(chip(a.stats.join(', ')));
+    if (a.stats?.length) {
+      const stHit = pst.on.size && (!pst.key || a.stats.includes(pst.key)) ? 'hit' : '';
+      parts.push(chip(a.stats.join(', '), stHit));
+    }
     if (a.flow) parts.push(chip(`dmg ${a.flow}`));
     for (const q of a.qualifiers ?? []) if (q !== 'random' || !a.statusKind) parts.push(chip(q));
     const mg = magText(a.magnitude);
-    if (mg) parts.push(chip(mg));
+    if (mg) parts.push(chip(mg, pst.on.has('scales_with') && a.magnitude?.scaleStat && (!pst.key || a.magnitude.scaleStat === pst.key) ? 'hit' : ''));
   }
   return `<div class="rule">${parts.join('')}</div>`;
 }
