@@ -1,0 +1,28 @@
+{
+  "id": "perk:toxicologist:carcinogen",
+  "textHash": "8991bcb8f176",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "always-have",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "permanent": true
+          }
+        }
+      ]
+    }
+  ]
+}

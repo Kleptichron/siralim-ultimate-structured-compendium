@@ -1,0 +1,25 @@
+{
+  "id": "realm:enemy:buff-proficient",
+  "textHash": "469065f32e8b",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "enemies-start-with",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "enemies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Proficient"
+          ]
+        }
+      ]
+    }
+  ]
+}

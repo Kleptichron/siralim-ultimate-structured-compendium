@@ -1,0 +1,31 @@
+{
+  "id": "spell:ghoul-s-grip",
+  "textHash": "8dcda0b5559c",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Snared"
+          ]
+        }
+      ]
+    }
+  ]
+}

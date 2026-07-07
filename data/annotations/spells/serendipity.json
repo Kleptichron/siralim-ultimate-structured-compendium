@@ -1,0 +1,25 @@
+{
+  "id": "spell:serendipity",
+  "textHash": "3f2ea0ac70bb",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Savage",
+            "Agile"
+          ]
+        }
+      ]
+    }
+  ]
+}

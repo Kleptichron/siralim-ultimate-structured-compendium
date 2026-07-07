@@ -1,0 +1,24 @@
+{
+  "id": "spell:spell-ward",
+  "textHash": "502c4fad3ec1",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Warded"
+          ]
+        }
+      ]
+    }
+  ]
+}

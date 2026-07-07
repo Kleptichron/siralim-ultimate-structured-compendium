@@ -1,0 +1,25 @@
+{
+  "id": "perk:windrunner:quick-hands",
+  "textHash": "329df6964640",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "immune-group",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Disarmed"
+          ]
+        }
+      ]
+    }
+  ]
+}

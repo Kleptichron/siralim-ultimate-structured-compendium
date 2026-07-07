@@ -1,0 +1,29 @@
+{
+  "id": "card:bat:2",
+  "textHash": "7d0e8829e875",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "stat-mod-allies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ]
+}

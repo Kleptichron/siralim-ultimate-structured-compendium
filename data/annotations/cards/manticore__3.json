@@ -1,0 +1,31 @@
+{
+  "id": "card:manticore:3",
+  "textHash": "7b039668755b",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "card-class-attack-dr",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down"
+          },
+          "params": {
+            "taken": true,
+            "sourceClass": "Chaos",
+            "sourceKind": "attacks"
+          }
+        }
+      ]
+    }
+  ]
+}

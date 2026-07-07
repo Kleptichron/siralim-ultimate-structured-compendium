@@ -1,0 +1,23 @@
+{
+  "id": "relic:wintermaul:r70",
+  "textHash": "92969022c97f",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "immune-group",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ]
+}

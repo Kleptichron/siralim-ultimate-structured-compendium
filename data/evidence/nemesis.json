@@ -1,0 +1,225 @@
+{
+  "nemesis:agile": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:blessed": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:blinking": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:brutal": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:champion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "nemesis:feedback": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "nemesis:hearty": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      100,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:hex": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:macabre": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:misery": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:obtuse": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:plague": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:protected": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": "passive"
+  },
+  "nemesis:thorns": {
+    "statuses": {},
+    "stats": [
+      "Current Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "nemesis:undying": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "nemesis:vengeance": {
+    "statuses": {},
+    "stats": [],
+    "allStats": true,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  }
+}

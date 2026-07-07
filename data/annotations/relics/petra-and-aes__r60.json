@@ -1,0 +1,23 @@
+{
+  "id": "relic:petra-and-aes:r60",
+  "textHash": "b3b4531e93db",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "immune-group",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "statuses": [
+            "Feared"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "spell:blistering-radiance",
+  "textHash": "16ccbad5e7a5",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "large"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Scorned"
+          ]
+        }
+      ]
+    }
+  ]
+}

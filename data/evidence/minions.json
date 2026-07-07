@@ -1,0 +1,361 @@
+{
+  "minion:amalgamation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "minion:animated-gem": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "minion:animated-weapon": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:asmodeus": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:beelzebub": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:belphegor": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:brim-fiends": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 9 stacks",
+    "openingGuess": null
+  },
+  "minion:chaos-satyrs": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 9 stacks",
+    "openingGuess": "after_deals_damage"
+  },
+  "minion:conquest": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "minion:death": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "minion:dire-wolves": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 5 Stacks",
+    "openingGuess": "after_attack"
+  },
+  "minion:doppelganger": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:famine": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health by an amount equal to 30% of the damage dealt",
+    "openingGuess": "after_attack"
+  },
+  "minion:fire-imps": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 9 stacks",
+    "openingGuess": null
+  },
+  "minion:illusion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:leviathan": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:lucifer": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "minion:mammon": {
+    "statuses": {
+      "Shelled": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:microbots": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 9 Stacks",
+    "openingGuess": "end_of_turn"
+  },
+  "minion:satanachia": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "minion:spiderlings": {
+    "statuses": {},
+    "stats": [
+      "Current Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 9 stacks",
+    "openingGuess": "after_damaged"
+  },
+  "minion:torun-junior": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "minion:unstable-horror": {
+    "statuses": {},
+    "stats": [],
+    "allStats": true,
+    "percents": [
+      5,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 9 stacks",
+    "openingGuess": null
+  },
+  "minion:war": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "minion:writhelings": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 5 stacks",
+    "openingGuess": "after_damaged"
+  },
+  "minion:zombies": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 9 stacks",
+    "openingGuess": "start_of_turn"
+  }
+}

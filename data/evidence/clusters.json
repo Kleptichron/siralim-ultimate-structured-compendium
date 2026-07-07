@@ -1,0 +1,1204 @@
+{
+  "Target takes a @M amount of damage and is afflicted with @S.": [
+    "spell:blastar-punch",
+    "spell:crackle",
+    "spell:dreadblade",
+    "spell:fireball",
+    "spell:ghoul-s-grip",
+    "spell:glacier",
+    "spell:heaven-s-thunder",
+    "spell:hellcry-punch",
+    "spell:ice-bolt",
+    "spell:icewolf-bite",
+    "spell:mind-blast",
+    "spell:nightmare",
+    "spell:psionic-blast",
+    "spell:rend",
+    "spell:split-punch",
+    "spell:stasis-sword"
+  ],
+  "Your creatures have @N more @T.": [
+    "card:amaranth:1",
+    "card:amaranth:2",
+    "card:amaranth:3",
+    "card:bat:1",
+    "card:bat:2",
+    "card:bat:3",
+    "card:ghoul:1",
+    "card:ghoul:2",
+    "card:ghoul:3",
+    "card:giant:1",
+    "card:giant:2",
+    "card:giant:3",
+    "card:raven:1",
+    "card:raven:2",
+    "card:raven:3"
+  ],
+  "Your creatures take @N less damage from @C spells.": [
+    "card:demigod:1",
+    "card:demigod:2",
+    "card:demigod:3",
+    "card:gargoyle:1",
+    "card:gargoyle:2",
+    "card:gargoyle:3",
+    "card:hound:1",
+    "card:hound:2",
+    "card:hound:3",
+    "card:storm:1",
+    "card:storm:2",
+    "card:storm:3",
+    "card:vortex:1",
+    "card:vortex:2",
+    "card:vortex:3"
+  ],
+  "Your creatures take @N less damage from attacks from @C creatures.": [
+    "card:dryad:1",
+    "card:dryad:2",
+    "card:dryad:3",
+    "card:manticore:1",
+    "card:manticore:2",
+    "card:manticore:3",
+    "card:nix:1",
+    "card:nix:2",
+    "card:nix:3",
+    "card:unicorn:1",
+    "card:unicorn:2",
+    "card:unicorn:3",
+    "card:watcher:1",
+    "card:watcher:2",
+    "card:watcher:3"
+  ],
+  "Your creatures deal @N more damage to @C creatures.": [
+    "card:angel:1",
+    "card:angel:2",
+    "card:angel:3",
+    "card:carnage:1",
+    "card:carnage:2",
+    "card:carnage:3",
+    "card:centaur:1",
+    "card:centaur:2",
+    "card:centaur:3",
+    "card:dragon:1",
+    "card:dragon:2",
+    "card:dragon:3"
+  ],
+  "Your creatures have @N more base @T.": [
+    "card:cockatrice:1",
+    "card:cockatrice:2",
+    "card:cockatrice:3",
+    "card:eft:1",
+    "card:eft:2",
+    "card:eft:3",
+    "card:forsaken:1",
+    "card:forsaken:2",
+    "card:forsaken:3",
+    "card:unguided:1",
+    "card:unguided:2",
+    "card:unguided:3"
+  ],
+  "Your creatures gain @N more @T from stat-boosting effects.": [
+    "card:hunter:1",
+    "card:hunter:2",
+    "card:hunter:3",
+    "card:koloss:1",
+    "card:koloss:2",
+    "card:koloss:3",
+    "card:mite:1",
+    "card:mite:2",
+    "card:mite:3",
+    "card:salamander:1",
+    "card:salamander:2",
+    "card:salamander:3"
+  ],
+  "This creature's attacks deal @N more damage and afflict the target with @S.": [
+    "trait:a-gift-for-you",
+    "trait:black-hole-halo",
+    "trait:blink",
+    "trait:crunch",
+    "trait:fear-of-success",
+    "trait:haunt",
+    "trait:pyre",
+    "trait:rime",
+    "trait:scourge",
+    "trait:stasis",
+    "trait:subversion"
+  ],
+  "Your creatures are immune to @S.": [
+    "perk:cabalist:unshackled",
+    "perk:cleric:consecrated-ground",
+    "perk:dreamshade:losing-touch",
+    "perk:evoker:outspoken",
+    "perk:gladiator:grip-of-the-gods",
+    "perk:hell-knight:indomitable",
+    "perk:siegemaster:lucidity",
+    "perk:windrunner:quick-hands",
+    "trait:big-brained"
+  ],
+  "Target is afflicted with @S and @S.": [
+    "spell:acid-breath",
+    "spell:constriction",
+    "spell:corruption",
+    "spell:fiery-gleam",
+    "spell:germinate",
+    "spell:maelstrom",
+    "spell:suffocation",
+    "spell:surrender-to-madness"
+  ],
+  "Your creatures gain @S.": [
+    "spell:dark-whispers",
+    "spell:frost-rampart",
+    "spell:holy-protection",
+    "spell:nourish",
+    "spell:spell-ward",
+    "spell:unholy-augmentation",
+    "spell:unholy-frenzy",
+    "spell:vampirism"
+  ],
+  "Your creatures start battles with @S.": [
+    "realm:player:debuff-bleeding",
+    "realm:player:debuff-blighted",
+    "realm:player:debuff-blind",
+    "realm:player:debuff-confused",
+    "realm:player:debuff-cursed",
+    "realm:player:debuff-disarmed",
+    "realm:player:debuff-vulnerable",
+    "realm:player:debuff-weak"
+  ],
+  "Enemies start battles with @S.": [
+    "realm:enemy:buff-beserk",
+    "realm:enemy:buff-leeching",
+    "realm:enemy:buff-mending",
+    "realm:enemy:buff-proficient",
+    "realm:enemy:buff-protected",
+    "realm:enemy:buff-savage",
+    "trait:throat-slash"
+  ],
+  "Enemies are afflicted with @S.": [
+    "spell:damnation",
+    "spell:decay",
+    "spell:entangling-roots",
+    "spell:firedevil-s-rage",
+    "spell:poison-gas",
+    "spell:rain-of-blood",
+    "spell:smoke-bomb"
+  ],
+  "The bearer is immune to @S.": [
+    "relic:asskicker:r60",
+    "relic:ferro:r60",
+    "relic:lamora:r40",
+    "relic:petra-and-aes:r60",
+    "relic:rosenthorne:r60",
+    "relic:wintermaul:r70"
+  ],
+  "Enemies with @S take @N more damage.": [
+    "card:abomination:1",
+    "card:animation:2",
+    "card:apocalypse:2",
+    "card:concoction:3",
+    "card:harpy:2",
+    "card:shadow:1"
+  ],
+  "Doubles the potency of these effects.": [
+    "card:automaton:3",
+    "card:carbuncle:3",
+    "card:cruncher:3",
+    "card:hemomancer:3",
+    "card:mummy:3",
+    "card:shapeshifter:3"
+  ],
+  "Your creatures take @N less damage from attacks.": [
+    "card:bard:1",
+    "card:bard:2",
+    "card:bard:3",
+    "card:seraph:1",
+    "card:seraph:2",
+    "card:seraph:3"
+  ],
+  "This creature deals @N more damage to @C creatures and takes @N less damage from them.": [
+    "trait:angel-s-horror",
+    "trait:devil-s-deceit",
+    "trait:dragon-s-undoing",
+    "trait:giant-s-destruction",
+    "trait:revenant-s-toll"
+  ],
+  "Enemies take a @M amount of damage and are afflicted with @S.": [
+    "spell:blinding-beam",
+    "spell:blistering-radiance",
+    "spell:firestorm",
+    "spell:sandstorm",
+    "spell:volcano"
+  ],
+  "Target takes a @M amount of damage.": [
+    "spell:boulder",
+    "spell:chastise",
+    "spell:finger-of-death",
+    "spell:fist-of-heavens",
+    "spell:magic-missile"
+  ],
+  "Random enemies take a @M amount of damage continuously. After each enemy takes damage, the spell has a @N chance to end.": [
+    "spell:cloud-beam",
+    "spell:falling-feathers",
+    "spell:hoo-hay-hell",
+    "spell:kilonova",
+    "spell:ultimus"
+  ],
+  "Target gains @S.": [
+    "spell:covenant",
+    "spell:dark-enchantment",
+    "spell:empower",
+    "spell:flame-enchantment",
+    "spell:invisibility"
+  ],
+  "Target gains @S, and a @M amount of @T.": [
+    "spell:earth-enchantment",
+    "spell:frost-enchantment",
+    "spell:water-enchantment",
+    "spell:wild-growth",
+    "spell:wind-enchantment"
+  ],
+  "Enemies take a @M amount of damage.": [
+    "spell:elemental-wrath",
+    "spell:holy-explosion",
+    "spell:mega-magic",
+    "spell:planets",
+    "spell:steel-storm"
+  ],
+  "Caster's class is changed to @C, it gains @S, and it gains a @M amount of @T. The potency is based on the caster's @T instead of @T. This spell is an Arsenal Spell.": [
+    "spell:living-chaos-shield",
+    "spell:living-death-shield",
+    "spell:living-life-shield",
+    "spell:living-nature-shield",
+    "spell:living-sorcery-shield"
+  ],
+  "Your creatures gain a @M amount of @T and their classes become @C until the end of battle.": [
+    "spell:morph-chaos",
+    "spell:morph-death",
+    "spell:morph-life",
+    "spell:morph-nature",
+    "spell:morph-sorcery"
+  ],
+  "Target takes a @M amount of damage, or @M damage if the target is a @C creature.": [
+    "spell:scourge-chaos",
+    "spell:scourge-death",
+    "spell:scourge-life",
+    "spell:scourge-nature",
+    "spell:scourge-sorcery"
+  ],
+  "Enemies have @N less @T per rank. Maximum Bonus: @N less @T": [
+    "perk:defiler:curse-of-fragility",
+    "perk:defiler:curse-of-futility",
+    "perk:defiler:curse-of-impotence",
+    "perk:defiler:curse-of-lethargy",
+    "perk:defiler:curse-of-vulnerability"
+  ],
+  "Your creatures can equip @C Spell Gems, regardless of their class.": [
+    "perk:evoker:chaos-mastery",
+    "perk:evoker:death-mastery",
+    "perk:evoker:life-mastery",
+    "perk:evoker:nature-mastery",
+    "perk:evoker:sorcery-mastery"
+  ],
+  "The first @N times your creatures are resurrected, they gain @N, @N, and @N @T.": [
+    "perk:graveborn:carapace-that-protects",
+    "perk:graveborn:claws-that-cast",
+    "perk:graveborn:heart-that-thrives",
+    "perk:graveborn:jaws-that-bite",
+    "perk:graveborn:legs-that-carry"
+  ],
+  "At the start of battle, enemy @C creatures are afflicted with @S and lose @N @T.": [
+    "perk:inquisitor:admonish",
+    "perk:inquisitor:berate",
+    "perk:inquisitor:castigate",
+    "perk:inquisitor:condemn",
+    "perk:inquisitor:rebuke"
+  ],
+  "Enemies always have @S.": [
+    "perk:mime:stillness-and-silence",
+    "perk:pyromancer:firestarter",
+    "perk:shadowbringer:shadow-sickness",
+    "perk:toxicologist:carcinogen",
+    "perk:witch-doctor:jinx"
+  ],
+  "Enemies take @N more damage from @S.": [
+    "card:efreet:1",
+    "card:sea-shambler:1",
+    "card:smog:1",
+    "perk:shadowbringer:worldbreaker",
+    "relic:fleshripper:r70"
+  ],
+  "After the bearer @T, this relic @T the enemy as well.": [
+    "relic:amalgam:r10",
+    "relic:fatum-and-fortuna:r10",
+    "relic:ferro:r20",
+    "relic:vitreous:r10",
+    "relic:void-essence:r20"
+  ],
+  "At the start of battle, the bearer gains @S.": [
+    "relic:arbiter:r10",
+    "relic:ferro:r10",
+    "relic:prime-and-ventus:r10",
+    "relic:prime-and-ventus:r50",
+    "relic:salus:r10"
+  ],
+  "The bearer can equip @C Spell Gems.": [
+    "relic:materium:r100",
+    "relic:materium:r20",
+    "relic:materium:r40",
+    "relic:materium:r60",
+    "relic:materium:r80"
+  ],
+  "Your creatures with @S take @N less damage.": [
+    "card:apis:1",
+    "card:apis:2",
+    "card:aspect:2",
+    "card:doomguard:1",
+    "card:ent:2"
+  ],
+  "Enemies have extra @T.": [
+    "realm:enemy:extra-attack-x",
+    "realm:enemy:extra-defense-x",
+    "realm:enemy:extra-health-x",
+    "realm:enemy:extra-intelligence-x",
+    "realm:enemy:extra-speed-x"
+  ],
+  "This creature's attacks deal @N more damage and afflict @S.": [
+    "trait:contamination",
+    "trait:flay",
+    "trait:gimp-touch",
+    "trait:kraaw"
+  ],
+  "Your @F share their innate traits with each other.": [
+    "trait:deathwalker-s-hymn",
+    "trait:master-of-seraphs",
+    "trait:self-awareness",
+    "trait:shackler-s-domination"
+  ],
+  "At the start of this creature's turn, each enemy has a @N chance to be afflicted with @S and @S.": [
+    "trait:lights-out",
+    "trait:petrified-hope",
+    "trait:red-hot-kiss",
+    "trait:unrelenting-sun"
+  ],
+  "Target gains @S and @S.": [
+    "spell:arcane-enchantment",
+    "spell:dark-crystal",
+    "spell:hell-forge",
+    "spell:spell-flow"
+  ],
+  "Your creatures gain a @M amount of @T.": [
+    "spell:blur",
+    "spell:savage-roar",
+    "spell:unholy-confessions",
+    "spell:wrath-of-nature"
+  ],
+  "Each enemy has a @N chance to be afflicted with @S.": [
+    "spell:confusion",
+    "spell:dense-fog",
+    "spell:entangle",
+    "spell:flash-freeze"
+  ],
+  "Target takes a @M amount of damage and is afflicted with @S. @N of the damage is based on the caster's @T instead of @T.": [
+    "spell:entangling-arrow",
+    "spell:fire-arrow",
+    "spell:frost-arrow",
+    "spell:poison-arrow"
+  ],
+  "Enemies take a @M amount of damage. @N of the damage is based on the caster's @T instead of @T.": [
+    "spell:ethereal-knives",
+    "spell:necrosis",
+    "spell:spell-breath",
+    "spell:splitting-arrow"
+  ],
+  "Your creatures gain @S and @S.": [
+    "spell:flame-lash",
+    "spell:immolation-aura",
+    "spell:serendipity",
+    "spell:soul-rage"
+  ],
+  "Target recovers a @M amount of @T.": [
+    "spell:healing",
+    "spell:major-healing",
+    "spell:minor-healing",
+    "spell:soothing-breeze"
+  ],
+  "Random enemies take a @M amount of damage continuously and are afflicted with @S and @S. After each enemy takes damage, this spell has a @N chance to end.": [
+    "spell:hurling-of-rocks",
+    "spell:iceicle-rain",
+    "spell:magma-shower",
+    "spell:raiden"
+  ],
+  "Caster gains a @M amount of @T and @S. This spell is an Arsenal Spell.": [
+    "spell:living-cloak",
+    "spell:living-gauntlet",
+    "spell:living-heavy-shield",
+    "spell:living-helmet"
+  ],
+  "This spell doesn't do anything when Cast. The caster has @N more @T for each Charge this Spell Gem is missing.": [
+    "spell:memento-of-attack",
+    "spell:memento-of-defense",
+    "spell:memento-of-intelligence",
+    "spell:memento-of-speed"
+  ],
+  "Target takes a @M amount of damage, and the caster's on-attack effects are activated. @N of this spell's damage is based on the caster's @T instead of its @T.": [
+    "spell:rune-of-cor",
+    "spell:rune-of-dun",
+    "spell:rune-of-lua",
+    "spell:rune-of-nax"
+  ],
+  "This relic and its bearer have @N more @T for each turn the bearer has taken in the current battle.": [
+    "relic:mutatias:r20",
+    "relic:mutatias:r40",
+    "relic:mutatias:r60",
+    "relic:mutatias:r80"
+  ],
+  "Your creatures' Spell Gems have @N additional Charge.": [
+    "card:banshee:1",
+    "card:banshee:2",
+    "card:banshee:3",
+    "card:djinn:2"
+  ],
+  "Doubles the chance for these effects to occur.": [
+    "card:crusader:3",
+    "card:diabolic-horde:3",
+    "card:grimore:3",
+    "card:wolpertinger:3"
+  ],
+  "Enemies' @S debuff lasts forever.": [
+    "card:efreet:3",
+    "card:harpy:3",
+    "card:siren:3",
+    "card:smog:3"
+  ],
+  "Your creatures have @N more @T while they're Provoking.": [
+    "card:imler:1",
+    "card:troll:1",
+    "card:troll:2",
+    "card:troll:3"
+  ],
+  "Enemies have @N less @T.": [
+    "card:spectre:1",
+    "card:sphinx:1",
+    "card:tremor:1",
+    "card:waspid:1"
+  ],
+  "Enemies have @N less benefit from their Artifacts' Stat Slots that boost their @T.": [
+    "card:spectre:3",
+    "card:sphinx:3",
+    "card:tremor:3",
+    "card:waspid:3"
+  ],
+  "After this creature attacks, it afflicts the target with @S and @S.": [
+    "trait:alchemist-s-fury",
+    "trait:threshold",
+    "trait:wrecking-ball"
+  ],
+  "At the start of battle, this creature afflicts @N random enemies with @S.": [
+    "trait:and-you-get-a-bomb",
+    "trait:christmas-is-canceled",
+    "trait:winter-has-come"
+  ],
+  "When an enemy takes damage from @S, it has a @N chance to take this damage a second time. This effect can repeat multiple times in a row.": [
+    "trait:ceaseless-flame",
+    "trait:deathwalker-s-destruction",
+    "trait:deathwalker-s-strangulation"
+  ],
+  "After an enemy dodges, this creature afflicts it with @S and @S.": [
+    "trait:contagion",
+    "trait:seize",
+    "trait:vehemence"
+  ],
+  "At the start of this creature's turn, it increases the potency of enemies' @S debuffs by @N.": [
+    "trait:spoonor-s-breath",
+    "trait:spoonor-s-gift",
+    "trait:spoonor-s-other-breath"
+  ],
+  "Enemies take a @M amount of damage and lose a @M amount of @T.": [
+    "spell:acid-rain",
+    "spell:righteous-storm",
+    "spell:tsunami"
+  ],
+  "Target gains a @M amount of @T and @T.": [
+    "spell:bone-armor",
+    "spell:lionheart",
+    "spell:shadow-infusion"
+  ],
+  "Target loses a @M amount of @T, and your creatures gain @N of that amount.": [
+    "spell:bone-offering",
+    "spell:flesh-offering",
+    "spell:spirit-offering"
+  ],
+  "Target takes a @M amount of damage and loses a @M amount of @T.": [
+    "spell:crush-punch",
+    "spell:orbital-strike",
+    "spell:ravage"
+  ],
+  "Enemies are afflicted with @S and @S.": [
+    "spell:defile",
+    "spell:parasites",
+    "spell:wormrot"
+  ],
+  "Your creatures gain a @M amount of @T and @T.": [
+    "spell:determination",
+    "spell:molten-wall",
+    "spell:necromantic-armor"
+  ],
+  "Target gains a @M amount of @T.": [
+    "spell:giant-s-strength",
+    "spell:haste",
+    "spell:iron-skin"
+  ],
+  "Target takes a @M amount of damage, or @M damage if the target is a @C creature. The damage ia based on the caster's @T instead of @T. This spell is an Arsenal Spell.": [
+    "spell:living-chaos-lance",
+    "spell:living-death-lance",
+    "spell:living-nature-lance"
+  ],
+  "Target is resurrected with a @M amount of @T.": [
+    "spell:major-resurrection",
+    "spell:minor-resurrection",
+    "spell:resurrection"
+  ],
+  "Target is afflicted with @S.": [
+    "spell:petrify",
+    "spell:vertigo",
+    "spell:web"
+  ],
+  "Your creatures' spells that interact with @S do not consume @T.": [
+    "perk:engineer:energy-efficient",
+    "perk:pyromancer:kindle-the-flame",
+    "perk:toxicologist:bioassay"
+  ],
+  "After the bearer @T or is Attacked, it afflicts the enemy with @S.": [
+    "relic:fleshripper:r10",
+    "relic:rosenthorne:r10",
+    "relic:void-essence:r10"
+  ],
+  "Enemies with @S deal @N less damage.": [
+    "card:apocalypse:1",
+    "card:harpy:1",
+    "card:paragon:1"
+  ],
+  "Your creatures have a @N chance to ignore incoming debuffs.": [
+    "card:arbiter:1",
+    "card:arbiter:2",
+    "card:arbiter:3"
+  ],
+  "Enemies take @N more damage.": [
+    "card:basilisk:1",
+    "card:basilisk:2",
+    "card:basilisk:3"
+  ],
+  "Your creatures' Artifacts' \"Strength\" properties are @N more powerful.": [
+    "card:beacon:1",
+    "card:beacon:2",
+    "card:beacon:3"
+  ],
+  "Your creastures deal @N more damage to @C creatures.": [
+    "card:carver:1",
+    "card:carver:2",
+    "card:carver:3"
+  ],
+  "Your creatures' Nether @S are @N more powerful.": [
+    "card:chimera:1",
+    "card:chimera:2",
+    "card:chimera:3"
+  ],
+  "You gain @N more Glory from the Arena.": [
+    "card:construct:1",
+    "card:construct:2",
+    "card:construct:3"
+  ],
+  "Your creatures deal @N more damage.": [
+    "card:devil:1",
+    "card:devil:2",
+    "card:devil:3"
+  ],
+  "Your creatures take @N less damage while they're Provoking.": [
+    "card:doom-fortress:1",
+    "card:doom-fortress:2",
+    "card:doom-fortress:3"
+  ],
+  "Increases the chance for @F to spawn by @N.": [
+    "card:dumpling:1",
+    "card:dumpling:2",
+    "card:dumpling:3"
+  ],
+  "Increases the amount of @T added to the @S debuffs your creatures apply by @N.": [
+    "card:efreet:2",
+    "card:smog:2",
+    "card:toxdweller:2"
+  ],
+  "Your creatures deal @N more damage with spells.": [
+    "card:familiar:1",
+    "card:familiar:2",
+    "card:familiar:3"
+  ],
+  "Enemies have a @N lower chance to Dodge attacks.": [
+    "card:gargantuan:1",
+    "card:gargantuan:2",
+    "card:gargantuan:3"
+  ],
+  "Your creatures have @N more @T when they are defending.": [
+    "card:imling:1",
+    "card:imling:2",
+    "card:imling:3"
+  ],
+  "Your creatures' minions have a @N lower chance to go away.": [
+    "card:inquisitor:1",
+    "card:inquisitor:2",
+    "card:inquisitor:3"
+  ],
+  "Your creatures deal @N more damage while they're dead.": [
+    "card:maniac:1",
+    "card:maniac:2",
+    "card:maniac:3"
+  ],
+  "Your creatures take @N less damage.": [
+    "card:masochist:1",
+    "card:masochist:2",
+    "card:masochist:3"
+  ],
+  "Your creatures' Relics heal for @N more.": [
+    "card:mythicant:1",
+    "card:mythicant:2",
+    "card:mythicant:3"
+  ],
+  "Your creatures' Relics deal @N more damage.": [
+    "card:nephilim:1",
+    "card:nephilim:2",
+    "card:nephilim:3"
+  ],
+  "Your creatures' Spell Gems have a @N chance to not consume @T.": [
+    "card:nihilist:1",
+    "card:nihilist:2",
+    "card:nihilist:3"
+  ],
+  "Enemies resurrect with @N less health.": [
+    "card:ossein:1",
+    "card:ossein:2",
+    "card:ossein:3"
+  ],
+  "You gain @N more resources from resource nodes in realms.": [
+    "card:phase-warrior:1",
+    "card:phase-warrior:2",
+    "card:phase-warrior:3"
+  ],
+  "Your creatures get @N more defense from stat boosting effects.": [
+    "card:pit-worm:1",
+    "card:pit-worm:2",
+    "card:pit-worm:3"
+  ],
+  "Your creatures gain @N more experience points from battles.": [
+    "card:pit-wraith:1",
+    "card:pit-wraith:2",
+    "card:pit-wraith:3"
+  ],
+  "Your creatures take @N less damage from @S.": [
+    "card:plague-doctor:1",
+    "card:plague-doctor:2",
+    "card:plague-doctor:3"
+  ],
+  "Your creatures have @N more speed while they're Defending.": [
+    "card:priest:1",
+    "card:priest:2",
+    "card:priest:3"
+  ],
+  "At the start of battle, enemies' Spell Gems each have a @N chance to be sealed.": [
+    "card:saytr:1",
+    "card:saytr:2",
+    "card:saytr:3"
+  ],
+  "Your creatures have @N more base intelligence.": [
+    "card:sin:1",
+    "card:sin:2",
+    "card:sin:3"
+  ],
+  "Your creatures deal @N more damage with attacks.": [
+    "card:skeleton:1",
+    "card:skeleton:2",
+    "card:skeleton:3"
+  ],
+  "Enemies have a @N chance to start at the bottom of the Timeline": [
+    "card:snaptrap:1",
+    "card:snaptrap:2",
+    "card:snaptrap:3"
+  ],
+  "You have a @N chance to gain double resources from breakable objects.": [
+    "card:soulflayer:1",
+    "card:soulflayer:2",
+    "card:soulflayer:3"
+  ],
+  "Your creatures deal @N more damage while it is not their turn.": [
+    "card:sparktail:1",
+    "card:sparktail:2",
+    "card:sparktail:3"
+  ],
+  "Enemies gain @N less @T.": [
+    "card:spectre:2",
+    "card:sphinx:2",
+    "card:tremor:2"
+  ],
+  "Your creatures' Relics modify stats @N more.": [
+    "card:uralos:1",
+    "card:uralos:2",
+    "card:uralos:3"
+  ],
+  "Enemies' Spell Gems have @N fewer @T.": [
+    "card:vulpes:1",
+    "card:vulpes:2",
+    "card:vulpes:3"
+  ],
+  "Your creatures have a @N chance to resist effects that cause them to fall to the bottom of the Timeline.": [
+    "card:wisp:1",
+    "card:wisp:2",
+    "card:wisp:3"
+  ],
+  "Your creatures take @N less damage from spells.": [
+    "card:wyvern:1",
+    "card:wyvern:2",
+    "card:wyvern:3"
+  ],
+  "At the start of battle, this creature afflicts enemies with @S.": [
+    "trait:bad-omen",
+    "trait:treachery"
+  ],
+  "After this creature deals damage with an attack or spell, the enemy has a @N chance to be afflicted with @S.": [
+    "trait:barbecue-time",
+    "trait:winter-s-edge"
+  ],
+  "After this creature is attacked, it afflicts the enemy with @S.": [
+    "trait:brain-freeze",
+    "trait:entrapment"
+  ],
+  "After your creatures are resurrected, @N enemies are afflicted with @S.": [
+    "trait:breath-of-the-dying",
+    "trait:thundershock"
+  ],
+  "After this creature is attacked, it afflicts enemies with @S. If enemies already have this debuff, its potency is increased by @N instead.": [
+    "trait:cataclysm",
+    "trait:spit-poison"
+  ],
+  "Your creatures have @N more stats (other than health) for each @F creature fighting on your side. This trait does not stack.": [
+    "trait:connections",
+    "trait:of-grace-unending"
+  ],
+  "When this creature attacks an enemy with @S, it deals @N more damage, recovers health equal to @N of the damage dealt, and removes this debuff.": [
+    "trait:consume",
+    "trait:frailty"
+  ],
+  "Your @F have @N more speed for each @F fighting on your side. This trait does not stack.": [
+    "trait:diabolic-onslaught",
+    "trait:infiltration"
+  ],
+  "Your @F take @N less damage for each @F fighting on your side. This trait does not stack.": [
+    "trait:diabolic-protection",
+    "trait:impunity"
+  ],
+  "While this creature has @S, it has @N more @T and @T.": [
+    "trait:ember-soul",
+    "trait:providence"
+  ],
+  "After an enemy is afflicted with either @S or @S, this creature afflicts them with whichever of these debuffs the target doesn't already have.": [
+    "trait:flesh-rot",
+    "trait:here-to-die"
+  ],
+  "When an enemy takes damage from @S, it loses @N @T and @T. This trait does not stack.": [
+    "trait:flubris-s-engulfing",
+    "trait:flubris-s-toxicity"
+  ],
+  "After your creatures die, they grant @N of their @T and @T to all your creatures. This trait does not stack.": [
+    "trait:gift-of-charybdis",
+    "trait:gift-of-scylla"
+  ],
+  "At the start of battle, this creature afflicts @N random enemies with @S. This trait does not stack.": [
+    "trait:horrifying-visage",
+    "trait:siren-charms"
+  ],
+  "Your creatures cast @C spells as if they have @N more intelligence. This trait does not stack.": [
+    "trait:infusion",
+    "trait:sacrimony"
+  ],
+  "Your @F gain @N of the attack, intelligence, defense, and speed bonuses from this creature's Artifact.": [
+    "trait:ingenuity",
+    "trait:lead-by-example"
+  ],
+  "After an enemy is afflicted with @S or @S, this creature afflicts them with whichever of these debuffs the target doesn't already have.": [
+    "trait:kindling",
+    "trait:scared-stiff"
+  ],
+  "If all the creatures in your party are @F, their innate traits are @N more powerful. This trait does not stack.": [
+    "trait:master-of-arbiters",
+    "trait:master-of-clockworks"
+  ],
+  "If all the creatures in your party are @F, enemies always have @S.": [
+    "trait:master-of-banshees",
+    "trait:master-of-cockatrices"
+  ],
+  "At the start of battle, your @F' stats are averaged and then increased by @N. This trait does not stack.": [
+    "trait:master-of-beacons",
+    "trait:master-of-demigods"
+  ],
+  "Your @F attack @N additional time for each @F fighting on your side. Your creatures deal @N less damage. This trait does not stack.": [
+    "trait:master-of-brownies",
+    "trait:master-of-minotaurs"
+  ],
+  "When your creatures afflict enemies with @S, the potency of this debuff is increased by @N for each @F fighting on your side. This trait does not stack.": [
+    "trait:master-of-efreets",
+    "trait:master-of-smogs"
+  ],
+  "The first time your @F are killed, they are resurrected with @N @T.": [
+    "trait:master-of-ents",
+    "trait:master-of-soulflayers"
+  ],
+  "Your @F and @F take @N less damage for each @F and @F fighting on your side. This trait does not stack.": [
+    "trait:master-of-imlings",
+    "trait:spirit-link"
+  ],
+  "If all the creatures in your party are @F, they each have a @N chance to start battles at the top of the Timeline. This trait does not stack.": [
+    "trait:master-of-luckmantrias",
+    "trait:master-of-mimics"
+  ],
+  "Your @F take @N less damage from spells. This trait does not stack.": [
+    "trait:master-of-paragons",
+    "trait:master-of-wyverns"
+  ],
+  "If all the creatures in your party are @F, their innate traits are @N more effective. This trait does not stack.": [
+    "trait:master-of-stags",
+    "trait:master-of-warhogs"
+  ],
+  "After your creatures' @S buffs are destroyed, they gain @S.": [
+    "trait:noetherian-s-adamance",
+    "trait:qila-s-assurance"
+  ],
+  "@S enemies take damage at the start of their turns equal to @N of this creature's @T. This trait does not stack.": [
+    "trait:ramses-s-conspiracy",
+    "trait:ramses-s-plot"
+  ],
+  "At the start of battle, enemies are afflicted with @S for @N turn.": [
+    "trait:reroute-to-remain",
+    "trait:supersonic"
+  ],
+  "Your @F creatures share their innate traits with each other.": [
+    "trait:royal-flush",
+    "trait:you-ruined-christmas"
+  ],
+  "This creature deals @N more damage for each time it has taken damage in the current battle.": [
+    "trait:seethe",
+    "trait:tellur-s-fangs"
+  ],
+  "Enemies take a @M amount of damage @N times.": [
+    "spell:angry-orchard",
+    "spell:pumpkin-king-s-wrath"
+  ],
+  "Enemies take a @M amount of damage, or a @M amount if they are afflicted with @S.": [
+    "spell:blastwave",
+    "spell:failed-experiment"
+  ],
+  "Target takes a @M amount of damage and the caster recovers a @M amount of @T.": [
+    "spell:boiling-blood",
+    "spell:holy-smite"
+  ],
+  "Caster Casts one of its other spells. The targets are chosen at complete random.": [
+    "spell:cherub-s-missile",
+    "spell:feeling-lucky"
+  ],
+  "Enemies' classes are changed to @C.": [
+    "spell:condemn-light",
+    "spell:defy-light"
+  ],
+  "Your creatures gain a @S that absorbs damage equal to @N of their @T.": [
+    "spell:crystal-shield",
+    "spell:elemental-guard"
+  ],
+  "Target takes a @M amount of damage, or a @M amount of damage if they are afflicted with @S.": [
+    "spell:dream-stomp",
+    "spell:pyroburst"
+  ],
+  "Target loses a @M amount of @T.": [
+    "spell:enfeeble",
+    "spell:heaven-s-fury"
+  ],
+  "Enemies take a @M amount of damage and have a @N chance to be afflicted with @S.": [
+    "spell:fireworks",
+    "spell:snowstorm"
+  ],
+  "Your creatures are resurrected with a @M amount of @T.": [
+    "spell:flourish",
+    "spell:requiem"
+  ],
+  "Target gains @S and @N @T.": [
+    "spell:frost-armor",
+    "spell:molten-armor"
+  ],
+  "Your creatures gain a @S that absorbs a @M amount of damage.": [
+    "spell:holy-bulwark",
+    "spell:mental-barrier"
+  ],
+  "Target takes a @M amount of damage, or a @M amount of damage if it is afflicted with @S.": [
+    "spell:infernal-pillars",
+    "spell:toxic-frogmania"
+  ],
+  "Target takes a @M amount of damage, plus @N more damage for each time the caster has Attacked in the current battle.": [
+    "spell:kindle",
+    "spell:master-s-hand"
+  ],
+  "Target takes a @M amount of damage, or @M damage if the target is a @C creature. The damage is based on the caster's @T instead of @T. This spell is an Arsenal Spell.": [
+    "spell:living-life-lance",
+    "spell:living-sorcery-lance"
+  ],
+  "Target loses a @M amount of @T and is afflicted with @S.": [
+    "spell:mind-crush",
+    "spell:terror"
+  ],
+  "Target is sent to the bottom of the Timeline.": [
+    "spell:purgatory",
+    "spell:stun-beam"
+  ],
+  "Enemies take damage equal to @N turns of their @S debuff.": [
+    "spell:raze",
+    "spell:virus"
+  ],
+  "All creatures are afflicted with @S.": [
+    "spell:sacred-ground",
+    "spell:spell-lock"
+  ],
+  "Target takes a @M amount of damage and is afflicted with @S. @N of the damage dealt is based on the caster's @T instead of @T.": [
+    "spell:shield-bash",
+    "spell:whiplash"
+  ],
+  "Target takes a @M amount of damage. @N of the damage is based on the caster's @T instead of @T.": [
+    "spell:spell-strike",
+    "spell:unbound-combustion"
+  ],
+  "Your creatures' stats are no longer reset after they're killed.": [
+    "perk:bloodmage:deathrattle",
+    "perk:windrunner:retention"
+  ],
+  "Your creatures deal additional damage with attacks and spells equal to @N of their @T per rank. Maximum Bonus: @N of @T": [
+    "perk:bloodmage:voracity",
+    "perk:siegemaster:the-best-offense"
+  ],
+  "Your creatures can trigger healing effects even while they're at full @T.": [
+    "perk:cleric:overheal",
+    "perk:dreamshade:paradox"
+  ],
+  "Enemies' @S debuffs are @N more effective per rank. Maximum Bonus: @N more effect": [
+    "perk:defiler:anemia",
+    "perk:defiler:tenderness"
+  ],
+  "Your creatures' stat changes persist through death.": [
+    "perk:graveborn:past-life-regression",
+    "perk:purgatorian:never-forgotten"
+  ],
+  "Your creatures' buffs and minions persist through death.": [
+    "perk:graveborn:visitors-from-before",
+    "perk:purgatorian:destiny-bond"
+  ],
+  "Your creatures always have @S and @S.": [
+    "perk:hell-knight:magma-diver",
+    "perk:shadowbringer:shadow-mending"
+  ],
+  "After an enemy Casts a spell, they have a @N chance per rank to be afflicted with @S. Maximum Bonus: @N chance": [
+    "perk:inquisitor:judgment",
+    "perk:sorcerer:psychic-scream"
+  ],
+  "At the start of battle, your creatures gain @S.": [
+    "perk:inquisitor:shining-force",
+    "perk:sorcerer:mental-fortitude"
+  ],
+  "After your creatures Provoke, they Defend.": [
+    "perk:paladin:unbound",
+    "perk:siegemaster:war-machine"
+  ],
+  "If an enemy dies while it is afflicted with @S, it cannot be resurrected.": [
+    "perk:pyromancer:burn-their-corpses",
+    "perk:shadowbringer:endwalker"
+  ],
+  "After this relic @T, the bearer gains @N @T.": [
+    "relic:5740-ng:r20",
+    "relic:5740-ng:r50"
+  ],
+  "At the start of its bearer's turn, this relic @T a random enemy.": [
+    "relic:arbiter:r30",
+    "relic:wintermaul:r30"
+  ],
+  "After this relic @T, it afflicts its target with @S.": [
+    "relic:blazefury:r20",
+    "relic:dusk-and-dawn:r20"
+  ],
+  "The bearer deals @N additional damage for each enemy afflicted with @S.": [
+    "relic:blazefury:r60",
+    "relic:dusk-and-dawn:r50"
+  ],
+  "This relic and its bearer deal additional damage to enemies equal to @N of the damage they've taken from @S in the current battle.": [
+    "relic:blazefury:r90",
+    "relic:dusk-and-dawn:r80"
+  ],
+  "The bearer always has @S.": [
+    "relic:bloodseeker:r30",
+    "relic:bloodseeker:r60"
+  ],
+  "After the bearer is Attacked, this relic @T the enemy.": [
+    "relic:hanti-and-jihi:r10",
+    "relic:lamora:r20"
+  ],
+  "The bearer takes @N less damage from attacks.": [
+    "relic:hanti-and-jihi:r70",
+    "relic:salus:r20"
+  ],
+  "After the bearer afflicts an enemy with @S, it also afflicts them with @S.": [
+    "relic:lamora:r60",
+    "relic:lamora:r80"
+  ],
+  "After the bearer Casts a spell, this relic @T a random enemy.": [
+    "relic:materium:r50",
+    "relic:triumvir:r20"
+  ],
+  "After the bearer afflicts an enemy with @S and the enemy already has @S, this relic Casts Meteor Shower.": [
+    "relic:moonfire-and-sunfury:r50",
+    "relic:moonfire-and-sunfury:r80"
+  ],
+  "The bearer's @S buff activates twice.": [
+    "relic:prime-and-ventus:r40",
+    "relic:prime-and-ventus:r90"
+  ],
+  "The bearer takes @N less damage from enemies with @S.": [
+    "relic:rosenthorne:r20",
+    "relic:void-essence:r70"
+  ],
+  "This relic and its bearer deal @N more damage to @S enemies.": [
+    "relic:rosenthorne:r70",
+    "relic:wintermaul:r40"
+  ],
+  "After the bearer takes damage, this relic increases its @T by @N.": [
+    "relic:salus:r50",
+    "relic:wintermaul:r80"
+  ],
+  "After the bearer @T or Casts a single-target spell on an enemy, this relic @T the enemy.": [
+    "relic:thousand-needles:r10",
+    "relic:whisper:r20"
+  ],
+  "Your creatures' @S buff lasts forever.": [
+    "card:amphisbaena:3",
+    "card:asura:3"
+  ],
+  "Enemies take @N more damage from their @S debuffs.": [
+    "card:animation:3",
+    "card:toxdweller:1"
+  ],
+  "Your creatures' @S buffs last forever.": [
+    "card:aspect:3",
+    "card:ent:3"
+  ],
+  "Your creatures with @S have a @N greater chance to deal critical damage.": [
+    "card:asura:1",
+    "card:fiend:3"
+  ],
+  "Your creatures' @C spells deal @N more damage": [
+    "card:cerberus:1",
+    "card:ophan:1"
+  ],
+  "Your creatures' damaging @C spells ignore @N of their enemies' @T.": [
+    "card:cerberus:2",
+    "card:imp:2"
+  ],
+  "You gain @N more Granite from battles.": [
+    "card:clockwork:1",
+    "card:wight:1"
+  ],
+  "Increases the base amount of Granite gained from battles by @N.": [
+    "card:clockwork:2",
+    "card:wight:2"
+  ],
+  "You have a @N chance to gain double Granite from battles.": [
+    "card:clockwork:3",
+    "card:wight:3"
+  ],
+  "Enemies with @S have a @N lower chance to deal critical damage.": [
+    "card:concoction:2",
+    "card:leper:2"
+  ],
+  "Your creatures have a @N chance to @T an additional time.": [
+    "card:diabolic-horde:1",
+    "card:wolpertinger:1"
+  ],
+  "Your creatures have a @N chance to Cast spells an additional time.": [
+    "card:diabolic-horde:2",
+    "card:wolpertinger:2"
+  ],
+  "You gain @N more Essence from battles.": [
+    "card:electropods:1",
+    "card:golem:1"
+  ],
+  "Increases the base amount of Essence gained from battles by @N.": [
+    "card:electropods:2",
+    "card:golem:2"
+  ],
+  "You have a @N chance to gain double Essence from battles.": [
+    "card:electropods:3",
+    "card:golem:3"
+  ],
+  "You gain @N more Crystal from battles.": [
+    "card:elf:1",
+    "card:fae:1"
+  ],
+  "Increases the base amount of Crystal gained form battles by @N.": [
+    "card:elf:2",
+    "card:fae:2"
+  ],
+  "You have a @N chance to gain double Crystal from battles.": [
+    "card:elf:3",
+    "card:fae:3"
+  ],
+  "Your creatures' Ethereal Spell Gems deal @N more damage.": [
+    "card:gemling:3",
+    "card:spellmane:1"
+  ],
+  "You gain @N more resources from battles.": [
+    "card:griffon:1",
+    "card:griffon:2"
+  ],
+  "Your creatures' @C spells deal @N more damage.": [
+    "card:imp:1",
+    "card:lich:1"
+  ],
+  "You gain @N more Brimstone from battles.": [
+    "card:kraken:1",
+    "card:minotaur:1"
+  ],
+  "Increases the base amount of Brimstone gained from battles by @N.": [
+    "card:kraken:2",
+    "card:minotaur:2"
+  ],
+  "You have a @N chance to gain double Brimstone from battles.": [
+    "card:kraken:3",
+    "card:minotaur:3"
+  ],
+  "Riddle Dwarves have a @N greater chance to spawn in Realms.": [
+    "card:luckmantria:1",
+    "card:luckmantria:2"
+  ],
+  "You gain @N more Power from battles.": [
+    "card:modron:1",
+    "card:stag:1"
+  ],
+  "You have a @N chance to gain double Power from battles.": [
+    "card:modron:3",
+    "card:stag:3"
+  ],
+  "When your creatures are resurrected, they recover @N more @T.": [
+    "card:phoenix:1",
+    "card:phoenix:2"
+  ],
+  "Your creatures take @N less damage while they're @S.": [
+    "card:shade:1",
+    "card:shade:3"
+  ],
+  "Enemies with @S have @N less @T.": [
+    "card:shadow:2",
+    "card:shadow:3"
+  ],
+  "Creatures with @S take damage based on the inflictor's @T each turn.": [
+    "debuff:burning",
+    "debuff:poisoned"
+  ]
+}

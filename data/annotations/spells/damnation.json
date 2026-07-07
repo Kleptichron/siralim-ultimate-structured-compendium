@@ -1,0 +1,24 @@
+{
+  "id": "spell:damnation",
+  "textHash": "812731847217",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-afflict",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Cursed"
+          ]
+        }
+      ]
+    }
+  ]
+}

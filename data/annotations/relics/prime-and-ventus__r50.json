@@ -1,0 +1,25 @@
+{
+  "id": "relic:prime-and-ventus:r50",
+  "textHash": "de8d08572ec5",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "start-battle-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "self"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "self",
+          "statuses": [
+            "Savage"
+          ]
+        }
+      ]
+    }
+  ]
+}

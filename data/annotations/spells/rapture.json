@@ -1,0 +1,32 @@
+{
+  "id": "spell:rapture",
+  "textHash": "0683ef51e567",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "massive"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Weak",
+            "Vulnerable"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Agile",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Arcane",
+    "kind": "buff",
+    "defaultDuration": "Until creature casts a spell."
+  },
+  {
+    "name": "Barrier",
+    "kind": "buff",
+    "defaultDuration": "Until barrier is depleted."
+  },
+  {
+    "name": "Berserk",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Bleeding",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Blighted",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Blind",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Bomb",
+    "kind": "debuff",
+    "defaultDuration": ""
+  },
+  {
+    "name": "Burning",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Confused",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Cursed",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Defensive",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Disarmed",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Feared",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Frozen",
+    "kind": "debuff",
+    "defaultDuration": ""
+  },
+  {
+    "name": "Immune",
+    "kind": "buff",
+    "defaultDuration": "1 Turn"
+  },
+  {
+    "name": "Inverted",
+    "kind": "debuff",
+    "defaultDuration": ""
+  },
+  {
+    "name": "Invisible",
+    "kind": "buff",
+    "defaultDuration": "Until creature takes an action."
+  },
+  {
+    "name": "Leeching",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Mania",
+    "kind": "debuff",
+    "defaultDuration": "",
+    "note": "Unique debuff (Denizen family, Nature spells Compulsion/Wave of Bliss); absent from debuffs.csv",
+    "extra": true
+  },
+  {
+    "name": "Mending",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Poisoned",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Proficient",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Protected",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Rebirth",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Repelling",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Savage",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Scorned",
+    "kind": "debuff",
+    "defaultDuration": "1 Turn"
+  },
+  {
+    "name": "Shelled",
+    "kind": "buff",
+    "defaultDuration": ""
+  },
+  {
+    "name": "Silenced",
+    "kind": "debuff",
+    "defaultDuration": "1 Turn"
+  },
+  {
+    "name": "Sleeping",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Snared",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Splashing",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Stone",
+    "kind": "debuff",
+    "defaultDuration": "1 Turn"
+  },
+  {
+    "name": "Taunting",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Vulnerable",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Warded",
+    "kind": "buff",
+    "defaultDuration": "3 Turns"
+  },
+  {
+    "name": "Weak",
+    "kind": "debuff",
+    "defaultDuration": "3 Turns"
+  }
+]

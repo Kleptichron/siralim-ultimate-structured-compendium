@@ -1,0 +1,27 @@
+{
+  "id": "perk:reaver:rigor",
+  "textHash": "adfbe04e33be",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "immune-group",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Snared",
+            "Frozen",
+            "Sleeping"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "spell:unholy-frenzy",
+  "textHash": "e4dedc8b5808",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Berserk"
+          ]
+        }
+      ]
+    }
+  ]
+}

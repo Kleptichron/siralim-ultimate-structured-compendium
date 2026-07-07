@@ -1,0 +1,320 @@
+{
+  "buff:agile": {
+    "statuses": {
+      "Agile": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:arcane": {
+    "statuses": {
+      "Arcane": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "buff:barrier": {
+    "statuses": {
+      "Barrier": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      200
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "buff:berserk": {
+    "statuses": {
+      "Berserk": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "buff:defensive": {
+    "statuses": {
+      "Defensive": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:immune": {
+    "statuses": {
+      "Immune": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:invisible": {
+    "statuses": {
+      "Invisible": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "buff:leeching": {
+    "statuses": {
+      "Leeching": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:mending": {
+    "statuses": {
+      "Mending": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:proficient": {
+    "statuses": {
+      "Proficient": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "buff:protected": {
+    "statuses": {
+      "Protected": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:rebirth": {
+    "statuses": {
+      "Rebirth": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:repelling": {
+    "statuses": {
+      "Repelling": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "buff:savage": {
+    "statuses": {
+      "Savage": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "buff:shelled": {
+    "statuses": {
+      "Shelled": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "buff:splashing": {
+    "statuses": {
+      "Splashing": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:taunting": {
+    "statuses": {
+      "Taunting": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "buff:warded": {
+    "statuses": {
+      "Warded": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  }
+}

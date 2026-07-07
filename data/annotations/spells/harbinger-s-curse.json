@@ -1,0 +1,32 @@
+{
+  "id": "spell:harbinger-s-curse",
+  "textHash": "606c8f020a19",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Weak",
+            "Vulnerable"
+          ]
+        }
+      ]
+    }
+  ]
+}

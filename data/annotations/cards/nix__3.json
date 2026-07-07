@@ -1,0 +1,31 @@
+{
+  "id": "card:nix:3",
+  "textHash": "f3fe25d00d43",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "card-class-attack-dr",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down"
+          },
+          "params": {
+            "taken": true,
+            "sourceClass": "Death",
+            "sourceKind": "attacks"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "spell:holy-explosion",
+  "textHash": "a091ee8b4246",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,21 @@
 {
-  "name": "siralim-ultimate",
-  "version": "1.0.0",
+  "name": "siralim-ultimate-compendium",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "seed": "node data/seed.js",
+    "import": "node scripts/import.js",
+    "extract": "node scripts/extract.js",
+    "cluster": "node scripts/cluster.js",
+    "absorb": "node scripts/absorb.js",
+    "validate": "node scripts/validate.js",
+    "audit": "node scripts/audit.js",
+    "pipeline": "node scripts/import.js && node scripts/extract.js && node scripts/validate.js",
+    "build-index": "node scripts/build-index.js",
     "dev": "vite web",
     "build": "vite build web"
   },
-  "dependencies": {},
   "devDependencies": {
-    "csv-parse": "^5.5.6",
     "vite": "^5.0.0"
   }
 }

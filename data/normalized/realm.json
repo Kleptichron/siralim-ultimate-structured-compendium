@@ -1,0 +1,888 @@
+[
+  {
+    "id": "realm:enemy:always-critical-damage",
+    "source": "realm",
+    "name": "Always Critical Damage",
+    "text": "Enemies always deal critical damage with attacks and spells.",
+    "textHash": "531f053820f3",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:attack-additional-times-x",
+    "source": "realm",
+    "name": "Attack Additional Times: X",
+    "text": "Enemies attack an additional number of times.",
+    "textHash": "341886b8ce25",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:buff-beserk",
+    "source": "realm",
+    "name": "Buff: Beserk",
+    "text": "Enemies start battles with Berserk.",
+    "textHash": "04db6034bda4",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:buff-leeching",
+    "source": "realm",
+    "name": "Buff: Leeching",
+    "text": "Enemies start battles with Leeching.",
+    "textHash": "2d65f4b1309d",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:buff-mending",
+    "source": "realm",
+    "name": "Buff: Mending",
+    "text": "Enemies start battles with Mending.",
+    "textHash": "2c633859ae45",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:buff-proficient",
+    "source": "realm",
+    "name": "Buff: Proficient",
+    "text": "Enemies start battles with Proficient.",
+    "textHash": "469065f32e8b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:buff-protected",
+    "source": "realm",
+    "name": "Buff: Protected",
+    "text": "Enemies start battles with Protected.",
+    "textHash": "749d17abed78",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:buff-savage",
+    "source": "realm",
+    "name": "Buff: Savage",
+    "text": "Enemies start battles with Savage.",
+    "textHash": "7064901979d1",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:cast-additional-times-x",
+    "source": "realm",
+    "name": "Cast Additional Times: X",
+    "text": "Enemies cast spells an additional number of times.",
+    "textHash": "346860c6e148",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:chance-to-dodge-x",
+    "source": "realm",
+    "name": "Chance to Dodge: X%",
+    "text": "Enemies have an independent chance to dodge attacks.",
+    "textHash": "60143d3e7cc4",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:chance-to-resist-damage-x",
+    "source": "realm",
+    "name": "Chance to Resist Damage: X%",
+    "text": "Enemies have a chance to ignore incoming damage.",
+    "textHash": "af20577be7c6",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:copy-your-spell-gems",
+    "source": "realm",
+    "name": "Copy Your Spell Gems",
+    "text": "Enemies gain a copy of your creatures' Spell Gems at the start of battle.",
+    "textHash": "f21d0fbfb380",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:end-of-turn-attack",
+    "source": "realm",
+    "name": "End of Turn: Attack",
+    "text": "Enemies Attack one of your creatures at the end of their turn.",
+    "textHash": "d430c63217d0",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:end-of-turn-cast",
+    "source": "realm",
+    "name": "End of Turn: Cast",
+    "text": "Enemies Cast one of their spells at the end of their turn.",
+    "textHash": "ea227fa2f9e2",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:end-of-turn-defend",
+    "source": "realm",
+    "name": "End of Turn: Defend",
+    "text": "Enemies Defend at the end of their turn.",
+    "textHash": "aec5dc25cbb4",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:end-of-turn-provoke",
+    "source": "realm",
+    "name": "End of Turn: Provoke",
+    "text": "Enemies Provoke at the end of their turn.",
+    "textHash": "e1b0052a20a7",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:extra-attack-x",
+    "source": "realm",
+    "name": "Extra Attack: X%",
+    "text": "Enemies have extra Attack.",
+    "textHash": "28764df5f1eb",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:extra-defense-x",
+    "source": "realm",
+    "name": "Extra Defense: X%",
+    "text": "Enemies have extra Defense.",
+    "textHash": "e1c455d615ab",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:extra-health-x",
+    "source": "realm",
+    "name": "Extra Health: X%",
+    "text": "Enemies have extra Health.",
+    "textHash": "e6a98587e191",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:extra-intelligence-x",
+    "source": "realm",
+    "name": "Extra Intelligence: X%",
+    "text": "Enemies have extra Intelligence.",
+    "textHash": "8fc3fa9fec5a",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:extra-speed-x",
+    "source": "realm",
+    "name": "Extra Speed: X%",
+    "text": "Enemies have extra Speed.",
+    "textHash": "657da905752c",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:extra-traits-x",
+    "source": "realm",
+    "name": "Extra Traits: X",
+    "text": "Enemies start battles with an additional number of traits.",
+    "textHash": "b52901c979a4",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:enemy:good-luck",
+    "source": "realm",
+    "name": "Good Luck",
+    "text": "Whenever it is an enemy's turn, any random effects that fail to activate are re-rolled an additional time.",
+    "textHash": "9e7f77265714",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:enemy:heal-every-turn",
+    "source": "realm",
+    "name": "Heal Every Turn",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:less-damage-taken",
+    "source": "realm",
+    "name": "Less Damage Taken",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:less-stat-loss",
+    "source": "realm",
+    "name": "Less Stat Loss",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:minion-animated-gem",
+    "source": "realm",
+    "name": "Minion: Animated Gem",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:minion-dire-wolves",
+    "source": "realm",
+    "name": "Minion: Dire Wolves",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:minion-doppleganger",
+    "source": "realm",
+    "name": "Minion: Doppleganger",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:minion-famine",
+    "source": "realm",
+    "name": "Minion: Famine",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:minion-unstable-horror",
+    "source": "realm",
+    "name": "Minion: Unstable Horror",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:minion-war",
+    "source": "realm",
+    "name": "Minion: War",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:minion-zombies",
+    "source": "realm",
+    "name": "Minion: Zombies",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:more-damage-dealt",
+    "source": "realm",
+    "name": "More Damage Dealt",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:more-spell-slots",
+    "source": "realm",
+    "name": "More Spell Slots",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:reflect-damage-taken",
+    "source": "realm",
+    "name": "Reflect Damage Taken",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:resistant-to-debuffs",
+    "source": "realm",
+    "name": "Resistant to Debuffs",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:resurrect-on-death",
+    "source": "realm",
+    "name": "Resurrect On Death",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:enemy:strong-against-class",
+    "source": "realm",
+    "name": "Strong Against [Class]",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Enemy",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:bad-luck",
+    "source": "realm",
+    "name": "Bad Luck",
+    "text": "Whenever it is one of your creatures' turns, any random effects that activate are re-rolled an additional time.",
+    "textHash": "6a503e69e6cd",
+    "meta": {
+      "target": "Player",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:player:can-t-gain-gems",
+    "source": "realm",
+    "name": "Can't Gain Gems",
+    "text": "Your creatures cannot gain Ethereal Spell Gems during battle.",
+    "textHash": "0b984efa55f0",
+    "meta": {
+      "target": "Player",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:player:can-t-manually-defend-provoke",
+    "source": "realm",
+    "name": "Can't Manually Defend/Provoke",
+    "text": "Your creatures cannot manually Defend or Provoke.",
+    "textHash": "e60d5823ddc7",
+    "meta": {
+      "target": "Player",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:player:damage-every-turn-x-health",
+    "source": "realm",
+    "name": "Damage Every Turn: X% Health",
+    "text": "Your creatures will take damage as a percentage of their Maximum Health at the start of their turns.",
+    "textHash": "37ac30dfad78",
+    "meta": {
+      "target": "Player",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:player:debuff-bleeding",
+    "source": "realm",
+    "name": "Debuff: Bleeding",
+    "text": "Your creatures start battles with Bleeding.",
+    "textHash": "7cfbff1819e5",
+    "meta": {
+      "target": "Player",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:player:debuff-blighted",
+    "source": "realm",
+    "name": "Debuff: Blighted",
+    "text": "Your creatures start battles with Blighted.",
+    "textHash": "8b40e79bde43",
+    "meta": {
+      "target": "Player",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:player:debuff-blind",
+    "source": "realm",
+    "name": "Debuff: Blind",
+    "text": "Your creatures start battles with Blind.",
+    "textHash": "13357f8822a6",
+    "meta": {
+      "target": "Player",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:player:debuff-confused",
+    "source": "realm",
+    "name": "Debuff: Confused",
+    "text": "Your creatures start battles with Confused.",
+    "textHash": "cd7694be8e27",
+    "meta": {
+      "target": "Player",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:player:debuff-cursed",
+    "source": "realm",
+    "name": "Debuff: Cursed",
+    "text": "Your creatures start battles with Cursed.",
+    "textHash": "0dacf3ffeb65",
+    "meta": {
+      "target": "Player",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:player:debuff-disarmed",
+    "source": "realm",
+    "name": "Debuff: Disarmed",
+    "text": "Your creatures start battles with Disarmed.",
+    "textHash": "d53bcaec2f1f",
+    "meta": {
+      "target": "Player",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:player:debuff-scorn",
+    "source": "realm",
+    "name": "Debuff: Scorn",
+    "text": "Your creatures start battles with Scorn.",
+    "textHash": "b4e8fb48449d",
+    "meta": {
+      "target": "Player",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:player:debuff-vulnerable",
+    "source": "realm",
+    "name": "Debuff: Vulnerable",
+    "text": "Your creatures start battles with Vulnerable.",
+    "textHash": "54a8ea17e182",
+    "meta": {
+      "target": "Player",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:player:debuff-weak",
+    "source": "realm",
+    "name": "Debuff: Weak",
+    "text": "Your creatures start battles with Weak.",
+    "textHash": "8b90bd6bd6f6",
+    "meta": {
+      "target": "Player",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:player:gems-sealed-after-casting",
+    "source": "realm",
+    "name": "Gems Sealed After Casting",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-attack",
+    "source": "realm",
+    "name": "Less Attack",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-attack-damage",
+    "source": "realm",
+    "name": "Less Attack Damage",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-charges",
+    "source": "realm",
+    "name": "Less Charges",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-critical-chance",
+    "source": "realm",
+    "name": "Less Critical Chance",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-damage-dealt",
+    "source": "realm",
+    "name": "Less Damage Dealt",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-defense",
+    "source": "realm",
+    "name": "Less Defense",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-dodge-chance",
+    "source": "realm",
+    "name": "Less Dodge Chance",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-healing",
+    "source": "realm",
+    "name": "Less Healing",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-indirect-damage",
+    "source": "realm",
+    "name": "Less Indirect Damage",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-intelligence",
+    "source": "realm",
+    "name": "Less Intelligence",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-speed",
+    "source": "realm",
+    "name": "Less Speed",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-spell-potency",
+    "source": "realm",
+    "name": "Less Spell Potency",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:less-stat-gain",
+    "source": "realm",
+    "name": "Less Stat Gain",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:maximum-buffs",
+    "source": "realm",
+    "name": "Maximum Buffs",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:maximum-extra-traits",
+    "source": "realm",
+    "name": "Maximum Extra Traits",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:more-damage-taken",
+    "source": "realm",
+    "name": "More Damage Taken",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:no-additional-attacks-casts",
+    "source": "realm",
+    "name": "No Additional Attacks/Casts",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:reduced-stat-gains",
+    "source": "realm",
+    "name": "Reduced Stat Gains",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:player:stats-are-swapped",
+    "source": "realm",
+    "name": "Stats Are Swapped",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Player",
+      "hidden": true,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:realm:enemies-are-fused-race",
+    "source": "realm",
+    "name": "Enemies Are Fused (Race)",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Realm",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:realm:enemies-belong-to-same-race",
+    "source": "realm",
+    "name": "Enemies Belong To Same Race",
+    "text": "Enemies all belong to the same race of creatures.",
+    "textHash": "816ca7c16869",
+    "meta": {
+      "target": "Realm",
+      "hidden": false
+    }
+  },
+  {
+    "id": "realm:realm:extra-nemesis-creatures",
+    "source": "realm",
+    "name": "Extra Nemesis Creatures",
+    "text": "More Nemesis Creatures will spawn in this realm.",
+    "textHash": "e1468c905cac",
+    "meta": {
+      "target": "Realm",
+      "hidden": true
+    }
+  },
+  {
+    "id": "realm:realm:inhabited-by-x-race",
+    "source": "realm",
+    "name": "Inhabited By [X] Race",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Realm",
+      "hidden": false,
+      "noText": true
+    }
+  },
+  {
+    "id": "realm:realm:rapid-fatigue",
+    "source": "realm",
+    "name": "Rapid Fatigue",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "target": "Realm",
+      "hidden": false,
+      "noText": true
+    }
+  }
+]

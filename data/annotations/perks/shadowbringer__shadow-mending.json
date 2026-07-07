@@ -1,0 +1,29 @@
+{
+  "id": "perk:shadowbringer:shadow-mending",
+  "textHash": "1d870235c304",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "always-have",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Leeching",
+            "Mending"
+          ],
+          "params": {
+            "permanent": true
+          }
+        }
+      ]
+    }
+  ]
+}

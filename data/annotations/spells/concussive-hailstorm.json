@@ -1,0 +1,32 @@
+{
+  "id": "spell:concussive-hailstorm",
+  "textHash": "a3c43178e523",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "large"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Confused",
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ]
+}

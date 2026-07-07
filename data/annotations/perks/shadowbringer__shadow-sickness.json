@@ -1,0 +1,28 @@
+{
+  "id": "perk:shadowbringer:shadow-sickness",
+  "textHash": "9e8f662c1595",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "always-have",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Blighted"
+          ],
+          "params": {
+            "permanent": true
+          }
+        }
+      ]
+    }
+  ]
+}

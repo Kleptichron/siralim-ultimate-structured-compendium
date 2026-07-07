@@ -1,0 +1,31 @@
+{
+  "id": "spell:mind-blast",
+  "textHash": "c946ed989aa5",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Stone"
+          ]
+        }
+      ]
+    }
+  ]
+}

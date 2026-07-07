@@ -1,0 +1,23 @@
+{
+  "id": "relic:ferro:r60",
+  "textHash": "99bd71b3b1c6",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "immune-group",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "statuses": [
+            "Disarmed"
+          ]
+        }
+      ]
+    }
+  ]
+}

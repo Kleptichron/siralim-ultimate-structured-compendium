@@ -1,0 +1,33 @@
+{
+  "id": "spell:nuclear-blast",
+  "textHash": "b148d4ecd28b",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "large"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Poisoned",
+            "Blighted",
+            "Inverted"
+          ]
+        }
+      ]
+    }
+  ]
+}

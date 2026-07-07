@@ -1,0 +1,25 @@
+{
+  "id": "relic:arbiter:r10",
+  "textHash": "b3e8628794b1",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "start-battle-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "self"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "self",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ]
+}

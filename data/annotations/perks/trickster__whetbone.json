@@ -1,0 +1,28 @@
+{
+  "id": "perk:trickster:whetbone",
+  "textHash": "1fb6bd83bff5",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "always-have",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Proficient"
+          ],
+          "params": {
+            "permanent": true
+          }
+        }
+      ]
+    }
+  ]
+}

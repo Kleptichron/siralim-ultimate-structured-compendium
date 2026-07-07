@@ -1,0 +1,26 @@
+{
+  "id": "perk:warden:preparation",
+  "textHash": "414f9a0e2475",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "start-battle-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Invisible",
+            "Proficient"
+          ]
+        }
+      ]
+    }
+  ]
+}

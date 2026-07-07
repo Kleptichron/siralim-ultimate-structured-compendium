@@ -1,0 +1,211 @@
+[
+  {
+    "id": "debuff:bleeding",
+    "source": "debuffs",
+    "name": "Bleeding",
+    "text": "Creatures with Bleeding take damage equal to 30% of their Current Health at the start of each turn.",
+    "textHash": "d50b3e9eae07",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:blighted",
+    "source": "debuffs",
+    "name": "Blighted",
+    "text": "Creatures with Blighted cannot be healed and take damage from healing effects equal to 50% of the effect.",
+    "textHash": "437620cccc82",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:blind",
+    "source": "debuffs",
+    "name": "Blind",
+    "text": "Blind creatures cannot choose their targets when Attacking or Casting single-target spells.",
+    "textHash": "9531e7ec7dcb",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:bomb",
+    "source": "debuffs",
+    "name": "Bomb",
+    "text": "At the start of a creature's turn, its Bomb detonates, dealing damage equal to 80% of the afflictor's Speed. Then, this debuff is removed.",
+    "textHash": "71370c33ae20",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": ""
+    }
+  },
+  {
+    "id": "debuff:burning",
+    "source": "debuffs",
+    "name": "Burning",
+    "text": "Creatures with Burning take damage based on the inflictor's Intelligence each turn.",
+    "textHash": "71ac3a307c68",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:confused",
+    "source": "debuffs",
+    "name": "Confused",
+    "text": "Confused creatures have a 50% chance to Attack or Cast harmful spells on their allies.",
+    "textHash": "96e9e3055520",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:cursed",
+    "source": "debuffs",
+    "name": "Cursed",
+    "text": "When creatures with Cursed deal damage with attacks or spells, they take damage equal to 100% of their target's Attack.",
+    "textHash": "4e10b9ef17bf",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:disarmed",
+    "source": "debuffs",
+    "name": "Disarmed",
+    "text": "Disarmed creatures lose the benefits from their equipped Artifact, other than Health.",
+    "textHash": "cb67203788b9",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:feared",
+    "source": "debuffs",
+    "name": "Feared",
+    "text": "Feared creatures cannot gain stats.",
+    "textHash": "e21b66b140e8",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:frozen",
+    "source": "debuffs",
+    "name": "Frozen",
+    "text": "Frozen creatures are unable to act until they thaw, and have a 25% chance to thaw at the start of their turn. This chance doubles after each of their turns.",
+    "textHash": "824bfe5fdbc5",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": ""
+    }
+  },
+  {
+    "id": "debuff:inverted",
+    "source": "debuffs",
+    "name": "Inverted",
+    "text": "Inverted creatures heal enemies instead of damaging them with attacks and spells, and damage allies instead of healing them. This debuff is removed after enough damage or healing has been done to offset its potency.",
+    "textHash": "c93c84203b68",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": ""
+    }
+  },
+  {
+    "id": "debuff:poisoned",
+    "source": "debuffs",
+    "name": "Poisoned",
+    "text": "Creatures with Poisoned take damage based on the inflictor's Attack each turn.",
+    "textHash": "144deefb9598",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:scorned",
+    "source": "debuffs",
+    "name": "Scorned",
+    "text": "Creatures with Scorned cannot attack. Overwrites Silenced.",
+    "textHash": "38bdff925fdd",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "1 Turn"
+    }
+  },
+  {
+    "id": "debuff:silenced",
+    "source": "debuffs",
+    "name": "Silenced",
+    "text": "Creatures with Silenced cannot cast spells. Overwrites Scorned.",
+    "textHash": "ae0563b45b99",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "1 Turn"
+    }
+  },
+  {
+    "id": "debuff:sleeping",
+    "source": "debuffs",
+    "name": "Sleeping",
+    "text": "Creatures with Sleeping cannot act until they either take damage or this debuff wears off.",
+    "textHash": "bb7c35bd74d1",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:snared",
+    "source": "debuffs",
+    "name": "Snared",
+    "text": "Creatures with Snared are stuck at the bottom of the Timeline until they break free. They have a 10% chance to break free at the start of each creature's turn.",
+    "textHash": "3e22ac170eb2",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:stone",
+    "source": "debuffs",
+    "name": "Stone",
+    "text": "Creatures with Stone cannot dodge or deal critical damage.",
+    "textHash": "4a7085431690",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "1 Turn"
+    }
+  },
+  {
+    "id": "debuff:vulnerable",
+    "source": "debuffs",
+    "name": "Vulnerable",
+    "text": "Vulnerable creatures take 50% more damage.",
+    "textHash": "6644f3abdbe5",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  },
+  {
+    "id": "debuff:weak",
+    "source": "debuffs",
+    "name": "Weak",
+    "text": "Weak creatures deal 50% less damage.",
+    "textHash": "072ed20931cf",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": "3 Turns"
+    }
+  }
+]

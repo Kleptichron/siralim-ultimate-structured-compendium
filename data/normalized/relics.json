@@ -1,0 +1,4032 @@
+[
+  {
+    "id": "relic:5740-ng:r10",
+    "source": "relics",
+    "name": "5740-NG (Rank 10)",
+    "text": "At the end of each enemy's turn, this relic Attacks a random enemy if the bearer didn't take any damage.",
+    "textHash": "abc19f6ca38b",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:5740-ng:r100",
+    "source": "relics",
+    "name": "5740-NG (Rank 100)",
+    "text": "The bearer has a 100% chance to avoid damage, minus 10% for each time this effect has activated in the current battle.",
+    "textHash": "621f528c54d9",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:5740-ng:r20",
+    "source": "relics",
+    "name": "5740-NG (Rank 20)",
+    "text": "After this relic Attacks, the bearer gains 10% Defense.",
+    "textHash": "e1941e6b8c9e",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:5740-ng:r30",
+    "source": "relics",
+    "name": "5740-NG (Rank 30)",
+    "text": "The bearer gains 15% more Defense and Maximum Health from stat-boosting effects and can't lose these stats.",
+    "textHash": "41404ba94034",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:5740-ng:r40",
+    "source": "relics",
+    "name": "5740-NG (Rank 40)",
+    "text": "The bearer takes 30% less indirect damage.",
+    "textHash": "d14bda750347",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:5740-ng:r50",
+    "source": "relics",
+    "name": "5740-NG (Rank 50)",
+    "text": "After this relic Attacks, the bearer gains 10% Maximum Health.",
+    "textHash": "c0af9f4fbf97",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:5740-ng:r60",
+    "source": "relics",
+    "name": "5740-NG (Rank 60)",
+    "text": "At the end of each enemy's turn, this relic has a 20% chance to Cast Stone Skin on the bearer.",
+    "textHash": "f0c1093796fd",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:5740-ng:r70",
+    "source": "relics",
+    "name": "5740-NG (Rank 70)",
+    "text": "The bearer takes 30% less damage from attacks and spells.",
+    "textHash": "d46a471048c2",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:5740-ng:r80",
+    "source": "relics",
+    "name": "5740-NG (Rank 80)",
+    "text": "At the end of each ally's turn, this relic has a 20% chance to Cast Iron Skin on the bearer.",
+    "textHash": "fd603910b978",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:5740-ng:r90",
+    "source": "relics",
+    "name": "5740-NG (Rank 90)",
+    "text": "After the bearer gains Maximum Health, it recovers Health equal to 50% of the amount gained.",
+    "textHash": "a08ed4394a88",
+    "meta": {
+      "relic": "5740-NG, Impenetrable Plate of 4080",
+      "shortName": "5740-NG",
+      "statBonus": "Defense",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:amalgam:r10",
+    "source": "relics",
+    "name": "Amalgam (Rank 10)",
+    "text": "After the bearer Attacks, this relic Attacks the enemy as well.",
+    "textHash": "4b512c495849",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:amalgam:r100",
+    "source": "relics",
+    "name": "Amalgam (Rank 100)",
+    "text": "After an enemy's Inverted debuff wears off, this relic afflicts it with Inverted again. The potency of this debuff is equal to 30% of the bearer's highest stat.",
+    "textHash": "67f4df7374a3",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:amalgam:r20",
+    "source": "relics",
+    "name": "Amalgam (Rank 20)",
+    "text": "After this relic Attacks, it afflicts the enemy with Inverted. The potency of this debuff is equal to 10% of the bearer's highest stat.",
+    "textHash": "761ad3d1dec5",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:amalgam:r30",
+    "source": "relics",
+    "name": "Amalgam (Rank 30)",
+    "text": "After an enemy takes damage from Inverted, this relic heals the bearer for 50% Health. If the bearer is dead, it is resurrected with 20% Health.",
+    "textHash": "5ba5095378b2",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:amalgam:r40",
+    "source": "relics",
+    "name": "Amalgam (Rank 40)",
+    "text": "The bearer takes less damage from attacks and spells equal to 20% of the enemy's Inverted potency.",
+    "textHash": "2a3952706adc",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:amalgam:r50",
+    "source": "relics",
+    "name": "Amalgam (Rank 50)",
+    "text": "When an enemy's Inverted potency would decrease, this relic has a 50% chance to prevent that from happening.",
+    "textHash": "af7190e30444",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:amalgam:r60",
+    "source": "relics",
+    "name": "Amalgam (Rank 60)",
+    "text": "Enemies heal your creatures 1 additional time with Inverted.",
+    "textHash": "cf862f58615f",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:amalgam:r70",
+    "source": "relics",
+    "name": "Amalgam (Rank 70)",
+    "text": "At the start of the bearer's turn, enemies' Inverted debuffs gain 50% potency.",
+    "textHash": "3900bd31b3b6",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:amalgam:r80",
+    "source": "relics",
+    "name": "Amalgam (Rank 80)",
+    "text": "After the bearer manually Casts a spell, this relic Casts a random Morph Spell.",
+    "textHash": "aef5c9682207",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:amalgam:r90",
+    "source": "relics",
+    "name": "Amalgam (Rank 90)",
+    "text": "This relic and its bearer deal additional damage with attacks and spells equal to 20% of the enemy's Inverted potency.",
+    "textHash": "a57571b88abf",
+    "meta": {
+      "relic": "Amalgam, Warped Mirror of T'mere M'rgo",
+      "shortName": "Amalgam",
+      "statBonus": "Intelligence",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:arbiter:r10",
+    "source": "relics",
+    "name": "Arbiter (Rank 10)",
+    "text": "At the start of battle, the bearer gains Shelled.",
+    "textHash": "b3e8628794b1",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:arbiter:r100",
+    "source": "relics",
+    "name": "Arbiter (Rank 100)",
+    "text": "At the end of its bearer's turn, this relic Casts Holy Explosion.",
+    "textHash": "010a6717af39",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:arbiter:r20",
+    "source": "relics",
+    "name": "Arbiter (Rank 20)",
+    "text": "The bearer gains 100% more healing.",
+    "textHash": "abe190569a3b",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:arbiter:r30",
+    "source": "relics",
+    "name": "Arbiter (Rank 30)",
+    "text": "At the start of its bearer's turn, this relic Attacks a random enemy.",
+    "textHash": "e8be6c647c40",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:arbiter:r40",
+    "source": "relics",
+    "name": "Arbiter (Rank 40)",
+    "text": "After the bearer takes damage from an attack or spell, this relic Casts Healing on it.",
+    "textHash": "6807b08d95fd",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:arbiter:r50",
+    "source": "relics",
+    "name": "Arbiter (Rank 50)",
+    "text": "This relic has a 10% chance to prevent damage dealt to its bearer.",
+    "textHash": "433359aa8b88",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:arbiter:r60",
+    "source": "relics",
+    "name": "Arbiter (Rank 60)",
+    "text": "The bearer gives 100% more healing.",
+    "textHash": "cb50e888f0d5",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:arbiter:r70",
+    "source": "relics",
+    "name": "Arbiter (Rank 70)",
+    "text": "After the bearer deals damage with an attack or spell, it gains a Barrier equal to 5% of the damage dealt.",
+    "textHash": "f3a46e8a34e2",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:arbiter:r80",
+    "source": "relics",
+    "name": "Arbiter (Rank 80)",
+    "text": "The first time the bearer dies in battle, this relic Casts Major Resurrection on it.",
+    "textHash": "accf7562eb4a",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:arbiter:r90",
+    "source": "relics",
+    "name": "Arbiter (Rank 90)",
+    "text": "After this relic Attacks or Casts a spell, it gives its bearer Shelled.",
+    "textHash": "965bb4e8e3a7",
+    "meta": {
+      "relic": "Arbiter, Holy Shield of Surathli",
+      "shortName": "Arbiter",
+      "statBonus": "Health",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:asskicker:r10",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 10)",
+    "text": "After the bearer Attacks, it has a 15% chance to send the target to the bottom of the Timeline.",
+    "textHash": "d1ddb2575f9d",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:asskicker:r100",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 100)",
+    "text": "At the start of battle, this relic Casts Infernal Charge on its bearer.",
+    "textHash": "4460f875dff8",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:asskicker:r20",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 20)",
+    "text": "This relic and its bearer deal 50% more damage to the bottom-most enemy on the Timeline.",
+    "textHash": "29e738c2ae2e",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:asskicker:r30",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 30)",
+    "text": "At the start of its bearer's turn, this relic Attacks the bottom-most enemy on the Timeline.",
+    "textHash": "c3765ee7bf13",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:asskicker:r40",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 40)",
+    "text": "After this relic or its bearer Attack, the bearer gains 20% Speed.",
+    "textHash": "38a7dfc091e8",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:asskicker:r50",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 50)",
+    "text": "After its bearer Attacks, this relic Attacks the same target.",
+    "textHash": "8f09b5f5e05b",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:asskicker:r60",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 60)",
+    "text": "The bearer is immune to Snared.",
+    "textHash": "766e2f7799d9",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:asskicker:r70",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 70)",
+    "text": "This relic and its bearer's attacks and spells deal additional damage equal to 20% of their Speed.",
+    "textHash": "5ef30e641b94",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:asskicker:r80",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 80)",
+    "text": "This relic and its bearer Attack enemies 1 additional time for each enemy between the bearer and its target on the Timeline.",
+    "textHash": "0684b9816564",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:asskicker:r90",
+    "source": "relics",
+    "name": "ASSKICKER (Rank 90)",
+    "text": "This relic's attacks and spells ignore 25% of its target's Defense.",
+    "textHash": "a55329bca038",
+    "meta": {
+      "relic": "ASSKICKER, SPARE BOOT OF TORUN",
+      "shortName": "ASSKICKER",
+      "statBonus": "Speed",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:blazefury:r10",
+    "source": "relics",
+    "name": "Blazefury (Rank 10)",
+    "text": "After the bearer Attacks or Casts a single-target spell on an enemy, this relic Attacks that enemy.",
+    "textHash": "a2ee5e71261a",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:blazefury:r100",
+    "source": "relics",
+    "name": "Blazefury (Rank 100)",
+    "text": "After the bearer is killed, it is resurrected with 20% Health if it is afflicted with Burning. This effect can activate a maximum of 3 times per battle.",
+    "textHash": "7a183324c5eb",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:blazefury:r20",
+    "source": "relics",
+    "name": "Blazefury (Rank 20)",
+    "text": "After this relic Attacks, it afflicts its target with Burning.",
+    "textHash": "4fa99326f0e0",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:blazefury:r30",
+    "source": "relics",
+    "name": "Blazefury (Rank 30)",
+    "text": "The bearer is healed instead of taking damage from Burning.",
+    "textHash": "0537b251ae40",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:blazefury:r40",
+    "source": "relics",
+    "name": "Blazefury (Rank 40)",
+    "text": "At the start of battle, this relic afflicts its bearer with Burning.",
+    "textHash": "ce70974452c7",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:blazefury:r50",
+    "source": "relics",
+    "name": "Blazefury (Rank 50)",
+    "text": "After the bearer takes damage from an attack or spell, the enemy takes damage equal to 1 turn of the bearer's Burning debuff.",
+    "textHash": "a088099240e5",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:blazefury:r60",
+    "source": "relics",
+    "name": "Blazefury (Rank 60)",
+    "text": "The bearer deals 10% additional damage for each enemy afflicted with Burning.",
+    "textHash": "1a0efe7530ce",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:blazefury:r70",
+    "source": "relics",
+    "name": "Blazefury (Rank 70)",
+    "text": "After the bearer deals damage to an enemy with an attack or spell, the enemy takes additional damage equal to 1 turn of the bearer's Burning debuff.",
+    "textHash": "3c6d4d616973",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:blazefury:r80",
+    "source": "relics",
+    "name": "Blazefury (Rank 80)",
+    "text": "After the bearer is killed, it deals damage to enemies equal to 5 turns of its Burning debuff.",
+    "textHash": "9a80e10860bd",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:blazefury:r90",
+    "source": "relics",
+    "name": "Blazefury (Rank 90)",
+    "text": "This relic and its bearer deal additional damage to enemies equal to 10% of the damage they've taken from Burning in the current battle.",
+    "textHash": "bb437872f610",
+    "meta": {
+      "relic": "Blazefury, Flaming Soul of Vulcanar",
+      "shortName": "Blazefury",
+      "statBonus": "Intelligence",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r10",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 10)",
+    "text": "After the bearer deals damage with an attack or spell, it is healed for 50% of the damage dealt.",
+    "textHash": "2212556d6fe3",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r100",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 100)",
+    "text": "This relic and its bearer deal additional damage equal to 20% of the bearer's Maximum Health.",
+    "textHash": "a1b8eb381617",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r20",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 20)",
+    "text": "After the bearer Attacks or Casts a single-target spell on an enemy, this relic also Attacks that enemy.",
+    "textHash": "ace96cb7ac40",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r30",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 30)",
+    "text": "The bearer always has Leeching.",
+    "textHash": "60b65630acdf",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r40",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 40)",
+    "text": "When the bearer is healed, it gains Maximum Health equal to 3% of the amount healed.",
+    "textHash": "9ca9fb0f7c2e",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r50",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 50)",
+    "text": "After the bearer gains Maximum Health, your other creatures gain Maximum Health equal to 50% of this amount.",
+    "textHash": "9ac29e08de4c",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r60",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 60)",
+    "text": "The bearer always has Mending.",
+    "textHash": "7a8a2598858d",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r70",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 70)",
+    "text": "The bearer gains 100% more Maximum Health from stat-increasing effects.",
+    "textHash": "3c6d7d676cdb",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r80",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 80)",
+    "text": "The potency of the bearer's spells is based on 50% of its Maximum Health rather than Intelligence.",
+    "textHash": "11a95b3d8a7b",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:bloodseeker:r90",
+    "source": "relics",
+    "name": "Bloodseeker (Rank 90)",
+    "text": "After this relic attacks, it Casts Blood Burst on the enemy.",
+    "textHash": "41bfc2917097",
+    "meta": {
+      "relic": "Bloodseeker, Hungering Dagger of Mortem",
+      "shortName": "Bloodseeker",
+      "statBonus": "Health",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:brambleskin:r10",
+    "source": "relics",
+    "name": "Brambleskin (Rank 10)",
+    "text": "After the bearer is damaged by an attack or spell, this relic Attacks a random enemy.",
+    "textHash": "9ac4d064ce08",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:brambleskin:r100",
+    "source": "relics",
+    "name": "Brambleskin (Rank 100)",
+    "text": "The first time the bearer is killed, it resurrects with 100% Health and gains 50% stats (other than Health).",
+    "textHash": "f0f6c712e521",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:brambleskin:r20",
+    "source": "relics",
+    "name": "Brambleskin (Rank 20)",
+    "text": "This relic and its bearer deal additional damage with attacks and spells equal to 10% of the damage the bearer has taken in the current battle.",
+    "textHash": "d645626ea9a6",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:brambleskin:r30",
+    "source": "relics",
+    "name": "Brambleskin (Rank 30)",
+    "text": "After the bearer takes damage, it recovers Health equal to 50% of the amount of damage taken.",
+    "textHash": "0764225b4894",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:brambleskin:r40",
+    "source": "relics",
+    "name": "Brambleskin (Rank 40)",
+    "text": "At the end of the bearer's turn, it Provokes and gains 10% Current and Maximum Health.",
+    "textHash": "988845c22ebf",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:brambleskin:r50",
+    "source": "relics",
+    "name": "Brambleskin (Rank 50)",
+    "text": "The bearer gains 20% more Maximum Health from stat-boosting effects.",
+    "textHash": "e9b8ccb9c157",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:brambleskin:r60",
+    "source": "relics",
+    "name": "Brambleskin (Rank 60)",
+    "text": "The bearer takes 3% less damage (up to 90%) for each time it has been damaged in the current battle.",
+    "textHash": "80d09cc12ea1",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:brambleskin:r70",
+    "source": "relics",
+    "name": "Brambleskin (Rank 70)",
+    "text": "After the bearer Provokes, this relic Attacks a random enemy.",
+    "textHash": "8eaf0e3fbeb3",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:brambleskin:r80",
+    "source": "relics",
+    "name": "Brambleskin (Rank 80)",
+    "text": "When the bearer Attacks or Casts a spell, the damage has a 35% chance to be based on its Current Health instead of Attack or Intelligence.",
+    "textHash": "3403e7c246b0",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:brambleskin:r90",
+    "source": "relics",
+    "name": "Brambleskin (Rank 90)",
+    "text": "After the bearer takes damage from an attack or spell, a random enemy takes 20% of that damage as well.",
+    "textHash": "780e387556fd",
+    "meta": {
+      "relic": "Brambleskin, Spiked Carapace of Genaros",
+      "shortName": "Brambleskin",
+      "statBonus": "Defense",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r10",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 10)",
+    "text": "After the bearer Attacks or is Attacked, this relic also Attacks that enemy.",
+    "textHash": "a31c1359a762",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r100",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 100)",
+    "text": "This relic Attacks 1 additional time for each enemy afflicted with Poisoned.",
+    "textHash": "72f97c6caaf0",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r20",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 20)",
+    "text": "After this relic Attacks, it afflicts its target with Poisoned.",
+    "textHash": "1559b4616dd9",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r30",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 30)",
+    "text": "Enemies with Poisoned can't be healed.",
+    "textHash": "05d0038f997b",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r40",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 40)",
+    "text": "This relic's attacks always deal critical damage.",
+    "textHash": "4750ed5e3fe8",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r50",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 50)",
+    "text": "The bearer deals 10% additional damage for each enemy afflicted with Poisoned.",
+    "textHash": "5b95fb20d580",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r60",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 60)",
+    "text": "After an enemy Defends or Provokes, this relic afflicts it with Poisoned.",
+    "textHash": "2509e56e9617",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r70",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 70)",
+    "text": "After this relic Attacks, it increases the bearer's highest stat by 5%.",
+    "textHash": "2cc8876c8757",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r80",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 80)",
+    "text": "This relic and its bearer deal additional damage to enemies equal to 10% of the damage they've taken from Poisoned in the current battle.",
+    "textHash": "4df3d116fab1",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:dusk-and-dawn:r90",
+    "source": "relics",
+    "name": "Dusk & Dawn (Rank 90)",
+    "text": "After an enemy takes damage from Poisoned, it is afflicted with a random debuff.",
+    "textHash": "d698653ac0ea",
+    "meta": {
+      "relic": "Dusk & Dawn, Dual Pistols of Venedon",
+      "shortName": "Dusk & Dawn",
+      "statBonus": "Attack",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:fable:r10",
+    "source": "relics",
+    "name": "Fable (Rank 10)",
+    "text": "The bearer's on-attack or on-cast effects activate 1 additional time, depending on whether its Attack or Intelligence is higher.",
+    "textHash": "78a1e7569971",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:fable:r100",
+    "source": "relics",
+    "name": "Fable (Rank 100)",
+    "text": "After the bearer's on-attack or on-cast effects activate, this relic has a 10% chance to Cast Mega Magic.",
+    "textHash": "339c5876c846",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:fable:r20",
+    "source": "relics",
+    "name": "Fable (Rank 20)",
+    "text": "After the bearer's on-attack or on-cast effects activate, this relic has a 25% chance to Attack a random enemy.",
+    "textHash": "2e2f8d7fac26",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:fable:r30",
+    "source": "relics",
+    "name": "Fable (Rank 30)",
+    "text": "The bearer's on-defend or on-provoke effects activate 1 additional time, depending on whether its Defense or Speed is higher.",
+    "textHash": "cef8a2be141f",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:fable:r40",
+    "source": "relics",
+    "name": "Fable (Rank 40)",
+    "text": "This relic and its bearer deal 5% more damage for each time the bearer's on-attack or on-cast effects activated.",
+    "textHash": "660de72a0786",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:fable:r50",
+    "source": "relics",
+    "name": "Fable (Rank 50)",
+    "text": "This relic and its bearer's on-heal, on-debuff, and on-buff effects activate 1 additional time.",
+    "textHash": "0d3cf8b65d4b",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:fable:r60",
+    "source": "relics",
+    "name": "Fable (Rank 60)",
+    "text": "The bearer's on-attack or on-cast effects activate 1 additional time for every 5 times this relic has Attacked or Cast a spell in the current battle.",
+    "textHash": "6ca6da02f0fd",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:fable:r70",
+    "source": "relics",
+    "name": "Fable (Rank 70)",
+    "text": "The bearer takes 3% less damage (up to 90%) for each time its on-defend or on-provoke effects activated.",
+    "textHash": "b151ac5e8d3d",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:fable:r80",
+    "source": "relics",
+    "name": "Fable (Rank 80)",
+    "text": "The bearer's on-resurrect and on-death effects activate 1 additional time.",
+    "textHash": "bcaad1615e5e",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:fable:r90",
+    "source": "relics",
+    "name": "Fable (Rank 90)",
+    "text": "This relic and its bearer have 5% more stats (other than Health) for each time its on-resurrect or on-death effects activated.",
+    "textHash": "7b9396345f7b",
+    "meta": {
+      "relic": "Fable, Mythical Stone of Shallan",
+      "shortName": "Fable",
+      "statBonus": "Health",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r10",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 10)",
+    "text": "After the bearer Attacks, this relic Attacks the enemy as well.",
+    "textHash": "4b512c495849",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r100",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 100)",
+    "text": "At the end of the bearer's turn, this relic Casts 1 random spell for each turn its bearer has taken in the current battle.",
+    "textHash": "f349a9528e3b",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r20",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 20)",
+    "text": "After this relic Attacks, the bearer has a 35% chance to gain a random buff.",
+    "textHash": "2be4e0df407d",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r30",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 30)",
+    "text": "At the start of battle, the bearer gains 5 random Spell Gems, one from each class.",
+    "textHash": "59baafee5cc9",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r40",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 40)",
+    "text": "At the start of battle, the bearer gains a random trait that belongs to its race.",
+    "textHash": "84f839f4e915",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r50",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 50)",
+    "text": "After the bearer manually Casts a spell, this relic casts a copy of that spell as well.",
+    "textHash": "e09f50ed877e",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r60",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 60)",
+    "text": "After this relic Casts a spell, a random enemy is afflicted with a random debuff.",
+    "textHash": "5bc033502506",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r70",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 70)",
+    "text": "At the start of the bearer's turn, it gains a random minion.",
+    "textHash": "63b759b338e1",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r80",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 80)",
+    "text": "After this relic Attacks, its master gains 20% of a random stat.",
+    "textHash": "0de63bb2085f",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:fatum-and-fortuna:r90",
+    "source": "relics",
+    "name": "Fatum & Fortuna (Rank 90)",
+    "text": "After this relic Casts a spell, a random enemy loses a random stat equal to 30% of the bearer's highest stat.",
+    "textHash": "9dfc08c599e8",
+    "meta": {
+      "relic": "Fatum & Fortuna, Loaded Dice of Reclusa",
+      "shortName": "Fatum & Fortuna",
+      "statBonus": "Speed",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:ferro:r10",
+    "source": "relics",
+    "name": "Ferro (Rank 10)",
+    "text": "At the start of battle, the bearer gains Proficient.",
+    "textHash": "d6ecc6a2deda",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:ferro:r100",
+    "source": "relics",
+    "name": "Ferro (Rank 100)",
+    "text": "At the start of battle, the bearer gains Animated Weapon.",
+    "textHash": "d91334de7c8c",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:ferro:r20",
+    "source": "relics",
+    "name": "Ferro (Rank 20)",
+    "text": "After the bearer Attacks, this relic Attacks the enemy as well.",
+    "textHash": "4b512c495849",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:ferro:r30",
+    "source": "relics",
+    "name": "Ferro (Rank 30)",
+    "text": "At the start of its bearer's turn, this relic gives one of your creatures Proficient. It prioritizes the bearer.",
+    "textHash": "8937968891ca",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:ferro:r40",
+    "source": "relics",
+    "name": "Ferro (Rank 40)",
+    "text": "The bearer's Proficient buff is 100% more effective.",
+    "textHash": "27ecf872b09b",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:ferro:r50",
+    "source": "relics",
+    "name": "Ferro (Rank 50)",
+    "text": "At the start of each enemy's turn, this relic has a 25% chance to Attack it.",
+    "textHash": "0f8bd40ffc97",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:ferro:r60",
+    "source": "relics",
+    "name": "Ferro (Rank 60)",
+    "text": "The bearer is immune to Disarmed.",
+    "textHash": "99bd71b3b1c6",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:ferro:r70",
+    "source": "relics",
+    "name": "Ferro (Rank 70)",
+    "text": "While the bearer has Proficient, 25% of its Attack is added to the potency of its spells.",
+    "textHash": "8568c3362297",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:ferro:r80",
+    "source": "relics",
+    "name": "Ferro (Rank 80)",
+    "text": "When this relic Attacks, it has a 25% chance to damage all enemies.",
+    "textHash": "fba9963b0ff3",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:ferro:r90",
+    "source": "relics",
+    "name": "Ferro (Rank 90)",
+    "text": "The bearer's ♦ Spell Slot has an independent 25% chance to activate.",
+    "textHash": "b2e32fd39b62",
+    "meta": {
+      "relic": "Ferro, Great Axe of Gonfurian",
+      "shortName": "Ferro",
+      "statBonus": "Attack",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:fleshripper:r10",
+    "source": "relics",
+    "name": "Fleshripper (Rank 10)",
+    "text": "After the bearer Attacks or is Attacked, it afflicts the enemy with Bleeding.",
+    "textHash": "f86113cd8f60",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:fleshripper:r100",
+    "source": "relics",
+    "name": "Fleshripper (Rank 100)",
+    "text": "After the bearer Attacks a target with Bleeding, this relic Casts Lacerate on the target.",
+    "textHash": "9063de699ab3",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:fleshripper:r20",
+    "source": "relics",
+    "name": "Fleshripper (Rank 20)",
+    "text": "At the start of the bearer's turn, this relic afflicts a random enemy with Bleeding.",
+    "textHash": "796e67ab8fad",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:fleshripper:r30",
+    "source": "relics",
+    "name": "Fleshripper (Rank 30)",
+    "text": "After an enemy takes damage from Bleeding, the bearer recovers Health equal to 30% of the damage dealt.",
+    "textHash": "8ed281d96112",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:fleshripper:r40",
+    "source": "relics",
+    "name": "Fleshripper (Rank 40)",
+    "text": "After an enemy takes damage from Bleeding, this relic has a 25% chance to Attack it.",
+    "textHash": "7239a3822bbd",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:fleshripper:r50",
+    "source": "relics",
+    "name": "Fleshripper (Rank 50)",
+    "text": "After this relic or its bearer Attacks an enemy with Bleeding, it has a 25% chance to take damage from this debuff immediately.",
+    "textHash": "2e6f6ac272ef",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:fleshripper:r60",
+    "source": "relics",
+    "name": "Fleshripper (Rank 60)",
+    "text": "At the start of each enemy's turn, this relic has a 20% chance to Cast Mangle on it.",
+    "textHash": "b40f10ae6b6d",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:fleshripper:r70",
+    "source": "relics",
+    "name": "Fleshripper (Rank 70)",
+    "text": "Enemies take 50% more damage from Bleeding.",
+    "textHash": "9ff3843b5df9",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:fleshripper:r80",
+    "source": "relics",
+    "name": "Fleshripper (Rank 80)",
+    "text": "After an enemy takes damage from Bleeding, the bearer has a 25% chance to Attack it.",
+    "textHash": "daba333ed468",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:fleshripper:r90",
+    "source": "relics",
+    "name": "Fleshripper (Rank 90)",
+    "text": "When an enemy takes damage from Bleeding, it has a 50% chance to continue taking damage from this debuff. This effect can occur repeatedly.",
+    "textHash": "bb7fbf68f3f2",
+    "meta": {
+      "relic": "Fleshripper, Bloodied Cleaver of Tartarith",
+      "shortName": "Fleshripper",
+      "statBonus": "Attack",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r10",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 10)",
+    "text": "After the bearer is Attacked, this relic Attacks the enemy.",
+    "textHash": "20898ac3dd25",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r100",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 100)",
+    "text": "This relic and its bearer deal additional damage equal to 10% of the damage the bearer has received from attacks in the current battle.",
+    "textHash": "cfc2482ae7a0",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r20",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 20)",
+    "text": "After the bearer Provokes, all enemies Attack it.",
+    "textHash": "634240f4067a",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r30",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 30)",
+    "text": "After the bearer is Attacked while it is Provoking, it gains 10% Maximum Health.",
+    "textHash": "96448fe59cd1",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r40",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 40)",
+    "text": "The bearer has 50% more Defense while it is Provoking.",
+    "textHash": "69b020d8a9b5",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r50",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 50)",
+    "text": "This relic Attacks 2 additional times.",
+    "textHash": "5b3f1aa9c9f1",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r60",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 60)",
+    "text": "After the bearer is Attacked while it is Provoking, it recovers 20% Health.",
+    "textHash": "5e85cab7be37",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r70",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 70)",
+    "text": "The bearer takes 50% less damage from attacks.",
+    "textHash": "7c52b1ca089b",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r80",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 80)",
+    "text": "While the bearer is Provoking, this relic always deals critical damage.",
+    "textHash": "513908780344",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:hanti-and-jihi:r90",
+    "source": "relics",
+    "name": "Hanti & Jihi (Rank 90)",
+    "text": "After the bearer is Attacked 3 times in one turn, this relic Casts 5 random Arrow spells.",
+    "textHash": "45c0c455051a",
+    "meta": {
+      "relic": "Hanti & Jihi, Sister Swords of Perdition",
+      "shortName": "Hanti & Jihi",
+      "statBonus": "Health",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:lamora:r10",
+    "source": "relics",
+    "name": "Lamora (Rank 10)",
+    "text": "After this relic or its bearer Attacks, it afflicts its target with Blighted.",
+    "textHash": "3f43a90062f5",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:lamora:r100",
+    "source": "relics",
+    "name": "Lamora (Rank 100)",
+    "text": "After the bearer Casts a healing spell on an enemy with Blighted, this relic Casts Major Healing on the target.",
+    "textHash": "912767cc74bd",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:lamora:r20",
+    "source": "relics",
+    "name": "Lamora (Rank 20)",
+    "text": "After the bearer is Attacked, this relic Attacks the enemy.",
+    "textHash": "20898ac3dd25",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:lamora:r30",
+    "source": "relics",
+    "name": "Lamora (Rank 30)",
+    "text": "At the start of its bearer's turn, this relic Casts Minor Healing on each enemy with Blighted.",
+    "textHash": "e12184180b07",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:lamora:r40",
+    "source": "relics",
+    "name": "Lamora (Rank 40)",
+    "text": "The bearer is immune to Blighted.",
+    "textHash": "aadb0ca79d77",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:lamora:r50",
+    "source": "relics",
+    "name": "Lamora (Rank 50)",
+    "text": "This relic and its bearer deal additional damage to enemies equal to 15% of the damage that enemy has received from Blighted.",
+    "textHash": "eb78c2f7eb71",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:lamora:r60",
+    "source": "relics",
+    "name": "Lamora (Rank 60)",
+    "text": "After the bearer afflicts an enemy with Blighted, it also afflicts them with Mending.",
+    "textHash": "0576602ac0b3",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:lamora:r70",
+    "source": "relics",
+    "name": "Lamora (Rank 70)",
+    "text": "This relic and its bearer give 50% more healing to enemies with Blighted.",
+    "textHash": "b409bce4f455",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:lamora:r80",
+    "source": "relics",
+    "name": "Lamora (Rank 80)",
+    "text": "After the bearer afflicts an enemy with Blighted, it also afflicts them with Leeching.",
+    "textHash": "38bb4208c279",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:lamora:r90",
+    "source": "relics",
+    "name": "Lamora (Rank 90)",
+    "text": "This relic Casts spells as if it has 30% more Intelligence for each enemy with Blighted.",
+    "textHash": "9b02bd124cd0",
+    "meta": {
+      "relic": "Lamora, Gilded Scimitar of Friden",
+      "shortName": "Lamora",
+      "statBonus": "Defense",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:materium:r10",
+    "source": "relics",
+    "name": "Materium (Rank 10)",
+    "text": "This relic and its bearer deal damage as if they are strong against the enemy's class.",
+    "textHash": "49859285eb5b",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:materium:r100",
+    "source": "relics",
+    "name": "Materium (Rank 100)",
+    "text": "The bearer can equip Sorcery Spell Gems.",
+    "textHash": "25bac2fdd37a",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:materium:r20",
+    "source": "relics",
+    "name": "Materium (Rank 20)",
+    "text": "The bearer can equip Chaos Spell Gems.",
+    "textHash": "e68c97b160c7",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:materium:r30",
+    "source": "relics",
+    "name": "Materium (Rank 30)",
+    "text": "The bearer takes damage as if it is strong against the enemy's class.",
+    "textHash": "63497a2d3bb0",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:materium:r40",
+    "source": "relics",
+    "name": "Materium (Rank 40)",
+    "text": "The bearer can equip Life Spell Gems.",
+    "textHash": "61f01a1ba9bb",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:materium:r50",
+    "source": "relics",
+    "name": "Materium (Rank 50)",
+    "text": "After the bearer Casts a spell, this relic Attacks a random enemy.",
+    "textHash": "0769b9fbc750",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:materium:r60",
+    "source": "relics",
+    "name": "Materium (Rank 60)",
+    "text": "The bearer can equip Nature Spell Gems.",
+    "textHash": "2538abccb372",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:materium:r70",
+    "source": "relics",
+    "name": "Materium (Rank 70)",
+    "text": "At the start of battle, the bearer's class is changed to that of the top-most Spell Gem it has equipped.",
+    "textHash": "3f04dd059093",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:materium:r80",
+    "source": "relics",
+    "name": "Materium (Rank 80)",
+    "text": "The bearer can equip Death Spell Gems.",
+    "textHash": "a67e1d69b478",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:materium:r90",
+    "source": "relics",
+    "name": "Materium (Rank 90)",
+    "text": "After the bearer Casts a spell, this relic has a 10% chance to Cast each of the bearer's non-Ethereal spells that do not belong to its class.",
+    "textHash": "a59a40d9043b",
+    "meta": {
+      "relic": "Materium, Shifting Gem of Aurum",
+      "shortName": "Materium",
+      "statBonus": "Defense",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r10",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 10)",
+    "text": "After the bearer Attacks, it afflicts the target with Scorned.",
+    "textHash": "203ad26a0dac",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r100",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 100)",
+    "text": "At the start of the bearer's turn, if at least one enemy has Scorned and one enemy has Silenced, this relic Casts Planets.",
+    "textHash": "15aee83b44a7",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r20",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 20)",
+    "text": "After the bearer afflicts an enemy with Scorned, this relic Attacks it.",
+    "textHash": "5c9fafdf8ef3",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r30",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 30)",
+    "text": "After the bearer Casts a single-target spell on an enemy, it afflicts the target with Silenced.",
+    "textHash": "92e9f20fed6a",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r40",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 40)",
+    "text": "After the bearer afflicts an enemy with Silenced, this relic Casts a random single-target spell on it.",
+    "textHash": "20a2c1ac4000",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r50",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 50)",
+    "text": "After the bearer afflicts an enemy with Scorned and the enemy already has Silenced, this relic Casts Meteor Shower.",
+    "textHash": "921c45ac3049",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r60",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 60)",
+    "text": "After this relic Casts Meteor Shower, the bearer gains 10% Attack or Intelligence; whichever is lowest.",
+    "textHash": "6dd4de3c421e",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r70",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 70)",
+    "text": "This relic and its bearer deal 30% more damage to enemies with Scorned or Silenced.",
+    "textHash": "19d28dfb52d9",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r80",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 80)",
+    "text": "After the bearer afflicts an enemy with Silenced and the enemy already has Scorned, this relic Casts Meteor Shower.",
+    "textHash": "cd14ea22ac13",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:moonfire-and-sunfury:r90",
+    "source": "relics",
+    "name": "Moonfire & Sunfury (Rank 90)",
+    "text": "After the bearer afflicts an enemy with Silenced or Scorned, the enemy loses one of its buffs.",
+    "textHash": "3f5b90a0ac86",
+    "meta": {
+      "relic": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+      "shortName": "Moonfire & Sunfury",
+      "statBonus": "Intelligence",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:mutatias:r10",
+    "source": "relics",
+    "name": "Mutatias (Rank 10)",
+    "text": "At the start of the bearer's turn (other than its first turn), this relic Attacks a random enemy for every 2 turns the bearer has taken in the current battle.",
+    "textHash": "b0c726a84638",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:mutatias:r100",
+    "source": "relics",
+    "name": "Mutatias (Rank 100)",
+    "text": "The bearer takes 2 turns at a time.",
+    "textHash": "3a7162809b62",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:mutatias:r20",
+    "source": "relics",
+    "name": "Mutatias (Rank 20)",
+    "text": "This relic and its bearer have 10% more Attack for each turn the bearer has taken in the current battle.",
+    "textHash": "3efd0cb6155f",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:mutatias:r30",
+    "source": "relics",
+    "name": "Mutatias (Rank 30)",
+    "text": "At the end of each creature's turn, this relic has a 5% chance to Cast Timewalk on the bearer.",
+    "textHash": "2043f3b97e26",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:mutatias:r40",
+    "source": "relics",
+    "name": "Mutatias (Rank 40)",
+    "text": "This relic and its bearer have 10% more Intelligence for each turn the bearer has taken in the current battle.",
+    "textHash": "7dd9370094b1",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:mutatias:r50",
+    "source": "relics",
+    "name": "Mutatias (Rank 50)",
+    "text": "This relic and its bearer deal 15% more damage for each turn the bearer has taken in the current battle.",
+    "textHash": "8c7df2e38bbc",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:mutatias:r60",
+    "source": "relics",
+    "name": "Mutatias (Rank 60)",
+    "text": "This relic and its bearer have 10% more Defense for each turn the bearer has taken in the current battle.",
+    "textHash": "5090f67697d3",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:mutatias:r70",
+    "source": "relics",
+    "name": "Mutatias (Rank 70)",
+    "text": "The bearer takes 10% less damage (up to 90%) for each turn it has taken in the current battle.",
+    "textHash": "a66b45b53fdf",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:mutatias:r80",
+    "source": "relics",
+    "name": "Mutatias (Rank 80)",
+    "text": "This relic and its bearer have 10% more Speed for each turn the bearer has taken in the current battle.",
+    "textHash": "1f54af13dea6",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:mutatias:r90",
+    "source": "relics",
+    "name": "Mutatias (Rank 90)",
+    "text": "At the end of the bearer's turn (other than its first turn), this relic Casts Death Blossom.",
+    "textHash": "08e9fc70af08",
+    "meta": {
+      "relic": "Mutatias, War Scissors of Alexandria",
+      "shortName": "Mutatias",
+      "statBonus": "Defense",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r10",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 10)",
+    "text": "At the start of battle, the bearer gains 50% Speed.",
+    "textHash": "680221280738",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r100",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 100)",
+    "text": "After the bearer dodges, this relic Casts Earthquake.",
+    "textHash": "a9d0b48baf12",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r20",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 20)",
+    "text": "At the start of each enemy's turn, this relic has a 20% chance to Attack that enemy.",
+    "textHash": "edd0bf4c7247",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r30",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 30)",
+    "text": "At the start of the bearer's turn, this relic increases its Speed by 20%.",
+    "textHash": "8421a28ab0bc",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r40",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 40)",
+    "text": "The damage of the bearer's attacks is increased by 15% of its Speed.",
+    "textHash": "8735a03fc2db",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r50",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 50)",
+    "text": "The bearer has a 25% chance to start battles at the top of the Timeline.",
+    "textHash": "56a93f79ddd5",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r60",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 60)",
+    "text": "The bearer is immune to Feared.",
+    "textHash": "b3b4531e93db",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r70",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 70)",
+    "text": "The potency of the bearer's spells is increased by 15% of its Speed.",
+    "textHash": "555c0f00af23",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r80",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 80)",
+    "text": "The bearer has additional Defense equal to 15% of its Speed.",
+    "textHash": "5c2b4d039976",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:petra-and-aes:r90",
+    "source": "relics",
+    "name": "Petra & Aes (Rank 90)",
+    "text": "After the bearer gains Speed, it has a 30% chance to gain Rebirth.",
+    "textHash": "af83e175d03e",
+    "meta": {
+      "relic": "Petra & Aes, War Drums of Meraxis",
+      "shortName": "Petra & Aes",
+      "statBonus": "Speed",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r10",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 10)",
+    "text": "At the start of battle, the bearer gains Agile.",
+    "textHash": "c5c700be7e64",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r100",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 100)",
+    "text": "This relic and its bearer deal 3% more damage for each time the bearer has Attacked or Cast a spell in the current battle.",
+    "textHash": "ed0e638809e3",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r20",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 20)",
+    "text": "The bearer has an independent 25% chance to Dodge attacks.",
+    "textHash": "d3842b9780fd",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r30",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 30)",
+    "text": "At the start of its bearer's turn, this relic Attacks a random enemy twice for 50% normal damage.",
+    "textHash": "ebc20588699e",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r40",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 40)",
+    "text": "The bearer's Agile buff activates twice.",
+    "textHash": "17237f4c4340",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r50",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 50)",
+    "text": "At the start of battle, the bearer gains Savage.",
+    "textHash": "de8d08572ec5",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r60",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 60)",
+    "text": "The bearer has an independent 25% chance to deal critical damage.",
+    "textHash": "e248765ffd6f",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r70",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 70)",
+    "text": "Enemies cannot move the bearer to the bottom of the Timeline.",
+    "textHash": "b6b01e287b4e",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r80",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 80)",
+    "text": "After the bearer Dodges an attack or deals critical damage, this relic Attacks the enemy twice for 50% normal damage.",
+    "textHash": "c10a330c331f",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:prime-and-ventus:r90",
+    "source": "relics",
+    "name": "Prime & Ventus (Rank 90)",
+    "text": "The bearer's Savage buff activates twice.",
+    "textHash": "453722b3ed1e",
+    "meta": {
+      "relic": "Prime & Ventus, Claws of Aeolian",
+      "shortName": "Prime & Ventus",
+      "statBonus": "Speed",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:ribcracker:r10",
+    "source": "relics",
+    "name": "Ribcracker (Rank 10)",
+    "text": "After the bearer manually Casts a spell, this relic Casts a random spell as well.",
+    "textHash": "03290e9235bf",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:ribcracker:r100",
+    "source": "relics",
+    "name": "Ribcracker (Rank 100)",
+    "text": "At the start of the bearer's turn, it Casts Glory.",
+    "textHash": "7f03e2ced221",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:ribcracker:r20",
+    "source": "relics",
+    "name": "Ribcracker (Rank 20)",
+    "text": "The bearer deals 5% more damage with spells for each time it has Cast a spell in the current battle.",
+    "textHash": "283cbf69648d",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:ribcracker:r30",
+    "source": "relics",
+    "name": "Ribcracker (Rank 30)",
+    "text": "This relic and its bearer gain 5% more stats from all sources for each time this relic has Cast a spell in the current battle.",
+    "textHash": "5185625a16a7",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:ribcracker:r40",
+    "source": "relics",
+    "name": "Ribcracker (Rank 40)",
+    "text": "This relic and its bearer have 5% more Intelligence for each time it and this relic have Cast a spell in the current battle.",
+    "textHash": "c0385cc60e0a",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:ribcracker:r50",
+    "source": "relics",
+    "name": "Ribcracker (Rank 50)",
+    "text": "The bearer's healing and stat-modifying spells have 10% more potency for each time this relic has Cast a spell in the current battle.",
+    "textHash": "9bc201c91e75",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:ribcracker:r60",
+    "source": "relics",
+    "name": "Ribcracker (Rank 60)",
+    "text": "After this relic Casts a spell, it also Attacks a random enemy.",
+    "textHash": "e025099117d5",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:ribcracker:r70",
+    "source": "relics",
+    "name": "Ribcracker (Rank 70)",
+    "text": "If the bearer has Cast spells at least 5 times in the current battle, its Spell Gems do not consume any Charges.",
+    "textHash": "c18157431c82",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:ribcracker:r80",
+    "source": "relics",
+    "name": "Ribcracker (Rank 80)",
+    "text": "The bearer takes 3% less damage (up to 90%) for each time it and this relic have Cast a spell in the current battle.",
+    "textHash": "ca9466db9ced",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:ribcracker:r90",
+    "source": "relics",
+    "name": "Ribcracker (Rank 90)",
+    "text": "If the bearer has Cast spells at least 10 times in the current battle, the potency of its attacks is based on 120% of its Intelligence rather than its Attack.",
+    "textHash": "8a45fe8961e5",
+    "meta": {
+      "relic": "Ribcracker, Otherworldly Rod of Ariamaki",
+      "shortName": "Ribcracker",
+      "statBonus": "Intelligence",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:ripplevein:r10",
+    "source": "relics",
+    "name": "Ripplevein (Rank 10)",
+    "text": "At the start of battle, the bearer gains 3 stacks of Zombies.",
+    "textHash": "0598ababcf6a",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:ripplevein:r100",
+    "source": "relics",
+    "name": "Ripplevein (Rank 100)",
+    "text": "At the start of the bearer's turn, it Casts Crucifixion on a random enemy.",
+    "textHash": "a36d0d692a91",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:ripplevein:r20",
+    "source": "relics",
+    "name": "Ripplevein (Rank 20)",
+    "text": "At the start of the bearer's turn, this relic Attacks a random enemy for each minion the bearer has. These attacks deal 25% normal damage.",
+    "textHash": "1483a47291dd",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:ripplevein:r30",
+    "source": "relics",
+    "name": "Ripplevein (Rank 30)",
+    "text": "After this relic Attacks, the bearer gains 1 stack of Spiderlings.",
+    "textHash": "a9d0a15e454d",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:ripplevein:r40",
+    "source": "relics",
+    "name": "Ripplevein (Rank 40)",
+    "text": "The bearer deals 5% more damage for each minion stack it has.",
+    "textHash": "f3d1d4cf872b",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:ripplevein:r50",
+    "source": "relics",
+    "name": "Ripplevein (Rank 50)",
+    "text": "The bearer's spells that interact with minions are Cast 2 additional times.",
+    "textHash": "2eca6f88a4c9",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:ripplevein:r60",
+    "source": "relics",
+    "name": "Ripplevein (Rank 60)",
+    "text": "The bearer takes 3% less damage (up to 90%) for each minion stack it has.",
+    "textHash": "aa9176ddc3f9",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:ripplevein:r70",
+    "source": "relics",
+    "name": "Ripplevein (Rank 70)",
+    "text": "After this relic Attacks, the bearer gains 1 stack of Unstable Horror.",
+    "textHash": "261117abc6ca",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:ripplevein:r80",
+    "source": "relics",
+    "name": "Ripplevein (Rank 80)",
+    "text": "After the bearer Attacks or Casts a spell, it gains 1 stack of Dire Wolves.",
+    "textHash": "9d64cdcbbcf5",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:ripplevein:r90",
+    "source": "relics",
+    "name": "Ripplevein (Rank 90)",
+    "text": "After the bearer gains Zombies, Spiderlings, Unstable Horror, or Dire Wolves, it gains one of the four horsemen minions.",
+    "textHash": "2e0f7bd1c2d0",
+    "meta": {
+      "relic": "Ripplevein, Imbued Brush of Muse",
+      "shortName": "Ripplevein",
+      "statBonus": "Health",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r10",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 10)",
+    "text": "After the bearer Attacks or is Attacked, it afflicts the enemy with Blind.",
+    "textHash": "c6a7975f9a42",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r100",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 100)",
+    "text": "After this relic Attacks, it has a 20% chance to Cast Murder of Crows for each enemy with Blind.",
+    "textHash": "ddc6225c65d9",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r20",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 20)",
+    "text": "The bearer takes 30% less damage from enemies with Blind.",
+    "textHash": "7b33848b41f2",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r30",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 30)",
+    "text": "At the start of its bearer's turn, this relic Attacks enemies with Blind. These attacks deal 15% less damage for each enemy it Attacks with this effect.",
+    "textHash": "fc2ad2065eae",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r40",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 40)",
+    "text": "After the bearer Attacks an enemy with Blind, it afflicts the target with a random debuff.",
+    "textHash": "a5fee4fb0fcf",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r50",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 50)",
+    "text": "The bearer's stat-reducing effects are 50% more potent when used on Blind enemies.",
+    "textHash": "618f1d16c676",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r60",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 60)",
+    "text": "The bearer is immune to Blind.",
+    "textHash": "623a157db2d2",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r70",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 70)",
+    "text": "This relic and its bearer deal 35% more damage to Blind enemies.",
+    "textHash": "7aa5044c5c90",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r80",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 80)",
+    "text": "Blind enemies' spells that are Cast on the bearer are 50% less potent.",
+    "textHash": "8867e58718c6",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:rosenthorne:r90",
+    "source": "relics",
+    "name": "Rosenthorne (Rank 90)",
+    "text": "The bearer can Cast single-target spells on Blind creatures without consuming any Charges.",
+    "textHash": "104a40da7459",
+    "meta": {
+      "relic": "Rosenthorne, Dark Blade of Erebyss",
+      "shortName": "Rosenthorne",
+      "statBonus": "Attack",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:salus:r10",
+    "source": "relics",
+    "name": "Salus (Rank 10)",
+    "text": "At the start of battle, the bearer gains Mending.",
+    "textHash": "377a584e4cde",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:salus:r100",
+    "source": "relics",
+    "name": "Salus (Rank 100)",
+    "text": "After the bearer takes damage, this relic deals damage to the enemy equal to 50% of the damage dealt.",
+    "textHash": "9e69817a88c3",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:salus:r20",
+    "source": "relics",
+    "name": "Salus (Rank 20)",
+    "text": "The bearer takes 25% less damage from attacks.",
+    "textHash": "ad5a1966afeb",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:salus:r30",
+    "source": "relics",
+    "name": "Salus (Rank 30)",
+    "text": "The bearer Defends at the end of its turn.",
+    "textHash": "19e989cf9358",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:salus:r40",
+    "source": "relics",
+    "name": "Salus (Rank 40)",
+    "text": "At the start of each enemy's turn, this relic has a 10% chance to Cast Soothing Breeze.",
+    "textHash": "c6cf40b570bf",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:salus:r50",
+    "source": "relics",
+    "name": "Salus (Rank 50)",
+    "text": "After the bearer takes damage, this relic increases its Maximum Health by 5%.",
+    "textHash": "b75736c51b1a",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:salus:r60",
+    "source": "relics",
+    "name": "Salus (Rank 60)",
+    "text": "The bearer takes 25% less damage from spells.",
+    "textHash": "483365a7894b",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:salus:r70",
+    "source": "relics",
+    "name": "Salus (Rank 70)",
+    "text": "The bearer deals additional damage equal to 20% of the healing it has received in the current battle.",
+    "textHash": "46e6a1429939",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:salus:r80",
+    "source": "relics",
+    "name": "Salus (Rank 80)",
+    "text": "At the start of the bearer's turn, this relic Casts Zephyr.",
+    "textHash": "07fe3f3f7cd8",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:salus:r90",
+    "source": "relics",
+    "name": "Salus (Rank 90)",
+    "text": "The bearer takes 25% less damage from all sources.",
+    "textHash": "c77dc5e917ca",
+    "meta": {
+      "relic": "Salus, Jade Guardian of Lister",
+      "shortName": "Salus",
+      "statBonus": "Defense",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:starwrath:r10",
+    "source": "relics",
+    "name": "Starwrath (Rank 10)",
+    "text": "After the bearer Defends, this relic afflicts a random enemy with Confused.",
+    "textHash": "8b88337de15d",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:starwrath:r100",
+    "source": "relics",
+    "name": "Starwrath (Rank 100)",
+    "text": "Enemies have a 10% chance to Attack and Cast spells as if they have Confused even if they don't have this debuff.",
+    "textHash": "b8e72a2f6201",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:starwrath:r20",
+    "source": "relics",
+    "name": "Starwrath (Rank 20)",
+    "text": "While the bearer is Defending, it cannot lose stats.",
+    "textHash": "159abbd1a38e",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:starwrath:r30",
+    "source": "relics",
+    "name": "Starwrath (Rank 30)",
+    "text": "When an enemy with Confused would gain stats, it has a 50% chance to lose stats instead.",
+    "textHash": "c54161ecb268",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:starwrath:r40",
+    "source": "relics",
+    "name": "Starwrath (Rank 40)",
+    "text": "At the end of the bearer's turn, this relic Attacks a random enemy with Confused.",
+    "textHash": "a018ac46ee85",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:starwrath:r50",
+    "source": "relics",
+    "name": "Starwrath (Rank 50)",
+    "text": "Enemies' Confused debuffs have an independent 20% chance to activate.",
+    "textHash": "486990246ead",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:starwrath:r60",
+    "source": "relics",
+    "name": "Starwrath (Rank 60)",
+    "text": "While the bearer is Defending, enemies' Confused debuffs have a 50% greater chance to activate.",
+    "textHash": "a30484fd323b",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:starwrath:r70",
+    "source": "relics",
+    "name": "Starwrath (Rank 70)",
+    "text": "When an enemy with Confused would be healed, it has a 50% chance to take damage instead.",
+    "textHash": "81098bbe1b0d",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:starwrath:r80",
+    "source": "relics",
+    "name": "Starwrath (Rank 80)",
+    "text": "After this relic Attacks an enemy with Confused, the enemy Attacks itself.",
+    "textHash": "ce69acd6a2b3",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:starwrath:r90",
+    "source": "relics",
+    "name": "Starwrath (Rank 90)",
+    "text": "While the bearer is Defending, it has a 10% chance to avoid damage.",
+    "textHash": "d571faade840",
+    "meta": {
+      "relic": "Starwrath, Great Spear of Yseros",
+      "shortName": "Starwrath",
+      "statBonus": "Defense",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:temptation:r10",
+    "source": "relics",
+    "name": "Temptation (Rank 10)",
+    "text": "After the bearer Attacks an enemy, the enemy Attacks itself. The amount of damage dealt is based on the bearer's Attack.",
+    "textHash": "02b0578c9a83",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:temptation:r100",
+    "source": "relics",
+    "name": "Temptation (Rank 100)",
+    "text": "After an enemy Casts a stat-boosting spell, it Casts it on the bearer as well.",
+    "textHash": "3a9c401d813c",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:temptation:r20",
+    "source": "relics",
+    "name": "Temptation (Rank 20)",
+    "text": "After an enemy Attacks itself, this relic Attacks it as well.",
+    "textHash": "8e5136b95ed7",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:temptation:r30",
+    "source": "relics",
+    "name": "Temptation (Rank 30)",
+    "text": "After an enemy Casts a healing spell, it Casts it on the bearer as well.",
+    "textHash": "90ac06a49035",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:temptation:r40",
+    "source": "relics",
+    "name": "Temptation (Rank 40)",
+    "text": "After this relic or its bearer Attacks an enemy, it removes the enemy's Defending status.",
+    "textHash": "d3c3b9fe7cf1",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:temptation:r50",
+    "source": "relics",
+    "name": "Temptation (Rank 50)",
+    "text": "After this relic Attacks, it has a 50% chance to Attack an additional enemy. This effect can occur repeatedly.",
+    "textHash": "8bd0a6fd79e1",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:temptation:r60",
+    "source": "relics",
+    "name": "Temptation (Rank 60)",
+    "text": "This relic and its bearer deal 30% more damage with attacks.",
+    "textHash": "6430d5c84e63",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:temptation:r70",
+    "source": "relics",
+    "name": "Temptation (Rank 70)",
+    "text": "After this relic or its bearer Attacks an enemy, they remove the enemy's Provoking status.",
+    "textHash": "f1685d71ff08",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:temptation:r80",
+    "source": "relics",
+    "name": "Temptation (Rank 80)",
+    "text": "After an enemy Casts a spell that grants a buff, it Casts it on the bearer as well.",
+    "textHash": "3ffdc7381a77",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:temptation:r90",
+    "source": "relics",
+    "name": "Temptation (Rank 90)",
+    "text": "After this relic Attacks, it increases the bearer's Speed by 5%.",
+    "textHash": "2001d3947de5",
+    "meta": {
+      "relic": "Temptation, Bladed Whip of Regalis",
+      "shortName": "Temptation",
+      "statBonus": "Speed",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r10",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 10)",
+    "text": "After the bearer Attacks or Casts a single-target spell on an enemy, this relic Attacks the enemy.",
+    "textHash": "06e010382b55",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r100",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 100)",
+    "text": "When the bearer Casts a spell multiple times in one turn, each cast after the first one has a 50% chance to not cost any Charges.",
+    "textHash": "957de536f14f",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r20",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 20)",
+    "text": "This relic and its bearer Attack and Cast spells 1 additional time.",
+    "textHash": "ad89e5c14704",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r30",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 30)",
+    "text": "After the bearer Casts a spell, this relic Casts a copy of that spell as well.",
+    "textHash": "6ca037c9d393",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r40",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 40)",
+    "text": "This relic and its bearer deal 1% more damage for each time they have Attacked or Cast a spell in the current battle.",
+    "textHash": "d1d16274786d",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r50",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 50)",
+    "text": "This relic and its bearer have a 20% additional chance to deal critical damage for each consecutive time they Attacked or Cast a spell during the current turn.",
+    "textHash": "a16e6badcd3a",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r60",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 60)",
+    "text": "This relic and its bearer can Attack and Cast spells a maximum of 20 times per turn.",
+    "textHash": "bdf10a2c86a8",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r70",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 70)",
+    "text": "This relic and is bearer Attack 1 additional time for each turn the bearer has taken in the current battle.",
+    "textHash": "6f6b1ec8f2ad",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r80",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 80)",
+    "text": "This relic and its bearer deal 15% additional damage for each consecutive time the bearer has Attacked or Cast a spell during the current turn.",
+    "textHash": "7a3522815562",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:thousand-needles:r90",
+    "source": "relics",
+    "name": "Thousand Needles (Rank 90)",
+    "text": "This relic and its bearer Cast spells 1 additional time for each turn the bearer has taken in the current battle.",
+    "textHash": "f859d59261a4",
+    "meta": {
+      "relic": "Thousand Needles, Honed Bow of Apocranox",
+      "shortName": "Thousand Needles",
+      "statBonus": "Speed",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:triumvir:r10",
+    "source": "relics",
+    "name": "Triumvir (Rank 10)",
+    "text": "At the start of battle, this relic gives its bearer Arcane.",
+    "textHash": "a4ccff528e6d",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:triumvir:r100",
+    "source": "relics",
+    "name": "Triumvir (Rank 100)",
+    "text": "After the bearer gains Arcane, this relic Casts Lightning Storm.",
+    "textHash": "a1062573c86e",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:triumvir:r20",
+    "source": "relics",
+    "name": "Triumvir (Rank 20)",
+    "text": "After the bearer Casts a spell, this relic Attacks a random enemy.",
+    "textHash": "0769b9fbc750",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:triumvir:r30",
+    "source": "relics",
+    "name": "Triumvir (Rank 30)",
+    "text": "While the bearer has Arcane, its spells deal 100% more damage.",
+    "textHash": "5a3e5b30c427",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:triumvir:r40",
+    "source": "relics",
+    "name": "Triumvir (Rank 40)",
+    "text": "After the bearer gains Arcane, this relic Casts Snowstorm.",
+    "textHash": "260afd526792",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:triumvir:r50",
+    "source": "relics",
+    "name": "Triumvir (Rank 50)",
+    "text": "After the bearer manually Casts a spell while it has Arcane, it has a 30% chance for that Spell Gem to gain a Charge.",
+    "textHash": "e46ae85f9c59",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:triumvir:r60",
+    "source": "relics",
+    "name": "Triumvir (Rank 60)",
+    "text": "While the bearer has Arcane, its spells heal for 100% more.",
+    "textHash": "28a2a832ed56",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:triumvir:r70",
+    "source": "relics",
+    "name": "Triumvir (Rank 70)",
+    "text": "After the bearer gains Arcane, this relic Casts Firestorm.",
+    "textHash": "0b10bbc96b03",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:triumvir:r80",
+    "source": "relics",
+    "name": "Triumvir (Rank 80)",
+    "text": "After the bearer manually Casts a spell, this relic has a 50% chance to give it Arcane.",
+    "textHash": "d9c858d45f22",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:triumvir:r90",
+    "source": "relics",
+    "name": "Triumvir (Rank 90)",
+    "text": "While the bearer has Arcane, its spells that affect stats are 100% more potent.",
+    "textHash": "552bb3910fa1",
+    "meta": {
+      "relic": "Triumvir, Arcane Sceptre of Zonte",
+      "shortName": "Triumvir",
+      "statBonus": "Intelligence",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:vitreous:r10",
+    "source": "relics",
+    "name": "Vitreous (Rank 10)",
+    "text": "After the bearer Attacks, this relic Attacks the enemy as well.",
+    "textHash": "4b512c495849",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:vitreous:r100",
+    "source": "relics",
+    "name": "Vitreous (Rank 100)",
+    "text": "At the start of the bearer's turn, this relic Casts Fury Swipes on the bearer.",
+    "textHash": "938e7715ef8d",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:vitreous:r20",
+    "source": "relics",
+    "name": "Vitreous (Rank 20)",
+    "text": "The bearer deals 5% more damage with attacks for each time it has Attacked in the current battle.",
+    "textHash": "710df31fe853",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:vitreous:r30",
+    "source": "relics",
+    "name": "Vitreous (Rank 30)",
+    "text": "This relic and its bearer gain 10% more stats from all sources for each time this relic has Attacked in the current battle.",
+    "textHash": "e96fb7886074",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:vitreous:r40",
+    "source": "relics",
+    "name": "Vitreous (Rank 40)",
+    "text": "This relic and its bearer have 3% more Attack for each time it and this relic have Attacked in the current battle.",
+    "textHash": "59a12c98f482",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:vitreous:r50",
+    "source": "relics",
+    "name": "Vitreous (Rank 50)",
+    "text": "The bearer deals 5% more damage with attacks for each time this relic has Attacked in the current battle.",
+    "textHash": "77dade8dd490",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:vitreous:r60",
+    "source": "relics",
+    "name": "Vitreous (Rank 60)",
+    "text": "If the bearer has Attacked at least 5 times in the current battle, it and this relic always deal critical damage with attacks.",
+    "textHash": "dddf576b2f82",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:vitreous:r70",
+    "source": "relics",
+    "name": "Vitreous (Rank 70)",
+    "text": "If the bearer has Attacked at least 5 times in the current battle, its Spell Gems do not consume any Charges.",
+    "textHash": "579057df8efe",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:vitreous:r80",
+    "source": "relics",
+    "name": "Vitreous (Rank 80)",
+    "text": "The bearer takes 3% less damage (up to 90%) for each time it and this relic have Attacked in the current battle.",
+    "textHash": "a62e710ab197",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:vitreous:r90",
+    "source": "relics",
+    "name": "Vitreous (Rank 90)",
+    "text": "If the bearer has Attacked at least 10 times in the current battle, the potency of its spells is based on its Attack rather than its Intelligence.",
+    "textHash": "a31dc4919e8b",
+    "meta": {
+      "relic": "Vitreous, Crystal Eye of Anneltha",
+      "shortName": "Vitreous",
+      "statBonus": "Attack",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:void-essence:r10",
+    "source": "relics",
+    "name": "Void Essence (Rank 10)",
+    "text": "After the bearer Attacks or is Attacked, it afflicts the enemy with Stone.",
+    "textHash": "5c103798ff37",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:void-essence:r100",
+    "source": "relics",
+    "name": "Void Essence (Rank 100)",
+    "text": "After the bearer is killed, this relic afflicts enemies with Stone.",
+    "textHash": "5c9f6e5e61ef",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:void-essence:r20",
+    "source": "relics",
+    "name": "Void Essence (Rank 20)",
+    "text": "After the bearer Attacks, this relic Attacks the enemy as well.",
+    "textHash": "4b512c495849",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:void-essence:r30",
+    "source": "relics",
+    "name": "Void Essence (Rank 30)",
+    "text": "After the bearer takes damage while it is Defending or Provoking, this relic Casts Petrify on the enemy.",
+    "textHash": "130ab5416502",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:void-essence:r40",
+    "source": "relics",
+    "name": "Void Essence (Rank 40)",
+    "text": "After an enemy is afflicted with Stone, the bearer gains 15% Maximum Health.",
+    "textHash": "ca16137b66c4",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:void-essence:r50",
+    "source": "relics",
+    "name": "Void Essence (Rank 50)",
+    "text": "This relic and its bearer deal 100% more damage to enemies with Stone.",
+    "textHash": "7c397c1bc9e5",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:void-essence:r60",
+    "source": "relics",
+    "name": "Void Essence (Rank 60)",
+    "text": "After the bearer Defends or Provokes, this relic Attacks a random enemy.",
+    "textHash": "7ac64e058de3",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:void-essence:r70",
+    "source": "relics",
+    "name": "Void Essence (Rank 70)",
+    "text": "The bearer takes 50% less damage from enemies with Stone.",
+    "textHash": "b0fdeb80a071",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:void-essence:r80",
+    "source": "relics",
+    "name": "Void Essence (Rank 80)",
+    "text": "Enemies' resistance to Stone is ignored.",
+    "textHash": "2c6766e45da0",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:void-essence:r90",
+    "source": "relics",
+    "name": "Void Essence (Rank 90)",
+    "text": "After this relic Attacks an enemy with Stone, it has a 10% chance to kill it.",
+    "textHash": "98197bd815fd",
+    "meta": {
+      "relic": "Void Essence, Dark Heart of Caliban",
+      "shortName": "Void Essence",
+      "statBonus": "Health",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:whisper:r10",
+    "source": "relics",
+    "name": "Whisper (Rank 10)",
+    "text": "At the start of battle, this relic gives the bearer Invisible.",
+    "textHash": "0aad6dbe45ad",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:whisper:r100",
+    "source": "relics",
+    "name": "Whisper (Rank 100)",
+    "text": "At the end of the bearer's turn, this relic Casts Black Ice.",
+    "textHash": "7116fe3dfa2d",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:whisper:r20",
+    "source": "relics",
+    "name": "Whisper (Rank 20)",
+    "text": "After the bearer Attacks or Casts a single-target spell on an enemy, this relic Attacks the enemy.",
+    "textHash": "06e010382b55",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:whisper:r30",
+    "source": "relics",
+    "name": "Whisper (Rank 30)",
+    "text": "After this relic Attacks, the bearer has a 50% chance to gain Invisible.",
+    "textHash": "d10e31d661b7",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:whisper:r40",
+    "source": "relics",
+    "name": "Whisper (Rank 40)",
+    "text": "After the bearer gains Invisible, it gains 25% Intelligence.",
+    "textHash": "b0b654117567",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:whisper:r50",
+    "source": "relics",
+    "name": "Whisper (Rank 50)",
+    "text": "After the bearer manually Casts a spell, it has a 50% chance to gain Invisible.",
+    "textHash": "0b0d964b1884",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:whisper:r60",
+    "source": "relics",
+    "name": "Whisper (Rank 60)",
+    "text": "After the bearer is damaged by an attack or spell, it has a 50% chance to gain Invisible.",
+    "textHash": "150ae2237749",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:whisper:r70",
+    "source": "relics",
+    "name": "Whisper (Rank 70)",
+    "text": "The damage of the bearer's attacks is based on its Intelligence.",
+    "textHash": "39568a5f3b5d",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:whisper:r80",
+    "source": "relics",
+    "name": "Whisper (Rank 80)",
+    "text": "This relic has additional Attack equal to its bearer's Intelligence.",
+    "textHash": "e58a808afb79",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:whisper:r90",
+    "source": "relics",
+    "name": "Whisper (Rank 90)",
+    "text": "When the bearer takes damage, 50% of its Intelligence is added to its Defense to determine the amount of damage it receives.",
+    "textHash": "9c369c5d3578",
+    "meta": {
+      "relic": "Whisper, Shadow Staff of Tenebris",
+      "shortName": "Whisper",
+      "statBonus": "Intelligence",
+      "rank": 90
+    }
+  },
+  {
+    "id": "relic:wintermaul:r10",
+    "source": "relics",
+    "name": "Wintermaul (Rank 10)",
+    "text": "After the bearer Attacks or is Attacked, it has a 50% chance to afflict the enemy with Frozen.",
+    "textHash": "45915e479cbf",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 10
+    }
+  },
+  {
+    "id": "relic:wintermaul:r100",
+    "source": "relics",
+    "name": "Wintermaul (Rank 100)",
+    "text": "At the end of its bearer's turn, this relic Casts Snowstorm.",
+    "textHash": "74453068d860",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 100
+    }
+  },
+  {
+    "id": "relic:wintermaul:r20",
+    "source": "relics",
+    "name": "Wintermaul (Rank 20)",
+    "text": "Enemies deal 10% less damage to the bearer for each Frozen enemy.",
+    "textHash": "7cac91414915",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 20
+    }
+  },
+  {
+    "id": "relic:wintermaul:r30",
+    "source": "relics",
+    "name": "Wintermaul (Rank 30)",
+    "text": "At the start of its bearer's turn, this relic Attacks a random enemy.",
+    "textHash": "e8be6c647c40",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 30
+    }
+  },
+  {
+    "id": "relic:wintermaul:r40",
+    "source": "relics",
+    "name": "Wintermaul (Rank 40)",
+    "text": "This relic and its bearer deal 35% more damage to Frozen enemies.",
+    "textHash": "62b185bace55",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 40
+    }
+  },
+  {
+    "id": "relic:wintermaul:r50",
+    "source": "relics",
+    "name": "Wintermaul (Rank 50)",
+    "text": "After the bearer takes damage, this relic has a 25% chance to Cast Black Ice.",
+    "textHash": "a3d7ba49f14b",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 50
+    }
+  },
+  {
+    "id": "relic:wintermaul:r60",
+    "source": "relics",
+    "name": "Wintermaul (Rank 60)",
+    "text": "After the bearer afflicts an enemy with Frozen, this relic has a 25% chance to Cast Shatter on it.",
+    "textHash": "ca6886a1c87a",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 60
+    }
+  },
+  {
+    "id": "relic:wintermaul:r70",
+    "source": "relics",
+    "name": "Wintermaul (Rank 70)",
+    "text": "The bearer is immune to Frozen.",
+    "textHash": "92969022c97f",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 70
+    }
+  },
+  {
+    "id": "relic:wintermaul:r80",
+    "source": "relics",
+    "name": "Wintermaul (Rank 80)",
+    "text": "After the bearer takes damage, this relic increases its Defense by 20%.",
+    "textHash": "86105e507ec9",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 80
+    }
+  },
+  {
+    "id": "relic:wintermaul:r90",
+    "source": "relics",
+    "name": "Wintermaul (Rank 90)",
+    "text": "The bearer Attacks Frozen enemies 1 additional time.",
+    "textHash": "cf04210c9b79",
+    "meta": {
+      "relic": "Wintermaul, Great Hammer of Azural",
+      "shortName": "Wintermaul",
+      "statBonus": "Attack",
+      "rank": 90
+    }
+  }
+]

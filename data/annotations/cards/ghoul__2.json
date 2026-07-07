@@ -1,0 +1,29 @@
+{
+  "id": "card:ghoul:2",
+  "textHash": "26ca8d6bf626",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "stat-mod-allies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ]
+}

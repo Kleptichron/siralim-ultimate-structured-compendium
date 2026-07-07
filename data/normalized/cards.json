@@ -1,0 +1,5078 @@
+[
+  {
+    "id": "card:abomination:1",
+    "source": "cards",
+    "name": "Abomination Cards (3 collected)",
+    "text": "Enemies with Vulnerable take 15% more damage.",
+    "textHash": "f638a3dd61d5",
+    "meta": {
+      "family": "Abomination",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:abomination:2",
+    "source": "cards",
+    "name": "Abomination Cards (5 collected)",
+    "text": "Enemies with Vulnerable have 10% lower chance to Dodge.",
+    "textHash": "cf958d60baea",
+    "meta": {
+      "family": "Abomination",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:abomination:3",
+    "source": "cards",
+    "name": "Abomination Cards (8 collected)",
+    "text": "Enemies with Vulnerable gain 35% less healing from all sources.",
+    "textHash": "5df699ad90bb",
+    "meta": {
+      "family": "Abomination",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:amaranth:1",
+    "source": "cards",
+    "name": "Amaranth Cards (3 collected)",
+    "text": "Your creatures have 5% more Defense.",
+    "textHash": "35470c8c3621",
+    "meta": {
+      "family": "Amaranth",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:amaranth:2",
+    "source": "cards",
+    "name": "Amaranth Cards (5 collected)",
+    "text": "Your creatures have 5% more Defense.",
+    "textHash": "35470c8c3621",
+    "meta": {
+      "family": "Amaranth",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:amaranth:3",
+    "source": "cards",
+    "name": "Amaranth Cards (8 collected)",
+    "text": "Your creatures have 5% more Defense.",
+    "textHash": "35470c8c3621",
+    "meta": {
+      "family": "Amaranth",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:amphisbaena:1",
+    "source": "cards",
+    "name": "Amphisbaena Cards (2 collected)",
+    "text": "When your creatures with Rebirth are resurrected, they recover an additional 15% Health.",
+    "textHash": "4a067f04f58a",
+    "meta": {
+      "family": "Amphisbaena",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:amphisbaena:2",
+    "source": "cards",
+    "name": "Amphisbaena Cards (4 collected)",
+    "text": "Your creatures with Rebirth receive 10% more healing.",
+    "textHash": "834b1d534c5e",
+    "meta": {
+      "family": "Amphisbaena",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:amphisbaena:3",
+    "source": "cards",
+    "name": "Amphisbaena Cards (6 collected)",
+    "text": "Your creatures' Rebirth buff lasts forever.",
+    "textHash": "f5a97be70f5e",
+    "meta": {
+      "family": "Amphisbaena",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:angel:1",
+    "source": "cards",
+    "name": "Angel Cards (2 collected)",
+    "text": "Your creatures deal 10% more damage to Life creatures.",
+    "textHash": "93c1aee18dae",
+    "meta": {
+      "family": "Angel",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:angel:2",
+    "source": "cards",
+    "name": "Angel Cards (5 collected)",
+    "text": "Your creatures deal 10% more damage to Life creatures.",
+    "textHash": "93c1aee18dae",
+    "meta": {
+      "family": "Angel",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:angel:3",
+    "source": "cards",
+    "name": "Angel Cards (7 collected)",
+    "text": "Your creatures deal 10% more damage to Life creatures.",
+    "textHash": "93c1aee18dae",
+    "meta": {
+      "family": "Angel",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:animation:1",
+    "source": "cards",
+    "name": "Animation Cards (2 collected)",
+    "text": "Your creatures recover 50% more Health from enemies' Inverted debuff.",
+    "textHash": "915cfb02a8d6",
+    "meta": {
+      "family": "Animation",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:animation:2",
+    "source": "cards",
+    "name": "Animation Cards (4 collected)",
+    "text": "Enemies with Inverted take 10% more damage.",
+    "textHash": "48fe99d6f1ff",
+    "meta": {
+      "family": "Animation",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:animation:3",
+    "source": "cards",
+    "name": "Animation Cards (6 collected)",
+    "text": "Enemies take 20% more damage from their Inverted debuffs.",
+    "textHash": "f5ed60f52793",
+    "meta": {
+      "family": "Animation",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:apis:1",
+    "source": "cards",
+    "name": "Apis Cards (3 collected)",
+    "text": "Your creatures with Protected take 10% less damage.",
+    "textHash": "e6c612d66e6f",
+    "meta": {
+      "family": "Apis",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:apis:2",
+    "source": "cards",
+    "name": "Apis Cards (5 collected)",
+    "text": "Your creatures with Protected take 10% less damage.",
+    "textHash": "e6c612d66e6f",
+    "meta": {
+      "family": "Apis",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:apis:3",
+    "source": "cards",
+    "name": "Apis Cards (8 collected)",
+    "text": "Your creatures with Protected have a 5% chance to avoid damage from attacks and spells.",
+    "textHash": "491d7251f68d",
+    "meta": {
+      "family": "Apis",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:apocalypse:1",
+    "source": "cards",
+    "name": "Apocalypse Cards (2 collected)",
+    "text": "Enemies with Scorned deal 10% less damage.",
+    "textHash": "c8974c7113c1",
+    "meta": {
+      "family": "Apocalypse",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:apocalypse:2",
+    "source": "cards",
+    "name": "Apocalypse Cards (4 collected)",
+    "text": "Enemies with Scorned take 10% more damage.",
+    "textHash": "55926959e18b",
+    "meta": {
+      "family": "Apocalypse",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:apocalypse:3",
+    "source": "cards",
+    "name": "Apocalypse Cards (6 collected)",
+    "text": "Enemies with Scorned have a 5% chance for their spells to fizzle.",
+    "textHash": "649ef54ff065",
+    "meta": {
+      "family": "Apocalypse",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:arachnalisk:1",
+    "source": "cards",
+    "name": "Arachnalisk Cards (2 collected)",
+    "text": "Enemies with Snared have 10% lower chance to break free",
+    "textHash": "b9f29f8af721",
+    "meta": {
+      "family": "Arachnalisk",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:arachnalisk:2",
+    "source": "cards",
+    "name": "Arachnalisk Cards (4 collected)",
+    "text": "Enemies deal 20% less damage",
+    "textHash": "1f85840a20a5",
+    "meta": {
+      "family": "Arachnalisk",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:arachnalisk:3",
+    "source": "cards",
+    "name": "Arachnalisk Cards (7 collected)",
+    "text": "Enemies with Snared have 10% lower chance to break free.",
+    "textHash": "fea11571d3ec",
+    "meta": {
+      "family": "Arachnalisk",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:arbiter:1",
+    "source": "cards",
+    "name": "Arbiter Cards (2 collected)",
+    "text": "Your creatures have a 3% chance to ignore incoming debuffs.",
+    "textHash": "ee39a51f42b7",
+    "meta": {
+      "family": "Arbiter",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:arbiter:2",
+    "source": "cards",
+    "name": "Arbiter Cards (4 collected)",
+    "text": "Your creatures have a 3% chance to ignore incoming debuffs.",
+    "textHash": "ee39a51f42b7",
+    "meta": {
+      "family": "Arbiter",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:arbiter:3",
+    "source": "cards",
+    "name": "Arbiter Cards (6 collected)",
+    "text": "Your creatures have a 3% chance to ignore incoming debuffs.",
+    "textHash": "ee39a51f42b7",
+    "meta": {
+      "family": "Arbiter",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:aspect:1",
+    "source": "cards",
+    "name": "Aspect Cards (2 collected)",
+    "text": "Your creatures with Agile have a 5% greater chance to Dodge attacks.",
+    "textHash": "e3d12612a8a0",
+    "meta": {
+      "family": "Aspect",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:aspect:2",
+    "source": "cards",
+    "name": "Aspect Cards (5 collected)",
+    "text": "Your creatures with Agile take 10% less damage.",
+    "textHash": "1389195eb213",
+    "meta": {
+      "family": "Aspect",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:aspect:3",
+    "source": "cards",
+    "name": "Aspect Cards (7 collected)",
+    "text": "Your creatures' Agile buffs last forever.",
+    "textHash": "13daeb3d6969",
+    "meta": {
+      "family": "Aspect",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:asura:1",
+    "source": "cards",
+    "name": "Asura Cards (2 collected)",
+    "text": "Your creatures with Savage have a 10% greater chance to deal critical damage.",
+    "textHash": "490a0291d8e5",
+    "meta": {
+      "family": "Asura",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:asura:2",
+    "source": "cards",
+    "name": "Asura Cards (5 collected)",
+    "text": "Your creatures with Savage deal 30% more critical damage.",
+    "textHash": "c93d6e38c65c",
+    "meta": {
+      "family": "Asura",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:asura:3",
+    "source": "cards",
+    "name": "Asura Cards (7 collected)",
+    "text": "Your creatures' Savage buff lasts forever.",
+    "textHash": "b528fb3f435c",
+    "meta": {
+      "family": "Asura",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:automaton:1",
+    "source": "cards",
+    "name": "Automaton Cards (2 collected)",
+    "text": "Your creatures deal 15% more damage with start-of-battle effects.",
+    "textHash": "4cd199eba9ab",
+    "meta": {
+      "family": "Automaton",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:automaton:2",
+    "source": "cards",
+    "name": "Automaton Cards (5 collected)",
+    "text": "Your creatures gain 15% more stats from start-of-battle effects.",
+    "textHash": "8aaf63b2e718",
+    "meta": {
+      "family": "Automaton",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:automaton:3",
+    "source": "cards",
+    "name": "Automaton Cards (7 collected)",
+    "text": "Doubles the potency of these effects.",
+    "textHash": "8f7acdd91fc0",
+    "meta": {
+      "family": "Automaton",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:banshee:1",
+    "source": "cards",
+    "name": "Banshee Cards (3 collected)",
+    "text": "Your creatures' Spell Gems have 1 additional Charge.",
+    "textHash": "aa371b6eb975",
+    "meta": {
+      "family": "Banshee",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:banshee:2",
+    "source": "cards",
+    "name": "Banshee Cards (5 collected)",
+    "text": "Your creatures' Spell Gems have 1 additional Charge.",
+    "textHash": "aa371b6eb975",
+    "meta": {
+      "family": "Banshee",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:banshee:3",
+    "source": "cards",
+    "name": "Banshee Cards (8 collected)",
+    "text": "Your creatures' Spell Gems have 1 additional Charge.",
+    "textHash": "aa371b6eb975",
+    "meta": {
+      "family": "Banshee",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:bard:1",
+    "source": "cards",
+    "name": "Bard Cards (3 collected)",
+    "text": "Your creatures take 5% less damage from attacks.",
+    "textHash": "e33448fd0c5d",
+    "meta": {
+      "family": "Bard",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:bard:2",
+    "source": "cards",
+    "name": "Bard Cards (5 collected)",
+    "text": "Your creatures take 5% less damage from attacks.",
+    "textHash": "e33448fd0c5d",
+    "meta": {
+      "family": "Bard",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:bard:3",
+    "source": "cards",
+    "name": "Bard Cards (8 collected)",
+    "text": "Your creatures take 5% less damage from attacks.",
+    "textHash": "e33448fd0c5d",
+    "meta": {
+      "family": "Bard",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:basilisk:1",
+    "source": "cards",
+    "name": "Basilisk Cards (2 collected)",
+    "text": "Enemies take 3% more damage.",
+    "textHash": "a4fa572b1216",
+    "meta": {
+      "family": "Basilisk",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:basilisk:2",
+    "source": "cards",
+    "name": "Basilisk Cards (5 collected)",
+    "text": "Enemies take 3% more damage.",
+    "textHash": "a4fa572b1216",
+    "meta": {
+      "family": "Basilisk",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:basilisk:3",
+    "source": "cards",
+    "name": "Basilisk Cards (7 collected)",
+    "text": "Enemies take 3% more damage.",
+    "textHash": "a4fa572b1216",
+    "meta": {
+      "family": "Basilisk",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:bat:1",
+    "source": "cards",
+    "name": "Bat Cards (3 collected)",
+    "text": "Your creatures have 5% more Attack.",
+    "textHash": "7d0e8829e875",
+    "meta": {
+      "family": "Bat",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:bat:2",
+    "source": "cards",
+    "name": "Bat Cards (5 collected)",
+    "text": "Your creatures have 5% more Attack.",
+    "textHash": "7d0e8829e875",
+    "meta": {
+      "family": "Bat",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:bat:3",
+    "source": "cards",
+    "name": "Bat Cards (8 collected)",
+    "text": "Your creatures have 5% more Attack.",
+    "textHash": "7d0e8829e875",
+    "meta": {
+      "family": "Bat",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:beacon:1",
+    "source": "cards",
+    "name": "Beacon Cards (2 collected)",
+    "text": "Your creatures' Artifacts' \"Strength\" properties are 10% more powerful.",
+    "textHash": "8bf23d48e043",
+    "meta": {
+      "family": "Beacon",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:beacon:2",
+    "source": "cards",
+    "name": "Beacon Cards (4 collected)",
+    "text": "Your creatures' Artifacts' \"Strength\" properties are 10% more powerful.",
+    "textHash": "8bf23d48e043",
+    "meta": {
+      "family": "Beacon",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:beacon:3",
+    "source": "cards",
+    "name": "Beacon Cards (6 collected)",
+    "text": "Your creatures' Artifacts' \"Strength\" properties are 10% more powerful.",
+    "textHash": "8bf23d48e043",
+    "meta": {
+      "family": "Beacon",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:brownie:1",
+    "source": "cards",
+    "name": "Brownie Cards (3 collected)",
+    "text": "Your creatures' Splashing buff deals 10% more damage to adjacent creatures.",
+    "textHash": "f9f747802443",
+    "meta": {
+      "family": "Brownie",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:brownie:2",
+    "source": "cards",
+    "name": "Brownie Cards (5 collected)",
+    "text": "Your creatures' Splashing buff deals its damage to 1 aditional enemy.",
+    "textHash": "07d3a43f804e",
+    "meta": {
+      "family": "Brownie",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:brownie:3",
+    "source": "cards",
+    "name": "Brownie Cards (8 collected)",
+    "text": "Your creatures' Splashing buff has a 10% chance to activate twice.",
+    "textHash": "a130677d8901",
+    "meta": {
+      "family": "Brownie",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:carbuncle:1",
+    "source": "cards",
+    "name": "Carbuncle Cards (2 collected)",
+    "text": "Your creatures deal 1% more damage for each spell they've cast.",
+    "textHash": "0906a5e46ac1",
+    "meta": {
+      "family": "Carbuncle",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:carbuncle:2",
+    "source": "cards",
+    "name": "Carbuncle Cards (4 collected)",
+    "text": "Your creatures take 1% less damage for each spell they've cast.",
+    "textHash": "3d47c5f4d8ec",
+    "meta": {
+      "family": "Carbuncle",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:carbuncle:3",
+    "source": "cards",
+    "name": "Carbuncle Cards (6 collected)",
+    "text": "Doubles the potency of these effects.",
+    "textHash": "8f7acdd91fc0",
+    "meta": {
+      "family": "Carbuncle",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:carnage:1",
+    "source": "cards",
+    "name": "Carnage Cards (2 collected)",
+    "text": "Your creatures deal 10% more damage to Death creatures.",
+    "textHash": "9a5f32635998",
+    "meta": {
+      "family": "Carnage",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:carnage:2",
+    "source": "cards",
+    "name": "Carnage Cards (5 collected)",
+    "text": "Your creatures deal 10% more damage to Death creatures.",
+    "textHash": "9a5f32635998",
+    "meta": {
+      "family": "Carnage",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:carnage:3",
+    "source": "cards",
+    "name": "Carnage Cards (7 collected)",
+    "text": "Your creatures deal 10% more damage to Death creatures.",
+    "textHash": "9a5f32635998",
+    "meta": {
+      "family": "Carnage",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:carver:1",
+    "source": "cards",
+    "name": "Carver Cards (2 collected)",
+    "text": "Your creastures deal 10% more damage to Chaos creatures.",
+    "textHash": "cb03a225dd21",
+    "meta": {
+      "family": "Carver",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:carver:2",
+    "source": "cards",
+    "name": "Carver Cards (5 collected)",
+    "text": "Your creastures deal 10% more damage to Chaos creatures.",
+    "textHash": "cb03a225dd21",
+    "meta": {
+      "family": "Carver",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:carver:3",
+    "source": "cards",
+    "name": "Carver Cards (7 collected)",
+    "text": "Your creastures deal 10% more damage to Chaos creatures.",
+    "textHash": "cb03a225dd21",
+    "meta": {
+      "family": "Carver",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:centaur:1",
+    "source": "cards",
+    "name": "Centaur Cards (2 collected)",
+    "text": "Your creatures deal 10% more damage to Nature creatures.",
+    "textHash": "078453e6d2de",
+    "meta": {
+      "family": "Centaur",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:centaur:2",
+    "source": "cards",
+    "name": "Centaur Cards (5 collected)",
+    "text": "Your creatures deal 10% more damage to Nature creatures.",
+    "textHash": "078453e6d2de",
+    "meta": {
+      "family": "Centaur",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:centaur:3",
+    "source": "cards",
+    "name": "Centaur Cards (7 collected)",
+    "text": "Your creatures deal 10% more damage to Nature creatures.",
+    "textHash": "078453e6d2de",
+    "meta": {
+      "family": "Centaur",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:cerberus:1",
+    "source": "cards",
+    "name": "Cerberus Cards (2 collected)",
+    "text": "Your creatures' Chaos spells deal 10% more damage",
+    "textHash": "c14ea16b37a2",
+    "meta": {
+      "family": "Cerberus",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:cerberus:2",
+    "source": "cards",
+    "name": "Cerberus Cards (5 collected)",
+    "text": "Your creatures' damaging Chaos spells ignore 10% of their enemies' Defense.",
+    "textHash": "6b8fb84816ff",
+    "meta": {
+      "family": "Cerberus",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:cerberus:3",
+    "source": "cards",
+    "name": "Cerberus Cards (7 collected)",
+    "text": "Your creatures' Chaos spells have 10% additional Charges.",
+    "textHash": "9f74f80cdd2e",
+    "meta": {
+      "family": "Cerberus",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:cherub:1",
+    "source": "cards",
+    "name": "Cherub Cards (2 collected)",
+    "text": "Your creatures take 0.5% less damage from attacks for each buff they have.",
+    "textHash": "d0fab42f33ec",
+    "meta": {
+      "family": "Cherub",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:cherub:2",
+    "source": "cards",
+    "name": "Cherub Cards (4 collected)",
+    "text": "Your creatures take 0.5% less damage from spells for each buff they have.",
+    "textHash": "9958aeee34f1",
+    "meta": {
+      "family": "Cherub",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:cherub:3",
+    "source": "cards",
+    "name": "Cherub Cards (6 collected)",
+    "text": "Your creatures take 0.5% less indirect damage for each buff they have.",
+    "textHash": "126ed7aca463",
+    "meta": {
+      "family": "Cherub",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:chimera:1",
+    "source": "cards",
+    "name": "Chimera Cards (2 collected)",
+    "text": "Your creatures' Nether Stones are 5% more powerful.",
+    "textHash": "cf7cc2147a72",
+    "meta": {
+      "family": "Chimera",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:chimera:2",
+    "source": "cards",
+    "name": "Chimera Cards (4 collected)",
+    "text": "Your creatures' Nether Stones are 5% more powerful.",
+    "textHash": "cf7cc2147a72",
+    "meta": {
+      "family": "Chimera",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:chimera:3",
+    "source": "cards",
+    "name": "Chimera Cards (6 collected)",
+    "text": "Your creatures' Nether Stones are 5% more powerful.",
+    "textHash": "cf7cc2147a72",
+    "meta": {
+      "family": "Chimera",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:clockwork:1",
+    "source": "cards",
+    "name": "Clockwork Cards (2 collected)",
+    "text": "You gain 30% more Granite from battles.",
+    "textHash": "0c9d00b8eda0",
+    "meta": {
+      "family": "Clockwork",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:clockwork:2",
+    "source": "cards",
+    "name": "Clockwork Cards (4 collected)",
+    "text": "Increases the base amount of Granite gained from battles by 15.",
+    "textHash": "de359e1b0d03",
+    "meta": {
+      "family": "Clockwork",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:clockwork:3",
+    "source": "cards",
+    "name": "Clockwork Cards (6 collected)",
+    "text": "You have a 15% chance to gain double Granite from battles.",
+    "textHash": "b895abd05709",
+    "meta": {
+      "family": "Clockwork",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:clutcher:1",
+    "source": "cards",
+    "name": "Clutcher Cards (2 collected)",
+    "text": "Your creatures have a 5% greater chance to Dodge attacks.",
+    "textHash": "bd3b69f5375a",
+    "meta": {
+      "family": "Clutcher",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:clutcher:2",
+    "source": "cards",
+    "name": "Clutcher Cards (5 collected)",
+    "text": "Your creatures have an independent 5% chance to Dodge attacks.",
+    "textHash": "cbf64de4d88a",
+    "meta": {
+      "family": "Clutcher",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:clutcher:3",
+    "source": "cards",
+    "name": "Clutcher Cards (8 collected)",
+    "text": "When your creatures fail to Dodge attacks, they take 5% less damage.",
+    "textHash": "fe373128c7ae",
+    "meta": {
+      "family": "Clutcher",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:cockatrice:1",
+    "source": "cards",
+    "name": "Cockatrice Cards (2 collected)",
+    "text": "Your creatures have 1 more base Attack.",
+    "textHash": "d3ea98ba2d52",
+    "meta": {
+      "family": "Cockatrice",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:cockatrice:2",
+    "source": "cards",
+    "name": "Cockatrice Cards (4 collected)",
+    "text": "Your creatures have 1 more base Attack.",
+    "textHash": "d3ea98ba2d52",
+    "meta": {
+      "family": "Cockatrice",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:cockatrice:3",
+    "source": "cards",
+    "name": "Cockatrice Cards (6 collected)",
+    "text": "Your creatures have 1 more base Attack.",
+    "textHash": "d3ea98ba2d52",
+    "meta": {
+      "family": "Cockatrice",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:concoction:1",
+    "source": "cards",
+    "name": "Concoction Cards (2 collected)",
+    "text": "Enemies with Disarmed have a 10% lower chance to Dodge.",
+    "textHash": "9d7d960df7a8",
+    "meta": {
+      "family": "Concoction",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:concoction:2",
+    "source": "cards",
+    "name": "Concoction Cards (4 collected)",
+    "text": "Enemies with Disarmed have a 15% lower chance to deal critical damage.",
+    "textHash": "d71370937c72",
+    "meta": {
+      "family": "Concoction",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:concoction:3",
+    "source": "cards",
+    "name": "Concoction Cards (6 collected)",
+    "text": "Enemies with Disarmed take 5% more damage.",
+    "textHash": "783d4516eb95",
+    "meta": {
+      "family": "Concoction",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:construct:1",
+    "source": "cards",
+    "name": "Construct Cards (3 collected)",
+    "text": "You gain 5% more Glory from the Arena.",
+    "textHash": "7520c600d4e6",
+    "meta": {
+      "family": "Construct",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:construct:2",
+    "source": "cards",
+    "name": "Construct Cards (7 collected)",
+    "text": "You gain 5% more Glory from the Arena.",
+    "textHash": "7520c600d4e6",
+    "meta": {
+      "family": "Construct",
+      "unlock": 2,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:construct:3",
+    "source": "cards",
+    "name": "Construct Cards (10 collected)",
+    "text": "You gain 5% more Glory from the Arena.",
+    "textHash": "7520c600d4e6",
+    "meta": {
+      "family": "Construct",
+      "unlock": 3,
+      "tierRequired": 10
+    }
+  },
+  {
+    "id": "card:cruncher:1",
+    "source": "cards",
+    "name": "Cruncher Cards (2 collected)",
+    "text": "Your creatures deal 3% more damage to enemies for each Sealed Spell Gem the enemy has.",
+    "textHash": "0e53d532f83d",
+    "meta": {
+      "family": "Cruncher",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:cruncher:2",
+    "source": "cards",
+    "name": "Cruncher Cards (4 collected)",
+    "text": "Your creatures take 3% less damage for each Sealed Spell Gem the enemy has.",
+    "textHash": "9845e63b0f83",
+    "meta": {
+      "family": "Cruncher",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:cruncher:3",
+    "source": "cards",
+    "name": "Cruncher Cards (6 collected)",
+    "text": "Doubles the potency of these effects.",
+    "textHash": "8f7acdd91fc0",
+    "meta": {
+      "family": "Cruncher",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:crusader:1",
+    "source": "cards",
+    "name": "Crusader Cards (2 collected)",
+    "text": "Your creatures shelled buffs have a 10% chance to persist after taking damage.",
+    "textHash": "8c009fb6a1c6",
+    "meta": {
+      "family": "Crusader",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:crusader:2",
+    "source": "cards",
+    "name": "Crusader Cards (5 collected)",
+    "text": "Your creatures with Shelled have a 5% chance to avoid damage.",
+    "textHash": "9ebcedb6b06b",
+    "meta": {
+      "family": "Crusader",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:crusader:3",
+    "source": "cards",
+    "name": "Crusader Cards (7 collected)",
+    "text": "Doubles the chance for these effects to occur.",
+    "textHash": "c16c7b42b356",
+    "meta": {
+      "family": "Crusader",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:demigod:1",
+    "source": "cards",
+    "name": "Demigod Cards (2 collected)",
+    "text": "Your creatures take 15% less damage from Life spells.",
+    "textHash": "f1785286bd5c",
+    "meta": {
+      "family": "Demigod",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:demigod:2",
+    "source": "cards",
+    "name": "Demigod Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from Life spells.",
+    "textHash": "f1785286bd5c",
+    "meta": {
+      "family": "Demigod",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:demigod:3",
+    "source": "cards",
+    "name": "Demigod Cards (7 collected)",
+    "text": "Your creatures take 15% less damage from Life spells.",
+    "textHash": "f1785286bd5c",
+    "meta": {
+      "family": "Demigod",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:devil:1",
+    "source": "cards",
+    "name": "Devil Cards (3 collected)",
+    "text": "Your creatures deal 5% more damage.",
+    "textHash": "06ec40ecddaf",
+    "meta": {
+      "family": "Devil",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:devil:2",
+    "source": "cards",
+    "name": "Devil Cards (5 collected)",
+    "text": "Your creatures deal 5% more damage.",
+    "textHash": "06ec40ecddaf",
+    "meta": {
+      "family": "Devil",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:devil:3",
+    "source": "cards",
+    "name": "Devil Cards (8 collected)",
+    "text": "Your creatures deal 5% more damage.",
+    "textHash": "06ec40ecddaf",
+    "meta": {
+      "family": "Devil",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:diabolic-horde:1",
+    "source": "cards",
+    "name": "Diabolic Horde Cards (4 collected)",
+    "text": "Your creatures have a 5% chance to Attack an additional time.",
+    "textHash": "30226518fd0f",
+    "meta": {
+      "family": "Diabolic Horde",
+      "unlock": 1,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:diabolic-horde:2",
+    "source": "cards",
+    "name": "Diabolic Horde Cards (7 collected)",
+    "text": "Your creatures have a 5% chance to Cast spells an additional time.",
+    "textHash": "3d5c6fb81a2b",
+    "meta": {
+      "family": "Diabolic Horde",
+      "unlock": 2,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:diabolic-horde:3",
+    "source": "cards",
+    "name": "Diabolic Horde Cards (11 collected)",
+    "text": "Doubles the chance for these effects to occur.",
+    "textHash": "c16c7b42b356",
+    "meta": {
+      "family": "Diabolic Horde",
+      "unlock": 3,
+      "tierRequired": 11
+    }
+  },
+  {
+    "id": "card:djinn:1",
+    "source": "cards",
+    "name": "Djinn Cards (3 collected)",
+    "text": "Your creatures' Spell Gems have 10% more Charges",
+    "textHash": "1c8530658e05",
+    "meta": {
+      "family": "Djinn",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:djinn:2",
+    "source": "cards",
+    "name": "Djinn Cards (5 collected)",
+    "text": "Your creatures' Spell Gems have 1 additional Charge.",
+    "textHash": "aa371b6eb975",
+    "meta": {
+      "family": "Djinn",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:djinn:3",
+    "source": "cards",
+    "name": "Djinn Cards (8 collected)",
+    "text": "Your creatures' Ultimate Spell Gems have 1 additional Charge.",
+    "textHash": "1866de46231e",
+    "meta": {
+      "family": "Djinn",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:doom-fortress:1",
+    "source": "cards",
+    "name": "Doom Fortress Cards (3 collected)",
+    "text": "Your creatures take 10% less damage while they're Provoking.",
+    "textHash": "fa86e817b9d4",
+    "meta": {
+      "family": "Doom Fortress",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:doom-fortress:2",
+    "source": "cards",
+    "name": "Doom Fortress Cards (6 collected)",
+    "text": "Your creatures take 10% less damage while they're Provoking.",
+    "textHash": "fa86e817b9d4",
+    "meta": {
+      "family": "Doom Fortress",
+      "unlock": 2,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:doom-fortress:3",
+    "source": "cards",
+    "name": "Doom Fortress Cards (9 collected)",
+    "text": "Your creatures take 10% less damage while they're Provoking.",
+    "textHash": "fa86e817b9d4",
+    "meta": {
+      "family": "Doom Fortress",
+      "unlock": 3,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:doomguard:1",
+    "source": "cards",
+    "name": "Doomguard Cards (2 collected)",
+    "text": "Your creatures with Taunting take 15% less damage.",
+    "textHash": "a16bac065cee",
+    "meta": {
+      "family": "Doomguard",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:doomguard:2",
+    "source": "cards",
+    "name": "Doomguard Cards (5 collected)",
+    "text": "Your creatures with Taunting have 15% more Speed.",
+    "textHash": "3057c850ef31",
+    "meta": {
+      "family": "Doomguard",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:doomguard:3",
+    "source": "cards",
+    "name": "Doomguard Cards (7 collected)",
+    "text": "Your creatures with Taunting have a 15% chance for effects that occur after they Provoke to occur an additional time.",
+    "textHash": "a8d96e3dcff5",
+    "meta": {
+      "family": "Doomguard",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:dragon:1",
+    "source": "cards",
+    "name": "Dragon Cards (3 collected)",
+    "text": "Your creatures deal 10% more damage to Sorcery creatures.",
+    "textHash": "5139e13504e8",
+    "meta": {
+      "family": "Dragon",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:dragon:2",
+    "source": "cards",
+    "name": "Dragon Cards (5 collected)",
+    "text": "Your creatures deal 10% more damage to Sorcery creatures.",
+    "textHash": "5139e13504e8",
+    "meta": {
+      "family": "Dragon",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:dragon:3",
+    "source": "cards",
+    "name": "Dragon Cards (8 collected)",
+    "text": "Your creatures deal 10% more damage to Sorcery creatures.",
+    "textHash": "5139e13504e8",
+    "meta": {
+      "family": "Dragon",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:dryad:1",
+    "source": "cards",
+    "name": "Dryad Cards (3 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Nature creatures.",
+    "textHash": "ea172b001399",
+    "meta": {
+      "family": "Dryad",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:dryad:2",
+    "source": "cards",
+    "name": "Dryad Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Nature creatures.",
+    "textHash": "ea172b001399",
+    "meta": {
+      "family": "Dryad",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:dryad:3",
+    "source": "cards",
+    "name": "Dryad Cards (8 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Nature creatures.",
+    "textHash": "ea172b001399",
+    "meta": {
+      "family": "Dryad",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:dumpling:1",
+    "source": "cards",
+    "name": "Dumpling Cards (2 collected)",
+    "text": "Increases the chance for Dumplings to spawn by 50%.",
+    "textHash": "d7d813820983",
+    "meta": {
+      "family": "Dumpling",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:dumpling:2",
+    "source": "cards",
+    "name": "Dumpling Cards (4 collected)",
+    "text": "Increases the chance for Dumplings to spawn by 50%.",
+    "textHash": "d7d813820983",
+    "meta": {
+      "family": "Dumpling",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:dumpling:3",
+    "source": "cards",
+    "name": "Dumpling Cards (6 collected)",
+    "text": "Increases the chance for Dumplings to spawn by 50%.",
+    "textHash": "d7d813820983",
+    "meta": {
+      "family": "Dumpling",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:efreet:1",
+    "source": "cards",
+    "name": "Efreet Cards (2 collected)",
+    "text": "Enemies take 15% more damage from Burning.",
+    "textHash": "938595f71fab",
+    "meta": {
+      "family": "Efreet",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:efreet:2",
+    "source": "cards",
+    "name": "Efreet Cards (5 collected)",
+    "text": "Increases the amount of Intelligence added to the Burning debuffs your creatures apply by 50%.",
+    "textHash": "5c89bc5967bd",
+    "meta": {
+      "family": "Efreet",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:efreet:3",
+    "source": "cards",
+    "name": "Efreet Cards (7 collected)",
+    "text": "Enemies' Burning debuff lasts forever.",
+    "textHash": "2aeec05a2b6d",
+    "meta": {
+      "family": "Efreet",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:eft:1",
+    "source": "cards",
+    "name": "Eft Cards (2 collected)",
+    "text": "Your creatures have 1 more base Speed.",
+    "textHash": "c73335f94974",
+    "meta": {
+      "family": "Eft",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:eft:2",
+    "source": "cards",
+    "name": "Eft Cards (4 collected)",
+    "text": "Your creatures have 1 more base Speed.",
+    "textHash": "c73335f94974",
+    "meta": {
+      "family": "Eft",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:eft:3",
+    "source": "cards",
+    "name": "Eft Cards (6 collected)",
+    "text": "Your creatures have 1 more base Speed.",
+    "textHash": "c73335f94974",
+    "meta": {
+      "family": "Eft",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:electropods:1",
+    "source": "cards",
+    "name": "Electropods Cards (2 collected)",
+    "text": "You gain 30% more Essence from battles.",
+    "textHash": "0cd713a8c017",
+    "meta": {
+      "family": "Electropods",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:electropods:2",
+    "source": "cards",
+    "name": "Electropods Cards (4 collected)",
+    "text": "Increases the base amount of Essence gained from battles by 15.",
+    "textHash": "de3458557693",
+    "meta": {
+      "family": "Electropods",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:electropods:3",
+    "source": "cards",
+    "name": "Electropods Cards (6 collected)",
+    "text": "You have a 15% chance to gain double Essence from battles.",
+    "textHash": "f1355f145595",
+    "meta": {
+      "family": "Electropods",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:elf:1",
+    "source": "cards",
+    "name": "Elf Cards (3 collected)",
+    "text": "You gain 30% more Crystal from battles.",
+    "textHash": "278fc70bf355",
+    "meta": {
+      "family": "Elf",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:elf:2",
+    "source": "cards",
+    "name": "Elf Cards (5 collected)",
+    "text": "Increases the base amount of Crystal gained form battles by 15.",
+    "textHash": "4e37e095293e",
+    "meta": {
+      "family": "Elf",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:elf:3",
+    "source": "cards",
+    "name": "Elf Cards (8 collected)",
+    "text": "You have a 15% chance to gain double Crystal from battles.",
+    "textHash": "9cff479cf087",
+    "meta": {
+      "family": "Elf",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:ent:1",
+    "source": "cards",
+    "name": "Ent Cards (3 collected)",
+    "text": "Your creatures recover 20% more Health from Mending.",
+    "textHash": "a42b4138ec34",
+    "meta": {
+      "family": "Ent",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:ent:2",
+    "source": "cards",
+    "name": "Ent Cards (5 collected)",
+    "text": "Your creatures with Mending take 10% less damage.",
+    "textHash": "06cca1d7698c",
+    "meta": {
+      "family": "Ent",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:ent:3",
+    "source": "cards",
+    "name": "Ent Cards (8 collected)",
+    "text": "Your creatures' Mending buffs last forever.",
+    "textHash": "c62104cd5593",
+    "meta": {
+      "family": "Ent",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:fae:1",
+    "source": "cards",
+    "name": "Fae Cards (2 collected)",
+    "text": "You gain 30% more Crystal from battles.",
+    "textHash": "278fc70bf355",
+    "meta": {
+      "family": "Fae",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:fae:2",
+    "source": "cards",
+    "name": "Fae Cards (4 collected)",
+    "text": "Increases the base amount of Crystal gained form battles by 15.",
+    "textHash": "4e37e095293e",
+    "meta": {
+      "family": "Fae",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:fae:3",
+    "source": "cards",
+    "name": "Fae Cards (6 collected)",
+    "text": "You have a 15% chance to gain double Crystal from battles.",
+    "textHash": "9cff479cf087",
+    "meta": {
+      "family": "Fae",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:familiar:1",
+    "source": "cards",
+    "name": "Familiar Cards (2 collected)",
+    "text": "Your creatures deal 5% more damage with spells.",
+    "textHash": "f5606d19fa23",
+    "meta": {
+      "family": "Familiar",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:familiar:2",
+    "source": "cards",
+    "name": "Familiar Cards (5 collected)",
+    "text": "Your creatures deal 5% more damage with spells.",
+    "textHash": "f5606d19fa23",
+    "meta": {
+      "family": "Familiar",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:familiar:3",
+    "source": "cards",
+    "name": "Familiar Cards (7 collected)",
+    "text": "Your creatures deal 5% more damage with spells.",
+    "textHash": "f5606d19fa23",
+    "meta": {
+      "family": "Familiar",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:fiend:1",
+    "source": "cards",
+    "name": "Fiend Cards (2 collected)",
+    "text": "Increases the amount of damage your creatures deal while they're Berserk by 15%.",
+    "textHash": "750114cf4d57",
+    "meta": {
+      "family": "Fiend",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:fiend:2",
+    "source": "cards",
+    "name": "Fiend Cards (5 collected)",
+    "text": "Your creatures with Berserk have a 10% chance to attack an additional time.",
+    "textHash": "463cb0890813",
+    "meta": {
+      "family": "Fiend",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:fiend:3",
+    "source": "cards",
+    "name": "Fiend Cards (7 collected)",
+    "text": "Your creatures with Berserk have a 15% greater chance to deal critical damage.",
+    "textHash": "91ab540ec1f1",
+    "meta": {
+      "family": "Fiend",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:forsaken:1",
+    "source": "cards",
+    "name": "Forsaken Cards (2 collected)",
+    "text": "Your creatures have 1 more base Defense.",
+    "textHash": "afb0448f33ed",
+    "meta": {
+      "family": "Forsaken",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:forsaken:2",
+    "source": "cards",
+    "name": "Forsaken Cards (5 collected)",
+    "text": "Your creatures have 1 more base Defense.",
+    "textHash": "afb0448f33ed",
+    "meta": {
+      "family": "Forsaken",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:forsaken:3",
+    "source": "cards",
+    "name": "Forsaken Cards (7 collected)",
+    "text": "Your creatures have 1 more base Defense.",
+    "textHash": "afb0448f33ed",
+    "meta": {
+      "family": "Forsaken",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:gargantuan:1",
+    "source": "cards",
+    "name": "Gargantuan Cards (2 collected)",
+    "text": "Enemies have a 5% lower chance to Dodge attacks.",
+    "textHash": "ff580fb7a80e",
+    "meta": {
+      "family": "Gargantuan",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:gargantuan:2",
+    "source": "cards",
+    "name": "Gargantuan Cards (5 collected)",
+    "text": "Enemies have a 5% lower chance to Dodge attacks.",
+    "textHash": "ff580fb7a80e",
+    "meta": {
+      "family": "Gargantuan",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:gargantuan:3",
+    "source": "cards",
+    "name": "Gargantuan Cards (7 collected)",
+    "text": "Enemies have a 5% lower chance to Dodge attacks.",
+    "textHash": "ff580fb7a80e",
+    "meta": {
+      "family": "Gargantuan",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:gargoyle:1",
+    "source": "cards",
+    "name": "Gargoyle Cards (2 collected)",
+    "text": "Your creatures take 15% less damage from Chaos spells.",
+    "textHash": "990315a2f232",
+    "meta": {
+      "family": "Gargoyle",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:gargoyle:2",
+    "source": "cards",
+    "name": "Gargoyle Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from Chaos spells.",
+    "textHash": "990315a2f232",
+    "meta": {
+      "family": "Gargoyle",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:gargoyle:3",
+    "source": "cards",
+    "name": "Gargoyle Cards (7 collected)",
+    "text": "Your creatures take 15% less damage from Chaos spells.",
+    "textHash": "990315a2f232",
+    "meta": {
+      "family": "Gargoyle",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:gemling:1",
+    "source": "cards",
+    "name": "Gemling Cards (2 collected)",
+    "text": "Your creatures' Ethereal Spell Gems heal 15% more.",
+    "textHash": "b365e37ca5f4",
+    "meta": {
+      "family": "Gemling",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:gemling:2",
+    "source": "cards",
+    "name": "Gemling Cards (4 collected)",
+    "text": "Your creatures' Ethereal Spell Gems increase/decrease stats 15% more.",
+    "textHash": "2f3d04575d98",
+    "meta": {
+      "family": "Gemling",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:gemling:3",
+    "source": "cards",
+    "name": "Gemling Cards (6 collected)",
+    "text": "Your creatures' Ethereal Spell Gems deal 15% more damage.",
+    "textHash": "fe0d699beead",
+    "meta": {
+      "family": "Gemling",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:ghoul:1",
+    "source": "cards",
+    "name": "Ghoul Cards (2 collected)",
+    "text": "Your creatures have 5% more Speed.",
+    "textHash": "26ca8d6bf626",
+    "meta": {
+      "family": "Ghoul",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:ghoul:2",
+    "source": "cards",
+    "name": "Ghoul Cards (4 collected)",
+    "text": "Your creatures have 5% more Speed.",
+    "textHash": "26ca8d6bf626",
+    "meta": {
+      "family": "Ghoul",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:ghoul:3",
+    "source": "cards",
+    "name": "Ghoul Cards (6 collected)",
+    "text": "Your creatures have 5% more Speed.",
+    "textHash": "26ca8d6bf626",
+    "meta": {
+      "family": "Ghoul",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:giant:1",
+    "source": "cards",
+    "name": "Giant Cards (3 collected)",
+    "text": "Your creatures have 5% more Maximum Health.",
+    "textHash": "1ba650e1cd0c",
+    "meta": {
+      "family": "Giant",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:giant:2",
+    "source": "cards",
+    "name": "Giant Cards (6 collected)",
+    "text": "Your creatures have 5% more Maximum Health.",
+    "textHash": "1ba650e1cd0c",
+    "meta": {
+      "family": "Giant",
+      "unlock": 2,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:giant:3",
+    "source": "cards",
+    "name": "Giant Cards (9 collected)",
+    "text": "Your creatures have 5% more Maximum Health.",
+    "textHash": "1ba650e1cd0c",
+    "meta": {
+      "family": "Giant",
+      "unlock": 3,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:golem:1",
+    "source": "cards",
+    "name": "Golem Cards (4 collected)",
+    "text": "You gain 30% more Essence from battles.",
+    "textHash": "0cd713a8c017",
+    "meta": {
+      "family": "Golem",
+      "unlock": 1,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:golem:2",
+    "source": "cards",
+    "name": "Golem Cards (9 collected)",
+    "text": "Increases the base amount of Essence gained from battles by 15.",
+    "textHash": "de3458557693",
+    "meta": {
+      "family": "Golem",
+      "unlock": 2,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:golem:3",
+    "source": "cards",
+    "name": "Golem Cards (13 collected)",
+    "text": "You have a 15% chance to gain double Essence from battles.",
+    "textHash": "f1355f145595",
+    "meta": {
+      "family": "Golem",
+      "unlock": 3,
+      "tierRequired": 13
+    }
+  },
+  {
+    "id": "card:gorgon:1",
+    "source": "cards",
+    "name": "Gorgon Cards (2 collected)",
+    "text": "Enemies with Stone take 10% more damage from attacks and spells.",
+    "textHash": "3b4e27919647",
+    "meta": {
+      "family": "Gorgon",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:gorgon:2",
+    "source": "cards",
+    "name": "Gorgon Cards (5 collected)",
+    "text": "Enemies with Stone take 10% more damage from non-attack and non-spell damage.",
+    "textHash": "caf4d06eccbf",
+    "meta": {
+      "family": "Gorgon",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:gorgon:3",
+    "source": "cards",
+    "name": "Gorgon Cards (7 collected)",
+    "text": "Enemies with Stone receive 25% less stat gains.",
+    "textHash": "0ead9e880f23",
+    "meta": {
+      "family": "Gorgon",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:griffon:1",
+    "source": "cards",
+    "name": "Griffon Cards (2 collected)",
+    "text": "You gain 15% more resources from battles.",
+    "textHash": "71c4038614d9",
+    "meta": {
+      "family": "Griffon",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:griffon:2",
+    "source": "cards",
+    "name": "Griffon Cards (5 collected)",
+    "text": "You gain 10 more resources from battles.",
+    "textHash": "54d8c5e89c53",
+    "meta": {
+      "family": "Griffon",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:griffon:3",
+    "source": "cards",
+    "name": "Griffon Cards (7 collected)",
+    "text": "You have 15% chance to gain double resources from battles.",
+    "textHash": "6ec925ed3c40",
+    "meta": {
+      "family": "Griffon",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:grimore:1",
+    "source": "cards",
+    "name": "Grimore Cards (3 collected)",
+    "text": "Your creatures' Arcane buffs have a 5% chance to grant the Spell Gem an extra Charge when it activates.",
+    "textHash": "9631a1d0addc",
+    "meta": {
+      "family": "Grimore",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:grimore:2",
+    "source": "cards",
+    "name": "Grimore Cards (5 collected)",
+    "text": "Your creatures' Arcane buffs have a 10% chance to not be removed after they cast a spell.",
+    "textHash": "b2de87656cae",
+    "meta": {
+      "family": "Grimore",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:grimore:3",
+    "source": "cards",
+    "name": "Grimore Cards (8 collected)",
+    "text": "Doubles the chance for these effects to occur.",
+    "textHash": "c16c7b42b356",
+    "meta": {
+      "family": "Grimore",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:harpy:1",
+    "source": "cards",
+    "name": "Harpy Cards (2 collected)",
+    "text": "Enemies with Blind deal 10% less damage.",
+    "textHash": "0cc8f242ca2a",
+    "meta": {
+      "family": "Harpy",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:harpy:2",
+    "source": "cards",
+    "name": "Harpy Cards (5 collected)",
+    "text": "Enemies with Blind take 10% more damage.",
+    "textHash": "a2b2e36b46d7",
+    "meta": {
+      "family": "Harpy",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:harpy:3",
+    "source": "cards",
+    "name": "Harpy Cards (7 collected)",
+    "text": "Enemies' Blind debuff lasts forever.",
+    "textHash": "cd301092461d",
+    "meta": {
+      "family": "Harpy",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:hemomancer:1",
+    "source": "cards",
+    "name": "Hemomancer Cards (2 collected)",
+    "text": "Your creatures gain 5% more stats from stat-boosting effects.",
+    "textHash": "ef205c402192",
+    "meta": {
+      "family": "Hemomancer",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:hemomancer:2",
+    "source": "cards",
+    "name": "Hemomancer Cards (4 collected)",
+    "text": "Enemies lose 5% more stats from stat-reducing effects.",
+    "textHash": "e1f4085ebc4a",
+    "meta": {
+      "family": "Hemomancer",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:hemomancer:3",
+    "source": "cards",
+    "name": "Hemomancer Cards (6 collected)",
+    "text": "Doubles the potency of these effects.",
+    "textHash": "8f7acdd91fc0",
+    "meta": {
+      "family": "Hemomancer",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:hound:1",
+    "source": "cards",
+    "name": "Hound Cards (3 collected)",
+    "text": "Your creatures take 15% less damage from Death spells.",
+    "textHash": "7e4c0823b3a1",
+    "meta": {
+      "family": "Hound",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:hound:2",
+    "source": "cards",
+    "name": "Hound Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from Death spells.",
+    "textHash": "7e4c0823b3a1",
+    "meta": {
+      "family": "Hound",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:hound:3",
+    "source": "cards",
+    "name": "Hound Cards (8 collected)",
+    "text": "Your creatures take 15% less damage from Death spells.",
+    "textHash": "7e4c0823b3a1",
+    "meta": {
+      "family": "Hound",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:hunter:1",
+    "source": "cards",
+    "name": "Hunter Cards (3 collected)",
+    "text": "Your creatures gain 10% more Attack from stat-boosting effects.",
+    "textHash": "d13f07de29c0",
+    "meta": {
+      "family": "Hunter",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:hunter:2",
+    "source": "cards",
+    "name": "Hunter Cards (5 collected)",
+    "text": "Your creatures gain 10% more Attack from stat-boosting effects.",
+    "textHash": "d13f07de29c0",
+    "meta": {
+      "family": "Hunter",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:hunter:3",
+    "source": "cards",
+    "name": "Hunter Cards (8 collected)",
+    "text": "Your creatures gain 10% more Attack from stat-boosting effects.",
+    "textHash": "d13f07de29c0",
+    "meta": {
+      "family": "Hunter",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:imler:1",
+    "source": "cards",
+    "name": "Imler Cards (3 collected)",
+    "text": "Your creatures have 10% more Defense while they're Provoking.",
+    "textHash": "268960e268f2",
+    "meta": {
+      "family": "Imler",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:imler:2",
+    "source": "cards",
+    "name": "Imler Cards (5 collected)",
+    "text": "Your creatures have 10% more Defense while they are Provoking.",
+    "textHash": "120c977f7237",
+    "meta": {
+      "family": "Imler",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:imler:3",
+    "source": "cards",
+    "name": "Imler Cards (8 collected)",
+    "text": "Your creatures have 10% more Defense while they're provoking.",
+    "textHash": "54734c83263e",
+    "meta": {
+      "family": "Imler",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:imling:1",
+    "source": "cards",
+    "name": "Imling Cards (3 collected)",
+    "text": "Your creatures have 10% more Defense when they are defending.",
+    "textHash": "676c5ac8abbb",
+    "meta": {
+      "family": "Imling",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:imling:2",
+    "source": "cards",
+    "name": "Imling Cards (5 collected)",
+    "text": "Your creatures have 10% more Defense when they are defending.",
+    "textHash": "676c5ac8abbb",
+    "meta": {
+      "family": "Imling",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:imling:3",
+    "source": "cards",
+    "name": "Imling Cards (8 collected)",
+    "text": "Your creatures have 10% more Defense when they are defending.",
+    "textHash": "676c5ac8abbb",
+    "meta": {
+      "family": "Imling",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:imp:1",
+    "source": "cards",
+    "name": "Imp Cards (2 collected)",
+    "text": "Your creatures' Nature spells deal 10% more damage.",
+    "textHash": "5a983675408d",
+    "meta": {
+      "family": "Imp",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:imp:2",
+    "source": "cards",
+    "name": "Imp Cards (5 collected)",
+    "text": "Your creatures' damaging Nature spells ignore 10% of their enemies' Defense.",
+    "textHash": "3474e1784fea",
+    "meta": {
+      "family": "Imp",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:imp:3",
+    "source": "cards",
+    "name": "Imp Cards (7 collected)",
+    "text": "Your creature's Nature spells have 10% additional charges.",
+    "textHash": "a634b7a3187a",
+    "meta": {
+      "family": "Imp",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:inquisitor:1",
+    "source": "cards",
+    "name": "Inquisitor Cards (2 collected)",
+    "text": "Your creatures' minions have a 5% lower chance to go away.",
+    "textHash": "44b6fa27df30",
+    "meta": {
+      "family": "Inquisitor",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:inquisitor:2",
+    "source": "cards",
+    "name": "Inquisitor Cards (4 collected)",
+    "text": "Your creatures' minions have a 5% lower chance to go away.",
+    "textHash": "44b6fa27df30",
+    "meta": {
+      "family": "Inquisitor",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:inquisitor:3",
+    "source": "cards",
+    "name": "Inquisitor Cards (6 collected)",
+    "text": "Your creatures' minions have a 5% lower chance to go away.",
+    "textHash": "44b6fa27df30",
+    "meta": {
+      "family": "Inquisitor",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:koloss:1",
+    "source": "cards",
+    "name": "Koloss Cards (2 collected)",
+    "text": "Your creatures gain 10% more Maximum Health from stat-boosting effects.",
+    "textHash": "6c9087f29b34",
+    "meta": {
+      "family": "Koloss",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:koloss:2",
+    "source": "cards",
+    "name": "Koloss Cards (4 collected)",
+    "text": "Your creatures gain 10% more Maximum Health from stat-boosting effects.",
+    "textHash": "6c9087f29b34",
+    "meta": {
+      "family": "Koloss",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:koloss:3",
+    "source": "cards",
+    "name": "Koloss Cards (6 collected)",
+    "text": "Your creatures gain 10% more Maximum Health from stat-boosting effects.",
+    "textHash": "6c9087f29b34",
+    "meta": {
+      "family": "Koloss",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:kraken:1",
+    "source": "cards",
+    "name": "Kraken Cards (2 collected)",
+    "text": "You gain 30% more Brimstone from battles.",
+    "textHash": "57ef98a34ffe",
+    "meta": {
+      "family": "Kraken",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:kraken:2",
+    "source": "cards",
+    "name": "Kraken Cards (4 collected)",
+    "text": "Increases the base amount of Brimstone gained from battles by 15.",
+    "textHash": "b0e8403be35c",
+    "meta": {
+      "family": "Kraken",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:kraken:3",
+    "source": "cards",
+    "name": "Kraken Cards (6 collected)",
+    "text": "You have a 15% chance to gain double Brimstone from battles.",
+    "textHash": "929aeb0de5b9",
+    "meta": {
+      "family": "Kraken",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:leech:1",
+    "source": "cards",
+    "name": "Leech Cards (2 collected)",
+    "text": "Your creatures recover 20% more Health from Leeching",
+    "textHash": "00fadec7e97a",
+    "meta": {
+      "family": "Leech",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:leech:2",
+    "source": "cards",
+    "name": "Leech Cards (4 collected)",
+    "text": "When your creatures recover from Leeching, the amount of healing has a 25% chance to be doubled",
+    "textHash": "40b2e7b32e98",
+    "meta": {
+      "family": "Leech",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:leech:3",
+    "source": "cards",
+    "name": "Leech Cards (6 collected)",
+    "text": "Your creatures Leeching buff lasts forever",
+    "textHash": "7db9343abfdb",
+    "meta": {
+      "family": "Leech",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:leper:1",
+    "source": "cards",
+    "name": "Leper Cards (3 collected)",
+    "text": "Enemies deal 15% less damage from their Weak debuffs.",
+    "textHash": "c7fffaa56ab4",
+    "meta": {
+      "family": "Leper",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:leper:2",
+    "source": "cards",
+    "name": "Leper Cards (5 collected)",
+    "text": "Enemies with Weak have a 50% lower chance to deal critical damage.",
+    "textHash": "3c4b48943a96",
+    "meta": {
+      "family": "Leper",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:leper:3",
+    "source": "cards",
+    "name": "Leper Cards (8 collected)",
+    "text": "Enemies' Weak debuffs last forever.",
+    "textHash": "f8bfa8bf8268",
+    "meta": {
+      "family": "Leper",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:lich:1",
+    "source": "cards",
+    "name": "Lich Cards (2 collected)",
+    "text": "Your creatures' Death spells deal 10% more damage.",
+    "textHash": "1904b82d37af",
+    "meta": {
+      "family": "Lich",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:lich:2",
+    "source": "cards",
+    "name": "Lich Cards (5 collected)",
+    "text": "Your creatures' damaging Death spells ignore 10% of the enemies' Defense.",
+    "textHash": "513075611dba",
+    "meta": {
+      "family": "Lich",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:lich:3",
+    "source": "cards",
+    "name": "Lich Cards (7 collected)",
+    "text": "Your creatures damaging Death spells have 10% additional charges.",
+    "textHash": "28a87b3155da",
+    "meta": {
+      "family": "Lich",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:luckmantria:1",
+    "source": "cards",
+    "name": "Luckmantria Cards (2 collected)",
+    "text": "Riddle Dwarves have a 10% greater chance to spawn in Realms.",
+    "textHash": "f3666c4ae892",
+    "meta": {
+      "family": "Luckmantria",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:luckmantria:2",
+    "source": "cards",
+    "name": "Luckmantria Cards (4 collected)",
+    "text": "Riddle Dwarves have a 10% greater chance to spawn in Realms.",
+    "textHash": "f3666c4ae892",
+    "meta": {
+      "family": "Luckmantria",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:luckmantria:3",
+    "source": "cards",
+    "name": "Luckmantria Cards (6 collected)",
+    "text": "Riddle Dwarves reward 1 additional ticket.",
+    "textHash": "d1eab2b26245",
+    "meta": {
+      "family": "Luckmantria",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:maniac:1",
+    "source": "cards",
+    "name": "Maniac Cards (2 collected)",
+    "text": "Your creatures deal 35% more damage while they're dead.",
+    "textHash": "fd64a5ab9c32",
+    "meta": {
+      "family": "Maniac",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:maniac:2",
+    "source": "cards",
+    "name": "Maniac Cards (4 collected)",
+    "text": "Your creatures deal 35% more damage while they're dead.",
+    "textHash": "fd64a5ab9c32",
+    "meta": {
+      "family": "Maniac",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:maniac:3",
+    "source": "cards",
+    "name": "Maniac Cards (6 collected)",
+    "text": "Your creatures deal 35% more damage while they're dead.",
+    "textHash": "fd64a5ab9c32",
+    "meta": {
+      "family": "Maniac",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:manticore:1",
+    "source": "cards",
+    "name": "Manticore Cards (2 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Chaos creatures.",
+    "textHash": "7b039668755b",
+    "meta": {
+      "family": "Manticore",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:manticore:2",
+    "source": "cards",
+    "name": "Manticore Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Chaos creatures.",
+    "textHash": "7b039668755b",
+    "meta": {
+      "family": "Manticore",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:manticore:3",
+    "source": "cards",
+    "name": "Manticore Cards (7 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Chaos creatures.",
+    "textHash": "7b039668755b",
+    "meta": {
+      "family": "Manticore",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:masochist:1",
+    "source": "cards",
+    "name": "Masochist Cards (2 collected)",
+    "text": "Your creatures take 3% less damage.",
+    "textHash": "c7600c6e485c",
+    "meta": {
+      "family": "Masochist",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:masochist:2",
+    "source": "cards",
+    "name": "Masochist Cards (5 collected)",
+    "text": "Your creatures take 3% less damage.",
+    "textHash": "c7600c6e485c",
+    "meta": {
+      "family": "Masochist",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:masochist:3",
+    "source": "cards",
+    "name": "Masochist Cards (7 collected)",
+    "text": "Your creatures take 3% less damage.",
+    "textHash": "c7600c6e485c",
+    "meta": {
+      "family": "Masochist",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:mimic:1",
+    "source": "cards",
+    "name": "Mimic Cards (1 collected)",
+    "text": "Mimics drop 100% more loot.",
+    "textHash": "4745b57aec44",
+    "meta": {
+      "family": "Mimic",
+      "unlock": 1,
+      "tierRequired": 1
+    }
+  },
+  {
+    "id": "card:mimic:2",
+    "source": "cards",
+    "name": "Mimic Cards (2 collected)",
+    "text": "When you fight a Mimic, it has a 25% chance to start the battle with 1 Health.",
+    "textHash": "cc462c1fffcb",
+    "meta": {
+      "family": "Mimic",
+      "unlock": 2,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:mimic:3",
+    "source": "cards",
+    "name": "Mimic Cards (3 collected)",
+    "text": "After you defeat a Mimic, there is a 5% chance that a Treasure Golem will spawn.",
+    "textHash": "95dc1738875c",
+    "meta": {
+      "family": "Mimic",
+      "unlock": 3,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:minotaur:1",
+    "source": "cards",
+    "name": "Minotaur Cards (2 collected)",
+    "text": "You gain 30% more Brimstone from battles.",
+    "textHash": "57ef98a34ffe",
+    "meta": {
+      "family": "Minotaur",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:minotaur:2",
+    "source": "cards",
+    "name": "Minotaur Cards (5 collected)",
+    "text": "Increases the base amount of Brimstone gained from battles by 15.",
+    "textHash": "b0e8403be35c",
+    "meta": {
+      "family": "Minotaur",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:minotaur:3",
+    "source": "cards",
+    "name": "Minotaur Cards (7 collected)",
+    "text": "You have a 15% chance to gain double Brimstone from battles.",
+    "textHash": "929aeb0de5b9",
+    "meta": {
+      "family": "Minotaur",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:mite:1",
+    "source": "cards",
+    "name": "Mite Cards (2 collected)",
+    "text": "Your creatures gain 10% more Speed from stat-boosting effects.",
+    "textHash": "76579ca683ce",
+    "meta": {
+      "family": "Mite",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:mite:2",
+    "source": "cards",
+    "name": "Mite Cards (5 collected)",
+    "text": "Your creatures gain 10% more Speed from stat-boosting effects.",
+    "textHash": "76579ca683ce",
+    "meta": {
+      "family": "Mite",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:mite:3",
+    "source": "cards",
+    "name": "Mite Cards (7 collected)",
+    "text": "Your creatures gain 10% more Speed from stat-boosting effects.",
+    "textHash": "76579ca683ce",
+    "meta": {
+      "family": "Mite",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:modron:1",
+    "source": "cards",
+    "name": "Modron Cards (2 collected)",
+    "text": "You gain 30% more Power from battles.",
+    "textHash": "36c294fbacdd",
+    "meta": {
+      "family": "Modron",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:modron:2",
+    "source": "cards",
+    "name": "Modron Cards (4 collected)",
+    "text": "Increases the base amount of Power gained from battles by 15.",
+    "textHash": "6a470e1551dd",
+    "meta": {
+      "family": "Modron",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:modron:3",
+    "source": "cards",
+    "name": "Modron Cards (6 collected)",
+    "text": "You have a 15% chance to gain double Power from battles.",
+    "textHash": "cac0dbf42578",
+    "meta": {
+      "family": "Modron",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:mummy:1",
+    "source": "cards",
+    "name": "Mummy Cards (2 collected)",
+    "text": "Enemies with Cursed take 10% more damage from this debuff.",
+    "textHash": "d243b0842e8f",
+    "meta": {
+      "family": "Mummy",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:mummy:2",
+    "source": "cards",
+    "name": "Mummy Cards (5 collected)",
+    "text": "When enemies take damage from Cursed, there is a 20% chance this damage will be doubled.",
+    "textHash": "b61481c39ad3",
+    "meta": {
+      "family": "Mummy",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:mummy:3",
+    "source": "cards",
+    "name": "Mummy Cards (7 collected)",
+    "text": "Doubles the potency of these effects.",
+    "textHash": "8f7acdd91fc0",
+    "meta": {
+      "family": "Mummy",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:mythicant:1",
+    "source": "cards",
+    "name": "Mythicant Cards (2 collected)",
+    "text": "Your creatures' Relics heal for 5% more.",
+    "textHash": "0d5b630899d9",
+    "meta": {
+      "family": "Mythicant",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:mythicant:2",
+    "source": "cards",
+    "name": "Mythicant Cards (4 collected)",
+    "text": "Your creatures' Relics heal for 5% more.",
+    "textHash": "0d5b630899d9",
+    "meta": {
+      "family": "Mythicant",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:mythicant:3",
+    "source": "cards",
+    "name": "Mythicant Cards (6 collected)",
+    "text": "Your creatures' Relics heal for 5% more.",
+    "textHash": "0d5b630899d9",
+    "meta": {
+      "family": "Mythicant",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:nephilim:1",
+    "source": "cards",
+    "name": "Nephilim Cards (2 collected)",
+    "text": "Your creatures' Relics deal 5% more damage.",
+    "textHash": "c19f9bccb324",
+    "meta": {
+      "family": "Nephilim",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:nephilim:2",
+    "source": "cards",
+    "name": "Nephilim Cards (4 collected)",
+    "text": "Your creatures' Relics deal 5% more damage.",
+    "textHash": "c19f9bccb324",
+    "meta": {
+      "family": "Nephilim",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:nephilim:3",
+    "source": "cards",
+    "name": "Nephilim Cards (6 collected)",
+    "text": "Your creatures' Relics deal 5% more damage.",
+    "textHash": "c19f9bccb324",
+    "meta": {
+      "family": "Nephilim",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:nihilist:1",
+    "source": "cards",
+    "name": "Nihilist Cards (2 collected)",
+    "text": "Your creatures' Spell Gems have a 5% chance to not consume Charges.",
+    "textHash": "ac5ca4979e88",
+    "meta": {
+      "family": "Nihilist",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:nihilist:2",
+    "source": "cards",
+    "name": "Nihilist Cards (4 collected)",
+    "text": "Your creatures' Spell Gems have a 5% chance to not consume Charges.",
+    "textHash": "ac5ca4979e88",
+    "meta": {
+      "family": "Nihilist",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:nihilist:3",
+    "source": "cards",
+    "name": "Nihilist Cards (6 collected)",
+    "text": "Your creatures' Spell Gems have a 5% chance to not consume Charges.",
+    "textHash": "ac5ca4979e88",
+    "meta": {
+      "family": "Nihilist",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:nix:1",
+    "source": "cards",
+    "name": "Nix Cards (2 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Death creatures.",
+    "textHash": "f3fe25d00d43",
+    "meta": {
+      "family": "Nix",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:nix:2",
+    "source": "cards",
+    "name": "Nix Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Death creatures.",
+    "textHash": "f3fe25d00d43",
+    "meta": {
+      "family": "Nix",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:nix:3",
+    "source": "cards",
+    "name": "Nix Cards (7 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Death creatures.",
+    "textHash": "f3fe25d00d43",
+    "meta": {
+      "family": "Nix",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:occultist:1",
+    "source": "cards",
+    "name": "Occultist Cards (3 collected)",
+    "text": "Your creatures Sorcery spells deal 10% more damage.",
+    "textHash": "5e5b5ed70ebf",
+    "meta": {
+      "family": "Occultist",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:occultist:2",
+    "source": "cards",
+    "name": "Occultist Cards (6 collected)",
+    "text": "Your creatures' damaging Sorcery spells ignore 10% defense.",
+    "textHash": "87a5cf036c8a",
+    "meta": {
+      "family": "Occultist",
+      "unlock": 2,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:occultist:3",
+    "source": "cards",
+    "name": "Occultist Cards (9 collected)",
+    "text": "Your creatures' Sorcery spells have 10% additional charges.",
+    "textHash": "13247799713b",
+    "meta": {
+      "family": "Occultist",
+      "unlock": 3,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:ophan:1",
+    "source": "cards",
+    "name": "Ophan Cards (2 collected)",
+    "text": "Your creatures' Life spells deal 10% more damage",
+    "textHash": "673f2d4a61fc",
+    "meta": {
+      "family": "Ophan",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:ophan:2",
+    "source": "cards",
+    "name": "Ophan Cards (5 collected)",
+    "text": "Your creature's damaging Life spells ignore 10% of their enemies' defense",
+    "textHash": "af3267e9b715",
+    "meta": {
+      "family": "Ophan",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:ophan:3",
+    "source": "cards",
+    "name": "Ophan Cards (7 collected)",
+    "text": "Your creatures' Life spells have 10% additional charges",
+    "textHash": "e64232d63dd7",
+    "meta": {
+      "family": "Ophan",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:ossein:1",
+    "source": "cards",
+    "name": "Ossein Cards (2 collected)",
+    "text": "Enemies resurrect with 5% less health.",
+    "textHash": "c2ceb7b58743",
+    "meta": {
+      "family": "Ossein",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:ossein:2",
+    "source": "cards",
+    "name": "Ossein Cards (4 collected)",
+    "text": "Enemies resurrect with 5% less health.",
+    "textHash": "c2ceb7b58743",
+    "meta": {
+      "family": "Ossein",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:ossein:3",
+    "source": "cards",
+    "name": "Ossein Cards (6 collected)",
+    "text": "Enemies resurrect with 5% less health.",
+    "textHash": "c2ceb7b58743",
+    "meta": {
+      "family": "Ossein",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:paragon:1",
+    "source": "cards",
+    "name": "Paragon Cards (3 collected)",
+    "text": "Enemies with Silenced deal 15% less damage.",
+    "textHash": "c39399f4a81c",
+    "meta": {
+      "family": "Paragon",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:paragon:2",
+    "source": "cards",
+    "name": "Paragon Cards (5 collected)",
+    "text": "Increases the duration of enemies' silenced debuffs by 1 turn.",
+    "textHash": "55c1e51cf9ff",
+    "meta": {
+      "family": "Paragon",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:paragon:3",
+    "source": "cards",
+    "name": "Paragon Cards (8 collected)",
+    "text": "After an enemy is afflicted with Silenced, one of its Spell Gems is Sealed.",
+    "textHash": "1e826cd495a0",
+    "meta": {
+      "family": "Paragon",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:phase-warrior:1",
+    "source": "cards",
+    "name": "Phase Warrior Cards (2 collected)",
+    "text": "You gain 5% more resources from resource nodes in realms.",
+    "textHash": "da1238c33591",
+    "meta": {
+      "family": "Phase Warrior",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:phase-warrior:2",
+    "source": "cards",
+    "name": "Phase Warrior Cards (5 collected)",
+    "text": "You gain 5% more resources from resource nodes in realms.",
+    "textHash": "da1238c33591",
+    "meta": {
+      "family": "Phase Warrior",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:phase-warrior:3",
+    "source": "cards",
+    "name": "Phase Warrior Cards (7 collected)",
+    "text": "You gain 5% more resources from resource nodes in realms.",
+    "textHash": "da1238c33591",
+    "meta": {
+      "family": "Phase Warrior",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:phoenix:1",
+    "source": "cards",
+    "name": "Phoenix Cards (2 collected)",
+    "text": "When your creatures are resurrected, they recover 10% more Health.",
+    "textHash": "a7b691c78f3c",
+    "meta": {
+      "family": "Phoenix",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:phoenix:2",
+    "source": "cards",
+    "name": "Phoenix Cards (5 collected)",
+    "text": "When your creatures are resurrected, they recover 10% more Health.",
+    "textHash": "a7b691c78f3c",
+    "meta": {
+      "family": "Phoenix",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:phoenix:3",
+    "source": "cards",
+    "name": "Phoenix Cards (7 collected)",
+    "text": "Your creatures can now be resurrected a maximum of 15 times per battle.",
+    "textHash": "3c06089d648b",
+    "meta": {
+      "family": "Phoenix",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:pilwiz:1",
+    "source": "cards",
+    "name": "Pilwiz Cards (3 collected)",
+    "text": "Enemies taking 15% more damage from bleeding.",
+    "textHash": "bc2d076dc942",
+    "meta": {
+      "family": "Pilwiz",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:pilwiz:2",
+    "source": "cards",
+    "name": "Pilwiz Cards (6 collected)",
+    "text": "Enemies have a 10% damage to take double damage from bleeding.",
+    "textHash": "5df08ec7ef51",
+    "meta": {
+      "family": "Pilwiz",
+      "unlock": 2,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:pilwiz:3",
+    "source": "cards",
+    "name": "Pilwiz Cards (9 collected)",
+    "text": "Enemy's bleeding debuff lasts forever.",
+    "textHash": "1b30da3037ba",
+    "meta": {
+      "family": "Pilwiz",
+      "unlock": 3,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:pit-worm:1",
+    "source": "cards",
+    "name": "Pit Worm Cards (2 collected)",
+    "text": "Your creatures get 10% more defense from stat boosting effects.",
+    "textHash": "731f4f674516",
+    "meta": {
+      "family": "Pit Worm",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:pit-worm:2",
+    "source": "cards",
+    "name": "Pit Worm Cards (5 collected)",
+    "text": "Your creatures get 10% more defense from stat boosting effects.",
+    "textHash": "731f4f674516",
+    "meta": {
+      "family": "Pit Worm",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:pit-worm:3",
+    "source": "cards",
+    "name": "Pit Worm Cards (7 collected)",
+    "text": "Your creatures get 10% more defense from stat boosting effects.",
+    "textHash": "731f4f674516",
+    "meta": {
+      "family": "Pit Worm",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:pit-wraith:1",
+    "source": "cards",
+    "name": "Pit Wraith Cards (2 collected)",
+    "text": "Your creatures gain 5% more experience points from battles.",
+    "textHash": "cc0d39599ce3",
+    "meta": {
+      "family": "Pit Wraith",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:pit-wraith:2",
+    "source": "cards",
+    "name": "Pit Wraith Cards (5 collected)",
+    "text": "Your creatures gain 5% more experience points from battles.",
+    "textHash": "cc0d39599ce3",
+    "meta": {
+      "family": "Pit Wraith",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:pit-wraith:3",
+    "source": "cards",
+    "name": "Pit Wraith Cards (7 collected)",
+    "text": "Your creatures gain 5% more experience points from battles.",
+    "textHash": "cc0d39599ce3",
+    "meta": {
+      "family": "Pit Wraith",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:plague-doctor:1",
+    "source": "cards",
+    "name": "Plague Doctor Cards (2 collected)",
+    "text": "Your creatures take 25% less damage from Poisoned.",
+    "textHash": "8809faf2fa39",
+    "meta": {
+      "family": "Plague Doctor",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:plague-doctor:2",
+    "source": "cards",
+    "name": "Plague Doctor Cards (5 collected)",
+    "text": "Your creatures take 25% less damage from Burning.",
+    "textHash": "5aec31d04b25",
+    "meta": {
+      "family": "Plague Doctor",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:plague-doctor:3",
+    "source": "cards",
+    "name": "Plague Doctor Cards (7 collected)",
+    "text": "Your creatures take 25% less damage from Bleeding.",
+    "textHash": "6bafc20008f7",
+    "meta": {
+      "family": "Plague Doctor",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:priest:1",
+    "source": "cards",
+    "name": "Priest Cards (3 collected)",
+    "text": "Your creatures have 10% more speed while they're Defending.",
+    "textHash": "bd87d57b0e42",
+    "meta": {
+      "family": "Priest",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:priest:2",
+    "source": "cards",
+    "name": "Priest Cards (6 collected)",
+    "text": "Your creatures have 10% more speed while they're Defending.",
+    "textHash": "bd87d57b0e42",
+    "meta": {
+      "family": "Priest",
+      "unlock": 2,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:priest:3",
+    "source": "cards",
+    "name": "Priest Cards (9 collected)",
+    "text": "Your creatures have 10% more speed while they're Defending.",
+    "textHash": "bd87d57b0e42",
+    "meta": {
+      "family": "Priest",
+      "unlock": 3,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:raven:1",
+    "source": "cards",
+    "name": "Raven Cards (2 collected)",
+    "text": "Your creatures have 5% more Intelligence.",
+    "textHash": "9c615a2d4bd9",
+    "meta": {
+      "family": "Raven",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:raven:2",
+    "source": "cards",
+    "name": "Raven Cards (5 collected)",
+    "text": "Your creatures have 5% more Intelligence.",
+    "textHash": "9c615a2d4bd9",
+    "meta": {
+      "family": "Raven",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:raven:3",
+    "source": "cards",
+    "name": "Raven Cards (7 collected)",
+    "text": "Your creatures have 5% more Intelligence.",
+    "textHash": "9c615a2d4bd9",
+    "meta": {
+      "family": "Raven",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:reaper:1",
+    "source": "cards",
+    "name": "Reaper Cards (2 collected)",
+    "text": "Your Creatures have a 10% greater chance to deal critical damage.",
+    "textHash": "19710080bb06",
+    "meta": {
+      "family": "Reaper",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:reaper:2",
+    "source": "cards",
+    "name": "Reaper Cards (5 collected)",
+    "text": "Your creatures deal 25% more critical damage.",
+    "textHash": "e30a48c5da49",
+    "meta": {
+      "family": "Reaper",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:reaper:3",
+    "source": "cards",
+    "name": "Reaper Cards (7 collected)",
+    "text": "Your creatures have a minimum 10% chance to deal critical damage.",
+    "textHash": "f4977fc37c05",
+    "meta": {
+      "family": "Reaper",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:revenant:1",
+    "source": "cards",
+    "name": "Revenant Cards (3 collected)",
+    "text": "Your creatures take 2% less damage for each debuff they have.",
+    "textHash": "394bee84136f",
+    "meta": {
+      "family": "Revenant",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:revenant:2",
+    "source": "cards",
+    "name": "Revenant Cards (5 collected)",
+    "text": "Your creatures deal 2% more damage for each debuff they have.",
+    "textHash": "b7ee559163da",
+    "meta": {
+      "family": "Revenant",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:revenant:3",
+    "source": "cards",
+    "name": "Revenant Cards (8 collected)",
+    "text": "These bonuses apply to buffs as well.",
+    "textHash": "45ecdcc13b45",
+    "meta": {
+      "family": "Revenant",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:rift-dancer:1",
+    "source": "cards",
+    "name": "Rift Dancer Cards (2 collected)",
+    "text": "Your creatures with Warded gain 20% more stats.",
+    "textHash": "72631b1a62e9",
+    "meta": {
+      "family": "Rift Dancer",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:rift-dancer:2",
+    "source": "cards",
+    "name": "Rift Dancer Cards (4 collected)",
+    "text": "Your creatures with Warded have 25% chance to resist debuffs.",
+    "textHash": "0bdbc6b99b6f",
+    "meta": {
+      "family": "Rift Dancer",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:rift-dancer:3",
+    "source": "cards",
+    "name": "Rift Dancer Cards (6 collected)",
+    "text": "Your creatures with Warded have 30% more Defence.",
+    "textHash": "09d3c3c8c34b",
+    "meta": {
+      "family": "Rift Dancer",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:salamander:1",
+    "source": "cards",
+    "name": "Salamander Cards (2 collected)",
+    "text": "Your creatures gain 10% more Intelligence from stat-boosting effects.",
+    "textHash": "577c21af3c96",
+    "meta": {
+      "family": "Salamander",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:salamander:2",
+    "source": "cards",
+    "name": "Salamander Cards (5 collected)",
+    "text": "Your creatures gain 10% more Intelligence from stat-boosting effects.",
+    "textHash": "577c21af3c96",
+    "meta": {
+      "family": "Salamander",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:salamander:3",
+    "source": "cards",
+    "name": "Salamander Cards (7 collected)",
+    "text": "Your creatures gain 10% more Intelligence from stat-boosting effects.",
+    "textHash": "577c21af3c96",
+    "meta": {
+      "family": "Salamander",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:sanctus:1",
+    "source": "cards",
+    "name": "Sanctus Cards (3 collected)",
+    "text": "Your creatures' Barrier buffs absorb 15% more damage.",
+    "textHash": "7a1254cd7141",
+    "meta": {
+      "family": "Sanctus",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:sanctus:2",
+    "source": "cards",
+    "name": "Sanctus Cards (5 collected)",
+    "text": "Your creatures' Barrier buffs cannot be removed.",
+    "textHash": "5bd9bb52ec62",
+    "meta": {
+      "family": "Sanctus",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:sanctus:3",
+    "source": "cards",
+    "name": "Sanctus Cards (8 collected)",
+    "text": "After your creatures' Barrier buffs are destroyed thay have a chance to gain Shelled.",
+    "textHash": "15f3737fba06",
+    "meta": {
+      "family": "Sanctus",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:saytr:1",
+    "source": "cards",
+    "name": "Saytr Cards (2 collected)",
+    "text": "At the start of battle, enemies' Spell Gems each have a 3% chance to be sealed.",
+    "textHash": "f7e40e200822",
+    "meta": {
+      "family": "Saytr",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:saytr:2",
+    "source": "cards",
+    "name": "Saytr Cards (4 collected)",
+    "text": "At the start of battle, enemies' Spell Gems each have a 3% chance to be sealed.",
+    "textHash": "f7e40e200822",
+    "meta": {
+      "family": "Saytr",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:saytr:3",
+    "source": "cards",
+    "name": "Saytr Cards (6 collected)",
+    "text": "At the start of battle, enemies' Spell Gems each have a 3% chance to be sealed.",
+    "textHash": "f7e40e200822",
+    "meta": {
+      "family": "Saytr",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:sea-shambler:1",
+    "source": "cards",
+    "name": "Sea Shambler Cards (2 collected)",
+    "text": "Enemies take 20% more damage from Blighted.",
+    "textHash": "fa81802baf95",
+    "meta": {
+      "family": "Sea Shambler",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:sea-shambler:2",
+    "source": "cards",
+    "name": "Sea Shambler Cards (4 collected)",
+    "text": "Enemies receive 20% more healing while they're afflicted with Blighted.",
+    "textHash": "f757ba1d34ae",
+    "meta": {
+      "family": "Sea Shambler",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:sea-shambler:3",
+    "source": "cards",
+    "name": "Sea Shambler Cards (6 collected)",
+    "text": "Enemies with Blighted have a 25% chance to resist buffs.",
+    "textHash": "f57788398df3",
+    "meta": {
+      "family": "Sea Shambler",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:seraph:1",
+    "source": "cards",
+    "name": "Seraph Cards (2 collected)",
+    "text": "Your creatures take 5% less damage from attacks.",
+    "textHash": "e33448fd0c5d",
+    "meta": {
+      "family": "Seraph",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:seraph:2",
+    "source": "cards",
+    "name": "Seraph Cards (4 collected)",
+    "text": "Your creatures take 5% less damage from attacks.",
+    "textHash": "e33448fd0c5d",
+    "meta": {
+      "family": "Seraph",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:seraph:3",
+    "source": "cards",
+    "name": "Seraph Cards (6 collected)",
+    "text": "Your creatures take 5% less damage from attacks.",
+    "textHash": "e33448fd0c5d",
+    "meta": {
+      "family": "Seraph",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:shade:1",
+    "source": "cards",
+    "name": "Shade Cards (3 collected)",
+    "text": "Your creatures take 15% less damage while they're Invisible.",
+    "textHash": "85bdb535f5cb",
+    "meta": {
+      "family": "Shade",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:shade:2",
+    "source": "cards",
+    "name": "Shade Cards (5 collected)",
+    "text": "Your creatures have a 10% chance to not lose their Invisible buff after they Attack or Cast spells.",
+    "textHash": "d67f1cf79c23",
+    "meta": {
+      "family": "Shade",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:shade:3",
+    "source": "cards",
+    "name": "Shade Cards (8 collected)",
+    "text": "Your creatures take 15% less damage while they're Invisible.",
+    "textHash": "85bdb535f5cb",
+    "meta": {
+      "family": "Shade",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:shadow:1",
+    "source": "cards",
+    "name": "Shadow Cards (2 collected)",
+    "text": "Enemies with Feared take 10% more damage.",
+    "textHash": "2bd05a2a7d78",
+    "meta": {
+      "family": "Shadow",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:shadow:2",
+    "source": "cards",
+    "name": "Shadow Cards (4 collected)",
+    "text": "Enemies with Feared have 15% less Speed.",
+    "textHash": "bae732931fd5",
+    "meta": {
+      "family": "Shadow",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:shadow:3",
+    "source": "cards",
+    "name": "Shadow Cards (6 collected)",
+    "text": "Enemies with Feared have 15% less Defense.",
+    "textHash": "b85ee99dce43",
+    "meta": {
+      "family": "Shadow",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:shapeshifter:1",
+    "source": "cards",
+    "name": "Shapeshifter Cards (2 collected)",
+    "text": "Your creatures deal 10% more damage to creatures that are weak against their class.",
+    "textHash": "2bd65fef237c",
+    "meta": {
+      "family": "Shapeshifter",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:shapeshifter:2",
+    "source": "cards",
+    "name": "Shapeshifter Cards (5 collected)",
+    "text": "Your creatures take 10% less damage from creatures that are strong against their class.",
+    "textHash": "cbe862539ea9",
+    "meta": {
+      "family": "Shapeshifter",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:shapeshifter:3",
+    "source": "cards",
+    "name": "Shapeshifter Cards (7 collected)",
+    "text": "Doubles the potency of these effects.",
+    "textHash": "8f7acdd91fc0",
+    "meta": {
+      "family": "Shapeshifter",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:sin:1",
+    "source": "cards",
+    "name": "Sin Cards (3 collected)",
+    "text": "Your creatures have 1 more base intelligence.",
+    "textHash": "cf443eaf79ae",
+    "meta": {
+      "family": "Sin",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:sin:2",
+    "source": "cards",
+    "name": "Sin Cards (5 collected)",
+    "text": "Your creatures have 1 more base intelligence.",
+    "textHash": "cf443eaf79ae",
+    "meta": {
+      "family": "Sin",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:sin:3",
+    "source": "cards",
+    "name": "Sin Cards (? collected)",
+    "text": "Your creatures have 1 more base intelligence.",
+    "textHash": "cf443eaf79ae",
+    "meta": {
+      "family": "Sin",
+      "unlock": 3,
+      "tierRequired": null
+    }
+  },
+  {
+    "id": "card:siren:1",
+    "source": "cards",
+    "name": "Siren Cards (2 collected)",
+    "text": "Enemies with Sleeping have a 25% chance to not wake up after they take damage from attacks.",
+    "textHash": "5f1893494b23",
+    "meta": {
+      "family": "Siren",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:siren:2",
+    "source": "cards",
+    "name": "Siren Cards (5 collected)",
+    "text": "Enemies with Sleeping have a 25% chance to not wake up after they take damage from spells.",
+    "textHash": "8511943b2fa2",
+    "meta": {
+      "family": "Siren",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:siren:3",
+    "source": "cards",
+    "name": "Siren Cards (7 collected)",
+    "text": "Enemies' Sleeping debuff lasts forever.",
+    "textHash": "b113c645f8a8",
+    "meta": {
+      "family": "Siren",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:skeleton:1",
+    "source": "cards",
+    "name": "Skeleton Cards (2 collected)",
+    "text": "Your creatures deal 5% more damage with attacks.",
+    "textHash": "c8d32e5bbf86",
+    "meta": {
+      "family": "Skeleton",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:skeleton:2",
+    "source": "cards",
+    "name": "Skeleton Cards (5 collected)",
+    "text": "Your creatures deal 5% more damage with attacks.",
+    "textHash": "c8d32e5bbf86",
+    "meta": {
+      "family": "Skeleton",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:skeleton:3",
+    "source": "cards",
+    "name": "Skeleton Cards (7 collected)",
+    "text": "Your creatures deal 5% more damage with attacks.",
+    "textHash": "c8d32e5bbf86",
+    "meta": {
+      "family": "Skeleton",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:slime:1",
+    "source": "cards",
+    "name": "Slime Cards (3 collected)",
+    "text": "Enemies that are confused have a 10% greater chance to Attack their allies.",
+    "textHash": "cfd73bca17c8",
+    "meta": {
+      "family": "Slime",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:slime:2",
+    "source": "cards",
+    "name": "Slime Cards (6 collected)",
+    "text": "Enemies that are Confused have a 10% greater chance to Cast harmful spells on their allies.",
+    "textHash": "63e664dab9b3",
+    "meta": {
+      "family": "Slime",
+      "unlock": 2,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:slime:3",
+    "source": "cards",
+    "name": "Slime Cards (9 collected)",
+    "text": "After an enemy's Confused debuff activates, the duration of this debuff increases by 1.",
+    "textHash": "dae5d01fde29",
+    "meta": {
+      "family": "Slime",
+      "unlock": 3,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:smith:1",
+    "source": "cards",
+    "name": "Smith Cards (3 collected)",
+    "text": "Your Artifact's Stat Slots are 5% more powerful.",
+    "textHash": "4a59191084a3",
+    "meta": {
+      "family": "Smith",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:smith:2",
+    "source": "cards",
+    "name": "Smith Cards (7 collected)",
+    "text": "Your Artifact's Trick Slots have a 10% greater chance to activate.",
+    "textHash": "24f1ae8a9ac9",
+    "meta": {
+      "family": "Smith",
+      "unlock": 2,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:smith:3",
+    "source": "cards",
+    "name": "Smith Cards (10 collected)",
+    "text": "Your Artifacts' Spell Slots have a 10% greater chance to activate.",
+    "textHash": "6bb002f59b20",
+    "meta": {
+      "family": "Smith",
+      "unlock": 3,
+      "tierRequired": 10
+    }
+  },
+  {
+    "id": "card:smog:1",
+    "source": "cards",
+    "name": "Smog Cards (3 collected)",
+    "text": "Enemies take 15% more damage from Poisoned.",
+    "textHash": "34008641a942",
+    "meta": {
+      "family": "Smog",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:smog:2",
+    "source": "cards",
+    "name": "Smog Cards (5 collected)",
+    "text": "Increases the amount of Attack added to the Poisoned debuffs your creatures apply by 15%.",
+    "textHash": "319fc1078a79",
+    "meta": {
+      "family": "Smog",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:smog:3",
+    "source": "cards",
+    "name": "Smog Cards (8 collected)",
+    "text": "Enemies' Poisoned debuff lasts forever.",
+    "textHash": "cb346cb25770",
+    "meta": {
+      "family": "Smog",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:snaptrap:1",
+    "source": "cards",
+    "name": "Snaptrap Cards (2 collected)",
+    "text": "Enemies have a 1% chance to start at the bottom of the Timeline",
+    "textHash": "a11ad4029e24",
+    "meta": {
+      "family": "Snaptrap",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:snaptrap:2",
+    "source": "cards",
+    "name": "Snaptrap Cards (4 collected)",
+    "text": "Enemies have a 1% chance to start at the bottom of the Timeline",
+    "textHash": "a11ad4029e24",
+    "meta": {
+      "family": "Snaptrap",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:snaptrap:3",
+    "source": "cards",
+    "name": "Snaptrap Cards (6 collected)",
+    "text": "Enemies have a 1% chance to start at the bottom of the Timeline",
+    "textHash": "a11ad4029e24",
+    "meta": {
+      "family": "Snaptrap",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:soulflayer:1",
+    "source": "cards",
+    "name": "Soulflayer Cards (2 collected)",
+    "text": "You have a 5% chance to gain double resources from breakable objects.",
+    "textHash": "2bcf5602f5e6",
+    "meta": {
+      "family": "Soulflayer",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:soulflayer:2",
+    "source": "cards",
+    "name": "Soulflayer Cards (4 collected)",
+    "text": "You have a 5% chance to gain double resources from breakable objects.",
+    "textHash": "2bcf5602f5e6",
+    "meta": {
+      "family": "Soulflayer",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:soulflayer:3",
+    "source": "cards",
+    "name": "Soulflayer Cards (6 collected)",
+    "text": "You have a 5% chance to gain double resources from breakable objects.",
+    "textHash": "2bcf5602f5e6",
+    "meta": {
+      "family": "Soulflayer",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:sparktail:1",
+    "source": "cards",
+    "name": "Sparktail Cards (2 collected)",
+    "text": "Your creatures deal 10% more damage while it is not their turn.",
+    "textHash": "43fd0b46eebd",
+    "meta": {
+      "family": "Sparktail",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:sparktail:2",
+    "source": "cards",
+    "name": "Sparktail Cards (4 collected)",
+    "text": "Your creatures deal 10% more damage while it is not their turn.",
+    "textHash": "43fd0b46eebd",
+    "meta": {
+      "family": "Sparktail",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:sparktail:3",
+    "source": "cards",
+    "name": "Sparktail Cards (6 collected)",
+    "text": "Your creatures deal 10% more damage while it is not their turn.",
+    "textHash": "43fd0b46eebd",
+    "meta": {
+      "family": "Sparktail",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:spectre:1",
+    "source": "cards",
+    "name": "Spectre Cards (3 collected)",
+    "text": "Enemies have 5% less Defense.",
+    "textHash": "e4ad434c6ded",
+    "meta": {
+      "family": "Spectre",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:spectre:2",
+    "source": "cards",
+    "name": "Spectre Cards (5 collected)",
+    "text": "Enemies gain 25% less Defense.",
+    "textHash": "48a837c80f3d",
+    "meta": {
+      "family": "Spectre",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:spectre:3",
+    "source": "cards",
+    "name": "Spectre Cards (8 collected)",
+    "text": "Enemies have 50% less benefit from their Artifacts' Stat Slots that boost their Defense.",
+    "textHash": "96c3f020a5d2",
+    "meta": {
+      "family": "Spectre",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:spellmane:1",
+    "source": "cards",
+    "name": "Spellmane Cards (2 collected)",
+    "text": "Your creatures' Ethereal Spell Gems deal 10% more damage.",
+    "textHash": "d9472684f1e9",
+    "meta": {
+      "family": "Spellmane",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:spellmane:2",
+    "source": "cards",
+    "name": "Spellmane Cards (4 collected)",
+    "text": "Your creatures' Ethereal Spell Gems grant 10% more healing.",
+    "textHash": "e5890ab85679",
+    "meta": {
+      "family": "Spellmane",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:spellmane:3",
+    "source": "cards",
+    "name": "Spellmane Cards (6 collected)",
+    "text": "Your creatures' Ethereal Spell Gems grant 10% more stats.",
+    "textHash": "a3a14ca749bc",
+    "meta": {
+      "family": "Spellmane",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:sphinx:1",
+    "source": "cards",
+    "name": "Sphinx Cards (2 collected)",
+    "text": "Enemies have 5% less Attack.",
+    "textHash": "fd818accb61e",
+    "meta": {
+      "family": "Sphinx",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:sphinx:2",
+    "source": "cards",
+    "name": "Sphinx Cards (5 collected)",
+    "text": "Enemies gain 25% less Attack.",
+    "textHash": "e5ea059bc191",
+    "meta": {
+      "family": "Sphinx",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:sphinx:3",
+    "source": "cards",
+    "name": "Sphinx Cards (7 collected)",
+    "text": "Enemies have 50% less benefit from their Artifacts' Stat Slots that boost their Attack.",
+    "textHash": "8b3c81350421",
+    "meta": {
+      "family": "Sphinx",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:spirit:1",
+    "source": "cards",
+    "name": "Spirit Cards (3 collected)",
+    "text": "Your creatures' healing effects are 10% more potent.",
+    "textHash": "78f66e84565e",
+    "meta": {
+      "family": "Spirit",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:spirit:2",
+    "source": "cards",
+    "name": "Spirit Cards (6 collected)",
+    "text": "Your creatures receive 10% more healing.",
+    "textHash": "b66c537aa1e6",
+    "meta": {
+      "family": "Spirit",
+      "unlock": 2,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:spirit:3",
+    "source": "cards",
+    "name": "Spirit Cards (9 collected)",
+    "text": "Your creatures' healing effects have a 25% chance to ignore Blighted.",
+    "textHash": "c3a66f1957c4",
+    "meta": {
+      "family": "Spirit",
+      "unlock": 3,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:stag:1",
+    "source": "cards",
+    "name": "Stag Cards (3 collected)",
+    "text": "You gain 30% more Power from battles.",
+    "textHash": "36c294fbacdd",
+    "meta": {
+      "family": "Stag",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:stag:2",
+    "source": "cards",
+    "name": "Stag Cards (5 collected)",
+    "text": "Increase the base amount of Power gained from battles by 15.",
+    "textHash": "fd3032aa3bad",
+    "meta": {
+      "family": "Stag",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:stag:3",
+    "source": "cards",
+    "name": "Stag Cards (8 collected)",
+    "text": "You have a 15% chance to gain double Power from battles.",
+    "textHash": "cac0dbf42578",
+    "meta": {
+      "family": "Stag",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:storm:1",
+    "source": "cards",
+    "name": "Storm Cards (3 collected)",
+    "text": "Your creatures take 15% less damage from Nature spells.",
+    "textHash": "d59167f92086",
+    "meta": {
+      "family": "Storm",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:storm:2",
+    "source": "cards",
+    "name": "Storm Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from Nature spells.",
+    "textHash": "d59167f92086",
+    "meta": {
+      "family": "Storm",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:storm:3",
+    "source": "cards",
+    "name": "Storm Cards (8 collected)",
+    "text": "Your creatures take 15% less damage from Nature spells.",
+    "textHash": "d59167f92086",
+    "meta": {
+      "family": "Storm",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:toxdweller:1",
+    "source": "cards",
+    "name": "Toxdweller Cards (2 collected)",
+    "text": "Enemies take 25% more damage from their Bomb debuffs.",
+    "textHash": "f67e66fbe819",
+    "meta": {
+      "family": "Toxdweller",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:toxdweller:2",
+    "source": "cards",
+    "name": "Toxdweller Cards (4 collected)",
+    "text": "Increases the amount of Speed added to the Bomb debuffs your creatures apply by 25%.",
+    "textHash": "75f919161c3a",
+    "meta": {
+      "family": "Toxdweller",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:toxdweller:3",
+    "source": "cards",
+    "name": "Toxdweller Cards (6 collected)",
+    "text": "Enemies' Bomb debuffs cannot be removed.",
+    "textHash": "181ef2bf52c9",
+    "meta": {
+      "family": "Toxdweller",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:tremor:1",
+    "source": "cards",
+    "name": "Tremor Cards (2 collected)",
+    "text": "Enemies have 5% less Intelligence.",
+    "textHash": "fa85f43adb7d",
+    "meta": {
+      "family": "Tremor",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:tremor:2",
+    "source": "cards",
+    "name": "Tremor Cards (4 collected)",
+    "text": "Enemies gain 25% less Intelligence.",
+    "textHash": "d04e010075a2",
+    "meta": {
+      "family": "Tremor",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:tremor:3",
+    "source": "cards",
+    "name": "Tremor Cards (6 collected)",
+    "text": "Enemies have 50% less benefit from their Artifacts' Stat Slots that boost their Intelligence.",
+    "textHash": "079f3e6a7c2d",
+    "meta": {
+      "family": "Tremor",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:troll:1",
+    "source": "cards",
+    "name": "Troll Cards (3 collected)",
+    "text": "Your creatures have 10% more Speed while they're Provoking.",
+    "textHash": "8063080cf00c",
+    "meta": {
+      "family": "Troll",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:troll:2",
+    "source": "cards",
+    "name": "Troll Cards (5 collected)",
+    "text": "Your creatures have 10% more Speed while they're Provoking.",
+    "textHash": "8063080cf00c",
+    "meta": {
+      "family": "Troll",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:troll:3",
+    "source": "cards",
+    "name": "Troll Cards (8 collected)",
+    "text": "Your creatures have 10% more Speed while they're Provoking.",
+    "textHash": "8063080cf00c",
+    "meta": {
+      "family": "Troll",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:unguided:1",
+    "source": "cards",
+    "name": "Unguided Cards (2 collected)",
+    "text": "Your creatures have 1 more base Health.",
+    "textHash": "ba01fcead57a",
+    "meta": {
+      "family": "Unguided",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:unguided:2",
+    "source": "cards",
+    "name": "Unguided Cards (4 collected)",
+    "text": "Your creatures have 1 more base Health.",
+    "textHash": "ba01fcead57a",
+    "meta": {
+      "family": "Unguided",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:unguided:3",
+    "source": "cards",
+    "name": "Unguided Cards (6 collected)",
+    "text": "Your creatures have 1 more base Health.",
+    "textHash": "ba01fcead57a",
+    "meta": {
+      "family": "Unguided",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:unicorn:1",
+    "source": "cards",
+    "name": "Unicorn Cards (2 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Life creatures.",
+    "textHash": "de3322334f5b",
+    "meta": {
+      "family": "Unicorn",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:unicorn:2",
+    "source": "cards",
+    "name": "Unicorn Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Life creatures.",
+    "textHash": "de3322334f5b",
+    "meta": {
+      "family": "Unicorn",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:unicorn:3",
+    "source": "cards",
+    "name": "Unicorn Cards (7 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Life creatures.",
+    "textHash": "de3322334f5b",
+    "meta": {
+      "family": "Unicorn",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:uralos:1",
+    "source": "cards",
+    "name": "Uralos Cards (2 collected)",
+    "text": "Your creatures' Relics modify stats 5% more.",
+    "textHash": "c5c6b5dcb52e",
+    "meta": {
+      "family": "Uralos",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:uralos:2",
+    "source": "cards",
+    "name": "Uralos Cards (4 collected)",
+    "text": "Your creatures' Relics modify stats 5% more.",
+    "textHash": "c5c6b5dcb52e",
+    "meta": {
+      "family": "Uralos",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:uralos:3",
+    "source": "cards",
+    "name": "Uralos Cards (6 collected)",
+    "text": "Your creatures' Relics modify stats 5% more.",
+    "textHash": "c5c6b5dcb52e",
+    "meta": {
+      "family": "Uralos",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:valkyrie:1",
+    "source": "cards",
+    "name": "Valkyrie Cards (2 collected)",
+    "text": "Enemies have a 10% lower chance to deal critical damage.",
+    "textHash": "03b53fc58598",
+    "meta": {
+      "family": "Valkyrie",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:valkyrie:2",
+    "source": "cards",
+    "name": "Valkyrie Cards (5 collected)",
+    "text": "Enemies deal 30% less critical damage.",
+    "textHash": "73720cc4c917",
+    "meta": {
+      "family": "Valkyrie",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:valkyrie:3",
+    "source": "cards",
+    "name": "Valkyrie Cards (7 collected)",
+    "text": "Enemies have a 75% maximum chance to deal critical damage.",
+    "textHash": "9b0eb29c0402",
+    "meta": {
+      "family": "Valkyrie",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:voidlord:1",
+    "source": "cards",
+    "name": "Voidlord Cards (2 collected)",
+    "text": "Your Repelling creatures take 5% less damage from spells.",
+    "textHash": "5095f8a59bda",
+    "meta": {
+      "family": "Voidlord",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:voidlord:2",
+    "source": "cards",
+    "name": "Voidlord Cards (4 collected)",
+    "text": "Your Repelling creatures take 5% less damage from attacks.",
+    "textHash": "d33e5081e259",
+    "meta": {
+      "family": "Voidlord",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:voidlord:3",
+    "source": "cards",
+    "name": "Voidlord Cards (6 collected)",
+    "text": "Your creatures' Repelling buff now lasts forever.",
+    "textHash": "ddfdd804721f",
+    "meta": {
+      "family": "Voidlord",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:vortex:1",
+    "source": "cards",
+    "name": "Vortex Cards (3 collected)",
+    "text": "Your creatures take 15% less damage from Sorcery spells.",
+    "textHash": "b2fb6491e4b9",
+    "meta": {
+      "family": "Vortex",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:vortex:2",
+    "source": "cards",
+    "name": "Vortex Cards (6 collected)",
+    "text": "Your creatures take 15% less damage from Sorcery spells.",
+    "textHash": "b2fb6491e4b9",
+    "meta": {
+      "family": "Vortex",
+      "unlock": 2,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:vortex:3",
+    "source": "cards",
+    "name": "Vortex Cards (9 collected)",
+    "text": "Your creatures take 15% less damage from Sorcery spells.",
+    "textHash": "b2fb6491e4b9",
+    "meta": {
+      "family": "Vortex",
+      "unlock": 3,
+      "tierRequired": 9
+    }
+  },
+  {
+    "id": "card:vulpes:1",
+    "source": "cards",
+    "name": "Vulpes Cards (2 collected)",
+    "text": "Enemies' Spell Gems have 10% fewer Charges.",
+    "textHash": "25bde376e293",
+    "meta": {
+      "family": "Vulpes",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:vulpes:2",
+    "source": "cards",
+    "name": "Vulpes Cards (5 collected)",
+    "text": "Enemies' Spell Gems have 10% fewer Charges.",
+    "textHash": "25bde376e293",
+    "meta": {
+      "family": "Vulpes",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:vulpes:3",
+    "source": "cards",
+    "name": "Vulpes Cards (7 collected)",
+    "text": "Enemies' Spell Gems have 10% fewer Charges.",
+    "textHash": "25bde376e293",
+    "meta": {
+      "family": "Vulpes",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:warhog:1",
+    "source": "cards",
+    "name": "Warhog Cards (2 collected)",
+    "text": "Your creatures have a 3% chance to avoid damage from attacks.",
+    "textHash": "94761462f24b",
+    "meta": {
+      "family": "Warhog",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:warhog:2",
+    "source": "cards",
+    "name": "Warhog Cards (4 collected)",
+    "text": "Your creatures have a 3% chance to avoid damage from spells.",
+    "textHash": "86b35f022e70",
+    "meta": {
+      "family": "Warhog",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:warhog:3",
+    "source": "cards",
+    "name": "Warhog Cards (6 collected)",
+    "text": "Your creatures have a 3% chance to avoid indirect damage.",
+    "textHash": "b3c99ea9a367",
+    "meta": {
+      "family": "Warhog",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:waspid:1",
+    "source": "cards",
+    "name": "Waspid Cards (2 collected)",
+    "text": "Enemies have 5% less Speed.",
+    "textHash": "6d0cc90282cc",
+    "meta": {
+      "family": "Waspid",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:waspid:2",
+    "source": "cards",
+    "name": "Waspid Cards (5 collected)",
+    "text": "Enemies gain 25% less speed.",
+    "textHash": "d0c8f01283f5",
+    "meta": {
+      "family": "Waspid",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:waspid:3",
+    "source": "cards",
+    "name": "Waspid Cards (7 collected)",
+    "text": "Enemies have 50% less benefit from their Artifacts' Stat Slots that boost their Speed.",
+    "textHash": "809e9d8687bb",
+    "meta": {
+      "family": "Waspid",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  },
+  {
+    "id": "card:watcher:1",
+    "source": "cards",
+    "name": "Watcher Cards (3 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Sorcery creatures.",
+    "textHash": "9b61a869201a",
+    "meta": {
+      "family": "Watcher",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:watcher:2",
+    "source": "cards",
+    "name": "Watcher Cards (5 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Sorcery creatures.",
+    "textHash": "9b61a869201a",
+    "meta": {
+      "family": "Watcher",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:watcher:3",
+    "source": "cards",
+    "name": "Watcher Cards (8 collected)",
+    "text": "Your creatures take 15% less damage from attacks from Sorcery creatures.",
+    "textHash": "9b61a869201a",
+    "meta": {
+      "family": "Watcher",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:wight:1",
+    "source": "cards",
+    "name": "Wight Cards (3 collected)",
+    "text": "You gain 30% more Granite from battles.",
+    "textHash": "0c9d00b8eda0",
+    "meta": {
+      "family": "Wight",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:wight:2",
+    "source": "cards",
+    "name": "Wight Cards (5 collected)",
+    "text": "Increases the base amount of Granite gained from battles by 15.",
+    "textHash": "de359e1b0d03",
+    "meta": {
+      "family": "Wight",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:wight:3",
+    "source": "cards",
+    "name": "Wight Cards (8 collected)",
+    "text": "You have a 15% chance to gain double Granite from battles.",
+    "textHash": "b895abd05709",
+    "meta": {
+      "family": "Wight",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:wisp:1",
+    "source": "cards",
+    "name": "Wisp Cards (2 collected)",
+    "text": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the Timeline.",
+    "textHash": "96242237407d",
+    "meta": {
+      "family": "Wisp",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:wisp:2",
+    "source": "cards",
+    "name": "Wisp Cards (4 collected)",
+    "text": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the Timeline.",
+    "textHash": "96242237407d",
+    "meta": {
+      "family": "Wisp",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:wisp:3",
+    "source": "cards",
+    "name": "Wisp Cards (6 collected)",
+    "text": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the Timeline.",
+    "textHash": "96242237407d",
+    "meta": {
+      "family": "Wisp",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:wolpertinger:1",
+    "source": "cards",
+    "name": "Wolpertinger Cards (3 collected)",
+    "text": "Your creatures have a 5% chance to Attack an additional time.",
+    "textHash": "30226518fd0f",
+    "meta": {
+      "family": "Wolpertinger",
+      "unlock": 1,
+      "tierRequired": 3
+    }
+  },
+  {
+    "id": "card:wolpertinger:2",
+    "source": "cards",
+    "name": "Wolpertinger Cards (5 collected)",
+    "text": "Your creatures have a 5% chance to Cast spells an additional time.",
+    "textHash": "3d5c6fb81a2b",
+    "meta": {
+      "family": "Wolpertinger",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:wolpertinger:3",
+    "source": "cards",
+    "name": "Wolpertinger Cards (8 collected)",
+    "text": "Doubles the chance for these effects to occur.",
+    "textHash": "c16c7b42b356",
+    "meta": {
+      "family": "Wolpertinger",
+      "unlock": 3,
+      "tierRequired": 8
+    }
+  },
+  {
+    "id": "card:wyvern:1",
+    "source": "cards",
+    "name": "Wyvern Cards (2 collected)",
+    "text": "Your creatures take 5% less damage from spells.",
+    "textHash": "85e2724b1e44",
+    "meta": {
+      "family": "Wyvern",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:wyvern:2",
+    "source": "cards",
+    "name": "Wyvern Cards (4 collected)",
+    "text": "Your creatures take 5% less damage from spells.",
+    "textHash": "85e2724b1e44",
+    "meta": {
+      "family": "Wyvern",
+      "unlock": 2,
+      "tierRequired": 4
+    }
+  },
+  {
+    "id": "card:wyvern:3",
+    "source": "cards",
+    "name": "Wyvern Cards (6 collected)",
+    "text": "Your creatures take 5% less damage from spells.",
+    "textHash": "85e2724b1e44",
+    "meta": {
+      "family": "Wyvern",
+      "unlock": 3,
+      "tierRequired": 6
+    }
+  },
+  {
+    "id": "card:yeti:1",
+    "source": "cards",
+    "name": "Yeti Cards (2 collected)",
+    "text": "Frozen enemies have a 5% lower base chance to thaw.",
+    "textHash": "bfcc8ceaa4c8",
+    "meta": {
+      "family": "Yeti",
+      "unlock": 1,
+      "tierRequired": 2
+    }
+  },
+  {
+    "id": "card:yeti:2",
+    "source": "cards",
+    "name": "Yeti Cards (5 collected)",
+    "text": "Decreases Frzoen enemies' chance to thaw each turn by 10%.",
+    "textHash": "85ef8aac259c",
+    "meta": {
+      "family": "Yeti",
+      "unlock": 2,
+      "tierRequired": 5
+    }
+  },
+  {
+    "id": "card:yeti:3",
+    "source": "cards",
+    "name": "Yeti Cards (7 collected)",
+    "text": "Enemies' Frozen debuffs have a 50% chance to not gain an increased chance to thaw at the end of their turn.",
+    "textHash": "53071b10611e",
+    "meta": {
+      "family": "Yeti",
+      "unlock": 3,
+      "tierRequired": 7
+    }
+  }
+]

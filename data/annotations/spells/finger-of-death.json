@@ -1,0 +1,24 @@
+{
+  "id": "spell:finger-of-death",
+  "textHash": "d8d4b9d48e53",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive"
+          }
+        }
+      ]
+    }
+  ]
+}

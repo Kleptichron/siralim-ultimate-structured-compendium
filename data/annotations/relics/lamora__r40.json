@@ -1,0 +1,23 @@
+{
+  "id": "relic:lamora:r40",
+  "textHash": "aadb0ca79d77",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "immune-group",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "statuses": [
+            "Blighted"
+          ]
+        }
+      ]
+    }
+  ]
+}

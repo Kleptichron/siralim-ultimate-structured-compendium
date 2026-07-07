@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Mania",
+    "kind": "debuff",
+    "defaultDuration": "",
+    "note": "Unique debuff (Denizen family, Nature spells Compulsion/Wave of Bliss); absent from debuffs.csv"
+  }
+]

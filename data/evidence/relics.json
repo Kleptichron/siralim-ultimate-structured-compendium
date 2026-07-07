@@ -1,0 +1,4715 @@
+{
+  "relic:5740-ng:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:5740-ng:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100,
+      10
+    ],
+    "tiers": [],
+    "chance": 100,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:5740-ng:r20": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:5740-ng:r30": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Defense",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health from stat-boosting effects and can't lose these stats",
+    "openingGuess": null
+  },
+  "relic:5740-ng:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:5740-ng:r50": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": "after_attack"
+  },
+  "relic:5740-ng:r60": {
+    "statuses": {
+      "Stone": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:5740-ng:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:5740-ng:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:5740-ng:r90": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health, it recovers Health equal to 50% of the amount gained",
+    "openingGuess": null
+  },
+  "relic:amalgam:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:amalgam:r100": {
+    "statuses": {
+      "Inverted": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:amalgam:r20": {
+    "statuses": {
+      "Inverted": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:amalgam:r30": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:amalgam:r40": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:amalgam:r50": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:amalgam:r60": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:amalgam:r70": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:amalgam:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:amalgam:r90": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:arbiter:r10": {
+    "statuses": {
+      "Shelled": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:arbiter:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:arbiter:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:arbiter:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:arbiter:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:arbiter:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:arbiter:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:arbiter:r70": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "relic:arbiter:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:arbiter:r90": {
+    "statuses": {
+      "Shelled": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:asskicker:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": 15,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:asskicker:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:asskicker:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:asskicker:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:asskicker:r40": {
+    "statuses": {},
+    "stats": [
+      "Attack",
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:asskicker:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:asskicker:r60": {
+    "statuses": {
+      "Snared": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:asskicker:r70": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:asskicker:r80": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:asskicker:r90": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:blazefury:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:blazefury:r100": {
+    "statuses": {
+      "Burning": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "relic:blazefury:r20": {
+    "statuses": {
+      "Burning": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:blazefury:r30": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:blazefury:r40": {
+    "statuses": {
+      "Burning": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:blazefury:r50": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:blazefury:r60": {
+    "statuses": {
+      "Burning": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:blazefury:r70": {
+    "statuses": {
+      "Burning": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "relic:blazefury:r80": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "relic:blazefury:r90": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:bloodseeker:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "relic:bloodseeker:r100": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": null
+  },
+  "relic:bloodseeker:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:bloodseeker:r30": {
+    "statuses": {
+      "Leeching": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:bloodseeker:r40": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health equal to 3% of the amount healed",
+    "openingGuess": null
+  },
+  "relic:bloodseeker:r50": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health, your other creatures gain Maximum Health equal to 50% of this amount",
+    "openingGuess": null
+  },
+  "relic:bloodseeker:r60": {
+    "statuses": {
+      "Mending": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:bloodseeker:r70": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health from stat-increasing effects",
+    "openingGuess": null
+  },
+  "relic:bloodseeker:r80": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Intelligence",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health rather than Intelligence",
+    "openingGuess": null
+  },
+  "relic:bloodseeker:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:brambleskin:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:brambleskin:r100": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": true,
+    "percents": [
+      100,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:brambleskin:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:brambleskin:r30": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:brambleskin:r40": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": "end_of_turn"
+  },
+  "relic:brambleskin:r50": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health from stat-boosting effects",
+    "openingGuess": null
+  },
+  "relic:brambleskin:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:brambleskin:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:brambleskin:r80": {
+    "statuses": {},
+    "stats": [
+      "Current Health",
+      "Intelligence",
+      "Attack",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      35
+    ],
+    "tiers": [],
+    "chance": 35,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:brambleskin:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:dusk-and-dawn:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:dusk-and-dawn:r100": {
+    "statuses": {
+      "Poisoned": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:dusk-and-dawn:r20": {
+    "statuses": {
+      "Poisoned": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:dusk-and-dawn:r30": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:dusk-and-dawn:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:dusk-and-dawn:r50": {
+    "statuses": {
+      "Poisoned": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:dusk-and-dawn:r60": {
+    "statuses": {
+      "Poisoned": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:dusk-and-dawn:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:dusk-and-dawn:r80": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:dusk-and-dawn:r90": {
+    "statuses": {
+      "Poisoned": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_afflicted"
+  },
+  "relic:fable:r10": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r20": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r30": {
+    "statuses": {},
+    "stats": [
+      "Defense",
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fable:r90": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": true,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fatum-and-fortuna:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:fatum-and-fortuna:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:fatum-and-fortuna:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      35
+    ],
+    "tiers": [],
+    "chance": 35,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:fatum-and-fortuna:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:fatum-and-fortuna:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:fatum-and-fortuna:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:fatum-and-fortuna:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:fatum-and-fortuna:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:fatum-and-fortuna:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:fatum-and-fortuna:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:ferro:r10": {
+    "statuses": {
+      "Proficient": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:ferro:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:ferro:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:ferro:r30": {
+    "statuses": {
+      "Proficient": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:ferro:r40": {
+    "statuses": {
+      "Proficient": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ferro:r50": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:ferro:r60": {
+    "statuses": {
+      "Disarmed": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ferro:r70": {
+    "statuses": {
+      "Proficient": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:ferro:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ferro:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:fleshripper:r10": {
+    "statuses": {
+      "Bleeding": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:fleshripper:r100": {
+    "statuses": {
+      "Bleeding": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:fleshripper:r20": {
+    "statuses": {
+      "Bleeding": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:fleshripper:r30": {
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:fleshripper:r40": {
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:fleshripper:r50": {
+    "statuses": {
+      "Bleeding": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:fleshripper:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:fleshripper:r70": {
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:fleshripper:r80": {
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:fleshripper:r90": {
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:hanti-and-jihi:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:hanti-and-jihi:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:hanti-and-jihi:r20": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:hanti-and-jihi:r30": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": null
+  },
+  "relic:hanti-and-jihi:r40": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:hanti-and-jihi:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:hanti-and-jihi:r60": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:hanti-and-jihi:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:hanti-and-jihi:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:hanti-and-jihi:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:lamora:r10": {
+    "statuses": {
+      "Blighted": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:lamora:r100": {
+    "statuses": {
+      "Blighted": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:lamora:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:lamora:r30": {
+    "statuses": {
+      "Blighted": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:lamora:r40": {
+    "statuses": {
+      "Blighted": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:lamora:r50": {
+    "statuses": {
+      "Blighted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:lamora:r60": {
+    "statuses": {
+      "Blighted": [
+        "afflict",
+        "cond"
+      ],
+      "Mending": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:lamora:r70": {
+    "statuses": {
+      "Blighted": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:lamora:r80": {
+    "statuses": {
+      "Blighted": [
+        "afflict",
+        "cond"
+      ],
+      "Leeching": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:lamora:r90": {
+    "statuses": {
+      "Blighted": [
+        "cond"
+      ]
+    },
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:materium:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:materium:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:materium:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:materium:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:materium:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:materium:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:materium:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:materium:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:materium:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:materium:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:moonfire-and-sunfury:r10": {
+    "statuses": {
+      "Scorned": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:moonfire-and-sunfury:r100": {
+    "statuses": {
+      "Scorned": [
+        "mention"
+      ],
+      "Silenced": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:moonfire-and-sunfury:r20": {
+    "statuses": {
+      "Scorned": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:moonfire-and-sunfury:r30": {
+    "statuses": {
+      "Silenced": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:moonfire-and-sunfury:r40": {
+    "statuses": {
+      "Silenced": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:moonfire-and-sunfury:r50": {
+    "statuses": {
+      "Scorned": [
+        "afflict",
+        "cond"
+      ],
+      "Silenced": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:moonfire-and-sunfury:r60": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:moonfire-and-sunfury:r70": {
+    "statuses": {
+      "Scorned": [
+        "cond"
+      ],
+      "Silenced": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:moonfire-and-sunfury:r80": {
+    "statuses": {
+      "Scorned": [
+        "afflict",
+        "cond"
+      ],
+      "Silenced": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:moonfire-and-sunfury:r90": {
+    "statuses": {
+      "Scorned": [
+        "afflict",
+        "cond"
+      ],
+      "Silenced": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:mutatias:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:mutatias:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:mutatias:r20": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:mutatias:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:mutatias:r40": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:mutatias:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:mutatias:r60": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:mutatias:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:mutatias:r80": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:mutatias:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:petra-and-aes:r10": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:petra-and-aes:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:petra-and-aes:r20": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:petra-and-aes:r30": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:petra-and-aes:r40": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:petra-and-aes:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:petra-and-aes:r60": {
+    "statuses": {
+      "Feared": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:petra-and-aes:r70": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:petra-and-aes:r80": {
+    "statuses": {},
+    "stats": [
+      "Defense",
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:petra-and-aes:r90": {
+    "statuses": {
+      "Rebirth": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": 30,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:prime-and-ventus:r10": {
+    "statuses": {
+      "Agile": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:prime-and-ventus:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:prime-and-ventus:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:prime-and-ventus:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:prime-and-ventus:r40": {
+    "statuses": {
+      "Agile": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:prime-and-ventus:r50": {
+    "statuses": {
+      "Savage": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:prime-and-ventus:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:prime-and-ventus:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:prime-and-ventus:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:prime-and-ventus:r90": {
+    "statuses": {
+      "Savage": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ribcracker:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:ribcracker:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:ribcracker:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ribcracker:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": true,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ribcracker:r40": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ribcracker:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ribcracker:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:ribcracker:r70": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ribcracker:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ribcracker:r90": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      120
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ripplevein:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:ripplevein:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:ripplevein:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:ripplevein:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:ripplevein:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ripplevein:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ripplevein:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:ripplevein:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:ripplevein:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:ripplevein:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:rosenthorne:r10": {
+    "statuses": {
+      "Blind": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:rosenthorne:r100": {
+    "statuses": {
+      "Blind": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:rosenthorne:r20": {
+    "statuses": {
+      "Blind": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:rosenthorne:r30": {
+    "statuses": {
+      "Blind": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:rosenthorne:r40": {
+    "statuses": {
+      "Blind": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:rosenthorne:r50": {
+    "statuses": {
+      "Blind": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:rosenthorne:r60": {
+    "statuses": {
+      "Blind": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:rosenthorne:r70": {
+    "statuses": {
+      "Blind": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:rosenthorne:r80": {
+    "statuses": {
+      "Blind": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:rosenthorne:r90": {
+    "statuses": {
+      "Blind": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:salus:r10": {
+    "statuses": {
+      "Mending": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:salus:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:salus:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:salus:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:salus:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:salus:r50": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health by 5%",
+    "openingGuess": "after_damaged"
+  },
+  "relic:salus:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:salus:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:salus:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:salus:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:starwrath:r10": {
+    "statuses": {
+      "Confused": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:starwrath:r100": {
+    "statuses": {
+      "Confused": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:starwrath:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:starwrath:r30": {
+    "statuses": {
+      "Confused": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:starwrath:r40": {
+    "statuses": {
+      "Confused": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:starwrath:r50": {
+    "statuses": {
+      "Confused": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:starwrath:r60": {
+    "statuses": {
+      "Confused": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:starwrath:r70": {
+    "statuses": {
+      "Confused": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:starwrath:r80": {
+    "statuses": {
+      "Confused": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:starwrath:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:temptation:r10": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:temptation:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:temptation:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:temptation:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:temptation:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:temptation:r50": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:temptation:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:temptation:r70": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:temptation:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:temptation:r90": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:thousand-needles:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:thousand-needles:r100": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:thousand-needles:r20": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:thousand-needles:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:thousand-needles:r40": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:thousand-needles:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:thousand-needles:r60": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:thousand-needles:r70": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:thousand-needles:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:thousand-needles:r90": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:triumvir:r10": {
+    "statuses": {
+      "Arcane": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:triumvir:r100": {
+    "statuses": {
+      "Arcane": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:triumvir:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:triumvir:r30": {
+    "statuses": {
+      "Arcane": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:triumvir:r40": {
+    "statuses": {
+      "Arcane": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:triumvir:r50": {
+    "statuses": {
+      "Arcane": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": 30,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:triumvir:r60": {
+    "statuses": {
+      "Arcane": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:triumvir:r70": {
+    "statuses": {
+      "Arcane": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:triumvir:r80": {
+    "statuses": {
+      "Arcane": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:triumvir:r90": {
+    "statuses": {
+      "Arcane": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:vitreous:r10": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:vitreous:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:vitreous:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:vitreous:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": true,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:vitreous:r40": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:vitreous:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:vitreous:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:vitreous:r70": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:vitreous:r80": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:vitreous:r90": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:void-essence:r10": {
+    "statuses": {
+      "Stone": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:void-essence:r100": {
+    "statuses": {
+      "Stone": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "relic:void-essence:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:void-essence:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:void-essence:r40": {
+    "statuses": {
+      "Stone": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": "after_afflicted"
+  },
+  "relic:void-essence:r50": {
+    "statuses": {
+      "Stone": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:void-essence:r60": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:void-essence:r70": {
+    "statuses": {
+      "Stone": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:void-essence:r80": {
+    "statuses": {
+      "Stone": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:void-essence:r90": {
+    "statuses": {
+      "Stone": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:whisper:r10": {
+    "statuses": {
+      "Invisible": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "relic:whisper:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:whisper:r20": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:whisper:r30": {
+    "statuses": {
+      "Invisible": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:whisper:r40": {
+    "statuses": {
+      "Invisible": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:whisper:r50": {
+    "statuses": {
+      "Invisible": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "relic:whisper:r60": {
+    "statuses": {
+      "Invisible": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:whisper:r70": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:whisper:r80": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:whisper:r90": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:wintermaul:r10": {
+    "statuses": {
+      "Frozen": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "relic:wintermaul:r100": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "relic:wintermaul:r20": {
+    "statuses": {
+      "Frozen": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "relic:wintermaul:r30": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "relic:wintermaul:r40": {
+    "statuses": {
+      "Frozen": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:wintermaul:r50": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:wintermaul:r60": {
+    "statuses": {
+      "Frozen": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:wintermaul:r70": {
+    "statuses": {
+      "Frozen": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "relic:wintermaul:r80": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "relic:wintermaul:r90": {
+    "statuses": {
+      "Frozen": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "perk:pyromancer:firestarter",
+  "textHash": "87e31d3689df",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "always-have",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "permanent": true
+          }
+        }
+      ]
+    }
+  ]
+}

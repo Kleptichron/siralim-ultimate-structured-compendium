@@ -1,0 +1,9277 @@
+{
+  "perk:animator:anguish-through-awareness": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:cogmind": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:animator:damnation-s-edge": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:animator:dancing-blade": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:dark-anima": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:death-and-decay": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:desensitization": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:endowment": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:animator:forbidden-magic": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:forged-by-pain": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:gray-matter": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:grimkeeper": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:animator:live-to-serve": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_resurrected"
+  },
+  "perk:animator:masterpiece": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_gains_buff"
+  },
+  "perk:animator:molecular-betrayal": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:animator:thrive-on-death": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:astrologer:ascendant": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:cusp": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:dying-stars": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      50,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:equinox": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:fixed-signs": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      80,
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank at the start of their turn",
+    "openingGuess": null
+  },
+  "perk:astrologer:lunar-eclipse": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:astrologer:mercury-retrograde": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:new-moon": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:protostar": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      90,
+      60
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:solar-eclipse": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:astrologer:stars-align": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:stellar-blessing": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:astrologer:summer-solstice": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:astrologer:synastry": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:transit": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:astrologer:winter-solstice": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:bleed-out": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      100,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": null
+  },
+  "perk:bloodmage:blood-caked-blade": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      75
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:blood-clot": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:bloodmage:blood-offering": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health equal to 10% of their Maximum Health",
+    "openingGuess": "start_of_battle"
+  },
+  "perk:bloodmage:bloodrage": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Attack",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health instead of their Attack",
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:bloodthirst": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Intelligence",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health instead of their Intelligence",
+    "openingGuess": null
+  },
+  "perk:bloodmage:bloody-massacre": {
+    "statuses": {
+      "Bleeding": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      3,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:deathrattle": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:endless-slaughter": {
+    "statuses": {},
+    "stats": [
+      "Attack",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:hemostasis": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:march-toward-death": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:masochistic-tendencies": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health",
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:relish-in-blood": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Intelligence",
+      "Attack",
+      "Defense",
+      "Speed",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank",
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:sacrifice": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:bloodmage:sanguine-fortitude": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:bloodmage:transfusion": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health equal to 25% of the damage taken",
+    "openingGuess": "after_damaged"
+  },
+  "perk:bloodmage:voracity": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Current Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:autograt": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_start_of_battle_effects"
+  },
+  "perk:brewmaster:brewmaster-s-handshake": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:chaser": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:brewmaster:double-entendre": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:drunken-camaraderie": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [
+      "moderate",
+      "moderate"
+    ],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:experimental-cocktail": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:brewmaster:highball": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:inebriation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      80
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:liquid-courage": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:muddle": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:nightcap": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:numb-the-pain": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      80
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:on-the-house": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:speed-rail": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:straight-up": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:brewmaster:top-shelf": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cabalist:apex": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cabalist:battle-mage": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cabalist:embrace-the-arcane": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": 30,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cabalist:familiar": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cabalist:flow-of-magic": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cabalist:hand-of-the-magi": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cabalist:incantation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cabalist:invoke": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:cabalist:mystify": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_afflicted"
+  },
+  "perk:cabalist:prism": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cabalist:quickdraw": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      100
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cabalist:shimmer": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      90,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cabalist:spellslinger": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cabalist:temporal-concentration": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cabalist:unshackled": {
+    "statuses": {
+      "Silenced": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cabalist:wild-magic": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:cleric:apotheosis": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cleric:consecrated-ground": {
+    "statuses": {
+      "Blighted": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cleric:greater-healing": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      4,
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cleric:guardian-angel": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cleric:guiding-light": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank",
+    "openingGuess": "start_of_battle"
+  },
+  "perk:cleric:holy-burst": {
+    "statuses": {
+      "Barrier": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:cleric:holy-might": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cleric:inner-light": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      40
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cleric:lenience": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cleric:luminesce": {
+    "statuses": {
+      "Barrier": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health, store the extra healing as a Barrier",
+    "openingGuess": null
+  },
+  "perk:cleric:overheal": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cleric:premonition": {
+    "statuses": {
+      "Barrier": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:cleric:radiance": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      60
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:cleric:revelation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1.5,
+      50,
+      30
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:cleric:saving-grace": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank",
+    "openingGuess": "after_resurrected"
+  },
+  "perk:cleric:strength-of-soul": {
+    "statuses": {
+      "Barrier": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:anemia": {
+    "statuses": {
+      "Weak": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:curse-of-fragility": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank",
+    "openingGuess": "passive"
+  },
+  "perk:defiler:curse-of-futility": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:curse-of-impotence": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:curse-of-lethargy": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:curse-of-vulnerability": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:daybreaker": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:death-s-due": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:hopelessness": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:horror-show": {
+    "statuses": {
+      "Feared": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:impiety": {
+    "statuses": {
+      "Barrier": [
+        "mention"
+      ],
+      "Shelled": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:infirmity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:defiler:languish": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:defiler:lingering-sickness": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:nighttaker": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:tenderness": {
+    "statuses": {
+      "Vulnerable": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:defiler:tragedy": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:defiler:unholy-night": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      80
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "perk:defiler:wane": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:demonologist:brim-fiends": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:demonologist:chaos-satyrs": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:demonologist:demonic-consumption": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:demonologist:demonic-pact": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": true,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:demonologist:drained-essence": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:demonologist:final-summoning": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:demonologist:fire-imps": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:demonologist:inner-demons": {
+    "statuses": {},
+    "stats": [],
+    "allStats": true,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:demonologist:reawakening": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      35
+    ],
+    "tiers": [],
+    "chance": 35,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:demonologist:renounce-the-light": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:demonologist:soul-shield": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      80
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:demonologist:summon-asmodeus": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:demonologist:summon-beelzebub": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:demonologist:summon-belphegor": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:demonologist:summon-leviathan": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:demonologist:summon-lucifer": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:demonologist:summon-mammon": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:demonologist:summon-satanachia": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:demonologist:void-shift": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:deprived:simple-life": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:deprived:total-deprivation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:anger-management": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:doombringer:aversion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:doombringer:blind-fury": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:defiance": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:detainment": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:domination": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      50
+    ],
+    "tiers": [],
+    "chance": 3,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:eruption": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:doombringer:juggernaut": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:momentum": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:obscuration": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:outburst": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": true,
+    "percents": [
+      1
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:recklessness": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:siegebreaker": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:soul-rending": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      5,
+      50,
+      50
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:doombringer:unbound-hatred": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:doombringer:unleashed-power": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:dreamshade:antipode": {
+    "statuses": {
+      "Inverted": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:dreamshade:antithesis": {
+    "statuses": {
+      "Inverted": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      10,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:dreamshade:contrarian": {
+    "statuses": {
+      "Inverted": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:dreamshade:counterintuitive": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:dreamshade:damned-visions": {
+    "statuses": {
+      "Inverted": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:dreamshade:delusion-of-grandeur": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:dreamshade:edge-of-reality": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:dreamshade:eternal-dream": {
+    "statuses": {
+      "Inverted": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:dreamshade:hallucination": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:dreamshade:late-confessions": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:dreamshade:losing-touch": {
+    "statuses": {
+      "Blighted": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:dreamshade:lost-in-the-echo": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:dreamshade:lucid-dreams": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:dreamshade:paradox": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:dreamshade:question-everything": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:dreamshade:unfurling-nightmare": {
+    "statuses": {
+      "Inverted": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:druid:adaptation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:druid:ancestry": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:druid:aptitude": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:druid:brood": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank for each creature missing from your group",
+    "openingGuess": "passive"
+  },
+  "perk:druid:companion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:druid:cornered": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:druid:disengagement": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:druid:final-stand": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:druid:guerilla-tactics": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:druid:killer-instinct": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:druid:lone-wolf": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack",
+      "Defense",
+      "Speed"
+    ],
+    "allStats": true,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:druid:pack-of-one": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:druid:reclusive-remedy": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:druid:sole-survivor": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:druid:sovereignty": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:engineer:annealment": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:engineer:chain-reaction": {
+    "statuses": {
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:engineer:dimensional-stability": {
+    "statuses": {
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:engineer:dismantlement": {
+    "statuses": {
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      80
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:engineer:drone-bait": {
+    "statuses": {
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:engineer:energy-efficient": {
+    "statuses": {
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:engineer:extrusion": {
+    "statuses": {
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:engineer:grand-finale": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:engineer:heat-distortion": {
+    "statuses": {
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": true,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:engineer:impact-resistance": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ],
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:engineer:light-the-fuse": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:engineer:locked-and-loaded": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:engineer:pinpoint": {
+    "statuses": {
+      "Bomb": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:engineer:primed-and-ready": {
+    "statuses": {
+      "Bomb": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:engineer:prototype": {
+    "statuses": {
+      "Bomb": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Speed",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:engineer:renewable-armaments": {
+    "statuses": {
+      "Bomb": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      35
+    ],
+    "tiers": [],
+    "chance": 35,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:evoker:arcane-fortitude": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      90,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:arcane-power": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:burst": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:chaos-mastery": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:death-mastery": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:echo": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:efficiency": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:expanded-mind": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:life-mastery": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:mirror-image": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:nature-mastery": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:outspoken": {
+    "statuses": {
+      "Silenced": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:overload": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 1 spell per class",
+    "openingGuess": null
+  },
+  "perk:evoker:sorcery-mastery": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:spell-corruption": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:spell-mending": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:spell-power": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:evoker:supercharged": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:fanatic:apostle": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:fanatic:army-of-gods": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:fanatic:canonization": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:fanatic:deified-armaments": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:fanatic:godforged": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:fanatic:martyr": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:fanatic:multitheism": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:fanatic:nirvana": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:fanatic:otherworldly": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:fanatic:pact-of-the-gods": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:fanatic:prophecy": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:fanatic:syncretism": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:fanatic:transcendence": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:fanatic:ultima": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:fanatic:undying-exaltation": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_resurrected"
+  },
+  "perk:fanatic:unstoppable-force": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:gladiator:acclimated-armaments": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:gladiator:blacksmith-s-boon": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      35
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:gladiator:crowd-favorite": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:gladiator:double-time": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:gladiator:elbow-grease": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:gladiator:frenzy": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:gladiator:grip-of-the-gods": {
+    "statuses": {
+      "Disarmed": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:gladiator:helping-hand": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:gladiator:impending-victory": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:gladiator:it-s-called-a-lance": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:gladiator:killing-machine": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:gladiator:nether-imbuement": {
+    "statuses": {
+      "Stone": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:gladiator:reprimand": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:gladiator:taking-measure": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      80
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:gladiator:turn-the-tables": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:gladiator:war-paint": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": true,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:graveborn:carapace-that-protects": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      25,
+      50,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:claws-that-cast": {
+    "statuses": {},
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      25,
+      50,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:death-s-bane": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:death-s-echo": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:dread-covenant": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25,
+      80
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:graveborn:eternal-legacy": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:from-beyond-the-grave": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:graveborn-bargain": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:heart-that-thrives": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      25,
+      50,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": null
+  },
+  "perk:graveborn:jaws-that-bite": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      25,
+      50,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:legs-that-carry": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      25,
+      50,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:mortal-vessel": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:graveborn:past-life-regression": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:graveborn:somnus": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      25,
+      50,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:graveborn:unnatural-causes": {
+    "statuses": {
+      "Immune": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:graveborn:visitors-from-before": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:grovetender:acclimatization": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "perk:grovetender:angry-orchard": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:grovetender:biodegradation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:grovetender:cultivation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:grovetender:deep-roots": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:grovetender:defensins": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:grovetender:eternal-blossom": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:grovetender:fertility": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:grovetender:nature-s-wrath": {
+    "statuses": {
+      "Agile": [
+        "gain"
+      ],
+      "Arcane": [
+        "gain"
+      ],
+      "Berserk": [
+        "gain"
+      ],
+      "Leeching": [
+        "gain"
+      ],
+      "Savage": [
+        "gain"
+      ],
+      "Splashing": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:grovetender:offense-mechanism": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:grovetender:parasitic-fertilization": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:grovetender:photosynthesis": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": true,
+    "percents": [
+      3,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:grovetender:rapid-transformation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:grovetender:strangler": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:grovetender:symbiosis": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:grovetender:synthetic-resin": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:hell-knight:blazing-soul": {
+    "statuses": {
+      "Burning": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:hell-knight:bolster": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      1
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:deadly-calm": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:death-sentence": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      60
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:dreadnaught": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:enduring-rage": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:executioner": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:hellion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:indomitable": {
+    "statuses": {
+      "Scorned": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:inner-focus": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:hell-knight:kindling": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:hell-knight:magma-diver": {
+    "statuses": {
+      "Savage": [
+        "gain"
+      ],
+      "Splashing": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:massacre": {
+    "statuses": {
+      "Splashing": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:pyromania": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:hell-knight:reckless-abandon": {
+    "statuses": {
+      "Savage": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": 100,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:hell-knight:touch-of-chaos": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:inquisitor:admonish": {
+    "statuses": {
+      "Silenced": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:inquisitor:begrudge": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "perk:inquisitor:berate": {
+    "statuses": {
+      "Blighted": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health",
+    "openingGuess": "start_of_battle"
+  },
+  "perk:inquisitor:castigate": {
+    "statuses": {
+      "Scorned": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:inquisitor:censure": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      40
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:inquisitor:condemn": {
+    "statuses": {
+      "Vulnerable": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:inquisitor:contrition": {
+    "statuses": {
+      "Scorned": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      4,
+      100
+    ],
+    "tiers": [],
+    "chance": 4,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:inquisitor:defy-evil": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      2.5,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:inquisitor:divine-strength": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:inquisitor:flagellation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:inquisitor:heresy": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:inquisitor:judgment": {
+    "statuses": {
+      "Silenced": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      4,
+      100
+    ],
+    "tiers": [],
+    "chance": 4,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "perk:inquisitor:judgment-day": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      150,
+      65
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:inquisitor:lay-to-rest": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:inquisitor:miracle": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1.5,
+      37.5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank",
+    "openingGuess": "after_resurrected"
+  },
+  "perk:inquisitor:rebuke": {
+    "statuses": {
+      "Feared": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:inquisitor:shining-force": {
+    "statuses": {
+      "Rebirth": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:mime:bewilderment": {
+    "statuses": {
+      "Blind": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:mime:circus-walk": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": 15,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:clic": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": 15,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:fidelity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:finger-painting": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:follow-the-leader": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": 15,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:gesticulation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:imitation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:immobility": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:mime:mock": {
+    "statuses": {
+      "Confused": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "perk:mime:pressure": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:pull-the-rope": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:mime:stationary-walk": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      80
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:mime:stillness-and-silence": {
+    "statuses": {
+      "Cursed": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:mime:the-lean": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:mime:trapped-in-a-box": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:blurred-strikes": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      2.5,
+      62.5
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "62",
+    "openingGuess": null
+  },
+  "perk:monk:celerity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:crosswinds": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:monk:dampen-harm": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:extended-reach": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:fake-out": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      3,
+      75
+    ],
+    "tiers": [],
+    "chance": 3,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:monk:fortified-spirit": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:good-karma": {
+    "statuses": {
+      "Agile": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:monk:pressure-point": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:protective-winds": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      75
+    ],
+    "tiers": [],
+    "chance": 3,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:monk:ride-the-wind": {
+    "statuses": {},
+    "stats": [
+      "Defense",
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:monk:serenity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:spiritual-attunement": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:thylacine-s-fury": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:monk:vital-strike": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:monk:windwalker": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      80
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:amalgamation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:animated-dead": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:army-of-the-damned": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:necromancer:conquest-s-triumph": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:necromancer:corpse-eater": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:cruel-creation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:deadly-vitality": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank",
+    "openingGuess": null
+  },
+  "perk:necromancer:death-s-claim": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:necromancer:famine-s-thirst": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:necromancer:four-horsemen": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:necromancer:gravewalker": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      50,
+      10
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:necromancer:meat-shield": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:midnight-bargain": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:servitude": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:undying-loyalty": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:necromancer:war-s-victory": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:paladin:art-of-war": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:paladin:crusade": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:paladin:divine-intervention": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:paladin:divine-toll": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "perk:paladin:execution-sentence": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:paladin:glory": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "perk:paladin:hand-of-light": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      2,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_deals_damage"
+  },
+  "perk:paladin:light-s-augmentation": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      3,
+      75
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:paladin:miraculous-recovery": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:paladin:perseverance": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2.5,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:paladin:reckoning": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:paladin:retribution": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:paladin:seraphim": {
+    "statuses": {},
+    "stats": [
+      "Defense",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:paladin:unbound": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:paladin:wrath": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:paladin:zeal": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:pariah:introversion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:pariah:lifelong-respite": {
+    "statuses": {
+      "Stone": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:purgatorian:dark-covenant": {
+    "statuses": {},
+    "stats": [],
+    "allStats": true,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:purgatorian:designated-survivor": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:purgatorian:destiny-bond": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:purgatorian:eternal-damnation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:purgatorian:from-the-grave": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      10,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:purgatorian:intangibility": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:purgatorian:last-word": {
+    "statuses": {},
+    "stats": [],
+    "allStats": true,
+    "percents": [
+      3,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:purgatorian:life-after-death": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:purgatorian:madness": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:purgatorian:masochism": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:purgatorian:medium": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:purgatorian:misery": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:purgatorian:never-forgotten": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:purgatorian:psychic-suicide": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:purgatorian:time-to-die": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:purgatorian:trauma": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:pyromancer:backdraft": {
+    "statuses": {
+      "Burning": [
+        "afflict"
+      ],
+      "Scorned": [
+        "afflict"
+      ],
+      "Silenced": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_afflicted"
+  },
+  "perk:pyromancer:burn-out": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:pyromancer:burn-their-corpses": {
+    "statuses": {
+      "Burning": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:pyromancer:cauterize": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ],
+      "Shelled": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:pyromancer:combustion": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:pyromancer:conflagration": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:pyromancer:empowering-flames": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:pyromancer:firestarter": {
+    "statuses": {
+      "Burning": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:pyromancer:flashover": {
+    "statuses": {
+      "Bomb": [
+        "afflict"
+      ],
+      "Burning": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_afflicted"
+  },
+  "perk:pyromancer:from-ashes": {
+    "statuses": {
+      "Burning": [
+        "cond"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:pyromancer:hot-streak": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:pyromancer:immolation": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:pyromancer:kindle-the-flame": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:pyromancer:living-flame": {
+    "statuses": {
+      "Burning": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:pyromancer:pyroblast": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      20
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:pyromancer:roaring-blaze": {
+    "statuses": {
+      "Burning": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:reaver:blitzkrieg": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:controlled-anger": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:reaver:mental-clarity": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:reaver:mercurial": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:reaver:onslaught": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:proliferation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:rapid-exhaustion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:reaver:red-eye-flight": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:reaver:reign-of-chaos": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack",
+      "Defense",
+      "Speed"
+    ],
+    "allStats": true,
+    "percents": [
+      1,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:relentless": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:reaver:reverberation": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:rigor": {
+    "statuses": {
+      "Frozen": [
+        "immune"
+      ],
+      "Sleeping": [
+        "immune"
+      ],
+      "Snared": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:sap": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:skirmish": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:stimulation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:sure-footed": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:reaver:uncontrollable-anger": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:royal:highborn": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:royal:master-of-all": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:rune-knight:aegis": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      90,
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:aggression": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:covenant": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:rune-knight:crescendo": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:destiny": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:diabolism": {
+    "statuses": {
+      "Silenced": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:discharge": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:embiggen": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:empowerment": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:rune-knight:inspirit": {
+    "statuses": {
+      "Agile": [
+        "mention"
+      ],
+      "Arcane": [
+        "mention"
+      ],
+      "Berserk": [
+        "mention"
+      ],
+      "Savage": [
+        "mention"
+      ],
+      "Shelled": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:rune-of-cor": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:rune-knight:rune-of-dun": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:rune-knight:rune-of-lua": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:rune-knight:rune-of-nax": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:rune-knight:rune-of-sah": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:rune-knight:runic-might": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:ruse": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      24
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:rune-knight:undermine": {
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ],
+      "Bomb": [
+        "mention"
+      ],
+      "Burning": [
+        "mention"
+      ],
+      "Confused": [
+        "mention"
+      ],
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:shadowbringer:arrogance-is-confidence": {
+    "statuses": {
+      "Blighted": [
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:shadowbringer:ascent-of-the-damned": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:shadowbringer:dark-souls": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:shadowbringer:dead-divinity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:shadowbringer:doomsday": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:shadowbringer:dystopia": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "perk:shadowbringer:endwalker": {
+    "statuses": {
+      "Blighted": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:shadowbringer:fall-from-grace": {
+    "statuses": {
+      "Blighted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:shadowbringer:harrow": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:shadowbringer:leeches": {
+    "statuses": {
+      "Leeching": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:shadowbringer:phantom-pain": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:shadowbringer:self-fulfilling-prophecy": {
+    "statuses": {
+      "Mending": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "perk:shadowbringer:shadow-mending": {
+    "statuses": {
+      "Leeching": [
+        "gain"
+      ],
+      "Mending": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:shadowbringer:shadow-sickness": {
+    "statuses": {
+      "Blighted": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:shadowbringer:touch-of-darkness": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:shadowbringer:worldbreaker": {
+    "statuses": {
+      "Blighted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:armor-shred": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:barricade": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:siegemaster:defensive-stance": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:explosive-armor": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      10,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:siegemaster:furious-protector": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:in-formation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:last-stand": {
+    "statuses": {},
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      100,
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "Health, they have a 50% chance to be left with 1 Health",
+    "openingGuess": null
+  },
+  "perk:siegemaster:lucidity": {
+    "statuses": {
+      "Confused": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:no-weak-links": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:siegemaster:purge": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:siegemaster:rest-up": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:siegemaster:shield-guard": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:the-best-offense": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      3,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:thorns": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:siegemaster:titanic-rage": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      150
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:siegemaster:war-machine": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:sorcerer:calcify": {
+    "statuses": {
+      "Stone": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:sorcerer:comfortable-proximity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:sorcerer:fade": {
+    "statuses": {
+      "Invisible": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:sorcerer:flabbergast": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      20
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:sorcerer:gravity-s-void": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:sorcerer:mental-fortitude": {
+    "statuses": {
+      "Shelled": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:sorcerer:perplex": {
+    "statuses": {
+      "Confused": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:sorcerer:psychic-scream": {
+    "statuses": {
+      "Silenced": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      4,
+      100
+    ],
+    "tiers": [],
+    "chance": 4,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_cast"
+  },
+  "perk:sorcerer:ruin": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      1.5,
+      90
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:sorcerer:singe": {
+    "statuses": {
+      "Scorned": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      4,
+      100
+    ],
+    "tiers": [],
+    "chance": 4,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:sorcerer:slipstream": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:sorcerer:spell-of-frost": {
+    "statuses": {
+      "Frozen": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:sorcerer:spell-of-roots": {
+    "statuses": {
+      "Snared": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:sorcerer:spell-of-slumber": {
+    "statuses": {
+      "Sleeping": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "end_of_turn"
+  },
+  "perk:sorcerer:undertow": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      10,
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:sorcerer:unity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2.5,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:attunement": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack",
+      "Defense",
+      "Speed"
+    ],
+    "allStats": true,
+    "percents": [
+      5,
+      1,
+      25,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:spellweaver:chaos-infusion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:chromatic-layering": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:chrono-shift": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:death-infusion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:elemental-empowerment": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:spellweaver:eternal-echo": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:spellweaver:infinity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:inspirited-gems": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:spellweaver:life-infusion": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:nature-infusion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:prismatic-barrier": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:spellweaver:sorcery-infusion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:spectral-affinity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:temporal-anomaly": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:spellweaver:ultimate-manifestation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:addictive-effect": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      4,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:bioassay": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:breath-of-death": {
+    "statuses": {
+      "Poisoned": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:toxicologist:carcinogen": {
+    "statuses": {
+      "Poisoned": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:chronic-illness": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:confounding-factors": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:diagnosis": {
+    "statuses": {
+      "Poisoned": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Current Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:dispersing-plague": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:toxicologist:inoculate": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      80
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:neurotoxicity": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:toxicologist:plague-of-toads": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      20
+    ],
+    "tiers": [],
+    "chance": 20,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:toxicologist:prognosis": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:toxicologist:side-effects": {
+    "statuses": {
+      "Poisoned": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_afflicted"
+  },
+  "perk:toxicologist:sudden-exposure": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:toxicologist:teratogen": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:toxicologist:toxic-absorption": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:tribalist:battalion": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": "of 6 buffs",
+    "openingGuess": "start_of_battle"
+  },
+  "perk:tribalist:cogence": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:familiarity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:feign-death": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      50,
+      10
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:tribalist:fluster": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:forest-pact": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:tribalist:gone-but-not-forgotten": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:tribalist:harbinger": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:hybridization": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack",
+      "Defense",
+      "Speed"
+    ],
+    "allStats": true,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:overwhelm": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:purebred": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack",
+      "Defense",
+      "Speed"
+    ],
+    "allStats": true,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:survival-instincts": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:ties-that-bind": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:transformation": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:tribalist:union": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:tribalist:we-are-pack": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:trickster:bafflement": {
+    "statuses": {
+      "Confused": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:trickster:even-the-odds": {
+    "statuses": {},
+    "stats": [
+      "Current Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      2,
+      20,
+      100
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:feint": {
+    "statuses": {
+      "Disarmed": [
+        "afflict",
+        "cond"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      4,
+      100
+    ],
+    "tiers": [],
+    "chance": 4,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:hidden-hand": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:immaculate-recovery": {
+    "statuses": {
+      "Invisible": [
+        "gain"
+      ],
+      "Shelled": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:intent-to-kill": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:nightstalker": {
+    "statuses": {
+      "Invisible": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:trickster:pilfer": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:trickster:prey": {
+    "statuses": {
+      "Disarmed": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:rebound": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:sleight-of-hand": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:spontaneity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:stratagem": {
+    "statuses": {
+      "Invisible": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:trickster:subterfuge": {
+    "statuses": {},
+    "stats": [
+      "Defense"
+    ],
+    "allStats": false,
+    "percents": [
+      2,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:trickster:tools-of-the-trade": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:trickster:whetbone": {
+    "statuses": {
+      "Proficient": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:warden:alpha": {
+    "statuses": {
+      "Protected": [
+        "gain"
+      ],
+      "Taunting": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:warden:awareness": {
+    "statuses": {
+      "Defensive": [
+        "gain"
+      ],
+      "Rebirth": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:warden:bristle": {
+    "statuses": {
+      "Repelling": [
+        "gain"
+      ],
+      "Shelled": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:warden:convocation": {
+    "statuses": {
+      "Arcane": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:warden:earthen-frenzy": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      2,
+      20
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_gains_buff"
+  },
+  "perk:warden:eternal-guardian": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:warden:graceful-spirit": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Maximum Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      25
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": "Health per rank",
+    "openingGuess": "start_of_turn"
+  },
+  "perk:warden:grove-ward": {
+    "statuses": {
+      "Warded": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:warden:luster": {
+    "statuses": {
+      "Agile": [
+        "gain"
+      ],
+      "Mending": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_damaged"
+  },
+  "perk:warden:moment-of-clarity": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      20
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_gains_buff"
+  },
+  "perk:warden:nature-s-boon": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": true,
+    "percents": [
+      1,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:warden:overrun": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      3,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_gains_buff"
+  },
+  "perk:warden:predator": {
+    "statuses": {
+      "Savage": [
+        "gain"
+      ],
+      "Splashing": [
+        "gain"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:warden:preparation": {
+    "statuses": {
+      "Invisible": [
+        "gain"
+      ],
+      "Proficient": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:warden:primal-vengeance": {
+    "statuses": {
+      "Berserk": [
+        "gain"
+      ],
+      "Leeching": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:warden:soul-of-the-forest": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      20
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "after_gains_buff"
+  },
+  "perk:warden:spirit-shield": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2,
+      1,
+      10,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:warden:survival-of-the-fittest": {
+    "statuses": {
+      "Immune": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_gains_buff"
+  },
+  "perk:warden:unending-boon": {
+    "statuses": {
+      "Invisible": [
+        "cond",
+        "remove"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": 30,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:accumulation": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      1,
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "perk:windrunner:aeroforged": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      3,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:born-again": {
+    "statuses": {},
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
+  },
+  "perk:windrunner:derivation": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      3,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:windrunner:first-served": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:windrunner:further-beyond": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:windrunner:inertia": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:primordial": {
+    "statuses": {
+      "Stone": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:propulsion": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      1,
+      90,
+      100,
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:quick-hands": {
+    "statuses": {
+      "Disarmed": [
+        "immune"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:retention": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:sidestep": {
+    "statuses": {},
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      200
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:windrunner:singleton": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:true-ending": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:windrunner:velocity": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack",
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      3,
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:windrunner:zoom": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": 100,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:backbite": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:bad-medicine": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:witch-doctor:bewitch": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:witch-doctor:blind-eye": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:cursed-omen": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:hedge-magic": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:hex": {
+    "statuses": {
+      "Confused": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:initiation-rite": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:witch-doctor:jinx": {
+    "statuses": {
+      "Cursed": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:maledict": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:mass-hysteria": {
+    "statuses": {
+      "Blind": [
+        "afflict"
+      ],
+      "Confused": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_afflicted"
+  },
+  "perk:witch-doctor:mumbo-jumbo": {
+    "statuses": {
+      "Confused": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5,
+      50
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "perk:witch-doctor:terrorize": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_attack"
+  },
+  "perk:witch-doctor:trance": {
+    "statuses": {},
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      5,
+      25
+    ],
+    "tiers": [],
+    "chance": 5,
+    "doesNotStack": false,
+    "perRank": true,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "perk:witch-doctor:vision-quest": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_battle"
+  },
+  "perk:witch-doctor:voodoo": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  }
+}

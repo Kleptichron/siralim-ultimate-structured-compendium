@@ -1,0 +1,24 @@
+{
+  "id": "spell:vampirism",
+  "textHash": "5824f76ec63a",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Leeching"
+          ]
+        }
+      ]
+    }
+  ]
+}

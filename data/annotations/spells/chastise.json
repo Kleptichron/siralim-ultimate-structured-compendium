@@ -1,0 +1,24 @@
+{
+  "id": "spell:chastise",
+  "textHash": "590611b77ccc",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "spell:steel-storm",
+  "textHash": "e2d64562b775",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "massive"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "spell:icewolf-bite",
+  "textHash": "caeb9665f058",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ]
+}

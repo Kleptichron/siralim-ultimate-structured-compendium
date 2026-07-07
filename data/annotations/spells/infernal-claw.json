@@ -1,0 +1,33 @@
+{
+  "id": "spell:infernal-claw",
+  "textHash": "8ee68c36f66c",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-damage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Burning",
+            "Bleeding",
+            "Vulnerable"
+          ]
+        }
+      ]
+    }
+  ]
+}

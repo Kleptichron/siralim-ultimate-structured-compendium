@@ -1,0 +1,25 @@
+{
+  "id": "perk:evoker:outspoken",
+  "textHash": "fe9e21cf7008",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "immune-group",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Silenced"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "spell:sanctuary",
+  "textHash": "9868f8557741",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Shelled",
+            "Mending",
+            "Repelling"
+          ]
+        }
+      ]
+    }
+  ]
+}

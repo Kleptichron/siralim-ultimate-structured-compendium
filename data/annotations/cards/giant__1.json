@@ -1,0 +1,29 @@
+{
+  "id": "card:giant:1",
+  "textHash": "1ba650e1cd0c",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "stat-mod-allies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ]
+}

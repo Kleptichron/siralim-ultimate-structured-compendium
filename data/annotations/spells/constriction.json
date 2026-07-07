@@ -1,0 +1,25 @@
+{
+  "id": "spell:constriction",
+  "textHash": "0c899d505dfa",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-afflict",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Weak",
+            "Snared"
+          ]
+        }
+      ]
+    }
+  ]
+}

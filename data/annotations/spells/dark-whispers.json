@@ -1,0 +1,24 @@
+{
+  "id": "spell:dark-whispers",
+  "textHash": "f148e12b9415",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "spell-gain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Arcane"
+          ]
+        }
+      ]
+    }
+  ]
+}

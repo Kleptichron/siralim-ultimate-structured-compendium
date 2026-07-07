@@ -1,0 +1,25 @@
+{
+  "id": "perk:siegemaster:lucidity",
+  "textHash": "55289594d1ab",
+  "schemaVersion": 0,
+  "provenance": "machine",
+  "machineTemplate": "immune-group",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Confused"
+          ]
+        }
+      ]
+    }
+  ]
+}

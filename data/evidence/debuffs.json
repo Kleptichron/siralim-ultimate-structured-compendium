@@ -1,0 +1,345 @@
+{
+  "debuff:bleeding": {
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Current Health",
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      30
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:blighted": {
+    "statuses": {
+      "Blighted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:blind": {
+    "statuses": {
+      "Blind": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "debuff:bomb": {
+    "statuses": {
+      "Bomb": [
+        "afflict"
+      ]
+    },
+    "stats": [
+      "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      80
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "start_of_turn"
+  },
+  "debuff:burning": {
+    "statuses": {
+      "Burning": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Intelligence"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:confused": {
+    "statuses": {
+      "Confused": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": 50,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "debuff:cursed": {
+    "statuses": {
+      "Cursed": [
+        "cond"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "debuff:disarmed": {
+    "statuses": {
+      "Disarmed": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "debuff:feared": {
+    "statuses": {
+      "Feared": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "debuff:frozen": {
+    "statuses": {
+      "Frozen": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      25
+    ],
+    "tiers": [],
+    "chance": 25,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "debuff:inverted": {
+    "statuses": {
+      "Inverted": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "debuff:poisoned": {
+    "statuses": {
+      "Poisoned": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:scorned": {
+    "statuses": {
+      "Scorned": [
+        "mention"
+      ],
+      "Silenced": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:silenced": {
+    "statuses": {
+      "Scorned": [
+        "mention"
+      ],
+      "Silenced": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:sleeping": {
+    "statuses": {
+      "Sleeping": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:snared": {
+    "statuses": {
+      "Snared": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:stone": {
+    "statuses": {
+      "Stone": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "debuff:vulnerable": {
+    "statuses": {
+      "Vulnerable": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "debuff:weak": {
+    "statuses": {
+      "Weak": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  }
+}

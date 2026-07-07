@@ -1,0 +1,130 @@
+[
+  {
+    "id": "nemesis:agile",
+    "source": "nemesis",
+    "name": "Agile",
+    "text": "Enemies start at the top of the Timeline.",
+    "textHash": "11af269a0515",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:blessed",
+    "source": "nemesis",
+    "name": "Blessed",
+    "text": "Enemies start with 5 buffs.",
+    "textHash": "59cd2a672be6",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:blinking",
+    "source": "nemesis",
+    "name": "Blinking",
+    "text": "Your creatures' spells deal 90% less damage.",
+    "textHash": "a77d886ab98d",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:brutal",
+    "source": "nemesis",
+    "name": "Brutal",
+    "text": "Enemies deal 100% more damage and always deal critical damage.",
+    "textHash": "58f088dba3db",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:champion",
+    "source": "nemesis",
+    "name": "Champion",
+    "text": "Leader is immune to damage, debuffs, and stat reduction while allies are alive.",
+    "textHash": "57a7e4fb6915",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:feedback",
+    "source": "nemesis",
+    "name": "Feedback",
+    "text": "After your creatures cast a spell, they take damage equal to 20% of Maximum Health",
+    "textHash": "f34c17e3701a",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:hearty",
+    "source": "nemesis",
+    "name": "Hearty",
+    "text": "Enemies have 100% more Health and take 50% less damage.",
+    "textHash": "f0c864498584",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:hex",
+    "source": "nemesis",
+    "name": "Hex",
+    "text": "Your creatures' spells consume 3 additional Charges.",
+    "textHash": "de2a191472f1",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:macabre",
+    "source": "nemesis",
+    "name": "Macabre",
+    "text": "Your creatures start with 3 debuffs.",
+    "textHash": "823fb09d8481",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:misery",
+    "source": "nemesis",
+    "name": "Misery",
+    "text": "Your creatures cannot gain buffs or stats.",
+    "textHash": "90d44596d279",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:obtuse",
+    "source": "nemesis",
+    "name": "Obtuse",
+    "text": "Your creatures' attacks deal 90% less damage.",
+    "textHash": "b93fde539b4c",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:plague",
+    "source": "nemesis",
+    "name": "Plague",
+    "text": "Your creatures are afflicted with a random debuff at the start of their turns.",
+    "textHash": "8dbb8372df6e",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:protected",
+    "source": "nemesis",
+    "name": "Protected",
+    "text": "Enemies cannot take damage that exceeds more than 25% of their Maximum Health.",
+    "textHash": "aa5f54834cd5",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:thorns",
+    "source": "nemesis",
+    "name": "Thorns",
+    "text": "50% of damage taken by enemies is reflected, up to 100% of the enemies' Current Health.",
+    "textHash": "a3d6fb8e37b7",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:undying",
+    "source": "nemesis",
+    "name": "Undying",
+    "text": "Enemies resurrect after a short period of time.",
+    "textHash": "645d204d5cb6",
+    "meta": {}
+  },
+  {
+    "id": "nemesis:vengeance",
+    "source": "nemesis",
+    "name": "Vengeance",
+    "text": "After an enemy dies, all other enemies gain 30% stats.",
+    "textHash": "0efd32f8b02c",
+    "meta": {}
+  }
+]
