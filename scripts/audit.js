@@ -1,11 +1,15 @@
 // Distribution + sampling report for human review sessions.
-// Usage: npm run audit [-- --sample 15]
+// Usage: npm run audit [-- --sample 15] [-- --ids trait:quell,spell:boulder]
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { SOURCE_DIRS } from './lib/ids.js';
 
 const sampleN = (() => {
   const i = process.argv.indexOf('--sample');
   return i > -1 ? Number(process.argv[i + 1]) : 10;
+})();
+const onlyIds = (() => {
+  const i = process.argv.indexOf('--ids');
+  return i > -1 ? new Set(process.argv[i + 1].split(',')) : null;
 })();
 
 const byId = new Map();
@@ -43,20 +47,56 @@ for (const [name, h] of Object.entries(hist)) {
   console.log();
 }
 
-// --- review sample ---
-const renderRule = r => {
-  const cond = (r.conditions ?? []).map(c => c.type).join(',');
-  const acts = (r.actions ?? []).map(a =>
-    `${a.verb}${a.target ? '->' + a.target : ''}${a.statuses ? ' [' + a.statuses.join(',') + ']' : ''}${a.stats ? ' {' + a.stats.join(',') + '}' : ''}`
-  ).join('; ');
-  return `WHEN ${r.trigger?.type}${r.trigger?.subject ? '(' + r.trigger.subject + ')' : ''}${cond ? ' IF ' + cond : ''}${r.chance ? ` (${r.chance}%)` : ''} DO ${acts}`;
+// --- review sample: every searchable field must be visible ---
+const renderCond = c => {
+  const p = c.params ?? {};
+  const detail = p.status ?? p.statuses?.join('|') ?? p.class ?? p.race
+    ?? (c.type === 'team_composition' ? `${p.race ?? p.class ?? '?'}:${p.scope ?? p.inParty ?? ''}` : null)
+    ?? (Object.keys(p).length ? JSON.stringify(p) : null);
+  return `${c.type}${c.who ? `[${c.who}]` : ''}${detail ? `(${detail})` : ''}`;
 };
-console.log(`--- random sample of ${sampleN} for review ---`);
-const shuffled = [...anns].sort(() => Math.random() - 0.5).slice(0, sampleN);
-for (const a of shuffled) {
+const renderMag = m => {
+  if (!m) return '';
+  const bits = [];
+  if (m.tier) bits.push(`~${m.tier}~`);
+  if (m.amountPct !== undefined) bits.push(`${m.amountPct}%`);
+  if (m.amountFlat !== undefined) bits.push(String(m.amountFlat));
+  if (m.direction) bits.push(m.direction === 'up' ? 'UP' : 'DOWN');
+  if (m.scaleStat) bits.push(`=${m.scalePct ?? '?'}% of ${m.scaleStat}`);
+  if (m.scaleRef) bits.push(`=${m.scalePct ?? '?'}% of <${m.scaleRef}>`);
+  if (m.per) bits.push(`per ${m.per}`);
+  if (m.perRank) bits.push(`per-rank ${m.perRank.per ?? '?'} (max ${m.perRank.maxTotal ?? '?'})`);
+  if (m.cap !== undefined) bits.push(`cap ${m.cap}`);
+  return bits.length ? ' ' + bits.join(' ') : '';
+};
+const renderAction = a => {
+  const head = `${a.verb}${a.actor ? `@${a.actor}` : ''}${a.target ? '->' + a.target : ''}`;
+  const tags = [
+    a.statuses?.length ? `[${a.statuses.join(',')}]` : '',
+    a.statusKind ? `[${a.statusKind}s]` : '',
+    a.stats?.length ? `{${a.stats.join(',')}}` : '',
+    a.flow ? `flow:${a.flow}` : '',
+    a.qualifiers?.length ? `<${a.qualifiers.join(',')}>` : '',
+  ].filter(Boolean).join(' ');
+  const extra = a.params && Object.keys(a.params).length ? `  …${JSON.stringify(a.params)}` : '';
+  return `${head}${tags ? ' ' + tags : ''}${renderMag(a.magnitude)}${extra}`;
+};
+const renderRule = r => {
+  const cond = (r.conditions ?? []).map(renderCond).join(' & ');
+  const trigP = r.trigger?.params && Object.keys(r.trigger.params).length
+    ? ` …${JSON.stringify(r.trigger.params)}` : '';
+  const head = `WHEN ${r.trigger?.type}${r.trigger?.subject ? `(${r.trigger.subject})` : ''}${trigP}`
+    + `${cond ? `  IF ${cond}` : ''}${r.chance ? `  CHANCE ${r.chance}%` : ''}${r.modifiesDefault ? '  [replaces default]' : ''}`;
+  const acts = (r.actions ?? []).map(a => `    DO ${renderAction(a)}`);
+  return [head, ...acts].join('\n  ');
+};
+const pool = onlyIds ? anns.filter(a => onlyIds.has(a.id)) : [...anns].sort(() => Math.random() - 0.5).slice(0, sampleN);
+console.log(onlyIds ? `--- ${pool.length} requested record(s) ---` : `--- random sample of ${sampleN} for review ---`);
+for (const a of pool) {
   const rec = byId.get(a.id);
   console.log(`\n${a.id}  [${a.provenance}]`);
   console.log(`  "${rec?.text}"`);
   for (const r of a.rules ?? []) console.log(`  ${renderRule(r)}`);
   if (a.flags) console.log(`  flags: ${JSON.stringify(a.flags)}`);
+  if (a.notes) console.log(`  notes: ${a.notes}`);
 }
