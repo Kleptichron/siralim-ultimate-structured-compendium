@@ -1,7 +1,7 @@
 {
   "id": "perk:shadowbringer:shadow-sickness",
   "textHash": "9e8f662c1595",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [
@@ -18,9 +18,9 @@
           "statuses": [
             "Blighted"
           ],
-          "params": {
-            "permanent": true
-          }
+          "qualifiers": [
+            "permanent"
+          ]
         }
       ]
     }

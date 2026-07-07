@@ -1,7 +1,7 @@
 {
   "id": "card:hound:2",
   "textHash": "7e4c0823b3a1",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "card-class-spell-dr",
   "rules": [
@@ -15,12 +15,12 @@
         {
           "verb": "damage_modifier",
           "target": "allies",
+          "flow": "taken",
           "magnitude": {
             "amountPct": 15,
             "direction": "down"
           },
           "params": {
-            "taken": true,
             "sourceClass": "Death",
             "sourceKind": "spells"
           }

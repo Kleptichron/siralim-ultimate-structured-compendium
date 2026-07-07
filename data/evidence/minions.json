@@ -1,7 +1,9 @@
 {
   "minion:amalgamation": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       5
@@ -192,7 +194,9 @@
   },
   "minion:illusion": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -332,7 +336,9 @@
   },
   "minion:writhelings": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],

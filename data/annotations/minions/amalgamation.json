@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "minion:amalgamation",
   "rules": [
@@ -17,11 +17,12 @@
           "target": "random_enemy",
           "magnitude": {
             "scaleStat": "highest_stat",
-            "scaleStatPct": 5
+            "scalePct": 5,
+            "scaleRef": "minion_count",
+            "per": "minion its master has"
           },
           "params": {
-            "scaleSource": "master",
-            "multipliedBy": "number of minions its master has"
+            "scaleSource": "master"
           }
         }
       ]

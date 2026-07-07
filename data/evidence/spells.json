@@ -13,7 +13,9 @@
   },
   "spell:absolute-focus": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       100
@@ -102,7 +104,9 @@
   },
   "spell:adrenaline-rush": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       15
@@ -3152,6 +3156,7 @@
   "spell:eagle-claws": {
     "statuses": {},
     "stats": [
+      "Attack",
       "Speed"
     ],
     "allStats": false,
@@ -4590,7 +4595,9 @@
   },
   "spell:fury-swipes": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       25
@@ -9411,6 +9418,7 @@
     "statuses": {},
     "stats": [
       "Intelligence",
+      "Attack",
       "Defense"
     ],
     "allStats": false,
@@ -9431,6 +9439,7 @@
     "stats": [
       "Current Health",
       "Intelligence",
+      "Attack",
       "Health"
     ],
     "allStats": false,
@@ -9450,6 +9459,7 @@
     "statuses": {},
     "stats": [
       "Intelligence",
+      "Attack",
       "Speed"
     ],
     "allStats": false,
@@ -9467,7 +9477,9 @@
   },
   "spell:rune-of-sah": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [
@@ -10911,7 +10923,9 @@
   },
   "spell:subterfuge": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       30
@@ -10940,6 +10954,7 @@
   "spell:sudden-death": {
     "statuses": {},
     "stats": [
+      "Current Health",
       "Health"
     ],
     "allStats": false,

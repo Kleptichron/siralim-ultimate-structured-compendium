@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "spell:adrenaline-rush",
   "rules": [
@@ -13,9 +13,9 @@
           "target": "random_enemy",
           "params": {
             "times": 3,
-            "damagePctOfNormal": 15,
-            "actor": "caster"
-          }
+            "damagePctOfNormal": 15
+          },
+          "actor": "caster"
         }
       ]
     }

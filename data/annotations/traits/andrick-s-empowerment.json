@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:andrick-s-empowerment",
   "rules": [
@@ -15,11 +15,10 @@
           "magnitude": {
             "amountPct": 5,
             "direction": "up",
-            "perCount": "minion each of your creatures have"
+            "per": "minion each of your creatures have",
+            "scaleRef": "minion_count"
           },
-          "params": {
-            "dealt": true
-          }
+          "flow": "dealt"
         }
       ]
     }

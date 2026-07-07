@@ -380,7 +380,9 @@
   },
   "relic:arbiter:r40": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -424,7 +426,9 @@
         "gain"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       5
@@ -695,7 +699,9 @@
         "mention"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -729,7 +735,9 @@
         "cond"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -775,7 +783,9 @@
   },
   "relic:bloodseeker:r10": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       50
@@ -931,7 +941,9 @@
   },
   "relic:brambleskin:r10": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -1070,7 +1082,9 @@
   },
   "relic:brambleskin:r90": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       20
@@ -1254,7 +1268,9 @@
   },
   "relic:fable:r100": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       10
@@ -1299,7 +1315,9 @@
   },
   "relic:fable:r40": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       5
@@ -1325,7 +1343,9 @@
   },
   "relic:fable:r60": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -2880,7 +2900,9 @@
   },
   "relic:prime-and-ventus:r80": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       50
@@ -4494,7 +4516,9 @@
         "gain"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       50

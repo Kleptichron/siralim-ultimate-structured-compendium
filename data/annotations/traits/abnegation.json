@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:abnegation",
   "rules": [
@@ -12,8 +12,9 @@
         {
           "verb": "deal_damage",
           "target": "random_enemy",
-          "params": {
-            "amount": "50% of health recovered"
+          "magnitude": {
+            "scaleRef": "healing_received",
+            "scalePct": 50
           }
         }
       ]

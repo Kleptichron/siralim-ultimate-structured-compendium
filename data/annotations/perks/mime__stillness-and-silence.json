@@ -1,7 +1,7 @@
 {
   "id": "perk:mime:stillness-and-silence",
   "textHash": "873ab40591fa",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [
@@ -18,9 +18,9 @@
           "statuses": [
             "Cursed"
           ],
-          "params": {
-            "permanent": true
-          }
+          "qualifiers": [
+            "permanent"
+          ]
         }
       ]
     }

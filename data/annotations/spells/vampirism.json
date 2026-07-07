@@ -1,7 +1,7 @@
 {
   "id": "spell:vampirism",
   "textHash": "5824f76ec63a",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

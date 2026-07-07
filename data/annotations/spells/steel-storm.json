@@ -1,7 +1,7 @@
 {
   "id": "spell:steel-storm",
   "textHash": "e2d64562b775",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

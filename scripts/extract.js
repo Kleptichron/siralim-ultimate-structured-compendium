@@ -120,7 +120,7 @@ const TEMPLATES = [
     name: 'always-have', sources: ['cards', 'perks', 'realm'],
     re: new RegExp(`^(Your creatures|Enemies) always ha(?:ve|s) (${LIST})\\.$`),
     build: m => [rule({ type: 'passive', subject: scopeOf[m[1]] },
-      [{ verb: 'apply_status', target: scopeOf[m[1]], statuses: parseList(m[2]), params: { permanent: true } }])],
+      [{ verb: 'apply_status', target: scopeOf[m[1]], statuses: parseList(m[2]), qualifiers: ['permanent'] }])],
   },
   {
     name: 'start-battle-gain', sources: ['cards', 'perks', 'realm', 'relics', 'traits'],
@@ -159,13 +159,13 @@ const TEMPLATES = [
     name: 'card-class-spell-dr', sources: ['cards'],
     re: new RegExp(`^Your creatures take (\\d+)% less damage from (${CLASS_ALT}) spells\\.$`),
     build: m => [rule({ type: 'passive', subject: 'allies' },
-      [{ verb: 'damage_modifier', target: 'allies', magnitude: { amountPct: Number(m[1]), direction: 'down' }, params: { taken: true, sourceClass: m[2], sourceKind: 'spells' } }])],
+      [{ verb: 'damage_modifier', target: 'allies', flow: 'taken', magnitude: { amountPct: Number(m[1]), direction: 'down' }, params: { sourceClass: m[2], sourceKind: 'spells' } }])],
   },
   {
     name: 'card-class-attack-dr', sources: ['cards'],
     re: new RegExp(`^Your creatures take (\\d+)% less damage from attacks from (${CLASS_ALT}) creatures\\.$`),
     build: m => [rule({ type: 'passive', subject: 'allies' },
-      [{ verb: 'damage_modifier', target: 'allies', magnitude: { amountPct: Number(m[1]), direction: 'down' }, params: { taken: true, sourceClass: m[2], sourceKind: 'attacks' } }])],
+      [{ verb: 'damage_modifier', target: 'allies', flow: 'taken', magnitude: { amountPct: Number(m[1]), direction: 'down' }, params: { sourceClass: m[2], sourceKind: 'attacks' } }])],
   },
 ];
 

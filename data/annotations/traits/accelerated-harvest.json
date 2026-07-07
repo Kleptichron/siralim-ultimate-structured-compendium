@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:accelerated-harvest",
   "rules": [
@@ -14,10 +14,12 @@
           "verb": "apply_status",
           "target": "target",
           "params": {
-            "random": true,
-            "count": 1,
-            "kind": "debuff"
-          }
+            "count": 1
+          },
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
         }
       ]
     }

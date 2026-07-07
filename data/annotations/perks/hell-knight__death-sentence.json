@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "perk:hell-knight:death-sentence",
   "rules": [
@@ -20,9 +20,9 @@
             }
           },
           "params": {
-            "dealt": true,
             "criticalOnly": true
-          }
+          },
+          "flow": "dealt"
         }
       ]
     }

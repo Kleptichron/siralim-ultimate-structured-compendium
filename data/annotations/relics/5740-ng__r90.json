@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "relic:5740-ng:r90",
   "rules": [
@@ -19,8 +19,9 @@
           "stats": [
             "Health"
           ],
-          "params": {
-            "amount": "50% of the amount gained"
+          "magnitude": {
+            "scaleRef": "amount_gained",
+            "scalePct": 50
           }
         }
       ]

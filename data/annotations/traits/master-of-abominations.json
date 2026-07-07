@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:master-of-abominations",
   "rules": [
@@ -25,9 +25,9 @@
             "Weak",
             "Vulnerable"
           ],
-          "params": {
-            "permanent": true
-          }
+          "qualifiers": [
+            "permanent"
+          ]
         },
         {
           "verb": "damage_modifier",
@@ -36,9 +36,7 @@
             "amountPct": 50,
             "direction": "up"
           },
-          "params": {
-            "taken": true
-          }
+          "flow": "taken"
         }
       ]
     }

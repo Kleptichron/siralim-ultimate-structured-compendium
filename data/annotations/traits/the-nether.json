@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:the-nether",
   "rules": [
@@ -23,7 +23,8 @@
       "actions": [
         {
           "verb": "attack",
-          "target": "random_enemy"
+          "target": "random_enemy",
+          "actor": "self"
         }
       ]
     },
@@ -49,10 +50,13 @@
           "verb": "apply_status",
           "target": "enemies",
           "params": {
-            "random": true,
-            "count": 1,
-            "kind": "debuff"
-          }
+            "count": 1
+          },
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "actor": "self"
         }
       ]
     },
@@ -78,10 +82,13 @@
           "verb": "apply_status",
           "target": "allies",
           "params": {
-            "random": true,
-            "count": 1,
-            "kind": "buff"
-          }
+            "count": 1
+          },
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "actor": "self"
         }
       ]
     },
@@ -112,7 +119,8 @@
           "magnitude": {
             "amountPct": 10,
             "direction": "up"
-          }
+          },
+          "actor": "self"
         }
       ]
     },
@@ -137,9 +145,12 @@
         {
           "verb": "cast",
           "params": {
-            "gemOf": "trigger_subject",
-            "random": true
-          }
+            "gemOf": "trigger_subject"
+          },
+          "qualifiers": [
+            "random"
+          ],
+          "actor": "self"
         }
       ]
     }

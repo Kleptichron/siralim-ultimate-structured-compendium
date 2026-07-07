@@ -1,7 +1,7 @@
 {
   "id": "perk:hell-knight:magma-diver",
   "textHash": "d617b221591e",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [
@@ -19,9 +19,9 @@
             "Splashing",
             "Savage"
           ],
-          "params": {
-            "permanent": true
-          }
+          "qualifiers": [
+            "permanent"
+          ]
         }
       ]
     }

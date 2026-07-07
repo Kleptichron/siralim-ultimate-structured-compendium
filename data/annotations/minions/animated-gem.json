@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "minion:animated-gem",
   "rules": [
@@ -15,9 +15,11 @@
         {
           "verb": "cast",
           "params": {
-            "gemOf": "owner",
-            "random": true
-          }
+            "gemOf": "owner"
+          },
+          "qualifiers": [
+            "random"
+          ]
         }
       ]
     }

@@ -255,7 +255,9 @@
         "mention"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],

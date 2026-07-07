@@ -1,4 +1,7 @@
-# Rule model (schema v0 — pre-freeze)
+# Rule model (schema v1 — frozen 2026-07-06)
+
+> Operational tagging rules live in [tagging-conventions.md](tagging-conventions.md).
+> Post-freeze changes require a migration in scripts/migrations/ (see 0001 for the pattern).
 
 Every effect text is annotated as a list of **rules**: WHEN (trigger) + IF (conditions) + DO (actions).
 Searchable fields use the closed enums in [scripts/lib/schema.js](../scripts/lib/schema.js) — that file
@@ -6,10 +9,11 @@ is the source of truth; this doc explains intent and conventions.
 
 Two strictness tiers:
 - **Searchable fields** (`trigger.type`, `trigger.subject`, `condition.type`, `condition.who`,
-  `action.verb`, `action.target`, `action.statuses`, `action.stats`, `magnitude`, `rule.chance`,
-  record `flags`) — enum-validated, drive the search facets.
+  `action.verb`, `action.actor`, `action.target`, `action.statuses`, `action.stats`,
+  `action.statusKind`, `action.qualifiers`, `action.flow`, `magnitude` incl. `scaleStat`/`scaleRef`,
+  `rule.chance`, record `flags`) — enum-validated, drive the search facets.
 - **`params`** objects anywhere — freeform nuance for display ("whichever the target lacks",
-  `{permanent: true}`, selector details). Never validated beyond being an object, never faceted.
+  selector details). Never validated beyond being an object, never faceted.
 
 ## Annotation shape
 
@@ -61,12 +65,11 @@ Two strictness tiers:
 - **Escape hatch**: anything unmodelable gets `flags.unmodeled: true` + `notes` — never bend
   an enum to fit. The audit alarm fires if any `other` exceeds 3% usage.
 
-## Enums (v0)
+## Enums (v1)
 
-See `TRIGGER_TYPES` (29), `SCOPES` (16), `CONDITION_TYPES` (13), `ACTION_VERBS` (27),
-`TIERS` (5), `SCALE_SPECIALS`, magnitude keys — all in scripts/lib/schema.js.
-Schema freezes to v1 after the pilot review; post-freeze changes require a migration note
-and full re-validation.
+See scripts/lib/schema.js for the authoritative lists: `TRIGGER_TYPES` (29), `SCOPES` (16),
+`CONDITION_TYPES` (14), `ACTION_VERBS` (31), `TIERS` (5), `SCALE_SPECIALS`, `SCALE_REFS` (15),
+`QUALIFIERS` (random/stolen/permanent), `STATUS_KINDS`, `FLOWS` (dealt/taken), magnitude keys.
 
 ## Pipeline
 

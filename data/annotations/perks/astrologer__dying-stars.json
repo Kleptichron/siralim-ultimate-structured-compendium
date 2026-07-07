@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "perk:astrologer:dying-stars",
   "rules": [
@@ -30,8 +30,7 @@
             "healthPct": 50
           }
         }
-      ],
-      "modifiesDefault": false
+      ]
     }
   ],
   "notes": "Chance is 1% per rank (20% at max rank); rule.chance records the max.",

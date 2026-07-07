@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "spell:absolute-corruption",
   "rules": [
@@ -12,18 +12,20 @@
           "verb": "remove_status",
           "target": "target",
           "params": {
-            "kind": "buff",
             "all": true
-          }
+          },
+          "statusKind": "buff"
         },
         {
           "verb": "apply_status",
           "target": "target",
           "params": {
-            "random": true,
-            "kind": "debuff",
             "perRemoved": 1
-          }
+          },
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
         }
       ]
     }

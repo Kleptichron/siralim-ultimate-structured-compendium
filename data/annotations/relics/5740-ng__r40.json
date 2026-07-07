@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "relic:5740-ng:r40",
   "rules": [
@@ -17,9 +17,9 @@
             "direction": "down"
           },
           "params": {
-            "taken": true,
             "indirect": true
-          }
+          },
+          "flow": "taken"
         }
       ]
     }

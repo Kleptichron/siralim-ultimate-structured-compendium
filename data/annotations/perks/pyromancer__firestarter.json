@@ -1,7 +1,7 @@
 {
   "id": "perk:pyromancer:firestarter",
   "textHash": "87e31d3689df",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [
@@ -18,9 +18,9 @@
           "statuses": [
             "Burning"
           ],
-          "params": {
-            "permanent": true
-          }
+          "qualifiers": [
+            "permanent"
+          ]
         }
       ]
     }

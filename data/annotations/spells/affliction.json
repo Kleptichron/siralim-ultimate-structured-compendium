@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "spell:affliction",
   "rules": [
@@ -12,10 +12,12 @@
           "verb": "apply_status",
           "target": "enemies",
           "params": {
-            "random": true,
-            "count": 1,
-            "kind": "debuff"
-          }
+            "count": 1
+          },
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
         }
       ]
     }

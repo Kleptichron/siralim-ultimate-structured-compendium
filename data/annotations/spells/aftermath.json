@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "spell:aftermath",
   "rules": [
@@ -12,12 +12,11 @@
           "verb": "attack",
           "target": "random_enemy",
           "magnitude": {
-            "perCount": "turn the caster has taken this battle",
-            "cap": 10
+            "cap": 10,
+            "per": "turn the caster has taken this battle",
+            "scaleRef": "turns_taken"
           },
-          "params": {
-            "actor": "caster"
-          }
+          "actor": "caster"
         }
       ]
     }

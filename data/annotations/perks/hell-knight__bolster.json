@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "perk:hell-knight:bolster",
   "rules": [
@@ -18,10 +18,10 @@
             "scaleStat": "missing_health"
           },
           "params": {
-            "taken": true,
             "per": "1% of Health missing",
             "from": "attacks and spells"
-          }
+          },
+          "flow": "taken"
         }
       ]
     }

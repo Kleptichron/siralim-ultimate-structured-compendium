@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:abation",
   "rules": [
@@ -20,9 +20,9 @@
             "amountPct": 20,
             "direction": "down"
           },
-          "params": {
-            "stolen": true
-          }
+          "qualifiers": [
+            "stolen"
+          ]
         },
         {
           "verb": "stat_change",
@@ -35,8 +35,11 @@
             "direction": "up"
           },
           "params": {
-            "receivesStolen": true
-          }
+            "note": "receives the stolen stats"
+          },
+          "qualifiers": [
+            "stolen"
+          ]
         }
       ]
     }

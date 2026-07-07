@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:frailty",
   "rules": [
@@ -26,15 +26,16 @@
             "direction": "up"
           },
           "params": {
-            "dealt": true,
             "scope": "this attack"
-          }
+          },
+          "flow": "dealt"
         },
         {
           "verb": "heal",
           "target": "self",
-          "params": {
-            "amount": "100% of damage dealt"
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
           }
         },
         {

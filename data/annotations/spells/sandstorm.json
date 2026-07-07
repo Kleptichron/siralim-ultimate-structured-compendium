@@ -1,7 +1,7 @@
 {
   "id": "spell:sandstorm",
   "textHash": "0057b393622a",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

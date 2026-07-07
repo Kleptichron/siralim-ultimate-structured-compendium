@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "perk:animator:anguish-through-awareness",
   "rules": [
@@ -22,10 +22,12 @@
             }
           },
           "params": {
-            "who": "Animatus",
-            "random": true,
-            "kind": "buff"
-          }
+            "who": "Animatus"
+          },
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
         }
       ]
     }

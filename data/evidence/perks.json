@@ -236,6 +236,7 @@
   "perk:astrologer:dying-stars": {
     "statuses": {},
     "stats": [
+      "Attack",
       "Health"
     ],
     "allStats": false,
@@ -860,7 +861,9 @@
   },
   "perk:brewmaster:muddle": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -1388,7 +1391,9 @@
   },
   "perk:cleric:revelation": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Health"
+    ],
     "allStats": false,
     "percents": [
       1.5,
@@ -2096,7 +2101,9 @@
   },
   "perk:doombringer:eruption": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -2179,7 +2186,9 @@
   },
   "perk:doombringer:siegebreaker": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       10
@@ -2886,7 +2895,9 @@
   },
   "perk:engineer:light-the-fuse": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -3418,7 +3429,9 @@
   },
   "perk:fanatic:ultima": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Charges"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -3727,7 +3740,9 @@
   },
   "perk:graveborn:death-s-bane": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -4358,7 +4373,9 @@
   },
   "perk:hell-knight:pyromania": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       1,
@@ -4582,7 +4599,9 @@
   },
   "perk:inquisitor:heresy": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       30
@@ -4938,7 +4957,9 @@
   },
   "perk:monk:celerity": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -4979,7 +5000,9 @@
   },
   "perk:monk:extended-reach": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       1,
@@ -5012,6 +5035,7 @@
   "perk:monk:fortified-spirit": {
     "statuses": {},
     "stats": [
+      "Attack",
       "Defense"
     ],
     "allStats": false,
@@ -5138,7 +5162,9 @@
   },
   "perk:monk:vital-strike": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       2,
@@ -5371,7 +5397,9 @@
   },
   "perk:necromancer:war-s-victory": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -5548,7 +5576,9 @@
   },
   "perk:paladin:retribution": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       1,
@@ -6214,7 +6244,9 @@
   },
   "perk:reaver:mercurial": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -6477,7 +6509,9 @@
   },
   "perk:rune-knight:covenant": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -6743,7 +6777,9 @@
   },
   "perk:shadowbringer:ascent-of-the-damned": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -7171,6 +7207,7 @@
   "perk:siegemaster:thorns": {
     "statuses": {},
     "stats": [
+      "Attack",
       "Defense"
     ],
     "allStats": false,
@@ -7250,7 +7287,9 @@
         "gain"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -8246,7 +8285,9 @@
         "cond"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [
       4,
@@ -8283,7 +8324,9 @@
         "gain"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -8607,7 +8650,9 @@
         "gain"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],

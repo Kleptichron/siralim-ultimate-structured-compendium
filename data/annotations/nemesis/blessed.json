@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "nemesis:blessed",
   "rules": [
@@ -13,10 +13,12 @@
           "verb": "apply_status",
           "target": "enemies",
           "params": {
-            "random": true,
-            "count": 5,
-            "kind": "buff"
-          }
+            "count": 5
+          },
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
         }
       ]
     }

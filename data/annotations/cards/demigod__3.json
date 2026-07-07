@@ -1,7 +1,7 @@
 {
   "id": "card:demigod:3",
   "textHash": "f1785286bd5c",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "card-class-spell-dr",
   "rules": [
@@ -15,12 +15,12 @@
         {
           "verb": "damage_modifier",
           "target": "allies",
+          "flow": "taken",
           "magnitude": {
             "amountPct": 15,
             "direction": "down"
           },
           "params": {
-            "taken": true,
             "sourceClass": "Life",
             "sourceKind": "spells"
           }

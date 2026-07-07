@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "spell:blood-shield",
   "rules": [
@@ -21,8 +21,9 @@
           "statuses": [
             "Barrier"
           ],
-          "params": {
-            "strength": "200% of damage taken"
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 200
           }
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:adoration",
   "rules": [
@@ -13,9 +13,9 @@
           "verb": "cast",
           "params": {
             "what": "a healing Spell Gem equipped by this creature",
-            "caster": "trigger_subject",
             "inYourFavor": true
-          }
+          },
+          "actor": "trigger_subject"
         }
       ]
     }

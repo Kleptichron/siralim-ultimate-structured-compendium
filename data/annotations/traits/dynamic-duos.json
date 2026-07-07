@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "trait:dynamic-duos",
   "rules": [
@@ -26,9 +26,9 @@
             "direction": "up"
           },
           "params": {
-            "dealt": true,
             "onlyMatchingCreatures": true
-          }
+          },
+          "flow": "dealt"
         }
       ]
     },
@@ -55,9 +55,9 @@
             "direction": "down"
           },
           "params": {
-            "taken": true,
             "onlyMatchingCreatures": true
-          }
+          },
+          "flow": "taken"
         }
       ]
     }

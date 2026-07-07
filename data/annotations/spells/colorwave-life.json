@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "claude",
   "id": "spell:colorwave-life",
   "rules": [
@@ -12,11 +12,16 @@
           "verb": "apply_status",
           "target": "allies",
           "params": {
-            "random": true,
             "count": 5,
-            "kind": "buff",
-            "plusPerInfusion": 1,
             "infusionClass": "Life"
+          },
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "scaleRef": "infusions",
+            "per": "Life Infusion"
           }
         }
       ]

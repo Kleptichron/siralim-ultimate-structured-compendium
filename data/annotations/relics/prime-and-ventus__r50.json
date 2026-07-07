@@ -1,7 +1,7 @@
 {
   "id": "relic:prime-and-ventus:r50",
   "textHash": "de8d08572ec5",
-  "schemaVersion": 0,
+  "schemaVersion": 1,
   "provenance": "machine",
   "machineTemplate": "start-battle-gain",
   "rules": [

@@ -13,7 +13,9 @@
   },
   "realm:enemy:attack-additional-times-x": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Attack"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],

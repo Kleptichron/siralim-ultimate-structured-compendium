@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 0;
+export const SCHEMA_VERSION = 1;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -114,15 +114,33 @@ export const ACTION_VERBS = [
 
 export const TIERS = ['small', 'moderate', 'large', 'massive', 'devastating'];
 export const DIRECTIONS = ['up', 'down'];
+// Stat-shaped scaling sources (pair with magnitude.scaleStat).
 export const SCALE_SPECIALS = [
   'all', 'highest_stat', 'lowest_stat', 'total_stats', 'missing_health', 'level', 'rank', 'other',
 ];
+// Non-stat quantities effects scale with — searchable ("scales with damage dealt").
+export const SCALE_REFS = [
+  'damage_dealt', 'damage_taken', 'healing_done', 'healing_received', 'amount_gained',
+  'status_potency', 'minion_count', 'buff_count', 'debuff_count', 'turns_taken',
+  'dead_creatures', 'spell_gems', 'creatures_in_party', 'infusions', 'other',
+];
+// Searchable action qualifiers: narrow facts worth faceting on their own.
+export const QUALIFIERS = ['random', 'stolen', 'permanent'];
+export const STATUS_KINDS = ['buff', 'debuff'];
+// Direction of flow for damage_modifier / healing_modifier: outgoing vs incoming.
+export const FLOWS = ['dealt', 'taken'];
 const MAGNITUDE_KEYS = new Set([
-  'amountPct', 'amountFlat', 'tier', 'scaleStat', 'scaleStatPct',
-  'perRank', 'perCount', 'direction', 'cap',
+  'amountPct', 'amountFlat', 'tier', 'scaleStat', 'scaleRef', 'scalePct',
+  'per', 'perRank', 'direction', 'cap',
 ]);
 const FLAG_KEYS = new Set(['stacks', 'manualCastOnly', 'unmodeled']);
 const RULE_KEYS = new Set(['trigger', 'conditions', 'actions', 'chance', 'modifiesDefault']);
+const TRIGGER_KEYS = new Set(['type', 'subject', 'params']);
+const CONDITION_KEYS = new Set(['type', 'who', 'params']);
+const ACTION_KEYS = new Set([
+  'verb', 'actor', 'target', 'statuses', 'stats', 'statusKind', 'qualifiers', 'flow',
+  'magnitude', 'params',
+]);
 const ANN_KEYS = new Set([
   'id', 'textHash', 'schemaVersion', 'provenance', 'machineTemplate',
   'rules', 'flags', 'waivedStatuses', 'notes',
@@ -167,10 +185,12 @@ export function validateAnnotation(ann, record, lex) {
     const t = rule.trigger;
     if (!t || typeof t !== 'object') re('missing trigger');
     else {
+      for (const k of Object.keys(t)) if (!TRIGGER_KEYS.has(k)) re(`unknown trigger key "${k}"`);
       if (!TRIGGER_TYPES.includes(t.type)) re(`bad trigger.type "${t.type}"`);
       if (t.subject !== undefined && !SCOPES.includes(t.subject)) re(`bad trigger.subject "${t.subject}"`);
     }
     for (const c of rule.conditions ?? []) {
+      for (const k of Object.keys(c)) if (!CONDITION_KEYS.has(k)) re(`unknown condition key "${k}"`);
       if (!CONDITION_TYPES.includes(c.type)) re(`bad condition.type "${c.type}"`);
       if (c.who !== undefined && !SCOPES.includes(c.who)) re(`bad condition.who "${c.who}"`);
     }
@@ -178,8 +198,15 @@ export function validateAnnotation(ann, record, lex) {
     if (!Array.isArray(actions) || actions.length === 0) re('actions must be a non-empty array');
     else actions.forEach((a, j) => {
       const ae = m => re(`actions[${j}]: ${m}`);
+      for (const k of Object.keys(a)) if (!ACTION_KEYS.has(k)) ae(`unknown action key "${k}"`);
       if (!ACTION_VERBS.includes(a.verb)) ae(`bad verb "${a.verb}"`);
+      if (a.actor !== undefined && !SCOPES.includes(a.actor)) ae(`bad actor "${a.actor}"`);
       if (a.target !== undefined && !SCOPES.includes(a.target)) ae(`bad target "${a.target}"`);
+      if (a.statusKind !== undefined && !STATUS_KINDS.includes(a.statusKind)) ae(`bad statusKind "${a.statusKind}"`);
+      if (a.flow !== undefined && !FLOWS.includes(a.flow)) ae(`bad flow "${a.flow}"`);
+      for (const q of a.qualifiers ?? []) {
+        if (!QUALIFIERS.includes(q)) ae(`unknown qualifier "${q}"`);
+      }
       for (const s of a.statuses ?? []) {
         if (!lex.statusNames.includes(s)) ae(`unknown status "${s}"`);
       }
@@ -194,6 +221,8 @@ export function validateAnnotation(ann, record, lex) {
         if (m.scaleStat !== undefined && !lex.stats.includes(m.scaleStat) && !SCALE_SPECIALS.includes(m.scaleStat)) {
           ae(`bad scaleStat "${m.scaleStat}"`);
         }
+        if (m.scaleRef !== undefined && !SCALE_REFS.includes(m.scaleRef)) ae(`bad scaleRef "${m.scaleRef}"`);
+        if (m.per !== undefined && typeof m.per !== 'string') ae('magnitude.per must be a string');
       }
     });
     if (rule.chance !== undefined && !(typeof rule.chance === 'number' && rule.chance > 0 && rule.chance <= 100)) {
