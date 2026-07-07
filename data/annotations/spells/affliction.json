@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:affliction",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "params": {
+            "random": true,
+            "count": 1,
+            "kind": "debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "79018ae37c86"
+}

@@ -19,9 +19,10 @@ for (const src of sources) {
 
 const sentencesOf = t => t.split(/(?<=[.!?])\s+/);
 
-// Exact-word, case-sensitive stat matcher. No plural: "Attacks" is the verb,
+// Exact-word stat matcher. Case-insensitive: trait text sometimes lowercases
+// stats ("gains 50% attack, intelligence"). No plural: "Attacks" is the verb,
 // "Attack" the stat.
-const statRegex = name => new RegExp(`(?<![A-Za-z])${escapeRe(name)}(?![a-zA-Z])`);
+const statRegex = name => new RegExp(`(?<![A-Za-z])${escapeRe(name)}(?![a-zA-Z])`, 'i');
 
 function statusContexts(text, forms) {
   const ctx = new Set();

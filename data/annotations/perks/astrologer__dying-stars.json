@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:astrologer:dying-stars",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "ally",
+        "params": {
+          "with": "attack or spell"
+        }
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "dead creatures",
+            "atLeast": 3
+          }
+        }
+      ],
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "ally",
+          "params": {
+            "oneOfTheDead": true,
+            "healthPct": 50
+          }
+        }
+      ],
+      "modifiesDefault": false
+    }
+  ],
+  "notes": "Chance is 1% per rank (20% at max rank); rule.chance records the max.",
+  "textHash": "463c2157efec"
+}

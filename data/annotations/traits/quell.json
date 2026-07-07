@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:quell",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "self"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Vulnerable"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "self",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "dealt": true,
+            "scope": "this attack"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "self"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Vulnerable"
+          }
+        },
+        {
+          "type": "damage_threshold",
+          "params": {
+            "exceedsPct": 35,
+            "of": "Current Health"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        }
+      ]
+    }
+  ],
+  "textHash": "55189ba34d9c"
+}

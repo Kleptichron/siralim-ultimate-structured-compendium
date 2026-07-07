@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:blastwave",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "small"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Burning"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "massive"
+          },
+          "params": {
+            "replacesBase": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0277056bc3d1"
+}

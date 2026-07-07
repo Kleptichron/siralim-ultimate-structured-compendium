@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:alcoholism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "trigger_subject",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "944f80a38264"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:accelerated-harvest",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "params": {
+            "random": true,
+            "count": 1,
+            "kind": "debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "65208f26a58e"
+}

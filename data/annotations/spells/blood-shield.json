@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:blood-shield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Barrier"
+          ],
+          "params": {
+            "strength": "200% of damage taken"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9692cabd626c"
+}

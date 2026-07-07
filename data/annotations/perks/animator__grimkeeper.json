@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:animator:grimkeeper",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "other",
+          "params": {
+            "who": "Animatus",
+            "effect": "buffs persist through death"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "other",
+          "params": {
+            "who": "Animatus",
+            "effect": "minions persist through death"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1b6cef2213be"
+}

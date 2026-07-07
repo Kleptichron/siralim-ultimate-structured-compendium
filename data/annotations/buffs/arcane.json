@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "buff:arcane",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Arcane"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "noChargeConsumption": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "838e31860630"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:hell-knight:death-sentence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 60
+            }
+          },
+          "params": {
+            "dealt": true,
+            "criticalOnly": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e369810b6271"
+}

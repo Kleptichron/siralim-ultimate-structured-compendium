@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:cauterize-wound",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Burning"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive"
+          },
+          "params": {
+            "replacesBase": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6bc4ab2bd725"
+}

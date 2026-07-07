@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:animator:cogmind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "other",
+          "params": {
+            "who": "Animatus",
+            "what": "fourth creature's first 5 Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "414360e0cf2b"
+}

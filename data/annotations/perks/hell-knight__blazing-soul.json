@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:hell-knight:blazing-soul",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "params": {
+            "effect": "potency uses Attack when higher than Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1ac4c57e3fca"
+}

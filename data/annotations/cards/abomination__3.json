@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "card:abomination:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Vulnerable"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "down"
+          },
+          "params": {
+            "received": true,
+            "from": "all sources"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5df699ad90bb"
+}

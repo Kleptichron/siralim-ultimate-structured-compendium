@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:andrick-s-empowerment",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "perCount": "minion each of your creatures have"
+          },
+          "params": {
+            "dealt": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2c7684929789"
+}

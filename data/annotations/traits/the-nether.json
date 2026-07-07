@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:the-nether",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "ally",
+        "params": {
+          "otherCreaturesOnly": true
+        }
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "trigger_subject",
+          "params": {
+            "class": "Chaos"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "target": "random_enemy"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "ally",
+        "params": {
+          "otherCreaturesOnly": true
+        }
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "trigger_subject",
+          "params": {
+            "class": "Death"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "params": {
+            "random": true,
+            "count": 1,
+            "kind": "debuff"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "ally",
+        "params": {
+          "otherCreaturesOnly": true
+        }
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "trigger_subject",
+          "params": {
+            "class": "Life"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "params": {
+            "random": true,
+            "count": 1,
+            "kind": "buff"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "ally",
+        "params": {
+          "otherCreaturesOnly": true
+        }
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "trigger_subject",
+          "params": {
+            "class": "Nature"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "ally",
+        "params": {
+          "otherCreaturesOnly": true
+        }
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "trigger_subject",
+          "params": {
+            "class": "Sorcery"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "params": {
+            "gemOf": "trigger_subject",
+            "random": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b0b114661634"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:hell-knight:deadly-calm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "Provoke"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cbdf0483908b"
+}

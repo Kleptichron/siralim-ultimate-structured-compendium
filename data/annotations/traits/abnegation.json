@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:abnegation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "random_enemy",
+          "params": {
+            "amount": "50% of health recovered"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "618882532c5d"
+}

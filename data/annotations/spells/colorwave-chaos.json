@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:colorwave-chaos",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "devastating"
+          },
+          "params": {
+            "plusPctPerInfusion": 50,
+            "infusionClass": "Chaos"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "85a3cabeb1dd"
+}

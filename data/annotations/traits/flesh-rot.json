@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:flesh-rot",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "statuses": [
+            "Weak",
+            "Vulnerable"
+          ],
+          "anyOf": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Weak",
+            "Vulnerable"
+          ],
+          "params": {
+            "note": "whichever the target doesn't already have"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "babe631bd134"
+}

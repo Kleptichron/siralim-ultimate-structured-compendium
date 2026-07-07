@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:abation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          },
+          "params": {
+            "stolen": true
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "receivesStolen": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "035e55e849e3"
+}

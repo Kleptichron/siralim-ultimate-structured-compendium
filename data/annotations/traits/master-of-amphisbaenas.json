@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:master-of-amphisbaenas",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Amphisbaena",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "innate traits activate 1 additional time"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "be4faa9a9a91"
+}

@@ -2,11 +2,13 @@
   "records": {
     "buff:agile": {
       "hash": "e7e0d8e4abdb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:arcane": {
       "hash": "838e31860630",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:barrier": {
       "hash": "e16ac772d6d3",
@@ -74,15 +76,18 @@
     },
     "card:abomination:1": {
       "hash": "f638a3dd61d5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:abomination:2": {
       "hash": "cf958d60baea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:abomination:3": {
       "hash": "5df699ad90bb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:amaranth:1": {
       "hash": "35470c8c3621",
@@ -101,7 +106,8 @@
     },
     "card:amphisbaena:1": {
       "hash": "4a067f04f58a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:amphisbaena:2": {
       "hash": "834b1d534c5e",
@@ -109,7 +115,8 @@
     },
     "card:amphisbaena:3": {
       "hash": "f5a97be70f5e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:angel:1": {
       "hash": "93c1aee18dae",
@@ -1887,11 +1894,13 @@
     },
     "minion:amalgamation": {
       "hash": "76f8754a0b17",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:animated-gem": {
       "hash": "c42d8fba2a2a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:animated-weapon": {
       "hash": "931b755d3f90",
@@ -1991,11 +2000,13 @@
     },
     "nemesis:agile": {
       "hash": "11af269a0515",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:blessed": {
       "hash": "59cd2a672be6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:blinking": {
       "hash": "a77d886ab98d",
@@ -2055,11 +2066,13 @@
     },
     "perk:animator:anguish-through-awareness": {
       "hash": "cc0329b6fb62",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:cogmind": {
       "hash": "414360e0cf2b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:damnation-s-edge": {
       "hash": "7861e5861cb9",
@@ -2099,7 +2112,8 @@
     },
     "perk:animator:grimkeeper": {
       "hash": "1b6cef2213be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:live-to-serve": {
       "hash": "c9f196dff22b",
@@ -2127,7 +2141,8 @@
     },
     "perk:astrologer:dying-stars": {
       "hash": "463c2157efec",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:equinox": {
       "hash": "e66f99216b51",
@@ -2291,7 +2306,8 @@
     },
     "perk:brewmaster:nightcap": {
       "hash": "ae6bf0e1aa46",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:numb-the-pain": {
       "hash": "6ca18d052cc1",
@@ -3188,19 +3204,23 @@
     },
     "perk:hell-knight:blazing-soul": {
       "hash": "1ac4c57e3fca",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:bolster": {
       "hash": "d8a2ff6ef2eb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:deadly-calm": {
       "hash": "cbdf0483908b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:death-sentence": {
       "hash": "e369810b6271",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:dreadnaught": {
       "hash": "54615fc268c9",
@@ -4849,15 +4869,18 @@
     },
     "relic:5740-ng:r20": {
       "hash": "e1941e6b8c9e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:5740-ng:r30": {
       "hash": "41404ba94034",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:5740-ng:r40": {
       "hash": "d14bda750347",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:5740-ng:r50": {
       "hash": "c0af9f4fbf97",
@@ -4877,7 +4900,8 @@
     },
     "relic:5740-ng:r90": {
       "hash": "a08ed4394a88",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:amalgam:r10": {
       "hash": "4b512c495849",
@@ -4909,7 +4933,8 @@
     },
     "relic:amalgam:r70": {
       "hash": "3900bd31b3b6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:amalgam:r80": {
       "hash": "aef5c9682207",
@@ -6252,7 +6277,8 @@
     },
     "spell:absolute-corruption": {
       "hash": "a0979b0f2073",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:absolute-focus": {
       "hash": "584bd2f7c0f2",
@@ -6264,7 +6290,8 @@
     },
     "spell:acid-bomb": {
       "hash": "af3a4f975c8e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:acid-breath": {
       "hash": "362bf57ad05e",
@@ -6277,19 +6304,23 @@
     },
     "spell:adrenaline-rush": {
       "hash": "9575e21d9ed8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:affliction": {
       "hash": "79018ae37c86",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:afterlife": {
       "hash": "741a1853e9f2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:aftermath": {
       "hash": "c6cd73b93f97",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:aggravate": {
       "hash": "040464385cab",
@@ -6349,7 +6380,8 @@
     },
     "spell:astral-dimension": {
       "hash": "91dbaaa683a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:atonement": {
       "hash": "c8607dae8106",
@@ -6357,7 +6389,8 @@
     },
     "spell:avalanche": {
       "hash": "213c47d3c232",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:awakened-nether-orbs": {
       "hash": "854495831a1c",
@@ -6410,7 +6443,8 @@
     },
     "spell:blastwave": {
       "hash": "0277056bc3d1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blinding-beam": {
       "hash": "7cda1c5697ce",
@@ -6436,11 +6470,13 @@
     },
     "spell:blood-moon": {
       "hash": "ca1842387dfd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blood-shield": {
       "hash": "9692cabd626c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blood-spray": {
       "hash": "ff10f7dd5531",
@@ -6517,7 +6553,8 @@
     },
     "spell:cauterize-wound": {
       "hash": "6bc4ab2bd725",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:chain-lightning": {
       "hash": "b5b1ed3e65a1",
@@ -6619,7 +6656,8 @@
     },
     "spell:colorwave-chaos": {
       "hash": "85a3cabeb1dd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:colorwave-death": {
       "hash": "5a63e2aac047",
@@ -6627,7 +6665,8 @@
     },
     "spell:colorwave-life": {
       "hash": "ef48467454be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:colorwave-nature": {
       "hash": "c519b7c0d9e5",
@@ -7068,7 +7107,8 @@
     },
     "spell:eaten-alive": {
       "hash": "a3dbd351fa07",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:ef5-twister": {
       "hash": "8a13a3e1cc44",
@@ -9317,11 +9357,13 @@
     },
     "trait:abation": {
       "hash": "035e55e849e3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:abnegation": {
       "hash": "618882532c5d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:abomination": {
       "hash": "39b4fa0424eb",
@@ -9341,7 +9383,8 @@
     },
     "trait:absorption": {
       "hash": "6a91ce0301d6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:abyss-orbs": {
       "hash": "e8986c976fc0",
@@ -9353,11 +9396,13 @@
     },
     "trait:accelerated-harvest": {
       "hash": "65208f26a58e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:acid-body": {
       "hash": "f54d6a9ef057",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:adaptive-tactics": {
       "hash": "462a3cabd97d",
@@ -9369,7 +9414,8 @@
     },
     "trait:adept-wizarding": {
       "hash": "450d491b05ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:admire-the-gods": {
       "hash": "db7ab9f5f877",
@@ -9377,7 +9423,8 @@
     },
     "trait:adoration": {
       "hash": "4215199d1312",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:adoring-fans": {
       "hash": "f8d46a2b5b54",
@@ -9385,7 +9432,8 @@
     },
     "trait:aether-eyes": {
       "hash": "8e7780a37d1f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:affluence": {
       "hash": "bfc9292fa2f6",
@@ -9393,7 +9441,8 @@
     },
     "trait:afterlife": {
       "hash": "504b5c8aa73c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:aggravated-illness": {
       "hash": "79c6432e857e",
@@ -9425,7 +9474,8 @@
     },
     "trait:alcoholism": {
       "hash": "944f80a38264",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:all-as-one": {
       "hash": "e6b1a6b6d1bd",
@@ -9465,7 +9515,8 @@
     },
     "trait:ambush": {
       "hash": "0a1f223e637c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:amethyst-attunement": {
       "hash": "0250347ab08a",
@@ -9493,11 +9544,13 @@
     },
     "trait:and-you-get-a-bomb": {
       "hash": "e386a3fb4496",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:andrick-s-empowerment": {
       "hash": "2c7684929789",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:andrick-s-folly": {
       "hash": "ebb9c5f4629d",
@@ -9557,7 +9610,8 @@
     },
     "trait:apostle-of-water": {
       "hash": "4d4ec1e4d252",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:appetite-for-eschar": {
       "hash": "b7b8e4d59777",
@@ -9613,7 +9667,8 @@
     },
     "trait:atmosphere": {
       "hash": "11e3531e35cb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:atmospheric-interference": {
       "hash": "a053f7e0722b",
@@ -9681,7 +9736,8 @@
     },
     "trait:bad-omen": {
       "hash": "93c77faf9ed6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bad-trip": {
       "hash": "1e156d6b4015",
@@ -9905,7 +9961,8 @@
     },
     "trait:boastful-protector": {
       "hash": "613556bb323b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bob-and-weave": {
       "hash": "cb29fa89dc98",
@@ -9969,7 +10026,8 @@
     },
     "trait:bounce": {
       "hash": "8020f4f49239",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:boundless-creativity": {
       "hash": "8c6543ef888a",
@@ -10057,7 +10115,8 @@
     },
     "trait:burden-of-guilt": {
       "hash": "9a517a76d409",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:burst-of-power": {
       "hash": "ca6aad3278c2",
@@ -10621,7 +10680,8 @@
     },
     "trait:cycle-of-life": {
       "hash": "2b2bc1788dff",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cyhra-s-adamance": {
       "hash": "aaa3e6523c2a",
@@ -10949,7 +11009,8 @@
     },
     "trait:don-t-touch-my-garbage": {
       "hash": "37e106975676",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:doom-and-gloom": {
       "hash": "5de8c43494e2",
@@ -11037,7 +11098,8 @@
     },
     "trait:dynamic-duos": {
       "hash": "7fb0171c79b6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:earthen-attunement": {
       "hash": "4d220240d821",
@@ -11493,7 +11555,8 @@
     },
     "trait:flesh-rot": {
       "hash": "babe631bd134",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flesh-wound": {
       "hash": "03d2693e5617",
@@ -11573,7 +11636,8 @@
     },
     "trait:frailty": {
       "hash": "fc87d33dc405",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:fraud": {
       "hash": "9cad63b88919",
@@ -12773,7 +12837,8 @@
     },
     "trait:master-of-abominations": {
       "hash": "1623044819c7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-alementals": {
       "hash": "135198d71a37",
@@ -12785,7 +12850,8 @@
     },
     "trait:master-of-amphisbaenas": {
       "hash": "be4faa9a9a91",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-angels": {
       "hash": "b3a72aa1f6dd",
@@ -14401,7 +14467,8 @@
     },
     "trait:quell": {
       "hash": "55189ba34d9c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:quick-shot": {
       "hash": "b3a6fed0af39",
@@ -15665,7 +15732,8 @@
     },
     "trait:the-nether": {
       "hash": "b0b114661634",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-shadows": {
       "hash": "90123042c605",

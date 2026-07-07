@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:absorption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "self",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "amount": "30% of amount healed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6a91ce0301d6"
+}

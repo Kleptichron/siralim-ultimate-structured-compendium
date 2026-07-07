@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:burden-of-guilt",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "any",
+          "params": {
+            "buffs": 1,
+            "debuffs": 1,
+            "everyCreature": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9a517a76d409"
+}

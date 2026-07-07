@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:ambush",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "target": "enemy",
+          "params": {
+            "selector": "closest enemy below on the Timeline"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0a1f223e637c"
+}

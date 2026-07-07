@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:dynamic-duos",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "of": "class",
+            "inParty": "exactly 2"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 160,
+            "direction": "up"
+          },
+          "params": {
+            "dealt": true,
+            "onlyMatchingCreatures": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "of": "race",
+            "inParty": "exactly 2"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 80,
+            "direction": "down"
+          },
+          "params": {
+            "taken": true,
+            "onlyMatchingCreatures": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Ignores other traits and perks that change race/class counts.",
+  "textHash": "7fb0171c79b6"
+}

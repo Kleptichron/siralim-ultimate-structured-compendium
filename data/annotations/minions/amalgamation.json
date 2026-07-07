@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "minion:amalgamation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "owner",
+        "params": {
+          "with": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scaleStatPct": 5
+          },
+          "params": {
+            "scaleSource": "master",
+            "multipliedBy": "number of minions its master has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "76f8754a0b17"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:avalanche",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "devastating"
+          }
+        },
+        {
+          "verb": "timeline_move",
+          "target": "enemies",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate spell.",
+  "textHash": "213c47d3c232"
+}

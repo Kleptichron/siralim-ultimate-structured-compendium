@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:aftermath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "target": "random_enemy",
+          "magnitude": {
+            "perCount": "turn the caster has taken this battle",
+            "cap": 10
+          },
+          "params": {
+            "actor": "caster"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c6cd73b93f97"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:atmosphere",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "params": {
+            "spell": "Elemental Barrage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "11e3531e35cb"
+}

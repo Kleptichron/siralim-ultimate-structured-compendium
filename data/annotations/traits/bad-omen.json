@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:bad-omen",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Blind"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "93c77faf9ed6"
+}

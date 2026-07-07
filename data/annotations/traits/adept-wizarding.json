@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:adept-wizarding",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "extraGemSlots": 1
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "potencyPct": 30,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "450d491b05ed"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:brewmaster:nightcap",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "times affected by Booze spells this battle",
+            "atLeast": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "be resurrected"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ae6bf0e1aa46"
+}

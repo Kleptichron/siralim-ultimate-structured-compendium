@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:absolute-corruption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "target",
+          "params": {
+            "kind": "buff",
+            "all": true
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "params": {
+            "random": true,
+            "kind": "debuff",
+            "perRemoved": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a0979b0f2073"
+}

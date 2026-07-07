@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:hell-knight:bolster",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 1,
+            "direction": "down",
+            "scaleStat": "missing_health"
+          },
+          "params": {
+            "taken": true,
+            "per": "1% of Health missing",
+            "from": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d8a2ff6ef2eb"
+}

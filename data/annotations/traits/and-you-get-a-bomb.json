@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:and-you-get-a-bomb",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "random_enemy",
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "count": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e386a3fb4496"
+}

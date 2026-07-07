@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:afterlife",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "self"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "self",
+          "params": {
+            "healthPct": 50
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "self",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "504b5c8aa73c"
+}

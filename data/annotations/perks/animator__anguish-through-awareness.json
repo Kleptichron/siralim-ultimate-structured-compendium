@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "perk:animator:anguish-through-awareness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "other",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            }
+          },
+          "params": {
+            "who": "Animatus",
+            "random": true,
+            "kind": "buff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cc0329b6fb62"
+}

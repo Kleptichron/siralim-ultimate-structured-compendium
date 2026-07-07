@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:cycle-of-life",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "self",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2b2bc1788dff"
+}

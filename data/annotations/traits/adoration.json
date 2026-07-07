@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:adoration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "params": {
+            "what": "a healing Spell Gem equipped by this creature",
+            "caster": "trigger_subject",
+            "inYourFavor": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4215199d1312"
+}

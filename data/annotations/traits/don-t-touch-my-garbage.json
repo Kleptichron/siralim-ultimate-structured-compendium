@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:don-t-touch-my-garbage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "self",
+          "params": {
+            "what": "all different Ethereal Spell Gems other creatures received"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 3,
+            "perCount": "Ethereal Spell Gem"
+          },
+          "params": {
+            "othersOnly": true,
+            "scaleRef": "stats corresponding to gem classes"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "self"
+        }
+      ]
+    }
+  ],
+  "textHash": "37e106975676"
+}

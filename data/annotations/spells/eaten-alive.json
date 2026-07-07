@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:eaten-alive",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        },
+        {
+          "verb": "heal",
+          "target": "caster",
+          "params": {
+            "ifKilled": true,
+            "amountPct": 100
+          }
+        },
+        {
+          "verb": "gain_charges",
+          "target": "caster",
+          "params": {
+            "ifKilled": true,
+            "full": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a3dbd351fa07"
+}

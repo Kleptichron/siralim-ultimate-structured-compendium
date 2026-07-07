@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "relic:5740-ng:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "self",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          },
+          "params": {
+            "taken": true,
+            "indirect": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d14bda750347"
+}

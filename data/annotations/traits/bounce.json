@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:bounce",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_targeted_by_cast",
+        "subject": "ally",
+        "params": {
+          "casterSide": "enemy",
+          "singleTarget": true
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "target": "random_enemy",
+          "params": {
+            "what": "the triggering spell"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8020f4f49239"
+}

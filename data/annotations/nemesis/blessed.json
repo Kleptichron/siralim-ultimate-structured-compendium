@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "nemesis:blessed",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "params": {
+            "random": true,
+            "count": 5,
+            "kind": "buff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "59cd2a672be6"
+}

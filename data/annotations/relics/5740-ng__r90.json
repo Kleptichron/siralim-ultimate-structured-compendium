@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "relic:5740-ng:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "self",
+        "params": {
+          "stat": "Maximum Health",
+          "direction": "up"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "self",
+          "stats": [
+            "Health"
+          ],
+          "params": {
+            "amount": "50% of the amount gained"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a08ed4394a88"
+}

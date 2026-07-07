@@ -70,6 +70,7 @@ export const CONDITION_TYPES = [
   'class_is',
   'race_is',
   'count_comparison',   // generic "for each / if there are N ..."
+  'damage_threshold',   // "if this damage exceeds X% of ..." execute-style checks
   'once_per_battle',
   'resource_threshold', // charges, mana
   'equipment',          // artifact / spell gem prerequisites
@@ -82,6 +83,8 @@ export const ACTION_VERBS = [
   'remove_status',
   'steal_status',
   'prevent_status',  // immunity
+  'status_modifier', // changes a status's potency/duration/behavior ("Rebirth lasts forever")
+  'detonate',        // triggers a status's payload early (Bomb)
   'deal_damage',
   'damage_modifier', // deals/takes more/less damage (persistent or scoped)
   'attack',
@@ -100,6 +103,8 @@ export const ACTION_VERBS = [
   'minion_modifier',
   'timeline_move',
   'redirect_target', // taunt/provoke-style redirection
+  'prevent_action',  // "cannot Provoke/dodge/be resurrected/cast..."
+  'dodge_modifier',  // dodge/avoid-damage chance changes
   'copy',
   'transform',
   'grant_ability',   // grants traits/spell gems/abilities

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:afterlife",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "on-resurrect and on-death effects activate"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate spell.",
+  "textHash": "741a1853e9f2"
+}

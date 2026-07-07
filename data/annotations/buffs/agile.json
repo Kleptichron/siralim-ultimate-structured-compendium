@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "buff:agile",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "any",
+          "params": {
+            "status": "Agile"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "any",
+          "params": {
+            "additionalIndependentChance": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e7e0d8e4abdb"
+}

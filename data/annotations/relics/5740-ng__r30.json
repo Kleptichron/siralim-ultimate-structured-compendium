@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "relic:5740-ng:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "self",
+          "stats": [
+            "Defense",
+            "Maximum Health"
+          ],
+          "params": {
+            "bonusFromStatBoostingEffectsPct": 15
+          }
+        },
+        {
+          "verb": "stat_rule",
+          "target": "self",
+          "stats": [
+            "Defense",
+            "Maximum Health"
+          ],
+          "params": {
+            "cannotLose": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "41404ba94034"
+}

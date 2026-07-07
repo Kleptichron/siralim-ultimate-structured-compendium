@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:adrenaline-rush",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "target": "random_enemy",
+          "params": {
+            "times": 3,
+            "damagePctOfNormal": 15,
+            "actor": "caster"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9575e21d9ed8"
+}

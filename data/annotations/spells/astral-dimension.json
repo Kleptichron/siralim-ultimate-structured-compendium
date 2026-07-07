@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:astral-dimension",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "unseal": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "This Spell Gem cannot be Sealed.",
+  "textHash": "91dbaaa683a6"
+}

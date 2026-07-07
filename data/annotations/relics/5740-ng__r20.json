@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "relic:5740-ng:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "self",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "self",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e1941e6b8c9e"
+}

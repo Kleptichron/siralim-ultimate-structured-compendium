@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:acid-body",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "attacker",
+          "statuses": [
+            "Disarmed"
+          ]
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "attacker",
+          "params": {
+            "seal": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f54d6a9ef057"
+}

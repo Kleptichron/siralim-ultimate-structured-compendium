@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:aether-eyes",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Repelling"
+          ],
+          "params": {
+            "effect": "35% chance to ignore damage from attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8e7780a37d1f"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:colorwave-life",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "params": {
+            "random": true,
+            "count": 5,
+            "kind": "buff",
+            "plusPerInfusion": 1,
+            "infusionClass": "Life"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ef48467454be"
+}

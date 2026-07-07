@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "minion:animated-gem",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "owner",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "params": {
+            "gemOf": "owner",
+            "random": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c42d8fba2a2a"
+}

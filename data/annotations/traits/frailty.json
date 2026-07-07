@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:frailty",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "self"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Vulnerable"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "self",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "dealt": true,
+            "scope": "this attack"
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "self",
+          "params": {
+            "amount": "100% of damage dealt"
+          }
+        },
+        {
+          "verb": "remove_status",
+          "target": "target",
+          "statuses": [
+            "Vulnerable"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "fc87d33dc405"
+}

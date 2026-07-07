@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "nemesis:agile",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "enemies",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "11af269a0515"
+}

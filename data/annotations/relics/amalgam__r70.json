@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "relic:amalgam:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "self"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Inverted"
+          ],
+          "params": {
+            "potencyGainPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3900bd31b3b6"
+}

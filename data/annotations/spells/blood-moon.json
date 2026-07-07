@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:blood-moon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "params": {
+            "amount": "30% of damage it has taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ca1842387dfd"
+}

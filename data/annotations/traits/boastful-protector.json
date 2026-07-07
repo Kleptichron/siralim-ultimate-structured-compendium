@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:boastful-protector",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "self"
+      },
+      "conditions": [
+        {
+          "type": "other",
+          "params": {
+            "while": "provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "self",
+          "params": {
+            "kind": "avoid damage",
+            "chancePct": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "613556bb323b"
+}

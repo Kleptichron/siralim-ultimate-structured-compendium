@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "trait:master-of-abominations",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Abomination",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Weak",
+            "Vulnerable"
+          ],
+          "params": {
+            "permanent": true
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "taken": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "1623044819c7"
+}

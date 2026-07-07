@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 0,
+  "provenance": "claude",
+  "id": "spell:acid-bomb",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          }
+        },
+        {
+          "verb": "detonate",
+          "target": "target",
+          "statuses": [
+            "Bomb"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "af3a4f975c8e"
+}
