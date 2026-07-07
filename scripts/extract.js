@@ -99,7 +99,7 @@ function parseList(blob) {
 }
 
 const dir = { 'more': 'up', 'less': 'down', 'higher': 'up', 'lower': 'down' };
-const scopeOf = { 'your creatures': 'allies', 'the bearer': 'self', 'this creature': 'self', 'Enemies': 'enemies', 'Your creatures': 'allies', 'Target': 'target' };
+const scopeOf = { 'your creatures': 'allies', 'the bearer': 'holder', 'this creature': 'holder', 'Enemies': 'enemies', 'Your creatures': 'allies', 'Target': 'target', 'The bearer': 'holder' };
 
 const rule = (trigger, actions, extra = {}) => ({ trigger, conditions: [], actions, ...extra });
 

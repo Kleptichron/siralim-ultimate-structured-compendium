@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:burden-of-guilt",
   "rules": [
     {
       "trigger": {
         "type": "after_defend",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {

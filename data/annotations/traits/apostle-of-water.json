@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:apostle-of-water",
   "rules": [
     {
       "trigger": {
         "type": "start_of_turn",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {

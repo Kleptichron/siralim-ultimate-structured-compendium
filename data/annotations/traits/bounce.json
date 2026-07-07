@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:bounce",
   "rules": [
@@ -19,7 +19,8 @@
           "target": "random_enemy",
           "params": {
             "what": "the triggering spell"
-          }
+          },
+          "actor": "holder"
         }
       ]
     }

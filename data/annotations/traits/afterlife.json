@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:afterlife",
   "rules": [
     {
       "trigger": {
         "type": "after_death",
-        "subject": "self"
+        "subject": "holder"
       },
       "conditions": [
         {
@@ -16,14 +16,14 @@
       "actions": [
         {
           "verb": "resurrect",
-          "target": "self",
+          "target": "holder",
           "params": {
             "healthPct": 50
           }
         },
         {
           "verb": "stat_change",
-          "target": "self",
+          "target": "holder",
           "stats": [
             "Attack",
             "Intelligence",

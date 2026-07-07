@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:abation",
   "rules": [
     {
       "trigger": {
         "type": "after_attack",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {

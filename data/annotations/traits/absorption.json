@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:absorption",
   "rules": [
@@ -11,7 +11,7 @@
       "actions": [
         {
           "verb": "stat_change",
-          "target": "self",
+          "target": "holder",
           "stats": [
             "Maximum Health"
           ],

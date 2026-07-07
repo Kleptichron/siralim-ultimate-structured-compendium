@@ -1,7 +1,7 @@
 {
   "id": "spell:unholy-frenzy",
   "textHash": "e4dedc8b5808",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

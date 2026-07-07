@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "minion:animated-gem",
   "rules": [
@@ -19,7 +19,8 @@
           },
           "qualifiers": [
             "random"
-          ]
+          ],
+          "actor": "holder"
         }
       ]
     }

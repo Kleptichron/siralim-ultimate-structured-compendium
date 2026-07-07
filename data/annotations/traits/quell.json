@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:quell",
   "rules": [
     {
       "trigger": {
         "type": "after_attack",
-        "subject": "self"
+        "subject": "holder"
       },
       "conditions": [
         {
@@ -20,7 +20,7 @@
       "actions": [
         {
           "verb": "damage_modifier",
-          "target": "self",
+          "target": "holder",
           "magnitude": {
             "amountPct": 100,
             "direction": "up"
@@ -35,7 +35,7 @@
     {
       "trigger": {
         "type": "after_attack",
-        "subject": "self"
+        "subject": "holder"
       },
       "conditions": [
         {

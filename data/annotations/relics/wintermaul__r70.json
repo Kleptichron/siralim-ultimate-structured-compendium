@@ -1,18 +1,20 @@
 {
   "id": "relic:wintermaul:r70",
   "textHash": "92969022c97f",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [
     {
       "trigger": {
-        "type": "passive"
+        "type": "passive",
+        "subject": "holder"
       },
       "conditions": [],
       "actions": [
         {
           "verb": "prevent_status",
+          "target": "holder",
           "statuses": [
             "Frozen"
           ]

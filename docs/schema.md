@@ -1,4 +1,4 @@
-# Rule model (schema v1 — frozen 2026-07-06)
+# Rule model (schema v2 — frozen 2026-07-06)
 
 > Operational tagging rules live in [tagging-conventions.md](tagging-conventions.md).
 > Post-freeze changes require a migration in scripts/migrations/ (see 0001 for the pattern).
@@ -65,7 +65,7 @@ Two strictness tiers:
 - **Escape hatch**: anything unmodelable gets `flags.unmodeled: true` + `notes` — never bend
   an enum to fit. The audit alarm fires if any `other` exceeds 3% usage.
 
-## Enums (v1)
+## Enums (v2)
 
 See scripts/lib/schema.js for the authoritative lists: `TRIGGER_TYPES` (29), `SCOPES` (16),
 `CONDITION_TYPES` (14), `ACTION_VERBS` (31), `TIERS` (5), `SCALE_SPECIALS`, `SCALE_REFS` (15),

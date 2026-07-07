@@ -1,7 +1,7 @@
 {
   "id": "card:watcher:1",
   "textHash": "9b61a869201a",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "card-class-attack-dr",
   "rules": [

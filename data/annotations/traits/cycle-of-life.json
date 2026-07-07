@@ -1,17 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:cycle-of-life",
   "rules": [
     {
       "trigger": {
         "type": "after_resurrected",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {
           "verb": "stat_change",
-          "target": "self",
+          "target": "holder",
           "stats": [
             "Maximum Health"
           ],

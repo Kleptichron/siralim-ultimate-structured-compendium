@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:the-nether",
   "rules": [
@@ -24,7 +24,7 @@
         {
           "verb": "attack",
           "target": "random_enemy",
-          "actor": "self"
+          "actor": "holder"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "qualifiers": [
             "random"
           ],
-          "actor": "self"
+          "actor": "holder"
         }
       ]
     },
@@ -88,7 +88,7 @@
           "qualifiers": [
             "random"
           ],
-          "actor": "self"
+          "actor": "holder"
         }
       ]
     },
@@ -120,7 +120,7 @@
             "amountPct": 10,
             "direction": "up"
           },
-          "actor": "self"
+          "actor": "holder"
         }
       ]
     },
@@ -150,7 +150,7 @@
           "qualifiers": [
             "random"
           ],
-          "actor": "self"
+          "actor": "holder"
         }
       ]
     }

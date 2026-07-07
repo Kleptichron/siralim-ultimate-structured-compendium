@@ -1,18 +1,20 @@
 {
   "id": "relic:rosenthorne:r60",
   "textHash": "623a157db2d2",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [
     {
       "trigger": {
-        "type": "passive"
+        "type": "passive",
+        "subject": "holder"
       },
       "conditions": [],
       "actions": [
         {
           "verb": "prevent_status",
+          "target": "holder",
           "statuses": [
             "Blind"
           ]

@@ -1,7 +1,7 @@
 {
   "id": "spell:spell-ward",
   "textHash": "502c4fad3ec1",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

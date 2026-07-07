@@ -1,7 +1,7 @@
 {
   "id": "spell:firestorm",
   "textHash": "b4c703827067",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

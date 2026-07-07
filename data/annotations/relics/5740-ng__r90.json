@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "relic:5740-ng:r90",
   "rules": [
     {
       "trigger": {
         "type": "after_stat_change",
-        "subject": "self",
+        "subject": "holder",
         "params": {
           "stat": "Maximum Health",
           "direction": "up"
@@ -15,7 +15,7 @@
       "actions": [
         {
           "verb": "heal",
-          "target": "self",
+          "target": "holder",
           "stats": [
             "Health"
           ],

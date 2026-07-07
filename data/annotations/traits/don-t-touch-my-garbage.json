@@ -1,17 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:don-t-touch-my-garbage",
   "rules": [
     {
       "trigger": {
         "type": "after_start_of_battle_effects",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {
           "verb": "copy",
-          "target": "self",
+          "target": "holder",
           "params": {
             "what": "all different Ethereal Spell Gems other creatures received"
           }
@@ -21,7 +21,7 @@
     {
       "trigger": {
         "type": "after_death",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {
@@ -42,12 +42,12 @@
     {
       "trigger": {
         "type": "after_resurrected",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {
           "verb": "kill",
-          "target": "self"
+          "target": "holder"
         }
       ]
     }

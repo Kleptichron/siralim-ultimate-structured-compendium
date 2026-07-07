@@ -1,7 +1,7 @@
 {
   "id": "card:hound:1",
   "textHash": "7e4c0823b3a1",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "card-class-spell-dr",
   "rules": [

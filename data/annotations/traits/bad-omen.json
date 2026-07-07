@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:bad-omen",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {

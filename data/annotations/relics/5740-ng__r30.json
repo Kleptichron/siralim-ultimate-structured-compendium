@@ -1,17 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "relic:5740-ng:r30",
   "rules": [
     {
       "trigger": {
         "type": "passive",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {
           "verb": "stat_rule",
-          "target": "self",
+          "target": "holder",
           "stats": [
             "Defense",
             "Maximum Health"
@@ -22,7 +22,7 @@
         },
         {
           "verb": "stat_rule",
-          "target": "self",
+          "target": "holder",
           "stats": [
             "Defense",
             "Maximum Health"

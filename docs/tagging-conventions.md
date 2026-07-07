@@ -1,4 +1,4 @@
-# Tagging conventions (schema v1 — FROZEN 2026-07-06)
+# Tagging conventions (schema v2 — FROZEN 2026-07-06)
 
 Re-read this before every tagging session. Post-freeze schema changes require a
 migration script in scripts/migrations/ and a full re-validation.
@@ -12,14 +12,23 @@ ask: "would someone search for this?" — narrow facts count ("applies *random* 
 
 ## Actor / subject / target — who is who
 
-- `trigger.subject` = whose event fires the rule ("After **an ally** attacks…").
-- `action.actor` = who performs the action. **Default when omitted: the record's owner** —
-  the trait holder, the relic bearer('s relic), the perk's affected creatures, the minion
-  itself; for `activated` (spell) rules, the caster. **Set `actor` explicitly whenever the
-  performer differs from that default** (e.g. adoration: the *enemy* casts → `trigger_subject`),
-  and feel free to set `actor: "self"` for clarity in branchy rules (The Nether).
+Three distinct roles; never rely on context to disambiguate them:
+
+- `trigger.subject` = whose event fires the rule ("After **an ally** attacks…" — the
+  turn-taker / event participant).
+- `action.actor` = who performs the action. **There is NO default.** Omitted actor means
+  *ambient — no distinct performer* ("each other creature takes damage"). The scope
+  `holder` means the entity the record is attached to: trait holder, relic bearer, the
+  minion itself. `holder` is never the turn-taker (that's `trigger_subject`) and is not
+  valid in spell rules (spells use `caster`). Verbs with an intrinsic performer —
+  `attack`, `cast` — REQUIRE an explicit actor (validator-enforced).
 - `action.target` = who the action lands on. In attack-trigger rules the attacked creature
   is `target`; in activated rules the spell's chosen target is `target`.
+
+Worked example — "After another ally attacks, this creature attacks.":
+`trigger: {type: after_attack, subject: ally}` (turn-taker),
+`action: {verb: attack, actor: holder, target: …}` (the trait holder follows up).
+Three creatures, three structurally distinct roles.
 
 ## Decision rules (from the pilot, user-reviewed)
 

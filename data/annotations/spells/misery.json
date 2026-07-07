@@ -1,7 +1,7 @@
 {
   "id": "spell:misery",
   "textHash": "c65e8b5abcc0",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

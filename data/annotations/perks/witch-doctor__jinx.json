@@ -1,7 +1,7 @@
 {
   "id": "perk:witch-doctor:jinx",
   "textHash": "873ab40591fa",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [

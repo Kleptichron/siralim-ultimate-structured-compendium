@@ -1,17 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "relic:5740-ng:r40",
   "rules": [
     {
       "trigger": {
         "type": "passive",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {
           "verb": "damage_modifier",
-          "target": "self",
+          "target": "holder",
           "magnitude": {
             "amountPct": 30,
             "direction": "down"

@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:boastful-protector",
   "rules": [
     {
       "trigger": {
         "type": "passive",
-        "subject": "self"
+        "subject": "holder"
       },
       "conditions": [
         {
@@ -19,7 +19,7 @@
       "actions": [
         {
           "verb": "dodge_modifier",
-          "target": "self",
+          "target": "holder",
           "params": {
             "kind": "avoid damage",
             "chancePct": 25

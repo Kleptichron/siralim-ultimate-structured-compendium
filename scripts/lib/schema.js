@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 1;
+export const SCHEMA_VERSION = 2;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -41,9 +41,11 @@ export const TRIGGER_TYPES = [
   'other',
 ];
 
-// One scope enum shared by trigger.subject, condition.who, action.target.
+// One scope enum shared by trigger.subject, condition.who, action.actor, action.target.
 export const SCOPES = [
-  'self',            // this creature / the bearer / the perk's owner-creatures? (no: that's allies)
+  'holder',          // the entity this record's effect is attached to: trait holder,
+                     //   relic bearer, the minion itself. NEVER the turn-taker
+                     //   (that's trigger_subject). Not valid in spell rules (use caster).
   'ally',            // one of your other creatures
   'allies',          // "your creatures" as a group
   'random_ally',
@@ -145,6 +147,8 @@ const ANN_KEYS = new Set([
   'id', 'textHash', 'schemaVersion', 'provenance', 'machineTemplate',
   'rules', 'flags', 'waivedStatuses', 'notes',
 ]);
+// Verbs whose action always has a performer in game terms.
+const ACTOR_REQUIRED_VERBS = new Set(['attack', 'cast']);
 
 // Collect every status name referenced in searchable/param positions.
 export function referencedStatuses(ann) {
@@ -201,6 +205,11 @@ export function validateAnnotation(ann, record, lex) {
       for (const k of Object.keys(a)) if (!ACTION_KEYS.has(k)) ae(`unknown action key "${k}"`);
       if (!ACTION_VERBS.includes(a.verb)) ae(`bad verb "${a.verb}"`);
       if (a.actor !== undefined && !SCOPES.includes(a.actor)) ae(`bad actor "${a.actor}"`);
+      // Omitted actor = ambient (no performer). Verbs with an intrinsic
+      // performer must name one explicitly.
+      if (ACTOR_REQUIRED_VERBS.has(a.verb) && a.actor === undefined) {
+        ae(`verb "${a.verb}" requires an explicit actor (holder/caster/trigger_subject/...)`);
+      }
       if (a.target !== undefined && !SCOPES.includes(a.target)) ae(`bad target "${a.target}"`);
       if (a.statusKind !== undefined && !STATUS_KINDS.includes(a.statusKind)) ae(`bad statusKind "${a.statusKind}"`);
       if (a.flow !== undefined && !FLOWS.includes(a.flow)) ae(`bad flow "${a.flow}"`);

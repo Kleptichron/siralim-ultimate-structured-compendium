@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:acid-body",
   "rules": [
     {
       "trigger": {
         "type": "after_attacked",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {

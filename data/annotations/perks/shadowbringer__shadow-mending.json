@@ -1,7 +1,7 @@
 {
   "id": "perk:shadowbringer:shadow-mending",
   "textHash": "1d870235c304",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [

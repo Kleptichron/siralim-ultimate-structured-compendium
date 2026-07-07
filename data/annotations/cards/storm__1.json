@@ -1,7 +1,7 @@
 {
   "id": "card:storm:1",
   "textHash": "d59167f92086",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "card-class-spell-dr",
   "rules": [

@@ -1,20 +1,20 @@
 {
   "id": "relic:salus:r10",
   "textHash": "377a584e4cde",
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "machine",
   "machineTemplate": "start-battle-gain",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
-        "subject": "self"
+        "subject": "holder"
       },
       "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
-          "target": "self",
+          "target": "holder",
           "statuses": [
             "Mending"
           ]

@@ -1,19 +1,20 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "provenance": "claude",
   "id": "trait:atmosphere",
   "rules": [
     {
       "trigger": {
         "type": "after_provoke",
-        "subject": "self"
+        "subject": "holder"
       },
       "actions": [
         {
           "verb": "cast",
           "params": {
             "spell": "Elemental Barrage"
-          }
+          },
+          "actor": "holder"
         }
       ]
     }
