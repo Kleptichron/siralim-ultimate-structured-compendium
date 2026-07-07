@@ -62,10 +62,13 @@ function deriveFacets(ann) {
       }
     }
     if (rule.chance) chanceBased = true;
+    // For side-of-battle search, indirection resolves to the trigger's side:
+    // "the enemy that was healed casts…" facets as actor: enemy.
+    const resolve = v => (v === 'trigger_subject' ? (t.subject ?? v) : v);
     for (const a of rule.actions ?? []) {
       f.verbs.add(a.verb);
-      if (a.actor) f.actors.add(a.actor);
-      if (a.target) f.targets.add(a.target);
+      if (a.actor) f.actors.add(resolve(a.actor));
+      if (a.target) f.targets.add(resolve(a.target));
       if (a.flow) f.flows.add(a.flow);
       for (const q of a.qualifiers ?? []) f.qualifiers.add(q);
       const inter = VERB_INTERACTION[a.verb];

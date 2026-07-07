@@ -17,11 +17,15 @@ Three distinct roles; never rely on context to disambiguate them:
 - `trigger.subject` = whose event fires the rule ("After **an ally** attacks…" — the
   turn-taker / event participant).
 - `action.actor` = who performs the action. **There is NO default.** Omitted actor means
-  *ambient — no distinct performer* ("each other creature takes damage"). The scope
-  `holder` means the entity the record is attached to: trait holder, relic bearer, the
-  minion itself. `holder` is never the turn-taker (that's `trigger_subject`) and is not
-  valid in spell rules (spells use `caster`). Verbs with an intrinsic performer —
-  `attack`, `cast` — REQUIRE an explicit actor (validator-enforced).
+  *ambient — no distinct performer* ("each other creature takes damage", passive voice).
+  **Set actor on ANY verb whenever the text names a performer in active voice** — "this
+  creature afflicts…" → `actor: holder`, "they afflict the target" → `trigger_subject`.
+  The scope `holder` means the entity the record is attached to: trait holder, relic
+  bearer, the minion itself. `holder` is never the turn-taker (that's `trigger_subject`)
+  and is not valid in spell rules (spells use `caster`). Verbs with an intrinsic
+  performer — `attack`, `cast` — REQUIRE an explicit actor (validator-enforced).
+  Receiving isn't performing: "the caster recovers Health" is a heal with target caster,
+  no actor.
 - `action.target` = who the action lands on. In attack-trigger rules the attacked creature
   is `target`; in activated rules the spell's chosen target is `target`.
 
@@ -29,6 +33,12 @@ Worked example — "After another ally attacks, this creature attacks.":
 `trigger: {type: after_attack, subject: ally}` (turn-taker),
 `action: {verb: attack, actor: holder, target: …}` (the trait holder follows up).
 Three creatures, three structurally distinct roles.
+
+Positional scopes: `adjacent_allies` / `adjacent_enemies` / `adjacent_any` — anchored on
+the holder by default; a different anchor ("creatures adjacent to the target") goes in
+params. Facet note: when an action's actor/target is `trigger_subject`, the search index
+resolves it to the trigger's side ("the enemy that was healed casts…" facets as
+actor: enemy) — tag the indirection honestly and let the index do the resolving.
 
 ## Decision rules (from the pilot, user-reviewed)
 

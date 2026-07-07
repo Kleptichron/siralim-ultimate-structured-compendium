@@ -22,7 +22,8 @@
           },
           "qualifiers": [
             "stolen"
-          ]
+          ],
+          "actor": "holder"
         },
         {
           "verb": "stat_change",
@@ -39,7 +40,8 @@
           },
           "qualifiers": [
             "stolen"
-          ]
+          ],
+          "actor": "holder"
         }
       ]
     }

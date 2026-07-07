@@ -14,14 +14,16 @@
           "target": "attacker",
           "statuses": [
             "Disarmed"
-          ]
+          ],
+          "actor": "holder"
         },
         {
           "verb": "spell_modifier",
           "target": "attacker",
           "params": {
             "seal": 1
-          }
+          },
+          "actor": "holder"
         }
       ]
     }

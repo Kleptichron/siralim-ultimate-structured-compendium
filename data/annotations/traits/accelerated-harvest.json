@@ -19,7 +19,8 @@
           "statusKind": "debuff",
           "qualifiers": [
             "random"
-          ]
+          ],
+          "actor": "trigger_subject"
         }
       ]
     }

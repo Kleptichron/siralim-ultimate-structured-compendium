@@ -25,7 +25,8 @@
           ],
           "params": {
             "note": "whichever the target doesn't already have"
-          }
+          },
+          "actor": "holder"
         }
       ]
     }

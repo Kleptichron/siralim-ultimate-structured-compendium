@@ -43,7 +43,8 @@
           "target": "target",
           "statuses": [
             "Vulnerable"
-          ]
+          ],
+          "actor": "holder"
         }
       ]
     }

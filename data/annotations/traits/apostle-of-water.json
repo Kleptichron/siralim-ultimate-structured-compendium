@@ -22,7 +22,8 @@
           },
           "params": {
             "scaleSource": "this creature"
-          }
+          },
+          "actor": "holder"
         }
       ]
     }

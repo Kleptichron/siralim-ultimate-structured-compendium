@@ -66,8 +66,11 @@ function ruleHtml(rule, query) {
   }
   if (rule.chance) parts.push(chip(`${rule.chance}% chance`));
   parts.push('<span class="rk">do</span>');
+  const resolve = v => (v === 'trigger_subject' ? (t.subject ?? v) : v);
   for (const a of rule.actions ?? []) {
-    const hit = query.verbs.has(a.verb) ? 'hit' : '';
+    const hit = query.verbs.has(a.verb)
+      || (a.actor && query.actors.has(resolve(a.actor)))
+      || (a.target && query.targets.has(resolve(a.target))) ? 'hit' : '';
     let label = a.verb;
     if (a.actor) label += ` @${a.actor}`;
     if (a.target) label += ` → ${a.target}`;

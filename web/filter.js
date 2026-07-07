@@ -21,6 +21,8 @@ export function emptyQuery() {
     types: new Set(),
     triggers: new Set(),
     verbs: new Set(),
+    actors: new Set(),
+    targets: new Set(),
     pickers,
     showUntagged: true,
   };
@@ -29,7 +31,11 @@ export function emptyQuery() {
 export function cloneQuery(query) {
   const pickers = {};
   for (const [id, p] of Object.entries(query.pickers)) pickers[id] = { key: p.key, on: new Set(p.on) };
-  return { ...query, types: new Set(query.types), triggers: new Set(query.triggers), verbs: new Set(query.verbs), pickers };
+  return {
+    ...query,
+    types: new Set(query.types), triggers: new Set(query.triggers), verbs: new Set(query.verbs),
+    actors: new Set(query.actors), targets: new Set(query.targets), pickers,
+  };
 }
 
 const tokens = q => q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -56,9 +62,12 @@ function anyPickerActive(query) {
 
 function facetMatch(rec, query) {
   const f = rec.facets;
-  if ((query.triggers.size || query.verbs.size || anyPickerActive(query)) && !f) return false;
+  if ((query.triggers.size || query.verbs.size || query.actors.size || query.targets.size
+       || anyPickerActive(query)) && !f) return false;
   if (query.triggers.size && ![...query.triggers].some(t => f.triggers?.includes(t))) return false;
   if (query.verbs.size && ![...query.verbs].some(v => f.verbs?.includes(v))) return false;
+  if (query.actors.size && ![...query.actors].some(a => f.actors?.includes(a))) return false;
+  if (query.targets.size && ![...query.targets].some(t => f.targets?.includes(t))) return false;
   for (const p of PICKERS) {
     if (!pickerMatch(f?.[p.facet], query.pickers[p.id])) return false;
   }
@@ -83,6 +92,8 @@ export function facetCounts(records, query, group) {
   if (group === 'types') sub.types = new Set();
   else if (group === 'triggers') sub.triggers = new Set();
   else if (group === 'verbs') sub.verbs = new Set();
+  else if (group === 'actors') sub.actors = new Set();
+  else if (group === 'targets') sub.targets = new Set();
   else if (group.startsWith('picker:')) {
     const id = group.slice(7);
     sub.pickers[id] = { key: '', on: new Set() };

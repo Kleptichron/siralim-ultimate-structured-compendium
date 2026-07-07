@@ -14,7 +14,8 @@
           "target": "enemies",
           "statuses": [
             "Blind"
-          ]
+          ],
+          "actor": "holder"
         }
       ]
     }

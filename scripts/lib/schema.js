@@ -60,6 +60,9 @@ export const SCOPES = [
   'caster',
   'owner',           // a minion's master
   'minions',
+  'adjacent_allies', // positional: allies adjacent to the holder (params for other anchors)
+  'adjacent_enemies',
+  'adjacent_any',
   'other',
 ];
 
