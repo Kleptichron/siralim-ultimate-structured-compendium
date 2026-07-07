@@ -1,0 +1,16 @@
+{
+  "name": "siralim-ultimate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed": "node data/seed.js",
+    "dev": "vite web",
+    "build": "vite build web"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "csv-parse": "^5.5.6",
+    "vite": "^5.0.0"
+  }
+}

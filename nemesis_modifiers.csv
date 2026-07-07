@@ -1,0 +1,17 @@
+Modifier,Description
+Agile,Enemies start at the top of the Timeline.
+Blessed,Enemies start with 5 buffs.
+Blinking,Your creatures' spells deal 90% less damage.
+Brutal,Enemies deal 100% more damage and always deal critical damage.
+Champion,"Leader is immune to damage, debuffs, and stat reduction while allies are alive."
+Feedback,"After your creatures cast a spell, they take damage equal to 20% of Maximum Health"
+Hearty,Enemies have 100% more Health and take 50% less damage.
+Hex,Your creatures' spells consume 3 additional Charges.
+Macabre,Your creatures start with 3 debuffs.
+Misery,Your creatures cannot gain buffs or stats.
+Obtuse,Your creatures' attacks deal 90% less damage.
+Plague,Your creatures are afflicted with a random debuff at the start of their turns.
+Protected,Enemies cannot take damage that exceeds more than 25% of their Maximum Health.
+Thorns,"50% of damage taken by enemies is reflected, up to 100% of the enemies' Current Health."
+Undying,Enemies resurrect after a short period of time.
+Vengeance,"After an enemy dies, all other enemies gain 30% stats."

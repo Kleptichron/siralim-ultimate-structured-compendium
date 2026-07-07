@@ -1,0 +1,19 @@
+Name,Default Duration,Effect
+Agile,3 Turns,"Creatures with Agile have an additional, independent chance to dodge attacks."
+Arcane,Until creature casts a spell.,"When an Arcane creature Casts a spell, the spell does not consume any Charges."
+Barrier,Until barrier is depleted.,"Barrier absorbs a certain amount of damage. After the maximum amount of damage is dealt, the buff is removed. Barrier strength cannot exceed 200% of a creature's highest stat when this buff is applied."
+Berserk,3 Turns,Berserk creatures deal 50% more damage.
+Defensive,3 Turns,Creatures with Defensive automatically Defend at the end of their turn.
+Immune,1 Turn,Creatures with Immune can't be afflicted with debuffs.
+Invisible,Until creature takes an action.,Invisible creatures cannot be manually targeted by enemy attacks or spells. This buff is removed after the creature takes an action.
+Leeching,3 Turns,Creatures with Leeching recover Health equal to 25% of the damage they deal.
+Mending,3 Turns,Creatures with Mending recover 30% Health at the start of their turn.
+Proficient,3 Turns,"Proficient creatures gain 30% more benefits from their Artifact's Stat Slots, other than Health."
+Protected,3 Turns,Creatures with Protected take 50% less damage.
+Rebirth,3 Turns,Creatures with Rebirth are resurrected with 50% Health when they die.
+Repelling,3 Turns,Repelling creatures have a 50% chance to ignore damage from spells.
+Savage,3 Turns,"Savage creatures have an additional, independent chance to deal critical damage with attacks."
+Shelled,,Shelled negates the next incoming attack or spell.
+Splashing,3 Turns,Creatures with Splashing deal 50% of their damage to enemies adjacent to the target they Attack.
+Taunting,3 Turns,Creatures with Taunting automatically Provoke at the end of their turn.
+Warded,3 Turns,Creatures with Warded cannot lose stats.

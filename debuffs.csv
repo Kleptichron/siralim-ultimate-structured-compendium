@@ -1,0 +1,20 @@
+Name,Default Duration,Effect
+Bleeding,3 Turns,Creatures with Bleeding take damage equal to 30% of their Current Health at the start of each turn.
+Blighted,3 Turns,Creatures with Blighted cannot be healed and take damage from healing effects equal to 50% of the effect.
+Blind,3 Turns,Blind creatures cannot choose their targets when Attacking or Casting single-target spells.
+Bomb,,"At the start of a creature's turn, its Bomb detonates, dealing damage equal to 80% of the afflictor's Speed. Then, this debuff is removed."
+Burning,3 Turns,Creatures with Burning take damage based on the inflictor's Intelligence each turn.
+Confused,3 Turns,Confused creatures have a 50% chance to Attack or Cast harmful spells on their allies.
+Cursed,3 Turns,"When creatures with Cursed deal damage with attacks or spells, they take damage equal to 100% of their target's Attack."
+Disarmed,3 Turns,"Disarmed creatures lose the benefits from their equipped Artifact, other than Health."
+Feared,3 Turns,Feared creatures cannot gain stats.
+Frozen,,"Frozen creatures are unable to act until they thaw, and have a 25% chance to thaw at the start of their turn. This chance doubles after each of their turns."
+Inverted,,"Inverted creatures heal enemies instead of damaging them with attacks and spells, and damage allies instead of healing them. This debuff is removed after enough damage or healing has been done to offset its potency."
+Poisoned,3 Turns,Creatures with Poisoned take damage based on the inflictor's Attack each turn.
+Scorned,1 Turn,Creatures with Scorned cannot attack. Overwrites Silenced.
+Silenced,1 Turn,Creatures with Silenced cannot cast spells. Overwrites Scorned.
+Sleeping,3 Turns,Creatures with Sleeping cannot act until they either take damage or this debuff wears off.
+Snared,3 Turns,Creatures with Snared are stuck at the bottom of the Timeline until they break free. They have a 10% chance to break free at the start of each creature's turn.
+Stone,1 Turn,Creatures with Stone cannot dodge or deal critical damage.
+Vulnerable,3 Turns,Vulnerable creatures take 50% more damage.
+Weak,3 Turns,Weak creatures deal 50% less damage.

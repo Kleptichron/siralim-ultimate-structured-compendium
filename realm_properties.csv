@@ -1,0 +1,78 @@
+Target,Modifier,Description,Hidden?
+Enemy,Always Critical Damage,Enemies always deal critical damage with attacks and spells.,Yes
+Enemy,Attack Additional Times: X,Enemies attack an additional number of times.,
+Player,Bad Luck,"Whenever it is one of your creatures' turns, any random effects that activate are re-rolled an additional time.",
+Enemy,Buff: Beserk,Enemies start battles with Berserk.,Yes
+Enemy,Buff: Leeching,Enemies start battles with Leeching.,
+Enemy,Buff: Mending,Enemies start battles with Mending.,
+Enemy,Buff: Proficient,Enemies start battles with Proficient.,
+Enemy,Buff: Protected,Enemies start battles with Protected.,Yes
+Enemy,Buff: Savage,Enemies start battles with Savage.,
+Player,Can't Gain Gems,Your creatures cannot gain Ethereal Spell Gems during battle.,
+Player,Can't Manually Defend/Provoke,Your creatures cannot manually Defend or Provoke.,
+Enemy,Cast Additional Times: X,Enemies cast spells an additional number of times.,Yes
+Enemy,Chance to Dodge: X%,Enemies have an independent chance to dodge attacks.,Yes
+Enemy,Chance to Resist Damage: X%,Enemies have a chance to ignore incoming damage.,
+Enemy,Copy Your Spell Gems,Enemies gain a copy of your creatures' Spell Gems at the start of battle.,Yes
+Player,Damage Every Turn: X% Health,Your creatures will take damage as a percentage of their Maximum Health at the start of their turns.,Yes
+Player,Debuff: Bleeding,Your creatures start battles with Bleeding.,
+Player,Debuff: Blighted,Your creatures start battles with Blighted.,
+Player,Debuff: Blind,Your creatures start battles with Blind.,Yes
+Player,Debuff: Confused,Your creatures start battles with Confused.,Yes
+Player,Debuff: Cursed,Your creatures start battles with Cursed.,Yes
+Player,Debuff: Disarmed,Your creatures start battles with Disarmed.,Yes
+Player,Debuff: Scorn,Your creatures start battles with Scorn.,No
+Player,Debuff: Vulnerable,Your creatures start battles with Vulnerable.,Yes
+Player,Debuff: Weak,Your creatures start battles with Weak.,
+Enemy,End of Turn: Attack,Enemies Attack one of your creatures at the end of their turn.,
+Enemy,End of Turn: Cast,Enemies Cast one of their spells at the end of their turn.,Yes
+Enemy,End of Turn: Defend,Enemies Defend at the end of their turn.,
+Enemy,End of Turn: Provoke,Enemies Provoke at the end of their turn.,
+Realm,Enemies Are Fused (Race),,
+Realm,Enemies Belong To Same Race,Enemies all belong to the same race of creatures.,
+Enemy,Extra Attack: X%,Enemies have extra Attack.,Yes
+Enemy,Extra Defense: X%,Enemies have extra Defense.,Yes
+Enemy,Extra Health: X%,Enemies have extra Health.,Yes
+Enemy,Extra Intelligence: X%,Enemies have extra Intelligence.,Yes
+Realm,Extra Nemesis Creatures,More Nemesis Creatures will spawn in this realm.,Yes
+Enemy,Extra Speed: X%,Enemies have extra Speed.,Yes
+Enemy,Extra Traits: X,Enemies start battles with an additional number of traits.,Yes
+Player,Gems Sealed After Casting,,
+Enemy,Good Luck,"Whenever it is an enemy's turn, any random effects that fail to activate are re-rolled an additional time.",
+Enemy,Heal Every Turn,,Yes
+Realm,Inhabited By [X] Race,,No
+Player,Less Attack,,
+Player,Less Attack Damage,,Yes
+Player,Less Charges,,Yes
+Player,Less Critical Chance,,
+Player,Less Damage Dealt,,Yes
+Enemy,Less Damage Taken,,Yes
+Player,Less Defense,,Yes
+Player,Less Dodge Chance,,
+Player,Less Healing,,Yes
+Player,Less Indirect Damage,,Yes
+Player,Less Intelligence,,Yes
+Player,Less Speed,,Yes
+Player,Less Spell Potency,,
+Player,Less Stat Gain,,
+Enemy,Less Stat Loss,,Yes
+Player,Maximum Buffs,,
+Player,Maximum Extra Traits,,Yes
+Enemy,Minion: Animated Gem,,
+Enemy,Minion: Dire Wolves,,
+Enemy,Minion: Doppleganger,,
+Enemy,Minion: Famine,,Yes
+Enemy,Minion: Unstable Horror,,Yes
+Enemy,Minion: War,,
+Enemy,Minion: Zombies,,Yes
+Enemy,More Damage Dealt,,
+Player,More Damage Taken,,Yes
+Enemy,More Spell Slots,,Yes
+Player,No Additional Attacks/Casts,,Yes
+Realm,Rapid Fatigue,,
+Player,Reduced Stat Gains,,Yes
+Enemy,Reflect Damage Taken,,Yes
+Enemy,Resistant to Debuffs,,Yes
+Enemy,Resurrect On Death,,
+Player,Stats Are Swapped,,Yes
+Enemy,Strong Against [Class],,Yes

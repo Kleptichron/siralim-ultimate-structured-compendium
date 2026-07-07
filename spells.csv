@@ -1,0 +1,756 @@
+Class,Charges,Spell Name,Spell Description
+Chaos,17,Acid Bomb,"Target takes a small amount of damage, and its Bomb detonates."
+Chaos,14,Acid Breath,Target is afflicted with Poisoned and Burning.
+Chaos,5,Acid Rain,Enemies take a moderate amount of damage and lose a large amount of Defense.
+Chaos,16,Adrenaline Rush,Caster Attacks random enemies 3 times. Each attack deals 15% normal damage.
+Chaos,17,Affliction,Enemies are afflicted with a random debuff.
+Chaos,12,Aftermath,Caster Attacks random enemies once for each turn the caster has taken in the current battle. Maximum of 10 attacks.
+Chaos,20,Anger,Target creature's Attack is set equal to its Intelligence.
+Chaos,4,Apocalypse,All creatures take a massive amount of damage.
+Chaos,2,Arbitration,"Enemies' buffs are removed, and your creatures gain those buffs."
+Chaos,1,Awakened Nether Orbs,One of the five Nether Orbs (chosen randomly) is awakened to cast a powerful spell. This spell is an Ultimate Spell.
+Chaos,18,Bangin' Bourbon,"Deals a massive amount of damage to the target, then bounces to each of the target's allies at random. The damage is reduced by 20% for each bounce. This spell is a Booze Spell."
+Chaos,7,Bladestorm,"Enemies take a moderate amount of damage, plus 1% more damage for every 1% Health each enemy is missing."
+Chaos,8,Blastar Punch,Target takes a large amount of damage and is afflicted with Scorned.
+Chaos,8,Blastwave,"Enemies take a small amount of damage, or a massive amount if they are afflicted with Burning."
+Chaos,5,Blitz Howl,"Enemies take a moderate amount of damage and have a 10% chance to be afflicted with Silenced, Burning, and Feared.
+This spell cannot be cast manually, but has a 30% chance to cast at the start of the caster's turn."
+Chaos,10,Blow Mind,"Enemies take a small amount of damage, plus 20% more damage for each time enemies have Cast a spell in the current battle."
+Chaos,4,Boiling Blood,Target takes a large amount of damage and the caster recovers a large amount of Health.
+Chaos,1,Butcher,"Target takes a devastating amount of damage. In addition, your creatures gain Attack, Intelligence, Defense and Speed equal to 30% of the damage dealt. This spell is an Ultimate spell."
+Chaos,10,Cauterize Wound,"Target recovers a small amount of Health, or a massive amount of Health if the target is afflicted with Burning."
+Chaos,18,Chaos Blades,"Target takes a small amount of damage, plus 5% more damage for each time your creatures have Attacked in the current battle."
+Chaos,12,Chaos Bolt,Target takes a moderate amount of damage that ignores 50% of its Defense.
+Chaos,15,Chaos Channelling,Target is afflicted with 3 random debuffs.
+Chaos,10,Chaos Mastery,Your creatures gain a moderate amount of Attack and Savage.
+Chaos,7,Chaos Nexus,Enemies' Classes are changed to match that of the target for the rest of the battle.
+Chaos,3,Chaos Orb,Enemies take a large amount of damage and their buffs and minions are removed.
+Chaos,20,Chaos Reign,Caster Casts one of the target's Spell Gems.
+Chaos,15,Chaos Rift,Your creatures gain a random trait for the rest of battle.
+Chaos,20,Chaos Spheres,Target's spell gems are Sealed for the rest of the battle.
+Chaos,10,Clayman,Target gains Maximum Health equal to its Current Health.
+Chaos,10,Cloud of Embers,"Enemies take damage based on how low they are on the Timeline. The lower their position, the more damage they take."
+Chaos,1,Colorwave,"Target takes a devastating amount of damage, plus 50% more damage for each Chaos Infusion you have."
+Chaos,13,Conflagration,"Target takes a small amount of damage, and all enemies take damage equal to 35% of the damage the target's Burning debuff would deal over its remaining duration."
+Chaos,15,Conjoin,Potency of the target's Bomb is increased by 80% of the caster's Speed.
+Chaos,10,Controlled Burn,"Target takes a large amount of damage, plus 5% more damage for each time the caster has Cast a spell in the current battle."
+Chaos,8,Crush Punch,Target takes a large amount of damage and loses a large amount of Defense.
+Chaos,7,Debilitating Blast,Enemies take a small amount of damage for each debuff (up to 3) they have.
+Chaos,5,Demon Core,"Your creatures gain a large amount of Attack and Intelligence, and a random Chaos Spell Gem."
+Chaos,6,Demon's Judgment,"Enemies lose a large amount of a random stat, and your creatures gain a large amount of that stat."
+Chaos,11,Demonic Strike,"Target takes a moderate amount of damage, plus 50% more damage for each enemy of the same class fighting on the target's side."
+Chaos,8,Demonwrath,"Target takes a massive amount of damage, minus 30% damage for each turn the caster has taken in the current battle."
+Chaos,16,Desperation,"Target gains a Barrier that absorbs damage equal to its Defense, and loses 50% Defense."
+Chaos,2,Devastating Throw,"Target takes massive damage and has a 50% chance to be sent to the bottom of the Timeline.
+50% of the damage is based on the caster's Attack and 50% of the damage is based on the caster's Speed instead of Intelligence."
+Chaos,9,Devastation,Increases the duration of enemies' Burning and Poisoned debuffs by 3 turns and increases their potency by 50%.
+Chaos,12,Dissonance,"Potencies of enemies' Bomb, Poisoned, and Burning debuffs are averaged."
+Chaos,14,Double Punch,Target takes a small amount of damage twice. 100% of the damage dealt is based on the caster's Attack instead of Intelligence.
+Chaos,11,Downburst,Target and the creatures adjacent to it takes a moderate amount of damage.
+Chaos,7,Duel,Target and caster Provoke and Attack each other.
+Chaos,6,Elder Dragon's Call,"Target takes a large amount of damage, and all other enemies take 30% of this damage."
+Chaos,25,Erratium,Your creatures gain a random trait and are afflicted with Disarmed.
+Chaos,15,Eviscerate,Target takes damage. The amount of damage is increased based on how much Health the target is missing.
+Chaos,13,Failed Experiment,"Enemies take a small amount of damage, or a massive amount if they are afflicted with Vulnerable."
+Chaos,15,Feeling Lucky,Caster Casts one of its other spells. The targets are chosen at complete random.
+Chaos,15,Fiery Gleam,Target is afflicted with Burning and Blind.
+Chaos,7,Fiery Stew,"Target recovers a small amount of Health and gains a small amount of Defense. Then, a random enemy is afflicted with Burning."
+Chaos,8,Fireball,Target takes a moderate amount of damage and is afflicted with Burning.
+Chaos,13,Firedevil's Rage,Enemies are afflicted with Burning.
+Chaos,8,Firestorm,Enemies take a moderate amount of damage and are afflicted with Burning.
+Chaos,6,Firewall,Enemies take a moderate amount of damage. Your creatures gain a moderate amount of Defense.
+Chaos,13,Flame Enchantment,Target gains Proficient.
+Chaos,12,Flame Lash,Your creatures gain Berserk and Splashing.
+Chaos,9,Flame Strike,Enemies take a small amount of damage. This spell Casts a number of times equal to the number of enemies that are afflicted with Burning.
+Chaos,22,Flameheart,Your creatures gain a Barrier that absorbs damage equal to the amount of damage they've taken in the current battle.
+Chaos,18,Fracking Strike,"Target takes a small amount of damage, plus 10% for each Charge this Spell Gem is missing."
+Chaos,12,Fractal Explosion,Afflicts 3 random enemies with Bomb.
+Chaos,10,Fragile Perfection,Caster gains 3 random buffs and is afflicted with 3 random debuffs.
+Chaos,15,Frustration,"Target takes a moderate amount of damage, plus 15% more damage for each debuff the caster has."
+Chaos,11,Golden Stout,Caster Casts the Spell Gem in its Artifact's Spell Slot. This spell is a Booze Spell.
+Chaos,7,Gunpowder,Potency of enemies' Bomb debuffs is increased by 30% of the caster's Speed.
+Chaos,1,Heat Beam,"Target is killed. If it cannot be killed, it takes a devastating amount of damage 3 times. This spell is an Ultimate Spell."
+Chaos,1,Heat Wave,"Enemies take a large amount of damage. In addition, enemies' Maximum Health is reduced by the amount of damage dealt. This spell is an Ultimate spell."
+Chaos,20,Hell Forge,Target gains Taunting and Splashing.
+Chaos,8,Hellcry Punch,Target takes a large amount of damage and is afflicted with Cursed.
+Chaos,15,Hoo Hay Hell,"Random enemies take a large amount of damage continuously. After each enemy takes damage, the spell has a 35% chance to end."
+Chaos,10,Immolation Aura,Your creatures gain Savage and Splashing.
+Chaos,7,Impale,"Target takes a large amount of damage, and enemies adjacent to the target take 75% of that damage."
+Chaos,20,Implosion,Target takes a small amount of damage. This damage is increased by the number of buffs the target has.
+Chaos,15,Infernal Charge,Target Attacks a random enemy for 100% extra damage.
+Chaos,9,Infernal Claw,"Target takes a small amount of damage and is afflicted with Burning, Bleeding and Vulnerable."
+Chaos,12,Infernal Pillars,"Target takes a small amount of damage, or a massive amount of damage if it is afflicted with Burning."
+Chaos,20,Inferno,Extends the duration of the enemies' Burning debuff by 1 turn and increases the debuff's potency by 100%.
+Chaos,15,Inner Destruction,"Caster takes a moderate amount of damage. This spell cannot be cast manually, and instead has a 20% chance to be cast by enemies at the start of their turns."
+Chaos,10,Internal Combustion,"Target takes a moderate amount of damage. If the target is killed by this spell, all other enemies take a moderate amount of damage and are afflicted with Burning."
+Chaos,12,Karmic Retribution,Target takes a small amount of damage. The amount of damage increases by 50% for each time this Spell Gem has been Cast in the current battle.
+Chaos,15,Kick,"Target takes a moderate amount of damage, plus 25% more damage for each debuff it has."
+Chaos,10,Kindle,"Target takes a large amount of damage, plus 5% more damage for each time the caster has Attacked in the current battle."
+Chaos,8,Knife's Edge,"Target takes a large amount of damage, plus 5% more damage for every 1% Health the caster is missing."
+Chaos,12,Lacerate,"If the target has Bleeding, it takes a massive amount of damage. Otherwise, deals a moderate amount of damage and afflicts the target with Bleeding."
+Chaos,10,Last Stand,"Target Attacks random enemies 3 times for 200% normal damage. Then, it dies."
+Chaos,6,Living Axe,"Target takes a large amount of damage, plus 25% more damage for each Arsenal Spell the caster has Cast in the current battle. This spell is an Arsenal Spell."
+Chaos,10,Living Chaos Lance,"Target takes a small amount of damage, or massive damage if the target is a Chaos creature. The damage ia based on the caster's Attack instead of Intelligence. This spell is an Arsenal Spell."
+Chaos,7,Living Chaos Shield,"Caster's class is changed to Chaos, it gains Taunting, and it gains a moderate amount of Defense. The potency is based on the caster's Defense instead of Intelligence. This spell is an Arsenal Spell."
+Chaos,4,Living Gauntlet,Caster gains a massive amount of Attack and Savage. This spell is an Arsenal Spell.
+Chaos,5,Living Sword,"Target takes a large amount of damage, plus damage equal to 50% of the caster's Attack. This spell is an Arsenal Spell."
+Chaos,10,Luck of the Draw,All creatures gain a random buff and a random debuff.
+Chaos,5,Luck's Gambit,All creatures' Ethereal Spell Gems are replaced with different ones.
+Chaos,10,Magma Orb,"Target takes a moderate amount of damage, and random enemies take a moderate amount of damage for each debuff the target has."
+Chaos,3,Mass Mutilation,All creatures Attack themselves for 25% normal damage. This spell can only be Cast once at a time.
+Chaos,10,Mass Taunt,Your creatures Provoke.
+Chaos,15,Meat Grinder,Enemies take damage equal to 30% of the amount of Attack they've lost in the current battle.
+Chaos,20,Memento of Attack,This spell doesn't do anything when Cast. The caster has 5% more Attack for each Charge this Spell Gem is missing.
+Chaos,18,Molten Armor,Target gains Shelled and 30% Attack.
+Chaos,8,Molten Wall,Your creatures gain a moderate amount of Attack and Defense.
+Chaos,5,Morph: Chaos,Your creatures gain a large amount of Attack and their classes become Chaos until the end of battle.
+Chaos,10,Mutilate,Target takes damage equal to 50% of the caster's Current Health.
+Chaos,3,Nine Meteors,A random enemy takes a small amount of damage. This effect occurs 9 times.
+Chaos,1,Orbital Strike,Target takes a devastating amount of damage and loses a small amount of Defense.
+Chaos,12,Pandemonium,Shuffles the Timeline.
+Chaos,6,Panic Attack,Each of your creatures Attack a random enemy for 50% normal damage.
+Chaos,6,Planets,Enemies take a large amount of damage.
+Chaos,19,Productive Belch,Target takes a small amount of damage and afflicts the target with Disarmed.
+Chaos,2,Promethean Blaze,Enemies take a moderate amount of damage and are afflicted with Burning. Caster gains Intelligence equal to 10% of the damage dealt.
+Chaos,10,Pumpkin King's Wrath,Enemies take a moderate amount of damage 2 times.
+Chaos,12,Pyroburst,"Target takes a small amount of damage, or a massive amount of damage if they are afflicted with Bomb."
+Chaos,4,Radiant Sunfire,Your creatures gain a random buff and enemies are afflicted with a random debuff for each enemy with Burning.
+Chaos,11,Ravage,Target takes a moderate amount of damage and loses a moderate amount of Defense.
+Chaos,12,Raze,Enemies take damage equal to 2 turns of their Burning debuff.
+Chaos,15,Redirection,"Target gains a moderate amount of Defense, then it Provokes."
+Chaos,12,Rend,Target takes a moderate amount of damage and is afflicted with Bleeding.
+Chaos,6,Rolling Meteor,"Random enemies continuously take damage equal to 20% of this creature's Current Health. After each enemy takes damage, the spell has a 25% chance to end."
+Chaos,20,Rune of Cor,"Target takes a large amount of damage, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's Attack instead of its Intelligence."
+Chaos,14,Rupture,"Target takes a small amount of damage. This damage is increased by the percentage of Attack, Intelligence, Defense and Speed the caster has over those of the target."
+Chaos,20,Sabotage,"Target Attacks the caster 3 times for 5% normal damage. These attacks cannot be dodged, and always deal at least 1 damage."
+Chaos,3,Savage Roar,Your creatures gain a massive amount of Attack.
+Chaos,10,Scourge Sorcery,"Target takes a small amount of damage, or massive damage if the target is a Sorcery creature."
+Chaos,12,Shield Bash,Target takes a small amount of damage and is afflicted with Confused. 100% of the damage dealt is based on the caster's Defense instead of Intelligence.
+Chaos,13,Shield Slam,"Target takes a moderate amount of damage and has a 35% chance to be sent to the bottom of the Timeline.
+100% of the damage is based on the caster's Defense instead of Intelligence."
+Chaos,1,Shootout,Target takes a massive amount of damage. This spell has a 100% chance to deal critical damage and regenerates 1 Charge after an enemy is killed. This spell is an Ultimate spell.
+Chaos,7,Short Fuse,Enemies take damage equal to 100% of the potency of their Bomb debuffs.
+Chaos,15,Skewer,Enemies take damage equal to 30% of the amount of damage they've taken from Bleeding in the current battle.
+Chaos,8,Smoke Bolt,"Target takes a moderate amount of damage and loses a small amount of Attack, Intelligence and Defense."
+Chaos,11,Sneak Attack,Target takes a massive amount of damage the first time this spell is Cast in the current battle. Subsequent casts deal a small amount of damage.
+Chaos,9,Soul Fire,"Enemies take a moderate amount of damage, plus 10% more damage for each buff they have."
+Chaos,13,Spicy Suds,"Your creatures with Splashing Attack random enemeis. Otherwise, they gain Splashing. This spell is a Booze Spell."
+Chaos,8,Split Punch,Target takes a large amount of damage and is afflicted with Bleeding.
+Chaos,1,Sunder,Enemies take a large amount of damage and their Defense and Speed are set to their minimum values. This spell is an Ultimate spell.
+Chaos,1,Total Carnage,Enemies are afflicted with Bleeding and this creature Attacks each enemy. This is an Ultimate Spell.
+Chaos,13,Toxic Shield,"Target gains 20% Defense for each debuff it has. Then, the target's debuffs are removed."
+Chaos,9,Unbound Combustion,Target takes a small amount of damage. 100% of the damage is based on the caster's Maximum Health instead of Intelligence.
+Chaos,15,Villify,Enemies are no longer Defending or Provoking.
+Chaos,7,Volatile Strike,Target takes a moderate amount of damage. This damage is mitigated by the target's lowest stat. 100% of the damage dealt is based on the caster's highest stat instead of Intelligence.
+Chaos,4,Volcano,Enemies take a large amount of damage and are afflicted with Burning.
+Chaos,10,Warning,Your Provoking creatures gain a massive amount of Defense.
+Chaos,20,Warp Reality,"Target's Barrier shatters, dealing damage to the target equal to 200% of the Barrier's strength."
+Chaos,16,Whiplash,Target takes a small amount of damage and is afflicted with Bleeding. 100% of the damage dealt is based on the caster's Speed instead of Intelligence.
+Chaos,10,Word of Chaos,Target has a 5% chance to be killed for each debuff it has.
+Death,15,Absolute Corruption,Target's buffs are converted to random debuffs.
+Death,10,Aggravate,Enemies with Cursed Attack the caster for 25% normal damage.
+Death,7,Annihilate,"Enemies take a small amount of damage, or a massive amount of damage if they are afflicted with a debuff."
+Death,1,Balance In All Things,"Your creatures are healed or resurrected with a devastating amount of Health, and enemies take a devastating amount of damage. This is an Ultimate Spell."
+Death,5,Blood Burst,"Target takes a moderate amount of damage, plus 2% more damage for every 1% Health it has."
+Death,13,Blood Moon,Target takes damage equal to 30% of the amount of damage it has taken in the current battle.
+Death,17,Blood Shield,Target takes a large amount of damage and gains 200% of the damage taken as a Barrier.
+Death,10,Blood Spray,"Enemies take a moderate amount of damage, plus 100% more damage for each time they've taken damage from Bleeding in the current battle."
+Death,1,Bloodwave,Enemies take damage equal to 50% of the Maximum Health the caster gained in the current battle. This spell is an Ultimate spell.
+Death,9,Bone Armor,Target gains a large amount of Defense and Speed.
+Death,10,Bone Offering,"Target loses a large amount of Defense, and your creatures gain 20% of that amount."
+Death,13,Bone Spear,"Target takes a moderate amount of damage.
+If the amount of damage exceeds 25% of the target's Maximum Health, all other enemies take a moderate amount of damage as well."
+Death,18,Cannibalize,"Target takes a small amount of damage, or a devastating amount of damage if the target's class is the same as that of the caster."
+Death,12,Clawing Shadows,Target takes a moderate amount of damage. The damage is based on the caster's highest stat instead of Intelligence.
+Death,7,Clogged Pores,"Target is afflicted with Poisoned, Burning, and Bleeding."
+Death,1,Colorwave,"Enemies are afflicted with 3 random debuffs, plus 1 random debuff for each Death Infusion you have."
+Death,1,Comet,"Enemies take a moderate amount of damage, multiplied by the number of turns the caster has taken in the current battle. This spell is an Ultimate spell."
+Death,13,Contagion,Enemies' minions are removed. Enemies are afflicted with a random debuff for each minion removed.
+Death,12,Corpse Explosion,Enemies take a small amount of damage for each dead creature on the battlefield.
+Death,15,Corpse Shield,Your creatures gain a Barrier that absorbs a large amount of damage for each of your dead creatures.
+Death,17,Corruption,Target is afflicted with Blighted and Cursed.
+Death,8,Crucifixion,"Target takes a large amount of damage, plus 35% more damage for each minion the caster has."
+Death,5,Curse of Doom,Enemies with Cursed gain a large amount of Attack and Intelligence and lose a large amount of Defense and Speed.
+Death,9,Curse of Jimly,Enemies are afflicted with a random debuff for every 3 stacks of Zombies the caster has.
+Death,12,Damnation,Enemies are afflicted with Cursed.
+Death,12,Dark Enchantment,Target gains Arcane.
+Death,12,Dark Ritual,"Target creature is killed, and the caster gains all its buffs and 100% of its Attack and Speed."
+Death,1,Dark Strike,"Target takes a devastating amount of damage, and is afflicted with all debuffs. This spell is an Ultimate Spell."
+Death,13,Dark Summoning,Your creatures Cast one of their spells that interact with minions.
+Death,6,Dark Thoughts,Your creatures gain a massive amount of Intelligence and are afflicted with Scorned.
+Death,13,Dark Transformation,"Target gains a moderate amount of Attack, Intelligence, Defense, and Speed for each minion it has."
+Death,5,Dark Whispers,Your creatures gain Arcane.
+Death,10,Death Blossom,Enemies take small amount of damage three times.
+Death,9,Death Grip,Target takes a large amount of damage and is sent to the bottom of the Timeline.
+Death,3,Death Orb,Enemies are afflicted with a random debuff and lose a moderate amount of stats.
+Death,15,Death Siphon,"Target creature is killed, and the caster gains 50% of its Attack, Intelligence, Defense, Speed, and Maximum Health."
+Death,18,Death's Call,"Target is afflicted with Feared, and all its buffs are removed."
+Death,20,Debilitate,Target loses access to the extra traits it gained during battle.
+Death,8,Decay,Enemies are afflicted with Disarmed.
+Death,12,Defile,Enemies are afflicted with Poisoned and Blighted.
+Death,15,Defy Light,Enemies' classes are changed to Death.
+Death,12,Depression,Target is afflicted with a random debuff for each time it has been healed in the current battle.
+Death,13,Desecrate,"Target takes a moderate amount of damage, plus 100% more damage for each enemy of the same race fighting on the target's side."
+Death,1,Desperate Sacrifice,"Your creatures are resurrected with 100% Health. Then, this creature is killed."
+Death,4,Devour,"Caster steals a large amount of Attack, Intelligence, Defense, and Speed from the target."
+Death,12,Direct Orders,"Target takes a moderate amount of damage, plus 20% for each minion the caster has."
+Death,9,Dreadblade,Target takes a large amount of damage and is afflicted with Feared.
+Death,3,Dying Wish,Target is sent to the top of the Timeline. The caster is killed.
+Death,11,Enfeeble,Target loses a large amount of Attack.
+Death,7,Engorge,Target gains a massive amount of Maximum Health and loses a massive amount of Defense and Speed.
+Death,6,Epidemic,Afflicts all enemies with a copy of all the target's debuffs.
+Death,12,Evil Eye,"Target takes a small amount of damage, or a massive amount of damage if they are affliected with Cursed."
+Death,10,Feign Death,Caster's on-death effects are activated.
+Death,11,Fermented Hops,"Enemies with Blighted are healed for an amount equal to 35% of their Maximum Health. Otherwise, they are afflicted with Blighted. This spell is a Booze Spell."
+Death,5,Finger of Death,Target takes a massive amount of damage.
+Death,10,Flesh Offering,"Target loses a large amount of Maximum Health, and your creatures gain 20% of that amount."
+Death,16,Flood of Darkness,Enemies with Cursed Attack their allies at random.
+Death,1,Ghostly Scimitar,Target takes a devastating amount of damage which also ignores 80% of the target's Defense. This spell is an Ultimate spell.
+Death,9,Ghoul's Grip,Target takes a large amount of damage and is afflicted with Snared.
+Death,12,Gore Claws,"Target takes a moderate amount of damage, plus 5% more damage for every 1% Health the target is missing."
+Death,15,Graft Bone,Target creature takes a moderate amount of damage and gains Defense equal to 200% of the damage taken.
+Death,5,Graveyard Shift,Your creatures gain 1 stack of Zombies.
+Death,10,Ha Ho Ha,"Target is afflicted with Feared. If the target is already afflicted with Feared, it takes a massive amount of damage instead."
+Death,10,Halfway Through,Target's Health is set to 50%.
+Death,8,Harbinger's Curse,Target takes a moderate amount of damage and is afflicted with Weak and Vulnerable.
+Death,7,Haunt,"Target takes a small amount of damage and is afflicted with Feared. If the target is already afflicted with Feared, it is sent to the bottom of the Timeline."
+Death,10,Ill Fate,Enemies with Blighted recover a moderate amount of Health.
+Death,20,Impending Doom,Target has a 5% chance to be killed for each turn it has taken in the current battle.
+Death,5,Indiscriminate Summoning,Your creatures gain a random minion.
+Death,1,Infinite Blades,Enemies take a moderate amount of damage 5 times. This spell is an Ultimate Spell.
+Death,10,Intimidate,Target loses a large amount of Attack and Defense.
+Death,3,Land of the Dead,Your creatures gain Rebirth and then they are killed.
+Death,10,Living Death Lance,"Target takes a small amount of damage, or massive damage if the target is a Death creature. The damage ia based on the caster's Attack instead of Intelligence. This spell is an Arsenal Spell."
+Death,7,Living Death Shield,"Caster's class is changed to Death, it gains Leeching, and it gains a moderate amount of Defense. The potency is based on the caster's Defense instead of Intelligence. This spell is an Arsenal Spell."
+Death,4,Living Heavy Shield,Caster gains a massive amount of Defense and Shelled. This spell is an Arsenal Spell.
+Death,7,Living Helmet,Caster gains a massive amount of Maximum Health and Protected. This spell is an Arsenal Spell.
+Death,2,Living Mace,Target takes a devastating amount of damage. This spell is an Arsenal Spell.
+Death,5,Loveless,"Enemies take damage equal to the amount of Intelligence the caster has gained in the current battle. Then, its Intelligence is set to its minimum value."
+Death,20,Memento of Defense,This spell doesn't do anything when Cast. The caster has 5% more Defense for each Charge this Spell Gem is missing.
+Death,5,Misery,"Target is afflicted with Weak, Vulnerable, Feared, Cursed, and Scorned."
+Death,5,Morph: Death,Your creatures gain a large amount of Defense and their classes become Death until the end of battle.
+Death,5,Mouthbreathe,Caster loses a large amount of Intelligence and enemies take damage equal to 200% of this amount.
+Death,12,Murder of Crows,"Random enemies take a moderate amount of damage 3 times, plus 2 more times for each dead creature on the battlefield."
+Death,10,Necromantic Armor,Your creatures gain a moderate amount of Defense and Speed.
+Death,10,Necrosis,Enemies take a moderate amount of damage. 50% of the damage is based on the caster's Speed instead of Intelligence.
+Death,12,Night Sword,"Target takes a moderate amount of damage and the last Spell Gem the target used is Sealed. If no Spell Gem was used, one is chosen at random."
+Death,13,Nightmare,Target takes a moderate amount of damage and is afflicted with Sleeping.
+Death,10,Parasites,Enemies are afflicted with Blighted and Leeching.
+Death,7,Pestilence,Enemies spread 1 of their debuffs to all other enemies.
+Death,11,Phantasm,"Target takes damage equal to 10% of the Attack, Intelligence, Defense and Speed it lost in the current battle."
+Death,11,Plague,Target recovers a small amount of Health. This effect repeats for each enemy with Blighted.
+Death,10,Poison Gas,Enemies are afflicted with Poisoned.
+Death,20,Purgatory,Target is sent to the bottom of the Timeline.
+Death,5,Pusplosion,"Enemies take a moderate amount of damage, plus 10% more damage for each debuff each enemy has."
+Death,7,Pustule,Target takes a small amount of damage and all other enemies take damage equal to 200% of the damage dealt.
+Death,10,Rain of Blood,Enemies are afflicted with Bleeding.
+Death,1,Rapture,Enemies take a massive amount of damage and are afflicted with Weak and Vulnerable.
+Death,10,Revelation,Caster's on-resurrect effects are activated.
+Death,12,Riotous Rum,Enemies take a moderate amount of damage and are afflicted with Feared. This spell is a Booze Spell.
+Death,10,Ritual of Summoning,"Caster is killed, and your creatures' minions gain 3 stacks."
+Death,20,Rune of Dun,"Target takes a large amount of damage, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's Defense instead of its Intelligence."
+Death,10,Scourge Chaos,"Target takes a small amount of damage, or massive damage if the target is a Chaos creature."
+Death,8,Shadow Crash,Enemies take damage equal to 10% of the caster's Intelligence for each time they've cast a spell in the current battle.
+Death,10,Shadow Infusion,Target gains a large amount of Attack and Speed.
+Death,3,Slaughter,Caster kills its allies.
+Death,5,Soul Harvest,Caster steals a small amount of Intelligence from all enemies.
+Death,10,Soul Rage,Your creatures gain Leeching and Splashing.
+Death,15,Soul Sacrifice,Your creatures' Health is set to 70%.
+Death,10,Spirit Offering,"Target loses a large amount of Intelligence, and your creatures gain 20% of that amount."
+Death,15,Spreading Plague,Target's debuffs are removed and given to enemies at random.
+Death,7,Sudden Death,"Target is killed, and enemies take damage equal to 25% of its current Health."
+Death,5,Summon Conquest,Caster gains Conquest.
+Death,5,Summon Death,Caster gains Death.
+Death,5,Summon Famine,Caster gains Famine.
+Death,3,Summon Horde,Your creatures gain a random minion for each creature that belongs to the same class as the caster.
+Death,10,Summon Unstable Horror,Caster gains 1 stack of Unstable Horror.
+Death,5,Summon War,Caster gains War.
+Death,10,Summon Writheling,Caster gains 1 stack of Writhelings.
+Death,10,Summon Zombie,Caster gains 1 stack of Zombies.
+Death,3,Supplicant Sacrifice,"Caster is killed, and your creatures gain 3 random minions."
+Death,9,Terror,Target loses a large amount of Defense and is afflicted with Fear.
+Death,9,Timely Demise,Enemies take a small amount of damage. The damage is increased based on the duration of the current battle.
+Death,7,Ultimate Odor,Enemies take a small amount of damage. This damage repeats for each debuff the caster has.
+Death,10,Unholy Augmentation,Your creatures gain Repelling.
+Death,11,Unholy Confessions,Your creatures gain a moderate amount of Intelligence.
+Death,13,Unholy Frenzy,Your creatures gain Berserk.
+Death,13,Unholy Rage,"Target's Defense and Speed are added to their Attack and Intelligence. Then, their Defense and Speed are set to their minimum values."
+Death,3,Unrighteous Fire,"Caster's Health is set to 1, and enemies take damage equal to 30% of the amount of Health removed."
+Death,15,Unstable Summoning,Target gains a random minion.
+Death,14,Vampirism,Your creatures gain Leeching.
+Death,12,Virus,Enemies take damage equal to 2 turns of their Poisoned debuff.
+Death,25,Vitality Explosion,Target takes damage equal to the amount of Maximum Health it has greater than its base amount.
+Death,23,Vivacious Vodka,One of your creatures is moved to the top of the Timeline. This spell can only ever target 1 creature and can only be Cast once at a time. This spell is a Booze Spell.
+Death,10,Wormrot,Enemies are afflicted with Weak and Vulnerable.
+Death,8,Zombie Clap,Target takes a large amount of damage and the caster gains 3 stacks of Zombies.
+Life,1,Afterlife,Your creatures' on-resurrect and on-death effects activate. This spell is an Ultimate spell.
+Life,10,Ancient Prayer,Your creatures gain copies of all the target's buffs.
+Life,11,Archangel's Blessing,Your creatures recover 30% Health and gain a random buff.
+Life,20,Ascension,"Caster gains a random trait. This spell cannnot be cast manually, but has a 50% chance to cast when the Caster Defends or Provokes."
+Life,5,Atonement,Enemies lose a large amount of Speed and Defense.
+Life,4,Benediction,Your creatures recover a massive amount of Health.
+Life,3,Blistering Radiance,Enemies take a large amount of damage and are afflicted with Scorned.
+Life,5,Breath of Life,Target recovers a massive amount of Health even if it is dead.
+Life,5,Charm of Life,"Your creatures gain a moderate amount of Attack, Speed, and Curent and Maximum Health."
+Life,35,Chastise,Target takes a small amount of damage.
+Life,20,Cloud Beam,"Random enemies take a small amount of damage continuously. After each enemy takes damage, the spell has a 20% chance to end."
+Life,1,Colorwave,"Your creatures gain 5 random buffs, plus 1 random buff for each Life Infusion you have."
+Life,15,Condemn Light,Enemies' classes are changed to Life.
+Life,10,Consecration,Enemies take a small amount of damage and the caster recovers a large amount of Health.
+Life,9,Convoke the Spirits,Target takes a large amount of damage. The spell's class is considered to be whatever class the target is weak against.
+Life,15,Cosmic Ripple,"Target takes a moderate amount of damage if it is an enemy, or is healed for a moderate amount of Health if it is an ally."
+Life,20,Covenant,Target gains Rebirth.
+Life,13,Crackle,Target takes a moderate amount of damage and is afflicted with Confused.
+Life,3,Dark Seraphim,"Target recovers Health equal to 100% of its missing Health and gains a massive amount of Attack, Intelligence and Speed."
+Life,15,Dark Tranquility,"If the target has less than 85% Health, its Health is inverted."
+Life,20,Desperate Bid,A random ally and a random enemy are resurrected with a random amount of Health.
+Life,3,Determination,Your creatures gain a large amount of Defense and Maximum Health.
+Life,15,Divine Aegis,Caster gains a Barrier that absorbs a moderate amount of damage.
+Life,3,Divinity,"All creatures are resurrected, recover 100% Health, and their debuffs are removed. The Timeline is shuffled."
+Life,6,Dream,Caster Casts one of its spells from each class.
+Life,10,Enlightenment,"Target's Attack is added to its Intelligence. Then, its Attack is set to its minimum value."
+Life,7,Epiphany,Your creatures' races are changed to match that of the caster for the rest of the battle.
+Life,20,Equality,Target's stats are averaged.
+Life,15,Evangelism,"Target gains Mending, Agile, and Warded."
+Life,1,Fae Fire,"Enemies lose a devastating amount of all stats, and their buffs and minions are removed. This spell is an Ultimate Spell."
+Life,10,Falling Feathers,"Random enemies take a moderate amount of damage continuously. After each enemy takes damage, the spell has a 25% chance to end."
+Life,11,False Beliefs,Enemies take damage equal to 100% of the Health they've recovered in the current battle.
+Life,5,Fist of Heavens,Target takes a massive amount of damage.
+Life,5,Flourish,Your creatures are resurrected with a small amount of Health.
+Life,10,Fortify,"Your creatures' Barrier buffs are set to their maximum strength. If they don't have a Barrier, they gain Shelled."
+Life,11,Fracture,"Target's Barrier explodes and is removed, dealing damage to enemies equal to 200% of the strength of the Barrier."
+Life,10,Glory,"Each of the caster's other, non-Ethereal Spell Gems have a 30% chance to be cast. Maximum of 3 spells can be Cast."
+Life,5,Godly Gin,Your creatures gain Immune. This spell is a Booze Spell.
+Life,10,Guardian Force,Your creatures Defend.
+Life,15,Healing,Target recovers a moderate amount of Health.
+Life,10,Heaven's Fury,Target loses a large amount of Maximum Health.
+Life,12,Heaven's Thunder,Target takes a moderate amount of damage and is afflicted with Silenced.
+Life,13,Hero's Blessing,"Removes a debuff from your creatures. This spell cannot be cast manually, but has a 35% chance to cast when the caster Attacks."
+Life,7,Holy Armor,Target gains a Barrier that absorbs a massive amount of damage.
+Life,10,Holy Blast,"Target's Health is set to 25%, and it gains a Barrier that absorbs damage equal to 200% of its Maximum Health."
+Life,15,Holy Bulwark,Your creatures gain a Barrier that absorbs a moderate amount of damage.
+Life,5,Holy Enchantment,Target recovers a large amount of Health and gains a Barrier that absorbs damage equal to the amount of Health recovered.
+Life,10,Holy Explosion,Enemies take a moderate amount of damage.
+Life,10,Holy Fire,Enemies take damage equal to 30% of the caster's Barrier strength.
+Life,7,Holy Nova,"Enemies take a moderate amount of damage, and your creatures recover a moderate amount of Health."
+Life,15,Holy Protection,Your creatures gain Shelled.
+Life,13,Holy Shock,Target takes a moderate amount of damage. This spell casts a number of times equal to the number of enemy creatures that belong to the target's class.
+Life,17,Holy Shrine,Your creatures gain a random buff.
+Life,20,Holy Smite,Target takes a small amount of damage and the caster recovers a small amount of Health.
+Life,15,Holy Spear,Target takes damage equal to 50% of the caster's Barrier strength.
+Life,1,Holy Strike,"Target takes a devastating amount of damage, and your creatures gain a Barrier that absorbs damage equal to 100% of the damage dealt. This spell is an Ultimate spell."
+Life,14,Humility,Target's stats become equal to its lowest stat.
+Life,15,Ignus Fatuus,"Target takes a moderate amount of damage, plus 25% more damage for each Ethereal Spell Gem it has."
+Life,1,Illusion,Your creatures gain an Illusion. This spell is an Ultimate Spell.
+Life,7,Inner Strength,"Your creatures gain a massive amount of Attack, Intelligence, Speed, or Defense. The start is chosen at random."
+Life,15,Innervate,"Target recovers a small amount of Health, or a massive amount if it has Mending."
+Life,10,Inoculate,Target is healed for a massive amount of Health and is afflicted with Poisoned.
+Life,15,Judgment,Enemies are killed if they have less than 33% Health.
+Life,10,Judgment Blade,"Target takes a small amount of damage, plus 10% damage for each time it has Attacked or Cast a spell in the current battle."
+Life,3,Life Orb,Your dead creatures are resurrected with a massive amount of Health. Your living creatures are healed for a massive amount of Health.
+Life,8,Lifeline,Caster recovers 100% Health.
+Life,10,Lionheart,Target gains a large amount of Attack and Defense.
+Life,10,Living Armor,Caster gains a Barrier that absorbs damage equal to 100% of its Current Health. This spell is an Arsenal Spell.
+Life,10,Living Life Lance,"Target takes a small amount of damage, or massive damage if the target is a Life creature. The damage is based on the caster's Attack instead of Intelligence. This spell is an Arsenal Spell."
+Life,7,Living Life Shield,"Caster's class is changed to Life, it gains Protected, and it gains a moderate amount of Defense. The potency is based on the caster's Defense instead of Intelligence. This spell is an Arsenal Spell."
+Life,6,Living Necklace,Your creatures' Spell Gems are unsealed and their Silenced debuffs are removed. This spell is an Arsenal Spell.
+Life,4,Living Ribbon,Your creatures gain Immune. This spell is an Arsenal Spell.
+Life,12,Luscious Lager,Enemies are afflicted with Sleeping and Blind. This spell is a Booze Spell.
+Life,10,Major Healing,Target recovers a large amount of Health.
+Life,10,Major Resurrection,Target is resurrected with a large amount of Health.
+Life,20,Minor Healing,Target recovers a small amount of Health.
+Life,20,Minor Resurrection,Target is resurrected with a small amount of Health.
+Life,5,Morph: Life,Your creatures gain a large amount of Maximum Health and their classes become Life until the end of battle.
+Life,1,Peace,"Enemies' Attack or Intelligence (whichever is highest) is set to their minimum values.
+Then, afflict each enemy with Scorned or Silenced, depending on whether their Attack or Intelligence was unaffected. This spell is an Ultimate Spell."
+Life,6,Phoenix Burst,"Enemies take a small amount of damage, or a massive amount of damage if the caster has at least 1 dead enemy. Then, a random enemy is resurrected with 50% Health."
+Life,1,Phoenix Down,Your creatures are resurrected with a moderate amount of Health and gain a random buff.
+Life,8,Praise the Sun,All creatures recover a large amount of Health.
+Life,10,Prosperity,Target gains 50% Current Health. This does not count as a healing effect.
+Life,15,Protect,"Target gains Protected and Warded. Then, it Defends."
+Life,5,Pure Love,All creatures gain a massive amount of Maximum Health.
+Life,5,Reincarnation,"Target is killed, then resurrected with a massive amount of Health."
+Life,5,Relight,"Caster is killed, and your other creatures gain Rebirth."
+Life,3,Requiem,Your creatures are resurrected with a moderate amount of Health.
+Life,10,Resplendence,"Enemies take a small amount of damage, your creatures recover a small amount of Health, and your creatures gain a small amount of Maximum Health."
+Life,15,Resurrection,Target is resurrected with a moderate amount of Health.
+Life,15,Righteous Storm,Enemies take a small amount of damage and lose a small amount of Attack.
+Life,20,Rune of Lua,"Target takes a large amount of damage, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's Current Health instead of its Intelligence."
+Life,5,Sacred Ground,All creatures are afflicted with Scorned.
+Life,1,Sacrifice to the Light,"When the caster dies, it resurrects with 100% Health. This spell cannot be cast manually, and only works in normal battles."
+Life,10,Saint's Touch,"Target gains a large amount of its highest stat if it's an ally, or loses a large amount of its highest stat if it's an enemy."
+Life,7,Sanctuary,"Your creatures gain Shelled, Mending, and Repelling."
+Life,15,Saving Grace,"Caster's debuffs are removed and gains Shelled. This spell cannot be cast manually, but has a 100% chance to cast when this creature takes damage that exceeds 25% of its Maximum Health."
+Life,10,Schism,Enemies take a moderate amount of damage. This spell casts a number of times equal to the number of times your creatures have resurrected in the current battle.
+Life,10,Scourge Death,"Target takes a small amount of damage, or massive damage if the target is a Death creature."
+Life,15,Sensual Cider,Your creatures recover a large amount of Health. This spell is a Booze Spell.
+Life,10,Serendipity,Your creatures gain Savage and Agile.
+Life,15,Spectral Crash,"Target takes a moderate amount of damage, plus 100% more damage if the caster has Savage."
+Life,20,Spirit Breaker,"Target takes a small amount of damage, plus 50% more damage for each turn it has taken in the current battle."
+Life,20,Star Blast,"Target takes a small amount of damage, plus 10% damage for each Charge this Spell Gem is missing."
+Life,3,Star Pact,"Enemies take a massive amount of damage, plus 10% damage for every buff this creature has."
+Life,5,Starfire,Enemies take a moderate amount of damage and are afflicted with either Scorned or Silenced.
+Life,8,Stasis Sword,Target takes a large amount of damage and is afflicted with Stone.
+Life,15,Stellar Flare,"Enemies take a small amount of damage, plus 10% more damage for each time the caster has Defended and Provoked in the current battle."
+Life,8,Stubborn Will,Target recovers a small amount of Health for each debuff it has (up to 5).
+Life,15,Thoughts and Prayers,"This spell casts three additional times, but has no effect."
+Life,25,Transcendence,Target gains a random trait that belongs to a creature from its race.
+Life,3,True Light,"Your creatures gain a large amount of Defense, and enemies lose a large amount of Defense."
+Life,1,Utopia,All creatures recover Health equal to 100% of the amount they're missing.
+Life,8,Words of Encouragement,Target recovers a small amount of Health 3 times.
+Life,1,Work of Art,Your creatures gain an army of minions. This spell does not activate on-minion effects. This spell is an Ultimate Spell.
+Life,10,Zephyr,"Your creatures recover a moderate amount of Health, plus 25% more healing for each Life creature fighting on your side."
+Nature,12,Abundance,"Your creatures recover a small amount of Health and gain a small amount of Attack, Intelligence, Defense, and Speed."
+Nature,2,Angry Orchard,Enemies take a moderate amount of damage 4 times.
+Nature,17,Antidote,"The duration of your creatures' debuffs is reduced by 1 turn, and they recover a small amount of Health for each debuff."
+Nature,1,Avalanche,Enemies take a devastating amount of damage and are sent to the bottom of the Timeline. This spell is an Ultimate spell.
+Nature,5,Boulder,Target takes a massive amount of damage.
+Nature,8,Brethren,Your other creatures that belong to the caster's race Attack a random enemy.
+Nature,11,Call Help,Your creatures' minions gain 1 stack.
+Nature,20,Camouflage,Your creatures' classes are changed to match that of the caster's class.
+Nature,7,Chain Lightning,"Deals a large amount of damage to the target, then bounces to each of the target's allies at random. The damage is reduced for each bounce."
+Nature,5,Cherub's Missile,Caster Casts one of its other spells. The targets are chosen at complete random.
+Nature,5,Chrysalis,Target gains a massive amount of Defense and is sent to the bottom of the Timeline.
+Nature,1,Colorwave,"Your creatures gain a large amount of stats, plus 50% more stats for each Nature Infusion you have."
+Nature,17,Constriction,Target is afflicted with Weak and Snared.
+Nature,3,Cross-Pollination,Your creatures' classes are changed to Nature and they gain a large amount of the caster's highest stat.
+Nature,10,Cruelty of the Wild,"Enemies are afflicted with Blighted. If they are already afflicted with this debuff, they instead recover a moderate amount of Health."
+Nature,13,Crushing Impact,Creatures to the left and right of the target Attack the target.
+Nature,2,Curse of the Swarm,Enemies are afflicted with a random debuff for each different class of creature fighting on your side.
+Nature,11,Cyclone Strike,Target and all enemies take a devastating amount of damage. The damage is split amongst all enemies.
+Nature,9,Disintegrating Arrow,"Target takes a moderate amount of damage. If this spell kills the target, it cannot be resurrected for the rest of the battle. 100% of the damage is based on the caster's Speed instead of Intelligence."
+Nature,10,Dispelling Dervish,Target takes a moderate amount of damage and its buffs are removed.
+Nature,5,Divulging Bark,Your creatures gain 1 stack of Dire Wolves.
+Nature,9,Dogpile,"Target takes a moderate amount of damage, plus 5% damage for each stack of minions the caster has."
+Nature,8,Double Strike,"Target takes a moderate amount of damage twice. If the caster has Proficient, this spell is cast an additional time and then the Proficient buff is removed."
+Nature,10,Dust Cloak,Your creatures gain Invisible but are sent to the bottom of the Timeline.
+Nature,8,Earth Enchantment,"Target gains Taunting, and a large amount of Defense."
+Nature,8,Earthen Embrace,Target recovers a moderate amount of Health and gains a Barrier that absorbs damage equal to 100% of the amount healed.
+Nature,12,Earthen Spike,"Target takes a small amount of damage, or massive damage if the target is Defending."
+Nature,5,Earthquake,Enemies take a large amount of damage and their minions are removed.
+Nature,20,Elemental Barrier,Target gains a Barrier that absorbs damage equal to 50% of its Defense.
+Nature,15,Elemental Guard,Your creatures gain a Barrier that absorbs damage equal to 20% of their Defense.
+Nature,5,Elemental Wrath,Enemies take a large amount of damage.
+Nature,25,Empower,Target gains Savage.
+Nature,8,Energize,Target's Spell Gems Charges are set to 35%.
+Nature,18,Entangle,Each enemy has a 50% chance to be afflicted with Snared.
+Nature,13,Entangling Arrow,Target takes a moderate amount of damage and is afflicted with Snared. 100% of the damage is based on the caster's Speed instead of Intelligence.
+Nature,7,Entangling Roots,Enemies are afflicted with Snared.
+Nature,5,Evolution,"Target creature is transformed into a creature that belongs to its same race, and gains a massive amount of Attack, Intelligence, Defense, and Speed."
+Nature,6,Expel,"One of the target's Spell Gems loses 100% of its Charges, and enemies take damage equal to 7% of the target's Intelligence for each Charge removed."
+Nature,10,Explosive Arrow,"Target takes a moderate amount of damage, or a devastating amount if it has a Bomb. 100% of the damage is based on the caster's Speed instead of Intelligence."
+Nature,13,Fire Arrow,Target takes a moderate amount of damage and is afflicted with Burning. 100% of the damage is based on the caster's Speed instead of Intelligence.
+Nature,4,Fist of Torun,"Target takes a devastating amount of damage, and your creatures take damage equal to 20% of the damage dealt."
+Nature,1,Forbidden Unity,"Your other creatures Cast the Spell Gem in their first slot. Then, those Spell Gems are sealed."
+Nature,5,Fragmenting Arrow,"Target takes a moderate amount of damage that ignores 30% of the target's Defense. If the amount of damage exceeds 100% of the target's Maximum Health, all other enemies take this damage as well.
+100% of the damage is based on the caster's Speed instead of Intelligence."
+Nature,5,Freezing Sting,"Target takes a moderate amount of damage, loses a moderate amount of Speed, and is afflicted with Frozen."
+Nature,13,Frost Arrow,Target takes a moderate amount of damage and is afflicted with Frozen. 100% of the damage is based on the caster's Speed instead of Intelligence.
+Nature,8,Frost Enchantment,"Target gains Protected, and a large amount of Intelligence."
+Nature,10,Fury Swipes,Target Attacks random enemy creatures 3 times. Each attack deals 25% normal damage.
+Nature,15,Germinate,Target is afflicted with Snared and Poisoned.
+Nature,5,Giant's Strength,Target gains a massive amount of Attack.
+Nature,13,Gift of the Wild,Your creatures recover a small amount of Health and gain Repelling.
+Nature,10,Glacier,Target takes a large amount of damage and is afflicted with Frozen.
+Nature,1,Good Fortune,Your creatures gain all buffs. This spell does not activate on-buff effects. This spell is an Ultimate spell.
+Nature,1,Grandeur,Your creatures gain a massive amount of stats and their Ultimate Spell Gems recover 100% Charges. This spell is an Ultimate Spell.
+Nature,15,Herd Immunity,Your creatures recover Health equal to 100% of the target's Poisoned potency.
+Nature,13,Homing Arrow,Target takes a moderate amount of damage that ignores 50% of the target's Defense. 100% of the damage is based on the caster's Speed instead of Intelligence.
+Nature,7,Horrible Howl,Your creatures with Dire Wolves gain 3 stacks of this minion.
+Nature,18,Ice Bolt,Target takes a small amount of damage and is afflicted with Frozen.
+Nature,5,Iron Skin,Target gains a massive amount of Defense.
+Nature,4,Lightning Storm,"Enemies take a massive amount of damage, and the caster is afflicted with Silenced."
+Nature,12,Lightning Strike,"Target takes a small amount of damage, or massive damage if the target it Provoking."
+Nature,7,Living Boots,"Your creatures gain a moderate amount of Speed, plus 65% more for each turn they've taken in the current battle. This spell is an Arsenal Spell."
+Nature,5,Living Bow,Caster Casts 3 random Arrow spells. This spell is an Arsenal Spell.
+Nature,10,Living Cloak,Caster gains a large amount of Speed and Invisible. This spell is an Arsenal Spell.
+Nature,10,Living Nature Lance,"Target takes a small amount of damage, or massive damage if the target is a Nature creature. The damage ia based on the caster's Attack instead of Intelligence. This spell is an Arsenal Spell."
+Nature,7,Living Nature Shield,"Caster's class is changed to Nature, it gains Invisible, and it gains a moderate amount of Defense. The potency is based on the caster's Defense instead of Intelligence. This spell is an Arsenal Spell."
+Nature,10,Lycanthropy,"Caster transforms into a random Nature creature with 100% Health. Then, this Spell Gem is Sealed.
+This spell cannot be cast manually, but has a 100% chance to cast when this creature takes damage while it is below 25% Health."
+Nature,15,Madness,Target and the caster take a devastating amount of damage.
+Nature,15,Maelstrom,Target is afflicted with Confused and Feared.
+Nature,13,Mangle,"Target takes a small amount of damage, plus damage equal to 3 turns of its Bleeding debuff."
+Nature,20,Memento of Speed,This spell doesn't do anything when Cast. The caster has 5% more Speed for each Charge this Spell Gem is missing.
+Nature,24,Merry Malt,Caster gains a random trait that belongs to its race. This spell is a Booze Spell.
+Nature,20,Metamorphosis,Target's Health is set to a random amount between 1% and 100%.
+Nature,6,Meteor Shower,Enemies take a moderate amount of damage three times.
+Nature,3,Might of the Jotun,"Target gains a massive amount of Attack. At the start of its next turn, it Attacks a random enemy."
+Nature,5,Morph: Nature,Your creatures gain a large amount of Speed and their classes become Nature until the end of battle.
+Nature,7,Muster,"Target gains Leeching and Mending, and a large amount of Attack."
+Nature,3,Nature Orb,Your creatures gain a random buff and a moderate amount of stats.
+Nature,20,Nature's Blessing,Your creatures' buffs gain 3 turns of duration.
+Nature,10,Nourish,Your creatures gain Mending.
+Nature,10,Nutrition,"Removes one of the target's debuffs. If a debuff was successfully removed, heal the target for a large amount of Health."
+Nature,5,Overcharge,"Target takes a devastating amount of damage. Then, this Spell Gem is Sealed."
+Nature,10,Parasite Eve,Enemies take damage equal to 10% of the amount of Health they've recovered in the current battle.
+Nature,15,Petrify,Target is afflicted with Stone.
+Nature,13,Poison Arrow,Target takes a moderate amount of damage and is afflicted with Poisoned. 100% of the damage is based on the caster's Speed instead of Intelligence.
+Nature,10,Polish,One of the target's Spell Gems regenerates 100% of its Charges.
+Nature,25,Profanity,Target Provokes.
+Nature,1,Rain of Arrows,Enemies take a small amount of damage and the caster Casts 5 random Arrow spells. This spell is an Ultimate spell.
+Nature,10,Redoubt,"One of the target's Spell Gems loses 100% of its Charges, and it gains Defense equal to 7% of the caster's Intelligence for each Charge removed."
+Nature,20,Refresh,Target's debuffs are removed.
+Nature,5,Restore Balance,Enemies' Health percentages are averaged.
+Nature,5,Ruin,"Target loses a devastating amount of its highest stat. Then, this Spell Gem is Sealed."
+Nature,20,Rune of Nax,"Target takes a large amount of damage, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's Speed instead of its Intelligence."
+Nature,12,Ruse,"At the start of the target's next turn, it Casts its top-most Spell Gem twice."
+Nature,8,Sandstorm,Enemies take a moderate amount of damage and are afflicted with Blind.
+Nature,5,Savage Spores,All the creatures on the battlefield become Berserk and lose 40% Defense.
+Nature,10,Scourge Life,"Target takes a small amount of damage, or massive damage if the target is a Life creature."
+Nature,10,Secret Stuff,The enemy with the highest Attack Attacks one of its allies for 200% normal damage. This spell is a Booze Spell.
+Nature,1,Seduction,"Each enemy gives 25% of their Attack, Intelligence, Defense, and Speed to your creatures in the enemies' corresponding positions. This spell is an Ultimate Spell."
+Nature,12,Seismic Crash,"Target takes a moderate amount of damage. If the target has Stone, it has a 25% chance to be killed."
+Nature,15,Shellbust,Target loses a moderate amount of Defense and deals damage equal to 150% of the amount reduced.
+Nature,8,Shock,"Enemies take a moderate amount of damage, plus 20% more damage for each debuff they have."
+Nature,15,Smoke Bomb,Enemies are afflicted with Blind.
+Nature,4,Snowstorm,Enemies take a large amount of damage and have a 50% chance to be afflicted with Frozen.
+Nature,6,Soothing Breeze,Target recovers a massive amount of Health.
+Nature,20,Spirit Bond,Target gains the caster's trait.
+Nature,14,Splitting Arrow,Enemies take a small amount of damage. 100% of the damage is based on the caster's Speed instead of Intelligence.
+Nature,7,Stampede,Each of your creatures Attack an enemy for 50% normal damage. Each creature targets an enemy in their corresponding position.
+Nature,5,Stone Skin,Target gains a massive amount of Current and Maximum Health.
+Nature,14,Stone Ward,"Target gains a small amount of Defense. Then, it Defends and Provokes."
+Nature,10,Stonewall,Your Defending creatures gain a massive amount of Defense.
+Nature,11,Submerge,"Enemies take a moderate amount of damage, plus 25% damage for each turn they've taken in the current battle."
+Nature,12,Succulent Scotch,All the creatures on the battlefield Attack themselves. This spell is a Booze Spell.
+Nature,18,Summon Spiderlings,Caster gains 2 stacks of Spiderlings.
+Nature,1,Tectonic Upheaval,"Enemies take a massive amount of damage, lose a massive amount of Defense and Speed, and are afflicted with Snared. This spell is an Ultimate Spell."
+Nature,7,Tornado,"Target takes a large amount of damage, plus 35% damage for each dead creature."
+Nature,3,Torun Attunement,Caster gains 1 stack of Torun Junior.
+Nature,12,Toxic Frogmania,"Target takes a small amount of damage, or a massive amount of damage if it is afflicted with Poisoned."
+Nature,5,Tsunami,Enemies take a moderate amount of damage and lose a large amount of Speed.
+Nature,8,Water Enchantment,"Target gains Splashing, and a large amount of Attack."
+Nature,25,Web,Target is afflicted with Snared.
+Nature,6,Whirlwind,Enemies take a moderate amount of damage that ignores 30% of their Defense.
+Nature,8,Wild Growth,"Target gains Mending, and a large amount of Maximum Health."
+Nature,8,Wind Enchantment,"Target gains Agile, and a large amount of Speed."
+Nature,13,Wind Shear,"Enemies take a small amount of damage, plus 35% more damage for each Nature creature fighting on your side."
+Nature,14,Windcutter,Enemies take a moderate amount of damage. This damage ignores the Shelled and Barrier buffs.
+Nature,10,Wrath of Nature,Your creatures gain a moderate amount of Attack.
+Sorcery,10,Absolute Focus,Target's next attack deals 100% more damage. This effect does not stack.
+Sorcery,14,Amber Ale,Target Attacks a random enemy for 300% normal damage. This spell is a Booze Spell.
+Sorcery,15,Arcane Enchantment,Target gains Warded and Protected.
+Sorcery,5,Arcane Fallacy,Target Casts one of its multiple-target spells on its allies.
+Sorcery,12,Arid Alcohol,"Enemies are afflicted with a random debuff (minimum of 1, maximum of 3) for every 2 debuffs they have. This spell is a Booze Spell."
+Sorcery,15,Astral Dimension,Your creatures' Spell Gems are unsealed. This Spell Gem cannot be Sealed.
+Sorcery,10,Banish,Target's minions are removed.
+Sorcery,12,Black Ice,"Each enemy has a 50% chance to be afflicted with Frozen, and each of your creatures have a 50% chance to gain Invisible."
+Sorcery,10,Blank Slate,All creatures lose access to the extra traits they gained during battle.
+Sorcery,5,Blinding Beam,Enemies take a large amount of damage and are afflicted with Blind.
+Sorcery,14,Blindside,Target takes a small amount of damage. This damage ignores the target's Defense.
+Sorcery,10,Blur,Your creatures gain a moderate amount of Speed.
+Sorcery,10,Brain Freeze,Enemies' Spell Gems they've cast in the current battle are Sealed.
+Sorcery,10,Brightwave,Target Casts all of its healing spells in your favor.
+Sorcery,1,Colorwave,"Your creatures Cast one of their spells, plus 1 additional spell for each Sorcery Infusion you have."
+Sorcery,6,Conductive Chains,"Deals a moderate amount of damage to the target, then bounces to each of the target's allies at random. The damage is increased by 20% for each bounce."
+Sorcery,16,Confusion,Each enemy has a 50% chance to be afflicted with Confused.
+Sorcery,18,Counterspell,Target takes a small amount of damage. The amount of damage is increased by 20% for each Charge this Spell Gem is missing.
+Sorcery,14,Crystal Shield,Your creatures gain a Barrier that absorbs damage equal to 100% of their Defense.
+Sorcery,14,Crystal Spears,"Target takes a moderate amount of damage, plus additional damage equal to 20% of the caster's Current Health."
+Sorcery,18,Dark Crystal,Target gains Shelled and Arcane.
+Sorcery,18,Deep Submersion,"Target's lowest stat is set equal to its highest stat. Then, its highest stat is set to its minimum value."
+Sorcery,15,Dense Fog,Each enemy has a 50% chance to be afflicted with Sleeping.
+Sorcery,12,Discombobulate,"Enemies with Confused either Attack or Cast one of their spells, depending on whether their Attack or Intelligence is higher."
+Sorcery,10,Disk of Creation,Target's stat gains and losses are removed.
+Sorcery,20,Dispel,Target's buffs and debuffs are removed.
+Sorcery,13,Divination,"Target's Ethereal Spell Gems are destroyed, and this creature gains a small amount of Intelligence for each gem destroyed."
+Sorcery,10,Drain Life,"Target takes a moderate amount of damage, and all your creatures recover Health equal to 100% of the damage dealt."
+Sorcery,3,Drain Power,"Target's Spell Gems lose 1 Charge, and the caster's other Spell Gems gain 1 Charge."
+Sorcery,12,Dream Stomp,"Target takes a small amount of damage, or a massive amount of damage if they are afflicted with Sleeping."
+Sorcery,1,Eagle Claws,"Caster Attacks each enemy 2 times, and your creatures gain 10% Speed for each attack. This spell is an Ultimate spell."
+Sorcery,10,Elemental Barrage,The last 3 Spell Gems that were cast by any creature in the current battle are cast again in your favor.
+Sorcery,25,Elemental Tome,Your creatures each gain a random Spell Gem until the end of battle.
+Sorcery,15,Emerald Power,Your creatures gain a copy of the Spell Gem in the target's Artifact's Spell Slot.
+Sorcery,9,Ethereal Knives,Enemies take a moderate amount of damage. 100% of the damage is based on the caster's Speed instead of Intelligence.
+Sorcery,15,Exhaustion,Increases battle fatigue by 1 unit.
+Sorcery,30,Extinguish,Kills the target if it has less than 33% Health.
+Sorcery,12,Faewind Blade,Target takes a small amount of damage 3 times.
+Sorcery,12,Final Form,"Target gains Rebirth, Protected and Berserk."
+Sorcery,30,Fireworks,Enemies take a small amount of damage and have a 50% chance to be afflicted with Bomb.
+Sorcery,15,Flash Freeze,Each enemy has a 50% chance to be afflicted with Frozen.
+Sorcery,7,Foxfire,"Target is afflicted with Burning, and all other enemies are afflicted with either Blind or Blighted."
+Sorcery,12,Friendly Fire,Target Casts one of its single-target spells on one of its allies.
+Sorcery,20,Frost Armor,Target gains Shelled and 30% Defense.
+Sorcery,1,Frost Hammer,"Target takes a devastating amount of damage, is afflicted with Frozen, and is sent to the bottom of the Timeline. This spell is an Ultimate spell."
+Sorcery,10,Frost Rampart,Your creatures gain Protected.
+Sorcery,18,Fulmination,"Target takes a small amount of damage, multiplied by battle fatigue."
+Sorcery,7,Galaxy,"Enemies take a small amount of damage, plus 10% more damage for each buff each of your creatures have. Then, these buffs are removed."
+Sorcery,1,Gem Bomb,"One of the caster's Ethereal Spell Gems is Sealed. Then, enemies take damage equal to 5% of the caster's highest stat for each Charge the Spell Gem has. This spell is an Ultimate spell."
+Sorcery,10,Gravity,"Enemies take damage based on how high they are on the Timeline. The higher their position, the more damage they take."
+Sorcery,4,Greater Dispel,Your creatures' debuffs and enemies' buffs are removed.
+Sorcery,5,Haste,Target gains a massive amount of Speed.
+Sorcery,1,Hungering Void,"Enemies take a moderate amount of damage. Then, enemies take a moderate amount of damage for every time this spell has been Cast in the current battle. This spell is an Ultimate spell."
+Sorcery,5,Hypertrophy,"Target gains Maximum Health equal to 35% of its other stats. Then, those stats are set to their minimum values."
+Sorcery,8,Icewolf Bite,Target takes a large amount of damage and is afflicted with Frozen.
+Sorcery,4,Improvised Recitation,Caster Casts 3 of their Ethereal Spell Gems.
+Sorcery,10,Insight,"Target gains Arcane. If it already has Arcane, it Casts a non-Ethereal Spell Gem."
+Sorcery,10,Insincerity,Target Casts all its buffing spells in your favor.
+Sorcery,20,Invisibility,Target gains Invisible.
+Sorcery,10,Jinx,Target takes a small amount of damage. This damage is increased by 25% for each debuff the target has.
+Sorcery,7,Laser Beam,Target takes a large amount of damage and loses Maximum Health equal to 100% of the damage dealt.
+Sorcery,8,Lead the Charge,Target takes a small amount of damage for each creature fighting on your side that belongs to the caster's race. 100% of the damage is based on the caster's highest stat.
+Sorcery,11,Lingering Insanity,Enemies take a small amount of damage. 100% of the damage is based on the enemies' Intelligence instead of the caster's.
+Sorcery,7,Living Ring,Target takes a devastating amount of damage. The damage is based on the caster's lowest stat instead of Intelligence. This spell is an Arsenal Spell.
+Sorcery,10,Living Sorcery Lance,"Target takes a small amount of damage, or massive damage if the target is a Sorcery creature. The damage is based on the caster's Attack instead of Intelligence. This spell is an Arsenal Spell."
+Sorcery,22,Living Sorcery Shield,"Caster's class is changed to Sorcery, it gains Warded, and it gains a moderate amount of Defense. The potency is based on the caster's Defense instead of Intelligence. This spell is an Arsenal Spell."
+Sorcery,5,Living Staff,"Enemies take a moderate amount of damage, plus 20% damage for each non-Ethereal Spell Gem the caster has equipped. This spell is an Arsenal Spell."
+Sorcery,3,Living Wizard Hat,Caster's Spell Gems do not consume Charges for the rest of the battle. This spell is an Arsenal Spell.
+Sorcery,7,Magic Jelly Beans,"Target takes a moderate amount of damage and is afflicted with a random debuff, or is healed for a moderate amount of Health and gains a random buff; depending on if it is an enemy or an ally."
+Sorcery,35,Magic Missile,Target takes a small amount of damage.
+Sorcery,5,Magic Suppression,Enemies lose a moderate amount of Intelligence and are afflicted with Silenced.
+Sorcery,10,Mass Dispel,All the creatures on the battlefield lose their buffs and debuffs.
+Sorcery,15,Master's Hand,"Target takes a small amount of damage, plus 20% more damage for each time the caster has Attacked in the current battle."
+Sorcery,1,Mega Magic,Enemies take a large amount of damage.
+Sorcery,20,Memento of Intelligence,This spell doesn't do anything when Cast. The caster has 5% more Intelligence for each Charge this Spell Gem is missing.
+Sorcery,7,Mental Barrier,Your creatures gain a Barrier that absorbs a massive amount of damage.
+Sorcery,12,Mind Blast,Target takes a moderate amount of damage and is afflicted with Stone.
+Sorcery,20,Mind Control,Target Attacks one of its allies.
+Sorcery,23,Mind Crunch,Target takes damage equal to its Intelligence minus its Attack.
+Sorcery,11,Mind Crush,Target loses a moderate amount of Intelligence and is afflicted with Sleeping.
+Sorcery,14,Mind Explosion,Target takes a moderate amount of damage. 100% of the damage is based on the taret's Intelligence instead of the caster's Intelligence.
+Sorcery,6,Mind Fizzle,Enemies lose a large amount of Intelligence.
+Sorcery,16,Mind Flay,"Target takes a small amount of damage, plus 50% more for each creature between it and the caster on the Timeline."
+Sorcery,12,Mind Games,Target heals your creatures for a large amount of Health (based on the caster's Intelligence).
+Sorcery,13,Mind Storm,Each enemy takes a small amount of damage and has a 50% chance to be afflicted with Stone.
+Sorcery,15,Mind Tricks,Target Attacks itself for 50% normal damage.
+Sorcery,5,Morph: Sorcery,Your creatures gain a large amount of Intelligence and their classes become Sorcery until the end of battle.
+Sorcery,5,Mutagen,Target is resurrected with a large amount of Health and gains a large amount of stats (excluding Health).
+Sorcery,8,Obelisk of Summoning,Target's minions gain their maximum amount of stacks.
+Sorcery,15,Permafrost,Enemies that are Frozen are afflicted with Snared.
+Sorcery,10,Pop,Random enemies take a moderate amount of damage. The number of times that enemies take damage is equal to the number of times this Spell Gem has been Cast in the current battle.
+Sorcery,7,Potent Porter,Caster Casts 2 of its non-Ethereal Spell Gems. This spell is a Booze Spell.
+Sorcery,15,Powered Blast,"Target takes a small amount of damage, or a massive amount of damage if the target is the same class as the caster."
+Sorcery,4,Prismatic Channelling,"Enemies take a large amount of damage, plus 20% more damage for each different class of creature fighting on your side."
+Sorcery,15,Psionic Blast,Target takes a moderate amount of damage and is afflicted with Weak.
+Sorcery,12,Psychic Rapture,"Enemies take a small amount of damage, plus 10% more damage for each Ethereal Spell Gem the caster has, up to 200% extra damage."
+Sorcery,1,Quietus,"The first time this Spell Gem is Cast, your creatures gain a squad of minions.
+The second time this Spell Gem is Cast, enemies take a massive amount of damage plus 15% more damage for each minion each of your creatures have, and then their minions are removed.
+Then, this spell is reset. This spell is an Ultimate Spell."
+Sorcery,20,Rabid Dementia,Target Attacks a random enemy for 200% normal damage.
+Sorcery,1,Recharge,Caster's Spell Gems gain 3 Charges.
+Sorcery,10,Replicate,Caster Casts 2 of its other spells.
+Sorcery,13,Resonance,"Enemies take a small amount of damage, or a large amount of damage if they are afflicted with Silenced."
+Sorcery,13,Reverberate,Enemies that are afflicted with Confused Attack one of their allies.
+Sorcery,20,Reverse Polarity,Target's debuffs are converted to random buffs.
+Sorcery,10,River Against the Current,Enemies' buffs are removed.
+Sorcery,30,Ruby Power,Caster Casts the Spell Gem in the target's Artifact Spell Slot. This spell is even more impressive if you manage to read its description ten times out loud.
+Sorcery,20,Rune of Sah,"Target takes a large amount of damage, and the caster's on-attack effects are activated."
+Sorcery,15,Sapphire Power,Target's Artifact's Spell Slot has a 100% chance to activate for the rest of the battle.
+Sorcery,10,Scourge Nature,"Target takes a small amount of damage, or massive damage if the target is a Nature creature."
+Sorcery,5,Self Analysis,Caster gains stats equal to 5% of its allies' stats (other than Health).
+Sorcery,10,Shatter,"Target takes a small amount of damage, or massive damage if the target is Frozen."
+Sorcery,8,Shattering Ice,Target takes a moderate amount of damage and is afflicted with Frozen. All other enemies are afflicted with Bleeding.
+Sorcery,6,Sorcery Orb,Your creatures Cast a random spell that belongs to their class.
+Sorcery,7,Spectral Rain,Increases the potency of all creatures' buffs and debuffs by 50%. This spell does not affect Inverted.
+Sorcery,15,Spectral Swords,Target takes a moderate amount of damage. The damage is based on the caster's Speed instead of Intelligence.
+Sorcery,18,Spell Blast,Target takes a small amount of damage. The amount of damage is increased by 10% for each Charge this Spell Gem has.
+Sorcery,10,Spell Breath,Enemies take a moderate amount of damage. 50% of the damage is based on the caster's Attack instead of Intelligence.
+Sorcery,8,Spell Flow,Target gains Arcane and Warded.
+Sorcery,5,Spell Leak,Enemies' Ethereal Spell Gems are destroyed.
+Sorcery,10,Spell Lock,All creatures are afflicted with Silenced.
+Sorcery,15,Spell Strike,Target takes a moderate amount of damage. 50% of the damage is based on the caster's Attack instead of Intelligence.
+Sorcery,10,Spell Ward,Your creatures gain Warded.
+Sorcery,5,Steel Storm,Enemies take a massive amount of damage.
+Sorcery,5,Stun Beam,Target is sent to the bottom of the Timeline.
+Sorcery,5,Subterfuge,"Target Attacks itself. Then, it has a 30% chance to attack itself again. This effect can occur multiple times in a row."
+Sorcery,6,Suffocation,Target is afflicted with Silenced and Stone.
+Sorcery,8,Summon Animated Gem,Caster gains Animated Gem.
+Sorcery,8,Summon Animated Weapon,Caster gains Animated Weapon.
+Sorcery,15,Summon Dire Wolf,Caster gains 1 stack of Dire Wolves.
+Sorcery,3,Summon Doppelganger,Caster gains Doppelganger.
+Sorcery,15,Surrender to Madness,Target is afflicted with Confused and Cursed.
+Sorcery,5,Time Stop,"Proceed to the next creature's turn on the Timeline, ignoring all subsequent effects as a result of casting this spell."
+Sorcery,15,Timewalk,Target executes its start-of-turn effects and increases the number of turns it has taken by 1. This spell can only ever target 1 creature and can only be Cast once at a time.
+Sorcery,3,True Magic,"Enemies take a moderate amount of damage, plus 5% more damage for each Charge each of its other Spell Gems are missing."
+Sorcery,20,Truesight,Enemies are no longer Invisible.
+Sorcery,5,Universal Recall,The number of turns all creatures have taken in the current battle is set to 0.
+Sorcery,1,Unstable Anomaly,Enemies take a small amount of damage multiplied by the number of times your creatures have Cast a spell in the current battle. This is an Ultimate Spell.
+Sorcery,7,Unstable Equilibrium,Your creatures' Current Health is set equal to that of the target.
+Sorcery,12,Usury,Caster gains a small amount of Attack for each turn it has taken in the current battle (up to 5 times).
+Sorcery,18,Vaccination,Your creatures gain their lowest stat equal to 100% of the target's Poisoned potency.
+Sorcery,15,Vacuum,Caster gains the target's trait.
+Sorcery,10,Verdant Spheres,The caster Casts 3 of the target's Spell Gems in your favor.
+Sorcery,25,Vertigo,Target is afflicted with Confused.
+Sorcery,20,Void Flare,"If the target has been resurrected in the current battle, it is killed."
+Sorcery,7,Witchcraft,Enemies with Cursed Cast one of their single-target damage spells on a random creature.
+Sorcery,20,Wormhole,Caster swaps positions with the target on the Timeline.
+Chaos,,Bazooka,Enemies take a large amount of damage. This spell always deals critical damage.
+Sorcery,,Big Bang,"All creatures take a massive amount of damage, plus 3% more damage for each buff, debuff, and minion each creature has. Then, their buffs, debuffs, and minions are removed."
+Death,,Black Magic,"Random enemies are afflicted with a random debuff continuously. After each enemy is afflicted with a debuff, this spell has a 50% chance to end."
+Nature,,Boulder Crush,"Target takes a massive amount of damage and has a 50% chance to be afflicted with each of Bleeding, Confused, Weak, and Vulnerable."
+Chaos,,Chainsaw,"Target takes a large amount of damage continuously and is afflicted with Bleeding and Vulnerable. After the target takes damage, this spell has a 35% chance to end."
+Life,,Charity,Each of the target's buffs have a 50% chance to spread to its allies.
+Death,,Cloud of Anguish,"Enemies take a small amount of damage, plus 3% more damage for each debuff each enemy has. Enemies are afflicted with 2 random debuffs."
+Chaos,,Cluster Bomb,"Random enemies take damage equal to 100% of their Bomb's potency. If they do not already have this debuff, they are afflicted with it. After each enemy is affected by this spell, it has a 25% chance to end."
+Sorcery,,Co-Ray,Your other creatures Cast one of their damaging Spell Gems.
+Nature,,Compulsion,Target is afflicted with Mania and the caster recovers a small amount of Health.
+Sorcery,,Concoction,"Random enemies take a small amount of damage continuously and are afflicted with a random debuff. After each enemy takes damage, this spell has a 25% chance to end."
+Nature,,Concussive Hailstorm,Enemies take a large amount of damage and are afflicted with Confused or Frozen.
+Sorcery,,Continuum,"Casts a random spell repeatedly. After each cast, this spell has a 25% chance to end."
+Death,,Cry of the Mandrake,Enemies each have a 25% chance to be killed.
+Death,,Cyanide Gas,Enemies are afflicted with Poisoned and have a 25% chance to be killed.
+Death,,Dark Sky,"A random buff is removed from random enemies continuously. After each enemy loses a buff, this spell has a 50% chance to end."
+Chaos,,Deadly Duel,"Target has a 50% chance to be killed. Otherwise, the caster is killed."
+Chaos,,Death and Destruction,Casts a random spell that belongs to the Cataclysm race. This effect has a 50% chance to repeat indefinitely.
+Sorcery,,Deep Freeze,"Enemies have a 50% chance to be afflicted with Frozen. If this happens, or if they're already Frozen, they are afflicted with Snared."
+Death,,Delirium,Target is afflicted with Confused and Blind and gains Berserk and Savage.
+Chaos,,Demonbreath,"Enemies take a moderate amount of damage and have a 75% chance to be afflicted with Blighted, a 50% chance to be afflicted with Inverted, and a 25% chance to be afflicted with Cursed."
+Death,,Eaten Alive,"Target has a 35% chance to be killed. If this happens, the caster recovers 100% Health and Charges."
+Nature,,EF5 Twister,"Enemies take a large amount of damage and have a 50% chance to be afflicted with any of Snared, Scorned, or Silenced."
+Chaos,,Entropic Swing,"All creatures' end-of-turn effects are activated and the Timeline is shuffled. This spell cannot be Cast manually, and has a 5% chance to be Cast at the start of each creature's turn."
+Death,,Euthanasia,A random enemy has a 50% chance to be killed.
+Death,,Fate,Each creature has a 50% chance to be killed.
+Chaos,,Firebreath,"Target takes a large amount of damage continuously and is afflicted with Burning. After the target takes damage, this spell has a 30% chance to end."
+Sorcery,,Gem Conversion,Target's Charges are redistributed.
+Sorcery,,Gem Gamble,Target's Charges are set to either 0% or 100%.
+Life,,Genesis,"Your allies are killed, and your dead allies are resurrected with 100% Health and Charges. This spell does not work on Ultimate Spell."
+Nature,,Giggle,Target recovers a small amount of Health and gains Intelligence equal to 100% of the amount healed.
+Chaos,,Grand Explosion,"Enemies take a large amount of damage and are afflicted with Bomb. For each enemy that already has Bomb, this spell deals 20% more damage."
+Chaos,,Grand Fireball,Target takes a massive amount of damage and is afflicted with Burning. Adjacent targets take 35% of this damage and are afflicted with Burning.
+Death,,Hemorrhage,"Target takes 100% of its Bleeding damage continuously. After the target takes damage, this spell has a 35% chance to end."
+Life,,Hierarchy,All creatures Attack a random creature on the opposite side. Each creature deals 25% more damage for each creature below it on the Timeline.
+Life,,Holy Water,"A random debuff is removed from random allies continuously. After each ally loses a debuff, this spell has a 50% chance to end."
+Death,,Hunger,"Random enemies take a large amount of damage and the caster gains a Barrier equal to 50% of the damage dealt. After each enemy takes damage, this spell has a 35% chance to end."
+Nature,,Hurling of Rocks,"Random enemies take a large amount of damage continuously and are afflicted with Confused and Bleeding. After each enemy takes damage, this spell has a 35% chance to end."
+Nature,,Iceicle Rain,"Random enemies take a large amount of damage continuously and are afflicted with Frozen and Bleeding. After each enemy takes damage, this spell has a 35% chance to end."
+Nature,,Icicle Spear,"Target takes 1% to 100% of a large amount of damage 3 times. Each time this spell deals damage, it has a 10% chance to kill the target."
+Death,,Kill Streak,Casts a random damaging spell for each dead creature on the battlefield.
+Sorcery,,Kilonova,"Random enemies take a large amount of damage continuously. After each enemy takes damage, the spell has a 25% chance to end."
+Death,,Lamentation,Enemies are afflicted with a random debuff for each dead ally.
+Sorcery,,Lucky Gem,"Target recovers 100% Charges. Does not affect Ultimate Spell. This spell cannot be cast manually, but has a 20% chance to cast on an ally at the end of its turn."
+Nature,,Magma Shower,"Random enemies take a large amount of damage continuously and are afflicted with Burning and Vulnerable. After each enemy takes damage, this spell has a 35% chance to end."
+Sorcery,,Magnification,Casts the last single-target spell your creatures Cast. The spell targets all enemies.
+Nature,,Mega Tsunami,"Enemies take a large amount of damage and have a 25% chance to be killed. Otherwise, they are afflicted with Cursed."
+Nature,,Mermaid's Kiss,Target recovers a massive amount of Health and gains Mending.
+Sorcery,,Momentum,"Random enemies take a small amount damage continuously. After each enemy takes damage, the damage of this spell is increased by 50% and it has a 25% chance to end."
+Sorcery,,Mystery Gem,Target's Charges are randomized.
+Chaos,,Napalm,"Enemies take a large amount of damage, are afflicted with Burning and Vulnerable, and lose a large amount of Defense."
+Death,,Necromancy,Caster gains 1 stack of Zombies for each buff it has.
+Chaos,,Nuclear Blast,"Enemies take a large amount of damage and are afflicted with Poisoned, Blighted, and Inverted."
+Nature,,Party in the Back,"A random enemy recovers a large amount of Health. This spell cannot be cast manually, but has a 100% chance to be cast after its owner is forcibly moved to the bottom of the Timeline."
+Death,,Plaguebearer,Each of the target's debuffs have a 50% chance to spread to its allies.
+Death,,Putrescent Odor,"Enemies are afflicted with Poisoned, Blind, and Confused."
+Nature,,Quicksand,Enemies have a 50% chance to be afflicted with Snared and to be moved a random number of places down the Timeline.
+Nature,,Raiden,"Random enemies take a large amount of damage continuously and are afflicted with Blind and Confused. After each enemy takes damage, this spell has a 35% chance to end."
+Life,,Reckoning,"Enemies take a large amount of damage, modified by 1% to 300, chosen randomly."
+Nature,,Richter 10,"Random enemies take a massive amount of damage continuously. After each enemy takes damage, this spell has a 50% chance to end."
+Nature,,Riptide,"Random enemies are moved one place down the Timeline. After each enemy is moved, this spell has a 10% chance to end."
+Chaos,,Searing Flames,"Enemies take a moderate amount of damage, are afflicted with Burning and Disarmed, and their buffs and debuffs are removed."
+Nature,,Shattered Rainbow,"Enemies take a small, moderate, large, massive, or devastating amount of damage and are afflicted with 1 to 3 random debuffs."
+Sorcery,,Shining Jewel,Target recovers 100% Charges. This spell does not work on Ultimate Spell.
+Chaos,,Shotgun,"Target takes a large amount of damage continuously. After the target takes damage, this spell has a 50% chance to end. This spell always deals critical damage."
+Chaos,,Shrapnel Grenade,Target takes a massive amount of damage and is afflicted with Bleeding. Each other enemy has a 50% chance to be targeted by this spell as well.
+Life,,Silver Lining,Your creatures gain a random buff for each dead ally.
+Chaos,,Snipe,Target takes a massive amount of damage and has a 30% chance to be killed. This spell always deals critical damage.
+Nature,,Snowball,"Target takes a small amount of damage and is afflicted with Frozen. If it already has this debuff, it is moved 1 place down the Timeline."
+Sorcery,,Spontaneous Combustion,"Target has a 35% chance to be killed. If this happens, all other enemies take a massive amount of damage."
+Life,,Supremacy,Enemies have a 1% chance to be killed for every 1% Health they're missing.
+Sorcery,,Trade Offer,Target gains this creature's Artifact's Trait.
+Sorcery,,Treasonous Mind,"Caster's buffs are removed and this Spell Gem's owner steals 5% of the caster's highest stat. This spell cannot be cast manually, but has a 20% chance to be cast by enemies at the start of their turns."
+Sorcery,,Ultimus,"Random enemies take a massive amount of damage continuously. After each enemy takes damage, the spell has a 50% chance to end."
+Chaos,,Uzi,"Random enemies take a small amount of damage continuously. After each enemy takes damage, this spell has a 20% chance to end. This spell always deals critical damage."
+Death,,Voodoo,"Caster takes a small, moderate, large, massive, or devastating amount of damage. Enemies take this amount of damage as well."
+Nature,,Waterfall,"Enemies take a moderate amount of damage, plus 15% more damage for each creature above them on the Timeline."
+Nature,,Wave of Bliss,"Enemies are afflicted with Mania. If they already have this debuff, they take damage equal to 100% of its potency instead."
+Life,,White Magic,"Random allies gain a random buff continuously. After each ally gains a buff, this spell has a 50% chance to end."
