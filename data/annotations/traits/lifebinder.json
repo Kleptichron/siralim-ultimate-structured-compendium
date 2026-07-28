@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lifebinder",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "ally",
+        "params": {
+          "by": "your own creatures"
+        }
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5e5485ba99a7"
+}

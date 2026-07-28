@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lead-by-example",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Imling"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "artifact",
+            "property": "the holder's Attack/Intelligence/Defense/Speed bonuses",
+            "effect": "shared with your Imlings"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6b94c05c5c25"
+}

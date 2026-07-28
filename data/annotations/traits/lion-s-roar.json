@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lion-s-roar",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "by": "an enemy"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "attacker",
+          "stats": [
+            "Attack",
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0590561afd81"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lonesome-haze",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountFlat": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0ec130eb6fe4"
+}

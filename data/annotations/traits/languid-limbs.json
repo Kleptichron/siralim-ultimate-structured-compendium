@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:languid-limbs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "attacks at a time"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d77e40cd4615"
+}

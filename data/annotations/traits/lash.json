@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lash",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 30
+          },
+          "params": {
+            "of": "the enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "3e4399f79f60"
+}

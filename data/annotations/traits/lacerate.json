@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lacerate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Silenced",
+            "Bleeding"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "21f77af1fde3"
+}

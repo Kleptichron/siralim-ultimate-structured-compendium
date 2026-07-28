@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:kindling",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "status": "Bleeding or Burning"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Bleeding",
+            "Burning"
+          ],
+          "params": {
+            "effect": "applies whichever of the two the target doesn't already have"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "57079d97ecda"
+}

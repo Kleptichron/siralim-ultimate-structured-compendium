@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:kirisute-gomen",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "params": {
+            "exceeds": "25% of the target's Maximum Health"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "target"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "outcome",
+          "params": {
+            "result": "the damage did not exceed the threshold"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "holder",
+          "params": {
+            "self": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1b5c7e84c913"
+}

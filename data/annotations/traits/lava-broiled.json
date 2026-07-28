@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lava-broiled",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Repelling"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Eggxotic"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Warded"
+          ],
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b1fd4b755987"
+}

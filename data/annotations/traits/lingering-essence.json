@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lingering-essence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 18,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "living ally"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work if another creature has this trait.",
+  "textHash": "24c296b00218"
+}

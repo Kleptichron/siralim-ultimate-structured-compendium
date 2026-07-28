@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:like-sand",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "resource_threshold",
+          "who": "allies",
+          "params": {
+            "charges": "above 50% of total"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 2,
+            "direction": "up"
+          },
+          "params": {
+            "what": "'Cascading' spells",
+            "effect": "consume 2 additional Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "175e60d8247f"
+}

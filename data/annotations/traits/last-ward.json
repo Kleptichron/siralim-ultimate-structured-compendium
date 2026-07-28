@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:last-ward",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "survived": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "attacker",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 80
+          },
+          "params": {
+            "countsAs": "spell damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4a23d3e72663"
+}

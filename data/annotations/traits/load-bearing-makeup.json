@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:load-bearing-makeup",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "allies",
+          "params": {
+            "effect": "Personality-increased stats cannot be decreased"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3327589d7ac3"
+}

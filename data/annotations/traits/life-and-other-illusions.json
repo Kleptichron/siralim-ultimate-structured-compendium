@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:life-and-other-illusions",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "params": {
+            "what": "on-attack effects",
+            "mode": "ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d756c52dc657"
+}
