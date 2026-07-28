@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "realm:enemy:extra-intelligence-x",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "amount": "X (realm-instability scaled)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8fc3fa9fec5a"
+}

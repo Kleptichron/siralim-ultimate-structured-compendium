@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "realm:player:bad-luck",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "successful random effects re-rolled an additional time during your turns"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Meta-rule over all random effects; verb other is honest here.",
+  "textHash": "6a503e69e6cd"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "realm:player:can-t-manually-defend-provoke",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "allies",
+          "params": {
+            "action": "manually Defending or Provoking"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e60d5823ddc7"
+}

@@ -5577,11 +5577,13 @@
     },
     "realm:enemy:always-critical-damage": {
       "hash": "531f053820f3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:attack-additional-times-x": {
       "hash": "341886b8ce25",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:buff-beserk": {
       "hash": "04db6034bda4",
@@ -5615,279 +5617,348 @@
     },
     "realm:enemy:cast-additional-times-x": {
       "hash": "346860c6e148",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:chance-to-dodge-x": {
       "hash": "60143d3e7cc4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:chance-to-resist-damage-x": {
       "hash": "af20577be7c6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:copy-your-spell-gems": {
       "hash": "f21d0fbfb380",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:end-of-turn-attack": {
       "hash": "d430c63217d0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:end-of-turn-cast": {
       "hash": "ea227fa2f9e2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:end-of-turn-defend": {
       "hash": "aec5dc25cbb4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:end-of-turn-provoke": {
       "hash": "e1b0052a20a7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:extra-attack-x": {
       "hash": "28764df5f1eb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:extra-defense-x": {
       "hash": "e1c455d615ab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:extra-health-x": {
       "hash": "e6a98587e191",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:extra-intelligence-x": {
       "hash": "8fc3fa9fec5a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:extra-speed-x": {
       "hash": "657da905752c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:extra-traits-x": {
       "hash": "b52901c979a4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:good-luck": {
       "hash": "9e7f77265714",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:heal-every-turn": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:less-damage-taken": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:less-stat-loss": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:minion-animated-gem": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:minion-dire-wolves": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:minion-doppleganger": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:minion-famine": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:minion-unstable-horror": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:minion-war": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:minion-zombies": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:more-damage-dealt": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:more-spell-slots": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:reflect-damage-taken": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:resistant-to-debuffs": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:resurrect-on-death": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:strong-against-class": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:bad-luck": {
       "hash": "6a503e69e6cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:can-t-gain-gems": {
       "hash": "0b984efa55f0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:can-t-manually-defend-provoke": {
       "hash": "e60d5823ddc7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:damage-every-turn-x-health": {
       "hash": "37ac30dfad78",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-bleeding": {
       "hash": "7cfbff1819e5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-blighted": {
       "hash": "8b40e79bde43",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-blind": {
       "hash": "13357f8822a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-confused": {
       "hash": "cd7694be8e27",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-cursed": {
       "hash": "0dacf3ffeb65",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-disarmed": {
       "hash": "d53bcaec2f1f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-scorn": {
       "hash": "b4e8fb48449d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-vulnerable": {
       "hash": "54a8ea17e182",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:debuff-weak": {
       "hash": "8b90bd6bd6f6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:gems-sealed-after-casting": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-attack": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-attack-damage": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-charges": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-critical-chance": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-damage-dealt": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-defense": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-dodge-chance": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-healing": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-indirect-damage": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-intelligence": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-speed": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-spell-potency": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:less-stat-gain": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:maximum-buffs": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:maximum-extra-traits": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:more-damage-taken": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:no-additional-attacks-casts": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:reduced-stat-gains": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:player:stats-are-swapped": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:realm:enemies-are-fused-race": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:realm:enemies-belong-to-same-race": {
       "hash": "816ca7c16869",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:realm:extra-nemesis-creatures": {
       "hash": "e1468c905cac",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:realm:inhabited-by-x-race": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:realm:rapid-fatigue": {
       "hash": "da39a3ee5e6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:5740-ng:r10": {
       "hash": "abc19f6ca38b",

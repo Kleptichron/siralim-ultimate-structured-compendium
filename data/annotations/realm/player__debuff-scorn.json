@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "realm:player:debuff-scorn",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Scorned"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "b4e8fb48449d"
+}

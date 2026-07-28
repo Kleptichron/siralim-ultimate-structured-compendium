@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "realm:enemy:chance-to-dodge-x",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "enemies",
+          "params": {
+            "independent": true,
+            "vs": "attacks",
+            "chance": "X% (realm-scaled)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "60143d3e7cc4"
+}

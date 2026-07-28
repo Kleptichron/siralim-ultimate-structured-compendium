@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "realm:enemy:heal-every-turn",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject"
+        }
+      ]
+    }
+  ],
+  "textHash": "da39a3ee5e6b"
+}

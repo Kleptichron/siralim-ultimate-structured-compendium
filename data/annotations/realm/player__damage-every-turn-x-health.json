@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "realm:player:damage-every-turn-x-health",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "Maximum Health"
+          },
+          "params": {
+            "pct": "X% (realm-scaled)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "37ac30dfad78"
+}
