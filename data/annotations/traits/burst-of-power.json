@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:burst-of-power",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "casting spells manually"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spells": "each of its permanent Spell Gems",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ca6aad3278c2"
+}

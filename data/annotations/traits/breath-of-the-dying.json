@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:breath-of-the-dying",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_enemy",
+          "statuses": [
+            "Frozen"
+          ],
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "targets": "3 enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c8e88eb76ec2"
+}

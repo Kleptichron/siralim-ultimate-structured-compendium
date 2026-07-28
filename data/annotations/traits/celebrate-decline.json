@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:celebrate-decline",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "their Artifact's Spell Slots activate"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true,
+            "spell": "that Spell Slot spell"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Spell Slot activation has no trigger; other is honest here.",
+  "textHash": "cc89f10c31fb"
+}

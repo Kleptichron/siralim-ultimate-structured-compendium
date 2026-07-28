@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:celestial",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Exotic"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Mending",
+            "Leeching"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "065c79910c5d"
+}

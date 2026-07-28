@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:buzz-breathing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 10,
+            "scaleRef": "buff_count",
+            "per": "buff they have"
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c8e5efd18940"
+}

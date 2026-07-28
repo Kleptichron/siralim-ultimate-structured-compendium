@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bulwark",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "adjacent_allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "9ee3ef60c443"
+}

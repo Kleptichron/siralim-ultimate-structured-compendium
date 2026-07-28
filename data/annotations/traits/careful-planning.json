@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:careful-planning",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 75
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2cd1d690474a"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:brilliant-creation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up",
+            "scaleRef": "dead_creatures",
+            "per": "dead creature on your side"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "living creature on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c4225823da44"
+}

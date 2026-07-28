@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cannon-shot",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Vulnerable"
+          ],
+          "params": {
+            "targets": "the target and two other enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f65e33f21562"
+}

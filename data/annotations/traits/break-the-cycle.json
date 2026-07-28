@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:break-the-cycle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "its Provokes this battle",
+            "atLeast": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "random_enemy",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "50328ba8c6f8"
+}

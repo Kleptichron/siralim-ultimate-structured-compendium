@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:caww",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "timing": "would",
+          "target": "one of your creatures"
+        }
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "effect": "target chosen at random from your other creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3f724dc6e93a"
+}

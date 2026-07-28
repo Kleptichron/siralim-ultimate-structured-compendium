@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ceaseless-fighting",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "random_enemy"
+        }
+      ]
+    }
+  ],
+  "textHash": "d862793d3fdd"
+}

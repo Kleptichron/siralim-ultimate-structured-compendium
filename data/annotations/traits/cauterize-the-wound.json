@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cauterize-the-wound",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          },
+          "statuses": [
+            "Bleeding",
+            "Burning"
+          ],
+          "params": {
+            "effect": "converted to healing at 50% effectiveness"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1da3dbe610de"
+}

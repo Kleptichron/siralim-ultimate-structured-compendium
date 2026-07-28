@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:call-of-the-aspect",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 12,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "different Aspect type on your side"
+          },
+          "params": {
+            "independent": true,
+            "vs": "attacks"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          },
+          "params": {
+            "which": "your Aspects"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9af39b9c4d20"
+}

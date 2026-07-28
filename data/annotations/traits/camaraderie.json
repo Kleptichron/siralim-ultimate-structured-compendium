@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:camaraderie",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "lacks_status",
+          "who": "holder",
+          "params": {
+            "status": "Barrier"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 100
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Barrier"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_ally",
+          "statuses": [
+            "Barrier"
+          ],
+          "params": {
+            "instead": "gives its Barrier away"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "27e6fef72934"
+}

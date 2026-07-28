@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ceaseless-flame",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Burning",
+          "source": "Burning"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "trigger_subject",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "effect": "takes the damage again",
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1d609d5ed320"
+}

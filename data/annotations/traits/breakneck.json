@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:breakneck",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Barrier",
+            "Shelled"
+          ],
+          "params": {
+            "effect": "ignored by the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0ad1b9e8f6a6"
+}

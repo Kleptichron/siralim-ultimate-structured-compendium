@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:brothel",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "class",
+            "of": "ally",
+            "equals": "the holder's class"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "adjacent_allies",
+          "params": {
+            "what": "their innate trait",
+            "anchor": "each qualifying creature"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "5f256ed26841"
+}

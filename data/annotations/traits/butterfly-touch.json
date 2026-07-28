@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:butterfly-touch",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "creature between it and the enemy on the Timeline"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3e63ea40106a"
+}

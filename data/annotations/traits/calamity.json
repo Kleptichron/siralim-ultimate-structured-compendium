@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:calamity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "missing_health",
+            "scalePct": 75
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ee9b7e122be1"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:buffet",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "449005d0a2ef"
+}

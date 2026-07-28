@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:by-my-hand",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Shelled"
+          ],
+          "params": {
+            "effect": "no longer prevents subsequent on-attack/on-cast effects"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "95b17f2e0a55"
+}

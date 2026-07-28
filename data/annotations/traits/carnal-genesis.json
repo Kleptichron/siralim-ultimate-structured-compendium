@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:carnal-genesis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "trigger_subject",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "0b8097ba8094"
+}

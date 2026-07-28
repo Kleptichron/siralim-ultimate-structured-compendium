@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bulky-body",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "except": "Health"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "taking its turn",
+            "chancePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "94271fd5365e"
+}

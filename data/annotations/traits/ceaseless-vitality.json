@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ceaseless-vitality",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 20
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "451d5a24ddfa"
+}

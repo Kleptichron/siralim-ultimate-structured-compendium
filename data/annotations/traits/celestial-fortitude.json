@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:celestial-fortitude",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "allies",
+          "params": {
+            "what": "damage taken per hit",
+            "max": "20% of Maximum Health",
+            "totalPreventedCap": "100% of Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4fe4b5693d33"
+}

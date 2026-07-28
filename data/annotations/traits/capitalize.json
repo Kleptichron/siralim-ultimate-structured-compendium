@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:capitalize",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          },
+          "params": {
+            "basis": "class strength"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f9573fdb5616"
+}

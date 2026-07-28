@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:call-of-evolution",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "one of its spells"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true,
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c2f97725a96d"
+}

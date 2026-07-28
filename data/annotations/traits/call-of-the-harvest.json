@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:call-of-the-harvest",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Agile"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true,
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b3be255873d3"
+}

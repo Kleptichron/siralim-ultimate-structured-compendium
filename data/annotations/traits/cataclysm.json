@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cataclysm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Burning"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency",
+            "instead": "of afflicting"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7039a4d3dacf"
+}

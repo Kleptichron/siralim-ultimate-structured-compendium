@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:call-of-the-grave",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "highest_stat"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true,
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e5abf751ca23"
+}

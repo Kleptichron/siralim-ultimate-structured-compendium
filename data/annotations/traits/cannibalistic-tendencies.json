@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cannibalistic-tendencies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "trigger_subject"
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 20
+          },
+          "params": {
+            "of": "the killed creature",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7a09aa0ccde4"
+}

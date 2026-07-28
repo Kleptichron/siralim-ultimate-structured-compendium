@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cantripology",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "its top-most Unsealed Spell Gem"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "that Gem is then Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "788602d82f69"
+}

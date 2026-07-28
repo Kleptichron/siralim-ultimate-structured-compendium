@@ -12332,39 +12332,48 @@
     },
     "trait:break-the-cycle": {
       "hash": "50328ba8c6f8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:breaker": {
       "hash": "a74be30d2cfb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:breakneck": {
       "hash": "0ad1b9e8f6a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:breath-of-the-dying": {
       "hash": "c8e88eb76ec2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:brilliant-creation": {
       "hash": "c4225823da44",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:brothel": {
       "hash": "5f256ed26841",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:buffet": {
       "hash": "449005d0a2ef",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bulky-body": {
       "hash": "94271fd5365e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bulwark": {
       "hash": "9ee3ef60c443",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:burden-of-guilt": {
       "hash": "9a517a76d409",
@@ -12373,127 +12382,158 @@
     },
     "trait:burst-of-power": {
       "hash": "ca6aad3278c2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:butterfly-touch": {
       "hash": "3e63ea40106a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:buzz-breathing": {
       "hash": "c8e5efd18940",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:by-my-hand": {
       "hash": "95b17f2e0a55",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:calamity": {
       "hash": "ee9b7e122be1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:call-of-evolution": {
       "hash": "c2f97725a96d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:call-of-the-aspect": {
       "hash": "9af39b9c4d20",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:call-of-the-bloom": {
       "hash": "4f49a2db6738",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:call-of-the-grave": {
       "hash": "e5abf751ca23",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:call-of-the-harvest": {
       "hash": "b3be255873d3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:call-of-the-solstice": {
       "hash": "f39e3bb70edc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:call-of-the-tundra": {
       "hash": "569cd0a9b4f8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:call-of-time": {
       "hash": "15a0191f9368",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:camaraderie": {
       "hash": "27e6fef72934",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cana": {
       "hash": "1477806fd81a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cannibalistic-tendencies": {
       "hash": "7a09aa0ccde4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cannon-shot": {
       "hash": "f65e33f21562",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cantripology": {
       "hash": "788602d82f69",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:capitalize": {
       "hash": "f9573fdb5616",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:careful-planning": {
       "hash": "2cd1d690474a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:careful-what-you-wish-for": {
       "hash": "80cc2389603d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:carnal-genesis": {
       "hash": "0b8097ba8094",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cataclysm": {
       "hash": "7039a4d3dacf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cauterize-the-wound": {
       "hash": "1da3dbe610de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:caww": {
       "hash": "3f724dc6e93a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ceaseless-fighting": {
       "hash": "d862793d3fdd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ceaseless-flame": {
       "hash": "1d609d5ed320",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ceaseless-vitality": {
       "hash": "451d5a24ddfa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:celebrate-decline": {
       "hash": "cc89f10c31fb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:celestial": {
       "hash": "065c79910c5d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:celestial-fortitude": {
       "hash": "4fe4b5693d33",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:celestial-nexus": {
       "hash": "700c8514d406",

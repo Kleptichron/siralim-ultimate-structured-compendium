@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:careful-what-you-wish-for",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        },
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "duration": "1 turn"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "80cc2389603d"
+}

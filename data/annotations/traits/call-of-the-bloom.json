@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:call-of-the-bloom",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 30
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true,
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4f49a2db6738"
+}

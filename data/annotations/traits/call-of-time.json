@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:call-of-time",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 50
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true,
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "15a0191f9368"
+}
