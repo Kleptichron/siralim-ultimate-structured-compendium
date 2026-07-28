@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:forced-momentum",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "a random trait"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d46614bca761"
+}

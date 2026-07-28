@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:furness-decadence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Booze Spells",
+            "effect": "consume no Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1bdc25454ec0"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:from-hero-to-zero",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "actor": "holder",
+          "target": "allies",
+          "params": {
+            "what": "traits the target gained during battle",
+            "effect": "removed from the target and given to your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4e9a782521f7"
+}

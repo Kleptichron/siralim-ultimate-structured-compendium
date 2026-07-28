@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:galvanization",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1a80f819f803"
+}

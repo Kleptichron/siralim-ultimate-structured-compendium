@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:forsaken-horizon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "what": "Arsenal Spells",
+            "effect": "consume no Charges"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "what": "Arsenal Spells",
+            "effect": "cast 2 additional times"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "15f671ef2a77"
+}

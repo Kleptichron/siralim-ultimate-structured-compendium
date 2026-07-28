@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fracture",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 50,
+            "cap": 100
+          },
+          "params": {
+            "capOf": "the holder's Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "04021281b6ea"
+}

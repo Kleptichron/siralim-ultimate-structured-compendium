@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:frost-affinity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Frozen"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Frozen"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "effect": "can still act"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "what": "spells that interact with Frozen",
+            "effect": "consume no Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e5ffca160fc2"
+}

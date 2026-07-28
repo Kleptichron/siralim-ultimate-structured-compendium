@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:flesh-wound",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "below": "50%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "03d2693e5617"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:furness-stupor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "Booze Spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "32b3b0d4a788"
+}

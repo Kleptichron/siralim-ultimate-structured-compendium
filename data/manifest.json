@@ -14152,19 +14152,23 @@
     },
     "trait:flamestalker": {
       "hash": "53afe289318a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flash-barrier": {
       "hash": "e4873cc468b3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flash-of-anger": {
       "hash": "5c7584dc532c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flay": {
       "hash": "1c3edc357309",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flesh-rot": {
       "hash": "babe631bd134",
@@ -14173,79 +14177,98 @@
     },
     "trait:flesh-wound": {
       "hash": "03d2693e5617",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flower-power": {
       "hash": "a04c1bd692ef",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flubris-s-engulfing": {
       "hash": "4c5a40eb1044",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flubris-s-entrapment": {
       "hash": "5eef338632d6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:flubris-s-toxicity": {
       "hash": "2a0609554724",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:focused-magicks": {
       "hash": "29380b255457",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:follow-the-leader": {
       "hash": "0eabe2c0d789",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:fool-s-axiom": {
       "hash": "8124ab77a21c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:foot-eater": {
       "hash": "348d5ad6585d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:forbearance": {
       "hash": "05ff483010a0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:forbearance-forgone": {
       "hash": "957f787b5542",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:forbidden-lullaby": {
       "hash": "48e0c92dd6ea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:forced-momentum": {
       "hash": "d46614bca761",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:forest-s-curse": {
       "hash": "cde53d0abf9e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:forgiveness-and-other-blunders": {
       "hash": "8f7afe40882d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:formation": {
       "hash": "edc7f4ffb1e2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:forsaken-horizon": {
       "hash": "15f671ef2a77",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:fortification": {
       "hash": "cbb900360e1f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:fracture": {
       "hash": "04021281b6ea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:frailty": {
       "hash": "fc87d33dc405",
@@ -14254,71 +14277,88 @@
     },
     "trait:fraud": {
       "hash": "9cad63b88919",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:freezer-blast": {
       "hash": "c0a4ec897214",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:frenzy": {
       "hash": "e3db6a5c09ab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:from-death-to-destiny": {
       "hash": "594837bb189a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:from-hero-to-zero": {
       "hash": "4e9a782521f7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:from-light-comes-darkness": {
       "hash": "6f903de8f302",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:frost-affinity": {
       "hash": "e5ffca160fc2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:frost-breath": {
       "hash": "597922385bf0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:frostburn": {
       "hash": "4b7228ada9d0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:frozen-legion": {
       "hash": "0bef24b7550e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:furness-decadence": {
       "hash": "1bdc25454ec0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:furness-instability": {
       "hash": "dfc59a5ae332",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:furness-stupor": {
       "hash": "32b3b0d4a788",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:furor": {
       "hash": "018694ec497a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:galvanization": {
       "hash": "1a80f819f803",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gambler-s-game": {
       "hash": "fd865f34346d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gathering-storm": {
       "hash": "ad66b013209e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gem-blade": {
       "hash": "4302b12177e1",

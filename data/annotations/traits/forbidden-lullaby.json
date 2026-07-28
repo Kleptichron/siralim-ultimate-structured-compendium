@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:forbidden-lullaby",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "attacker",
+          "statuses": [
+            "Sleeping"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "48e0c92dd6ea"
+}

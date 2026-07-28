@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:forbearance-forgone",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "allies",
+          "params": {
+            "class": "Sorcery"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Protected"
+          ],
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "which": "your Sorcery and Beacon creatures"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "trigger_subject",
+          "params": {
+            "class": "Sorcery"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "effect": "that Spell Gem is Sealed"
+          }
+        },
+        {
+          "verb": "gain_charges",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "its Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "957f787b5542"
+}

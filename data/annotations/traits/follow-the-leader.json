@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:follow-the-leader",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "enemy",
+        "params": {
+          "event": "is sent to the bottom of the Timeline"
+        }
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "enemies",
+          "params": {
+            "to": "bottom",
+            "others": true,
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Timeline-move events have no trigger; other is honest here.",
+  "textHash": "0eabe2c0d789"
+}

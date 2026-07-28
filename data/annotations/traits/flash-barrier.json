@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:flash-barrier",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "turns it has taken",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 90,
+            "direction": "down"
+          },
+          "params": {
+            "until": "the start of its first turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e4873cc468b3"
+}

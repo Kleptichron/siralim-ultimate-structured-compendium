@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fraud",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Scourge spells",
+            "effect": "consume no Charges"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Scourge spells",
+            "effect": "cannot be Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9cad63b88919"
+}

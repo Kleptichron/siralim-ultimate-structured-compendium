@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:formation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "trigger_subject",
+          "params": {
+            "race": "Uralos"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          },
+          "params": {
+            "which": "your Uralos creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "edc7f4ffb1e2"
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:frenzy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 200
+          },
+          "params": {
+            "asIf": "100% more Speed"
+          }
+        },
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 200
+          },
+          "params": {
+            "asIf": "100% more Speed"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e3db6a5c09ab"
+}

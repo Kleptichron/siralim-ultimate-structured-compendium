@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:from-death-to-destiny",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "dead_creatures",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "your dead creatures’ stats",
+            "except": "Health",
+            "ignores": "creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "594837bb189a"
+}

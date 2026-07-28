@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:foot-eater",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Speed"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Speed"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "348d5ad6585d"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:forgiveness-and-other-blunders",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "params": {
+            "what": "on-provoke effects",
+            "mode": "ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8f7afe40882d"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:freezer-blast",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Deep Freeze"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c0a4ec897214"
+}

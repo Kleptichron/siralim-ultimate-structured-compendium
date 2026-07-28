@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:gathering-storm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "is forcibly moved on the Timeline"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Snowstorm, Firestorm, or Sandstorm if equipped"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 150
+          },
+          "params": {
+            "what": "those storm spells",
+            "asIf": "50% more Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Timeline-move events have no trigger; other is honest here.",
+  "textHash": "ad66b013209e"
+}

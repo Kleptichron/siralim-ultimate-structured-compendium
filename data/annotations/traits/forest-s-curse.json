@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:forest-s-curse",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "target",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 2
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "cde53d0abf9e"
+}

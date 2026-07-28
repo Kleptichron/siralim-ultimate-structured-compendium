@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:focused-magicks",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "scaleRef": "other",
+            "per": "creature missing from your party"
+          },
+          "params": {
+            "what": "Defense ignored",
+            "source": "Ethereal Spell Gems",
+            "plusPerMissing": 10
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "29380b255457"
+}

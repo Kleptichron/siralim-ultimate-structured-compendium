@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:frozen-legion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Frozen"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "trigger_subject",
+          "params": {
+            "minion": "Zombies",
+            "stacks": 1
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "0bef24b7550e"
+}

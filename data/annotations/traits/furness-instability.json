@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:furness-instability",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "one of its permanent Booze Spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "dfc59a5ae332"
+}

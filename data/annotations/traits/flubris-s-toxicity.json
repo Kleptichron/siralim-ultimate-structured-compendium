@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:flubris-s-toxicity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Poisoned",
+          "source": "Poisoned"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Intelligence",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2a0609554724"
+}

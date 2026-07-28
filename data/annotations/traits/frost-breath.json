@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:frost-breath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "597922385bf0"
+}

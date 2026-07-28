@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:flubris-s-entrapment",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Poisoned or Burning",
+          "source": "a debuff"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "waivedStatuses": [
+    "Poisoned",
+    "Burning"
+  ],
+  "textHash": "5eef338632d6"
+}

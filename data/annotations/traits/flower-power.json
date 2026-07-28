@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:flower-power",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "what": "3 random Nature Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a04c1bd692ef"
+}

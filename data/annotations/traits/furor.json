@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:furor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "dead_creatures",
+            "per": "creature that died since its last turn"
+          },
+          "params": {
+            "damagePctOfNormal": 200
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "018694ec497a"
+}
