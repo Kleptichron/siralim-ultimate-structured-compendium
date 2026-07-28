@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:bloodrage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 50
+          },
+          "params": {
+            "replaces": "Attack",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "485128e1f1f2"
+}

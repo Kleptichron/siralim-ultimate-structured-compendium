@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:blood-caked-blade",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 75
+            },
+            "scaleRef": "damage_taken",
+            "per": "total damage taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7b7e97555f34"
+}

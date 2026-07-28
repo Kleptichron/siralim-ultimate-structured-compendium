@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:transit",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "ally",
+        "params": {
+          "which": "highest-Speed creature"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "attacker"
+        }
+      ]
+    }
+  ],
+  "textHash": "674ce2e9b00c"
+}

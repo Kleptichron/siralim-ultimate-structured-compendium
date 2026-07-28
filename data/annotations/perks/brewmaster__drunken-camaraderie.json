@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:drunken-camaraderie",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "any",
+        "params": {
+          "event": "affected by your creatures' Booze spells"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models being affected by a spell family; trigger other is honest here.",
+  "textHash": "c8115e2741e1"
+}

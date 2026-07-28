@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:autograt",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Booze spells",
+            "effect": "gain 'Chance to Attack', 'Chance to Defend', and 'Chance to Provoke' properties"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "20e5cdb47bdc"
+}

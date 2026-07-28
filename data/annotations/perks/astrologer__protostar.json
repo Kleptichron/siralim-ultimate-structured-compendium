@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:protostar",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "times the creature has been killed this battle",
+            "atLeast": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 90,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 60,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "358b4088decb"
+}

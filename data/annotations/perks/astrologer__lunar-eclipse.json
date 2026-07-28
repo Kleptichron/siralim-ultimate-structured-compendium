@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:lunar-eclipse",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies",
+        "params": {
+          "which": "highest-Intelligence creatures, 1 per rank"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          },
+          "params": {
+            "spell": "their top-most Spell Gem with at least 1 Charge that is not Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ranks widen how many highest-Intelligence creatures qualify (max 3).",
+  "textHash": "8b37dc4c5287"
+}

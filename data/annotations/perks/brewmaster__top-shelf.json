@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:top-shelf",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Booze spells",
+            "effect": "cast chance increased 100%"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4ad89abac782"
+}

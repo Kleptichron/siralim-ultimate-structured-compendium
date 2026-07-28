@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:gray-matter",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "other",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            }
+          },
+          "params": {
+            "who": "Animatus",
+            "what": "Spell Slots"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9c49ff49c7e7"
+}

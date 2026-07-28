@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:endless-slaughter",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleStat": "missing_health",
+            "per": "20% of Health missing"
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleStat": "missing_health",
+            "per": "20% of Health missing"
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "de81f9efe341"
+}

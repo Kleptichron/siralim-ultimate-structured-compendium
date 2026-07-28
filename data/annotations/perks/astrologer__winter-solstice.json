@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:winter-solstice",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            }
+          },
+          "params": {
+            "which": "bottom half of the Timeline"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "03233434be34"
+}

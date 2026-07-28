@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:stellar-blessing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies",
+        "params": {
+          "which": "highest-Intelligence creatures, 1 per rank"
+        }
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          },
+          "params": {
+            "effect": "casts do not consume Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ranks widen how many highest-Intelligence creatures qualify (max 3).",
+  "textHash": "247e06f93ace"
+}

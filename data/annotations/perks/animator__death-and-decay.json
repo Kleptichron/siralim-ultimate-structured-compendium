@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:death-and-decay",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "other",
+          "magnitude": {
+            "scaleRef": "dead_creatures",
+            "scalePct": 50,
+            "per": "dead enemy"
+          },
+          "params": {
+            "who": "Animatus",
+            "spell": "Corpse Explosion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8a6559bac0e1"
+}

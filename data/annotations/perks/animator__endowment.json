@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:endowment",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "other",
+          "params": {
+            "who": "Animatus",
+            "what": "fuses with a copy of the second party creature; race changes to that creature's race"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "282a32c34068"
+}

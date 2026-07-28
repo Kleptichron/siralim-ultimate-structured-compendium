@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:experimental-cocktail",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "all Booze spells of their class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "215b3714f275"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:forbidden-magic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "other",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          },
+          "params": {
+            "who": "Animatus",
+            "healthPct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ranks raise the per-battle resurrection count (Maximum Bonus: 3); once_per_battle models the rank-1 baseline.",
+  "textHash": "784e53f4073f"
+}

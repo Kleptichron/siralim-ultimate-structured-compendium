@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:masterpiece",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "other",
+          "statusKind": "buff",
+          "params": {
+            "who": "Animatus",
+            "copyOf": "the buff just gained"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4d7778209b90"
+}

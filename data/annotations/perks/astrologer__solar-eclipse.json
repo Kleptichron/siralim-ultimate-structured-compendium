@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:solar-eclipse",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies",
+        "params": {
+          "which": "highest-Attack creatures, 1 per rank"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ranks widen how many highest-Attack creatures qualify (max 3).",
+  "textHash": "332b968d62ea"
+}

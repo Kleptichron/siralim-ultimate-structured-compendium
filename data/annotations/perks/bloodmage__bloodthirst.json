@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:bloodthirst",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 50
+          },
+          "params": {
+            "replaces": "Intelligence",
+            "what": "spell potency stat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9689f1584aea"
+}

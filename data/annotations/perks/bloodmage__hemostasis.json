@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:hemostasis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "times damaged during their own turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6913eefadb18"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:on-the-house",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Booze spells",
+            "effect": "do not consume Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8de2667fb2e6"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:synastry",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "ally",
+        "params": {
+          "which": "highest-Defense creature"
+        }
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "actor": "trigger_subject",
+          "params": {
+            "action": "Provoke"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b1c6b8f9c2e4"
+}

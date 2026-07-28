@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:blood-clot",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 2,
+              "maxTotal": 50
+            },
+            "scaleRef": "damage_taken"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6c9ef07daeb9"
+}

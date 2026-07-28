@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:molecular-betrayal",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "ally",
+          "stats": [
+            "all"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 50
+            }
+          },
+          "params": {
+            "which": "your third creature"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "other",
+          "stats": [
+            "all"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 50
+            }
+          },
+          "params": {
+            "who": "Animatus",
+            "from": "your third creature"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Text says 'gains', Maximum Bonus says 'stat theft' — tagged as a steal (rule 5).",
+  "textHash": "9706a76efdbc"
+}

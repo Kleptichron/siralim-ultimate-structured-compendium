@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:masochistic-tendencies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "spells do not consume Charges"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "before casting a spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 25
+          },
+          "params": {
+            "self": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No 'before X' trigger exists; trigger other is honest for the pre-cast self-damage.",
+  "textHash": "e0cafbef7c9d"
+}

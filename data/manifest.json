@@ -2449,39 +2449,48 @@
     },
     "perk:animator:damnation-s-edge": {
       "hash": "7861e5861cb9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:dancing-blade": {
       "hash": "1e2c550b3151",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:dark-anima": {
       "hash": "d8ffdfcbbaa0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:death-and-decay": {
       "hash": "8a6559bac0e1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:desensitization": {
       "hash": "8cb635f6cb1c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:endowment": {
       "hash": "282a32c34068",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:forbidden-magic": {
       "hash": "784e53f4073f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:forged-by-pain": {
       "hash": "9099406a32c4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:gray-matter": {
       "hash": "9c49ff49c7e7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:grimkeeper": {
       "hash": "1b6cef2213be",
@@ -2490,27 +2499,33 @@
     },
     "perk:animator:live-to-serve": {
       "hash": "c9f196dff22b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:masterpiece": {
       "hash": "4d7778209b90",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:molecular-betrayal": {
       "hash": "9706a76efdbc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:thrive-on-death": {
       "hash": "4cd077da4477",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:ascendant": {
       "hash": "8884f4ab16a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:cusp": {
       "hash": "3bcb32ab7d58",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:dying-stars": {
       "hash": "463c2157efec",
@@ -2519,163 +2534,203 @@
     },
     "perk:astrologer:equinox": {
       "hash": "e66f99216b51",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:fixed-signs": {
       "hash": "e215baebc18e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:lunar-eclipse": {
       "hash": "8b37dc4c5287",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:mercury-retrograde": {
       "hash": "4d36de96e0ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:new-moon": {
       "hash": "0ea4f4383538",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:protostar": {
       "hash": "358b4088decb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:solar-eclipse": {
       "hash": "332b968d62ea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:stars-align": {
       "hash": "0df53d329d8d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:stellar-blessing": {
       "hash": "247e06f93ace",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:summer-solstice": {
       "hash": "3043683953d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:synastry": {
       "hash": "b1c6b8f9c2e4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:transit": {
       "hash": "674ce2e9b00c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:astrologer:winter-solstice": {
       "hash": "03233434be34",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:bleed-out": {
       "hash": "21ebb1fe5611",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:blood-caked-blade": {
       "hash": "7b7e97555f34",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:blood-clot": {
       "hash": "6c9ef07daeb9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:blood-offering": {
       "hash": "1a84497bce7d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:bloodrage": {
       "hash": "485128e1f1f2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:bloodthirst": {
       "hash": "9689f1584aea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:bloody-massacre": {
       "hash": "72407188e1aa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:deathrattle": {
       "hash": "df37720399da",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:endless-slaughter": {
       "hash": "de81f9efe341",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:hemostasis": {
       "hash": "6913eefadb18",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:march-toward-death": {
       "hash": "e289decf7d40",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:masochistic-tendencies": {
       "hash": "e0cafbef7c9d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:relish-in-blood": {
       "hash": "a8a26b73b29f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:sacrifice": {
       "hash": "eb39785cb268",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:sanguine-fortitude": {
       "hash": "3f45e6ffaedf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:transfusion": {
       "hash": "a312a8adc6c9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:bloodmage:voracity": {
       "hash": "c29d7ad97ddd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:autograt": {
       "hash": "20e5cdb47bdc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:brewmaster-s-handshake": {
       "hash": "9a03410d6ccb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:chaser": {
       "hash": "563bc86d4505",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:double-entendre": {
       "hash": "5a63eed8fdfc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:drunken-camaraderie": {
       "hash": "c8115e2741e1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:experimental-cocktail": {
       "hash": "215b3714f275",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:highball": {
       "hash": "bf5579228aae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:inebriation": {
       "hash": "c9114e6ef747",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:liquid-courage": {
       "hash": "1efe040b81f7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:muddle": {
       "hash": "9146687303c0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:nightcap": {
       "hash": "ae6bf0e1aa46",
@@ -2684,23 +2739,28 @@
     },
     "perk:brewmaster:numb-the-pain": {
       "hash": "6ca18d052cc1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:on-the-house": {
       "hash": "8de2667fb2e6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:speed-rail": {
       "hash": "30689d8d4586",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:straight-up": {
       "hash": "794912bb87ab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:brewmaster:top-shelf": {
       "hash": "4ad89abac782",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:apex": {
       "hash": "6a26fde53f73",

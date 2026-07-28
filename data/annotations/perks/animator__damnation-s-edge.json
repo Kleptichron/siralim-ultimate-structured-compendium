@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:damnation-s-edge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "other",
+          "params": {
+            "who": "Animatus",
+            "what": "fifth creature's innate trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7861e5861cb9"
+}

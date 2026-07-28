@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:equinox",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "buffs on the creature",
+            "atLeast": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "minion": "random minion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e66f99216b51"
+}

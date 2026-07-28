@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:numb-the-pain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 80,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "avoid damage",
+            "chancePerBoozeHitPct": 5
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 5% per time affected by a Booze spell this battle; rule.chance records the 80% cap.",
+  "textHash": "6ca18d052cc1"
+}

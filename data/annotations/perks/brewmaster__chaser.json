@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:chaser",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true,
+          "spellType": "Booze"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "random spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true,
+          "spellType": "Booze"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "random_enemy",
+          "params": {
+            "otherwise": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Coin flip: 50% random spell, otherwise the attack branch.",
+  "textHash": "563bc86d4505"
+}

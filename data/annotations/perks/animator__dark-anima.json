@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:dark-anima",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "other",
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "who": "Animatus",
+            "minion": "Animated Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d8ffdfcbbaa0"
+}

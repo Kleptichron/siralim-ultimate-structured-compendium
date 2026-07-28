@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:inebriation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "chance": 80,
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "params": {
+            "effect": "deals no damage",
+            "chancePerBoozeHitPct": 5
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 5% per time affected by a Booze spell this battle; rule.chance records the 80% cap.",
+  "textHash": "c9114e6ef747"
+}

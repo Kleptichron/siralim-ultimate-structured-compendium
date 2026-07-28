@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:stars-align",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "different minions on the team",
+            "atLeast": 7
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "enemies",
+          "params": {
+            "via": "attacks",
+            "battles": "normal"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "battles": "non-normal",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0df53d329d8d"
+}

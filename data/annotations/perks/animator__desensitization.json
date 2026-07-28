@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:desensitization",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "other",
+          "statusKind": "debuff",
+          "params": {
+            "who": "Animatus",
+            "normalBattles": "immune",
+            "bossBattles": "resistant"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8cb635f6cb1c"
+}

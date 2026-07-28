@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:astrologer:ascendant",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "ally",
+          "params": {
+            "which": "highest-Health creature",
+            "to": "top"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8884f4ab16a1"
+}

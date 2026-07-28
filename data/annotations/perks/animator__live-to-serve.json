@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:live-to-serve",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "healthPct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c9f196dff22b"
+}

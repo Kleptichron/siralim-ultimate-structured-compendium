@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:double-entendre",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Booze spells",
+            "effect": "also have a chance to be Cast at the start of the equipped creature's turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5a63eed8fdfc"
+}

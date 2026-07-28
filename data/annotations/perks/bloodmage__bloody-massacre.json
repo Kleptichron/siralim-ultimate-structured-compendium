@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:bloody-massacre",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Bleeding"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bleeding",
+          "source": "Bleeding"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "perRank": {
+              "per": 3,
+              "maxTotal": 50
+            },
+            "scaleRef": "damage_taken",
+            "per": "damage the enemy took from Bleeding"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "72407188e1aa"
+}

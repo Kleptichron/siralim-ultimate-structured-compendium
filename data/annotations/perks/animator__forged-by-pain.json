@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:animator:forged-by-pain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Animatus"
+        }
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "other",
+          "flow": "taken",
+          "params": {
+            "who": "Animatus",
+            "effect": "damage split with your sixth creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9099406a32c4"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:bloodmage:transfusion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "ally",
+        "params": {
+          "survived": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "ally",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "damage_taken",
+            "scalePct": 25
+          },
+          "params": {
+            "recipient": "one other creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a312a8adc6c9"
+}

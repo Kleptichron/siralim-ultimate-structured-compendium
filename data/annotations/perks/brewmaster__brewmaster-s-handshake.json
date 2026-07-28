@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:brewmaster:brewmaster-s-handshake",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Booze spells",
+            "effect": "can be cast manually"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9a03410d6ccb"
+}
