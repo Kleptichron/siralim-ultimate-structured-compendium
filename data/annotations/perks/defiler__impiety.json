@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:impiety",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Shelled",
+            "Barrier"
+          ],
+          "params": {
+            "effect": "ignored by your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b9415d1ac917"
+}

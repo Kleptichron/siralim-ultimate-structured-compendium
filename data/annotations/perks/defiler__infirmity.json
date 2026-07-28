@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:infirmity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "22bf25668216"
+}

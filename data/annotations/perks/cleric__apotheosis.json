@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:apotheosis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 2% per rank; rule.chance records the max-rank value.",
+  "textHash": "40ce9dc7ea70"
+}

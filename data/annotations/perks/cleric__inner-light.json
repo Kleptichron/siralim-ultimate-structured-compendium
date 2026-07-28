@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:inner-light",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 40
+            }
+          },
+          "params": {
+            "source": "all sources"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "18fc5fe47ee5"
+}

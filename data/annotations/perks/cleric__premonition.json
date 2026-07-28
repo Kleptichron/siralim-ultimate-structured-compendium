@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:premonition",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Barrier"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 30
+            }
+          },
+          "params": {
+            "source": "all sources"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "89fa0afad5fd"
+}

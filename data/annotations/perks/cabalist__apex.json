@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:apex",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            },
+            "scaleRef": "spell_gems",
+            "per": "equipped Ethereal Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6a26fde53f73"
+}

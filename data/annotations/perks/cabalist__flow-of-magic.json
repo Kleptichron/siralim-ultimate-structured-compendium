@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:flow-of-magic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true,
+          "spellType": "Ethereal"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d72d2dc46a07"
+}

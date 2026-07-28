@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:wild-magic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            }
+          },
+          "params": {
+            "what": "Ethereal Spell Gems of their class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6ebda17cc098"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:mystify",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellType": "Ethereal"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            },
+            "per": "enemy afflicted"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cc12d8283cf6"
+}

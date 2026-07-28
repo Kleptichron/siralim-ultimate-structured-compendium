@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:holy-might",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 10
+            },
+            "scaleRef": "buff_count",
+            "per": "buff on the creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d315de4cf691"
+}

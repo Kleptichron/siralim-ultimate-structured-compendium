@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:lingering-sickness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "params": {
+            "duration": "forever"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e0f555b34e9a"
+}

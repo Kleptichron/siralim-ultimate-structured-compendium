@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:guardian-angel",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "negate enemy attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "e23da9a45ac1"
+}

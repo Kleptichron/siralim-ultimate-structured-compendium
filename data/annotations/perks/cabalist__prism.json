@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:prism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellType": "Ethereal"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "46b5db8121a5"
+}

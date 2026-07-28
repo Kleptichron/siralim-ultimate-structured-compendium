@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:familiar",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellType": "Ethereal"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "trigger_subject",
+          "params": {
+            "minion": "Animated Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 2% per rank; rule.chance records the max-rank value.",
+  "textHash": "1e2952057cba"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:unholy-night",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "by": "allies",
+          "statusKind": "debuff"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "lowest_stat",
+            "scalePct": 80
+          },
+          "params": {
+            "of": "the afflicting creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a9ff3e0afb82"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:spellslinger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellType": "Ethereal"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e05d461e7332"
+}

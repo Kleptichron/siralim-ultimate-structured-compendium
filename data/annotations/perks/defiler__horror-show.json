@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:horror-show",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Feared"
+          }
+        }
+      ],
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "take their turn"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "78bae5e2e083"
+}

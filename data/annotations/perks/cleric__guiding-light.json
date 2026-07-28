@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:guiding-light",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 50
+            },
+            "scaleStat": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cfb7d69cd42c"
+}

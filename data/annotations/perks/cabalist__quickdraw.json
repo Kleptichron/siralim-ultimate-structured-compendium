@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:quickdraw",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "gains an Ethereal Spell Gem after start-of-battle effects"
+        }
+      },
+      "chance": 100,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "the gained gem"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 5% per rank; rule.chance records the max-rank value. No trigger models gem-gain events; trigger other is honest here.",
+  "textHash": "67666dafb8a3"
+}

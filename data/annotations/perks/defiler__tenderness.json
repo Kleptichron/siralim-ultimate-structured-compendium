@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:tenderness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Vulnerable"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 5,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "property": "effectiveness"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e37926abe79b"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:death-s-due",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "amount": "amount their highest stat exceeds the target's highest stat",
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "812b1dba9db1"
+}

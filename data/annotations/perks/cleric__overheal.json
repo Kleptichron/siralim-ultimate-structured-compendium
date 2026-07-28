@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:overheal",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "params": {
+            "effect": "healing effects trigger even at full Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "434b029825be"
+}

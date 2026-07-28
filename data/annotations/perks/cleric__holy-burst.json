@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:holy-burst",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Barrier"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "Holy Fire"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "75b902edcd55"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:shimmer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            },
+            "scaleRef": "spell_gems",
+            "per": "equipped Ethereal Spell Gem",
+            "cap": 90
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d2fdb04c0ef0"
+}

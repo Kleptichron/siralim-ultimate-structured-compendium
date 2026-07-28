@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:curse-of-impotence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 35
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "69e9baeeb7de"
+}

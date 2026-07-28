@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:saving-grace",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 2,
+              "maxTotal": 100
+            },
+            "scaleStat": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8646a986e911"
+}

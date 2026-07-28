@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:embrace-the-arcane",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "automatic casts treated as manual casts"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "09038dace975"
+}

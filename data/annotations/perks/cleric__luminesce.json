@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:luminesce",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies",
+        "params": {
+          "condition": "healing exceeds Maximum Health"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "healing_received"
+          },
+          "params": {
+            "amount": "the excess healing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8a76e1b96cbe"
+}

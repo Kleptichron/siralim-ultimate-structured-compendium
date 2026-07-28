@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:incantation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "one of their Ethereal Spell Gems"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "one of their Ethereal Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fa2b4747f2ae"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:strength-of-soul",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 50
+            },
+            "scaleRef": "other",
+            "per": "Barrier strength"
+          },
+          "statuses": [
+            "Barrier"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "39768f6b7156"
+}

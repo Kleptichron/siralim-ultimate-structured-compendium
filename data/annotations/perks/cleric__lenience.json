@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:lenience",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            },
+            "scaleRef": "buff_count",
+            "per": "buff on the creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d4fc3e45386b"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:nighttaker",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down",
+            "scaleRef": "debuff_count",
+            "per": "debuff on the enemy",
+            "cap": 90
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "01022f8fe86c"
+}

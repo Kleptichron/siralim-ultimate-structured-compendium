@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:radiance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 60
+            }
+          },
+          "params": {
+            "amplifies": "stat gains"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a490973266c5"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:invoke",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "trigger_subject",
+          "params": {
+            "what": "an Ethereal Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c40d30cbdd30"
+}

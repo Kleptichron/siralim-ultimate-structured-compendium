@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:hopelessness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statusKind": "buff",
+          "params": {
+            "duration": "1 turn"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "minions have double the chance to leave battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7ca26deb6d65"
+}

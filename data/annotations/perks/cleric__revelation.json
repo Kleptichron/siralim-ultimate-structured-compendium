@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:revelation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "which": "dead creatures",
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1.5% per rank; rule.chance records the max-rank value.",
+  "textHash": "177b577d2e48"
+}

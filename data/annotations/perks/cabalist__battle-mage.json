@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cabalist:battle-mage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "chance": 100,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "one of their Ethereal Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 2% per rank; rule.chance records the max-rank value.",
+  "textHash": "311dacc88df9"
+}

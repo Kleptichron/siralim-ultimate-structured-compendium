@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:cleric:greater-healing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 4,
+              "maxTotal": 100
+            }
+          }
+        },
+        {
+          "verb": "healing_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 100
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6404d9ca18e8"
+}

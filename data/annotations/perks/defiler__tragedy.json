@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:tragedy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 50
+            }
+          },
+          "params": {
+            "amplifies": "their stat gains"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "993bf0512968"
+}

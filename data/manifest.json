@@ -2764,59 +2764,73 @@
     },
     "perk:cabalist:apex": {
       "hash": "6a26fde53f73",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:battle-mage": {
       "hash": "311dacc88df9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:embrace-the-arcane": {
       "hash": "09038dace975",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:familiar": {
       "hash": "1e2952057cba",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:flow-of-magic": {
       "hash": "d72d2dc46a07",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:hand-of-the-magi": {
       "hash": "a64212bfb764",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:incantation": {
       "hash": "fa2b4747f2ae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:invoke": {
       "hash": "c40d30cbdd30",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:mystify": {
       "hash": "cc12d8283cf6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:prism": {
       "hash": "46b5db8121a5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:quickdraw": {
       "hash": "67666dafb8a3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:shimmer": {
       "hash": "d2fdb04c0ef0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:spellslinger": {
       "hash": "e05d461e7332",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:temporal-concentration": {
       "hash": "7f3998808fc4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:unshackled": {
       "hash": "fe9e21cf7008",
@@ -2825,11 +2839,13 @@
     },
     "perk:cabalist:wild-magic": {
       "hash": "6ebda17cc098",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:apotheosis": {
       "hash": "40ce9dc7ea70",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:consecrated-ground": {
       "hash": "b75e47c7d385",
@@ -2838,135 +2854,168 @@
     },
     "perk:cleric:greater-healing": {
       "hash": "6404d9ca18e8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:guardian-angel": {
       "hash": "e23da9a45ac1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:guiding-light": {
       "hash": "cfb7d69cd42c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:holy-burst": {
       "hash": "75b902edcd55",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:holy-might": {
       "hash": "d315de4cf691",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:inner-light": {
       "hash": "18fc5fe47ee5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:lenience": {
       "hash": "d4fc3e45386b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:luminesce": {
       "hash": "8a76e1b96cbe",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:overheal": {
       "hash": "434b029825be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:premonition": {
       "hash": "89fa0afad5fd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:radiance": {
       "hash": "a490973266c5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:revelation": {
       "hash": "177b577d2e48",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:saving-grace": {
       "hash": "8646a986e911",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:strength-of-soul": {
       "hash": "39768f6b7156",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:anemia": {
       "hash": "c9852a33297c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:curse-of-fragility": {
       "hash": "2105dbcf5268",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:curse-of-futility": {
       "hash": "71397c41ae8c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:curse-of-impotence": {
       "hash": "69e9baeeb7de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:curse-of-lethargy": {
       "hash": "4d1d9e7997e8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:curse-of-vulnerability": {
       "hash": "8263632f5b1c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:daybreaker": {
       "hash": "cfd8fa91a05a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:death-s-due": {
       "hash": "812b1dba9db1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:hopelessness": {
       "hash": "7ca26deb6d65",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:horror-show": {
       "hash": "78bae5e2e083",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:impiety": {
       "hash": "b9415d1ac917",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:infirmity": {
       "hash": "22bf25668216",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:languish": {
       "hash": "b25ca18d0cfc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:lingering-sickness": {
       "hash": "e0f555b34e9a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:nighttaker": {
       "hash": "01022f8fe86c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:tenderness": {
       "hash": "e37926abe79b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:tragedy": {
       "hash": "993bf0512968",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:unholy-night": {
       "hash": "a9ff3e0afb82",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:defiler:wane": {
       "hash": "6a8e7ca2f0b2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:brim-fiends": {
       "hash": "400f82df52bd",

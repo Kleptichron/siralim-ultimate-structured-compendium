@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:anemia",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Weak"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 5,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "property": "effectiveness"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c9852a33297c"
+}

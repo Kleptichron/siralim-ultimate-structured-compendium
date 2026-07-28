@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:defiler:daybreaker",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "debuff on the enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cfd8fa91a05a"
+}
