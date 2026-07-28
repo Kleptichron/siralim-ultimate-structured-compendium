@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:malady",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "duration": "forever",
+            "alsoAffects": "your creatures while a creature has Poison Inoculation"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c613a29ec335"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:malpractice",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "attacker",
+          "params": {
+            "spell": "Euthanasia"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "target"
+        }
+      ]
+    }
+  ],
+  "textHash": "caf0df6515be"
+}

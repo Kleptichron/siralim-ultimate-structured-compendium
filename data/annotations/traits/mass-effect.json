@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:mass-effect",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "on-critical trigger this battle"
+          },
+          "params": {
+            "effect": "act as if they have taken damage, attacked and cast spells 1 additional time"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Counting meta-rule; verb other is honest here.",
+  "textHash": "8a2a4eee034b"
+}

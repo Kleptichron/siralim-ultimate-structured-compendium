@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lush-licks",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "actor": "trigger_subject",
+          "target": "target",
+          "statusKind": "debuff",
+          "params": {
+            "what": "their own debuffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c8b44a6b663e"
+}

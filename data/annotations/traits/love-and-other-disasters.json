@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:love-and-other-disasters",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "params": {
+            "what": "on-buff and on-debuff effects",
+            "mode": "ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3d3962d8587d"
+}

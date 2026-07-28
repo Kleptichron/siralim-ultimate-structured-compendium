@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lord-of-the-castle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "allies",
+        "params": {
+          "stat": "Defense",
+          "direction": "up"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 50
+          },
+          "params": {
+            "amplifies": "the Defense gained"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b84619ef7c70"
+}

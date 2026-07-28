@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:mass-mutation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "the holder's Fused trait (or innate trait if this IS the Fused trait)",
+            "to": "one creature of each other class"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "89fc16355cc5"
+}

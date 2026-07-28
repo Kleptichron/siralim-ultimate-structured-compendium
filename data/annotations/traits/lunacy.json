@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lunacy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "prevent_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "99a4cd5744ae"
+}

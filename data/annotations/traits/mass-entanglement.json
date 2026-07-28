@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:mass-entanglement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Snared"
+          ],
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6441d4f14997"
+}

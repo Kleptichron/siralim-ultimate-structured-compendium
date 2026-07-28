@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:loyalty-s-light",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Rebirth",
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "377ba685d5a7"
+}

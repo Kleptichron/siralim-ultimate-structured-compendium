@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lovesick",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "actor": "holder",
+          "target": "target",
+          "statusKind": "debuff",
+          "params": {
+            "what": "up to 3 of its own debuffs"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "actor": "holder",
+          "target": "attacker",
+          "statusKind": "debuff",
+          "params": {
+            "what": "up to 3 of its own debuffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3bf4e3e1540e"
+}

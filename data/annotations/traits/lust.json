@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lust",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "up to 3 of the enemies' permanent Spell Gems",
+            "ignores": "creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1cd8e7859f5f"
+}

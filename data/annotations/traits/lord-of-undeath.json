@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lord-of-undeath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_minion_lost",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "minion": "random minion"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e225b190ee76"
+}

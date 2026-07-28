@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:marrow-metabolism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "its minions gain 1 stack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5001f36ef496"
+}

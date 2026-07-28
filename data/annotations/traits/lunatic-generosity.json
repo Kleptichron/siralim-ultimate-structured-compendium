@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:lunatic-generosity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "any",
+          "params": {
+            "what": "the holder's first 3 Spell Gems",
+            "charges": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "51209ea12a1c"
+}

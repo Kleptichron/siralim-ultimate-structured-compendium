@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:marshal",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "creatures of your most common race move to the top of the Timeline"
+        }
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "target": "random_enemy",
+          "params": {
+            "which": "the others of that race"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Timeline-move events have no trigger; other is honest here.",
+  "textHash": "9043eb78c9c3"
+}

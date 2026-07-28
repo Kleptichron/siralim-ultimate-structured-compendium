@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:madness-and-other-ideals",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "params": {
+            "what": "on-defend effects",
+            "mode": "ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b86ef2f46af8"
+}

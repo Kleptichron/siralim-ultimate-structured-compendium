@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:malediction",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "of Cursed, Burning, Poisoned and Bleeding it has"
+          },
+          "statuses": [
+            "Cursed",
+            "Burning",
+            "Poisoned",
+            "Bleeding"
+          ],
+          "params": {
+            "what": "spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "30dd4137dbc5"
+}

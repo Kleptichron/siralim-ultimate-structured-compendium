@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:marked-for-death",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Bleeding"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "targets": "each enemy with Bleeding",
+            "damagePctOfNormal": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "119bcbf0d3a0"
+}

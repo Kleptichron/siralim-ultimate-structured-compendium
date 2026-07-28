@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:marigold",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "allies",
+          "params": {
+            "effect": "stats gained in battle are not subject to diminishing returns"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9dd75e478f49"
+}

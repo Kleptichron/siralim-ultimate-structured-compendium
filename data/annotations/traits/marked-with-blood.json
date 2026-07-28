@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:marked-with-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "ally",
+        "params": {
+          "source": "attacks"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target"
+        }
+      ]
+    }
+  ],
+  "textHash": "3e849c9ef89f"
+}

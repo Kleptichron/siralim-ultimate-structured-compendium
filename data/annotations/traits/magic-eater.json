@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:magic-eater",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Silenced"
+          ]
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3e50ac8d7a4b"
+}
