@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:of-blood-untamed",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "source": "spells"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "trigger_subject",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 25
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "5d5a282e8b68"
+}

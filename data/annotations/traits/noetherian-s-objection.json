@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:noetherian-s-objection",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "enemy",
+        "params": {
+          "status": "Barrier",
+          "context": "destroyed"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleRef": "other",
+            "scalePct": 100,
+            "per": "the Barrier's original potency"
+          },
+          "statuses": [
+            "Barrier"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "45acba53bd58"
+}

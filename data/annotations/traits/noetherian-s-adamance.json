@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:noetherian-s-adamance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "allies",
+        "params": {
+          "status": "Barrier",
+          "context": "destroyed"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "7c4f1d30d1fc"
+}

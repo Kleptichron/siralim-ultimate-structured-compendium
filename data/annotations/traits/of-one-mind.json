@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:of-one-mind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies",
+        "params": {
+          "which": "creatures of your most common race"
+        }
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "target": "random_enemy",
+          "params": {
+            "which": "the others of that race",
+            "damagePctOfNormal": 10
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "976e44c462b9"
+}

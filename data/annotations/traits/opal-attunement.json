@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:opal-attunement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "any",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "cannotLose": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "96b145799e35"
+}

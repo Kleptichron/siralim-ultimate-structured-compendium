@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:no-sanctuary",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "Speed"
+          },
+          "params": {
+            "source": "attacks",
+            "replaces": "Attack"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Speed"
+          },
+          "params": {
+            "what": "spell potency",
+            "replaces": "Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c601cf137874"
+}

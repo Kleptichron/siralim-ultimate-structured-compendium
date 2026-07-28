@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:obelisk",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Ethereal Spell Gems",
+            "effect": "keep their non-Ethereal charge count"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a3b75952bd0c"
+}

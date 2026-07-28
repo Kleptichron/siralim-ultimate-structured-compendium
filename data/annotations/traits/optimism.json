@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:optimism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4538eefe6f08"
+}

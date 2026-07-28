@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:or-else-by-none",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "params": {
+            "effect": "its Barrier shatters"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "other",
+            "scalePct": 50,
+            "per": "the Barrier's potency"
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "other",
+            "scalePct": 50,
+            "per": "the Barrier's potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b5f926d5693b"
+}

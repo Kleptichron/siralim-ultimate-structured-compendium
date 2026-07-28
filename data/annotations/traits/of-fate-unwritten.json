@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:of-fate-unwritten",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "Mythicant creature fighting on your side"
+          },
+          "params": {
+            "targets": "a different enemy per Mythicant"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "scaleRef": "other",
+            "per": "Mythicant creature fighting on your side",
+            "cap": 50
+          },
+          "params": {
+            "what": "Defense ignored",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0b1d72bccc8c"
+}

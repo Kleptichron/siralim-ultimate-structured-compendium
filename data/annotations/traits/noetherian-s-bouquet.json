@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:noetherian-s-bouquet",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "statuses": [
+            "Barrier"
+          ],
+          "params": {
+            "effect": "bypasses enemies' Barrier buffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "05a0d31c8e24"
+}

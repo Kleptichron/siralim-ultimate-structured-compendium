@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:obey",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "allies",
+          "params": {
+            "action": "provoke",
+            "which": "your creatures of the same class"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "allies",
+          "params": {
+            "action": "provoke",
+            "which": "your creatures of the same class"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4035e203f459"
+}

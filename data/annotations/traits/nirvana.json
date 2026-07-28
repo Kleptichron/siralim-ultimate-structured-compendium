@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nirvana",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "spells your creatures have cast this battle",
+            "atLeast": 7
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "what": "spell potency"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "casts consume no Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ec3fa7e1fea9"
+}

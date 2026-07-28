@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:no-head-necessary",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "dead"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemies"
+        }
+      ]
+    }
+  ],
+  "textHash": "09fdd306eac3"
+}
