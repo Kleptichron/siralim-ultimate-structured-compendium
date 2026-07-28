@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:sorcerer:undertow",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "what": "Spell of Roots, Spell of Slumber, and Spell of Frost perks",
+            "mode": "activate now"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance escalates +10% each turn and resets to 10% after activating; rule.chance records the base.",
+  "textHash": "667c667c3725"
+}

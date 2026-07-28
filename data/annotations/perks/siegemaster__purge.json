@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:siegemaster:purge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "params": {
+            "all": true
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "debuff removed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "831c6c91d9aa"
+}

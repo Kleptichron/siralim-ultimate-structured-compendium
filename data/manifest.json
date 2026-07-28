@@ -4689,51 +4689,63 @@
     },
     "perk:shadowbringer:arrogance-is-confidence": {
       "hash": "002b372dd7be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:ascent-of-the-damned": {
       "hash": "6e23541e2e4c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:dark-souls": {
       "hash": "2ea61cded5bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:dead-divinity": {
       "hash": "49e5d46e1d33",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:doomsday": {
       "hash": "d1aaf5dd82b9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:dystopia": {
       "hash": "decb4ca00718",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:endwalker": {
       "hash": "63bfc668072b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:fall-from-grace": {
       "hash": "218796e5db83",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:harrow": {
       "hash": "7cf5aa967e6e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:leeches": {
       "hash": "5a4c47a22a09",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:phantom-pain": {
       "hash": "956cce73a1e0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:self-fulfilling-prophecy": {
       "hash": "ceb70e0ed344",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:shadow-mending": {
       "hash": "1d870235c304",
@@ -4747,39 +4759,48 @@
     },
     "perk:shadowbringer:touch-of-darkness": {
       "hash": "90852a170d78",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:worldbreaker": {
       "hash": "ed08939c2460",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:armor-shred": {
       "hash": "307f1d3e0ad3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:barricade": {
       "hash": "d4eb817f800f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:defensive-stance": {
       "hash": "3b7cb1b3778b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:explosive-armor": {
       "hash": "3f6937214c8f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:furious-protector": {
       "hash": "0dbfcd96be88",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:in-formation": {
       "hash": "bae70f312f13",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:last-stand": {
       "hash": "2e7aedf89aba",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:lucidity": {
       "hash": "55289594d1ab",
@@ -4788,55 +4809,68 @@
     },
     "perk:siegemaster:no-weak-links": {
       "hash": "d63aa893f59a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:purge": {
       "hash": "831c6c91d9aa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:rest-up": {
       "hash": "68348f9e6844",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:shield-guard": {
       "hash": "65e158e9e163",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:the-best-offense": {
       "hash": "9b48c8786f43",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:thorns": {
       "hash": "67c40a49c032",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:titanic-rage": {
       "hash": "6e7f7b9b82bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:war-machine": {
       "hash": "466508721fe8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:calcify": {
       "hash": "c64fad347857",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:comfortable-proximity": {
       "hash": "2bcf4d35d989",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:fade": {
       "hash": "591f694e123a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:flabbergast": {
       "hash": "fbe1855971aa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:gravity-s-void": {
       "hash": "a4bc8636b5ef",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:mental-fortitude": {
       "hash": "562e47a4ddfe",
@@ -4845,43 +4879,53 @@
     },
     "perk:sorcerer:perplex": {
       "hash": "4fc79ce900ba",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:psychic-scream": {
       "hash": "d74e61877d6a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:ruin": {
       "hash": "1000e1896590",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:singe": {
       "hash": "01ef2bb5e196",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:slipstream": {
       "hash": "bd90c8891413",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:spell-of-frost": {
       "hash": "09d105e63f0d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:spell-of-roots": {
       "hash": "8b915b4c7493",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:spell-of-slumber": {
       "hash": "f19207baf7ce",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:undertow": {
       "hash": "667c667c3725",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:unity": {
       "hash": "76100ab7c976",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:attunement": {
       "hash": "61b188d6d18c",

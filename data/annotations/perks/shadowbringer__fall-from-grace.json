@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:shadowbringer:fall-from-grace",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "time damaged by Blighted this battle"
+          },
+          "statuses": [
+            "Blighted"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "218796e5db83"
+}

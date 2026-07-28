@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:siegemaster:explosive-armor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "amount_gained"
+          },
+          "params": {
+            "absorbs": "the Defense gained"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "other",
+            "scalePct": 50,
+            "per": "existing Barrier strength"
+          },
+          "params": {
+            "if": "the creature already had a Barrier",
+            "effect": "the Barrier explodes"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3f6937214c8f"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:shadowbringer:dark-souls",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "target",
+          "params": {
+            "spell": "Minor Healing, Healing, or Major Healing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2ea61cded5bc"
+}

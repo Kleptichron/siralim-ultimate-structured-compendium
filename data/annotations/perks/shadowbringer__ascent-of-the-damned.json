@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:shadowbringer:ascent-of-the-damned",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "trigger_subject",
+          "params": {
+            "spell": "Minor Healing, Healing, or Major Healing",
+            "self": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6e23541e2e4c"
+}

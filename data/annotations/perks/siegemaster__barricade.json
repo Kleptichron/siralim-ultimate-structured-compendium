@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:siegemaster:barricade",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "allies",
+          "params": {
+            "state": "defending"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "adjacent_allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d4eb817f800f"
+}

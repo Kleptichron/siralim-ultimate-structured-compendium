@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:sorcerer:unity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 2.5,
+              "maxTotal": 20
+            },
+            "scaleRef": "other",
+            "per": "consecutive adjacent ally on the Timeline"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "76100ab7c976"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:siegemaster:titanic-rage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 150,
+            "direction": "up"
+          },
+          "params": {
+            "vs": "Defending or Provoking enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6e7f7b9b82bc"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:sorcerer:flabbergast",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "allies",
+        "params": {
+          "target": "next enemy below them on the Timeline"
+        }
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "target",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "fbe1855971aa"
+}

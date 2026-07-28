@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:siegemaster:in-formation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "action": "start battles Defending"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No verb models the Defend action itself; verb other is honest here.",
+  "textHash": "bae70f312f13"
+}

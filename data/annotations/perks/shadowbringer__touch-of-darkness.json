@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:shadowbringer:touch-of-darkness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "target",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 20
+          },
+          "params": {
+            "healsTheEnemy": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "90852a170d78"
+}

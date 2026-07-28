@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:sorcerer:spell-of-roots",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemy",
+        "params": {
+          "onTurn": 1
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Snared"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "8b915b4c7493"
+}

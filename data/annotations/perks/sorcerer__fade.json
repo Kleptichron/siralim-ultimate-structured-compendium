@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:sorcerer:fade",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Invisible"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "591f694e123a"
+}

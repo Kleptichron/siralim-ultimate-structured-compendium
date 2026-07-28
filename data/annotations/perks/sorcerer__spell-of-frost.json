@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:sorcerer:spell-of-frost",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemy",
+        "params": {
+          "onTurn": 3
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "09d105e63f0d"
+}

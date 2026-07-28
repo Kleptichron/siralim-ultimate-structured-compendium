@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:shadowbringer:arrogance-is-confidence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Blighted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Blighted"
+          ],
+          "params": {
+            "effect": "ignored by the bearer"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "002b372dd7be"
+}

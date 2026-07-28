@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:shadowbringer:endwalker",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Blighted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "trigger_subject",
+          "params": {
+            "action": "being resurrected"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "63bfc668072b"
+}

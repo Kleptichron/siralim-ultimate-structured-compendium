@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:sorcerer:ruin",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 2,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "debuff on each enemy"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 1.5,
+            "direction": "down",
+            "scaleRef": "debuff_count",
+            "per": "debuff on each enemy",
+            "cap": 90
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1000e1896590"
+}

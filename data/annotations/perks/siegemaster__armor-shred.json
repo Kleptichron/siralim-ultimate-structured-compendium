@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:siegemaster:armor-shred",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 25
+            }
+          },
+          "params": {
+            "what": "Defense ignored",
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "307f1d3e0ad3"
+}

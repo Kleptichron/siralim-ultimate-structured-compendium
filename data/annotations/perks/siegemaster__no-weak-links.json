@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:siegemaster:no-weak-links",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "highest_stat",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d63aa893f59a"
+}
