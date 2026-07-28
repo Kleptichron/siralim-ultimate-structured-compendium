@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-familiars",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Familiar"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "spell your Familiars have cast this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "746f79c0732f"
+}

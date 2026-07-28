@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-gorgons",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Gorgon"
+          }
+        },
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Stone"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Gorgon fighting on your side"
+          },
+          "statuses": [
+            "Stone"
+          ],
+          "params": {
+            "vsWith": "Stone"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "69437c2e567e"
+}

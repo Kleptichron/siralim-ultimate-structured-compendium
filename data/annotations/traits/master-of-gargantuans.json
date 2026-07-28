@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-gargantuans",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Gargantuan"
+          }
+        },
+        {
+          "type": "action_state",
+          "who": "allies",
+          "params": {
+            "state": "defending or provoking"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "avoid damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "81a5fc81bf50"
+}

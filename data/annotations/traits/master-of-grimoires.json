@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-grimoires",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Grimoire"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Silenced"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "Spell Gems consume no Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "182c1fdb6052"
+}

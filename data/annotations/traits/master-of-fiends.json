@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-fiends",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Fiend"
+          }
+        },
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Berserk"
+          }
+        }
+      ],
+      "chance": 40,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "avoid damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "1768f7102a75"
+}

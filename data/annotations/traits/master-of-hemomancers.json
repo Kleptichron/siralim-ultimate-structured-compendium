@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-hemomancers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Hemomancer",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
+          "params": {
+            "what": "on-attack and when-attacked effects"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "64fd8107bf77"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-golems",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Golem"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "the Triple Take trait (or Chip Off The Block if already held)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7f26815d4eb2"
+}

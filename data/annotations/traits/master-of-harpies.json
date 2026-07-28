@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-harpies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Harpy"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "target": "random_enemy",
+          "params": {
+            "which": "your Harpies",
+            "damagePctOfNormal": 20
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "bc17c4e3fff7"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-hounds",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Hound"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "minions",
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "minion": "Dire Wolves",
+            "effect": "damage based on highest stat rather than Speed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "728ed52f0cb9"
+}

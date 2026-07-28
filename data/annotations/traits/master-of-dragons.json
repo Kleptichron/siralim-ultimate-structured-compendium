@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-dragons",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Dragon"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
+          "params": {
+            "what": "innate traits"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "646bbb03c750"
+}

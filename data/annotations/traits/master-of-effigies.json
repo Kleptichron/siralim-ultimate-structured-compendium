@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-effigies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Effigy",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Cursed",
+            "Burning",
+            "Poisoned",
+            "Bleeding"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "down"
+          },
+          "statuses": [
+            "Cursed",
+            "Burning",
+            "Poisoned",
+            "Bleeding"
+          ],
+          "params": {
+            "source": "those debuffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b033691f9319"
+}

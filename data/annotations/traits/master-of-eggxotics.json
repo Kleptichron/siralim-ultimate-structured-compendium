@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-eggxotics",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Eggxotic"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "what": "the permanent buffs referenced in their traits",
+            "shared": "with each other"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f88590a5f4cc"
+}

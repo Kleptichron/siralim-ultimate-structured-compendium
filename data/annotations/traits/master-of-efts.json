@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-efts",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Eft",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true
+          }
+        },
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "91ada2931609"
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-efreets",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "status": "Burning",
+          "by": "allies"
+        }
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Efreet"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "trigger_subject",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Efreet fighting on your side"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "94d902e8776a"
+}

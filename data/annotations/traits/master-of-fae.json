@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-fae",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Fae",
+            "scope": "all"
+          }
+        }
+      ],
+      "chance": 60,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "avoid damage",
+            "vs": "spells"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "9db2070310ac"
+}

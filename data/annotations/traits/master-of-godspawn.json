@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-godspawn",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Godspawn",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "their respective Avatar's trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8c912ae89cdd"
+}

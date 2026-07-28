@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-elementasaurs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Elementasaur",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "resistant"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "what": "all debuffs referenced in their innate traits",
+            "timing": "start of battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cc19768adc52"
+}

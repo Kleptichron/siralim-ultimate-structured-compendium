@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-liches",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellClass": "Death"
+        }
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Lich"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "cdeda68519ee"
+}

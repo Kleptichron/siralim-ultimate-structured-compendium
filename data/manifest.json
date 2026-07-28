@@ -15972,163 +15972,203 @@
     },
     "trait:master-of-doom-fortresses": {
       "hash": "6dfbf5781203",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-doomguards": {
       "hash": "64948db9df8c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-dragons": {
       "hash": "646bbb03c750",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-dryads": {
       "hash": "1cf28c553a97",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-dumplings": {
       "hash": "c0a59eeea3d7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-effigies": {
       "hash": "b033691f9319",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-efreets": {
       "hash": "94d902e8776a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-efts": {
       "hash": "91ada2931609",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-eggxotics": {
       "hash": "f88590a5f4cc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-electropods": {
       "hash": "f6c9947f82fe",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-elementasaurs": {
       "hash": "cc19768adc52",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-elves": {
       "hash": "91a5cf7d58ad",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-ents": {
       "hash": "7207fefffe8c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-fae": {
       "hash": "9db2070310ac",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-familiars": {
       "hash": "746f79c0732f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-fiends": {
       "hash": "1768f7102a75",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-forsaken": {
       "hash": "a17fab92964a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-gargantuans": {
       "hash": "81a5fc81bf50",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-gargoyles": {
       "hash": "435bae52c173",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-gemlings": {
       "hash": "7f281690f4ea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-ghouls": {
       "hash": "c50e72888cc6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-giants": {
       "hash": "7bf93c524130",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-godspawn": {
       "hash": "8c912ae89cdd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-golems": {
       "hash": "7f26815d4eb2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-gorgons": {
       "hash": "69437c2e567e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-griffons": {
       "hash": "9072997f0d8b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-grimoires": {
       "hash": "182c1fdb6052",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-harpies": {
       "hash": "bc17c4e3fff7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-hemomancers": {
       "hash": "64fd8107bf77",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-hounds": {
       "hash": "728ed52f0cb9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-hunters": {
       "hash": "a18cce273147",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-imlers": {
       "hash": "992fead26fdf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-imlings": {
       "hash": "5202af036d3c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-imps": {
       "hash": "a009af894bee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-inquisitors": {
       "hash": "f5955d353f2d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-kolosses": {
       "hash": "d79bb21f5d17",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-krakens": {
       "hash": "babc0654be4d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-leeches": {
       "hash": "c6aa57651506",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-lepers": {
       "hash": "45a298a7440b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-liches": {
       "hash": "cdeda68519ee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-lucanians": {
       "hash": "f7537ab4f214",

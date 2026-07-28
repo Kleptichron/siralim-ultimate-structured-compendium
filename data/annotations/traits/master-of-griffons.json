@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-griffons",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Griffon"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
+          "params": {
+            "what": "on-attack and on-critical effects"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "9072997f0d8b"
+}

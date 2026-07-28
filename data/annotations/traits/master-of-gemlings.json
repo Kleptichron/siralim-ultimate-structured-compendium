@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-gemlings",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Gemling",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "can equip Spell Gems from any class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7f281690f4ea"
+}

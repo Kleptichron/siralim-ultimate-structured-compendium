@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-imps",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Imp"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "the Shellbust spell"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Shellbust",
+            "effect": "targets all enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a009af894bee"
+}

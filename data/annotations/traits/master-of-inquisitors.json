@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-inquisitors",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Inquisitor",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "minion": "random minion"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f5955d353f2d"
+}

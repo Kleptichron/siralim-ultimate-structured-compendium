@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-ents",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Ent"
+          }
+        },
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "healthPct": 10
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7207fefffe8c"
+}

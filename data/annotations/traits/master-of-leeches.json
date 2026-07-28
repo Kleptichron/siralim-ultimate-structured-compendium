@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-leeches",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Leech",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Leeching"
+          ],
+          "params": {
+            "duration": "forever"
+          }
+        },
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Leeching"
+          ],
+          "magnitude": {
+            "amountPct": 300,
+            "direction": "up"
+          },
+          "params": {
+            "property": "healing"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c6aa57651506"
+}

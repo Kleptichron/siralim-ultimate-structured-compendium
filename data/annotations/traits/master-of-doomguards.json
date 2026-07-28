@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-doomguards",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Doomguard"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "avoid damage",
+            "base": "20%",
+            "whileDefendingOrProvoking": "50%"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "64948db9df8c"
+}

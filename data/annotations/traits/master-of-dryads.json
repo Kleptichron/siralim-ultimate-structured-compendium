@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-dryads",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Dryad"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "duration": "forever"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "minions last forever"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1cf28c553a97"
+}

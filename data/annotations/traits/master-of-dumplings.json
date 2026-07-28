@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-dumplings",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Dumpling"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "an Ultimate Spell based on their equipped skin (random if none)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c0a59eeea3d7"
+}

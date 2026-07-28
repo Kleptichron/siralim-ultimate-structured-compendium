@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-forsaken",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Forsaken",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "innate traits have no downside"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Trait-potency amplifier has no verb; other is honest here.",
+  "textHash": "a17fab92964a"
+}

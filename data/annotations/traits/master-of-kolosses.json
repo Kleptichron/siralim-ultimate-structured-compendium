@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-kolosses",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Koloss"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Current Health",
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Koloss fighting on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d79bb21f5d17"
+}

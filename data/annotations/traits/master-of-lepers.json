@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-lepers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "by": "allies"
+        }
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Leper",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "45a298a7440b"
+}
