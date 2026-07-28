@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ethereal",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "holder",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "immune"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "holder",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "65a01afca4b6"
+}

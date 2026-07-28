@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:endless-swarm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Waspid"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "which": "your dead Waspids",
+            "healthPct": 50,
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d6828ba00f43"
+}

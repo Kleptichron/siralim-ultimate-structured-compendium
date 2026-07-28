@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:end-on-a-high-note",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "Mania potency",
+            "of": "trigger_subject",
+            "greaterThan": "100% of its Maximum Health"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "trigger_subject",
+          "statuses": [
+            "Mania"
+          ],
+          "params": {
+            "action": "being resurrected"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d133d3842203"
+}

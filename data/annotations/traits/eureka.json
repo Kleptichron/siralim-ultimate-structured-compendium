@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:eureka",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Mania"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "status_potency",
+            "scalePct": 5
+          },
+          "statuses": [
+            "Mania"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "holder",
+          "statuses": [
+            "Mania"
+          ],
+          "params": {
+            "effect": "cannot be immune to Mania"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "453e60c5fae5"
+}

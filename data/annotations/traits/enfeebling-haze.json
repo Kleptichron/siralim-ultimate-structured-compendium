@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:enfeebling-haze",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "any",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "unique class among your creatures"
+          },
+          "params": {
+            "amplifies": "stat losses"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "any",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "other",
+            "scalePct": 5,
+            "per": "their lost stats"
+          },
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ee82108c12ae"
+}

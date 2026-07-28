@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:eternal-jinx",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Stone"
+          ],
+          "params": {
+            "duration": "forever"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Stone"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          },
+          "params": {
+            "vsWith": "Stone"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ec4131619d60"
+}

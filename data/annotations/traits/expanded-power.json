@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:expanded-power",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "tier": "massive"
+          },
+          "params": {
+            "what": "damaging spells with 'small', 'moderate' or 'large' potency",
+            "effect": "upgraded to 'massive'"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5fd52ba68315"
+}

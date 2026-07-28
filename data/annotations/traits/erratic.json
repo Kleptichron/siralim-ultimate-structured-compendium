@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:erratic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "ally",
+          "qualifiers": [
+            "random"
+          ],
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 150,
+            "direction": "up"
+          },
+          "params": {
+            "except": "Health",
+            "duration": "rest of battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "77c032a091d8"
+}

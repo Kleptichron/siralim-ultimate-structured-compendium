@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:envy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed",
+            "Health"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "setEqualTo": "the highest of your other creatures' respective base stats"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "77ae60f947c4"
+}

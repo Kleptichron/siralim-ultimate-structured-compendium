@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:everything-s-gone",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Current Health"
+          ],
+          "params": {
+            "setToPct": 80
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4b06779f31bb"
+}
