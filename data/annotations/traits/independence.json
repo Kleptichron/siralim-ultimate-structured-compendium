@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:independence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "always critical",
+            "source": "attacks"
+          }
+        },
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true,
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "23e8d28a9f7d"
+}

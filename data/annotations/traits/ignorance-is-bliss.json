@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:ignorance-is-bliss",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Mania",
+            "Mending"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "status": "Mania",
+          "source": "Mania"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 100
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies",
+        "params": {
+          "status": "Mending",
+          "source": "Mending"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleRef": "healing_received",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d947162efe99"
+}

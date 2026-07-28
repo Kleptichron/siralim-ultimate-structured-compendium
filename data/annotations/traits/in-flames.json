@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:in-flames",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "source": "Burning",
+            "effect": "converted to healing"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Burning"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "01e9f8ed98a8"
+}

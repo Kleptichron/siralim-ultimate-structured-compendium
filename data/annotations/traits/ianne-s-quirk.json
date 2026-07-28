@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:ianne-s-quirk",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "spell": "Metamorphosis"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "afaafe61f5e0"
+}

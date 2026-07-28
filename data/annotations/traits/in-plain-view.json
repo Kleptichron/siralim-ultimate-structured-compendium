@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:in-plain-view",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Scorned",
+            "Silenced"
+          ],
+          "params": {
+            "bySide": "whichever of Attack/Intelligence is higher"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4d8a36b4e23c"
+}

@@ -14962,163 +14962,203 @@
     },
     "trait:hydration": {
       "hash": "0dc13144be3a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:hymn-of-guile": {
       "hash": "29f8b6b3486e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:hymn-of-panic": {
       "hash": "157aae564dd4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:hymn-of-strength": {
       "hash": "f6c961f97498",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:i-am-above": {
       "hash": "6f141db4bbf5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:i-hate-you-ing-all": {
       "hash": "3d6af3233da9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ianne-s-eccentricity": {
       "hash": "8c944694305d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ianne-s-oddity": {
       "hash": "3f94f4108968",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ianne-s-quirk": {
       "hash": "afaafe61f5e0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ice-nova": {
       "hash": "2db2a9f93f3e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ignorance-is-bliss": {
       "hash": "d947162efe99",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:illumina": {
       "hash": "f9aab112962c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:imbibe": {
       "hash": "25a4f35ee1eb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:imbue": {
       "hash": "81883f351285",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:imminent-danger": {
       "hash": "847e54acf612",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:impatience": {
       "hash": "381a1a41b23f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:impedance": {
       "hash": "18b017e25dc3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:impending-victory": {
       "hash": "0229770449e0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:implied-odds": {
       "hash": "5e52b7a2c75e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:impossibility": {
       "hash": "e7d90de01c04",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:imposter-syndrome": {
       "hash": "3f52788befe1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:improbable-catapult": {
       "hash": "2e247e366999",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:imprudence": {
       "hash": "50a5c3195750",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:impunity": {
       "hash": "d6d10148281f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-all-things": {
       "hash": "0cfbad38f9cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-favor-of-all": {
       "hash": "0a1b5a9462d6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-favor-of-creation": {
       "hash": "395748f96325",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-favor-of-destruction": {
       "hash": "fa7c3f1a7ae7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-favor-of-escape": {
       "hash": "5faaaefb51ee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-favor-of-protection": {
       "hash": "4c10e71b4d0f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-favor-of-survival": {
       "hash": "8d7c3b82ae5c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-flames": {
       "hash": "01e9f8ed98a8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:in-plain-view": {
       "hash": "4d8a36b4e23c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:incandescence": {
       "hash": "79896191b6ae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:incarnation": {
       "hash": "a06491e1c292",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:incoming-tide": {
       "hash": "8592c034a75a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:incursion": {
       "hash": "f0018fe24929",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:independence": {
       "hash": "23e8d28a9f7d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:indigestion": {
       "hash": "3056671a287f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:infestation": {
       "hash": "da69f63c0313",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:infested-with-ants": {
       "hash": "471b63688626",

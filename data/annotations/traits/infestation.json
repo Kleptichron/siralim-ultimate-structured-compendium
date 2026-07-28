@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:infestation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "minion": "Spiderlings",
+            "stacks": "1 to 3"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "da69f63c0313"
+}

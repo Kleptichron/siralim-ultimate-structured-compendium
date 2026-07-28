@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:impending-victory",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "ally"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "trigger_subject",
+          "params": {
+            "race": "Griffon"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy"
+        }
+      ]
+    }
+  ],
+  "notes": "Does not activate if the attacking Griffon also has this trait.",
+  "textHash": "0229770449e0"
+}

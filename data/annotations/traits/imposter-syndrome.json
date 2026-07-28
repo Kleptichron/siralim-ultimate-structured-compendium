@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:imposter-syndrome",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "highest_stat",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "your other creatures' highest stats",
+            "except": "Health"
+          }
+        },
+        {
+          "verb": "timeline_move",
+          "target": "holder",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3f52788befe1"
+}

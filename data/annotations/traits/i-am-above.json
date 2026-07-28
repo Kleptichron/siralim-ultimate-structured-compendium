@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:i-am-above",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "ally",
+        "params": {
+          "manual": true,
+          "spellType": "Arsenal"
+        }
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "params": {
+            "equipment": "artifact",
+            "property": "Spell Slot",
+            "effect": "casts its spell",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "6f141db4bbf5"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:indigestion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "scaleRef": "dead_creatures",
+            "per": "dead creature"
+          },
+          "params": {
+            "what": "Defense ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3056671a287f"
+}

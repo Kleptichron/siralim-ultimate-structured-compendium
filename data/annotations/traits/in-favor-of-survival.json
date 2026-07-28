@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:in-favor-of-survival",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 40
+          },
+          "params": {
+            "of": "the holder's Maximum Health",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8d7c3b82ae5c"
+}

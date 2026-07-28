@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:incarnation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellClass": "Nature",
+          "spellType": "single-target"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "effect": "targets all creatures on the target's side"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a06491e1c292"
+}

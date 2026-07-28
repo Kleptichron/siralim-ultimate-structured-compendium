@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:ianne-s-eccentricity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "target",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 100
+          },
+          "params": {
+            "ignoresDefense": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8c944694305d"
+}

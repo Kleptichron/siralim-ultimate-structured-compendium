@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:in-favor-of-protection",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 40
+          },
+          "params": {
+            "of": "the holder's Defense",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4c10e71b4d0f"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:in-favor-of-all",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "lowest_stat"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "setEqualTo": "its highest stat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0a1b5a9462d6"
+}

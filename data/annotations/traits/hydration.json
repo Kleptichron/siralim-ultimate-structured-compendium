@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hydration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 5
+          },
+          "params": {
+            "what": "5 random traits"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0dc13144be3a"
+}

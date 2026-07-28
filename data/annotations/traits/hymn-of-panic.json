@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hymn-of-panic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "any",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "effect": "the Timeline is shuffled"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "157aae564dd4"
+}

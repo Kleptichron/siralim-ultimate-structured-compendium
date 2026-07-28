@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:i-hate-you-ing-all",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 90,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Joke text (all-caps); the mechanic is a flat enemy damage reduction.",
+  "textHash": "3d6af3233da9"
+}

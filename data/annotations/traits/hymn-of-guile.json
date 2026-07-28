@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hymn-of-guile",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "enemies",
+          "statuses": [
+            "Invisible"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "29f8b6b3486e"
+}

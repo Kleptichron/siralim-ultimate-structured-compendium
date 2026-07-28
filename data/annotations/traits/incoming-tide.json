@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:incoming-tide",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Submerge"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8592c034a75a"
+}

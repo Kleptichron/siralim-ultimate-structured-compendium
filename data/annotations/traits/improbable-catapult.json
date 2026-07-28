@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:improbable-catapult",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "enemies",
+          "params": {
+            "what": "the holder's innate trait",
+            "limit": "once per side"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2e247e366999"
+}

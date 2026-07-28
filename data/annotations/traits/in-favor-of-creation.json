@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:in-favor-of-creation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 40
+          },
+          "params": {
+            "of": "the holder's Intelligence",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "395748f96325"
+}

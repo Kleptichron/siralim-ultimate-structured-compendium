@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hymn-of-strength",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          },
+          "params": {
+            "amplifies": "stat losses (reduced)"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f6c961f97498"
+}

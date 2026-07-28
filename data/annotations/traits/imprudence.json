@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:imprudence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "defending or provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "battle_action",
+          "target": "holder",
+          "params": {
+            "action": "defend or provoke",
+            "mode": "remove",
+            "text": "stops defending and provoking"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "50a5c3195750"
+}

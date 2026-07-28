@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:incursion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "artifact",
+            "property": "'Afflict Debuff On Damage'",
+            "effect": "activation chance"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f0018fe24929"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:in-all-things",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "highest_stat",
+            "scalePct": 20
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0cfbad38f9cd"
+}

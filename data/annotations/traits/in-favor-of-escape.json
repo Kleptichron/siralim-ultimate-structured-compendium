@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:in-favor-of-escape",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 40
+          },
+          "params": {
+            "of": "the holder's Speed",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5faaaefb51ee"
+}

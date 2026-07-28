@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:imbibe",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Leeching"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 40
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "25a4f35ee1eb"
+}

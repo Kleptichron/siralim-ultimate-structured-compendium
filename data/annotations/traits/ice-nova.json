@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:ice-nova",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2db2a9f93f3e"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:impedance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "effect": "Seals one of each enemy's Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "18b017e25dc3"
+}

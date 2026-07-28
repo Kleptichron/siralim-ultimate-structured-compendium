@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:impatience",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "holder",
+          "params": {
+            "what": "start-of-turn and end-of-turn effects",
+            "mode": "activate now",
+            "alsoAffects": "a random enemy"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "allies",
+          "params": {
+            "action": "being resurrected"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "381a1a41b23f"
+}

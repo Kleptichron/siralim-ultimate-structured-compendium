@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:impossibility",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Invisible"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "params": {
+            "effect": "immune",
+            "source": "spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e7d90de01c04"
+}
