@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:inner-destruction",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "caster",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "self": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Cannot be cast manually; 20% chance to be cast by enemies at the start of their turns.",
+  "textHash": "dfff7787466d"
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:insight",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Arcane"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Arcane"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "target",
+          "params": {
+            "spell": "a non-Ethereal Spell Gem",
+            "instead": "of gaining Arcane"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b9a141310670"
+}

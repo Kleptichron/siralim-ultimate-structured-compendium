@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:intimidate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Attack",
+            "Defense"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f2979c0651f1"
+}

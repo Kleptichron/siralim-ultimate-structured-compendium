@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:impale",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "adjacent_enemies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 75
+          },
+          "params": {
+            "anchor": "the target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "392c0d22059f"
+}

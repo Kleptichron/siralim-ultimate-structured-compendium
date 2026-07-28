@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:kindle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large"
+          },
+          "params": {
+            "bonusPct": 5,
+            "per": "time the caster has Attacked this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1506edc7d095"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:holy-spear",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "scaleRef": "other",
+            "scalePct": 50,
+            "per": "caster's Barrier strength"
+          },
+          "statuses": [
+            "Barrier"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "862b0a43c9a4"
+}

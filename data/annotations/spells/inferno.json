@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:inferno",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
+          "params": {
+            "property": "duration (turns)"
+          }
+        },
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "909fa2d636ff"
+}

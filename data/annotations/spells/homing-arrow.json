@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:homing-arrow",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleStat": "Speed"
+          },
+          "params": {
+            "ignoresDefensePct": 50,
+            "basis": "100% caster's Speed instead of Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f7dc285136d2"
+}

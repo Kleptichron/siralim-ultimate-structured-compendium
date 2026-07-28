@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:improvised-recitation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "spells": "3 of their Ethereal Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "abf3c34a3d5e"
+}
