@@ -1,7 +1,7 @@
 {
   "id": "spell:stasis-sword",
   "textHash": "ff0c1ad5c03a",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

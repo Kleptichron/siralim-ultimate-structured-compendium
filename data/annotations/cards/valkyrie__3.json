@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "claude",
   "id": "card:valkyrie:3",
   "rules": [
@@ -10,7 +10,7 @@
       },
       "actions": [
         {
-          "verb": "crit_modifier",
+          "verb": "crit_chance_modifier",
           "target": "enemies",
           "magnitude": {
             "amountPct": 75

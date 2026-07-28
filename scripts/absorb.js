@@ -42,7 +42,7 @@ for (const f of batchFiles) {
       ...raw,
       textHash: record.textHash, // stamped at absorb time
     };
-    const errs = [...validateAnnotation(ann, record, lex), ...crossCheckStatuses(ann, record, lex)];
+    const errs = [...validateAnnotation(ann, record, lex, byId), ...crossCheckStatuses(ann, record, lex)];
     if (errs.length) { errors.push(...errs.map(e => `${f}: ${e}`)); continue; }
     const { dir, file } = idToPath(ann.id);
     const path = `data/annotations/${dir}/${file}`;

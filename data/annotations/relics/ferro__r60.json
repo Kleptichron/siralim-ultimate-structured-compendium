@@ -1,7 +1,7 @@
 {
   "id": "relic:ferro:r60",
   "textHash": "99bd71b3b1c6",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

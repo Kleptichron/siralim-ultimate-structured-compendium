@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 4;
+export const SCHEMA_VERSION = 5;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -112,8 +112,8 @@ export const ACTION_VERBS = [
   'redirect_target', // taunt/provoke-style redirection
   'prevent_action',  // "cannot Provoke/dodge/be resurrected/cast..."
   'dodge_modifier',  // dodge/avoid-damage chance changes
-  'crit_modifier',   // critical-hit CHANCE changes; crit damage AMOUNT stays
-                     //   damage_modifier + params.criticalOnly
+  'crit_chance_modifier', // critical-hit CHANCE changes; crit damage AMOUNT stays
+                          //   damage_modifier + params.criticalOnly
   'equipment_modifier', // amplifies gear the creature carries: artifact
                         //   properties, Nether Stones (params.equipment names it)
   'copy',
@@ -154,7 +154,7 @@ const ACTION_KEYS = new Set([
 ]);
 const ANN_KEYS = new Set([
   'id', 'textHash', 'schemaVersion', 'provenance', 'machineTemplate',
-  'rules', 'flags', 'waivedStatuses', 'notes',
+  'rules', 'flags', 'waivedStatuses', 'notes', 'amplifies',
 ]);
 // Verbs whose action always has a performer in game terms.
 const ACTOR_REQUIRED_VERBS = new Set(['attack', 'cast']);
@@ -176,7 +176,7 @@ export function referencedStatuses(ann) {
   return found;
 }
 
-export function validateAnnotation(ann, record, lex) {
+export function validateAnnotation(ann, record, lex, corpus) {
   const errors = [];
   const err = m => errors.push(`${ann?.id ?? record?.id ?? '?'}: ${m}`);
 
@@ -186,10 +186,24 @@ export function validateAnnotation(ann, record, lex) {
   if (ann.schemaVersion !== SCHEMA_VERSION) err(`schemaVersion ${ann.schemaVersion} != ${SCHEMA_VERSION}`);
   if (!PROVENANCE.includes(ann.provenance)) err(`bad provenance "${ann.provenance}"`);
 
+  // Meta-records ("Doubles the potency of these effects") point at the sibling
+  // records they amplify; the index inherits those siblings' facets.
+  if (ann.amplifies !== undefined) {
+    if (!Array.isArray(ann.amplifies) || ann.amplifies.length === 0
+        || !ann.amplifies.every(x => typeof x === 'string')) {
+      err('amplifies must be a non-empty array of record ids');
+    } else {
+      for (const aid of ann.amplifies) {
+        if (aid === ann.id) err('amplifies must not reference itself');
+        else if (corpus && !corpus.has(aid)) err(`amplifies unknown id "${aid}"`);
+      }
+    }
+  }
+
   const rules = ann.rules;
   if (!Array.isArray(rules)) { err('rules must be an array'); return errors; }
-  if (rules.length === 0 && !ann.flags?.unmodeled && !record.meta?.loreOnly) {
-    err('rules empty without flags.unmodeled or loreOnly record');
+  if (rules.length === 0 && !ann.flags?.unmodeled && !ann.amplifies?.length && !record.meta?.loreOnly) {
+    err('rules empty without flags.unmodeled, amplifies, or loreOnly record');
   }
 
   rules.forEach((rule, i) => {

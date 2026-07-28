@@ -1,7 +1,7 @@
 {
   "id": "perk:inquisitor:shining-force",
   "textHash": "f4ade117c089",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "machine",
   "machineTemplate": "start-battle-gain",
   "rules": [

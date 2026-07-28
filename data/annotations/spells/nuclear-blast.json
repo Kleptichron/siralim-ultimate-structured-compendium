@@ -1,7 +1,7 @@
 {
   "id": "spell:nuclear-blast",
   "textHash": "b148d4ecd28b",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

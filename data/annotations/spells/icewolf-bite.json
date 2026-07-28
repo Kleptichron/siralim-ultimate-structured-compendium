@@ -1,7 +1,7 @@
 {
   "id": "spell:icewolf-bite",
   "textHash": "caeb9665f058",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

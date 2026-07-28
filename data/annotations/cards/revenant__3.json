@@ -1,11 +1,12 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "claude",
   "id": "card:revenant:3",
   "rules": [],
-  "flags": {
-    "unmodeled": true
-  },
   "notes": "Meta-record: extends this card set's tier 1-2 debuff-count scaling to buffs as well.",
-  "textHash": "45ecdcc13b45"
+  "textHash": "45ecdcc13b45",
+  "amplifies": [
+    "card:revenant:1",
+    "card:revenant:2"
+  ]
 }

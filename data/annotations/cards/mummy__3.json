@@ -1,11 +1,12 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "claude",
   "id": "card:mummy:3",
   "rules": [],
-  "flags": {
-    "unmodeled": true
-  },
   "notes": "Meta-record: amplifies this card set's tier 1-2 effects; no independent mechanic to model.",
-  "textHash": "8f7acdd91fc0"
+  "textHash": "8f7acdd91fc0",
+  "amplifies": [
+    "card:mummy:1",
+    "card:mummy:2"
+  ]
 }

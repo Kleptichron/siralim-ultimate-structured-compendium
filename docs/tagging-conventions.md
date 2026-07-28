@@ -1,4 +1,4 @@
-# Tagging conventions (schema v4 — v2 frozen 2026-07-06; additive extensions 2026-07-28: v3 verbs, v4 action_state)
+# Tagging conventions (schema v5 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies)
 
 Re-read this before every tagging session. Post-freeze schema changes require a
 migration script in scripts/migrations/ and a full re-validation.
@@ -83,13 +83,17 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
 16. **Multi-sentence effects**: one rule per independent WHEN/DO fact. Meta-clauses that
     modify other mechanics ("ignores traits that…") go in `notes` if their core is
     already modeled.
-17. **Critical hits** (v3): chance to crit → verb `crit_modifier`; crit damage
-    AMOUNT → `damage_modifier` + `params.criticalOnly` + flow dealt.
+17. **Critical hits** (v3, renamed v5): chance to crit → verb
+    `crit_chance_modifier`; crit damage AMOUNT → `damage_modifier` +
+    `params.criticalOnly` + flow dealt.
 18. **Gear amplifiers** (v3): "Artifacts' X properties / Nether Stones are N% more
     powerful" → verb `equipment_modifier`, `params.equipment` ('artifact' |
     'nether_stone'), `params.property` when the text names one.
-19. **Card-set meta-records** ("Doubles the potency of these effects") →
-    `flags.unmodeled` + notes; they modify sibling records, not the battle.
+19. **Card-set meta-records** ("Doubles the potency of these effects") (v5) →
+    empty `rules` + `amplifies: [sibling ids]` (validator checks the ids
+    exist). The index inherits the amplified records' facets, so the
+    meta-record answers the same searches its siblings do. `flags.unmodeled`
+    stays reserved for genuinely unmodelable text.
 20. **"While they're Provoking/Defending/dead"** (v4) → condition `action_state`,
     `params.state` ('provoking' | 'defending' | 'dead'). Being attacked with a
     failed Dodge etc. stays a trigger param, not a state.

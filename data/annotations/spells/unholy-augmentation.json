@@ -1,7 +1,7 @@
 {
   "id": "spell:unholy-augmentation",
   "textHash": "9546d6b0974a",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

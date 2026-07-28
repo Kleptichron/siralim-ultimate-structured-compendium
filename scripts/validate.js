@@ -47,7 +47,7 @@ for (const [id, { ann, path }] of overrides) {
 for (const [id, { ann, path }] of annotations) {
   const record = byId.get(id);
   if (!record) { errors.push(`${path}: orphan annotation — id not in normalized data`); continue; }
-  errors.push(...validateAnnotation(ann, record, lex));
+  errors.push(...validateAnnotation(ann, record, lex, byId));
   errors.push(...crossCheckStatuses(ann, record, lex));
   if (ann.textHash !== record.textHash) {
     errors.push(`${id}: annotation textHash ${ann.textHash} != current ${record.textHash} (text drifted — retag)`);

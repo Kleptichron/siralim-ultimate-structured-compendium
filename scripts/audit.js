@@ -98,5 +98,6 @@ for (const a of pool) {
   console.log(`  "${rec?.text}"`);
   for (const r of a.rules ?? []) console.log(`  ${renderRule(r)}`);
   if (a.flags) console.log(`  flags: ${JSON.stringify(a.flags)}`);
+  if (a.amplifies) console.log(`  amplifies: ${a.amplifies.join(', ')} (facets inherited)`);
   if (a.notes) console.log(`  notes: ${a.notes}`);
 }

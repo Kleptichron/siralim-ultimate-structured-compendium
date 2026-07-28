@@ -1,7 +1,7 @@
 {
   "id": "spell:dark-whispers",
   "textHash": "f148e12b9415",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

@@ -1,7 +1,7 @@
 {
   "id": "spell:sanctuary",
   "textHash": "9868f8557741",
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

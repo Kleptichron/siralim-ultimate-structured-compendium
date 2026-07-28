@@ -100,6 +100,7 @@ export function cardHtml(rec, query) {
   const rules = (rec.rules ?? []).map(r => ruleHtml(r, query)).join('');
   const flags = [];
   if (rec.flags?.stacks === false) flags.push('does not stack');
+  if (rec.amplifies) flags.push(`amplifies: ${rec.amplifies.map(esc).join(', ')}`);
   if (rec.notes) flags.push(esc(rec.notes));
   return `<div class="card">
     <div class="head"><span class="name">${esc(rec.name)}</span>${badges.join('')}</div>

@@ -138,8 +138,27 @@ for (const src of Object.values(SOURCE_DIRS)) {
       entry.rules = ann.rules;
       if (ann.flags) entry.flags = ann.flags;
       if (ann.notes) entry.notes = ann.notes;
+      if (ann.amplifies) entry.amplifies = ann.amplifies;
     }
     records.push(entry);
+  }
+}
+
+// Meta-records inherit the array facets of the records they amplify, so
+// "Doubles the potency of these effects" answers the same queries its
+// siblings do.
+{
+  const byEntry = new Map(records.map(e => [e.id, e]));
+  for (const e of records) {
+    if (!e.amplifies) continue;
+    for (const sid of e.amplifies) {
+      const s = byEntry.get(sid);
+      if (!s?.facets) continue;
+      e.facets ??= {};
+      for (const [k, v] of Object.entries(s.facets)) {
+        if (Array.isArray(v)) e.facets[k] = [...new Set([...(e.facets[k] ?? []), ...v])].sort();
+      }
+    }
   }
 }
 

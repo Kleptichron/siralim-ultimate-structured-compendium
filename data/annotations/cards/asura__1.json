@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "provenance": "claude",
   "id": "card:asura:1",
   "rules": [
@@ -19,7 +19,7 @@
       ],
       "actions": [
         {
-          "verb": "crit_modifier",
+          "verb": "crit_chance_modifier",
           "target": "allies",
           "magnitude": {
             "amountPct": 10,
