@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pocket-frog",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "ally",
+          "params": {
+            "to": "top",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Only activates if no other creature of yours has this trait.",
+  "textHash": "4289ee88fdca"
+}

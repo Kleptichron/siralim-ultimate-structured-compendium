@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pilgrimage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 50
+          },
+          "params": {
+            "what": "spell potency",
+            "addedTo": "Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "80d498e8c534"
+}

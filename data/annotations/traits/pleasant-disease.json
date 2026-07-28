@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pleasant-disease",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "minions",
+        "params": {
+          "event": "Writhelings afflict a debuff",
+          "minion": "Writhelings"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "ally",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minion": "Writhelings",
+            "stacks": 1
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Minion-effect events have no trigger; other is honest here.",
+  "textHash": "56801d7c3926"
+}

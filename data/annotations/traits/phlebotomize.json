@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:phlebotomize",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "holder",
+          "statusKind": "debuff",
+          "params": {
+            "all": true
+          }
+        },
+        {
+          "verb": "heal",
+          "actor": "holder",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 50,
+            "scaleRef": "debuff_count",
+            "per": "debuff removed"
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "49c1bc00f729"
+}

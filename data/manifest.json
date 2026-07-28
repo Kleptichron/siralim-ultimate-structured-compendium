@@ -17372,163 +17372,203 @@
     },
     "trait:parry": {
       "hash": "2f2a1410d3ec",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:patch-up": {
       "hash": "a44f931d9025",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:patience": {
       "hash": "a415abc97f84",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:patriarchy": {
       "hash": "59e6d0535dee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:peace-and-other-myths": {
       "hash": "edaa82317ea8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pedigree-safeguard": {
       "hash": "71d640ab919b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:peekaboo": {
       "hash": "2c58922aa3fb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pendulum-s-return": {
       "hash": "8bab72c66dc3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:perfect-imperfection": {
       "hash": "70377968badd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:perfect-replica": {
       "hash": "f0e731ed38a5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:perfectly-balanced": {
       "hash": "eee79b52cbd7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:periphery": {
       "hash": "f1b734a7b658",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:perishing-salvo": {
       "hash": "23c4a6e89e27",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:permanence": {
       "hash": "fc5c07cfcda8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:petrified-hope": {
       "hash": "8e04daa7f702",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:phantasm": {
       "hash": "6804541e22a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pharaoh-s-bane": {
       "hash": "3bbdd398c252",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pharaoh-s-beckoning": {
       "hash": "d7ce22e1f460",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pharaoh-s-boon": {
       "hash": "284e74d76aca",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:phase-out": {
       "hash": "e444847f32b0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:phase-shift": {
       "hash": "753364cbeb61",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:phasers": {
       "hash": "71d6b23092a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:phlebotomize": {
       "hash": "49c1bc00f729",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:phobos-s-grip": {
       "hash": "ca5a5d594c2b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:photomorphogenesis": {
       "hash": "5e00673a4aa4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pica": {
       "hash": "9846821130a5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pierce-the-veil": {
       "hash": "c5990dc34e26",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:piercing-dragon-claws": {
       "hash": "cc679931c1c8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:piercing-focus": {
       "hash": "bc9a2c16a55f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:piercing-speed": {
       "hash": "dc4c834deda2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pilgrimage": {
       "hash": "80d498e8c534",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pins-and-needles": {
       "hash": "f01149067032",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pleasant-disease": {
       "hash": "56801d7c3926",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:plunder": {
       "hash": "6f1dd13ce202",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pocket-frog": {
       "hash": "4289ee88fdca",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pocket-tank": {
       "hash": "38f9f01458e3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:poison-inoculation": {
       "hash": "2fa9794a19f6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:poof": {
       "hash": "754311b8404a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pop": {
       "hash": "be430caf774f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:potency": {
       "hash": "be6c127a671f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:potion-time": {
       "hash": "8e14295ee236",

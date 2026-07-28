@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:piercing-focus",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 1,
+            "scaleStat": "missing_health",
+            "per": "1% health it is missing"
+          },
+          "params": {
+            "what": "Defense ignored",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bc9a2c16a55f"
+}

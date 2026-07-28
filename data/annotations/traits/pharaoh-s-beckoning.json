@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pharaoh-s-beckoning",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "target",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "forced": true,
+            "damagePctOfNormal": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d7ce22e1f460"
+}

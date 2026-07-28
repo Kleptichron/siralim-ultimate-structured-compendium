@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:phasers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "params": {
+            "effect": "always deals 0 damage",
+            "source": "attacks"
+          }
+        },
+        {
+          "verb": "gain_charges",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "a non-Ultimate Spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "71d6b23092a1"
+}

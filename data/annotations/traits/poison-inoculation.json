@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:poison-inoculation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Poisoned"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "source": "Poisoned",
+            "effect": "converted to healing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2fa9794a19f6"
+}

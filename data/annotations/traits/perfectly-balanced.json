@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:perfectly-balanced",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Current Health"
+          ],
+          "params": {
+            "setToPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "eee79b52cbd7"
+}

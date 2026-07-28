@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pedigree-safeguard",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "holder",
+          "params": {
+            "effect": "intercepts attacks on allies of its own race"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "71d640ab919b"
+}

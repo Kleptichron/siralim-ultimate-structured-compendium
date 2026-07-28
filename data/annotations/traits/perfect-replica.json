@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:perfect-replica",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "holder",
+          "params": {
+            "into": "a copy of the target"
+          }
+        },
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "the target's Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f0e731ed38a5"
+}

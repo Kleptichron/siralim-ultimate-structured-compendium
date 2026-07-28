@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:peace-and-other-myths",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "params": {
+            "what": "on-dodge effects",
+            "mode": "ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "edaa82317ea8"
+}

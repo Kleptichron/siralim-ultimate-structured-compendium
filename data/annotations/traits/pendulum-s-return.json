@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pendulum-s-return",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "allies",
+          "params": {
+            "class": "Death"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Agile"
+          ],
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "which": "your Death and Beacon creatures"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "allies",
+        "params": {
+          "by": "an enemy",
+          "timing": "would"
+        }
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "enemy",
+          "params": {
+            "class": "Death"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "params": {
+            "instead": "of the debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8bab72c66dc3"
+}

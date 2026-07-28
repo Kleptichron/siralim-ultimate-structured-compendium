@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pop",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Bomb"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ],
+          "magnitude": {
+            "scaleRef": "status_potency"
+          },
+          "params": {
+            "range": "1% to 160% of their Bomb potency",
+            "instead": "of afflicting"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "be430caf774f"
+}

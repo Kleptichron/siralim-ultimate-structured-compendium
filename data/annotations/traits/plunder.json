@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:plunder",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "lowest_stat"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "scaleRef": "damage_dealt",
+            "scalePct": 50
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "lowest_stat"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "damage_dealt",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6f1dd13ce202"
+}

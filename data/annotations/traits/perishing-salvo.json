@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:perishing-salvo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 15
+          },
+          "params": {
+            "multipliedBy": "the Attack increases from its Artifact's Stat Slots"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "23c4a6e89e27"
+}
