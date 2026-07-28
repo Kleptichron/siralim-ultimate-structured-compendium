@@ -43,5 +43,8 @@
       ]
     }
   ],
-  "textHash": "773b5de37622"
+  "textHash": "773b5de37622",
+  "flags": {
+    "stacks": false
+  }
 }
