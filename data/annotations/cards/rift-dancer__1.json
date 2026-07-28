@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:rift-dancer:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Warded"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          },
+          "params": {
+            "amplifies": "stat gains"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "72631b1a62e9"
+}

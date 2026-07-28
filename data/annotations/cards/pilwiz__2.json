@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:pilwiz:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "trigger_subject",
+          "flow": "taken",
+          "statuses": [
+            "Bleeding"
+          ],
+          "params": {
+            "source": "Bleeding",
+            "effect": "damage doubled"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Source typo: 'have a 10% damage to take' read as 'have a 10% chance to take'.",
+  "textHash": "5df08ec7ef51"
+}

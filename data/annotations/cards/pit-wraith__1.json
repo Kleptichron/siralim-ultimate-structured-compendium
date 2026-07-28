@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:pit-wraith:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          },
+          "params": {
+            "resource": "experience",
+            "from": "battles"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cc0d39599ce3"
+}

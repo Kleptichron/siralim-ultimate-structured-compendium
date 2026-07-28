@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:slime:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "enemy",
+        "params": {
+          "event": "Confused debuff activates"
+        }
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "trigger_subject",
+          "statuses": [
+            "Confused"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
+          "params": {
+            "property": "duration (turns)"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models a status activating; trigger other is honest here.",
+  "textHash": "dae5d01fde29"
+}

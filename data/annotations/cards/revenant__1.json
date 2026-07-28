@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:revenant:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 2,
+            "direction": "down",
+            "scaleRef": "debuff_count",
+            "per": "debuff on the creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "394bee84136f"
+}

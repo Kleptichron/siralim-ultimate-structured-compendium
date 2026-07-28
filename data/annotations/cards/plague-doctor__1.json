@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:plague-doctor:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "down"
+          },
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "source": "Poisoned"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8809faf2fa39"
+}

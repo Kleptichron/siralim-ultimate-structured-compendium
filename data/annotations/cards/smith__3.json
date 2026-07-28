@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:smith:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "artifact",
+            "property": "Spell Slots",
+            "effect": "activation chance"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6bb002f59b20"
+}

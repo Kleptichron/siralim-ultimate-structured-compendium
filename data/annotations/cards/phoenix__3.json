@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:phoenix:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "what": "resurrection limit per battle",
+            "value": 15
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Raises the per-battle resurrection cap; no verb models rule-caps — other is honest here.",
+  "textHash": "3c06089d648b"
+}

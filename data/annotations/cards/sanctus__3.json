@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:sanctus:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "allies",
+        "params": {
+          "status": "Barrier",
+          "context": "destroyed"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is unspecified in the text ('a chance to gain Shelled') — no rule.chance recorded.",
+  "textHash": "15f3737fba06"
+}

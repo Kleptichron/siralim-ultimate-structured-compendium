@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:smog:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Poisoned"
+          ],
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          },
+          "params": {
+            "property": "Attack added on application"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "319fc1078a79"
+}

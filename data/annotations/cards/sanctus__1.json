@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:sanctus:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          },
+          "params": {
+            "property": "damage absorbed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7a1254cd7141"
+}

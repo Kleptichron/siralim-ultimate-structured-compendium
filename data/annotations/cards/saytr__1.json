@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:saytr:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "chance": 3,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "Seals a Spell Gem",
+            "appliesTo": "each Spell Gem independently"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f7e40e200822"
+}

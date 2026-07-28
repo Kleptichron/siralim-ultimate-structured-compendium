@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:shade:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Invisible"
+          ],
+          "params": {
+            "effect": "not removed after attacking or casting"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d67f1cf79c23"
+}
