@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:tectonic-upheaval",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "massive"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "tier": "massive",
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Snared"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "bcbdb9c84d0d"
+}

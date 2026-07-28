@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spirit-breaker",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small",
+            "scaleRef": "turns_taken"
+          },
+          "params": {
+            "bonusPct": 50,
+            "per": "turn it has taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c59d86da37ee"
+}

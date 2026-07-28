@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:supremacy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 1,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "enemies",
+          "params": {
+            "chancePer": "1% Health they're missing",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per 1% missing Health; rule.chance records the per-percent value.",
+  "textHash": "7ab747598669"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:timely-demise",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "small"
+          },
+          "params": {
+            "increasedBy": "the duration of the current battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f439cf369085"
+}

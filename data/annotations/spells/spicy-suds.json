@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spicy-suds",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Splashing"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "target": "random_enemy"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "lacks_status",
+          "who": "allies",
+          "params": {
+            "status": "Splashing"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Splashing"
+          ],
+          "params": {
+            "otherwise": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Booze Spell.",
+  "textHash": "f27e2b415274"
+}

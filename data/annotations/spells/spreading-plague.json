@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spreading-plague",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "steal_status",
+          "target": "target",
+          "statusKind": "debuff",
+          "params": {
+            "all": true,
+            "recipients": "enemies at random",
+            "inverted": "removes from the target and gives to enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3667a9486470"
+}

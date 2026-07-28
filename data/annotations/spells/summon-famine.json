@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:summon-famine",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "caster",
+          "params": {
+            "minion": "Famine"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "acdc28980b94"
+}

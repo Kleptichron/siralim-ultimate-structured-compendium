@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:trade-offer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "target",
+          "params": {
+            "what": "the caster's Artifact Trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "55733d7941e2"
+}

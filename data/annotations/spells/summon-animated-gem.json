@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:summon-animated-gem",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "caster",
+          "params": {
+            "minion": "Animated Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "37a06cca7ef8"
+}

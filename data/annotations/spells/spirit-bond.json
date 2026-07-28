@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spirit-bond",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "target",
+          "params": {
+            "what": "the caster's trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f4b1e61e861f"
+}

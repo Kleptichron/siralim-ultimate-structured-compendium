@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:stampede",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "target": "enemy",
+          "params": {
+            "each": true,
+            "damagePctOfNormal": 50,
+            "targeting": "the enemy in their corresponding position"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e735a1d00b7c"
+}

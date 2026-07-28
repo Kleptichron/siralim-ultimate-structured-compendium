@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:summon-horde",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "scaleRef": "other",
+            "per": "creature of the same class as the caster"
+          },
+          "params": {
+            "minion": "random minion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f6ebcbae4842"
+}

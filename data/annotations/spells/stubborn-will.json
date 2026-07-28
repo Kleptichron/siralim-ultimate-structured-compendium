@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:stubborn-will",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "target",
+          "magnitude": {
+            "tier": "small",
+            "scaleRef": "debuff_count",
+            "per": "debuff (up to 5)",
+            "cap": 5
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d58af4a69b67"
+}

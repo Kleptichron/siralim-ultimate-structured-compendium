@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:summon-war",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "caster",
+          "params": {
+            "minion": "War"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bd63f2abc43f"
+}
