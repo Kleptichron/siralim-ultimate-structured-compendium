@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:fanatic:transcendence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "other",
+        "params": {
+          "who": "Godspawn"
+        }
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "their respective Avatar's Ultimate Spell"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "da695f2dfec8"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:gladiator:acclimated-armaments",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Arsenal spell cast this battle"
+          },
+          "params": {
+            "what": "Arsenal spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1270fd9a9c4f"
+}

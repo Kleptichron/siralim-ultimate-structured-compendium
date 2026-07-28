@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:gladiator:helping-hand",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "their Trick Slots activate"
+        }
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "ally",
+          "params": {
+            "healthPct": 50
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "ally",
+          "magnitude": {
+            "amountPct": 50
+          },
+          "params": {
+            "otherwise": "if no creature is dead",
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Resurrect branch first; heal is the fallback when nothing is dead.",
+  "textHash": "b6cb5bdc9d1b"
+}

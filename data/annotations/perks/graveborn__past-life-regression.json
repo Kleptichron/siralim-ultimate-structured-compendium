@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:graveborn:past-life-regression",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "allies",
+          "params": {
+            "effect": "stat changes persist through death"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9e877765337f"
+}

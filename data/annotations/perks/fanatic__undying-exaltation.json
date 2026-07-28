@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:fanatic:undying-exaltation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Avatars"
+        }
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "turns spent dead",
+            "atLeast": 7
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "other",
+          "params": {
+            "who": "Avatars",
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0044fcc888e9"
+}

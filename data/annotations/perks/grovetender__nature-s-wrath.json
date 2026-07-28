@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:nature-s-wrath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "other",
+          "qualifiers": [
+            "permanent"
+          ],
+          "statuses": [
+            "Agile",
+            "Savage",
+            "Leeching",
+            "Splashing",
+            "Berserk",
+            "Arcane"
+          ],
+          "params": {
+            "who": "Herbling",
+            "oneBuffPerTier": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3f42eb8480a5"
+}

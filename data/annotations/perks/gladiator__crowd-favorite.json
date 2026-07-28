@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:gladiator:crowd-favorite",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "their Trick Slots activate"
+        }
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "a random Arsenal Spell"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models Trick Slot activation; trigger other is honest here.",
+  "textHash": "6b38a4cd5551"
+}

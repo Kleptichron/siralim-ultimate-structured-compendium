@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:gladiator:killing-machine",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spells": "each of their Arsenal Spells",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6928a6df842d"
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:defensins",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "other",
+          "statusKind": "debuff",
+          "params": {
+            "who": "Herbling",
+            "kind": "resistant"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "Herbling Tier",
+            "atLeast": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "other",
+          "statusKind": "debuff",
+          "params": {
+            "who": "Herbling",
+            "kind": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "02515328f5a9"
+}

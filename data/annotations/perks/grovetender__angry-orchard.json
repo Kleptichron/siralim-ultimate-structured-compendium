@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:angry-orchard",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "other",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Herbling Tier"
+          },
+          "params": {
+            "who": "Herbling",
+            "spell": "Cruelty of the Wild",
+            "what": "potency bonus"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7961dbdb3816"
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:graveborn:somnus",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "deaths this battle",
+            "atMost": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "ladder": "25% / 50% / 100% Health on first / second / third death"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "allies",
+          "params": {
+            "action": "being resurrected by any other means"
+          }
+        },
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "params": {
+            "what": "on-resurrect effects",
+            "mode": "only once at a time"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Always active while the specialization is Graveborn, regardless of Perk Points.",
+  "textHash": "3910d69207ea"
+}

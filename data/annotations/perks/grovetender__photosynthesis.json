@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:photosynthesis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "other",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "healing / stat gain / buff / minion / resurrection event"
+          },
+          "params": {
+            "who": "Herbling",
+            "except": "Health"
+          }
+        },
+        {
+          "verb": "transform",
+          "target": "other",
+          "params": {
+            "who": "Herbling",
+            "what": "evolves a Tier at the start of its turn per 15% stats gained"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a5bef9064b4b"
+}

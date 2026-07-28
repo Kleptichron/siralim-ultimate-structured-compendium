@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:eternal-blossom",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "other",
+          "target": "allies",
+          "params": {
+            "who": "Herbling",
+            "spell": "Wild Growth",
+            "targets": "allies equal to its Tier"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c02eeb9ac342"
+}

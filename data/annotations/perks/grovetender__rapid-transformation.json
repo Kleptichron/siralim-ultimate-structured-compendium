@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:rapid-transformation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "other",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Tier"
+          },
+          "params": {
+            "who": "Herbling"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "other",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "Tier"
+          },
+          "params": {
+            "who": "Herbling"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3ccec61ac428"
+}

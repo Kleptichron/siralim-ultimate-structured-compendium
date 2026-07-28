@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:graveborn:dread-covenant",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "resurrection this battle",
+            "cap": 80
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5e266d6ff417"
+}

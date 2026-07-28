@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:graveborn:graveborn-bargain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "resurrections this battle",
+            "atMost": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "ladder": "1 / 2 / 3 buffs on first / second / third resurrection"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "73030641c7e1"
+}

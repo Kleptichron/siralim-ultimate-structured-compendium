@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:deep-roots",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "conditions": [
+        {
+          "type": "other",
+          "params": {
+            "position": "first creature in the party"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "actor": "other",
+          "params": {
+            "who": "Herbling",
+            "action": "Provoke"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "conditions": [
+        {
+          "type": "other",
+          "params": {
+            "position": "sixth creature in the party"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "other",
+          "params": {
+            "who": "Herbling",
+            "action": "Defends"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Party-position has no condition type; condition other is honest here.",
+  "textHash": "256ef31c3514"
+}

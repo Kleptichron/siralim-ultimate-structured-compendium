@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:gladiator:it-s-called-a-lance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true,
+          "spellType": "Arsenal"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "Living Lance (type based on the caster's class)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "066a22a330d9"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:strangler",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 10
+            },
+            "scaleRef": "other",
+            "per": "Herbling Tier"
+          },
+          "params": {
+            "of": "the Herbling's stats"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1c1d65a1714d"
+}

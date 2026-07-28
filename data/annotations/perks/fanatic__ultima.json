@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:fanatic:ultima",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Avatars"
+        }
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "other",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          },
+          "params": {
+            "who": "Avatars",
+            "what": "Ultimate Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5000732734b6"
+}

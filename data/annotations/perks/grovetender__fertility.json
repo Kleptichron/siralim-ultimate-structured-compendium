@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:grovetender:fertility",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Herbling"
+        }
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "other",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "who": "Herbling",
+            "what": "evolution rate"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Herbling evolution has no verb; other is honest here.",
+  "textHash": "341da9f7b0bc"
+}

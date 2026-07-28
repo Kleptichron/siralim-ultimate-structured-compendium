@@ -3589,43 +3589,53 @@
     },
     "perk:fanatic:transcendence": {
       "hash": "da695f2dfec8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:ultima": {
       "hash": "5000732734b6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:undying-exaltation": {
       "hash": "0044fcc888e9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:unstoppable-force": {
       "hash": "a0e7f9f66c2f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:acclimated-armaments": {
       "hash": "1270fd9a9c4f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:blacksmith-s-boon": {
       "hash": "f4f7c0f32759",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:crowd-favorite": {
       "hash": "6b38a4cd5551",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:double-time": {
       "hash": "85792006eeba",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:elbow-grease": {
       "hash": "7f7be7d2a1a5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:frenzy": {
       "hash": "7d01f76dc0e7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:grip-of-the-gods": {
       "hash": "329df6964640",
@@ -3634,167 +3644,208 @@
     },
     "perk:gladiator:helping-hand": {
       "hash": "b6cb5bdc9d1b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:impending-victory": {
       "hash": "03673e7ec3b3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:it-s-called-a-lance": {
       "hash": "066a22a330d9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:killing-machine": {
       "hash": "6928a6df842d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:nether-imbuement": {
       "hash": "193b4137fe29",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:reprimand": {
       "hash": "de2151dae13d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:taking-measure": {
       "hash": "1cb6031633c5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:turn-the-tables": {
       "hash": "88c386c3914e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:war-paint": {
       "hash": "72a18b6e3849",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:carapace-that-protects": {
       "hash": "5d2196b945c2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:claws-that-cast": {
       "hash": "5b0d675b905a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:death-s-bane": {
       "hash": "93050be487c3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:death-s-echo": {
       "hash": "ebf4ca48bd10",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:dread-covenant": {
       "hash": "5e266d6ff417",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:eternal-legacy": {
       "hash": "8b5e18415d1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:from-beyond-the-grave": {
       "hash": "84e00ffe8f2b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:graveborn-bargain": {
       "hash": "73030641c7e1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:heart-that-thrives": {
       "hash": "f02a833af9f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:jaws-that-bite": {
       "hash": "a0ae8576b698",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:legs-that-carry": {
       "hash": "1c42711c355b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:mortal-vessel": {
       "hash": "a6f760baeb25",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:past-life-regression": {
       "hash": "9e877765337f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:somnus": {
       "hash": "3910d69207ea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:unnatural-causes": {
       "hash": "2ab292cf027f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:graveborn:visitors-from-before": {
       "hash": "90b392755c1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:acclimatization": {
       "hash": "f0d2d30d5d9f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:angry-orchard": {
       "hash": "7961dbdb3816",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:biodegradation": {
       "hash": "126b75ca12a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:cultivation": {
       "hash": "920d0ea17d23",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:deep-roots": {
       "hash": "256ef31c3514",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:defensins": {
       "hash": "02515328f5a9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:eternal-blossom": {
       "hash": "c02eeb9ac342",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:fertility": {
       "hash": "341da9f7b0bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:nature-s-wrath": {
       "hash": "3f42eb8480a5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:offense-mechanism": {
       "hash": "93aca5ca5d1f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:parasitic-fertilization": {
       "hash": "c37da60dccdd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:photosynthesis": {
       "hash": "a5bef9064b4b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:rapid-transformation": {
       "hash": "3ccec61ac428",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:strangler": {
       "hash": "1c1d65a1714d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:symbiosis": {
       "hash": "9fd420550c82",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:grovetender:synthetic-resin": {
       "hash": "968ea7f48462",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:blazing-soul": {
       "hash": "1ac4c57e3fca",
