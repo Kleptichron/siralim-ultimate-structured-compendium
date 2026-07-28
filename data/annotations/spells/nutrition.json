@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "spell:nutrition",
   "rules": [
@@ -24,9 +24,9 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "outcome",
           "params": {
-            "requires": "a debuff was successfully removed"
+            "result": "a debuff was successfully removed"
           }
         }
       ],

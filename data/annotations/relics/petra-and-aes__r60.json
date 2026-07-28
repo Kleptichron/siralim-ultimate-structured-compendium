@@ -1,7 +1,7 @@
 {
   "id": "relic:petra-and-aes:r60",
   "textHash": "b3b4531e93db",
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

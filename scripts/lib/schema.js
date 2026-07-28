@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 7;
+export const SCHEMA_VERSION = 8;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -84,6 +84,10 @@ export const CONDITION_TYPES = [
   'timeline_position',
   'action_state',       // in-battle state: "while they're Provoking/Defending/dead" —
                         //   params.state names it
+  'comparison',         // dynamic property check: "target's class equals the caster's",
+                        //   "first creature in the party" (params.what / equals)
+  'outcome',            // rider on a prior action's result: "if this spell kills the
+                        //   target", "if a debuff was removed" (params.result)
   'other',
 ];
 

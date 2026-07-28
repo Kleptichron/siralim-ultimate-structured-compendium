@@ -1,4 +1,4 @@
-# Tagging conventions (schema v7 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope)
+# Tagging conventions (schema v8 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions)
 
 Re-read this before every tagging session. Post-freeze schema changes require a
 migration script in scripts/migrations/ and a full re-validation.
@@ -101,11 +101,17 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     carries the number (rule 6), verb describes the outcome
     (`dodge_modifier` + `params.kind: 'avoid damage'`). Chance DELTAS
     ("10% lower chance to Dodge") stay `dodge_modifier` + magnitude.
-22. **Activation counts & rule caps** (v6): "X effects activate N additional
+22. **Dynamic checks & outcome riders** (v8): property checks against another
+    entity or a slot ("target's class equals the caster's", "first creature in
+    the party") → condition `comparison` (params.what/of/equals). Riders on a
+    prior action's result ("if this spell kills the target", "if a debuff was
+    removed") → condition `outcome` (params.result). "Has all of X, Y, Z"
+    composition requirements → `count_comparison`, never `other`.
+23. **Activation counts & rule caps** (v6): "X effects activate N additional
     times / activate now" → verb `activation_modifier` (`params.what` names
     the effect family; magnitude carries the count). "Maximum N per
     battle/turn" caps → verb `limit_modifier` + `magnitude.amountFlat`.
-23. **Relics** (v7): "the bearer" = `holder`. The relic is its own battle
+24. **Relics** (v7): "the bearer" = `holder`. The relic is its own battle
     entity: "This relic Attacks/Casts" → actor `relic`; "After this relic
     Attacks" → trigger subject `relic`. The `relic` scope is valid only in
     relic records. "This relic or its bearer…" (either source) → subject

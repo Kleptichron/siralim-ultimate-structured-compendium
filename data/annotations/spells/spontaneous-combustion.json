@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "spell:spontaneous-combustion",
   "rules": [
@@ -21,9 +21,9 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "outcome",
           "params": {
-            "requires": "the kill succeeded"
+            "result": "the kill succeeded"
           }
         }
       ],

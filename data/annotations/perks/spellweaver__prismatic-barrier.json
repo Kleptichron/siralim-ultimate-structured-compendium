@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "perk:spellweaver:prismatic-barrier",
   "rules": [
@@ -10,9 +10,10 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "count_comparison",
           "params": {
-            "requires": "an Infusion matching the creature's class"
+            "what": "Infusions matching the creature's class",
+            "atLeast": 1
           }
         }
       ],

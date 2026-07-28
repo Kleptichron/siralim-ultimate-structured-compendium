@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "perk:necromancer:four-horsemen",
   "rules": [
@@ -10,9 +10,10 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "count_comparison",
           "params": {
-            "requires": "the creature has Conquest, Famine, Death, and War"
+            "what": "of Conquest, Famine, Death, War held by the creature",
+            "all": 4
           }
         }
       ],

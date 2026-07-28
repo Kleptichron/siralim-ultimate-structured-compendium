@@ -1,7 +1,7 @@
 {
   "id": "spell:clogged-pores",
   "textHash": "a95c2e21dc9a",
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

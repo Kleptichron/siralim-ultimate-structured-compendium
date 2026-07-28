@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "perk:grovetender:deep-roots",
   "rules": [
@@ -13,9 +13,10 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "comparison",
           "params": {
-            "position": "first creature in the party"
+            "what": "party position",
+            "equals": "first"
           }
         }
       ],
@@ -40,9 +41,10 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "comparison",
           "params": {
-            "position": "sixth creature in the party"
+            "what": "party position",
+            "equals": "sixth"
           }
         }
       ],

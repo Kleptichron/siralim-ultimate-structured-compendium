@@ -1,7 +1,7 @@
 {
   "id": "relic:wintermaul:r70",
   "textHash": "92969022c97f",
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

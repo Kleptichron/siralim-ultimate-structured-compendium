@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "spell:heat-beam",
   "rules": [
@@ -20,9 +20,9 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "outcome",
           "params": {
-            "requires": "the target cannot be killed"
+            "result": "the kill failed (target cannot be killed)"
           }
         }
       ],

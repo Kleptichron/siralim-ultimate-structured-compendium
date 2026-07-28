@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "spell:cannibalize",
   "rules": [
@@ -23,9 +23,11 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "comparison",
           "params": {
-            "requires": "target's class equals the caster's class"
+            "what": "class",
+            "of": "target",
+            "equals": "the caster's class"
           }
         }
       ],

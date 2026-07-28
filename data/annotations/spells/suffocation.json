@@ -1,7 +1,7 @@
 {
   "id": "spell:suffocation",
   "textHash": "d21f2e145174",
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

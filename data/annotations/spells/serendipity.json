@@ -1,7 +1,7 @@
 {
   "id": "spell:serendipity",
   "textHash": "3f2ea0ac70bb",
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

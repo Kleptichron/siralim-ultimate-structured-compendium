@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "spell:internal-combustion",
   "rules": [
@@ -23,9 +23,9 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "outcome",
           "params": {
-            "requires": "this spell kills the target"
+            "result": "this spell killed the target"
           }
         }
       ],

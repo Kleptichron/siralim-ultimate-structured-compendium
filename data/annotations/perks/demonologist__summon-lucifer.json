@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "claude",
   "id": "perk:demonologist:summon-lucifer",
   "rules": [
@@ -9,9 +9,10 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "count_comparison",
           "params": {
-            "requires": "team collectively has Asmodeus, Beelzebub, Mammon, Leviathan, and Belphegor"
+            "what": "of Asmodeus, Beelzebub, Mammon, Leviathan, Belphegor held by the team",
+            "all": 5
           }
         }
       ],

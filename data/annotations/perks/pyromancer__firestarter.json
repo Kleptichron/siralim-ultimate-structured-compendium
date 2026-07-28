@@ -1,7 +1,7 @@
 {
   "id": "perk:pyromancer:firestarter",
   "textHash": "87e31d3689df",
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [
