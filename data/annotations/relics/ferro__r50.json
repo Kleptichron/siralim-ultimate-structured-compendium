@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ferro:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0f8bd40ffc97"
+}

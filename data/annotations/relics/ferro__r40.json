@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ferro:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "holder",
+          "statuses": [
+            "Proficient"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "property": "effectiveness"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "27ecf872b09b"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ferro:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Proficient"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Attack",
+            "scalePct": 25
+          },
+          "params": {
+            "what": "spell potency bonus"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8568c3362297"
+}

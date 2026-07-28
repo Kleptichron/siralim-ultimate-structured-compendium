@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fleshripper:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bleeding",
+          "source": "Bleeding"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "trigger_subject",
+          "statuses": [
+            "Bleeding"
+          ],
+          "params": {
+            "effect": "takes Bleeding damage again; can repeat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bb7fbf68f3f2"
+}

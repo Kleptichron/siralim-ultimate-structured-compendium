@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fleshripper:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Bleeding"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "byRelic": true,
+            "spell": "Lacerate"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9063de699ab3"
+}

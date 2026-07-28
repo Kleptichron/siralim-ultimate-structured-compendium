@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fatum-and-fortuna:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "5 random Spell Gems, one from each class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "59baafee5cc9"
+}

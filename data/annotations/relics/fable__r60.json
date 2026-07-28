@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "on-attack or on-cast effects activate 1 additional time per 5 relic Attacks/Casts this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6ca6da02f0fd"
+}

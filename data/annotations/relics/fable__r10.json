@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "on-attack or on-cast effects activate 1 additional time",
+            "basis": "higher of Attack or Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "78a1e7569971"
+}

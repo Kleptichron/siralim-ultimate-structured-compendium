@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "on-attack or on-cast effects activated"
+        }
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2e2f8d7fac26"
+}

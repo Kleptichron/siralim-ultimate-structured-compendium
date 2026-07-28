@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "on-resurrect/on-death effect activation"
+          },
+          "params": {
+            "except": "Health",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7b9396345f7b"
+}

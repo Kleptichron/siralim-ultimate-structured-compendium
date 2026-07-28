@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "on-attack or on-cast effects activated"
+        }
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Mega Magic"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "339c5876c846"
+}

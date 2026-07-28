@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ferro:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "ally",
+          "statuses": [
+            "Proficient"
+          ],
+          "params": {
+            "byRelic": true,
+            "selection": "one of your creatures, bearer prioritized"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8937968891ca"
+}

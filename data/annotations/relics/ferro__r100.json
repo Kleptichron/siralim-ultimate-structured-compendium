@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ferro:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "holder",
+          "params": {
+            "minion": "Animated Weapon"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d91334de7c8c"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fleshripper:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bleeding",
+          "source": "Bleeding"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 30
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8ed281d96112"
+}

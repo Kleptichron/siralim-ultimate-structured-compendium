@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fleshripper:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelicOrBearer": true
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Bleeding"
+          }
+        }
+      ],
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "target",
+          "statuses": [
+            "Bleeding"
+          ],
+          "params": {
+            "effect": "takes Bleeding damage immediately"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2e6f6ac272ef"
+}

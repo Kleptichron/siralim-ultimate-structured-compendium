@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "on-heal, on-debuff, and on-buff effects activate 1 additional time",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0d3cf8b65d4b"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "on-resurrect and on-death effects activate 1 additional time"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bcaad1615e5e"
+}

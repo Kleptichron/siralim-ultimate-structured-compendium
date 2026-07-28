@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:brambleskin:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0764225b4894"
+}

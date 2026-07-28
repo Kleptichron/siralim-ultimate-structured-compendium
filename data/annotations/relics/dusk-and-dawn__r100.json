@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:dusk-and-dawn:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 1,
+            "per": "enemy afflicted with Poisoned"
+          },
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "byRelic": true,
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "72f97c6caaf0"
+}

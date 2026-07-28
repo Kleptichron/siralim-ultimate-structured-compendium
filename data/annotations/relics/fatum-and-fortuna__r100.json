@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fatum-and-fortuna:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "turns_taken",
+            "per": "turn the bearer has taken this battle"
+          },
+          "params": {
+            "byRelic": true,
+            "spell": "random spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f349a9528e3b"
+}

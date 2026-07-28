@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "on-defend or on-provoke effects activate 1 additional time",
+            "basis": "higher of Defense or Speed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cef8a2be141f"
+}

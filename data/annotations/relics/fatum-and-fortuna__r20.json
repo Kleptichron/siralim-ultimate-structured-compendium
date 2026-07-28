@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fatum-and-fortuna:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "2be4e0df407d"
+}

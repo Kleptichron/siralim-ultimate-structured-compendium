@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fleshripper:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "byRelic": true,
+            "spell": "Mangle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b40f10ae6b6d"
+}

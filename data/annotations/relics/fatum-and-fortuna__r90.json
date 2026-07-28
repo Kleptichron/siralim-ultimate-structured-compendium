@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fatum-and-fortuna:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "random_enemy",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "scaleStat": "highest_stat",
+            "scalePct": 30
+          },
+          "params": {
+            "stat": "random",
+            "of": "bearer's highest stat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9dfc08c599e8"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:dusk-and-dawn:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "damage_taken",
+            "scalePct": 10,
+            "per": "damage taken from Poisoned this battle"
+          },
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4df3d116fab1"
+}

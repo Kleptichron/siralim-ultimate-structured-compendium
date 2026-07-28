@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fatum-and-fortuna:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          },
+          "params": {
+            "stat": "random"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "'Its master' = the bearer (holder).",
+  "textHash": "0de63bb2085f"
+}

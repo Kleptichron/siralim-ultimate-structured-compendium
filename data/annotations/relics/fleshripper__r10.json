@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fleshripper:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Bleeding"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "attacker",
+          "statuses": [
+            "Bleeding"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "f86113cd8f60"
+}

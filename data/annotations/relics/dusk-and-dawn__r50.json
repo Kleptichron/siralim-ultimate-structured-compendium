@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:dusk-and-dawn:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "enemy afflicted with Poisoned"
+          },
+          "statuses": [
+            "Poisoned"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "5b95fb20d580"
+}

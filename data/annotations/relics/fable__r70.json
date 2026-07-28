@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:fable:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "on-defend/on-provoke effect activation",
+            "cap": 90
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b151ac5e8d3d"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:brambleskin:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "params": {
+            "healthPct": 100
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f0f6c712e521"
+}
