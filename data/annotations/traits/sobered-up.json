@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sobered-up",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "can manually cast Booze Spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "350a26e13d30"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:solence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "attacker",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "scaleStat": "lowest_stat"
+          },
+          "params": {
+            "effect": "all stats set equal to its lowest stat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b05c8332b35e"
+}

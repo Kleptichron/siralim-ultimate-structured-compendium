@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:simulacrum",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "trigger_subject",
+          "params": {
+            "action": "casting (spell negated)"
+          }
+        },
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "that Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "bfd4ee85ccca"
+}

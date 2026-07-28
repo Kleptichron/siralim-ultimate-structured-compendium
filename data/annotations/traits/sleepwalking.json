@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sleepwalking",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Sleeping"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Sleeping"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "enemy",
+          "params": {
+            "or": "cast"
+          }
+        },
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "which": "their top-most spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Sleeping"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "allies",
+          "target": "target",
+          "statuses": [
+            "Sleeping"
+          ],
+          "params": {
+            "source": "attacks and spells",
+            "textAs": "Sleep"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "0e4ea4087dc5"
+}

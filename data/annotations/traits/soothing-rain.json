@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:soothing-rain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "actor": "holder",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 20,
+            "scaleRef": "buff_count",
+            "per": "buff they have"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d948e1e6f6d7"
+}

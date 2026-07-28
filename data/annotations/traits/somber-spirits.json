@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:somber-spirits",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "simultaneous spell casts"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6ac676eb8f12"
+}

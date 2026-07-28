@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:solidarity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "actor": "holder",
+          "target": "allies",
+          "params": {
+            "effect": "their first 2 Spell Gems are Sealed",
+            "count": 2
+          }
+        },
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "those Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a1734af95e44"
+}

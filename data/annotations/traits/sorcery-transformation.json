@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sorcery-transformation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "spells heal instead of dealing damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1c72c660cc5c"
+}

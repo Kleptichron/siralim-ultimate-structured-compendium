@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:smack-around",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "enemy",
+        "params": {
+          "of": "an attack from one of your other creatures"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "times": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "96c187cc7cc9"
+}

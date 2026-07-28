@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:solitary-empowerment",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "allies",
+          "statuses": [
+            "Rebirth"
+          ],
+          "params": {
+            "count": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4bc5c9d36614"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:skull-bash",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "random_enemy",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "815aba28d779"
+}

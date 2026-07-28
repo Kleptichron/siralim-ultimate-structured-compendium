@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:snuff",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "enemy",
+        "params": {
+          "status": "Burning",
+          "how": "expires or is removed"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "scaleRef": "status_potency",
+            "per": "turn of Burning",
+            "amountFlat": 5
+          },
+          "params": {
+            "turns": 5
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "adeea27fe347"
+}

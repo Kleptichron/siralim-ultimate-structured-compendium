@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:something-from-nothing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "time this creature has taken damage this battle"
+          },
+          "params": {
+            "source": "attacks and spells"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 1,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "time this creature has taken damage this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Text is ambiguous whether the 5% offensive bonus also scales per damage instance; tagged as scaling with the \"take less damage\" clause.",
+  "textHash": "760a920521a3"
+}

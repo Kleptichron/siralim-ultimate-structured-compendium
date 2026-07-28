@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:silver-tether",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "adjacent_any"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "all",
+            "scalePct": 60
+          },
+          "params": {
+            "of": "the killed creature",
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b1f89dd02634"
+}

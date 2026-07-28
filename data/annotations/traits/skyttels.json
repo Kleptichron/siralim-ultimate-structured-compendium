@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:skyttels",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "your other creatures' permanent Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work on creatures that also have this trait.",
+  "textHash": "bbac066b35e7"
+}

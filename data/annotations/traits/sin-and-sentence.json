@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sin-and-sentence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Weak"
+          }
+        },
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Vulnerable"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "target"
+        }
+      ]
+    }
+  ],
+  "textHash": "663da735add0"
+}

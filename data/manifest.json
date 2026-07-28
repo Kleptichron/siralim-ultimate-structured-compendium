@@ -18577,163 +18577,203 @@
     },
     "trait:silence-speaks": {
       "hash": "20260578b480",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:silver-tether": {
       "hash": "b1f89dd02634",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:simulacrum": {
       "hash": "bfd4ee85ccca",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:simulation": {
       "hash": "15a5849f9150",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sin-and-sentence": {
       "hash": "663da735add0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:single-discipline": {
       "hash": "357c8db7c431",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:singularity": {
       "hash": "6587d4586665",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:siren-charms": {
       "hash": "b3b4cbcf8a64",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:skreee": {
       "hash": "f521905bfefe",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:skull-bash": {
       "hash": "815aba28d779",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:skystalker": {
       "hash": "751d4039e816",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:skyttels": {
       "hash": "bbac066b35e7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sleepwalking": {
       "hash": "0e4ea4087dc5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sleight-of-hand": {
       "hash": "75548bb1d325",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:slop": {
       "hash": "e8996e9db982",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:slosh": {
       "hash": "289ff3215299",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sloth": {
       "hash": "f820a1be2bfa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sluice": {
       "hash": "b921398f0626",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sluuurp": {
       "hash": "572c5788a8d6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:smack-around": {
       "hash": "96c187cc7cc9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:smoking-kills": {
       "hash": "3e672e3a30b5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:smolder": {
       "hash": "8ef66f310a2e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:snack-break": {
       "hash": "e0a1036d7d9f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:snowstalker": {
       "hash": "6086c4fcbbde",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:snuff": {
       "hash": "adeea27fe347",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sobered-up": {
       "hash": "350a26e13d30",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:solace": {
       "hash": "fdc5baf1cead",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:solar-flare": {
       "hash": "45e2f0a66d4f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:solence": {
       "hash": "b05c8332b35e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:solidarity": {
       "hash": "a1734af95e44",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:solitary-empowerment": {
       "hash": "4bc5c9d36614",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:somber-spirits": {
       "hash": "6ac676eb8f12",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:something-from-nothing": {
       "hash": "760a920521a3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:something-to-complain-about": {
       "hash": "047e21725292",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:song-of-alacrity": {
       "hash": "1f538d178492",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:song-of-resolve": {
       "hash": "fe43d9eb1841",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:song-of-wit": {
       "hash": "17d2f6004e41",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soothing-rain": {
       "hash": "d948e1e6f6d7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sorcery-transformation": {
       "hash": "1c72c660cc5c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sorrow": {
       "hash": "7ac951d2876e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soul-corruption": {
       "hash": "dbde74ac2067",

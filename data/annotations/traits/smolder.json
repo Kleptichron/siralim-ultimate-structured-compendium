@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:smolder",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Burning"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "scaleRef": "status_potency",
+            "per": "turn of Burning",
+            "amountFlat": 4
+          },
+          "params": {
+            "turns": 4
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8ef66f310a2e"
+}

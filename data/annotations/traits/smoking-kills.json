@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:smoking-kills",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "class",
+            "of": "the other creature",
+            "equals": "your creature's own class"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "3e672e3a30b5"
+}

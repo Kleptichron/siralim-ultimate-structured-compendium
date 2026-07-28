@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:solar-flare",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "defending or provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Stellar Flare"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "source": "that spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "45e2f0a66d4f"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:silence-speaks",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "what": "your other creatures' innate traits",
+            "kind": "trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "20260578b480"
+}

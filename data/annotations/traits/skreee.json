@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:skreee",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemy"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Confused"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "f521905bfefe"
+}
