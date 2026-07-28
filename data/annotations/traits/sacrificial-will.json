@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sacrificial-will",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "others": true
+          }
+        },
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "minion": "random minion",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2be3574d1e84"
+}

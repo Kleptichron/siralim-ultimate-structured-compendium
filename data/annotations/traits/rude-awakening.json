@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rude-awakening",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "the enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3e11542f6cc8"
+}

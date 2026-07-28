@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:roulette",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "params": {
+            "effect": "deals no damage",
+            "source": "attacks"
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          },
+          "params": {
+            "of": "the damage it would have dealt"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "otherwise": true,
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0fa8312cd6ff"
+}

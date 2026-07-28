@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rollout",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy"
+        }
+      ]
+    }
+  ],
+  "textHash": "712900fc0c06"
+}

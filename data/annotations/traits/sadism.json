@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sadism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 15
+          },
+          "params": {
+            "of": "each enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1e06cde56d0e"
+}

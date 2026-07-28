@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rock-candy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "effect": "Seals one of their Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fad577206abf"
+}

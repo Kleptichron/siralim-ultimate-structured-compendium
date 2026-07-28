@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sarea-s-command",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "enemies",
+          "target": "random_enemy",
+          "params": {
+            "each": true,
+            "vs": "a random enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "5d6b7c64032d"
+}

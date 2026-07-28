@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:scraaaw",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "enemies",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "defending"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "enemies",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "provoking"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1655d88ec67f"
+}

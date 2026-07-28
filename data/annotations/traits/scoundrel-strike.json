@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:scoundrel-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spell": "Toxic Frogmania"
+        }
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "trigger_subject",
+          "flow": "dealt",
+          "magnitude": {
+            "tier": "massive",
+            "scaleStat": "lowest_stat"
+          },
+          "params": {
+            "what": "Toxic Frogmania damage",
+            "basis": "lowest stat"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "trigger_subject",
+          "target": "target",
+          "statuses": [
+            "Poisoned"
+          ]
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "unique class among your creatures"
+          },
+          "params": {
+            "what": "Toxic Frogmania potency"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "5ce945461fbe"
+}

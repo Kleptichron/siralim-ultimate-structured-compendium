@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:roll-the-dice",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "spells": "2 of its Ethereal Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c5d8c758c7ea"
+}

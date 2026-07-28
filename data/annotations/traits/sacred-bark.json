@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sacred-bark",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 50
+          },
+          "params": {
+            "addedTo": "the holder's Barrier"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e14c8ba44e5f"
+}

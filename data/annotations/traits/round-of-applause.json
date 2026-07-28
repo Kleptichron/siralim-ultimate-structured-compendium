@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:round-of-applause",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_heal",
+        "subject": "ally",
+        "params": {
+          "target": "an enemy"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Mania"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "spellType": "healing"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Mania"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "spell": "Words of Encouragement"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8b207fc5309a"
+}
