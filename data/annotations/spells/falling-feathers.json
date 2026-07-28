@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:falling-feathers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "random_enemy",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "continuous": true,
+            "endChancePctAfterEach": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9fd8e0ce4c67"
+}

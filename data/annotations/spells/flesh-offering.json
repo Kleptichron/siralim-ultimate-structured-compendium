@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:flesh-offering",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 20
+          },
+          "params": {
+            "of": "the amount lost"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "623030f6f51d"
+}

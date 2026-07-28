@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:flame-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "small"
+          },
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "casts": "once per enemy afflicted with Burning"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9be39e1f49f7"
+}

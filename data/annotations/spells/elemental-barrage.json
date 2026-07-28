@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:elemental-barrage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "spells": "the last 3 Gems cast by any creature this battle",
+            "inYourFavor": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8858b357e3f8"
+}

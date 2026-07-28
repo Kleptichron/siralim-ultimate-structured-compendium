@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:final-form",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Rebirth",
+            "Protected",
+            "Berserk"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "a0cfd0dd71e8"
+}

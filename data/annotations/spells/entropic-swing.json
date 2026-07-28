@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:entropic-swing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "params": {
+            "what": "end-of-turn effects",
+            "mode": "activate now"
+          }
+        },
+        {
+          "verb": "timeline_move",
+          "target": "any",
+          "params": {
+            "effect": "the Timeline is shuffled"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Cannot be cast manually; 5% chance to cast at the start of each creature’s turn.",
+  "textHash": "0b9bd3988a83"
+}

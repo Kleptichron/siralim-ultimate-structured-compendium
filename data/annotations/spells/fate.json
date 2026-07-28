@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:fate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "any",
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b6f4dc0134d1"
+}

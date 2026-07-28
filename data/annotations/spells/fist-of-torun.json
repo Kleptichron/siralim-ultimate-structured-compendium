@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:fist-of-torun",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "devastating"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 20
+          },
+          "params": {
+            "recoil": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9f7f66572bdf"
+}

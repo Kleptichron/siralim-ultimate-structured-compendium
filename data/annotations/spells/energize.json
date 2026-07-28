@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:energize",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "target",
+          "params": {
+            "setToPct": 35
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4b15feb960ee"
+}

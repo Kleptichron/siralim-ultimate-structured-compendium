@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:fae-fire",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "tier": "devastating",
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "remove_status",
+          "target": "enemies",
+          "statusKind": "buff",
+          "params": {
+            "all": true
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "minions removed"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "c49c9b06f155"
+}

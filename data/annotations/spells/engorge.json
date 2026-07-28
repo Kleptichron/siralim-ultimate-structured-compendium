@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:engorge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "tier": "massive",
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "tier": "massive",
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "588246fbd6e1"
+}
