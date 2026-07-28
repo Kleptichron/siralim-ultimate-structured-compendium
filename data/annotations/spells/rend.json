@@ -1,7 +1,7 @@
 {
   "id": "spell:rend",
   "textHash": "263ccbeeb8dc",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

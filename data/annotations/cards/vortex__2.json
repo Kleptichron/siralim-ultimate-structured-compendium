@@ -1,7 +1,7 @@
 {
   "id": "card:vortex:2",
   "textHash": "b2fb6491e4b9",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "card-class-spell-dr",
   "rules": [

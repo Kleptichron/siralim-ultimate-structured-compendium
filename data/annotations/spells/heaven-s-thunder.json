@@ -1,7 +1,7 @@
 {
   "id": "spell:heaven-s-thunder",
   "textHash": "852e66b0fa94",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

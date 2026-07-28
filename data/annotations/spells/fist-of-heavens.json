@@ -1,7 +1,7 @@
 {
   "id": "spell:fist-of-heavens",
   "textHash": "d8d4b9d48e53",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

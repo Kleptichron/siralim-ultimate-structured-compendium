@@ -1,7 +1,7 @@
 {
   "id": "spell:fireball",
   "textHash": "dfafab3bf8da",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

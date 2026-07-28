@@ -1,7 +1,7 @@
 {
   "id": "spell:magic-missile",
   "textHash": "590611b77ccc",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

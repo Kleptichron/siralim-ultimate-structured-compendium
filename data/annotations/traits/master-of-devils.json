@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "claude",
   "id": "trait:master-of-devils",
   "rules": [
@@ -19,15 +19,15 @@
       ],
       "actions": [
         {
-          "verb": "other",
+          "verb": "trait_modifier",
           "target": "allies",
           "magnitude": {
             "amountPct": 300,
             "direction": "up"
           },
           "params": {
-            "what": "the additional damage granted by Devil innate traits",
-            "from": "200%"
+            "from": "200%",
+            "property": "additional damage granted by innate traits"
           }
         }
       ]

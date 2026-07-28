@@ -1,4 +1,4 @@
-# Tagging conventions (schema v9 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers)
+# Tagging conventions (schema v10 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier)
 
 **Watching `other`:** `npm run audit` ends with an *other-watch* section grouping
 every `other` use by its params shape. A shape reaching ~8 uses is an enum
@@ -126,11 +126,16 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     prior action's result ("if this spell kills the target", "if a debuff was
     removed") → condition `outcome` (params.result). "Has all of X, Y, Z"
     composition requirements → `count_comparison`, never `other`.
-25. **Activation counts & rule caps** (v6): "X effects activate N additional
+25. **Trait amplifiers** (v10): "their innate traits are 50% more powerful /
+    grow twice as fast / have no downside" → verb `trait_modifier` +
+    `params.property`. Keep the three apart: `grant_ability` GIVES a trait,
+    `activation_modifier` makes trait effects fire extra times,
+    `trait_modifier` changes how the trait itself behaves.
+26. **Activation counts & rule caps** (v6): "X effects activate N additional
     times / activate now" → verb `activation_modifier` (`params.what` names
     the effect family; magnitude carries the count). "Maximum N per
     battle/turn" caps → verb `limit_modifier` + `magnitude.amountFlat`.
-26. **Relics** (v7): "the bearer" = `holder`. The relic is its own battle
+27. **Relics** (v7): "the bearer" = `holder`. The relic is its own battle
     entity: "This relic Attacks/Casts" → actor `relic`; "After this relic
     Attacks" → trigger subject `relic`. The `relic` scope is valid only in
     relic records. "This relic or its bearer…" (either source) → subject

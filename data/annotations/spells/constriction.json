@@ -1,7 +1,7 @@
 {
   "id": "spell:constriction",
   "textHash": "0c899d505dfa",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

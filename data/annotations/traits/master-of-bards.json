@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "claude",
   "id": "trait:master-of-bards",
   "rules": [
@@ -19,14 +19,14 @@
       ],
       "actions": [
         {
-          "verb": "other",
+          "verb": "trait_modifier",
           "target": "allies",
           "magnitude": {
             "amountPct": 100,
             "direction": "up"
           },
           "params": {
-            "what": "Song trait effectiveness"
+            "property": "Song trait effectiveness"
           }
         },
         {

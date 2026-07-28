@@ -1,7 +1,7 @@
 {
   "id": "spell:entangling-roots",
   "textHash": "59ce3bc9bbdd",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

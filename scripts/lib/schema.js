@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 9;
+export const SCHEMA_VERSION = 10;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -133,6 +133,9 @@ export const ACTION_VERBS = [
   'copy',
   'transform',
   'grant_ability',   // grants traits/spell gems/abilities
+  'trait_modifier',  // changes how traits themselves behave: potency, growth
+                     //   rate, downsides (params.property). Granting a trait is
+                     //   grant_ability; extra activations are activation_modifier.
   'resource_gain',   // non-combat loot/resources
   'activation_modifier', // effects/traits activate extra times or on demand
                          //   (params.what names the effect family)

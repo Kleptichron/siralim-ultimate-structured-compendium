@@ -1,7 +1,7 @@
 {
   "id": "card:demigod:1",
   "textHash": "f1785286bd5c",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "card-class-spell-dr",
   "rules": [

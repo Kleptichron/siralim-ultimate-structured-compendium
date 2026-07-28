@@ -1,7 +1,7 @@
 {
   "id": "perk:windrunner:quick-hands",
   "textHash": "329df6964640",
-  "schemaVersion": 9,
+  "schemaVersion": 10,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [
