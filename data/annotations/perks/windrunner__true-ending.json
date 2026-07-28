@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:windrunner:true-ending",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "params": {
+            "what": "on-death effects",
+            "mode": "ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not affect the Born Again perk; does not work in boss battles.",
+  "textHash": "f55218cd9d1c"
+}

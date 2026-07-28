@@ -1,24 +1,22 @@
 {
-  "id": "perk:sorcerer:mental-fortitude",
-  "textHash": "562e47a4ddfe",
   "schemaVersion": 7,
-  "provenance": "machine",
-  "machineTemplate": "start-battle-gain",
+  "provenance": "claude",
+  "id": "perk:witch-doctor:bad-medicine",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
           "target": "allies",
           "statuses": [
-            "Shelled"
+            "Secret Stuff"
           ]
         }
       ]
     }
-  ]
+  ],
+  "textHash": "1dee1a2ca251"
 }

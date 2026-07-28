@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:witch-doctor:hex",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Confused"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "instead": "lowers allies' stats instead of raising them"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 5% per rank; rule.chance records the max-rank value.",
+  "textHash": "223ddb51b0b7"
+}

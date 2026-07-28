@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:witch-doctor:initiation-rite",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "target": "one of its allies"
+        }
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "trigger_subject",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "replaces": "Attack",
+            "appliesTo": "that attack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5067492ed822"
+}

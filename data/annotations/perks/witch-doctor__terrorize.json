@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:witch-doctor:terrorize",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "target": "one of its allies"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "c0450c2fd9cb"
+}

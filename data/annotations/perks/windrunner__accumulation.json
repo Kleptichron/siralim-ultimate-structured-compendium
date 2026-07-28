@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:windrunner:accumulation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            }
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            },
+            "scaleRef": "amount_gained",
+            "per": "Speed gained this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9cd7fe83930a"
+}

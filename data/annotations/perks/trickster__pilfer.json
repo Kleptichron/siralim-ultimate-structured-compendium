@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:trickster:pilfer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "qualifiers": [
+            "stolen",
+            "random"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 2
+            }
+          },
+          "params": {
+            "what": "random Spell Gems from a random enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a9d7e0a71f0d"
+}

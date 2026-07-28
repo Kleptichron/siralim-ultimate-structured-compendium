@@ -4,5 +4,11 @@
     "kind": "debuff",
     "defaultDuration": "",
     "note": "Unique debuff (Denizen family, Nature spells Compulsion/Wave of Bliss); absent from debuffs.csv"
+  },
+  {
+    "name": "Secret Stuff",
+    "kind": "buff",
+    "defaultDuration": "",
+    "note": "Witch Doctor perk buff (Bad Medicine); absent from buffs.csv"
   }
 ]

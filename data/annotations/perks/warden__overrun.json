@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:warden:overrun",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "perRank": {
+              "per": 3,
+              "maxTotal": 30
+            }
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f90193546e50"
+}

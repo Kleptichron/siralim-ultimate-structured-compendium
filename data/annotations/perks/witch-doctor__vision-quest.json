@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:witch-doctor:vision-quest",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minion": "Doppelganger"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ac450e689d06"
+}

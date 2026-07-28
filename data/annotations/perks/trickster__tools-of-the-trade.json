@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:trickster:tools-of-the-trade",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 25
+            }
+          },
+          "params": {
+            "equipment": "artifact",
+            "property": "Trick Slots"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "84921fb8933d"
+}

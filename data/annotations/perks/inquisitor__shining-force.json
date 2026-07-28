@@ -7,8 +7,7 @@
   "rules": [
     {
       "trigger": {
-        "type": "start_of_battle",
-        "subject": "allies"
+        "type": "start_of_battle"
       },
       "conditions": [],
       "actions": [

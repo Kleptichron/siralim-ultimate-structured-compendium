@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:witch-doctor:maledict",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 5,
+              "maxTotal": 15
+            },
+            "scaleRef": "damage_taken",
+            "per": "damage taken from their allies this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5f910339d3df"
+}

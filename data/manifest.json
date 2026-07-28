@@ -5169,63 +5169,78 @@
     },
     "perk:trickster:bafflement": {
       "hash": "115975e4f1f8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:even-the-odds": {
       "hash": "ea96586466de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:feint": {
       "hash": "77f9f4d5aab9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:hidden-hand": {
       "hash": "3a3b47c9b542",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:immaculate-recovery": {
       "hash": "e82c0eb03904",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:intent-to-kill": {
       "hash": "99d6ffdca265",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:nightstalker": {
       "hash": "2dc8429eaa70",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:pilfer": {
       "hash": "a9d7e0a71f0d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:prey": {
       "hash": "1ba53e78723e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:rebound": {
       "hash": "19d47796efdd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:sleight-of-hand": {
       "hash": "d78dd5b5976c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:spontaneity": {
       "hash": "638941af848d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:stratagem": {
       "hash": "7366f94c2833",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:subterfuge": {
       "hash": "797e8dcc7484",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:tools-of-the-trade": {
       "hash": "84921fb8933d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:whetbone": {
       "hash": "1fb6bd83bff5",
@@ -5234,55 +5249,68 @@
     },
     "perk:warden:alpha": {
       "hash": "87c784699b4b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:awareness": {
       "hash": "9355c5764b86",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:bristle": {
       "hash": "6efb1f7057bb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:convocation": {
       "hash": "f59d2c08178e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:earthen-frenzy": {
       "hash": "9f6ae7170d60",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:eternal-guardian": {
       "hash": "3e5bfa7d3b2b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:graceful-spirit": {
       "hash": "15fbf45053de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:grove-ward": {
       "hash": "f1d538fdbf0f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:luster": {
       "hash": "fda627ec65f9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:moment-of-clarity": {
       "hash": "e0071d417bbd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:nature-s-boon": {
       "hash": "b8d52f06814d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:overrun": {
       "hash": "f90193546e50",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:predator": {
       "hash": "1afbf692e532",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:preparation": {
       "hash": "414f9a0e2475",
@@ -5291,59 +5319,73 @@
     },
     "perk:warden:primal-vengeance": {
       "hash": "e16d460c9c60",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:soul-of-the-forest": {
       "hash": "a6cc32c6f1e8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:spirit-shield": {
       "hash": "efc1ecf92da1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:survival-of-the-fittest": {
       "hash": "a98c349db110",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:unending-boon": {
       "hash": "e2befaa658c8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:accumulation": {
       "hash": "9cd7fe83930a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:aeroforged": {
       "hash": "589378730d86",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:born-again": {
       "hash": "5e43066681ba",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:derivation": {
       "hash": "7c3f65c3c5fa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:first-served": {
       "hash": "770f2e94087a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:further-beyond": {
       "hash": "6fea9b43a8f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:inertia": {
       "hash": "0215ea0a9a9e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:primordial": {
       "hash": "23fb8e74ab56",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:propulsion": {
       "hash": "8e5a73fa526d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:quick-hands": {
       "hash": "329df6964640",
@@ -5352,59 +5394,73 @@
     },
     "perk:windrunner:retention": {
       "hash": "df37720399da",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:sidestep": {
       "hash": "c07636edbb87",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:singleton": {
       "hash": "c79db16f4620",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:true-ending": {
       "hash": "f55218cd9d1c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:velocity": {
       "hash": "71112dbd18ac",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:zoom": {
       "hash": "0c7ea3759c0f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:backbite": {
       "hash": "13ec604e8128",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:bad-medicine": {
       "hash": "1dee1a2ca251",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:bewitch": {
       "hash": "fa021e9c102d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:blind-eye": {
       "hash": "60759adf5587",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:cursed-omen": {
       "hash": "4c7930d0f345",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:hedge-magic": {
       "hash": "9855e8f31000",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:hex": {
       "hash": "223ddb51b0b7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:initiation-rite": {
       "hash": "5067492ed822",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:jinx": {
       "hash": "873ab40591fa",
@@ -5413,31 +5469,38 @@
     },
     "perk:witch-doctor:maledict": {
       "hash": "5f910339d3df",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:mass-hysteria": {
       "hash": "a72401a70a87",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:mumbo-jumbo": {
       "hash": "f9fc5e2dfc9a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:terrorize": {
       "hash": "c0450c2fd9cb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:trance": {
       "hash": "b0b5e2915833",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:vision-quest": {
       "hash": "ac450e689d06",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:voodoo": {
       "hash": "c3c6b9fcf88c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:always-critical-damage": {
       "hash": "531f053820f3",

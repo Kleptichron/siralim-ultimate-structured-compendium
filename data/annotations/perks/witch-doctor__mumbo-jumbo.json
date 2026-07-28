@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:witch-doctor:mumbo-jumbo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Confused"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "params": {
+            "instead": "of the buff they would give an ally"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 5% per rank; rule.chance records the max-rank value.",
+  "textHash": "f9fc5e2dfc9a"
+}

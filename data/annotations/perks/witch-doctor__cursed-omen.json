@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:witch-doctor:cursed-omen",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "target": "one of its allies"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true,
+            "vs": "their allies"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "target": "one of its allies"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true,
+            "vs": "their allies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4c7930d0f345"
+}

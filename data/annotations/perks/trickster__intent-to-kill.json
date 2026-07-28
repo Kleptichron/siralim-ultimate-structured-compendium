@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:trickster:intent-to-kill",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "dodge chance re-rolled one additional time when they would dodge"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "99d6ffdca265"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:windrunner:sidestep",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "stat_comparison",
+          "who": "allies",
+          "params": {
+            "stat": "Speed",
+            "above": "200% of base Speed"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "resistant"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c07636edbb87"
+}

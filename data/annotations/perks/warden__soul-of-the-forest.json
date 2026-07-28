@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:warden:soul-of-the-forest",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 20
+            }
+          },
+          "params": {
+            "stat": "random"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a6cc32c6f1e8"
+}

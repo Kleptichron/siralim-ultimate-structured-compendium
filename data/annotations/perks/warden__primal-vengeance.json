@@ -1,24 +1,24 @@
 {
-  "id": "perk:sorcerer:mental-fortitude",
-  "textHash": "562e47a4ddfe",
   "schemaVersion": 7,
-  "provenance": "machine",
-  "machineTemplate": "start-battle-gain",
+  "provenance": "claude",
+  "id": "perk:warden:primal-vengeance",
   "rules": [
     {
       "trigger": {
-        "type": "start_of_battle"
+        "type": "after_death",
+        "subject": "ally"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
           "target": "allies",
           "statuses": [
-            "Shelled"
+            "Berserk",
+            "Leeching"
           ]
         }
       ]
     }
-  ]
+  ],
+  "textHash": "e16d460c9c60"
 }

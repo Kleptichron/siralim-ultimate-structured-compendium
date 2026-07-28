@@ -142,6 +142,13 @@
     "defaultDuration": "1 Turn"
   },
   {
+    "name": "Secret Stuff",
+    "kind": "buff",
+    "defaultDuration": "",
+    "note": "Witch Doctor perk buff (Bad Medicine); absent from buffs.csv",
+    "extra": true
+  },
+  {
     "name": "Shelled",
     "kind": "buff",
     "defaultDuration": ""

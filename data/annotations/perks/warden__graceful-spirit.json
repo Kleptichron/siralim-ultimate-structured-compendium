@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:warden:graceful-spirit",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 25
+            },
+            "scaleStat": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "15fbf45053de"
+}

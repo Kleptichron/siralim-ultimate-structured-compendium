@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:witch-doctor:bewitch",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "target": "one of its allies"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "fa021e9c102d"
+}
