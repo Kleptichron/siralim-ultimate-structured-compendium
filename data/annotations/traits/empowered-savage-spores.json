@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:empowered-savage-spores",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "the Savage Spores spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "what": "Savage Spores",
+            "effect": "increases your creatures' Defense instead of decreasing it"
+          }
+        }
+      ]
+    }
+  ],
+  "waivedStatuses": [
+    "Savage"
+  ],
+  "textHash": "456b8956692a"
+}

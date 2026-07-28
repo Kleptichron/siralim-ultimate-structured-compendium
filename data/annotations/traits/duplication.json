@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:duplication",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "what": "the holder's buffs",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e810dc10e385"
+}

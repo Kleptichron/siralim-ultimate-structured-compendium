@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:eldritch-essence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "spell": "one of the dead creature’s spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "66bb16670d85"
+}

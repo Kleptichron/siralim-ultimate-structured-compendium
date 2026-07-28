@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:embolden",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Defense",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "adjacent creatures",
+            "ignores": "creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d92fe8452017"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:elimination-process",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "target",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c7b8d5bc6245"
+}

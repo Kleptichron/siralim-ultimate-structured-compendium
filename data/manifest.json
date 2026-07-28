@@ -13547,47 +13547,58 @@
     },
     "trait:dream-touch": {
       "hash": "edaad1071d85",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dreams-of-ice": {
       "hash": "583ab521a5de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:drinking-game": {
       "hash": "0b1802372297",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:drunken-brawler": {
       "hash": "e029dadbe129",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:drunken-rage": {
       "hash": "5abe3cd1b465",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dualcast": {
       "hash": "1f3552c39e4f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:duality": {
       "hash": "ad9c6dd616e9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:due-recompense": {
       "hash": "911d2affb165",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:duplication": {
       "hash": "e810dc10e385",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dusty-struggle": {
       "hash": "b827e138578b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dynamic-dragon-scales": {
       "hash": "bd2d359110ad",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dynamic-duos": {
       "hash": "7fb0171c79b6",
@@ -13596,119 +13607,148 @@
     },
     "trait:earthen-attunement": {
       "hash": "4d220240d821",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:echobreather": {
       "hash": "9aa6863cc427",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:echoing-incantation": {
       "hash": "50139ef6b243",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:echolocation": {
       "hash": "b74dec271d65",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:eery-veil": {
       "hash": "d4d751f1945a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:egg-cloustard": {
       "hash": "8faa465ca50d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:egg-flourish-tine": {
       "hash": "303b0d04dfdd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:egg-log": {
       "hash": "790c3a59cad7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:eggnapper": {
       "hash": "1c8e61278ff7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ejector-seat": {
       "hash": "ae47384ba09a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:eldritch-creation": {
       "hash": "7d4ed49dabf0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:eldritch-essence": {
       "hash": "66bb16670d85",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:eldritch-rune": {
       "hash": "3520c28dcc57",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:elimination-process": {
       "hash": "c7b8d5bc6245",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:elusiveness": {
       "hash": "f5fe7e259d0a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ember-soul": {
       "hash": "f5969c1de836",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:embiggening": {
       "hash": "5e57861cef09",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:embolden": {
       "hash": "d92fe8452017",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:emerald-attunement": {
       "hash": "9e23ecdcdcd9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:emerald-blessings": {
       "hash": "f93433e5246c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empire": {
       "hash": "e2aa41185840",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empowered-bone-spear": {
       "hash": "6493521dfda1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empowered-chain-lightning": {
       "hash": "a7f347f3b04a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empowered-death-blossom": {
       "hash": "ece91190b0f6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empowered-death-siphon": {
       "hash": "55c47225faaa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empowered-fireball": {
       "hash": "1ab46a7f2bc2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empowered-magic-missile": {
       "hash": "27e8c959cf1f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empowered-savage-spores": {
       "hash": "456b8956692a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:empowered-soul-sacrifice": {
       "hash": "74a1330fde54",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:end-on-a-high-note": {
       "hash": "d133d3842203",

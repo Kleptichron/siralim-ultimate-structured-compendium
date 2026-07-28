@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dusty-struggle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "attacks, casts, defends, or provokes"
+        }
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        },
+        {
+          "verb": "apply_status",
+          "target": "adjacent_allies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        },
+        {
+          "verb": "timeline_move",
+          "target": "holder",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Composite action trigger; other is honest here. Will not activate if another party creature has this trait.",
+  "textHash": "b827e138578b"
+}

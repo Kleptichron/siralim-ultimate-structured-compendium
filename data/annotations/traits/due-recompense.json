@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:due-recompense",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "allies",
+          "params": {
+            "class": "Nature"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Leeching"
+          ],
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "which": "your Nature and Beacon creatures"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "up",
+          "timing": "would"
+        }
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "trigger_subject",
+          "params": {
+            "class": "Nature"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "instead": "of gaining"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "911d2affb165"
+}

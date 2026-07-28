@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ejector-seat",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "params": {
+            "effect": "immune",
+            "source": "attacks and spells"
+          }
+        },
+        {
+          "verb": "kill",
+          "target": "holder",
+          "params": {
+            "when": "it takes indirect damage",
+            "effect": "health set to 0"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ignored if the creature is immune to indirect damage, or if an ally has the same trait.",
+  "textHash": "ae47384ba09a"
+}

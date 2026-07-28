@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:duality",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "party position",
+            "equals": "left-most"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "party position",
+            "equals": "right-most"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "action": "Defends"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No verb models the Defend action itself; verb other is honest here.",
+  "textHash": "ad9c6dd616e9"
+}

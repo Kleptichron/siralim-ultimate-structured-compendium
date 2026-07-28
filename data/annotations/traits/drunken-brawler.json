@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:drunken-brawler",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "attacker",
+          "params": {
+            "kind": "counter-attack",
+            "damagePctOfNormal": 40
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e029dadbe129"
+}

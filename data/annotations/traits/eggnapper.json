@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:eggnapper",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "permanent Spell Gems are Sealed"
+          }
+        },
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "those Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1c8e61278ff7"
+}
