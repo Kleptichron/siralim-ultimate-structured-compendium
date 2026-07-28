@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-stags",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Stag",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "trait_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "9ff23c76fe28"
+}

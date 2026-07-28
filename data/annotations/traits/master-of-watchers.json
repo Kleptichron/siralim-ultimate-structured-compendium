@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-watchers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Watcher"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "trait_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Watcher fighting on your side"
+          },
+          "params": {
+            "property": "requirement counted as higher"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "5046c5b154c8"
+}

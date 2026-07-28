@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-sparktails",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Sparktail",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "their innate traits",
+            "shared": "with each other"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6a27c196da3d"
+}

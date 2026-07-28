@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-unicorns",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Unicorn"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "5d2793ca160d"
+}

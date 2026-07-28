@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:maximize",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "target",
+          "statusKind": "buff",
+          "params": {
+            "all": true
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "per": "buff converted"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d00d179a3fa9"
+}

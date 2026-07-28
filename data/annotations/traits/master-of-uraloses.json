@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-uraloses",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Uralos",
+            "scope": "all"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "avoid damage",
+            "vs": "indirect damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2250984d8c04"
+}

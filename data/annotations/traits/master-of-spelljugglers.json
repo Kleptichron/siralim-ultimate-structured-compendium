@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-spelljugglers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Spelljuggler",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "single-target spells",
+            "effect": "also target the target's allies when the class differs from the last cast"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cffe98036126"
+}

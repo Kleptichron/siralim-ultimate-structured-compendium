@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:meaningless-mind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "times each stat can be gained per turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ac61bf8461ad"
+}

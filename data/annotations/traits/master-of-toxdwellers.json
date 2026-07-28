@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-toxdwellers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Toxdweller"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Toxdweller in your party"
+          },
+          "params": {
+            "property": "detonation count",
+            "independent": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "14bad5944153"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-sirens",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Siren",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Scorned",
+            "Silenced"
+          ],
+          "params": {
+            "effect": "can be held at the same time (they no longer overwrite each other)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "17f70985f494"
+}

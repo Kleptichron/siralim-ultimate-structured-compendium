@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-underdwellers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Underdweller",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "cannotLose": true
+          }
+        },
+        {
+          "verb": "stat_rule",
+          "target": "allies",
+          "params": {
+            "effect": "stat changes persist after death"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "31df9af52081"
+}

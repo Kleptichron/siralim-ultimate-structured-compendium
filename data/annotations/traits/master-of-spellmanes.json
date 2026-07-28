@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-spellmanes",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Spellmane",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Silenced"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "Spell Gems cannot be Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4b4fdd335dc1"
+}

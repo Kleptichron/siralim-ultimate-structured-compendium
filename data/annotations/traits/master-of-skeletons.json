@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-skeletons",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Skeleton",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true
+          }
+        },
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "always critical"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a03c5c2bcaae"
+}

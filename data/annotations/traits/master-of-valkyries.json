@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-valkyries",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Valkyrie"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "trigger_subject",
+          "params": {
+            "action": "defend"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "fe34c3b84d6f"
+}

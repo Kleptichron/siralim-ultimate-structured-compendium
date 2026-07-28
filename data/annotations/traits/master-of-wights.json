@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-wights",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Wight"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "of": "Maximum Health",
+            "context": "resurrection health"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "b0ee07266e6e"
+}

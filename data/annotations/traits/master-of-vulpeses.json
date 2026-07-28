@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-vulpeses",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Vulpes",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "trait_modifier",
+          "target": "allies",
+          "params": {
+            "property": "scope",
+            "value": "the first 5 permanent Spell Gems equipped"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "567fabb95aa1"
+}

@@ -16372,163 +16372,203 @@
     },
     "trait:master-of-sins": {
       "hash": "11d060bdd57b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-sirens": {
       "hash": "17f70985f494",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-skeletons": {
       "hash": "a03c5c2bcaae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-slimes": {
       "hash": "7039bf19506a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-smiths": {
       "hash": "05f51637e6ee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-smogs": {
       "hash": "7800fdc3b0cb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-snaptraps": {
       "hash": "7692ad7acb3e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-soulflayers": {
       "hash": "2a573aa056d7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-spacecats": {
       "hash": "9df1c5400cee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-sparktails": {
       "hash": "6a27c196da3d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-spectres": {
       "hash": "769e817d7b7d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-spelljugglers": {
       "hash": "cffe98036126",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-spellmanes": {
       "hash": "4b4fdd335dc1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-sphinxes": {
       "hash": "32de4a92788c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-spirits": {
       "hash": "a3f7d6a8b5c7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-stags": {
       "hash": "9ff23c76fe28",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-storms": {
       "hash": "227a295641ae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-time": {
       "hash": "f6e60cbad14f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-toxdwellers": {
       "hash": "14bad5944153",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-tremors": {
       "hash": "b4fe04a6921e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-trolls": {
       "hash": "2bffc0321ee7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-underdwellers": {
       "hash": "31df9af52081",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-unguided": {
       "hash": "1097d050d2fb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-unicorns": {
       "hash": "5d2793ca160d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-uraloses": {
       "hash": "2250984d8c04",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-valkyries": {
       "hash": "fe34c3b84d6f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-voidlords": {
       "hash": "ec478e444080",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-vortexes": {
       "hash": "0a5e091e53c7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-vulpeses": {
       "hash": "567fabb95aa1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-warhogs": {
       "hash": "55632da3d500",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-waspids": {
       "hash": "3f5d4130e503",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-watchers": {
       "hash": "5046c5b154c8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-wights": {
       "hash": "b0ee07266e6e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-wisps": {
       "hash": "3949b4fb40d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-wolpertingers": {
       "hash": "f933de365dbe",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-wyverns": {
       "hash": "896b15271b9d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-yetis": {
       "hash": "97bc883a376d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mathemagic": {
       "hash": "ff184947d1a2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:maximize": {
       "hash": "d00d179a3fa9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:meaningless-mind": {
       "hash": "ac61bf8461ad",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:means-to-an-end": {
       "hash": "0714c143deed",

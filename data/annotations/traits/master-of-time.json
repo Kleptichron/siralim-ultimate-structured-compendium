@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-time",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "manual": true,
+          "spellType": "single-target"
+        }
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "target",
+          "magnitude": {
+            "amountFlat": 5
+          },
+          "params": {
+            "effect": "turn counter increased by 5"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Turn-count bookkeeping has no verb; other is honest here. Applies once per creature per battle.",
+  "textHash": "f6e60cbad14f"
+}

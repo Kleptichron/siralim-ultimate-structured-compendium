@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-smiths",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Smith",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "their Artifact's trait",
+            "to": "the creature to the left"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "05f51637e6ee"
+}

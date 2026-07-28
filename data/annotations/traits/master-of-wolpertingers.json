@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-wolpertingers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Wolpertinger",
+            "scope": "all"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "always critical",
+            "source": "Scourge spells"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "Scourge spells",
+            "effect": "cast 1 additional time",
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f933de365dbe"
+}

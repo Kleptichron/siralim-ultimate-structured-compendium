@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-smogs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "status": "Poisoned",
+          "by": "allies"
+        }
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Smog"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "trigger_subject",
+          "statuses": [
+            "Poisoned"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Smog fighting on your side"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7800fdc3b0cb"
+}
