@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hunter-s-season",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 35,
+            "per": "Hunter fighting on your side"
+          },
+          "params": {
+            "repeats": "once per Hunter on your side"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_enemy",
+          "statuses": [
+            "Poisoned"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "703ed80cf77b"
+}

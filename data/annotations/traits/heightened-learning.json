@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heightened-learning",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "allies",
+        "params": {
+          "direction": "up",
+          "except": "Health"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 25
+          },
+          "params": {
+            "others": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          },
+          "params": {
+            "amplifies": "stat gains"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "357828f720bd"
+}

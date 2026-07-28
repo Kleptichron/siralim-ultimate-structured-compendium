@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heretic-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Death spells",
+            "effect": "consume no Charges"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "allies",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 20
+          },
+          "params": {
+            "self": true,
+            "cost": "casting a Death spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "29749649969f"
+}

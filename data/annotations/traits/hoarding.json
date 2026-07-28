@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hoarding",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "different class of Spell Gem equipped"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e400a0dda061"
+}

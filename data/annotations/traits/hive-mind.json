@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hive-mind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Waspid"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "target": "target",
+          "params": {
+            "which": "your other Waspids",
+            "damagePctOfNormal": 30
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not affect other creatures with the same trait.",
+  "textHash": "ab8e685dfd18"
+}

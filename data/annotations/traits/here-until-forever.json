@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:here-until-forever",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "attack/spell damage taken between its turns",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Rebirth"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "1bd7deaa774b"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hidden-potential",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "turns it has taken",
+            "equals": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e407b4c3a9e9"
+}

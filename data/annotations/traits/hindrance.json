@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hindrance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7b7996d13fe0"
+}

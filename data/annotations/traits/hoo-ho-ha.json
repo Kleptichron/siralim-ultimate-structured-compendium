@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hoo-ho-ha",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "holder",
+          "params": {
+            "into": "Imp Impington Prime",
+            "effect": "resurrected as"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3a8ffd492db1"
+}

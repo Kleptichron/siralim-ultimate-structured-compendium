@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hubbub",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies",
+        "params": {
+          "which": "creatures of your most common race"
+        }
+      },
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "allies",
+          "params": {
+            "action": "provoke",
+            "which": "the others of that race"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "04125bfd2f9d"
+}

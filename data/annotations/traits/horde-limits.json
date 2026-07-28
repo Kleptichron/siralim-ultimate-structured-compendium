@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:horde-limits",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "allies"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Immune"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "296b6457f614"
+}

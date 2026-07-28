@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hotspur",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "one of their spells at random",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "6bcb1ae7109b"
+}

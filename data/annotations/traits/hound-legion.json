@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hound-legion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "minions",
+          "params": {
+            "minion": "Dire Wolves",
+            "effect": "never go away"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d38d6bd597ba"
+}

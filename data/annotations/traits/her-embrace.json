@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:her-embrace",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 150,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        },
+        {
+          "verb": "crit_chance_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "always critical"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "taking every other turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ee5f3dcdd553"
+}

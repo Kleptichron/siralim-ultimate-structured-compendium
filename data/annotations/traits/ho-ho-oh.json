@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:ho-ho-oh",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "turns the creature has taken",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "any",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "cannotGain": true,
+            "until": "after their first turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "12ee759e5aee"
+}

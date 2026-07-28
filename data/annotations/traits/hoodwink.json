@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hoodwink",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Taunting"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Blind"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "enemies",
+          "params": {
+            "effect": "target provoking allies with attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2343cdd676ee"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hemophilia",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Bleeding"
+          ],
+          "params": {
+            "duration": "forever"
+          }
+        },
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Bleeding"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          },
+          "params": {
+            "property": "damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "49a816b70cf1"
+}

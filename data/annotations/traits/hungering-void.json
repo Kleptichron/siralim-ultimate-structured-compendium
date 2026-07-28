@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hungering-void",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "actor": "holder",
+          "target": "any",
+          "params": {
+            "effect": "Seals one of each creature's Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9855920535fa"
+}
