@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:controlled-anger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "turns the creature has taken",
+            "atLeast": 2
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "immune",
+            "duration": "rest of battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "14f2d03204d7"
+}

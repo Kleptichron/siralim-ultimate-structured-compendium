@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:blitzkrieg",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 50
+            },
+            "scaleRef": "other",
+            "per": "earlier simultaneous attack on the same target"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2a3504766e18"
+}

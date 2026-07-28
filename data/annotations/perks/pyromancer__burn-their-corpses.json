@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:pyromancer:burn-their-corpses",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Burning"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "trigger_subject",
+          "params": {
+            "action": "being resurrected"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "00864f8e24d2"
+}

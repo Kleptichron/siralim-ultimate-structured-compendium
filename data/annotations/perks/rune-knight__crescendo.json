@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:crescendo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            },
+            "scaleRef": "other",
+            "per": "Rune of Dun cast this battle"
+          },
+          "params": {
+            "amplifies": "stat gains and reductions"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2e58d8fb7707"
+}

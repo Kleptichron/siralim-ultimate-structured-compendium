@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:aegis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            },
+            "scaleRef": "other",
+            "per": "Rune of Lua cast this battle",
+            "cap": 90
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8b425a1b83d0"
+}

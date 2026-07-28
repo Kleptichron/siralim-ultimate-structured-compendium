@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:discharge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Rune spells",
+            "effect": "target all enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per Rune spell cast this battle; rule.chance records the 20% cap.",
+  "textHash": "2799555d2c95"
+}

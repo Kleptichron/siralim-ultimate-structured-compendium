@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:red-eye-flight",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 25
+            }
+          },
+          "params": {
+            "what": "battle fatigue onset",
+            "effect": "starts N turns sooner"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Battle fatigue is a global battle system with no verb; other is honest here.",
+  "textHash": "c3cb0670088e"
+}

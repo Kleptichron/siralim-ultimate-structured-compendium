@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:reverberation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "turns_taken",
+            "per": "2 turns taken in battle"
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "turns_taken",
+            "per": "2 turns taken in battle"
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6371f2b90486"
+}

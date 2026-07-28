@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:embiggen",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 10
+            },
+            "scaleRef": "other",
+            "per": "Rune of Sah cast this battle"
+          },
+          "params": {
+            "source": "spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3e38c4b968da"
+}

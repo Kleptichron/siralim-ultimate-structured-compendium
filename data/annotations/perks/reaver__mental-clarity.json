@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:mental-clarity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "turns the creature has taken",
+            "atLeast": 2
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "casts consume no Charges",
+            "duration": "rest of battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b708905f2ca2"
+}

@@ -4424,31 +4424,38 @@
     },
     "perk:pyromancer:backdraft": {
       "hash": "9c8acdb8e391",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:burn-out": {
       "hash": "bbc099851ac1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:burn-their-corpses": {
       "hash": "00864f8e24d2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:cauterize": {
       "hash": "bc700d1c74f8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:combustion": {
       "hash": "be84cbfc896d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:conflagration": {
       "hash": "faba9521becd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:empowering-flames": {
       "hash": "2fc8162dda51",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:firestarter": {
       "hash": "87e31d3689df",
@@ -4457,79 +4464,98 @@
     },
     "perk:pyromancer:flashover": {
       "hash": "21e44397044d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:from-ashes": {
       "hash": "34ac2186dd67",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:hot-streak": {
       "hash": "37460755d4a7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:immolation": {
       "hash": "1bafca7909f3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:kindle-the-flame": {
       "hash": "13803efeb221",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:living-flame": {
       "hash": "809e9a74ab65",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:pyroblast": {
       "hash": "12deb31a38ce",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:roaring-blaze": {
       "hash": "855aa32d4ab6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:blitzkrieg": {
       "hash": "2a3504766e18",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:controlled-anger": {
       "hash": "14f2d03204d7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:mental-clarity": {
       "hash": "b708905f2ca2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:mercurial": {
       "hash": "4b32e5d84831",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:onslaught": {
       "hash": "8cb8f55086e8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:proliferation": {
       "hash": "054c9c801dff",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:rapid-exhaustion": {
       "hash": "d3cc2c7663ec",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:red-eye-flight": {
       "hash": "c3cb0670088e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:reign-of-chaos": {
       "hash": "f4b9921547dc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:relentless": {
       "hash": "c8ced9fd9d3b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:reverberation": {
       "hash": "6371f2b90486",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:rigor": {
       "hash": "adfbe04e33be",
@@ -4538,103 +4564,128 @@
     },
     "perk:reaver:sap": {
       "hash": "ba920c260167",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:skirmish": {
       "hash": "6506504141d6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:stimulation": {
       "hash": "f37d10b758b6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:sure-footed": {
       "hash": "9761c6ecaf21",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:uncontrollable-anger": {
       "hash": "627e1d2622c5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:royal:highborn": {
       "hash": "33add8480371",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:royal:master-of-all": {
       "hash": "4318a5f83a7f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:aegis": {
       "hash": "8b425a1b83d0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:aggression": {
       "hash": "4233f09c12d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:covenant": {
       "hash": "bc20dd487d5e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:crescendo": {
       "hash": "2e58d8fb7707",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:destiny": {
       "hash": "66b3f3eb4c72",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:diabolism": {
       "hash": "55f66e66b223",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:discharge": {
       "hash": "2799555d2c95",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:embiggen": {
       "hash": "3e38c4b968da",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:empowerment": {
       "hash": "b3da9614d5fe",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:inspirit": {
       "hash": "5996c8785220",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:rune-of-cor": {
       "hash": "d0af0292a022",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:rune-of-dun": {
       "hash": "e1c22e59fc18",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:rune-of-lua": {
       "hash": "3db822d96068",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:rune-of-nax": {
       "hash": "8c064c51881f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:rune-of-sah": {
       "hash": "bec33b8f391e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:runic-might": {
       "hash": "bf9b27a34b97",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:ruse": {
       "hash": "a885acb0510c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:rune-knight:undermine": {
       "hash": "8fa13eca2b33",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:arrogance-is-confidence": {
       "hash": "002b372dd7be",

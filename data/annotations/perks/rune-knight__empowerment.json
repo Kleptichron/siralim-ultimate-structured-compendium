@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:empowerment",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "each Rune spell cast this battle",
+            "atLeast": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 2
+            }
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "each Rune spell cast this battle",
+            "atLeast": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "casts consume no Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b3da9614d5fe"
+}

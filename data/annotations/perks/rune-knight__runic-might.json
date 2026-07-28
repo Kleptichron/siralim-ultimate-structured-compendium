@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:runic-might",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "missing Charge"
+          },
+          "params": {
+            "what": "Rune spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bf9b27a34b97"
+}

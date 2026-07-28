@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:pyromancer:combustion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Burning",
+          "source": "Burning"
+        }
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "trigger_subject",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "be84cbfc896d"
+}

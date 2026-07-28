@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:undermine",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellType": "Rune"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Burning",
+            "Bleeding",
+            "Confused",
+            "Poisoned",
+            "Bomb"
+          ],
+          "params": {
+            "bySpell": "Cor: Burning, Dun: Bleeding, Lua: Confused, Nax: Poisoned, Sah: Bomb"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8fa13eca2b33"
+}

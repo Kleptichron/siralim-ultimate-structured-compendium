@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:proliferation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up",
+            "scaleRef": "turns_taken",
+            "per": "turn taken in battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "054c9c801dff"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:relentless",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies",
+        "params": {
+          "context": "failed to deal critical damage"
+        }
+      },
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "effect": "crit chance doubled on their next turn",
+            "stacks": "until a critical hit",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c8ced9fd9d3b"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:sure-footed",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "allies",
+          "params": {
+            "action": "being moved down the Timeline",
+            "by": "enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9761c6ecaf21"
+}

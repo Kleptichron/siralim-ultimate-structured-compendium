@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:pyromancer:pyroblast",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Burning",
+          "source": "Burning"
+        }
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "ally",
+          "target": "enemy",
+          "params": {
+            "which": "each of your creatures",
+            "chanceEach": true,
+            "spell": "Scourge (type by the enemy's class)"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 2% per rank; rule.chance records the max-rank value.",
+  "textHash": "12deb31a38ce"
+}

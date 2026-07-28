@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:pyromancer:hot-streak",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "damaged or healed by Burning",
+          "status": "Burning"
+        }
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "any",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 50
+            }
+          },
+          "params": {
+            "property": "potency",
+            "appliesTo": "all creatures' Burning"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Damaged-or-healed-by-status has no trigger; other is honest here.",
+  "textHash": "37460755d4a7"
+}

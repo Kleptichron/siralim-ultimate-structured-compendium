@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:pyromancer:living-flame",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Burning"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "params": {
+            "source": "Burning",
+            "effect": "converted to healing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "809e9a74ab65"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:pyromancer:backdraft",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Burning",
+          "source": "Burning"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Scorned",
+            "Silenced"
+          ],
+          "params": {
+            "either": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9c8acdb8e391"
+}

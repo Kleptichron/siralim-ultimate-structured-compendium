@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:inspirit",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellType": "Rune"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Savage",
+            "Berserk",
+            "Shelled",
+            "Agile",
+            "Arcane"
+          ],
+          "params": {
+            "bySpell": "Cor: Savage, Dun: Berserk, Lua: Shelled, Nax: Agile, Sah: Arcane"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5996c8785220"
+}

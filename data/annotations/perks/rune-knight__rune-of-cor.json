@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:rune-knight:rune-of-cor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "allies",
+          "params": {
+            "class": "Chaos"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "Rune of Cor"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d0af0292a022"
+}

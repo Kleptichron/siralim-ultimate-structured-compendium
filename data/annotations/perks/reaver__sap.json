@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:reaver:sap",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 5,
+              "maxTotal": 50
+            }
+          },
+          "params": {
+            "source": "battle fatigue"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ba920c260167"
+}
