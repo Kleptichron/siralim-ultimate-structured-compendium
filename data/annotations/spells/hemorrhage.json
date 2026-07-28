@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:hemorrhage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "target",
+          "statuses": [
+            "Bleeding"
+          ],
+          "params": {
+            "effect": "takes 100% of its Bleeding damage",
+            "continuous": true,
+            "endChancePctAfterEach": 35
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b9d9c49fcee8"
+}

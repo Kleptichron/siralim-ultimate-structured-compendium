@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:galaxy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "small",
+            "scaleRef": "buff_count"
+          },
+          "params": {
+            "bonusPct": 10,
+            "per": "buff on each of your creatures"
+          }
+        },
+        {
+          "verb": "remove_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "all": true,
+            "then": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "318539509d70"
+}

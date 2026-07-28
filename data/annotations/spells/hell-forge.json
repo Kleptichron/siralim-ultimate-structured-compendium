@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:hell-forge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Taunting",
+            "Splashing"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "c9bafa6a6870"
+}

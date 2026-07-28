@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:grand-fireball",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Burning"
+          ]
+        },
+        {
+          "verb": "deal_damage",
+          "target": "adjacent_any",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 35
+          },
+          "params": {
+            "anchor": "the target"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "adjacent_any",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "anchor": "the target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "45c8d8efa79d"
+}

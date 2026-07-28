@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:good-fortune",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "all": true,
+            "noOnBuffEffects": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell; does not activate on-buff effects.",
+  "textHash": "50836158e537"
+}

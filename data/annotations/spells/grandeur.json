@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:grandeur",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "tier": "massive",
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "gain_charges",
+          "target": "allies",
+          "params": {
+            "what": "Ultimate Spell Gems",
+            "effect": "recover 100% Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "f8483b108248"
+}

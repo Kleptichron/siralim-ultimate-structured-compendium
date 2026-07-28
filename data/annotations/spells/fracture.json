@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:fracture",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "target",
+          "statuses": [
+            "Barrier"
+          ],
+          "params": {
+            "effect": "Barrier explodes and is removed"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "other",
+            "scalePct": 200,
+            "per": "Barrier strength"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "91bbc144c3cf"
+}

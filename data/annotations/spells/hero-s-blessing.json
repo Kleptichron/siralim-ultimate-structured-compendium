@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:hero-s-blessing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "magnitude": {
+            "amountFlat": 1
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Cannot be cast manually; 35% chance to cast when the caster Attacks.",
+  "textHash": "8f4c12b3ab96"
+}

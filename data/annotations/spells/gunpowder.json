@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:gunpowder",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Speed",
+            "scalePct": 30
+          },
+          "params": {
+            "property": "potency",
+            "of": "the caster"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "dd9b01a602dd"
+}

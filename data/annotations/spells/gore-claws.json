@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:gore-claws",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleStat": "missing_health"
+          },
+          "params": {
+            "bonusPct": 5,
+            "per": "1% Health the target is missing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8d49534b53c5"
+}

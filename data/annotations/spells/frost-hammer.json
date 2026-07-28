@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:frost-hammer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "devastating"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Frozen"
+          ]
+        },
+        {
+          "verb": "timeline_move",
+          "target": "target",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "f47ff5fa5b9d"
+}

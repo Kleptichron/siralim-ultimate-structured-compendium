@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:healing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ee027df6fbca"
+}

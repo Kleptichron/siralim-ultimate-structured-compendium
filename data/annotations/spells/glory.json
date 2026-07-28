@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:glory",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "params": {
+            "spells": "each other non-Ethereal Spell Gem",
+            "chanceEach": true,
+            "maxCasts": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "05a0a0ce432b"
+}

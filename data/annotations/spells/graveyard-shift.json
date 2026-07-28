@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:graveyard-shift",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minion": "Zombies",
+            "stacks": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c6d476b4b0e2"
+}

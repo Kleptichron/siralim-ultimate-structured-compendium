@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:heaven-s-fury",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c1041ca0c68b"
+}

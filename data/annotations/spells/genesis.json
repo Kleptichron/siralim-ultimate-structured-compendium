@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:genesis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "allies"
+        },
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "which": "your dead allies",
+            "healthPct": 100,
+            "charges": "100%"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work on Ultimate Spell Gems.",
+  "textHash": "3c732e7c8e55"
+}

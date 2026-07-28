@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:holy-blast",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Current Health"
+          ],
+          "params": {
+            "setToPct": 25
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 200
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bbd046dcce27"
+}

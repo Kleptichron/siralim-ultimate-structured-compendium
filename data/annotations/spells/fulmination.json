@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:fulmination",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          },
+          "params": {
+            "multipliedBy": "battle fatigue"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6242fb3e0344"
+}

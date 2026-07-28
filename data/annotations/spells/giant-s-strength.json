@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:giant-s-strength",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "tier": "massive",
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f79e08e91407"
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:fragmenting-arrow",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleStat": "Speed"
+          },
+          "params": {
+            "ignoresDefensePct": 30,
+            "basis": "100% caster's Speed instead of Intelligence"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "params": {
+            "exceeds": "100% of the target's Maximum Health"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "params": {
+            "others": true,
+            "copyOf": "that damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6f91646f283b"
+}
