@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:desecrate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "bonusPct": 100,
+            "per": "same-race enemy on the target's side"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "01637cff4785"
+}

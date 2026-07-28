@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:double-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "times": 2
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "caster",
+          "params": {
+            "status": "Proficient"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true,
+            "spell": "this spell"
+          }
+        },
+        {
+          "verb": "remove_status",
+          "target": "caster",
+          "statuses": [
+            "Proficient"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "202a75f5d350"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:deadly-duel",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        },
+        {
+          "verb": "kill",
+          "target": "caster",
+          "params": {
+            "otherwise": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "835af3ce7350"
+}

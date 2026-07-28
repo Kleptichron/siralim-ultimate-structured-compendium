@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:demonwrath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive",
+            "scaleRef": "turns_taken"
+          },
+          "params": {
+            "reductionPct": 30,
+            "per": "turn the caster has taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "28785e6512a0"
+}

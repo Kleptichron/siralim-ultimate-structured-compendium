@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:deep-freeze",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Frozen"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Snared"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "2abe854a5d8c"
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:devastation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Burning",
+            "Poisoned"
+          ],
+          "magnitude": {
+            "amountFlat": 3,
+            "direction": "up"
+          },
+          "params": {
+            "property": "duration (turns)"
+          }
+        },
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Burning",
+            "Poisoned"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c032048d6d0e"
+}

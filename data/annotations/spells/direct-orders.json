@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:direct-orders",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleRef": "minion_count"
+          },
+          "params": {
+            "bonusPct": 20,
+            "per": "minion the caster has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "984028b7c086"
+}

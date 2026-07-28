@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:divulging-bark",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minion": "Dire Wolves",
+            "stacks": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "170b246218be"
+}

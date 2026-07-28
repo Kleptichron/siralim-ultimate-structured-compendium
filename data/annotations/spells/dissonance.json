@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:dissonance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Bomb",
+            "Poisoned",
+            "Burning"
+          ],
+          "params": {
+            "effect": "potencies are averaged"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "182163c0d6fb"
+}

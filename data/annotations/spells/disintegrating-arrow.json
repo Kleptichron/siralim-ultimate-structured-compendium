@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:disintegrating-arrow",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleStat": "Speed"
+          },
+          "params": {
+            "basis": "100% caster's Speed instead of Intelligence"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "target": "target",
+          "params": {
+            "action": "being resurrected for the rest of battle",
+            "if": "this spell kills it"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fe1c980eccea"
+}

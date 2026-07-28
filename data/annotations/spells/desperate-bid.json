@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:desperate-bid",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "random_ally",
+          "params": {
+            "health": "random amount"
+          }
+        },
+        {
+          "verb": "resurrect",
+          "target": "random_enemy",
+          "params": {
+            "health": "random amount"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d33d94684ef4"
+}

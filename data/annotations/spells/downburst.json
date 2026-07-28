@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:downburst",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "adjacent_any",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "anchor": "the target",
+            "includesTarget": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d70a4354b41c"
+}

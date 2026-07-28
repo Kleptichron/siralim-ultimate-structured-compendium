@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:debilitate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "target",
+          "params": {
+            "effect": "extra traits gained during battle are lost"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Trait removal has no verb; other is honest here.",
+  "textHash": "ec7ec6350c4a"
+}

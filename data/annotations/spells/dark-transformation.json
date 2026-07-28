@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:dark-transformation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "up",
+            "scaleRef": "minion_count",
+            "per": "minion it has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d2316dffb66b"
+}

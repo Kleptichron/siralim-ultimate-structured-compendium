@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:death-orb",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        },
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c0820bc27cad"
+}

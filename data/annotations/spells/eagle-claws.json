@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:eagle-claws",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "caster",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "each": true
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "per": "attack"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "248c1796f91a"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:deep-submersion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "lowest_stat"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 100
+          },
+          "params": {
+            "setEqualTo": "its highest stat"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "highest_stat"
+          ],
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "setTo": "its minimum value"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8ab1e65a1f32"
+}
