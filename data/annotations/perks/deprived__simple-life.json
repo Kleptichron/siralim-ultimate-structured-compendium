@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:deprived:simple-life",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "resource": "Skins",
+            "what": "find chance"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Always active even when the specialization is not Deprived.",
+  "textHash": "f606e05bc23e"
+}

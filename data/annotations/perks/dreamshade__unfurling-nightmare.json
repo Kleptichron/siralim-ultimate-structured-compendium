@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:unfurling-nightmare",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Inverted"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 10
+            },
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "of": "their own highest stat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1e3d1da62ade"
+}

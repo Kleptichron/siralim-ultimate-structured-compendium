@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:drained-essence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "time all your creatures' minions went away this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5a91d20a3064"
+}

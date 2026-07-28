@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:delusion-of-grandeur",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 10
+            },
+            "scaleRef": "status_potency",
+            "per": "enemy's Inverted potency"
+          },
+          "statuses": [
+            "Inverted"
+          ],
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9350e89bb704"
+}

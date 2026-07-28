@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:renounce-the-light",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "which": "buffs unrelated to this specialization"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "cannot gain minions unrelated to this specialization"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Text notes the perk is always active for this specialization regardless of Perk Points.",
+  "textHash": "54d7890f4613"
+}

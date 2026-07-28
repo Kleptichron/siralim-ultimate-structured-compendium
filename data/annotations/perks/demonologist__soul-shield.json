@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:soul-shield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "time all your creatures' minions went away this battle",
+            "cap": 80
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1ee97c30400a"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:final-summoning",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "their Greater Demon goes away"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "a powerful spell depending on which Greater Demon went away"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models minion-departure events; trigger other is honest here.",
+  "textHash": "554d2ee6b848"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:contrarian",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "enemy",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Inverted"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "instead": "of the buff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6493900e78cc"
+}

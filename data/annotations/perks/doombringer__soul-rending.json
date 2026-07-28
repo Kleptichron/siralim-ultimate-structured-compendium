@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:doombringer:soul-rending",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 5% per on-heal/on-death/on-resurrect activation this battle; rule.chance records the 50% cap.",
+  "textHash": "375a5aa4028c"
+}

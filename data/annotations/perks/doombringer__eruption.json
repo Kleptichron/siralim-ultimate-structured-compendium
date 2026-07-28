@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:doombringer:eruption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "on-attack effects activate"
+        }
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "what": "on-resurrect effects",
+            "mode": "activate now"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models effect-activation events; trigger other is honest here.",
+  "textHash": "d638c89005f9"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:doombringer:domination",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "on-buff/on-debuff/on-minion activation this battle",
+            "cap": 50
+          },
+          "params": {
+            "kind": "avoid damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1ad602c28172"
+}

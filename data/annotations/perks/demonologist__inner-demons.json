@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:inner-demons",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "stacks of their Lesser Demons go away"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models minion-departure events; trigger other is honest here.",
+  "textHash": "50d42333888a"
+}

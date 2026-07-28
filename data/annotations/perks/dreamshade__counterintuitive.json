@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:counterintuitive",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "ally",
+        "params": {
+          "by": "allies",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "instead": "of the debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7061e53bab4d"
+}

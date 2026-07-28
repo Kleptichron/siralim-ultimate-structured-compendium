@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:hallucination",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "ally",
+        "params": {
+          "direction": "down",
+          "by": "allies",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "instead": "gains those stats instead"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ecafe1ec3832"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:question-everything",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "params": {
+            "from": "your other creatures",
+            "effect": "converted to healing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1294f61ff712"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:doombringer:momentum",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "the value of all their actions (damage, healing, stat gains, etc.) is doubled"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 5% per rank; rule.chance records the max-rank value. Whole-action doubling has no verb — other is honest here.",
+  "textHash": "2d3a7acf9bd2"
+}

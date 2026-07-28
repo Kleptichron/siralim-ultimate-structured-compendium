@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:doombringer:blind-fury",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 2
+            }
+          },
+          "params": {
+            "what": "on-attack and on-cast effects"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6e101e045b33"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:edge-of-reality",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Inverted"
+          ],
+          "params": {
+            "effect": "the dead enemy's Inverted potency is added to all other enemies' Inverted"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5a83a1562b1e"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:doombringer:aversion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "on-defend effects activate"
+        }
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "what": "on-provoke effects",
+            "mode": "activate now"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models effect-activation events; trigger other is honest here.",
+  "textHash": "eb68cf6b8c70"
+}

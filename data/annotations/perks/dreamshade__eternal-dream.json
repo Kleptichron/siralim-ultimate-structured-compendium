@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:eternal-dream",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Inverted"
+          ],
+          "params": {
+            "effect": "immunity impossible"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2fba5937c83d"
+}

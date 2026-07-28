@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:antipode",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "up",
+          "timing": "would"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Inverted"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "instead": "loses stats instead of gaining"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "11cb67087e90"
+}

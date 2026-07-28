@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:lost-in-the-echo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "perRank": {
+              "per": 10,
+              "maxTotal": 30
+            },
+            "scaleRef": "status_potency",
+            "per": "their own Inverted potency"
+          },
+          "statuses": [
+            "Inverted"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "89af61b9047f"
+}

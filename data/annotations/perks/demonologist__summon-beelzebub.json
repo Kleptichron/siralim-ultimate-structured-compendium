@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:summon-beelzebub",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "allies",
+          "params": {
+            "class": "Death"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minion": "Beelzebub"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "30757e4d77d2"
+}

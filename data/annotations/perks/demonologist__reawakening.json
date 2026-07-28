@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:reawakening",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "sacrifices a Lesser Demon"
+        }
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "trigger_subject",
+          "params": {
+            "minion": "the sacrificed Lesser Demon stack",
+            "kind": "resurrects"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance applies per stack.",
+  "textHash": "3ce4b4f9741c"
+}

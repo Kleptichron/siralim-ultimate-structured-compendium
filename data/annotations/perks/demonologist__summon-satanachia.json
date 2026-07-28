@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:summon-satanachia",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "other",
+          "params": {
+            "requires": "team collectively has Asmodeus, Beelzebub, Mammon, Leviathan, and Belphegor"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minion": "Satanachia"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Minion-composition requirement has no condition type; condition other is honest here.",
+  "textHash": "9c307567d5a5"
+}

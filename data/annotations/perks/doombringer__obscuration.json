@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:doombringer:obscuration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 2
+            }
+          },
+          "params": {
+            "what": "on-critical and on-dodge effects"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "562d23b6bb1e"
+}

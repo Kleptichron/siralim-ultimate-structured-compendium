@@ -3019,191 +3019,238 @@
     },
     "perk:demonologist:brim-fiends": {
       "hash": "400f82df52bd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:chaos-satyrs": {
       "hash": "3df7dda8176d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:demonic-consumption": {
       "hash": "c4c632f804cc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:demonic-pact": {
       "hash": "febd8789726b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:drained-essence": {
       "hash": "5a91d20a3064",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:final-summoning": {
       "hash": "554d2ee6b848",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:fire-imps": {
       "hash": "68bd0e78945d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:inner-demons": {
       "hash": "50d42333888a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:reawakening": {
       "hash": "3ce4b4f9741c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:renounce-the-light": {
       "hash": "54d7890f4613",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:soul-shield": {
       "hash": "1ee97c30400a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:summon-asmodeus": {
       "hash": "b1fb872de7be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:summon-beelzebub": {
       "hash": "30757e4d77d2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:summon-belphegor": {
       "hash": "058b3c08fe89",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:summon-leviathan": {
       "hash": "2b9550eb7eba",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:summon-lucifer": {
       "hash": "e9bf3e7ab06d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:summon-mammon": {
       "hash": "41e37a1ba8c8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:summon-satanachia": {
       "hash": "9c307567d5a5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:demonologist:void-shift": {
       "hash": "adaff6a17b23",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:deprived:simple-life": {
       "hash": "f606e05bc23e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:deprived:total-deprivation": {
       "hash": "4bf747e697ca",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:anger-management": {
       "hash": "4a4f4dd35191",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:aversion": {
       "hash": "eb68cf6b8c70",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:blind-fury": {
       "hash": "6e101e045b33",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:defiance": {
       "hash": "20298b30d12a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:detainment": {
       "hash": "69adf81f034c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:domination": {
       "hash": "1ad602c28172",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:eruption": {
       "hash": "d638c89005f9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:juggernaut": {
       "hash": "140d1fb6f589",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:momentum": {
       "hash": "2d3a7acf9bd2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:obscuration": {
       "hash": "562d23b6bb1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:outburst": {
       "hash": "322910893615",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:recklessness": {
       "hash": "7e40904019e4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:siegebreaker": {
       "hash": "138a92a7c4c4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:soul-rending": {
       "hash": "375a5aa4028c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:unbound-hatred": {
       "hash": "f021e95b8702",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:doombringer:unleashed-power": {
       "hash": "7e715e471958",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:antipode": {
       "hash": "11cb67087e90",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:antithesis": {
       "hash": "af57bf28eceb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:contrarian": {
       "hash": "6493900e78cc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:counterintuitive": {
       "hash": "7061e53bab4d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:damned-visions": {
       "hash": "4b527242b18b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:delusion-of-grandeur": {
       "hash": "9350e89bb704",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:edge-of-reality": {
       "hash": "5a83a1562b1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:eternal-dream": {
       "hash": "2fba5937c83d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:hallucination": {
       "hash": "ecafe1ec3832",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:late-confessions": {
       "hash": "ac3ddcba3608",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:losing-touch": {
       "hash": "b75e47c7d385",
@@ -3212,23 +3259,28 @@
     },
     "perk:dreamshade:lost-in-the-echo": {
       "hash": "89af61b9047f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:lucid-dreams": {
       "hash": "667a66e3989b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:paradox": {
       "hash": "434b029825be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:question-everything": {
       "hash": "1294f61ff712",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:unfurling-nightmare": {
       "hash": "1e3d1da62ade",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:adaptation": {
       "hash": "27240568e0ef",

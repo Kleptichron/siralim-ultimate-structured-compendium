@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:deprived:total-deprivation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "allies",
+          "params": {
+            "action": "benefiting from Fused traits"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "params": {
+            "action": "using Avatar creatures"
+          }
+        },
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "params": {
+            "equipment": "relic",
+            "effect": "effects ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Text notes the perk is always active for this specialization regardless of Perk Points.",
+  "textHash": "4bf747e697ca"
+}

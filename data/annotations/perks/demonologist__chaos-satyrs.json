@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:chaos-satyrs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "trigger_subject",
+          "params": {
+            "minion": "Chaos Satyr",
+            "stacks": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3df7dda8176d"
+}

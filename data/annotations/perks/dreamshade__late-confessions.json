@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:late-confessions",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Inverted"
+          ],
+          "params": {
+            "effect": "potency not decreased on activation"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 5% per rank; rule.chance records the max-rank value.",
+  "textHash": "ac3ddcba3608"
+}

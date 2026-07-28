@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:dreamshade:damned-visions",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "trigger_subject",
+          "target": "random_enemy",
+          "statuses": [
+            "Inverted"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 10
+          },
+          "params": {
+            "of": "the caster"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4b527242b18b"
+}

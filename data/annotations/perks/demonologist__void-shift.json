@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:demonologist:void-shift",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "their Greater Demon would go away"
+        }
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "the demon moves to a different allied creature instead"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models minion-departure events; trigger other is honest here.",
+  "textHash": "adaff6a17b23"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:doombringer:anger-management",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "on-heal effects activate"
+        }
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "what": "on-death effects",
+            "mode": "activate now"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models effect-activation events; trigger other is honest here.",
+  "textHash": "4a4f4dd35191"
+}
