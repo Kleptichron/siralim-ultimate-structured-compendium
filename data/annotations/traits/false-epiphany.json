@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:false-epiphany",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "2 debuffs they have"
+          },
+          "params": {
+            "what": "extra Charges consumed per cast"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "6c0237acd513"
+}

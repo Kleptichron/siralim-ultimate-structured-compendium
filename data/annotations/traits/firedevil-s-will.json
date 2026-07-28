@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:firedevil-s-will",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "source": "Burning"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b34324f90ac6"
+}

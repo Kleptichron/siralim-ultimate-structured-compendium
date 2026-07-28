@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fable",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "holder",
+          "params": {
+            "what": "race becomes Godspawn"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Godspawn creature fighting on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8d772b19d27b"
+}

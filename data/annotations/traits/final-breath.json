@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:final-breath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "enemy"
+      },
+      "chance": 75,
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "again": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f714f47da035"
+}

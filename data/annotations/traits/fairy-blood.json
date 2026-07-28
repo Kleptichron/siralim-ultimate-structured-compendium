@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fairy-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "a random trait of their Fused creature's class"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ea6def54ad65"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:extradimensional-shield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "being killed by instant-death effects",
+            "battles": "normal"
+          }
+        },
+        {
+          "verb": "kill",
+          "target": "enemy",
+          "params": {
+            "effect": "the instant-death effect is reflected back"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2fc2916f188e"
+}

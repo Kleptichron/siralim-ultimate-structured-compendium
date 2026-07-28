@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fingertip-nip",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "minions",
+          "magnitude": {
+            "scaleStat": "Attack",
+            "scalePct": 20
+          },
+          "params": {
+            "minion": "Dire Wolves",
+            "effect": "additional damage from their master's Attack"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b241f9037120"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:feast-and-famine",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Feared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "trigger_subject",
+          "params": {
+            "action": "being resurrected"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c6c71f0ad63a"
+}

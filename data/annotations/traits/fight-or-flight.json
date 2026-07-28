@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fight-or-flight",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "attacker",
+          "params": {
+            "damagePctOfNormal": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "48b7ffa9e902"
+}

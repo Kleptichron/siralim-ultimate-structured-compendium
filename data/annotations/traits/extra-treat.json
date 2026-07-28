@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:extra-treat",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Dumpling"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "casts consume no Charges"
+          }
+        },
+        {
+          "verb": "limit_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "what": "casts per turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0a4f91c9f79c"
+}

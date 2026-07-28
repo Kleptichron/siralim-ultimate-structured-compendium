@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:false-prophecy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Cursed"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "statuses": [
+            "Cursed"
+          ],
+          "params": {
+            "source": "Cursed",
+            "effect": "redirected to the enemy instead"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "02520de8784f"
+}

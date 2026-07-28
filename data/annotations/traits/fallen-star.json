@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fallen-star",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "up",
+          "timing": "would"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "instead": "the holder gains them"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e6410e2296f6"
+}

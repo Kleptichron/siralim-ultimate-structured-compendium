@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:eye-of-the-thylacine",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "other",
+          "params": {
+            "who": "Godspawn",
+            "mirrors": "the same action"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "other",
+          "params": {
+            "who": "Godspawn",
+            "mirrors": "the same action"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 95,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2dab2bd593fb"
+}

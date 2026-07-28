@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:final-act-of-hatred",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spells": "each of their permanent Spell Gems",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3cd60704f3a5"
+}

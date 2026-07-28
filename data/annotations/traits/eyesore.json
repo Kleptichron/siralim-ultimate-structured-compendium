@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:eyesore",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Defense",
+            "scalePct": 100
+          },
+          "params": {
+            "addedFrom": "its Defense"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "setTo": "its minimum value"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "75f41c4e6382"
+}

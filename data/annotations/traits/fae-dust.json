@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fae-dust",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "attack or cast this battle"
+          },
+          "params": {
+            "source": "attacks and spells"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "attack or cast this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d8c8f443c29b"
+}

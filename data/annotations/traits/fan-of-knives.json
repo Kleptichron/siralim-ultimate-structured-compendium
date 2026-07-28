@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fan-of-knives",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "target",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 65
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "df19c9b9dc6c"
+}

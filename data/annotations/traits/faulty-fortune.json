@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:faulty-fortune",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "buffs gained per turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a7d4ab2a0ce9"
+}

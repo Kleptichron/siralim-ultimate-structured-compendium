@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:final-excretion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Corpse Explosion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3a1bf78ddbba"
+}

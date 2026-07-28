@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:extra-padding",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 200
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e6f2b9a4f614"
+}

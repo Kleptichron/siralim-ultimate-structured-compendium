@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:father-shadow",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 20
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7e4abbf14a4e"
+}

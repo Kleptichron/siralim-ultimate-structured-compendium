@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:final-act-of-judgment",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "amountPct": 1,
+            "scaleStat": "missing_health",
+            "per": "0.5% of Health the holder is missing",
+            "cap": 35
+          },
+          "params": {
+            "of": "their Current Health",
+            "capOf": "each creature’s Current Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5962eceb2b83"
+}

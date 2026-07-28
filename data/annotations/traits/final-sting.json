@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:final-sting",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 300,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "holder",
+          "params": {
+            "self": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ddb41a947427"
+}

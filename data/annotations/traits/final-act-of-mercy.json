@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:final-act-of-mercy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "enemies",
+          "params": {
+            "below": "25%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "enemies"
+        }
+      ]
+    }
+  ],
+  "textHash": "b5f57905d38e"
+}

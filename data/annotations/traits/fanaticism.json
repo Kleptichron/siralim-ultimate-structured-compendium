@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:fanaticism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "allies",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "b65f60318dde"
+}

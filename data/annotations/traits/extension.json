@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:extension",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statusKind": "buff",
+          "magnitude": {
+            "amountFlat": 2,
+            "direction": "up"
+          },
+          "params": {
+            "property": "duration (turns)"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "each minion gains 1 stack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "86e23ef70608"
+}

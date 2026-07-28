@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:eye-of-the-storm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "above": "90%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "allies",
+          "params": {
+            "what": "minimum Health",
+            "floor": "5%",
+            "ignoredIf": "incoming damage exceeds 100% of Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b81af9a78f89"
+}
