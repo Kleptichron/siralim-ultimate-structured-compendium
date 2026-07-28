@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:co-ray",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "ally",
+          "params": {
+            "which": "your other creatures",
+            "spell": "one of their damaging Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1c4b4bf50c41"
+}

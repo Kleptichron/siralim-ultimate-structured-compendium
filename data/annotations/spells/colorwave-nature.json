@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:colorwave-nature",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "up",
+            "scaleRef": "infusions",
+            "per": "Nature Infusion"
+          },
+          "params": {
+            "bonusPctPerInfusion": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c519b7c0d9e5"
+}

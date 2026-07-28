@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:contagion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "minions removed"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "per": "minion removed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1abd3b19ee37"
+}

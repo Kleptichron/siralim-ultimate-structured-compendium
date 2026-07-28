@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:cyanide-gas",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Poisoned"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "enemies",
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c55957443d2e"
+}

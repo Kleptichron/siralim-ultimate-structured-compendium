@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:controlled-burn",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large"
+          },
+          "params": {
+            "bonusPct": 5,
+            "per": "caster spell cast this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "760da4b2a6a9"
+}

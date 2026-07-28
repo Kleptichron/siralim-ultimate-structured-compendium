@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:charity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "target",
+          "statusKind": "buff",
+          "params": {
+            "effect": "each buff spreads to the target's allies",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4f77c8e74c1f"
+}

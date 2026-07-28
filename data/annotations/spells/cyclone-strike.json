@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:cyclone-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "devastating"
+          },
+          "params": {
+            "splitAmong": "all enemies",
+            "includesTarget": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "03d846e95808"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:continuum",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "a random spell",
+            "continuous": true,
+            "endChancePctAfterEach": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0a71fd7e4ac3"
+}

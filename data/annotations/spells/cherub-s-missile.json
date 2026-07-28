@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:cherub-s-missile",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "one of its other spells",
+            "targets": "completely random"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "79189ea1918d"
+}

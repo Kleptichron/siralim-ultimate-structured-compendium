@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:dark-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "devastating"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statusKind": "debuff",
+          "params": {
+            "all": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "fcc10ba80fd8"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:cross-pollination",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "allies",
+          "params": {
+            "what": "classes changed to Nature"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "magnitude": {
+            "tier": "large",
+            "direction": "up",
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "of": "the caster"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8de9d191098f"
+}

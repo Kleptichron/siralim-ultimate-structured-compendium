@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:curse-of-jimly",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "scaleRef": "minion_count",
+            "per": "3 stacks of Zombies the caster has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0e57ec8935c4"
+}

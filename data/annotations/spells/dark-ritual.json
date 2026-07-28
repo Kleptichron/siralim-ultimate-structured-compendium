@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:dark-ritual",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        },
+        {
+          "verb": "steal_status",
+          "target": "target",
+          "statusKind": "buff",
+          "params": {
+            "all": true,
+            "recipient": "the caster"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "caster",
+          "stats": [
+            "Attack",
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 100
+          },
+          "params": {
+            "of": "the killed target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "39f92c378f40"
+}
