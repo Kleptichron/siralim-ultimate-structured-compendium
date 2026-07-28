@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:lamora:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Blighted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "byRelic": true,
+            "spell": "Minor Healing",
+            "targets": "each enemy with Blighted"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e12184180b07"
+}

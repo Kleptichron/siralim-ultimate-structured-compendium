@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:moonfire-and-sunfury:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "status": "Silenced",
+          "by": "holder"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "byRelic": true,
+            "spell": "random single-target spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "20a2c1ac4000"
+}

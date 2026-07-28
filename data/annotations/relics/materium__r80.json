@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:materium:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "can equip Death Spell Gems",
+            "spellClass": "Death"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a67e1d69b478"
+}

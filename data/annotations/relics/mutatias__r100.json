@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:mutatias:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "extra_turn",
+          "target": "holder",
+          "params": {
+            "turnsAtATime": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3a7162809b62"
+}

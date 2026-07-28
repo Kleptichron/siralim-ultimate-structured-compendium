@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:materium:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "params": {
+            "asIf": "strong against enemy class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "63497a2d3bb0"
+}

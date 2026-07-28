@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:materium:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "holder",
+          "params": {
+            "what": "class becomes that of the top-most equipped Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3f04dd059093"
+}

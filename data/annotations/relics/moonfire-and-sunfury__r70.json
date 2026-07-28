@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:moonfire-and-sunfury:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "statuses": [
+            "Scorned",
+            "Silenced"
+          ],
+          "params": {
+            "vsWith": "Scorned or Silenced",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "19d28dfb52d9"
+}

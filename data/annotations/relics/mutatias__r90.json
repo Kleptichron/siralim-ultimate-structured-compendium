@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:mutatias:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder",
+        "params": {
+          "except": "first turn"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Death Blossom"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "08e9fc70af08"
+}

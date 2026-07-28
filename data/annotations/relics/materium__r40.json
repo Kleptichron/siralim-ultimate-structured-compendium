@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:materium:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "can equip Life Spell Gems",
+            "spellClass": "Life"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "61f01a1ba9bb"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:materium:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "can equip Sorcery Spell Gems",
+            "spellClass": "Sorcery"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "25bac2fdd37a"
+}

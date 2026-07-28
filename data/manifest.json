@@ -5834,59 +5834,73 @@
     },
     "relic:hanti-and-jihi:r10": {
       "hash": "20898ac3dd25",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r100": {
       "hash": "cfc2482ae7a0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r20": {
       "hash": "634240f4067a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r30": {
       "hash": "96448fe59cd1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r40": {
       "hash": "69b020d8a9b5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r50": {
       "hash": "5b3f1aa9c9f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r60": {
       "hash": "5e85cab7be37",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r70": {
       "hash": "7c52b1ca089b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r80": {
       "hash": "513908780344",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:hanti-and-jihi:r90": {
       "hash": "45c0c455051a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r10": {
       "hash": "3f43a90062f5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r100": {
       "hash": "912767cc74bd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r20": {
       "hash": "20898ac3dd25",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r30": {
       "hash": "e12184180b07",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r40": {
       "hash": "aadb0ca79d77",
@@ -5895,167 +5909,208 @@
     },
     "relic:lamora:r50": {
       "hash": "eb78c2f7eb71",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r60": {
       "hash": "0576602ac0b3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r70": {
       "hash": "b409bce4f455",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r80": {
       "hash": "38bb4208c279",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r90": {
       "hash": "9b02bd124cd0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r10": {
       "hash": "49859285eb5b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r100": {
       "hash": "25bac2fdd37a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r20": {
       "hash": "e68c97b160c7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r30": {
       "hash": "63497a2d3bb0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r40": {
       "hash": "61f01a1ba9bb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r50": {
       "hash": "0769b9fbc750",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r60": {
       "hash": "2538abccb372",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r70": {
       "hash": "3f04dd059093",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r80": {
       "hash": "a67e1d69b478",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:materium:r90": {
       "hash": "a59a40d9043b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r10": {
       "hash": "203ad26a0dac",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r100": {
       "hash": "15aee83b44a7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r20": {
       "hash": "5c9fafdf8ef3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r30": {
       "hash": "92e9f20fed6a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r40": {
       "hash": "20a2c1ac4000",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r50": {
       "hash": "921c45ac3049",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r60": {
       "hash": "6dd4de3c421e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r70": {
       "hash": "19d28dfb52d9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r80": {
       "hash": "cd14ea22ac13",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r90": {
       "hash": "3f5b90a0ac86",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r10": {
       "hash": "b0c726a84638",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r100": {
       "hash": "3a7162809b62",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r20": {
       "hash": "3efd0cb6155f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r30": {
       "hash": "2043f3b97e26",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r40": {
       "hash": "7dd9370094b1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r50": {
       "hash": "8c7df2e38bbc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r60": {
       "hash": "5090f67697d3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r70": {
       "hash": "a66b45b53fdf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r80": {
       "hash": "1f54af13dea6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:mutatias:r90": {
       "hash": "08e9fc70af08",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r10": {
       "hash": "680221280738",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r100": {
       "hash": "a9d0b48baf12",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r20": {
       "hash": "edd0bf4c7247",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r30": {
       "hash": "8421a28ab0bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r40": {
       "hash": "8735a03fc2db",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r50": {
       "hash": "56a93f79ddd5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r60": {
       "hash": "b3b4531e93db",
@@ -6064,15 +6119,18 @@
     },
     "relic:petra-and-aes:r70": {
       "hash": "555c0f00af23",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r80": {
       "hash": "5c2b4d039976",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r90": {
       "hash": "af83e175d03e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:prime-and-ventus:r10": {
       "hash": "c5c700be7e64",

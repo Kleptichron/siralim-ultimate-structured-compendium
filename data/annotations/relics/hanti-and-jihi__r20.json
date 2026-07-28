@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:hanti-and-jihi:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "enemies",
+          "target": "holder"
+        }
+      ]
+    }
+  ],
+  "textHash": "634240f4067a"
+}

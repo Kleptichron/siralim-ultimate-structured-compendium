@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:moonfire-and-sunfury:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "status": "Silenced",
+          "by": "holder"
+        }
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "magnitude": {
+            "amountFlat": 1
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "status": "Scorned",
+          "by": "holder"
+        }
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "magnitude": {
+            "amountFlat": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3f5b90a0ac86"
+}

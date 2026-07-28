@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:moonfire-and-sunfury:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "byRelic": true,
+          "spell": "Meteor Shower"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "whichever": "lowest"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6dd4de3c421e"
+}

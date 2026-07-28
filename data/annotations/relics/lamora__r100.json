@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:lamora:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "spellType": "healing, on enemy"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Blighted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "byRelic": true,
+            "spell": "Major Healing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "912767cc74bd"
+}

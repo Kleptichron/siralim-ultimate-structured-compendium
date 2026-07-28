@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:hanti-and-jihi:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "times attacked this turn",
+            "atLeast": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 5
+          },
+          "params": {
+            "byRelic": true,
+            "spell": "random Arrow spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "45c0c455051a"
+}

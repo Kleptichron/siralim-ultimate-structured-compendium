@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:materium:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "can equip Chaos Spell Gems",
+            "spellClass": "Chaos"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e68c97b160c7"
+}

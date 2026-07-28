@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:moonfire-and-sunfury:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemy",
+          "params": {
+            "status": "Scorned"
+          }
+        },
+        {
+          "type": "has_status",
+          "who": "enemy",
+          "params": {
+            "status": "Silenced"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Planets"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "15aee83b44a7"
+}
