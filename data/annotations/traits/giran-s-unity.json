@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:giran-s-unity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 10
+          },
+          "params": {
+            "of": "your other creatures' stats",
+            "ignores": "creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "591c61b2348e"
+}

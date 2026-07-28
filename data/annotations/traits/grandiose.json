@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:grandiose",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "effect": "turn counter increases by 3 additional turns"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "effect": "act as if they have 3 more buffs, debuffs and minions"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Turn-count and counting meta-rules have no verb; other is honest here.",
+  "textHash": "242deaa17759"
+}

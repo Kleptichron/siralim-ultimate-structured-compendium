@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:gemcutter",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Ultimate Spell Gems",
+            "effect": "cannot be Sealed and consume no Charges"
+          }
+        },
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Silenced"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f5694b55ddaa"
+}

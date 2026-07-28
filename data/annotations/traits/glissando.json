@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:glissando",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Agile"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "enemy",
+        "params": {
+          "first": "each turn"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "target": "trigger_subject",
+          "params": {
+            "each": true,
+            "damagePctOfNormal": 50
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d99d09c5231b"
+}

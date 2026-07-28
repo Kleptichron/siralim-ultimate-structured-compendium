@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:great-fall",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "first": "each turn"
+        }
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "enemies",
+          "params": {
+            "to": "bottom",
+            "others": true,
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4b69ed95136b"
+}

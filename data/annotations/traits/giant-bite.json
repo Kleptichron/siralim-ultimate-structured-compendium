@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:giant-bite",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "scaleRef": "damage_dealt"
+          },
+          "params": {
+            "range": "1% to 100% of the damage dealt"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bbb40fedfd7a"
+}

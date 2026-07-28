@@ -14362,163 +14362,203 @@
     },
     "trait:gem-blade": {
       "hash": "4302b12177e1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gem-leech": {
       "hash": "ff20296f7a54",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gemcutter": {
       "hash": "f5694b55ddaa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gentle-giant": {
       "hash": "9705bd669841",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:giant-bite": {
       "hash": "bbb40fedfd7a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:giant-s-destruction": {
       "hash": "f893e3a3f769",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gift-of-charybdis": {
       "hash": "dd1ce0bfea3d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gift-of-scylla": {
       "hash": "840640602529",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:giftwrapped-army": {
       "hash": "bd7488342fb7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gimp-touch": {
       "hash": "e33cbdbe1841",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:giran-s-rigor": {
       "hash": "e0bb51a69f7b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:giran-s-strategy": {
       "hash": "dd29b4bcdb6e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:giran-s-unity": {
       "hash": "591c61b2348e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glaive-of-destruction": {
       "hash": "fdd84616beb9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glaive-of-hungering": {
       "hash": "2803fa54fdcc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glaive-of-justice": {
       "hash": "5843981331d0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glaive-of-power": {
       "hash": "a2394be7b89b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glaive-of-prayer": {
       "hash": "4891afa18459",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glass-house": {
       "hash": "c2f568a9f73c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glissando": {
       "hash": "d99d09c5231b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glitch-in-the-system": {
       "hash": "3af13ab1fbcc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:glucose": {
       "hash": "0ea821aefb27",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gluttony": {
       "hash": "97fd261865d7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:goad": {
       "hash": "b2d9e7f7a8fc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:going-mad": {
       "hash": "89b6d4e61e54",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:golden-aura": {
       "hash": "e17ad57e73ca",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:gore": {
       "hash": "dbdd45abef03",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:graced-by-whimsy": {
       "hash": "a8c53b7b4d3c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:grand-pas": {
       "hash": "82f836857543",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:grandiose": {
       "hash": "242deaa17759",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:grayscale": {
       "hash": "8b76338b2891",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:great-conjunction": {
       "hash": "4a8dca0d26a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:great-expectations": {
       "hash": "8a64e971ce29",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:great-fall": {
       "hash": "4b69ed95136b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:greed": {
       "hash": "043e1492a0b4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:greed-is-good": {
       "hash": "57a2e04489c6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:green-eyes": {
       "hash": "c8159116b94f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:green-tether": {
       "hash": "81c5e1fb49ad",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:greybeard-s-blessing": {
       "hash": "d4e8ac07e48f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:grim-ailment": {
       "hash": "2ad34cd996fa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:grim-aura": {
       "hash": "46763b631e19",

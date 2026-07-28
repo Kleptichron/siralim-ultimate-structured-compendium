@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:gentle-giant",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "holder",
+          "params": {
+            "what": "class becomes that of the creature to its left"
+          }
+        },
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "the Fused trait of the creature to its right"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "dealing direct damage with attacks or spells"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Defense"
+          },
+          "params": {
+            "what": "spell potency",
+            "replaces": "Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9705bd669841"
+}

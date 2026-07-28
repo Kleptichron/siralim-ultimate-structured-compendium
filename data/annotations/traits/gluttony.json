@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:gluttony",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "other",
+            "scalePct": 50
+          },
+          "params": {
+            "convertedFrom": "its Attack, Intelligence and Speed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "97fd261865d7"
+}

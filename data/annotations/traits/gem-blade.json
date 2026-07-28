@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:gem-blade",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_minion_gained",
+        "subject": "holder",
+        "params": {
+          "what": "Animated Gem"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "the spell in its Artifact's Spell Slot"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_minion_gained",
+        "subject": "holder",
+        "params": {
+          "what": "Animated Weapon"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy"
+        }
+      ]
+    }
+  ],
+  "textHash": "4302b12177e1"
+}

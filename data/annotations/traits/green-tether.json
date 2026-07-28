@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:green-tether",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_heal",
+        "subject": "adjacent_allies"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "healing_done",
+            "scalePct": 100
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "healing_done",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work with creatures that also have this trait.",
+  "textHash": "81c5e1fb49ad"
+}

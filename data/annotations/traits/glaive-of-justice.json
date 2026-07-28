@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:glaive-of-justice",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleRef": "other",
+            "scalePct": 35,
+            "per": "Hunter fighting on your side"
+          },
+          "params": {
+            "repeats": "once per Hunter on your side"
+          }
+        },
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Holy Smite",
+            "chancePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5843981331d0"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:glaive-of-destruction",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 20,
+            "scaleRef": "other",
+            "per": "Hunter fighting on your side"
+          },
+          "params": {
+            "repeats": "once per Hunter on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fdd84616beb9"
+}
