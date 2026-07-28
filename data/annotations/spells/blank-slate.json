@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:blank-slate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "any",
+          "params": {
+            "effect": "extra traits gained during battle are lost"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Trait removal has no verb; other is honest here.",
+  "textHash": "236b26cff3c3"
+}

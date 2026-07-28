@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:blitz-howl",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Silenced",
+            "Burning",
+            "Feared"
+          ],
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Cannot be cast manually; 30% chance to cast at the start of the caster's turn.",
+  "textHash": "78973e19f6a9"
+}

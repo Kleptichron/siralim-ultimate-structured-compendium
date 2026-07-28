@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:blood-burst",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleStat": "Current Health"
+          },
+          "params": {
+            "bonusPct": 2,
+            "per": "1% Health it has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "496839fdd63f"
+}

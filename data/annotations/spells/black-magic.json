@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:black-magic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "random_enemy",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "continuous": true,
+            "endChancePctAfterEach": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4e6ee714edc5"
+}

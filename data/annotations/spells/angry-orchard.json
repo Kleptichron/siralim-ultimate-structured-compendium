@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:angry-orchard",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "times": 4
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2865f75b7d9d"
+}

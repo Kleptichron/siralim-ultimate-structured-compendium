@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:ancient-prayer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "what": "all the target's buffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f41f78e7385c"
+}

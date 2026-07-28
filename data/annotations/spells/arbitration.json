@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:arbitration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "steal_status",
+          "target": "enemies",
+          "statusKind": "buff",
+          "params": {
+            "all": true,
+            "recipients": "your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5b1f7e00e32f"
+}

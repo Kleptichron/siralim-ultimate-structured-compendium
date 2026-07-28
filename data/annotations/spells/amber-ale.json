@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:amber-ale",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "target",
+          "target": "random_enemy",
+          "params": {
+            "damagePctOfNormal": 300
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Booze Spell.",
+  "textHash": "2cff67b8caee"
+}

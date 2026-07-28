@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:balance-in-all-things",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "tier": "devastating"
+          }
+        },
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "healthTier": "devastating"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "devastating"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "54afc010716e"
+}

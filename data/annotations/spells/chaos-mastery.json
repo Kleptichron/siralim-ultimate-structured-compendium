@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:chaos-mastery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Savage"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "278ccf986531"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:brethren",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "ally",
+          "target": "random_enemy",
+          "params": {
+            "which": "your other creatures of the caster's race"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "695c8620f2a2"
+}

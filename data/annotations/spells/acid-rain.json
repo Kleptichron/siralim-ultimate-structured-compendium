@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:acid-rain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e95769ffa414"
+}

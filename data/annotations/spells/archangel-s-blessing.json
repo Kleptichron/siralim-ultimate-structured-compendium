@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:archangel-s-blessing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 30
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "26cfaf0cf7bf"
+}

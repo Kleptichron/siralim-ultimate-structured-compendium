@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:aggravate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Cursed"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "enemies",
+          "target": "caster",
+          "params": {
+            "damagePctOfNormal": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "040464385cab"
+}

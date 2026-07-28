@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:brain-freeze",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "Gems they cast this battle are Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8c8f97dd1a55"
+}

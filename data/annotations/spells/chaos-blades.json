@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:chaos-blades",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          },
+          "params": {
+            "bonusPct": 5,
+            "per": "your creature Attack this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "755d21156648"
+}

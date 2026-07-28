@@ -7717,11 +7717,13 @@
     },
     "spell:absolute-focus": {
       "hash": "584bd2f7c0f2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:abundance": {
       "hash": "fcea5c232f42",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:acid-bomb": {
       "hash": "af3a4f975c8e",
@@ -7735,7 +7737,8 @@
     },
     "spell:acid-rain": {
       "hash": "e95769ffa414",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:adrenaline-rush": {
       "hash": "9575e21d9ed8",
@@ -7759,59 +7762,73 @@
     },
     "spell:aggravate": {
       "hash": "040464385cab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:amber-ale": {
       "hash": "2cff67b8caee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:ancient-prayer": {
       "hash": "f41f78e7385c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:anger": {
       "hash": "08f11620ea95",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:angry-orchard": {
       "hash": "2865f75b7d9d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:annihilate": {
       "hash": "8ec368641bfa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:antidote": {
       "hash": "b5d22ad359d2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:apocalypse": {
       "hash": "e0056c9f3cd8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:arbitration": {
       "hash": "5b1f7e00e32f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:arcane-enchantment": {
       "hash": "b4a1997ac03d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:arcane-fallacy": {
       "hash": "4cb8909ed6da",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:archangel-s-blessing": {
       "hash": "26cfaf0cf7bf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:arid-alcohol": {
       "hash": "a2fe3082c026",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:ascension": {
       "hash": "af1bef458a3e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:astral-dimension": {
       "hash": "91dbaaa683a6",
@@ -7820,7 +7837,8 @@
     },
     "spell:atonement": {
       "hash": "c8607dae8106",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:avalanche": {
       "hash": "213c47d3c232",
@@ -7829,47 +7847,58 @@
     },
     "spell:awakened-nether-orbs": {
       "hash": "854495831a1c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:balance-in-all-things": {
       "hash": "54afc010716e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:bangin-bourbon": {
       "hash": "eed50f03c68c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:banish": {
       "hash": "8824f76e12fa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:bazooka": {
       "hash": "c4429d4192f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:benediction": {
       "hash": "b383ab6f1707",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:big-bang": {
       "hash": "8edb39d924a7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:black-ice": {
       "hash": "2cb84d6e09f9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:black-magic": {
       "hash": "4e6ee714edc5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:bladestorm": {
       "hash": "84a4bc30f182",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blank-slate": {
       "hash": "236b26cff3c3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blastar-punch": {
       "hash": "2f0b0e9e62e7",
@@ -7888,7 +7917,8 @@
     },
     "spell:blindside": {
       "hash": "37d6390c2df1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blistering-radiance": {
       "hash": "16ccbad5e7a5",
@@ -7897,11 +7927,13 @@
     },
     "spell:blitz-howl": {
       "hash": "78973e19f6a9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blood-burst": {
       "hash": "496839fdd63f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blood-moon": {
       "hash": "ca1842387dfd",
@@ -7915,35 +7947,43 @@
     },
     "spell:blood-spray": {
       "hash": "ff10f7dd5531",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:bloodwave": {
       "hash": "0fd326def1c0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blow-mind": {
       "hash": "9c2ada816537",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blur": {
       "hash": "7317fd98bf6a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:boiling-blood": {
       "hash": "7dd17bfc57d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:bone-armor": {
       "hash": "0768030913bd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:bone-offering": {
       "hash": "fcf35ce38501",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:bone-spear": {
       "hash": "9f889df72137",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:boulder": {
       "hash": "d8d4b9d48e53",
@@ -7952,39 +7992,48 @@
     },
     "spell:boulder-crush": {
       "hash": "1ef31f01d759",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:brain-freeze": {
       "hash": "8c8f97dd1a55",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:breath-of-life": {
       "hash": "c1abafafb9db",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:brethren": {
       "hash": "695c8620f2a2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:brightwave": {
       "hash": "2b910954d349",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:butcher": {
       "hash": "23f268b730b3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:call-help": {
       "hash": "1f5fcce98d7e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:camouflage": {
       "hash": "12c7741f8d77",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:cannibalize": {
       "hash": "ae7f59abbbcc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:cauterize-wound": {
       "hash": "6bc4ab2bd725",
@@ -7993,27 +8042,33 @@
     },
     "spell:chain-lightning": {
       "hash": "b5b1ed3e65a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:chainsaw": {
       "hash": "b80087c75a78",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:chaos-blades": {
       "hash": "755d21156648",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:chaos-bolt": {
       "hash": "61f43d1f575a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:chaos-channelling": {
       "hash": "94581ec584a2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:chaos-mastery": {
       "hash": "278ccf986531",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:chaos-nexus": {
       "hash": "8f01ad393ee8",

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:awakened-nether-orbs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "one of the five Nether Orbs awakens to cast a powerful spell"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "854495831a1c"
+}

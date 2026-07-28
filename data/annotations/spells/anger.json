@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:anger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 100
+          },
+          "params": {
+            "setEqualTo": "its Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "08f11620ea95"
+}

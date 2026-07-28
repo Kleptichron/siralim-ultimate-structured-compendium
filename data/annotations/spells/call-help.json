@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:call-help",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "each minion gains 1 stack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1f5fcce98d7e"
+}
