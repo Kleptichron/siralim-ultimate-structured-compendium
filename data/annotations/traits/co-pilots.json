@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:co-pilots",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "acts as if adjacent to all Robodomi creatures on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Adjacency meta-rule; verb other is honest here.",
+  "textHash": "ec228f2f087d"
+}

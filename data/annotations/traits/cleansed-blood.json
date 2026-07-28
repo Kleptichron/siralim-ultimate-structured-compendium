@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cleansed-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Leeching"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "statuses": [
+            "Blighted"
+          ],
+          "params": {
+            "source": "Blighted",
+            "effect": "no damage taken"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "479fcd034501"
+}

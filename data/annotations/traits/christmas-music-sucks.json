@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:christmas-music-sucks",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "other",
+            "per": "Barrier absorption"
+          },
+          "params": {
+            "what": "non-damaging spell potency",
+            "replaces": "Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "db6631418325"
+}

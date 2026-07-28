@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:clawtail-symbiosis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "extra_turn",
+          "target": "holder",
+          "params": {
+            "limit": "once at a time"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c744dd678bc0"
+}

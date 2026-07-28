@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chrysaor-s-ambition",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_ally",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8e3f8dede3a9"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chaotic-disposition",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Debilitating Blast"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9211e74809e7"
+}

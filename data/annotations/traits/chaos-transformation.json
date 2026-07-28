@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chaos-transformation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "would buff an enemy",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "params": {
+            "instead": "of the buff"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "would debuff an ally",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "instead": "of the debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Would-apply-status has no trigger; other is honest here.",
+  "textHash": "a435cbff5aee"
+}

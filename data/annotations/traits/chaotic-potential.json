@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chaotic-potential",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "holder",
+        "params": {
+          "direction": "up"
+        }
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "a random Morph spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "673d9b4dfa78"
+}

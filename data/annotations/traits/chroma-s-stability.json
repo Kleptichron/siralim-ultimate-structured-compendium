@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chroma-s-stability",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Scorned"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "params": {
+            "effect": "immune",
+            "source": "attacks"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Silenced"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "params": {
+            "effect": "immune",
+            "source": "spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "25b86763777c"
+}

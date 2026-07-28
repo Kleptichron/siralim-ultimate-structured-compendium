@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:channeling",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "casting spells manually"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Speed",
+            "Defense",
+            "Health"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "permanent Spell Gem of the matching class the holder has"
+          },
+          "params": {
+            "mapping": "Chaos→Attack, Sorcery→Intelligence, Nature→Speed, Death→Defense, Life→Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e1e84f59be3f"
+}

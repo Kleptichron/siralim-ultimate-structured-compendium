@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:circus-reverie",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Attack",
+            "scalePct": 10,
+            "scaleRef": "buff_count",
+            "per": "buff their target has"
+          },
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ecf4b2abbf02"
+}

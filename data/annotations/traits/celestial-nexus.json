@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:celestial-nexus",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Barrier"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "holder",
+          "params": {
+            "effect": "takes attack and spell damage in place of your other creatures",
+            "while": "it has Barrier or Shelled"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "waivedStatuses": [
+    "Shelled"
+  ],
+  "textHash": "700c8514d406"
+}

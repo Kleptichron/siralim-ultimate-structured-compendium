@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:closure",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Current Health",
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "redirect_target",
+          "actor": "holder",
+          "params": {
+            "action": "Provoke"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "090e66f32db1"
+}

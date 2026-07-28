@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chaotic-mind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "spell potency",
+            "range": "100% to 200% of normal"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4335ef8a24ac"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chilling-assault",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Icicle Rain"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "eb90f33a75e2"
+}

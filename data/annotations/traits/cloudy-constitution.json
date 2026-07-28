@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cloudy-constitution",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Vulnerable"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Vulnerable"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "amplifies": "stat gains from all sources"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "0f8d5c808cd6"
+}

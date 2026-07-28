@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chaos-through-creation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Living Lance matching the target's class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6ef0f99eb2f1"
+}

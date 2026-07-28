@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:charging-rod",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true
+        }
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "gain_charges",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "its Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a4de53c6eb7c"
+}

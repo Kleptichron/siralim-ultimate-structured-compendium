@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:charge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "any"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy"
+        }
+      ]
+    }
+  ],
+  "textHash": "8edc183d7d82"
+}

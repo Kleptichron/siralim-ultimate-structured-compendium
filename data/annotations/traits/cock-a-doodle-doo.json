@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cock-a-doodle-doo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Cockatrice"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "a random Cockatrice trait"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c8bde3bf1c42"
+}

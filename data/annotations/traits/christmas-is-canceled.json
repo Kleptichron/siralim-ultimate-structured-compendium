@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:christmas-is-canceled",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_enemy",
+          "statuses": [
+            "Disarmed"
+          ],
+          "params": {
+            "count": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5a21aac49ebc"
+}

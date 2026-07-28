@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cloud-of-bats",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "ally"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "sameTarget": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b760499de523"
+}

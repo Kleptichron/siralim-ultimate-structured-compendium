@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:click-click-boom",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "1758a75cd372"
+}

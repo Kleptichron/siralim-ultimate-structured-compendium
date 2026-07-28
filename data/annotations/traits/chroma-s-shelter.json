@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chroma-s-shelter",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "params": {
+            "effect": "immune",
+            "sourceClass": "its own class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "29768c11b0b9"
+}

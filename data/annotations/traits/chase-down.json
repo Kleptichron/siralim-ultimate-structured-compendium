@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chase-down",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Bleeding"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Bleeding"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "dodging attacks from the holder or adjacent allies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "846f5f67eca4"
+}

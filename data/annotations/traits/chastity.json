@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chastity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "above": "90%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Invisible"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "5ab3e28fba5f"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:charity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "actor": "holder",
+          "target": "ally",
+          "magnitude": {
+            "scaleRef": "healing_received",
+            "scalePct": 300
+          },
+          "params": {
+            "except": "creatures that also have this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fa0cf1e1ef15"
+}

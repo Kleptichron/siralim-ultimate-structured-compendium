@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chroma-s-solution",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Scorned"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Silenced"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "530a23f0e5cf"
+}

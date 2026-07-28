@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chain-spells",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "spells": "2 random spells of the same class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "255f469a0c8c"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:center-of-the-universe",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "permanent Life Spell Gems (max 5)",
+            "shared": "with each other"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "90acb0ef85c9"
+}

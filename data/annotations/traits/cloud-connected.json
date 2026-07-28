@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cloud-connected",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "above": "90%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Repelling",
+            "Immune"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "7dfcbd19ace7"
+}

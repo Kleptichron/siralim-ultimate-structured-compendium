@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chip-off-the-block",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 15
+          },
+          "params": {
+            "of": "the holder's stats",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "27f6959480c0"
+}

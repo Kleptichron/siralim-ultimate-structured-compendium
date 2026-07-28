@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chronic-affliction",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Blighted",
+          "source": "Blighted"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "trigger_subject",
+          "statuses": [
+            "Blighted"
+          ],
+          "params": {
+            "effect": "takes the same damage again"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d8d918879239"
+}

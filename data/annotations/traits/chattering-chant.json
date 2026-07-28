@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chattering-chant",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "can equip Spell Gems from any class"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "Sealed Spell Gem your creatures have"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b956e5248322"
+}

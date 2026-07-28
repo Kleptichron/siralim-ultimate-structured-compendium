@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:childhood-s-end",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "effect": "potency shared among enemies"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          },
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "source": "Bomb"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "0349bacdaaa6"
+}

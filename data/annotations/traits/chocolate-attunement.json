@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:chocolate-attunement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "any",
+          "statusKind": "buff"
+        }
+      ]
+    }
+  ],
+  "textHash": "9254067ec1eb"
+}

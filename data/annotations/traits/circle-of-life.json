@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:circle-of-life",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "actor": "holder",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "093ae122eadb"
+}

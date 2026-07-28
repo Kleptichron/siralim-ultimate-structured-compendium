@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:clean-eating",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "trigger_subject",
+          "params": {
+            "race": "Dumpling"
+          }
+        },
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "health": "1 Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f5db32054f9f"
+}
