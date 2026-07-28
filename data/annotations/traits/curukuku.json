@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:curukuku",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "spellType": "single-target",
+          "timing": "would"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "trigger_subject",
+          "params": {
+            "effect": "targets itself instead"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "98ce5d54c537"
+}

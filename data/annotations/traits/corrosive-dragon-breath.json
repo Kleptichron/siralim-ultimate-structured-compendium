@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:corrosive-dragon-breath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "down"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2c022fce00d8"
+}

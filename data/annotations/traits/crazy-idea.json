@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:crazy-idea",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "dead"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "a random spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "85c13d6865d2"
+}

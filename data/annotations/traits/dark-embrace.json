@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dark-embrace",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 25
+          },
+          "params": {
+            "of": "the dead creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8e6e5d8ed08d"
+}

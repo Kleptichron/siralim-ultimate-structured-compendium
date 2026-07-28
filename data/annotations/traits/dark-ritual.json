@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dark-ritual",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 10
+          },
+          "params": {
+            "what": "class-corresponding stats shared with your other creatures"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Current Health"
+          ],
+          "params": {
+            "setToPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "cf2b76f1a646"
+}

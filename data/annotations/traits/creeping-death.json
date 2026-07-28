@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:creeping-death",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "enemies",
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "effect": "take 3 turns of Poisoned damage"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "enemies",
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "effect": "take 3 turns of Poisoned damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d721d3d0802a"
+}

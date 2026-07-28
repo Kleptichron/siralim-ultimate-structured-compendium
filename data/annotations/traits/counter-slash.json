@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:counter-slash",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "attacker",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 75
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "614aafeb626b"
+}

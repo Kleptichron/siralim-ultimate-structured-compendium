@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:corsac",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spells": "its first 3 permanent healing Spell Gems",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "59034c02200a"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:croak-of-the-king",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Cry of the Mandrake"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c99c717f7228"
+}

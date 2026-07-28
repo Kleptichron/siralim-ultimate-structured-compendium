@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:corrosion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Blighted"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Blighted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "target",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          },
+          "params": {
+            "instead": "of afflicting"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "747ee2d7d31c"
+}

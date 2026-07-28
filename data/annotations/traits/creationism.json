@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:creationism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellClass": "Nature",
+          "spellType": "damaging"
+        }
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "trigger_subject",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Intelligence",
+            "scalePct": 10,
+            "per": "your creature"
+          },
+          "params": {
+            "contributors": "each of your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7671a27f0399"
+}

@@ -12937,119 +12937,148 @@
     },
     "trait:corpse-keeper": {
       "hash": "f0c4c5b8909e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:corrosion": {
       "hash": "747ee2d7d31c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:corrosive-dragon-breath": {
       "hash": "2c022fce00d8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:corsac": {
       "hash": "59034c02200a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:counter-slash": {
       "hash": "614aafeb626b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:counter-sweep": {
       "hash": "c0c049ac95bd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:covert": {
       "hash": "3bae40260e9d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:coward-s-embrace": {
       "hash": "b8139950aa10",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cowardice": {
       "hash": "b617af22a054",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:crab-trap": {
       "hash": "f28e3b39c96d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cradle-to-the-grave": {
       "hash": "846adfe62865",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:crazy-idea": {
       "hash": "85c13d6865d2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:creation-dirge": {
       "hash": "7acbd9e564f9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:creationism": {
       "hash": "7671a27f0399",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:creeping-death": {
       "hash": "d721d3d0802a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:creeping-doom": {
       "hash": "b552805c1f7e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cripple": {
       "hash": "b2d71ce66a47",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:croak-of-the-king": {
       "hash": "c99c717f7228",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:crown-prince-syndrome": {
       "hash": "448e8c92c8f5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:crunch": {
       "hash": "e1f24cb92ec4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:crystal-lake": {
       "hash": "e3440c1cf03f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:crystallization": {
       "hash": "21e003603a4a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cull-the-weak": {
       "hash": "15685231fbbf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:culmination": {
       "hash": "9a00a5b7e477",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:currents": {
       "hash": "8206a2c476a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:curse-of-the-outspoken": {
       "hash": "5788ecd20f6e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:curse-of-the-silent": {
       "hash": "1a5b151fff6e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:curukuku": {
       "hash": "98ce5d54c537",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cut-the-cheese": {
       "hash": "ff790811d4e6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cycle-of-life": {
       "hash": "2b2bc1788dff",
@@ -13058,47 +13087,58 @@
     },
     "trait:cyhra-s-adamance": {
       "hash": "aaa3e6523c2a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cyhra-s-resilience": {
       "hash": "da6722517fde",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cyhra-s-trust": {
       "hash": "7425fd17b6f2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:damage-control": {
       "hash": "e3f6b7186eef",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dark-aegis": {
       "hash": "ee104f417d5f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dark-dance": {
       "hash": "bcf9cb6cd591",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dark-embrace": {
       "hash": "8e6e5d8ed08d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dark-passenger": {
       "hash": "f5e7599b593c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dark-ritual": {
       "hash": "cf2b76f1a646",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dark-roamer": {
       "hash": "c339c258b1ec",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dark-signs": {
       "hash": "9582515af727",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:darkbloom": {
       "hash": "ce900d5de050",

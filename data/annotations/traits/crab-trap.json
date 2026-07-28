@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:crab-trap",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "defending"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "attacker",
+          "stats": [
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f28e3b39c96d"
+}

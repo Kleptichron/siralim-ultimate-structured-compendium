@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:crunch",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Vulnerable"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "e1f24cb92ec4"
+}

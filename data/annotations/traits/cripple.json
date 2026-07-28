@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cripple",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "spellType": "damaging, on an enemy"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b2d71ce66a47"
+}

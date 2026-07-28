@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:counter-sweep",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Defense",
+            "scalePct": 5,
+            "scaleRef": "other",
+            "per": "time it has been attacked this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c0c049ac95bd"
+}

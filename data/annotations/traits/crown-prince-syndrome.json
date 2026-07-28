@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:crown-prince-syndrome",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "action": "Defends or Provokes"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "action": "Defends or Provokes"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No verb models the Defend action itself; verb other is honest here.",
+  "textHash": "448e8c92c8f5"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:creation-dirge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "attacker",
+          "stats": [
+            "Attack",
+            "Defense",
+            "Intelligence",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7acbd9e564f9"
+}

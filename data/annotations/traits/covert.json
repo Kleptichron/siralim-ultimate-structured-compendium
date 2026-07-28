@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:covert",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "allies",
+          "params": {
+            "basis": "Attack rather than Speed for initial placement"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3bae40260e9d"
+}

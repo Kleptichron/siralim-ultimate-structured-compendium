@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cut-the-cheese",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "any",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "other",
+            "scalePct": 30
+          },
+          "params": {
+            "of": "the difference between its lowest and highest stats",
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ff790811d4e6"
+}
