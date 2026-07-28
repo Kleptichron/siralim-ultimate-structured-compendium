@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:otherworldly",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "Avatars"
+        }
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "other",
+          "statusKind": "debuff",
+          "params": {
+            "who": "Avatars",
+            "kind": "resistant"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ada2becee3a9"
+}

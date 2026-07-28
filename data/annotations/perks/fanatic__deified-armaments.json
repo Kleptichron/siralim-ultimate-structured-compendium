@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:deified-armaments",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 10,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "what": "Ultimate Spell Gem potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "27e5f1f8c82c"
+}

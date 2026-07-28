@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:renewable-armaments",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "enemy",
+        "params": {
+          "event": "their Bomb detonates",
+          "status": "Bomb"
+        }
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "again": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models detonation events; trigger other is honest here.",
+  "textHash": "d837cce7c82b"
+}

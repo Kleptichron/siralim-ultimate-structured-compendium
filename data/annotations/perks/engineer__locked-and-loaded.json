@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:locked-and-loaded",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "random_enemy",
+          "params": {
+            "spell": "Explosive Arrow"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b7f89db140f6"
+}

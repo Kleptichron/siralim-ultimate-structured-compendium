@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:chaos-mastery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "can equip Chaos Spell Gems regardless of class",
+            "spellClass": "Chaos"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2d6e2274fbe2"
+}

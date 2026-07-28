@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:nature-mastery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "can equip Nature Spell Gems regardless of class",
+            "spellClass": "Nature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f21b507fb85f"
+}

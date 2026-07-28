@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:primed-and-ready",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "da1ae50631fb"
+}

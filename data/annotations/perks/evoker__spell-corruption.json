@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:spell-corruption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "what": "stat-affecting spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0b93d63c56c1"
+}

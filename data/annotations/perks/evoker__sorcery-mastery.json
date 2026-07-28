@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:sorcery-mastery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "can equip Sorcery Spell Gems regardless of class",
+            "spellClass": "Sorcery"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6fc951136368"
+}

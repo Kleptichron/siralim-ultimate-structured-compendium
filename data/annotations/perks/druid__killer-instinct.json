@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:druid:killer-instinct",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "creature missing from your group"
+          },
+          "params": {
+            "independent": true,
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1987b44a1f68"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:arcane-fortitude",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 10
+            },
+            "scaleRef": "spell_gems",
+            "per": "non-Ethereal off-class Spell Gem",
+            "cap": 90
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b6567bddb498"
+}

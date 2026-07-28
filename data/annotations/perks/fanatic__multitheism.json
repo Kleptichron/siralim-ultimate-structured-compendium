@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:multitheism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "other",
+          "params": {
+            "who": "Godspawn",
+            "what": "their respective Avatar's trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "746b98447bb4"
+}

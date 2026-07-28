@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:druid:final-stand",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "living creatures",
+            "atMost": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "dead creatures count as missing creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Meta-rule for the missing-creature scaling family; verb other is honest here.",
+  "textHash": "efbbead4b635"
+}

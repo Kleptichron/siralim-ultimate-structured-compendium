@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:canonization",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "other",
+        "params": {
+          "who": "Avatars"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "other",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 10,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "who": "Godspawn",
+            "from": "the killed Avatar"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "014d9e1bceb3"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:grand-finale",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "Corpse Explosion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7796ddd3e0a3"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:death-mastery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "can equip Death Spell Gems regardless of class",
+            "spellClass": "Death"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f97469a263fd"
+}

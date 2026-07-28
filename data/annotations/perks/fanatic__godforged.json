@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:godforged",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "other",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "who": "Avatars",
+            "what": "Godforge benefit"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Godforge is an overworld system with no verb; other is honest here.",
+  "textHash": "f0c675325304"
+}

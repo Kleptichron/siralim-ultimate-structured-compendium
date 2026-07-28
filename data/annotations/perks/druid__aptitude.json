@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:druid:aptitude",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "additional": true,
+            "repeatable": "until it fails"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 10% per missing creature; rule.chance records the base.",
+  "textHash": "0b7a9486fba8"
+}

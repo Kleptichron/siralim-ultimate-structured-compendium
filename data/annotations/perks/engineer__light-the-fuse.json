@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:light-the-fuse",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "target",
+          "params": {
+            "spell": "Pyroburst"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9ee407d61dfa"
+}

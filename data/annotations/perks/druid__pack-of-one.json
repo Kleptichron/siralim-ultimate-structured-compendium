@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:druid:pack-of-one",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "params": {
+            "additional": true,
+            "repeatable": "until it fails"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 10% per missing creature; rule.chance records the base.",
+  "textHash": "3160bac02023"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:syncretism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "other",
+        "params": {
+          "who": "Avatars"
+        }
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "other",
+          "params": {
+            "who": "Godspawn",
+            "copyOf": "that spell"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "4dfe94d1a63f"
+}

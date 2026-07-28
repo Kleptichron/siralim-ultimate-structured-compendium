@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:energy-efficient",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "what": "spells that interact with Bomb",
+            "effect": "do not consume Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cbbe65a5393b"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:druid:guerilla-tactics",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "allies",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 10% per missing creature; rule.chance records the base.",
+  "textHash": "17b0c692d896"
+}

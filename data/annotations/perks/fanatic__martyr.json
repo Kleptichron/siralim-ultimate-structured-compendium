@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:martyr",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "other",
+        "params": {
+          "who": "Godspawn"
+        }
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "healthPct": 50
+          }
+        },
+        {
+          "verb": "transform",
+          "target": "trigger_subject",
+          "params": {
+            "into": "their respective Avatar"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b85df1c9e1d4"
+}

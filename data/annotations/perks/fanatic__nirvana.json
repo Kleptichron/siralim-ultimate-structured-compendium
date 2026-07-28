@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:nirvana",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "other",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          },
+          "params": {
+            "who": "Avatars",
+            "what": "random Ultimate Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8bb16aad20fb"
+}

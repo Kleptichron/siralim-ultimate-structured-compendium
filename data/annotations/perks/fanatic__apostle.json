@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:apostle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "other",
+        "params": {
+          "who": "Avatars"
+        }
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "other",
+          "target": "random_enemy",
+          "params": {
+            "who": "Godspawn"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "965d3bc1672b"
+}

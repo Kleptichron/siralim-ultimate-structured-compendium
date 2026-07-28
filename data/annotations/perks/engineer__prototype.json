@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:prototype",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "applies": "Bombs applied after start-of-battle effects",
+            "replaces": "Speed",
+            "of": "your creatures' highest stats (other than Health)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d98d682a6303"
+}

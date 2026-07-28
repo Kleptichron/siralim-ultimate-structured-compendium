@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:fanatic:prophecy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "other",
+        "params": {
+          "who": "Godspawn"
+        }
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "their respective Avatar's Ultimate Spell"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "3ff02bb0e5d9"
+}

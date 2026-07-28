@@ -3284,171 +3284,213 @@
     },
     "perk:druid:adaptation": {
       "hash": "27240568e0ef",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:ancestry": {
       "hash": "b71dbe08b66c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:aptitude": {
       "hash": "0b7a9486fba8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:brood": {
       "hash": "a0fad7dc2327",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:companion": {
       "hash": "c1b93743fb77",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:cornered": {
       "hash": "f1cf3b359fdb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:disengagement": {
       "hash": "7a629265f522",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:final-stand": {
       "hash": "efbbead4b635",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:guerilla-tactics": {
       "hash": "17b0c692d896",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:killer-instinct": {
       "hash": "1987b44a1f68",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:lone-wolf": {
       "hash": "835d3c24733a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:pack-of-one": {
       "hash": "3160bac02023",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:reclusive-remedy": {
       "hash": "50ae9ed674d7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:sole-survivor": {
       "hash": "4827952769ff",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:druid:sovereignty": {
       "hash": "201b2588ab5e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:annealment": {
       "hash": "f6cb0a407486",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:chain-reaction": {
       "hash": "b5f1500863aa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:dimensional-stability": {
       "hash": "11ed51e73ca4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:dismantlement": {
       "hash": "f60b4fc90aee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:drone-bait": {
       "hash": "a578c4e4f328",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:energy-efficient": {
       "hash": "cbbe65a5393b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:extrusion": {
       "hash": "08af9f8fc2d9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:grand-finale": {
       "hash": "7796ddd3e0a3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:heat-distortion": {
       "hash": "7f43d7a58c77",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:impact-resistance": {
       "hash": "85ba8386c069",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:light-the-fuse": {
       "hash": "9ee407d61dfa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:locked-and-loaded": {
       "hash": "b7f89db140f6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:pinpoint": {
       "hash": "380846628abc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:primed-and-ready": {
       "hash": "da1ae50631fb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:prototype": {
       "hash": "d98d682a6303",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:engineer:renewable-armaments": {
       "hash": "d837cce7c82b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:arcane-fortitude": {
       "hash": "b6567bddb498",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:arcane-power": {
       "hash": "ed26be6c2150",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:burst": {
       "hash": "9921b46c51bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:chaos-mastery": {
       "hash": "2d6e2274fbe2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:death-mastery": {
       "hash": "f97469a263fd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:echo": {
       "hash": "03e56f7653c2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:efficiency": {
       "hash": "afcc19b11d2c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:expanded-mind": {
       "hash": "b348d47a348c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:life-mastery": {
       "hash": "21024899794e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:mirror-image": {
       "hash": "eaad1ab1de63",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:nature-mastery": {
       "hash": "f21b507fb85f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:outspoken": {
       "hash": "fe9e21cf7008",
@@ -3457,75 +3499,93 @@
     },
     "perk:evoker:overload": {
       "hash": "f5995ee5d838",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:sorcery-mastery": {
       "hash": "6fc951136368",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:spell-corruption": {
       "hash": "0b93d63c56c1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:spell-mending": {
       "hash": "1b8e71e4c147",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:spell-power": {
       "hash": "31c1eb4e03be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:supercharged": {
       "hash": "6c371f2166f6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:apostle": {
       "hash": "965d3bc1672b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:army-of-gods": {
       "hash": "dbf71517a88c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:canonization": {
       "hash": "014d9e1bceb3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:deified-armaments": {
       "hash": "27e5f1f8c82c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:godforged": {
       "hash": "f0c675325304",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:martyr": {
       "hash": "b85df1c9e1d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:multitheism": {
       "hash": "746b98447bb4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:nirvana": {
       "hash": "8bb16aad20fb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:otherworldly": {
       "hash": "ada2becee3a9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:pact-of-the-gods": {
       "hash": "89e7b345a466",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:prophecy": {
       "hash": "3ff02bb0e5d9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:syncretism": {
       "hash": "4dfe94d1a63f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:fanatic:transcendence": {
       "hash": "da695f2dfec8",

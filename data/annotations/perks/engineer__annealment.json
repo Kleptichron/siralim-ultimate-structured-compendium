@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:annealment",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          },
+          "params": {
+            "source": "indirect damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f6cb0a407486"
+}

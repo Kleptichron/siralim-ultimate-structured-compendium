@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:pinpoint",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 5,
+              "maxTotal": 50
+            }
+          },
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "vsWith": "Bomb"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "380846628abc"
+}

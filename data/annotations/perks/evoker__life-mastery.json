@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:life-mastery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "can equip Life Spell Gems regardless of class",
+            "spellClass": "Life"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "21024899794e"
+}

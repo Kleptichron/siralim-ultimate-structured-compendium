@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:druid:sovereignty",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "creature missing from your group"
+          },
+          "params": {
+            "what": "Spell Gem slots"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "201b2588ab5e"
+}

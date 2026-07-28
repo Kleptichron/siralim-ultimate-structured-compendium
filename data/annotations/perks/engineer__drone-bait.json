@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:drone-bait",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "enemy",
+        "params": {
+          "event": "their Bomb debuff detonates",
+          "status": "Bomb"
+        }
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "ally",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          },
+          "params": {
+            "minion": "Microbots"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models detonation events; trigger other is honest here.",
+  "textHash": "a578c4e4f328"
+}

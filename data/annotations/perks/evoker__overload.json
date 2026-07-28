@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:overload",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spells": "each other off-class Spell Gem",
+            "chanceEach": true,
+            "maxPerClass": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f5995ee5d838"
+}

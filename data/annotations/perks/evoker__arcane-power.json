@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:evoker:arcane-power",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 10
+            },
+            "scaleRef": "spell_gems",
+            "per": "non-Ethereal off-class Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ed26be6c2150"
+}

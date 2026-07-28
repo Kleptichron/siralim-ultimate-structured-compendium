@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 6,
+  "provenance": "claude",
+  "id": "perk:engineer:chain-reaction",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bomb",
+          "source": "Bomb"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "params": {
+            "copyOf": "that Bomb damage",
+            "which": "all other enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b5f1500863aa"
+}
