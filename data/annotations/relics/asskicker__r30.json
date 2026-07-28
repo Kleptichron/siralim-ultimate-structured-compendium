@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:asskicker:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemy",
+          "params": {
+            "byRelic": true,
+            "targetSelection": "bottom-most enemy on the Timeline"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c3765ee7bf13"
+}

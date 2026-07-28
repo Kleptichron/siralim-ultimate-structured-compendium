@@ -97,6 +97,14 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     carries the number (rule 6), verb describes the outcome
     (`dodge_modifier` + `params.kind: 'avoid damage'`). Chance DELTAS
     ("10% lower chance to Dodge") stay `dodge_modifier` + magnitude.
+22. **Relics**: "the bearer" = `holder`. "This relic Attacks/Casts" → actor
+    `holder` + `params.byRelic: true` (same marker on triggers:
+    "After this relic Attacks" → `after_attack` subject holder + byRelic).
+    Cast spell names go in `params.spell`; spell-name words that collide with
+    status names ("Stone Skin") get `waivedStatuses`. "This relic and its
+    bearer deal…" → one holder-targeted modifier + `params.includesRelic`.
+    Stat-gain amplifiers use the cards shape: `stat_change` +
+    `params.amplifies: 'stat gains'` (NOT stat_rule).
 
 ## Semi-structured params (validated + faceted)
 

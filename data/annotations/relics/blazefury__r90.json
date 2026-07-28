@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:blazefury:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "damage_taken",
+            "scalePct": 10,
+            "per": "damage taken from Burning this battle"
+          },
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bb437872f610"
+}

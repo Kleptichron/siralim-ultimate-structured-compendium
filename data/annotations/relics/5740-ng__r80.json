@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:5740-ng:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Iron Skin"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fd603910b978"
+}

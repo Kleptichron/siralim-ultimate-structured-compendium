@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:bloodseeker:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2212556d6fe3"
+}

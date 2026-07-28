@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:amalgam:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "status_potency",
+            "scalePct": 20,
+            "per": "enemy's Inverted potency"
+          },
+          "statuses": [
+            "Inverted"
+          ],
+          "params": {
+            "source": "attacks and spells",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a57571b88abf"
+}

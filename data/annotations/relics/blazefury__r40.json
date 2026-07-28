@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:blazefury:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "holder",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ce70974452c7"
+}

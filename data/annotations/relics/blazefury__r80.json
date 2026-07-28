@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:blazefury:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "amount": "5 turns of its Burning debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9a80e10860bd"
+}

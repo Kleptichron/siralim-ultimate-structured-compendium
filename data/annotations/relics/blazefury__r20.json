@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:blazefury:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4fa99326f0e0"
+}

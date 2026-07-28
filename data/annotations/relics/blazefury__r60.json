@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:blazefury:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "enemy afflicted with Burning"
+          },
+          "statuses": [
+            "Burning"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "1a0efe7530ce"
+}

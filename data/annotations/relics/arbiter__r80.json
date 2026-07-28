@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:arbiter:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Major Resurrection"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "accf7562eb4a"
+}

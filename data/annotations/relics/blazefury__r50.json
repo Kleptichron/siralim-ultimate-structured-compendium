@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:blazefury:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "attacker",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "amount": "1 turn of the bearer's Burning debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a088099240e5"
+}

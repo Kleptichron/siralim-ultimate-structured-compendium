@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:arbiter:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "abe190569a3b"
+}

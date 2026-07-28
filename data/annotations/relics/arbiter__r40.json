@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:arbiter:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Healing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6807b08d95fd"
+}

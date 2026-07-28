@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:arbiter:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "prevent damage",
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "433359aa8b88"
+}

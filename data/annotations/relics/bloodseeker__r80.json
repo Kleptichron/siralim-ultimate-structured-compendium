@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:bloodseeker:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 50
+          },
+          "params": {
+            "replaces": "Intelligence",
+            "what": "spell potency stat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "11a95b3d8a7b"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:asskicker:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 1,
+            "per": "enemy between the bearer and its target on the Timeline"
+          },
+          "params": {
+            "includesRelic": true,
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0684b9816564"
+}

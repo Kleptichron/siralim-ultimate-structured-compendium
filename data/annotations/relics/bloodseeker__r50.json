@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:bloodseeker:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "holder",
+        "params": {
+          "stat": "Maximum Health",
+          "direction": "up"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9ac29e08de4c"
+}

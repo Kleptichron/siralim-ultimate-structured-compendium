@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:arbiter:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "holder",
+          "statuses": [
+            "Shelled"
+          ],
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "holder",
+          "statuses": [
+            "Shelled"
+          ],
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "965bb4e8e3a7"
+}

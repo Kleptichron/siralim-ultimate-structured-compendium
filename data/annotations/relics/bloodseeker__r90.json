@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:bloodseeker:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "byRelic": true,
+            "spell": "Blood Burst"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "41bfc2917097"
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:amalgam:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Inverted",
+          "source": "Inverted"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "actor": "holder",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 50
+          },
+          "params": {
+            "byRelic": true,
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Inverted",
+          "source": "Inverted"
+        }
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "dead"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "actor": "holder",
+          "target": "holder",
+          "params": {
+            "byRelic": true,
+            "healthPct": 20
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5ba5095378b2"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:amalgam:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "enemy",
+        "params": {
+          "status": "Inverted",
+          "context": "wore off"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Inverted"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 30
+          },
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "67f4df7374a3"
+}

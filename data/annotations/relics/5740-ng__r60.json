@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:5740-ng:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Stone Skin"
+          }
+        }
+      ]
+    }
+  ],
+  "waivedStatuses": [
+    "Stone"
+  ],
+  "textHash": "f0c1093796fd"
+}

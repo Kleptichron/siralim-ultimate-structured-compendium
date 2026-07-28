@@ -1,7 +1,7 @@
 {
   "schemaVersion": 4,
   "provenance": "claude",
-  "id": "relic:5740-ng:r30",
+  "id": "relic:bloodseeker:r70",
   "rules": [
     {
       "trigger": {
@@ -13,30 +13,18 @@
           "verb": "stat_change",
           "target": "holder",
           "stats": [
-            "Defense",
             "Maximum Health"
           ],
           "magnitude": {
-            "amountPct": 15,
+            "amountPct": 100,
             "direction": "up"
           },
           "params": {
             "amplifies": "stat gains"
           }
-        },
-        {
-          "verb": "stat_rule",
-          "target": "holder",
-          "stats": [
-            "Defense",
-            "Maximum Health"
-          ],
-          "params": {
-            "cannotLose": true
-          }
         }
       ]
     }
   ],
-  "textHash": "41404ba94034"
+  "textHash": "3c6d7d676cdb"
 }

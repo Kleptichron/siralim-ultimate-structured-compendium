@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:5740-ng:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "holder",
+          "params": {
+            "condition": "took no damage this turn"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "abc19f6ca38b"
+}

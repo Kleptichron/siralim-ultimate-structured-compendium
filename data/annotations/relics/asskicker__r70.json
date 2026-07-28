@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:asskicker:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Speed",
+            "scalePct": 20
+          },
+          "params": {
+            "source": "attacks and spells",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5ef30e641b94"
+}

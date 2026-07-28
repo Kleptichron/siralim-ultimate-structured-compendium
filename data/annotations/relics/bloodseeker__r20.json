@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:bloodseeker:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "spellType": "single-target on enemy"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ace96cb7ac40"
+}

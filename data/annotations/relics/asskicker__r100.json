@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:asskicker:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Infernal Charge"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4460f875dff8"
+}

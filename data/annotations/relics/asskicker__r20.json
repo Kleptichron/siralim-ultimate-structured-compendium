@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:asskicker:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "vs": "bottom-most enemy on the Timeline",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "29e738c2ae2e"
+}

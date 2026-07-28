@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:bloodseeker:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Maximum Health",
+            "scalePct": 20
+          },
+          "params": {
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a1b8eb381617"
+}

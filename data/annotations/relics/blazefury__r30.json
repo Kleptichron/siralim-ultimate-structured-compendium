@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:blazefury:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "source": "Burning",
+            "effect": "converted to healing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0537b251ae40"
+}

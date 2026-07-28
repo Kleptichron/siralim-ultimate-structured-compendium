@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:amalgam:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Inverted"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 10
+          },
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "761ad3d1dec5"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:5740-ng:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "chance": 100,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "avoid damage",
+            "diminishes": "-10% per activation this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "621f528c54d9"
+}

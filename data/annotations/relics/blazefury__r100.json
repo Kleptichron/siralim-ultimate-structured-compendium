@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:blazefury:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Burning"
+          }
+        },
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "activations this battle",
+            "max": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "params": {
+            "healthPct": 20
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7a183324c5eb"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:asskicker:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "byRelic": true,
+            "sameTarget": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8f09b5f5e05b"
+}

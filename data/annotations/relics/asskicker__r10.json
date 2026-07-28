@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:asskicker:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 15,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d1ddb2575f9d"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:arbiter:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Holy Explosion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "010a6717af39"
+}
