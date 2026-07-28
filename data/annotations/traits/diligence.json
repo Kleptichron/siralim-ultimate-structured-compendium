@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:diligence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "duration": "1 turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9566be4ddab8"
+}

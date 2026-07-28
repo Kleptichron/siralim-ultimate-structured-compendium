@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:director-s-cut",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 70,
+            "per": "Hunter fighting on your side"
+          },
+          "params": {
+            "repeats": "once per Hunter"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b73ced084087"
+}

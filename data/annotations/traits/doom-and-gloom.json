@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:doom-and-gloom",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "holder",
+        "params": {
+          "by": "an enemy",
+          "timing": "would"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "attacker",
+          "statusKind": "debuff",
+          "params": {
+            "instead": "reflects the debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5de8c43494e2"
+}

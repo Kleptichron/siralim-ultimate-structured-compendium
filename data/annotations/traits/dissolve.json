@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dissolve",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Disarmed"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "attacking (attack fails)"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "1bbbda360e7a"
+}

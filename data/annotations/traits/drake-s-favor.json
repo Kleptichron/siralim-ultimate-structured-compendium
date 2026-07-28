@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:drake-s-favor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bbbbe77862d4"
+}

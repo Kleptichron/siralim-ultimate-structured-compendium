@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:disposability",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "effect": "persist through death",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0f467c1ae22a"
+}

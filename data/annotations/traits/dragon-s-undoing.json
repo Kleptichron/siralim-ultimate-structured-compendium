@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dragon-s-undoing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 200,
+            "direction": "up"
+          },
+          "params": {
+            "vsClass": "Sorcery"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 65,
+            "direction": "down"
+          },
+          "params": {
+            "sourceClass": "Sorcery"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "67e96399e35b"
+}

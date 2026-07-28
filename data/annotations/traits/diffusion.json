@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:diffusion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "gains a minion"
+        }
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minion": "the same minion",
+            "others": true,
+            "except": "creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models minion-gain events; other is honest here.",
+  "textHash": "80f537bf44d6"
+}

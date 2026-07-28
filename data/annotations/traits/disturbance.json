@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:disturbance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "that Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3a6f8a3aff3a"
+}

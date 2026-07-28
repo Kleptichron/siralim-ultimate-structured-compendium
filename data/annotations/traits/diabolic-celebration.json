@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:diabolic-celebration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Diabolic Horde"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "Diabolic Horde fighting on your side"
+          },
+          "params": {
+            "what": "a random Spell Gem of their class"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "203647dae05e"
+}

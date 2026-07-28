@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:drained",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "down"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleRef": "amount_gained",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "the stats lost"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "30835f32d091"
+}

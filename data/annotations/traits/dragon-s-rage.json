@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dragon-s-rage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Fireball"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2c9582b7e6da"
+}

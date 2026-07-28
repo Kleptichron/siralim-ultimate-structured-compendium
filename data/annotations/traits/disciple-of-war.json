@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:disciple-of-war",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "magnitude": {
+            "amountFlat": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "775d2df8171f"
+}

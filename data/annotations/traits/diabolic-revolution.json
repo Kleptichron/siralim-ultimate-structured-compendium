@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:diabolic-revolution",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "effect": "Diabolic Horde traits act as if the party contains 3 more Diabolic Horde"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Meta-rule over other traits (forest-pact shape); verb other is honest here.",
+  "textHash": "33d0e437756d"
+}

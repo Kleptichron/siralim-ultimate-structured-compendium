@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dragon-dance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "target",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 30
+          },
+          "params": {
+            "of": "the target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5037c41b8718"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ditto",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "ally",
+        "params": {
+          "manual": true,
+          "spellType": "Scourge"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "the same Scourge spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4d2574758e1e"
+}

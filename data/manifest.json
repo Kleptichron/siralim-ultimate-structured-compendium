@@ -13342,123 +13342,153 @@
     },
     "trait:diabolic-celebration": {
       "hash": "203647dae05e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-fortitude": {
       "hash": "d90ba2e4f88a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-heritage": {
       "hash": "8f3e1de9c9a3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-link": {
       "hash": "3b085daa87d9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-might": {
       "hash": "88f46dc898a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-onslaught": {
       "hash": "680820143b47",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-power": {
       "hash": "0e9c50b43b5c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-protection": {
       "hash": "db650a8a24c2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-resilience": {
       "hash": "ed0de86eca4d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diabolic-revolution": {
       "hash": "33d0e437756d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diamond-attunement": {
       "hash": "af0a36e5145d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diamond-hands": {
       "hash": "fcec04af6780",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diffusion": {
       "hash": "80f537bf44d6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:diligence": {
       "hash": "9566be4ddab8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dimensions": {
       "hash": "73b5591f781b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:director-s-cut": {
       "hash": "b73ced084087",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:disciple-of-war": {
       "hash": "775d2df8171f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:discord": {
       "hash": "cb749a98f0bf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dismemberment": {
       "hash": "47d52a6733cb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dispersion": {
       "hash": "3c71f6a817c5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:disposability": {
       "hash": "0f467c1ae22a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dispossession": {
       "hash": "5d65c6c381bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dissection": {
       "hash": "b6f5d3b53590",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dissolve": {
       "hash": "1bbbda360e7a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:distribution": {
       "hash": "0dfca0763ff5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:disturbance": {
       "hash": "3a6f8a3aff3a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ditto": {
       "hash": "4d2574758e1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:divine-form": {
       "hash": "d13fbe349e80",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:divine-mending": {
       "hash": "c5f9b02cb9df",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:division-of-mortality": {
       "hash": "e71e80d592b5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:don-t-touch-my-garbage": {
       "hash": "37e106975676",
@@ -13467,43 +13497,53 @@
     },
     "trait:doom-and-gloom": {
       "hash": "5de8c43494e2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:double-vision": {
       "hash": "c1797e9039f2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:downturn": {
       "hash": "4af56cd2e9a5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:draconic-arrogance": {
       "hash": "dcec668978be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dragon-dance": {
       "hash": "5037c41b8718",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dragon-s-rage": {
       "hash": "2c9582b7e6da",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dragon-s-undoing": {
       "hash": "67e96399e35b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:drained": {
       "hash": "30835f32d091",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:drake-s-favor": {
       "hash": "bbbbe77862d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:drawing-dead": {
       "hash": "448234e6e6c1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:dream-touch": {
       "hash": "edaad1071d85",

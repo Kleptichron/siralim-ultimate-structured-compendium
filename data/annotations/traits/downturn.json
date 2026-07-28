@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:downturn",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statusKind": "buff",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "each": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4af56cd2e9a5"
+}

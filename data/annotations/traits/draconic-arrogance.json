@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:draconic-arrogance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "highest_stat",
+            "scalePct": 5
+          },
+          "params": {
+            "of": "your other creatures' highest stats",
+            "except": "Health",
+            "ignores": "other creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "dcec668978be"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:divine-mending",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "actor": "holder",
+          "target": "ally",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 200
+          },
+          "params": {
+            "which": "its ally with the lowest Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c5f9b02cb9df"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dispersion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "healing_received",
+            "scalePct": 50
+          },
+          "params": {
+            "others": true,
+            "except": "creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3c71f6a817c5"
+}
