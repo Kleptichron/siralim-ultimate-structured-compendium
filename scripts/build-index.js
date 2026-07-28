@@ -5,6 +5,7 @@
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 'node:fs';
 import { loadLexicon } from './lib/lexicon.js';
 import { SOURCE_DIRS } from './lib/ids.js';
+import { SCHEMA_VERSION } from './lib/schema.js';
 
 const lex = loadLexicon();
 const statusKind = Object.fromEntries(lex.statuses.map(s => [s.name, s.kind]));
@@ -144,7 +145,7 @@ for (const src of Object.values(SOURCE_DIRS)) {
 
 const index = {
   generated: new Date().toISOString(),
-  schemaVersion: 2,
+  schemaVersion: SCHEMA_VERSION,
   statuses: lex.statuses.map(s => ({ name: s.name, kind: s.kind })),
   counts: { total: records.length, tagged: records.filter(r => r.rules).length },
   records,

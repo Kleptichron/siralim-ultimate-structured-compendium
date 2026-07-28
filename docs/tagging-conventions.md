@@ -1,4 +1,4 @@
-# Tagging conventions (schema v2 — FROZEN 2026-07-06)
+# Tagging conventions (schema v3 — v2 frozen 2026-07-06; additive verb extension 2026-07-28)
 
 Re-read this before every tagging session. Post-freeze schema changes require a
 migration script in scripts/migrations/ and a full re-validation.
@@ -83,6 +83,13 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
 16. **Multi-sentence effects**: one rule per independent WHEN/DO fact. Meta-clauses that
     modify other mechanics ("ignores traits that…") go in `notes` if their core is
     already modeled.
+17. **Critical hits** (v3): chance to crit → verb `crit_modifier`; crit damage
+    AMOUNT → `damage_modifier` + `params.criticalOnly` + flow dealt.
+18. **Gear amplifiers** (v3): "Artifacts' X properties / Nether Stones are N% more
+    powerful" → verb `equipment_modifier`, `params.equipment` ('artifact' |
+    'nether_stone'), `params.property` when the text names one.
+19. **Card-set meta-records** ("Doubles the potency of these effects") →
+    `flags.unmodeled` + notes; they modify sibling records, not the battle.
 
 ## Semi-structured params (validated + faceted)
 

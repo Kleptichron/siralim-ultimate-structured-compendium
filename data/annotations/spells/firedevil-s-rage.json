@@ -1,7 +1,7 @@
 {
   "id": "spell:firedevil-s-rage",
   "textHash": "ee2008b3535a",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

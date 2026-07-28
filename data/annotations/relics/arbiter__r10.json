@@ -1,7 +1,7 @@
 {
   "id": "relic:arbiter:r10",
   "textHash": "b3e8628794b1",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "machine",
   "machineTemplate": "start-battle-gain",
   "rules": [

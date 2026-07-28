@@ -1,7 +1,7 @@
 {
   "id": "realm:enemy:buff-beserk",
   "textHash": "04db6034bda4",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "machine",
   "machineTemplate": "enemies-start-with",
   "rules": [

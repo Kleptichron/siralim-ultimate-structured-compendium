@@ -1,7 +1,7 @@
 {
   "id": "card:manticore:3",
   "textHash": "7b039668755b",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "machine",
   "machineTemplate": "card-class-attack-dr",
   "rules": [

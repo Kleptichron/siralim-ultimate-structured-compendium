@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "claude",
   "id": "card:asura:1",
   "rules": [
@@ -19,19 +19,15 @@
       ],
       "actions": [
         {
-          "verb": "other",
+          "verb": "crit_modifier",
           "target": "allies",
           "magnitude": {
             "amountPct": 10,
             "direction": "up"
-          },
-          "params": {
-            "what": "critical hit chance"
           }
         }
       ]
     }
   ],
-  "notes": "Critical-hit CHANCE has no verb (damage_modifier+criticalOnly covers crit damage amount only) — candidate enum extension if frequent.",
   "textHash": "490a0291d8e5"
 }

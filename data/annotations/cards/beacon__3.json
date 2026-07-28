@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "claude",
   "id": "card:beacon:3",
   "rules": [
@@ -10,19 +10,19 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "equipment_modifier",
           "target": "allies",
           "magnitude": {
             "amountPct": 10,
             "direction": "up"
           },
           "params": {
-            "what": "Artifact 'Strength' property potency"
+            "equipment": "artifact",
+            "property": "Strength"
           }
         }
       ]
     }
   ],
-  "notes": "Artifact-property amplifier; no equipment-modifier verb in schema — candidate enum extension if frequent.",
   "textHash": "8bf23d48e043"
 }

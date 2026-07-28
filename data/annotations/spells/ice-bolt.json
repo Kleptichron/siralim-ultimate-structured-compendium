@@ -1,7 +1,7 @@
 {
   "id": "spell:ice-bolt",
   "textHash": "951586683373",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

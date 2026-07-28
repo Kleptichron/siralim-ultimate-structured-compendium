@@ -1,7 +1,7 @@
 {
   "id": "spell:germinate",
   "textHash": "f024c2f614f7",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 2;
+export const SCHEMA_VERSION = 3;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -110,6 +110,10 @@ export const ACTION_VERBS = [
   'redirect_target', // taunt/provoke-style redirection
   'prevent_action',  // "cannot Provoke/dodge/be resurrected/cast..."
   'dodge_modifier',  // dodge/avoid-damage chance changes
+  'crit_modifier',   // critical-hit CHANCE changes; crit damage AMOUNT stays
+                     //   damage_modifier + params.criticalOnly
+  'equipment_modifier', // amplifies gear the creature carries: artifact
+                        //   properties, Nether Stones (params.equipment names it)
   'copy',
   'transform',
   'grant_ability',   // grants traits/spell gems/abilities

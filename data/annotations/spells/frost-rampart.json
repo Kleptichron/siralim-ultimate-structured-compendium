@@ -1,7 +1,7 @@
 {
   "id": "spell:frost-rampart",
   "textHash": "88e29890d005",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [
