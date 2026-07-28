@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-angels",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Angel"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "trigger_subject",
+          "target": "target",
+          "statusKind": "debuff",
+          "params": {
+            "what": "all debuffs your other Angels' innate traits apply"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b3a72aa1f6dd"
+}

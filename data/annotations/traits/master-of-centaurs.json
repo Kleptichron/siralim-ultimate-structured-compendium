@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-centaurs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Centaur"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Centaur fighting on your side"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        },
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Centaur fighting on your side"
+          },
+          "params": {
+            "independent": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "fe8607e2b98b"
+}

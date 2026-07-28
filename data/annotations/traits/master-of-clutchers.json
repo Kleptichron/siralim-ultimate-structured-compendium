@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-clutchers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Clutcher"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "dodging your Clutchers’ attacks still takes damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "492b084436f3"
+}

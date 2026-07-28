@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-calumniers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Calumnier",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "allies",
+          "params": {
+            "effect": "no decreased stats from Personalities"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8d641c3e9554"
+}

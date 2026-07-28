@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-cataclysms",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Cataclysm",
+            "scope": "all"
+          }
+        }
+      ],
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "params": {
+            "what": "their traits",
+            "mode": "activate now"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "5617baed6f03"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-carnages",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Carnage"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "allies",
+          "target": "random_enemy",
+          "params": {
+            "which": "your other Carnages",
+            "damageBonusPct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "9b45deadf2a6"
+}

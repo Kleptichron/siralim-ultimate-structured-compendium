@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-animations",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Animation"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "receive effects that require adjacency to your other creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Adjacency meta-rule; verb other is honest here.",
+  "textHash": "6da9657d9d07"
+}

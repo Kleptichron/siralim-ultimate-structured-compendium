@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-arachnalisks",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Arachnalisk"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Arachnalisk fighting on your side"
+          },
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "source": "Poisoned"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "9723a5d13f44"
+}

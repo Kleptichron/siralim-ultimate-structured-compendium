@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:mass-resurrection",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies",
+        "params": {
+          "which": "creatures of your most common race"
+        }
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "healthPct": 50,
+            "which": "the others of that race"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "26885fcbd552"
+}

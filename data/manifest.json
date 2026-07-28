@@ -15762,11 +15762,13 @@
     },
     "trait:mass-resurrection": {
       "hash": "26885fcbd552",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mass-summoning": {
       "hash": "5cd9e59a8438",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-abominations": {
       "hash": "1623044819c7",
@@ -15775,11 +15777,13 @@
     },
     "trait:master-of-alementals": {
       "hash": "135198d71a37",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-amaranths": {
       "hash": "130d18c58035",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-amphisbaenas": {
       "hash": "be4faa9a9a91",
@@ -15788,147 +15792,183 @@
     },
     "trait:master-of-angels": {
       "hash": "b3a72aa1f6dd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-animations": {
       "hash": "6da9657d9d07",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-apises": {
       "hash": "68fc3a0abb75",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-apocalypses": {
       "hash": "67ffb106f9a3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-arachnalisks": {
       "hash": "9723a5d13f44",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-arbiters": {
       "hash": "3dce61c51a6f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-aspects": {
       "hash": "afee84978575",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-asuras": {
       "hash": "b7ed8bed3991",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-automatons": {
       "hash": "7a345d4b725d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-banshees": {
       "hash": "06df518c5b74",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-bards": {
       "hash": "8e442f3e145c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-basilisks": {
       "hash": "637b9fc59f2c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-bats": {
       "hash": "7ec6931abe6b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-beacons": {
       "hash": "964ca0a84327",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-brownies": {
       "hash": "4a3e13a1bc87",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-calumniers": {
       "hash": "8d641c3e9554",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-carbuncles": {
       "hash": "e41aa9da1e25",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-carnages": {
       "hash": "9b45deadf2a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-carvers": {
       "hash": "0ca6a12a59e8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-cataclysms": {
       "hash": "5617baed6f03",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-centaurs": {
       "hash": "fe8607e2b98b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-cerberuses": {
       "hash": "8b56f9743df8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-cherubs": {
       "hash": "c60fc6b5342d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-chimeras": {
       "hash": "9c47867972de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-clockworks": {
       "hash": "173b4d32e74d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-clutchers": {
       "hash": "492b084436f3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-cockatrices": {
       "hash": "49665924f559",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-concoctions": {
       "hash": "ed17f8a386b9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-constructs": {
       "hash": "f5efd0db8557",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-crunchers": {
       "hash": "c93030cf1ac8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-crusaders": {
       "hash": "fccc48e1d159",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-demigods": {
       "hash": "31a3199c86fc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-denizens": {
       "hash": "72736e6ed9c1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-devils": {
       "hash": "c3ac08e637ae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-diabolic-horde": {
       "hash": "9c4d20335fa6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-djinns": {
       "hash": "cff9ebf52614",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:master-of-doom-fortresses": {
       "hash": "6dfbf5781203",

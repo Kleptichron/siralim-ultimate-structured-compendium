@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-banshees",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Banshee",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Scorned"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "06df518c5b74"
+}

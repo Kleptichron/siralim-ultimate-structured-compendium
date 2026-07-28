@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-diabolic-horde",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "allies",
+          "params": {
+            "what": "races changed to Diabolic Horde"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9c4d20335fa6"
+}

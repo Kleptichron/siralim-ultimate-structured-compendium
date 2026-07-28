@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-bats",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Bat"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "params": {
+            "additional": true,
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7ec6931abe6b"
+}

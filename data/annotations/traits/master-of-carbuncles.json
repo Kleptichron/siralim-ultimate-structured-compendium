@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-carbuncles",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Carbuncle",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "innate trait growth rate"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Trait-growth amplifier has no verb; other is honest here.",
+  "textHash": "e41aa9da1e25"
+}

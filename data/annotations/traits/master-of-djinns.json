@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-djinns",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Djinn"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "always critical",
+            "source": "spells"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up"
+          },
+          "params": {
+            "what": "spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "cff9ebf52614"
+}

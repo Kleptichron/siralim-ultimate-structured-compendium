@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-basilisks",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Basilisk",
+            "scope": "all"
+          }
+        }
+      ],
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "params": {
+            "kind": "avoid damage"
+          }
+        },
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "params": {
+            "what": "innate traits",
+            "mode": "25% chance to activate even if damaged between turns"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "637b9fc59f2c"
+}

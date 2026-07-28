@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:master-of-devils",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Devil"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 300,
+            "direction": "up"
+          },
+          "params": {
+            "what": "the additional damage granted by Devil innate traits",
+            "from": "200%"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Trait-potency amplifier has no verb; other is honest here.",
+  "textHash": "c3ac08e637ae"
+}
