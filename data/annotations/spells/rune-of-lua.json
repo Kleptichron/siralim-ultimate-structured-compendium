@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:rune-of-lua",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large",
+            "scaleStat": "Current Health"
+          },
+          "params": {
+            "basis": "100% caster's Current Health instead of Intelligence"
+          }
+        },
+        {
+          "verb": "activation_modifier",
+          "target": "caster",
+          "params": {
+            "what": "on-attack effects",
+            "mode": "activate now"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e73a1c49c29a"
+}

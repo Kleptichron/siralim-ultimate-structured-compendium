@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:redoubt",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "target",
+          "params": {
+            "what": "one Spell Gem",
+            "effect": "loses 100% of its Charges"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Intelligence",
+            "scalePct": 7,
+            "per": "Charge removed"
+          },
+          "params": {
+            "of": "the caster"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3b17eed7de7d"
+}

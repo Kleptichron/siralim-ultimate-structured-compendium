@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:ruin",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "highest_stat"
+          ],
+          "magnitude": {
+            "tier": "devastating",
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "caster",
+          "params": {
+            "effect": "this Spell Gem is then Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2cffc0384c45"
+}

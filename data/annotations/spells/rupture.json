@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:rupture",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          },
+          "params": {
+            "increasedBy": "the percentage the caster's Attack/Intelligence/Defense/Speed exceed the target's"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f78bb0425292"
+}

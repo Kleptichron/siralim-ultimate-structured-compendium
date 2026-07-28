@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:ruby-power",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "params": {
+            "spell": "the Spell Gem in the target's Artifact Spell Slot"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e07aa1036a91"
+}

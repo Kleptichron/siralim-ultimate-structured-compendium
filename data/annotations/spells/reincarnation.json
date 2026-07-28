@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:reincarnation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        },
+        {
+          "verb": "resurrect",
+          "target": "target",
+          "params": {
+            "healthTier": "massive",
+            "then": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f89f95591a28"
+}

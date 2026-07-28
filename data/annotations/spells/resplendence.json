@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:resplendence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "small"
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "tier": "small"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "tier": "small",
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d4bec693bb57"
+}

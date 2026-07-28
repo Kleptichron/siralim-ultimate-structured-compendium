@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:pure-love",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "any",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "tier": "massive",
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fa0eeb8c8884"
+}

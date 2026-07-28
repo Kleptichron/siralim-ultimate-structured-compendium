@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:reckoning",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "large"
+          },
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "modifiedBy": "1% to 300%, chosen randomly"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "450dbc5d8f44"
+}

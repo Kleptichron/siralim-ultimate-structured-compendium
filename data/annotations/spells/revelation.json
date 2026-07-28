@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:revelation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "caster",
+          "params": {
+            "what": "on-resurrect effects",
+            "mode": "activate now"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7abeac71b9cd"
+}

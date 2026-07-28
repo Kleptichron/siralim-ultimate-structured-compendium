@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:quietus",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "casts of this Gem (cycle)",
+            "equals": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minions": "a squad of minions"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "casts of this Gem (cycle)",
+            "equals": 2
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "massive",
+            "scaleRef": "minion_count"
+          },
+          "params": {
+            "bonusPct": 15,
+            "per": "minion on each of your creatures"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "minions removed; the spell then resets"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "d7ec26dbace8"
+}

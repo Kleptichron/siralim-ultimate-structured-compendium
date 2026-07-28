@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:raze",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "effect": "take 2 turns of their Burning damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c27a54f15334"
+}

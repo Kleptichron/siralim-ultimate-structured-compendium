@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:riptide",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "random_enemy",
+          "params": {
+            "direction": "one place down",
+            "continuous": true,
+            "endChancePctAfterEach": 10
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9c8d343dd6df"
+}

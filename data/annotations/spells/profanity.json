@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:profanity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "actor": "target",
+          "params": {
+            "action": "Provoke"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "78fc95db60f3"
+}
