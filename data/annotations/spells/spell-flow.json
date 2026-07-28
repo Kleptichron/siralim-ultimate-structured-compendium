@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spell-flow",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Arcane",
+            "Warded"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "fc46c3f63106"
+}

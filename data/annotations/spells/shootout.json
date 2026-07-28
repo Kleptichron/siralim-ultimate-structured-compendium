@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:shootout",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive"
+          },
+          "params": {
+            "alwaysCritical": true
+          }
+        },
+        {
+          "verb": "gain_charges",
+          "target": "caster",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "this Gem",
+            "when": "an enemy is killed"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell.",
+  "textHash": "248f4d47b5bd"
+}

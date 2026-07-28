@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:snipe",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive"
+          },
+          "params": {
+            "alwaysCritical": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        }
+      ]
+    }
+  ],
+  "textHash": "27d1e38e573b"
+}

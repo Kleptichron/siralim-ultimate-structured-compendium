@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:smoke-bolt",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense"
+          ],
+          "magnitude": {
+            "tier": "small",
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e4089510f3e3"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:shellbust",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "scaleRef": "amount_gained",
+            "scalePct": 150
+          },
+          "params": {
+            "of": "the Defense reduced"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "badb2275795d"
+}

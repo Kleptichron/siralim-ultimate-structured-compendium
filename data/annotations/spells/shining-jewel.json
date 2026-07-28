@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:shining-jewel",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "gain_charges",
+          "target": "target",
+          "params": {
+            "effect": "recovers 100% Charges",
+            "except": "Ultimate Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "dc7d9be3c62e"
+}

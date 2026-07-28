@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:slaughter",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "allies",
+          "params": {
+            "by": "the caster",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a30aa2f1ead2"
+}

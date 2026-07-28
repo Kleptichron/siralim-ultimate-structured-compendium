@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:sensual-cider",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "tier": "large"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Booze Spell.",
+  "textHash": "2c1a9ac235c9"
+}

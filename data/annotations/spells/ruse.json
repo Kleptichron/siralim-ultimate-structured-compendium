@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:ruse",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "target",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "spell": "its top-most Spell Gem",
+            "timing": "at the start of its next turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "71c76f6114d7"
+}

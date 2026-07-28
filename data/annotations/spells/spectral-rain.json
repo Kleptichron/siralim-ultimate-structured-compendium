@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spectral-rain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "any",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency",
+            "appliesTo": "buffs and debuffs",
+            "except": "Inverted"
+          }
+        }
+      ]
+    }
+  ],
+  "waivedStatuses": [
+    "Inverted"
+  ],
+  "notes": "Inverted is exempted, not modified.",
+  "textHash": "802cf2ebe23e"
+}

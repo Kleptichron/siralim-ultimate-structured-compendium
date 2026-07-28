@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:saint-s-touch",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "highest_stat"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "up"
+          },
+          "params": {
+            "ifAlly": true
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "highest_stat"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "down"
+          },
+          "params": {
+            "ifEnemy": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3cd1a9bc1cae"
+}

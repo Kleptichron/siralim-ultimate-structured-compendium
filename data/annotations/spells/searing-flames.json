@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:searing-flames",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Burning",
+            "Disarmed"
+          ]
+        },
+        {
+          "verb": "remove_status",
+          "target": "enemies",
+          "params": {
+            "all": "buffs and debuffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cba29bfd85be"
+}

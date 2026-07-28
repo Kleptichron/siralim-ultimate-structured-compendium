@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spell-leak",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "Ethereal Spell Gems destroyed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a3ea6174c456"
+}

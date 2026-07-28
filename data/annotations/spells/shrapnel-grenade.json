@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:shrapnel-grenade",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Bleeding"
+          ]
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "massive"
+          },
+          "params": {
+            "others": true,
+            "chanceEachPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bec2024e889c"
+}

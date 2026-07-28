@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spell-breath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleStat": "Attack",
+            "scalePct": 50
+          },
+          "params": {
+            "basis": "50% caster's Attack instead of Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b1d267a50e32"
+}

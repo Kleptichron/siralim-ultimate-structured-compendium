@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:short-fuse",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "enemies",
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "effect": "take 100% of their Bomb potency as damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7e667f4fba7c"
+}

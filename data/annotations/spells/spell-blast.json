@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:spell-blast",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          },
+          "params": {
+            "bonusPct": 10,
+            "per": "Charge this Spell Gem has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bc5cb4215f99"
+}
