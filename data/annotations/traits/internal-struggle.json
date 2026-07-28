@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:internal-struggle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 25
+          },
+          "params": {
+            "self": true
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Current Health",
+            "scalePct": 25
+          },
+          "params": {
+            "of": "the health lost"
+          }
+        },
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "49f08e77b194"
+}

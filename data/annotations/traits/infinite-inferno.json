@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:infinite-inferno",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "duration": "forever",
+            "alsoAffects": "your creatures while a creature has In Flames"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5af7b7c03921"
+}

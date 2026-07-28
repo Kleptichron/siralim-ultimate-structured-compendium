@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:infested-with-ants",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "lowest_stat",
+            "scalePct": 30,
+            "amountFlat": 3
+          },
+          "params": {
+            "times": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "471b63688626"
+}

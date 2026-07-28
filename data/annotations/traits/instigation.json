@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:instigation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "actor": "holder",
+          "target": "enemies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "scaleStat": "Defense",
+            "scalePct": 15
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "273f1422e4d7"
+}

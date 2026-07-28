@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:insight",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Invisible"
+          ],
+          "params": {
+            "effect": "your creatures can target them anyway"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7a1cb9a29efe"
+}

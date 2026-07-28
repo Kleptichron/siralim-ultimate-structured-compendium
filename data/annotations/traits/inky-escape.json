@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:inky-escape",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "Speed gains or losses this battle",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 200,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Agile"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "2311304a063c"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:insane-polarity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Ethereal Spell Gems",
+            "effect": "gain the first enchantment of their owner's first permanent Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "20a6e64feb32"
+}

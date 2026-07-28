@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:insatiable",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Attack",
+            "scalePct": 7
+          },
+          "params": {
+            "of": "the ally"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9f6dfe053383"
+}

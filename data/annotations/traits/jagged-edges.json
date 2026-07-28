@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:jagged-edges",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Snared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 10
+          },
+          "statuses": [
+            "Snared"
+          ],
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ae298f4baf78"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:infinity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "any"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Continuum"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "be43c4cf7bf1"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:junkyard-might",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "holder",
+          "statuses": [
+            "Blighted",
+            "Confused",
+            "Poisoned"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cf3999880e95"
+}

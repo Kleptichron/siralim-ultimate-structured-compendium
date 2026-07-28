@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:kiichi-s-onslaught",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bleeding",
+          "source": "Bleeding"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "trigger_subject",
+          "statuses": [
+            "Bleeding"
+          ],
+          "params": {
+            "effect": "takes the damage again",
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d1ec34ebe0a1"
+}

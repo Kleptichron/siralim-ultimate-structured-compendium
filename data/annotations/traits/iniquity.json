@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:iniquity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 100,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "params": {
+            "additional": true,
+            "repeatable": true,
+            "chanceDecayPct": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3c64ff4e560e"
+}

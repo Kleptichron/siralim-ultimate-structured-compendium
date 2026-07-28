@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:infinite-struggle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "repeatable": true,
+            "chancePer": "debuff it has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3bf9e1bc4227"
+}

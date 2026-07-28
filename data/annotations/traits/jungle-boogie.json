@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:jungle-boogie",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "of Cursed, Burning, Poisoned and Bleeding it has"
+          },
+          "statuses": [
+            "Cursed",
+            "Burning",
+            "Poisoned",
+            "Bleeding"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "dabbcad71421"
+}

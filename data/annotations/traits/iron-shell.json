@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:iron-shell",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "Defense gains or losses this battle",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 200,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Protected"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "8fc56cb394f0"
+}

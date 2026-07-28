@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:inoculant",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Burning",
+            "Poisoned",
+            "Bomb"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bab0b20ac915"
+}
