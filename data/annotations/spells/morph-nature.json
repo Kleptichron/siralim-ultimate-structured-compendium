@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:morph-nature",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "transform",
+          "target": "allies",
+          "params": {
+            "what": "classes become Nature until end of battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e8375c91f134"
+}

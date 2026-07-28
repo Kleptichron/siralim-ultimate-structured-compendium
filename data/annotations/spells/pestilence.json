@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:pestilence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "params": {
+            "effect": "each enemy spreads 1 debuff to all other enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9f276470c200"
+}

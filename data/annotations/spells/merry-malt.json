@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:merry-malt",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "caster",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "a random trait belonging to its race"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Booze Spell.",
+  "textHash": "ff23fae43df7"
+}

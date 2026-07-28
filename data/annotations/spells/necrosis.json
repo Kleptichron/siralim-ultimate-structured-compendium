@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:necrosis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleStat": "Speed",
+            "scalePct": 50
+          },
+          "params": {
+            "basis": "50% caster's Speed instead of Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5312b43c0210"
+}

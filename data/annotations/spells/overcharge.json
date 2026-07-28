@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:overcharge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "devastating"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "caster",
+          "params": {
+            "effect": "this Spell Gem is then Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "eb065c9e54a8"
+}

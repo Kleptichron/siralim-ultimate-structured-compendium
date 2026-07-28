@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:phantasm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "scaleRef": "other",
+            "scalePct": 10,
+            "per": "Attack, Intelligence, Defense and Speed it lost this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a3e567ea2e91"
+}

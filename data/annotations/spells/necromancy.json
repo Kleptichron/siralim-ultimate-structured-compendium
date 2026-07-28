@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:necromancy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "caster",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "buff_count",
+            "per": "buff it has"
+          },
+          "params": {
+            "minion": "Zombies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b09978983f7b"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:morph-sorcery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "tier": "large",
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "transform",
+          "target": "allies",
+          "params": {
+            "what": "classes become Sorcery until end of battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "809e0a5361d1"
+}

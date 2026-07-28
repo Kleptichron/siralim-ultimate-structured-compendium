@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:night-sword",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "target",
+          "params": {
+            "effect": "the last Gem it used is Sealed (random if none used)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f2487f217148"
+}

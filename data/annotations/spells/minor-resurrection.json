@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:minor-resurrection",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "target",
+          "params": {
+            "healthTier": "small"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6a8e88c38255"
+}

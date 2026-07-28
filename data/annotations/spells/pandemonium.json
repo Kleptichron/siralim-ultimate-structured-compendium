@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:pandemonium",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "any",
+          "params": {
+            "effect": "the Timeline is shuffled"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1aa204a45aaf"
+}

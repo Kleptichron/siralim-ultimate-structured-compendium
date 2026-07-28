@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:mind-flay",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          },
+          "params": {
+            "bonusPct": 50,
+            "per": "creature between it and the caster on the Timeline"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f8b9255a0b77"
+}
