@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:whisper:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Black Ice"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7116fe3dfa2d"
+}

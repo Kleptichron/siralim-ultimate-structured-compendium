@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:void-essence:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Stone"
+          ],
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5c9f6e5e61ef"
+}

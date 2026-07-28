@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:void-essence:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Stone"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "attacker",
+          "statuses": [
+            "Stone"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "5c103798ff37"
+}

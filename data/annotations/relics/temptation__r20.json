@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:temptation:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "self": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8e5136b95ed7"
+}

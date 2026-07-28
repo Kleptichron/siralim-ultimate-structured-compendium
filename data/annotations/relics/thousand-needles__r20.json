@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:thousand-needles:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true,
+            "includesRelic": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true,
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ad89e5c14704"
+}

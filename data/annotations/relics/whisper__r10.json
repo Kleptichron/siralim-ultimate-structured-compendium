@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:whisper:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "holder",
+          "statuses": [
+            "Invisible"
+          ],
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0aad6dbe45ad"
+}

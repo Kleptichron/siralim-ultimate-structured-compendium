@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:thousand-needles:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "turns_taken",
+            "per": "turn the bearer has taken this battle"
+          },
+          "params": {
+            "additional": true,
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6f6b1ec8f2ad"
+}

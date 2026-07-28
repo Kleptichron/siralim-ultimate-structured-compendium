@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:whisper:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "Intelligence"
+          },
+          "params": {
+            "replaces": "Attack",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "39568a5f3b5d"
+}

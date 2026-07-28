@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:temptation:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelicOrBearer": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "target",
+          "params": {
+            "effect": "removes the target's Defending state"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Defending is an action state, not a status; no verb models state removal — other is honest here.",
+  "textHash": "d3c3b9fe7cf1"
+}

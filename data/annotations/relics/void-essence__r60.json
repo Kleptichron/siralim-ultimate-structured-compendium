@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:void-essence:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7ac64e058de3"
+}

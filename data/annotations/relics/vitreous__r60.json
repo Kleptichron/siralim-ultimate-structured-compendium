@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:vitreous:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "bearer Attacks this battle",
+            "atLeast": 5
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "crit_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "always critical",
+            "source": "attacks",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "dddf576b2f82"
+}

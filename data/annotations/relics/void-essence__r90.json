@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:void-essence:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Stone"
+          }
+        }
+      ],
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target",
+          "params": {
+            "byRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "98197bd815fd"
+}

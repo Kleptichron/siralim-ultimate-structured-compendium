@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:triumvir:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "holder",
+        "params": {
+          "status": "Arcane"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Snowstorm"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "260afd526792"
+}

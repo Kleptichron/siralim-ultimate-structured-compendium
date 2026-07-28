@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:triumvir:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "manual": true
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Arcane"
+          }
+        }
+      ],
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "gain_charges",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "that Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e46ae85f9c59"
+}

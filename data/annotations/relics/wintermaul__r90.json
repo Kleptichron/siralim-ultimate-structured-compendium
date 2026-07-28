@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:wintermaul:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Frozen"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true,
+            "vs": "Frozen enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cf04210c9b79"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:temptation:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6430d5c84e63"
+}

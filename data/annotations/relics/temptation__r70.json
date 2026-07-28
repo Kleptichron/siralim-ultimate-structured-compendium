@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:temptation:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelicOrBearer": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "target",
+          "params": {
+            "effect": "removes the target's Provoking state"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Provoking is an action state, not a status; no verb models state removal — other is honest here.",
+  "textHash": "f1685d71ff08"
+}

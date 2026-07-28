@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:vitreous:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "bearer Attacks this battle",
+            "atLeast": 10
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Attack"
+          },
+          "params": {
+            "replaces": "Intelligence",
+            "what": "spell potency stat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a31dc4919e8b"
+}

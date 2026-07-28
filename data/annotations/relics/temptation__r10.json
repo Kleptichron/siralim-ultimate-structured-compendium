@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:temptation:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "target",
+          "target": "target",
+          "magnitude": {
+            "scaleStat": "Attack"
+          },
+          "params": {
+            "self": true,
+            "of": "bearer's Attack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "02b0578c9a83"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:vitreous:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "bearer Attack this battle"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "710df31fe853"
+}

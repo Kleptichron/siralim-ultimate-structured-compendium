@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:thousand-needles:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "consecutive Attack/Cast this turn"
+          },
+          "params": {
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7a3522815562"
+}

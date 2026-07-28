@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:void-essence:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "defending or provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "attacker",
+          "params": {
+            "byRelic": true,
+            "spell": "Petrify"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "130ab5416502"
+}

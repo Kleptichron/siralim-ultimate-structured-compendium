@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:whisper:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "manual": true
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Invisible"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "0b0d964b1884"
+}

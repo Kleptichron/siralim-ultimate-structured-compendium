@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:whisper:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Intelligence",
+            "scalePct": 100
+          },
+          "params": {
+            "byRelic": true,
+            "appliesTo": "the relic itself"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "The relic's own Attack stat, not the bearer's.",
+  "textHash": "e58a808afb79"
+}

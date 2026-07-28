@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:wintermaul:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "byRelic": true,
+            "spell": "Black Ice"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a3d7ba49f14b"
+}

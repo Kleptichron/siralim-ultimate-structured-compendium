@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:temptation:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemy",
+          "params": {
+            "byRelic": true,
+            "additional": true,
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8bd0a6fd79e1"
+}

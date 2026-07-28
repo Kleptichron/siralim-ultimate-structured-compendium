@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:temptation:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "spellType": "healing"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "holder",
+          "params": {
+            "copyOf": "that spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "90ac06a49035"
+}

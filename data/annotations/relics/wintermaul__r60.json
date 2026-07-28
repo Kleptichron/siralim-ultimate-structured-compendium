@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:wintermaul:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "status": "Frozen",
+          "by": "holder"
+        }
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "byRelic": true,
+            "spell": "Shatter"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ca6886a1c87a"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:triumvir:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Arcane"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "stat-affecting spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "552bb3910fa1"
+}

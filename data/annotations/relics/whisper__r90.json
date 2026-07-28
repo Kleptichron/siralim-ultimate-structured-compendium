@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:whisper:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "scaleStat": "Intelligence",
+            "scalePct": 50
+          },
+          "params": {
+            "mechanism": "added to Defense for damage calculation"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9c369c5d3578"
+}

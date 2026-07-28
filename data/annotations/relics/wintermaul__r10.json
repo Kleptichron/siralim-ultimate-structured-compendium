@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:wintermaul:r10",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "attacker",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "45915e479cbf"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:wintermaul:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          },
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "vsWith": "Frozen",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "62b185bace55"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:void-essence:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "statuses": [
+            "Stone"
+          ],
+          "params": {
+            "vsWith": "Stone",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7c397c1bc9e5"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:void-essence:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "status": "Stone"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ca16137b66c4"
+}

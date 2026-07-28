@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:thousand-needles:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "byRelic": true,
+            "copyOf": "that spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6ca037c9d393"
+}
