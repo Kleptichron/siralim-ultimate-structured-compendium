@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mega-bomb",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 5,
+            "scaleRef": "spell_gems",
+            "per": "Ethereal Spell Gem it has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0f0ed6ae621d"
+}

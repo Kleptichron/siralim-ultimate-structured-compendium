@@ -8,7 +8,10 @@
         "type": "after_afflicted",
         "subject": "enemy",
         "params": {
-          "status": "Bleeding or Burning"
+          "statuses": [
+            "Bleeding",
+            "Burning"
+          ]
         }
       },
       "actions": [

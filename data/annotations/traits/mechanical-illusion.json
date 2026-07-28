@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mechanical-illusion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "reveals the creature that was haunting it"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Haunting reveal is a flavor/encounter mechanic with no verb; other is honest here.",
+  "textHash": "830b2b595fe9"
+}

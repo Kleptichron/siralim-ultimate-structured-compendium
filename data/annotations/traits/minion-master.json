@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:minion-master",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "minion": "random minion"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "current minions gain 1 stack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "59acacf66ce4"
+}

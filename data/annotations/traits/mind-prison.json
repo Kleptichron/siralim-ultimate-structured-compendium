@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mind-prison",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "effect": "Seals 3 of its Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "17e1d1853365"
+}

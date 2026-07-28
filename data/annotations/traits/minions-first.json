@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:minions-first",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "extra_turn",
+          "target": "holder",
+          "params": {
+            "chancePer": "minion it has",
+            "limit": "once per turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a773242be521"
+}

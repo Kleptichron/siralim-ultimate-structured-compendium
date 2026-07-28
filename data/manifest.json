@@ -16572,163 +16572,203 @@
     },
     "trait:means-to-an-end": {
       "hash": "0714c143deed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:meat-bomb": {
       "hash": "67b2bb8835d8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mechanical-illusion": {
       "hash": "830b2b595fe9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:medierra-s-mockery": {
       "hash": "ee22bfbc6fa3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:medierra-s-reliance": {
       "hash": "de99acb4710a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:medierra-s-struggle": {
       "hash": "f52ad8716235",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mega-bomb": {
       "hash": "0f0ed6ae621d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mega-spider-blast": {
       "hash": "75a4832ca62c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:memento-mori": {
       "hash": "f3c1755fff33",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:memento-vivere": {
       "hash": "51a867db6900",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:memoriae": {
       "hash": "41c4d0f730cf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:memorial": {
       "hash": "e8aa41b35ca4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:menacing-dragon-fangs": {
       "hash": "c3c880695c79",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mender-s-oath": {
       "hash": "b609a5be78e0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mesmer": {
       "hash": "d77adf60cadf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:metaphor": {
       "hash": "1a36985a21bf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:metaphysics": {
       "hash": "de144a1cea5c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:midnight-feast": {
       "hash": "6e759f00fc49",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:might-aura": {
       "hash": "930b1fa84df5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mimicry": {
       "hash": "78e4e9ad47d6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mind-eraser": {
       "hash": "73f053af952a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mind-fortress": {
       "hash": "f07e14b579a4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mind-prison": {
       "hash": "17e1d1853365",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mind-reave": {
       "hash": "23c219cab759",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mindbender": {
       "hash": "c6c174a848aa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mindful-awareness": {
       "hash": "73cc29b3f44a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:minion-master": {
       "hash": "59acacf66ce4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:minions-first": {
       "hash": "a773242be521",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:miracle-of-the-mind": {
       "hash": "0b620fae657b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:misanthropy": {
       "hash": "3ec3b5ad2f94",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:misery-loves-company": {
       "hash": "0a6fcb39f1d9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mockery": {
       "hash": "3489406401b0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:molten-spray": {
       "hash": "edf0924d4d7c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:momentum": {
       "hash": "42c1eda3d619",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:monster-crown": {
       "hash": "453f830cc170",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:monstrous-rampage": {
       "hash": "7d031d7f45f7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:moon-dance": {
       "hash": "65c2bb991baf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:moon-prayer": {
       "hash": "9732475ba16c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:moonlight": {
       "hash": "f26d06efcb09",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:mortal-terror": {
       "hash": "fe94d7d19c8b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:motivation": {
       "hash": "ae4668074fae",

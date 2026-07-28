@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:monster-crown",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "allies",
+          "params": {
+            "others": true
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 20
+          },
+          "params": {
+            "of": "the killed creatures",
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "453f830cc170"
+}

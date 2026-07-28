@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:memento-mori",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "attacker",
+          "magnitude": {
+            "scaleStat": "Defense",
+            "scalePct": 75
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f3c1755fff33"
+}

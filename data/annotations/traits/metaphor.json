@@ -1,29 +1,29 @@
 {
   "schemaVersion": 10,
   "provenance": "claude",
-  "id": "trait:flubris-s-entrapment",
+  "id": "trait:metaphor",
   "rules": [
     {
       "trigger": {
         "type": "after_damaged",
         "subject": "enemy",
         "params": {
-          "source": "a debuff",
           "statuses": [
             "Poisoned",
-            "Burning"
-          ]
+            "Burning",
+            "Blighted"
+          ],
+          "source": "a debuff"
         }
       },
-      "chance": 50,
       "actions": [
         {
-          "verb": "apply_status",
-          "target": "trigger_subject",
-          "statusKind": "debuff",
-          "qualifiers": [
-            "random"
-          ]
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 35
+          }
         }
       ]
     }
@@ -31,5 +31,5 @@
   "flags": {
     "stacks": false
   },
-  "textHash": "5eef338632d6"
+  "textHash": "1a36985a21bf"
 }

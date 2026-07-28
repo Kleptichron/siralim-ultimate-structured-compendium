@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:medierra-s-mockery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "enemy"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "allies",
+          "params": {
+            "action": "defend",
+            "chanceEach": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "enemy"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "allies",
+          "params": {
+            "action": "provoke",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ee22bfbc6fa3"
+}

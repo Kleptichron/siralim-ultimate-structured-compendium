@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:midnight-feast",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        },
+        {
+          "verb": "extra_turn",
+          "target": "holder",
+          "params": {
+            "limit": "once at a time"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6e759f00fc49"
+}

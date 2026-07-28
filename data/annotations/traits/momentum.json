@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:momentum",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "actor": "holder",
+          "target": "enemies",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "scaleStat": "Speed",
+            "scalePct": 15
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "42c1eda3d619"
+}

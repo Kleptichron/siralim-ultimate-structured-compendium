@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:memento-vivere",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "ally",
+          "params": {
+            "healthPct": 100
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "ally",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "51a867db6900"
+}

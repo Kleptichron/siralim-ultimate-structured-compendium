@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mind-eraser",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "target",
+          "params": {
+            "effect": "one of its Spell Gems is Sealed"
+          }
+        },
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "that Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "73f053af952a"
+}

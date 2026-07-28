@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:medierra-s-reliance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "ally"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "ally"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "holder",
+          "params": {
+            "action": "defend"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "ally"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "holder",
+          "params": {
+            "action": "provoke"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "de99acb4710a"
+}

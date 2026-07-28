@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mega-spider-blast",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minion": "Spiderlings",
+            "stacks": 1
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "minions",
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "minion": "Spiderlings",
+            "effect": "also activate when their master deals damage; damage based on highest stat instead of Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "75a4832ca62c"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mortal-terror",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemy",
+          "params": {
+            "status": "Feared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "targetMustHave": "Feared"
+          }
+        },
+        {
+          "verb": "activation_modifier",
+          "target": "target",
+          "params": {
+            "what": "on-death effects",
+            "mode": "activate now"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fe94d7d19c8b"
+}

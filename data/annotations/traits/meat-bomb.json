@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:meat-bomb",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "missing_health",
+            "scalePct": 50
+          }
+        },
+        {
+          "verb": "kill",
+          "target": "holder",
+          "params": {
+            "self": true,
+            "then": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "67b2bb8835d8"
+}
