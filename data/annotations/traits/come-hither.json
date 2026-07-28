@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:come-hither",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "attacker",
+          "params": {
+            "spell": "Crush Punch"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "585bf7dbbd60"
+}

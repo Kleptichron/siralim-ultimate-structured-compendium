@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cold-snap",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Frozen"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 300,
+            "direction": "up"
+          },
+          "params": {
+            "vsWith": "Frozen"
+          }
+        },
+        {
+          "verb": "remove_status",
+          "target": "target",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "1143a1e7ed3f"
+}

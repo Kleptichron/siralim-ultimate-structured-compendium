@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:communication-services",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Robodomi"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "adjacent_allies",
+          "params": {
+            "what": "their innate traits",
+            "among": "Robodomi creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a4dc77221432"
+}

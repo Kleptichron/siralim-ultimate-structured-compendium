@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:contagion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Poisoned",
+            "Silenced"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "6b0b3d44f429"
+}

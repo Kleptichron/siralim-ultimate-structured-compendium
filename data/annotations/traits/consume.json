@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:consume",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Snared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 150,
+            "direction": "up"
+          },
+          "params": {
+            "vsWith": "Snared"
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          }
+        },
+        {
+          "verb": "remove_status",
+          "target": "target",
+          "statuses": [
+            "Snared"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "9b7435e86686"
+}

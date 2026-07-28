@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cold-like-war",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 2
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "60af5a01e198"
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:conduit-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "unique class among your creatures"
+          },
+          "params": {
+            "what": "equippable Spell Gems"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "casting spells"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "down"
+          },
+          "params": {
+            "what": "each of its Spell Gems"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "target",
+          "magnitude": {
+            "scaleStat": "lowest_stat",
+            "scalePct": 5,
+            "per": "charge consumed"
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e4401ba1ba69"
+}

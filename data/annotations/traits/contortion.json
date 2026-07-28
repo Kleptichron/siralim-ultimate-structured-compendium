@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:contortion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Repelling"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "attacker",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 50
+          },
+          "params": {
+            "reflected": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "bdabf2c19f12"
+}

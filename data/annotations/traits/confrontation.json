@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:confrontation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "damagePctOfNormal": 50
+          }
+        },
+        {
+          "verb": "attack",
+          "actor": "target",
+          "target": "holder",
+          "params": {
+            "then": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7e8d44c71a66"
+}

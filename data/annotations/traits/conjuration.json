@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:conjuration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "spellClass": "Sorcery"
+        }
+      },
+      "actions": [
+        {
+          "verb": "gain_charges",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "their Sorcery Spell Gems",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "77ce1421685f"
+}

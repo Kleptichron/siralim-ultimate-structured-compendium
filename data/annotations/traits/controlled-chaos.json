@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:controlled-chaos",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "would cast a random spell",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "the spell is chosen from the holder's Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Would-cast-random has no trigger; other is honest here.",
+  "textHash": "ac77cc4f695a"
+}

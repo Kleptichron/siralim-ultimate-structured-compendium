@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:consumption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 35
+          },
+          "params": {
+            "of": "the killed target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e13baf896638"
+}

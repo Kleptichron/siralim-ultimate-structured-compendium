@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:congregation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "167d0b2a4563"
+}

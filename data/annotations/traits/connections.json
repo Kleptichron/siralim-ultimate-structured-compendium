@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:connections",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Exotic creature fighting on your side"
+          },
+          "params": {
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c8b6eda686e4"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:confusion-and-empathy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Attack"
+          },
+          "params": {
+            "what": "spell potency",
+            "replaces": "Intelligence"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "Intelligence"
+          },
+          "params": {
+            "source": "attacks",
+            "replaces": "Attack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5e0c9fb8ac09"
+}

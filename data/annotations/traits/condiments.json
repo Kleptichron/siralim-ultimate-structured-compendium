@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:condiments",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "first": "each turn"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "first": "each turn"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ce253bad1b4f"
+}

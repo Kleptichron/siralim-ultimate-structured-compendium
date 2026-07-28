@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:conspiracy-theory",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "several bonuses for the rest of your time in that Realm",
+            "after": "defeating a Treasure Golem"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Unspecified overworld bonuses; verb other is honest here.",
+  "textHash": "8096bec1aeaf"
+}

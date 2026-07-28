@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:consciousness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Maximum Health",
+            "scalePct": 15
+          },
+          "params": {
+            "of": "your other creatures' Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3aee4c28d7c5"
+}

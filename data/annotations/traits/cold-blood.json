@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:cold-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "range": "50% to 250% of normal damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ba4d3ff76e98"
+}

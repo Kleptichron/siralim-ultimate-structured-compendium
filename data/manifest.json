@@ -12737,163 +12737,203 @@
     },
     "trait:coerced-coexistence": {
       "hash": "fd4853b033f4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cold-blood": {
       "hash": "ba4d3ff76e98",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cold-like-war": {
       "hash": "60af5a01e198",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cold-snap": {
       "hash": "1143a1e7ed3f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:cold-touch": {
       "hash": "261e1ec49c65",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:collective-unconscious": {
       "hash": "dfe7051dbf21",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:colony": {
       "hash": "754ba9fcf737",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:color-shift": {
       "hash": "2c3cbda0face",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:colorblind": {
       "hash": "3df59cf19bfb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:come-hither": {
       "hash": "585bf7dbbd60",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:comeuppance": {
       "hash": "5a774caad6df",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:coming-down": {
       "hash": "65cd7808ee69",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:coming-undone": {
       "hash": "1fc19b601377",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:commanding-presence": {
       "hash": "716e774296d5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:communication-services": {
       "hash": "a4dc77221432",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:concoction": {
       "hash": "f212d013b6b2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:condiments": {
       "hash": "ce253bad1b4f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:conductivity": {
       "hash": "baaa42d7679a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:conduit-strike": {
       "hash": "e4401ba1ba69",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:confrontation": {
       "hash": "7e8d44c71a66",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:confusion-and-empathy": {
       "hash": "5e0c9fb8ac09",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:congregation": {
       "hash": "167d0b2a4563",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:conjuration": {
       "hash": "77ce1421685f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:connections": {
       "hash": "c8b6eda686e4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:consciousness": {
       "hash": "3aee4c28d7c5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:consecrated-ground": {
       "hash": "3d3a45cb21d8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:conservation": {
       "hash": "6bf92dbac15e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:conservation-of-energy": {
       "hash": "e9830de2d336",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:conspiracy-theory": {
       "hash": "8096bec1aeaf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:constrict": {
       "hash": "436f214da43f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:consume": {
       "hash": "9b7435e86686",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:consuming-knowledge": {
       "hash": "687a900dddb2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:consumption": {
       "hash": "e13baf896638",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:contagion": {
       "hash": "6b0b3d44f429",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:contamination": {
       "hash": "fcffe8646235",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:contortion": {
       "hash": "bdabf2c19f12",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:contradiction": {
       "hash": "d5f8ff07ef1b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:controlled-chaos": {
       "hash": "ac77cc4f695a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:conversion": {
       "hash": "f0222b05bfac",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:conviviality": {
       "hash": "6b4e50015da4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:corpse-keeper": {
       "hash": "f0c4c5b8909e",

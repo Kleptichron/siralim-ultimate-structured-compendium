@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:collective-unconscious",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "allies",
+        "params": {
+          "stat": "Defense",
+          "direction": "up"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "dfe7051dbf21"
+}

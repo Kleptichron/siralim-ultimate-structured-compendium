@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:constrict",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_enemy",
+          "statuses": [
+            "Snared",
+            "Feared"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "436f214da43f"
+}

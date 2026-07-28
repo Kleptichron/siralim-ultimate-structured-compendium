@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:colony",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "ally"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "trigger_subject",
+          "params": {
+            "race": "Griffon"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "action": "Defend",
+            "which": "the rest of your Griffons"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "No verb models the Defend action itself; verb other is honest here.",
+  "textHash": "754ba9fcf737"
+}

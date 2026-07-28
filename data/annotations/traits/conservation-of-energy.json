@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:conservation-of-energy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "ally"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "ally",
+          "params": {
+            "healthPct": 50,
+            "which": "another of your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e9830de2d336"
+}

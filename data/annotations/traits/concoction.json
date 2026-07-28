@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:concoction",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "what": "that buff",
+            "others": true,
+            "except": "creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f212d013b6b2"
+}

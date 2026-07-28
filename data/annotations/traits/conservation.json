@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:conservation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "highest_stat",
+            "scalePct": 30
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6bf92dbac15e"
+}

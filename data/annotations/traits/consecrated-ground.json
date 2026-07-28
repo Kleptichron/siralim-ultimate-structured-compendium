@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:consecrated-ground",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "params": {
+            "effect": "immune",
+            "source": "minions"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "down"
+          },
+          "params": {
+            "source": "indirect damage"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "adjacent_allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "adjacent_allies",
+          "flow": "taken",
+          "params": {
+            "effect": "immune",
+            "source": "minions"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "adjacent_allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "down"
+          },
+          "params": {
+            "source": "indirect damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "3d3a45cb21d8"
+}
