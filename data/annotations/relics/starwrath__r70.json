@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:starwrath:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "enemy",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Confused"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "params": {
+            "instead": "of being healed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "81098bbe1b0d"
+}

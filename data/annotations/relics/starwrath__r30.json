@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:starwrath:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "up",
+          "timing": "would"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Confused"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "instead": "loses stats instead of gaining"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c54161ecb268"
+}

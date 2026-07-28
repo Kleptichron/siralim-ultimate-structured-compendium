@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:starwrath:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "defending"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "cannotLose": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "159abbd1a38e"
+}

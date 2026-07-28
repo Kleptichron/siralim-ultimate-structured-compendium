@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ripplevein:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "byRelic": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "holder",
+          "params": {
+            "minion": "Spiderlings",
+            "stacks": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a9d0a15e454d"
+}

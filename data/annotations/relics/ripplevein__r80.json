@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ripplevein:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "holder",
+          "params": {
+            "minion": "Dire Wolves",
+            "stacks": 1
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "holder",
+          "params": {
+            "minion": "Dire Wolves",
+            "stacks": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9d64cdcbbcf5"
+}

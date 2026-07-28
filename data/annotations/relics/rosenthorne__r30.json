@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:rosenthorne:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Blind"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "byRelic": true,
+            "targets": "enemies with Blind",
+            "damageReductionPerTargetPct": 15
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fc2ad2065eae"
+}

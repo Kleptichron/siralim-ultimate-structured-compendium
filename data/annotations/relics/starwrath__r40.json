@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:starwrath:r40",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "statuses": [
+            "Confused"
+          ],
+          "params": {
+            "byRelic": true,
+            "targetMustHave": "Confused"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a018ac46ee85"
+}

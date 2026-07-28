@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:rosenthorne:r70",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          },
+          "statuses": [
+            "Blind"
+          ],
+          "params": {
+            "vsWith": "Blind",
+            "includesRelic": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7aa5044c5c90"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:starwrath:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Confused"
+          ],
+          "params": {
+            "effect": "Attack and Cast as if Confused without having it"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b8e72a2f6201"
+}

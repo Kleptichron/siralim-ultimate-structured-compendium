@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ribcracker:r80",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "bearer or relic Cast this battle",
+            "cap": 90
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ca9466db9ced"
+}

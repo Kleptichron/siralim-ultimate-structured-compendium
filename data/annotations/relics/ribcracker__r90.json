@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ribcracker:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "spells Cast by the bearer this battle",
+            "atLeast": 10
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 120
+          },
+          "params": {
+            "replaces": "Attack",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8a45fe8961e5"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ripplevein:r50",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "what": "minion-interacting spells",
+            "extraCasts": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2eca6f88a4c9"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ripplevein:r100",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "spell": "Crucifixion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a36d0d692a91"
+}

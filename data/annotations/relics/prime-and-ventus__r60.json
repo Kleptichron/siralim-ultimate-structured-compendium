@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:prime-and-ventus:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "crit_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e248765ffd6f"
+}

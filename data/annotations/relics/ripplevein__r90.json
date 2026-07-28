@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ripplevein:r90",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "gains Zombies, Spiderlings, Unstable Horror, or Dire Wolves"
+        }
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "holder",
+          "params": {
+            "minion": "one of the four horsemen"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models minion-gain events; trigger other is honest here.",
+  "textHash": "2e0f7bd1c2d0"
+}

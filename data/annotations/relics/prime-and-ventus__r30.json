@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:prime-and-ventus:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "byRelic": true,
+            "damagePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ebc20588699e"
+}

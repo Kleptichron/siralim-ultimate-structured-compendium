@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ripplevein:r60",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "down",
+            "scaleRef": "minion_count",
+            "per": "minion stack",
+            "cap": 90
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "aa9176ddc3f9"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:salus:r30",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "action": "Defends"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No verb models the Defend action itself; verb other is honest here.",
+  "textHash": "19e989cf9358"
+}

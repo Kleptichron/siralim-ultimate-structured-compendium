@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "relic:ripplevein:r20",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "minion_count",
+            "per": "minion the bearer has"
+          },
+          "params": {
+            "byRelic": true,
+            "damagePct": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1483a47291dd"
+}
