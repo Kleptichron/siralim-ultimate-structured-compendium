@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rain-of-magic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 4,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "unique class among your creatures"
+          },
+          "params": {
+            "what": "'Cascading' spells",
+            "effect": "additional maximum charges",
+            "except": "Ultimate Spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b75f465d00d2"
+}

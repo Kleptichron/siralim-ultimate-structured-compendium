@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rapid-evolution",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "the innate traits of adjacent Imler creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "64f546ead398"
+}

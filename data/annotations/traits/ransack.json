@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:ransack",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "all the enemies' Chaos Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c6e9195a6f42"
+}

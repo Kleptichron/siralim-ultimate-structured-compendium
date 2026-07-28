@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:quantum-flux",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "by": "an enemy"
+        }
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "trigger_subject",
+          "params": {
+            "what": "class changed to the enemy's class weakness"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "93324dedc74a"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:red-tether",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "adjacent_allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target"
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work with creatures that also have this trait.",
+  "textHash": "b14fdd6f7e43"
+}

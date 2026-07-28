@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:quadhits",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "magnitude": {
+            "amountFlat": 4
+          },
+          "params": {
+            "damagePctOfNormal": 30,
+            "total": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "holder"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "target"
+        }
+      ]
+    }
+  ],
+  "textHash": "a7bb32e32206"
+}

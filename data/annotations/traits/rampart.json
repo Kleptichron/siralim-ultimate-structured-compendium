@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rampart",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "adjacent_allies",
+          "stats": [
+            "Defense",
+            "Health",
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 65
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4dbab21c30a4"
+}

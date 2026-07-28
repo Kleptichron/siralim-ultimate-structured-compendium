@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:reactor-shield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "being killed by instant-death effects",
+            "battles": "normal"
+          }
+        },
+        {
+          "verb": "limit_modifier",
+          "target": "holder",
+          "params": {
+            "what": "damage taken per hit",
+            "max": "60% of Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7ae290954516"
+}

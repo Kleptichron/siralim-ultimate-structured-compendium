@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rapid-regeneration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "missing_health",
+            "scalePct": 10
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6108603d50a4"
+}

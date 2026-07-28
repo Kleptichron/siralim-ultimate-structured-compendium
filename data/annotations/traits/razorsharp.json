@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:razorsharp",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 40,
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 35
+          },
+          "params": {
+            "repeats": "once per Hunter on your side",
+            "upgradedChancePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "40% chance to deal 100% of the attack damage instead of 35%.",
+  "textHash": "e0bd13c7a457"
+}

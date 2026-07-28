@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:razor-hide",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "attacker",
+          "magnitude": {
+            "scaleStat": "Attack",
+            "scalePct": 75
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3b1eadb13924"
+}

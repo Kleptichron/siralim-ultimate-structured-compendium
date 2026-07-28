@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:redefined",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "effect": "buff-count effects also count debuffs, and vice versa"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Counting meta-rule; verb other is honest here.",
+  "textHash": "a9f7ee773e56"
+}

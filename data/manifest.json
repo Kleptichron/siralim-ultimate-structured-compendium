@@ -17772,31 +17772,38 @@
     },
     "trait:qila-s-assurance": {
       "hash": "22277c76b638",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:qila-s-defiance": {
       "hash": "13dd5be58bb5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:qila-s-safeguard": {
       "hash": "2945d0a6ca16",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:quadhits": {
       "hash": "a7bb32e32206",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:quahn-harbinger": {
       "hash": "7b0f3c85bbc5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:quality-over-quantity": {
       "hash": "8ceb2aa154d7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:quantum-flux": {
       "hash": "93324dedc74a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:quell": {
       "hash": "55189ba34d9c",
@@ -17805,135 +17812,168 @@
     },
     "trait:quick-shot": {
       "hash": "b3a6fed0af39",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:radiant-eclipse": {
       "hash": "662ae34ec232",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:raging-spirit": {
       "hash": "9d1451d4dcfc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rain-of-magic": {
       "hash": "b75f465d00d2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rainbow-palate": {
       "hash": "41aeef4bc9e7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rally": {
       "hash": "4b0b960bd50b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rallying-bark": {
       "hash": "e7dc5792c470",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rampart": {
       "hash": "4dbab21c30a4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ramses-s-conspiracy": {
       "hash": "7c2236ea91b0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ramses-s-deception": {
       "hash": "04a232c894cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ramses-s-plot": {
       "hash": "ed7c1ac44b63",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ransack": {
       "hash": "c6e9195a6f42",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rapid-digestion": {
       "hash": "192600561259",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rapid-evolution": {
       "hash": "64f546ead398",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rapid-learning": {
       "hash": "4687a1fa8e96",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rapid-regeneration": {
       "hash": "6108603d50a4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rattle": {
       "hash": "e7f0384d3790",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ravage": {
       "hash": "0fd60e63125b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rave": {
       "hash": "12d15590464f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ravish": {
       "hash": "9b45a35d80c8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:razor-hide": {
       "hash": "3b1eadb13924",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:razorsharp": {
       "hash": "e0bd13c7a457",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reactive-heads": {
       "hash": "5f8567704aec",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reactor-shield": {
       "hash": "7ae290954516",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reclusive-glutton": {
       "hash": "f09618e300ee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:recombobulation": {
       "hash": "7cc604ae8e7f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:recompense": {
       "hash": "4f847adaed6e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reconstructed-memories": {
       "hash": "06c332389ac1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:red-hot-kiss": {
       "hash": "7597abfd7875",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:red-in-tooth-and-claw": {
       "hash": "591169dab01f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:red-tether": {
       "hash": "b14fdd6f7e43",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:red-wedding": {
       "hash": "01da9dda1381",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:redefined": {
       "hash": "a9f7ee773e56",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:redemption": {
       "hash": "f6a4ff22b075",
