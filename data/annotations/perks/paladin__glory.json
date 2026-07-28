@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:paladin:glory",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "deals damage with Retribution"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "lowest_stat"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 25
+            },
+            "scaleRef": "damage_dealt"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Retribution damage has no trigger type; trigger other is honest here.",
+  "textHash": "f6ff2f6620d9"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:purgatorian:misery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "ally",
+          "params": {
+            "which": "one of your other creatures",
+            "spell": "Murder of Crows"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "858f811e7456"
+}

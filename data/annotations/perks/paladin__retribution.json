@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:paladin:retribution",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "attacker",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 25
+            },
+            "scaleRef": "damage_taken"
+          },
+          "params": {
+            "kind": "Retribution"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b27975d5fe2b"
+}

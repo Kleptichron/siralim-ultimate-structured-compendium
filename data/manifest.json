@@ -4174,203 +4174,253 @@
     },
     "perk:necromancer:amalgamation": {
       "hash": "a1df3872af12",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:animated-dead": {
       "hash": "0e62eba60b50",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:army-of-the-damned": {
       "hash": "620398760fe4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:conquest-s-triumph": {
       "hash": "b267438a8f6a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:corpse-eater": {
       "hash": "cb63e319bb26",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:cruel-creation": {
       "hash": "f387c7a230fb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:deadly-vitality": {
       "hash": "d94982991d5a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:death-s-claim": {
       "hash": "0a39bb758c8e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:famine-s-thirst": {
       "hash": "98ff42e0e94c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:four-horsemen": {
       "hash": "e25f60a6c554",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:gravewalker": {
       "hash": "600e5e98d0e3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:meat-shield": {
       "hash": "4208089cfec9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:midnight-bargain": {
       "hash": "1f617cfa40a2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:servitude": {
       "hash": "6a69778d86a4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:undying-loyalty": {
       "hash": "b5bb7dae74f6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:war-s-victory": {
       "hash": "e23998010d26",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:art-of-war": {
       "hash": "dbf21716888e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:crusade": {
       "hash": "12422c8c4a77",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:divine-intervention": {
       "hash": "aeb1d102b32f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:divine-toll": {
       "hash": "3d3425296e59",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:execution-sentence": {
       "hash": "f0fd0b0bd4a9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:glory": {
       "hash": "f6ff2f6620d9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:hand-of-light": {
       "hash": "95cde369fb21",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:light-s-augmentation": {
       "hash": "ed075318f315",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:miraculous-recovery": {
       "hash": "49fd0323a79d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:perseverance": {
       "hash": "2216ad9682fa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:reckoning": {
       "hash": "d78d18e9396a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:retribution": {
       "hash": "b27975d5fe2b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:seraphim": {
       "hash": "2cdb2fa82f1c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:unbound": {
       "hash": "466508721fe8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:wrath": {
       "hash": "e9508dac8a3d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:paladin:zeal": {
       "hash": "eb4bf42bc19e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pariah:introversion": {
       "hash": "81d4168e09a0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pariah:lifelong-respite": {
       "hash": "309240adfeea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:dark-covenant": {
       "hash": "9c412180d9e1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:designated-survivor": {
       "hash": "5a0456a318d3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:destiny-bond": {
       "hash": "90b392755c1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:eternal-damnation": {
       "hash": "0ca64d63f823",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:from-the-grave": {
       "hash": "95f1aed2595b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:intangibility": {
       "hash": "188d50da5452",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:last-word": {
       "hash": "385a3c50e3e6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:life-after-death": {
       "hash": "c8c1d08bd00c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:madness": {
       "hash": "adaf321f803f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:masochism": {
       "hash": "ee7c78c4288e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:medium": {
       "hash": "e963a72ef87d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:misery": {
       "hash": "858f811e7456",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:never-forgotten": {
       "hash": "9e877765337f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:psychic-suicide": {
       "hash": "535d7046f83c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:time-to-die": {
       "hash": "26782ab0bdac",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:purgatorian:trauma": {
       "hash": "2cdd82e1d702",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:backdraft": {
       "hash": "9c8acdb8e391",

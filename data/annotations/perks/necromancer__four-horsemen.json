@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:necromancer:four-horsemen",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "other",
+          "params": {
+            "requires": "the creature has Conquest, Famine, Death, and War"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "Apocalypse",
+            "alliesHealedByIt": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Minion-composition requirement has no condition type; condition other is honest here.",
+  "textHash": "e25f60a6c554"
+}

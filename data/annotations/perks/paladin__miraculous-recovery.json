@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:paladin:miraculous-recovery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "perRank": {
+              "per": 2,
+              "maxTotal": 50
+            }
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "49fd0323a79d"
+}

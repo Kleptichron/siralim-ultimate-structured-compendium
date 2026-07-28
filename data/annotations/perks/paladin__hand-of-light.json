@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:paladin:hand-of-light",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "deals damage with Retribution"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "perRank": {
+              "per": 2,
+              "maxTotal": 20
+            },
+            "scaleRef": "damage_dealt"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Retribution damage has no trigger type; trigger other is honest here.",
+  "textHash": "95cde369fb21"
+}

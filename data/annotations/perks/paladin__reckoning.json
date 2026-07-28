@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:paladin:reckoning",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "random_enemy"
+        }
+      ]
+    }
+  ],
+  "textHash": "d78d18e9396a"
+}

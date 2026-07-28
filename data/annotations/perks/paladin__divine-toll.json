@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:paladin:divine-toll",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "deals damage with Retribution"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "enemy",
+          "params": {
+            "spell": "Holy Smite"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Retribution damage has no trigger type; trigger other is honest here.",
+  "textHash": "3d3425296e59"
+}

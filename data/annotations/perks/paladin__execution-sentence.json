@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:paladin:execution-sentence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100,
+            "per": "damage dealt with Retribution this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f0fd0b0bd4a9"
+}

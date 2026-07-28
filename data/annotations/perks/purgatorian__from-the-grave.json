@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:purgatorian:from-the-grave",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "cadence": "every 3 turns",
+          "while": "dead"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "random_enemy",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 10,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "what": "bonus damage"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No cadence trigger exists; trigger other is honest here.",
+  "textHash": "95f1aed2595b"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:paladin:unbound",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "trigger_subject",
+          "params": {
+            "action": "Defends"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No verb models the Defend action itself; verb other is honest here.",
+  "textHash": "466508721fe8"
+}

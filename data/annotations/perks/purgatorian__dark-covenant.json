@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:purgatorian:dark-covenant",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "allies",
+          "params": {
+            "state": "dead"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 5,
+              "maxTotal": 50
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9c412180d9e1"
+}

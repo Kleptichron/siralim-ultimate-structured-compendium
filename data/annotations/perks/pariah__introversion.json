@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:pariah:introversion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "what": "creatures usable at a time"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "params": {
+            "action": "benefiting from Druid anointments"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Always active while the specialization is Pariah, regardless of Perk Points.",
+  "textHash": "81d4168e09a0"
+}

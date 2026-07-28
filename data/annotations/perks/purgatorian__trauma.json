@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:purgatorian:trauma",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 3,
+              "maxTotal": 30
+            },
+            "scaleRef": "dead_creatures",
+            "per": "dead creature on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2cdd82e1d702"
+}

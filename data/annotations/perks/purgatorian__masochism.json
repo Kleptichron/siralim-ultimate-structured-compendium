@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:purgatorian:masochism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 3,
+              "maxTotal": 15
+            },
+            "scaleRef": "dead_creatures",
+            "per": "dead creature fighting on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ee7c78c4288e"
+}
