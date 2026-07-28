@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:atrophy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "up"
+        }
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "trigger_subject",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "eacb9e7047cf"
+}

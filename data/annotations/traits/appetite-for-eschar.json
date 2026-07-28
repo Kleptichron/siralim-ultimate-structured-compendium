@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:appetite-for-eschar",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "deals damage as a result of Blighted",
+          "status": "Blighted"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Status-sourced damage-dealt has no trigger; other is honest here.",
+  "textHash": "b7b8e4d59777"
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:arachnophobia",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Snared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "source": "their Poisoned debuffs"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "enemy",
+        "params": {
+          "event": "breaks free from Snared",
+          "status": "Snared"
+        }
+      },
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "trigger_subject",
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "effect": "takes 5 turns of Poisoned damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Break-free has no trigger; other is honest here.",
+  "textHash": "a5f5d4b665c2"
+}

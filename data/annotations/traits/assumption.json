@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:assumption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "target",
+          "params": {
+            "below": "35%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        },
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "spells": "its first 3 spells",
+            "then": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3a39f1aa8811"
+}

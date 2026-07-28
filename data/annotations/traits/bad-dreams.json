@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bad-dreams",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Sleeping"
+          ],
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4da6ee816bdc"
+}

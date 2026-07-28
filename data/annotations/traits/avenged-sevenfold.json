@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:avenged-sevenfold",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "attacker",
+          "params": {
+            "spell": "Scourge (type by the enemy's class)"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "147f11e3cdfe"
+}

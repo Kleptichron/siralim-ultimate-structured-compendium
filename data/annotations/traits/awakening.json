@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:awakening",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "attack/spell damage taken between its turns",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "one of their Spell Gems at random",
+            "each": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "35db55290908"
+}

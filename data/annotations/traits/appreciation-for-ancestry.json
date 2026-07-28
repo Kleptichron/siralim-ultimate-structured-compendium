@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:appreciation-for-ancestry",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          },
+          "params": {
+            "vs": "creatures of their Fused creature's class"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          },
+          "params": {
+            "from": "creatures of their Fused creature's class"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "bef45678abf5"
+}

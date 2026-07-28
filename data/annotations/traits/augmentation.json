@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:augmentation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "scaleRef": "other",
+            "per": "buff, debuff, and minion the target had before dying"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "240a4606a3b1"
+}

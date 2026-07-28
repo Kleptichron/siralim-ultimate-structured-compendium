@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ashes-to-ashes",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Burning"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Burning"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "all": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "96ec05647233"
+}

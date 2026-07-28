@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:autonomous-defense",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 20,
+            "per": "total Defense received this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c2e0bbeda125"
+}

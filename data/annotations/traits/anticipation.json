@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:anticipation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountFlat": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f800b5b501bb"
+}

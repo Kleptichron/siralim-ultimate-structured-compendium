@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:at-peace",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "amount_gained",
+            "scalePct": 100
+          },
+          "params": {
+            "of": "the Health they resurrected with"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "1c2e3ae49f6d"
+}

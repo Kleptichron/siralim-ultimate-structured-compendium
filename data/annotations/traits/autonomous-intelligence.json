@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:autonomous-intelligence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 20,
+            "per": "total Intelligence received this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "39b277a05180"
+}

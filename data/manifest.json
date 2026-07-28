@@ -11707,39 +11707,48 @@
     },
     "trait:annoying-bobblehead": {
       "hash": "a08d9f9dd00f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:anointed": {
       "hash": "0f0327868662",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:anomaly": {
       "hash": "214747de5cff",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:another-man-s-trash": {
       "hash": "0d1dff99fd05",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ante": {
       "hash": "113e632761b4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:anti-magic-field": {
       "hash": "8737052e6a46",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:anticipation": {
       "hash": "f800b5b501bb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:anxiety": {
       "hash": "5f7a81e2f8fd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:any-given-sin": {
       "hash": "f87a3070158c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:apostle-of-water": {
       "hash": "4d4ec1e4d252",
@@ -11748,55 +11757,68 @@
     },
     "trait:appetite-for-eschar": {
       "hash": "b7b8e4d59777",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:appreciation-for-ancestry": {
       "hash": "bef45678abf5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:apprenticeship": {
       "hash": "828fb0e4d74e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:arachnophobia": {
       "hash": "a5f5d4b665c2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:arcane-brilliance": {
       "hash": "d1dec3cffb62",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:arcane-echo": {
       "hash": "7946c1923cb8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:armiger-strike": {
       "hash": "4fc3cb062e80",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ascendancy": {
       "hash": "1d1defe2da1f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:asceticism": {
       "hash": "67e5429c1830",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ashes-to-ashes": {
       "hash": "96ec05647233",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:assimilate": {
       "hash": "19b04ea68331",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:assumption": {
       "hash": "3a39f1aa8811",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:at-peace": {
       "hash": "1c2e3ae49f6d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:atmosphere": {
       "hash": "11e3531e35cb",
@@ -11805,67 +11827,83 @@
     },
     "trait:atmospheric-interference": {
       "hash": "a053f7e0722b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:atrophy": {
       "hash": "eacb9e7047cf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:augmentation": {
       "hash": "240a4606a3b1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:aura-boost": {
       "hash": "18b89d9dddda",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:autonomous-attack": {
       "hash": "2c395795fe78",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:autonomous-defense": {
       "hash": "c2e0bbeda125",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:autonomous-health": {
       "hash": "b464d56f5012",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:autonomous-intelligence": {
       "hash": "39b277a05180",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:autonomous-network": {
       "hash": "2a410c97bce3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:autonomous-speed": {
       "hash": "a6e15b430f15",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:avenged-sevenfold": {
       "hash": "147f11e3cdfe",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:awakening": {
       "hash": "35db55290908",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:awareness": {
       "hash": "d3589dbe14cf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:backup-packup": {
       "hash": "42de6db11ff6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bad-blood": {
       "hash": "789bdb489b9f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bad-dreams": {
       "hash": "4da6ee816bdc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bad-omen": {
       "hash": "93c77faf9ed6",
@@ -11874,11 +11912,13 @@
     },
     "trait:bad-trip": {
       "hash": "1e156d6b4015",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:baffle": {
       "hash": "f72e76f2aa4b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:balanced-spellcasting": {
       "hash": "5e017381503f",

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:apprenticeship",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "spell": "Magic Missile"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "828fb0e4d74e"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:atmospheric-interference",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a053f7e0722b"
+}

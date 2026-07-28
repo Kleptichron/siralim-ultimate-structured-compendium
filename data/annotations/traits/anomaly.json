@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:anomaly",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "Defense"
+          },
+          "params": {
+            "basis": "Defense instead of Attack or Intelligence",
+            "source": "attacks and spells"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "214747de5cff"
+}

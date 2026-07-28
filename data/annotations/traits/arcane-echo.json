@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:arcane-echo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "a random spell of the same class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7946c1923cb8"
+}

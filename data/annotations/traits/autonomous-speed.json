@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:autonomous-speed",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 20,
+            "per": "total Speed received this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a6e15b430f15"
+}

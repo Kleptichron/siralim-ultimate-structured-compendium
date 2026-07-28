@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bad-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Poisoned",
+            "Burning",
+            "Bleeding"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "789bdb489b9f"
+}

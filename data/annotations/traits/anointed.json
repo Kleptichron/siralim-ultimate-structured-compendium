@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:anointed",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0f0327868662"
+}

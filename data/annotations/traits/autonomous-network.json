@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:autonomous-network",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "ally",
+        "params": {
+          "event": "Clockwork creatures' innate traits activate"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 20
+          },
+          "params": {
+            "others": true,
+            "of": "those stats"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Trait-activation events have no trigger; other is honest here.",
+  "textHash": "2a410c97bce3"
+}

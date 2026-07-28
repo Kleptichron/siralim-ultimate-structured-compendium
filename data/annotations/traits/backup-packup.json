@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:backup-packup",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "ally",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "minion": "Dire Wolves",
+            "stacks": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "42de6db11ff6"
+}

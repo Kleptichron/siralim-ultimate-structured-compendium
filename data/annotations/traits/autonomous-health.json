@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:autonomous-health",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 20,
+            "per": "total Maximum Health received this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b464d56f5012"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:another-man-s-trash",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "base": true
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "manually attacking, casting, defending, or provoking"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0d1dff99fd05"
+}

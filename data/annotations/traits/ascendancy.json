@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ascendancy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "casts consume no Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1d1defe2da1f"
+}

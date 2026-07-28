@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:arcane-brilliance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellClass": "Sorcery"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d1dec3cffb62"
+}

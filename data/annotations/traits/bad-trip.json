@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bad-trip",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "attacker",
+          "params": {
+            "spell": "Cyanide Gas"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1e156d6b4015"
+}

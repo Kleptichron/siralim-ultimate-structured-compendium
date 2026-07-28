@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ante",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Current Health",
+            "scalePct": 5
+          },
+          "params": {
+            "of": "your other creatures' Current Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "113e632761b4"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:aura-boost",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 400,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "artifact",
+            "property": "its first Stat Slot"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "18b89d9dddda"
+}

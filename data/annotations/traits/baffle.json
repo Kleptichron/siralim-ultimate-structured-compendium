@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:baffle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Intelligence"
+          },
+          "params": {
+            "amount": "the Intelligence it has greater than its target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f72e76f2aa4b"
+}

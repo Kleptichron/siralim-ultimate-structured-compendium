@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:awareness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "params": {
+            "effect": "no additional damage from critical hits"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d3589dbe14cf"
+}

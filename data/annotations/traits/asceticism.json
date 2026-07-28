@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:asceticism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies",
+        "params": {
+          "by": "Rebirth",
+          "status": "Rebirth"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Mending",
+            "Repelling",
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "67e5429c1830"
+}

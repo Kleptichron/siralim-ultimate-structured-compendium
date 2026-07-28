@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:armiger-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "time it has attacked"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "time it has cast a spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4fc3cb062e80"
+}

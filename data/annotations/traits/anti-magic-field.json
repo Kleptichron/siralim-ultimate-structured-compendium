@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:anti-magic-field",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "avoid"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8737052e6a46"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:assimilate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "19b04ea68331"
+}

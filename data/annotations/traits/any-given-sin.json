@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:any-given-sin",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Scorned"
+          ],
+          "params": {
+            "recoil": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f87a3070158c"
+}

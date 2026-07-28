@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:annoying-bobblehead",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "turns the creature has taken",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "any",
+          "statusKind": "buff",
+          "params": {
+            "until": "after their first turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a08d9f9dd00f"
+}

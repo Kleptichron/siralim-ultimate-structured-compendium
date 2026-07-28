@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:anxiety",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "Spell Gem potency"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "Gems are Sealed after casting"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5f7a81e2f8fd"
+}
