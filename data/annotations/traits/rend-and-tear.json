@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rend-and-tear",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "adjacent_enemies",
+          "params": {
+            "anchor": "the killed enemy",
+            "damageBonusPct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "17d8e7762220"
+}

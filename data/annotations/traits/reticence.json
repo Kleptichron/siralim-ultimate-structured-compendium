@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:reticence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "down"
+          },
+          "params": {
+            "equipment": "artifact",
+            "property": "Stat Slots",
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "cbc34095b45c"
+}

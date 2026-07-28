@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:resilience-aura",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "66ebf7bebd0c"
+}

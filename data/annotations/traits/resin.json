@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:resin",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "Attack",
+            "scalePct": 75
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5c6ae7fe36a8"
+}

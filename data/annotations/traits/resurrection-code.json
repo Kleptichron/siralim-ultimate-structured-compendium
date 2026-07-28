@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:resurrection-code",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "actor": "holder",
+          "target": "allies",
+          "params": {
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fb7c10c1d480"
+}

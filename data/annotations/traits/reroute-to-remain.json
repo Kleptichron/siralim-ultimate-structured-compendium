@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:reroute-to-remain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Scorned"
+          ],
+          "params": {
+            "duration": "1 turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "11001d8f51d0"
+}

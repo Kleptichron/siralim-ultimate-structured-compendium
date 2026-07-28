@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:ride-the-whirlwind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "lowest_stat",
+            "scalePct": 200
+          },
+          "params": {
+            "replaces": "Attack or Intelligence",
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "06864fd23e1e"
+}

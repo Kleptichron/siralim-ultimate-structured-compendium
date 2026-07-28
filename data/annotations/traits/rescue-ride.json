@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rescue-ride",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "actor": "holder",
+          "target": "random_ally",
+          "params": {
+            "healthPct": 100
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_ally",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "956237dc7b50"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:righteous-concession",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "holder",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "resistant"
+          }
+        },
+        {
+          "verb": "prevent_status",
+          "target": "adjacent_allies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "resistant"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e1b8238f6e79"
+}

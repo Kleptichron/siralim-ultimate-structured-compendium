@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:repetitive-holiday",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "alive"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "holder",
+          "params": {
+            "self": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "dead"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "params": {
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "63abf4710d47"
+}

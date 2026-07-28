@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:retrograde",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Blighted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "source": "all sources"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "656a1cdad203"
+}

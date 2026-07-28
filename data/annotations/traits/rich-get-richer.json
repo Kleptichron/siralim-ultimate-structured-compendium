@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rich-get-richer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "ally"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "trigger_subject",
+          "params": {
+            "race": "Dumpling"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "highest_stat"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "the dead Dumpling"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "adaae70dedd4"
+}

@@ -17977,163 +17977,203 @@
     },
     "trait:redemption": {
       "hash": "f6a4ff22b075",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reforged": {
       "hash": "61d2b7fa0b01",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reform": {
       "hash": "2437f70ece8e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:refraction": {
       "hash": "bb3794927549",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reign-of-chaos": {
       "hash": "4f1569f6e1b5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reign-of-pain": {
       "hash": "e958c8cfc081",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reinvigoration": {
       "hash": "cbda0c35791b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rejuvenation": {
       "hash": "7adbb7cb4cd1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:release-the-cure": {
       "hash": "ee7ee7a2ba22",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:relentless-hunger": {
       "hash": "4abdba23cfd8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:relish-the-kill": {
       "hash": "bfcd21385f53",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:renaissance": {
       "hash": "71c352691b02",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rend-and-tear": {
       "hash": "17d8e7762220",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:render-flesh": {
       "hash": "25e55d0b82e3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:repetitive-holiday": {
       "hash": "63abf4710d47",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reroute-to-remain": {
       "hash": "11001d8f51d0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rescue-ride": {
       "hash": "956237dc7b50",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:resilience-aura": {
       "hash": "66ebf7bebd0c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:resin": {
       "hash": "5c6ae7fe36a8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:resolve": {
       "hash": "28c57f829e85",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:resprout": {
       "hash": "a36981192739",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:restoration": {
       "hash": "c736e345237c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:resurrection-code": {
       "hash": "fb7c10c1d480",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:reticence": {
       "hash": "cbc34095b45c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:retrograde": {
       "hash": "656a1cdad203",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:return-to-source": {
       "hash": "eb6aefdc0e32",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:revenant-s-toll": {
       "hash": "b059f73383cb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:revolt": {
       "hash": "84492b8201cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rich-get-richer": {
       "hash": "adaae70dedd4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ride-the-whirlwind": {
       "hash": "06864fd23e1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:righteous-concession": {
       "hash": "e1b8238f6e79",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:righteous-winds": {
       "hash": "30d13b4e9389",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rime": {
       "hash": "a89738ca39da",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rise-above": {
       "hash": "ba840d931150",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rise-of-the-phoenix": {
       "hash": "47b7a189daae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rise-to-fall": {
       "hash": "0fb5625a5011",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:riverside": {
       "hash": "d012379d62a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:road-rage": {
       "hash": "f3564f6a11da",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:robbing-the-grave": {
       "hash": "1a863c494304",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:robotic-armor": {
       "hash": "79be4e962f4c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:rock-candy": {
       "hash": "fad577206abf",

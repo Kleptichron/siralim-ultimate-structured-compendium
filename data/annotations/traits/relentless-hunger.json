@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:relentless-hunger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100,
+            "amountFlat": 2
+          },
+          "params": {
+            "targets": "two other random enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4abdba23cfd8"
+}

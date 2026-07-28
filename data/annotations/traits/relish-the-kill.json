@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:relish-the-kill",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "target",
+          "params": {
+            "effect": "all its Spell Gems are Sealed"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "Spell Gem Sealed"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "Spell Gem Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bfcd21385f53"
+}

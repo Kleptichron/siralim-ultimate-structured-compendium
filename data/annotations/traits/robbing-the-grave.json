@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:robbing-the-grave",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "any",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          },
+          "params": {
+            "amplifies": "stat losses"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "statuses": [
+            "Feared"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "what": "Feared-interacting spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "1a863c494304"
+}

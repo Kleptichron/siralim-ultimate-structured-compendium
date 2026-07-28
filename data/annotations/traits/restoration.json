@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:restoration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "holder",
+          "params": {
+            "effect": "stats are not reset on death"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c736e345237c"
+}

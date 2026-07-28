@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:robotic-armor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "resistant"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "allies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Immune"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "79be4e962f4c"
+}

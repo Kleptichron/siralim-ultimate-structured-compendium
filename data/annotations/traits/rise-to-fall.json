@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:rise-to-fall",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 30
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleStat": "missing_health",
+            "per": "1% of health it is missing"
+          },
+          "params": {
+            "source": "all sources"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0fb5625a5011"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:resprout",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 100,
+            "per": "damage taken since its last turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a36981192739"
+}

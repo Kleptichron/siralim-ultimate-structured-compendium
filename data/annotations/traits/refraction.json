@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:refraction",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "spellType": "single-target on your creature"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "copyOf": "that spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bb3794927549"
+}

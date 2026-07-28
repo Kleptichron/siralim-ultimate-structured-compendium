@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:redemption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "actor": "holder",
+          "target": "allies",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 100
+          },
+          "params": {
+            "of": "the holder",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f6a4ff22b075"
+}
