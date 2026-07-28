@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:adoring-fans",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies",
+        "params": {
+          "healer": "an enemy with Mania",
+          "status": "Mania"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "highest_stat"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "healing_received",
+            "scalePct": 10
+          },
+          "params": {
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f8d46a2b5b54"
+}

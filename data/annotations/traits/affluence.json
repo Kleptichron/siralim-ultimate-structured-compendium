@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:affluence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "permanent Sorcery Spell Gem above the target",
+            "cap": 300
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bfc9292fa2f6"
+}

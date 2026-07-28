@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ancient-wisdom",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "any",
+        "params": {
+          "event": "would gain or lose stats",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "any",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 10,
+            "per": "turn the holder has taken this battle"
+          },
+          "params": {
+            "of": "the holder",
+            "addedTo": "the stat change amount"
+          }
+        },
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "starts battles with its turn counter at 3"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Turn-count bookkeeping has no verb; other is honest here.",
+  "textHash": "04fa99eb5df8"
+}

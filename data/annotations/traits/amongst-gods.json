@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:amongst-gods",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "ally"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "ally",
+          "params": {
+            "healthPct": 50,
+            "which": "one of your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "01fc3e33adeb"
+}

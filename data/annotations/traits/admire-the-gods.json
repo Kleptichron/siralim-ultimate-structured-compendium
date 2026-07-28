@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:admire-the-gods",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "takes damage exceeding 25% of its Maximum Health"
+        }
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "holder",
+          "params": {
+            "what": "damage taken per hit",
+            "max": "25% of Maximum Health",
+            "totalPreventedCap": "200% of Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No overkill-damage trigger exists; other is honest here.",
+  "textHash": "db7ab9f5f877"
+}

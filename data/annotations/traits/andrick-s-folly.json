@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:andrick-s-folly",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "gains a minion"
+        }
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "the gained minion has 1 additional stack"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "No trigger models minion-gain events; trigger other is honest here.",
+  "textHash": "ebb9c5f4629d"
+}

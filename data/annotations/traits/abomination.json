@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:abomination",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "holder",
+        "params": {
+          "direction": "up"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 25
+          },
+          "params": {
+            "others": true,
+            "except": "creatures with this trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "39b4fa0424eb"
+}

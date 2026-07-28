@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:ancient-dna",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "holder",
+          "params": {
+            "what": "race always matches the creature at the top of the Timeline"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4d8e9984dad6"
+}

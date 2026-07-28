@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:anatidaephobia",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "any",
+          "params": {
+            "effect": "attacks make a quacking sound"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Cosmetic joke trait; verb other is honest here.",
+  "textHash": "96549fa42a32"
+}

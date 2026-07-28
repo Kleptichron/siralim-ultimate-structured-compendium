@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:animated-treasure",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "params": {
+            "resource": "some resources",
+            "drops": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "tries to run away each turn"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Flee behavior has no verb; other is honest here.",
+  "textHash": "57daffe35d57"
+}

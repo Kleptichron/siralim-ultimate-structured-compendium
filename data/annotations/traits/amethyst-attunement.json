@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:amethyst-attunement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "any",
+          "params": {
+            "what": "Ethereal Spell Gems",
+            "effect": "created with only 1 Charge"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0250347ab08a"
+}

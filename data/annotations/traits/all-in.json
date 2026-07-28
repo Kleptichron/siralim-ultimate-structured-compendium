@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:all-in",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "its attacks this battle",
+            "equals": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 300,
+            "direction": "up"
+          },
+          "params": {
+            "appliesTo": "its first attack each battle",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8ff6722a2c08"
+}

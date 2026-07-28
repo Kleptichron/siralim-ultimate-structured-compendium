@@ -11442,11 +11442,13 @@
     },
     "trait:a-gift-for-you": {
       "hash": "aa51c0e6dca7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:abaddon-s-boon": {
       "hash": "868c55307819",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:abation": {
       "hash": "035e55e849e3",
@@ -11460,19 +11462,23 @@
     },
     "trait:abomination": {
       "hash": "39b4fa0424eb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:absence-of-light": {
       "hash": "98602c56f120",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:absolute-power": {
       "hash": "e25d66f8a1f9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:absolution": {
       "hash": "f0b82c8ef339",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:absorption": {
       "hash": "6a91ce0301d6",
@@ -11481,11 +11487,13 @@
     },
     "trait:abyss-orbs": {
       "hash": "e8986c976fc0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:abyssal-waters": {
       "hash": "8b1309400577",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:accelerated-harvest": {
       "hash": "65208f26a58e",
@@ -11499,11 +11507,13 @@
     },
     "trait:adaptive-tactics": {
       "hash": "462a3cabd97d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:add-to-the-mix": {
       "hash": "cb6bca93981c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:adept-wizarding": {
       "hash": "450d491b05ed",
@@ -11512,7 +11522,8 @@
     },
     "trait:admire-the-gods": {
       "hash": "db7ab9f5f877",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:adoration": {
       "hash": "4215199d1312",
@@ -11521,7 +11532,8 @@
     },
     "trait:adoring-fans": {
       "hash": "f8d46a2b5b54",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:aether-eyes": {
       "hash": "8e7780a37d1f",
@@ -11530,7 +11542,8 @@
     },
     "trait:affluence": {
       "hash": "bfc9292fa2f6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:afterlife": {
       "hash": "504b5c8aa73c",
@@ -11539,31 +11552,38 @@
     },
     "trait:aggravated-illness": {
       "hash": "79c6432e857e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:agility-aura": {
       "hash": "1267993337d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:agitation": {
       "hash": "9f79e02f3b34",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:agonizing-entrapment": {
       "hash": "c367b4f4c077",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:aimed-shot": {
       "hash": "4cec212b8290",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:alchemist-s-buffer": {
       "hash": "a9ace9212fd1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:alchemist-s-fury": {
       "hash": "65ede0490dc1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:alcoholism": {
       "hash": "944f80a38264",
@@ -11572,39 +11592,48 @@
     },
     "trait:all-as-one": {
       "hash": "e6b1a6b6d1bd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:all-for-one": {
       "hash": "b5bcf884869c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:all-hope-is-lost": {
       "hash": "5c6794f879a4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:all-in": {
       "hash": "8ff6722a2c08",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:alleviation": {
       "hash": "930ddb94d27e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:almost-easy": {
       "hash": "e8d653dd3ac5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:alteration": {
       "hash": "a13252e69a90",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:alternate-reality": {
       "hash": "09146a8e7975",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:amalgamy": {
       "hash": "99b2c9b7560e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ambush": {
       "hash": "0a1f223e637c",
@@ -11613,27 +11642,33 @@
     },
     "trait:amethyst-attunement": {
       "hash": "0250347ab08a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:amongst-gods": {
       "hash": "01fc3e33adeb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:anatidaephobia": {
       "hash": "96549fa42a32",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ancient-buffoonery": {
       "hash": "f8c8c56e3163",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ancient-dna": {
       "hash": "4d8e9984dad6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ancient-wisdom": {
       "hash": "04fa99eb5df8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:and-you-get-a-bomb": {
       "hash": "e386a3fb4496",
@@ -11647,23 +11682,28 @@
     },
     "trait:andrick-s-folly": {
       "hash": "ebb9c5f4629d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:andrick-s-royal-decree": {
       "hash": "68371abe3de9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:angel-s-horror": {
       "hash": "1bcc8a0ed79f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:animated-treasure": {
       "hash": "57daffe35d57",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:annex": {
       "hash": "943178fe999a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:annoying-bobblehead": {
       "hash": "a08d9f9dd00f",

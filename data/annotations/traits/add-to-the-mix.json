@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:add-to-the-mix",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "ally",
+        "params": {
+          "condition": "spell class differs from the last spell cast this battle"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "one of its spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cb6bca93981c"
+}
