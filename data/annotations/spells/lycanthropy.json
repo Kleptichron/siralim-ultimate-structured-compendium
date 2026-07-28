@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:lycanthropy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "caster",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "into": "a random Nature creature with 100% Health"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "caster",
+          "params": {
+            "effect": "this Spell Gem is then Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Cannot be cast manually; 100% chance to cast when the caster takes damage below 25% Health.",
+  "textHash": "edac3ac7a89c"
+}

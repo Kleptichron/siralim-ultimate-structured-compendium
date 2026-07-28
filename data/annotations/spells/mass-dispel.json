@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:mass-dispel",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "any",
+          "params": {
+            "all": "buffs and debuffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fba61bf0b74e"
+}

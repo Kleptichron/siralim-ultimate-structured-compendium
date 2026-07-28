@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:living-helmet",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "caster",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "tier": "massive",
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "caster",
+          "statuses": [
+            "Protected"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Arsenal Spell.",
+  "textHash": "b30a037909ca"
+}

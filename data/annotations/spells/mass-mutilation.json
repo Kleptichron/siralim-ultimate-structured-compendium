@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:mass-mutilation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "any",
+          "target": "any",
+          "params": {
+            "self": true,
+            "damagePctOfNormal": 25
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Can only be Cast once at a time.",
+  "textHash": "91ba63c140df"
+}

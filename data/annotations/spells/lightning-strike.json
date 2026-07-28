@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:lightning-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "target",
+          "params": {
+            "state": "provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive"
+          },
+          "params": {
+            "replacesBase": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6e29ef79e2fd"
+}

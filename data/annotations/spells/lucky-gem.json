@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:lucky-gem",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "gain_charges",
+          "target": "target",
+          "params": {
+            "effect": "recovers 100% Charges",
+            "except": "Ultimate Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Cannot be cast manually; 20% chance to cast on an ally at the end of its turn.",
+  "textHash": "9758a3f7ebfa"
+}

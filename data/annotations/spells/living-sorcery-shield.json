@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:living-sorcery-shield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "caster",
+          "params": {
+            "what": "class changed to Sorcery"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "caster",
+          "statuses": [
+            "Warded"
+          ]
+        },
+        {
+          "verb": "stat_change",
+          "target": "caster",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "up",
+            "scaleStat": "Defense"
+          },
+          "params": {
+            "basis": "caster's Defense instead of Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Arsenal Spell.",
+  "textHash": "11317a4a3763"
+}

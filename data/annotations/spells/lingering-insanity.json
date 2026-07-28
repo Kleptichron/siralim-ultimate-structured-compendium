@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:lingering-insanity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "small",
+            "scaleStat": "Intelligence"
+          },
+          "params": {
+            "basis": "the enemies' own Intelligence instead of the caster's"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "42f6a188052f"
+}

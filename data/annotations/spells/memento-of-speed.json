@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:memento-of-speed",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "caster",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Charge this Spell Gem is missing"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "The cast itself does nothing; the bonus is passive while the Gem is missing Charges.",
+  "textHash": "bfc5846d8781"
+}

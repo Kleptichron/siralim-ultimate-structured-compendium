@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:living-sword",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large",
+            "scaleStat": "Attack",
+            "scalePct": 50
+          },
+          "params": {
+            "plus": "50% of the caster's Attack"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Arsenal Spell.",
+  "textHash": "7b77957f521a"
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:living-chaos-lance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small",
+            "scaleStat": "Attack"
+          },
+          "params": {
+            "basis": "caster's Attack instead of Intelligence"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "target",
+          "params": {
+            "class": "Chaos"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "massive"
+          },
+          "params": {
+            "replacesBase": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Arsenal Spell.",
+  "textHash": "adbc93390bc0"
+}

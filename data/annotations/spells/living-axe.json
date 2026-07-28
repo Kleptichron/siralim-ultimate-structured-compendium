@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:living-axe",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "large"
+          },
+          "params": {
+            "bonusPct": 25,
+            "per": "Arsenal Spell the caster has Cast this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Arsenal Spell.",
+  "textHash": "a69b92acddcc"
+}

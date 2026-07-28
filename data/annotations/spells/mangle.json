@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:mangle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "small",
+            "scaleRef": "status_potency"
+          },
+          "statuses": [
+            "Bleeding"
+          ],
+          "params": {
+            "plus": "3 turns of its Bleeding damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a2792a40731a"
+}

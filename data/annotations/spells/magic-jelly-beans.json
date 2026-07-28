@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:magic-jelly-beans",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "ifEnemy": true
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "ifEnemy": true
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "ifAlly": true
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "ifAlly": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3a0f99b4e1db"
+}

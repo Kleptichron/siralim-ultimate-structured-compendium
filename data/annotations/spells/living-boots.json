@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:living-boots",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "up",
+            "scaleRef": "turns_taken"
+          },
+          "params": {
+            "bonusPct": 65,
+            "per": "turn taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Arsenal Spell.",
+  "textHash": "2d4b0e78eed3"
+}

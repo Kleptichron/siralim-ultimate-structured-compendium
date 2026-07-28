@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:living-gauntlet",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "caster",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "tier": "massive",
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "caster",
+          "statuses": [
+            "Savage"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Arsenal Spell.",
+  "textHash": "387a74484063"
+}

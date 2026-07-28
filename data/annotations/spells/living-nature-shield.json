@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:living-nature-shield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "caster",
+          "params": {
+            "what": "class changed to Nature"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "caster",
+          "statuses": [
+            "Invisible"
+          ]
+        },
+        {
+          "verb": "stat_change",
+          "target": "caster",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "up",
+            "scaleStat": "Defense"
+          },
+          "params": {
+            "basis": "caster's Defense instead of Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Arsenal Spell.",
+  "textHash": "a6471bd07623"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:luck-of-the-draw",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "any",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        },
+        {
+          "verb": "apply_status",
+          "target": "any",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "7c02158b7fdf"
+}
