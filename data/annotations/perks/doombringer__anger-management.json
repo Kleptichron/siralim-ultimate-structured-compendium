@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:doombringer:anger-management",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_effect_activates",
         "subject": "allies",
         "params": {
-          "event": "on-heal effects activate"
+          "what": "on-heal effects activate"
         }
       },
       "actions": [

@@ -47,6 +47,35 @@ for (const [name, h] of Object.entries(hist)) {
   console.log();
 }
 
+// --- other-watch: every 'other' use, grouped so recurring families surface ---
+// Standing rule: once a family is common, it leaves 'other' for a real enum
+// (see migrations 0003, 0006, 0008). Grouping is by the params key-set, which
+// is what a family shares even when the free-text differs.
+const others = { trigger: new Map(), verb: new Map(), condition: new Map() };
+const noteOther = (map, params, id) => {
+  const key = Object.keys(params ?? {}).sort().join('+') || '(no params)';
+  if (!map.has(key)) map.set(key, []);
+  map.get(key).push(id);
+};
+for (const a of anns) {
+  for (const r of a.rules ?? []) {
+    if (r.trigger?.type === 'other') noteOther(others.trigger, r.trigger.params, a.id);
+    for (const c of r.conditions ?? []) if (c.type === 'other') noteOther(others.condition, c.params, a.id);
+    for (const act of r.actions ?? []) if (act.verb === 'other') noteOther(others.verb, act.params, a.id);
+  }
+}
+const OTHER_FAMILY_ALARM = 8; // a params-shape this common is an enum candidate
+for (const [slot, map] of Object.entries(others)) {
+  if (map.size === 0) continue;
+  console.log(`other-watch (${slot}): ${[...map.values()].reduce((n, v) => n + v.length, 0)} use(s) in ${map.size} shape(s)`);
+  for (const [key, ids] of [...map.entries()].sort((a, b) => b[1].length - a[1].length)) {
+    const alarm = ids.length >= OTHER_FAMILY_ALARM ? '  <-- RECURRING FAMILY: propose an enum type' : '';
+    console.log(`  ${String(ids.length).padStart(4)}  {${key}}${alarm}`);
+    console.log(`        ${ids.slice(0, 4).join(', ')}${ids.length > 4 ? `, … +${ids.length - 4}` : ''}`);
+  }
+  console.log();
+}
+
 // --- review sample: every searchable field must be visible ---
 const renderCond = c => {
   const p = c.params ?? {};

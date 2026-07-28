@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "trait:autonomous-network",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_effect_activates",
         "subject": "ally",
         "params": {
-          "event": "Clockwork creatures' innate traits activate"
+          "what": "Clockwork creatures' innate traits activate"
         }
       },
       "actions": [

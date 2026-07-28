@@ -1,7 +1,7 @@
 {
   "id": "card:ghoul:1",
   "textHash": "26ca8d6bf626",
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "machine",
   "machineTemplate": "stat-mod-allies",
   "rules": [

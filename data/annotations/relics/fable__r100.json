@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "relic:fable:r100",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_effect_activates",
         "subject": "holder",
         "params": {
-          "event": "on-attack or on-cast effects activated"
+          "what": "on-attack or on-cast effects activated"
         }
       },
       "chance": 10,

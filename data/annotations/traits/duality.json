@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "trait:duality",
   "rules": [
@@ -41,10 +41,11 @@
       ],
       "actions": [
         {
-          "verb": "other",
+          "verb": "battle_action",
           "target": "holder",
           "params": {
-            "action": "Defends"
+            "action": "defend",
+            "text": "Defends"
           }
         }
       ]

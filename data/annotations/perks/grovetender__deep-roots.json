@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:grovetender:deep-roots",
   "rules": [
@@ -22,11 +22,11 @@
       ],
       "actions": [
         {
-          "verb": "redirect_target",
+          "verb": "battle_action",
           "actor": "other",
           "params": {
             "who": "Herbling",
-            "action": "Provoke"
+            "action": "provoke"
           }
         }
       ]
@@ -50,11 +50,12 @@
       ],
       "actions": [
         {
-          "verb": "other",
+          "verb": "battle_action",
           "target": "other",
           "params": {
             "who": "Herbling",
-            "action": "Defends"
+            "action": "defend",
+            "text": "Defends"
           }
         }
       ]

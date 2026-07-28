@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:monk:dampen-harm",
   "rules": [
     {
       "trigger": {
-        "type": "other",
-        "subject": "allies",
-        "params": {
-          "event": "would receive fatal damage"
-        }
+        "type": "after_damaged",
+        "subject": "allies"
       },
       "actions": [
         {
@@ -18,6 +15,16 @@
           "params": {
             "kind": "prevent damage",
             "chance": "equal to their Dodge chance"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "allies",
+          "params": {
+            "exceeds": "remaining Health (fatal)",
+            "timing": "would"
           }
         }
       ]

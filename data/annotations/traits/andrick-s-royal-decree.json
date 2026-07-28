@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "trait:andrick-s-royal-decree",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_minion_gained",
         "subject": "allies",
         "params": {
-          "event": "gains a minion"
+          "what": "gains a minion"
         }
       },
       "actions": [

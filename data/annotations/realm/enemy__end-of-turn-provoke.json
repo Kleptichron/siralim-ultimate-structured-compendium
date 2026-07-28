@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "realm:enemy:end-of-turn-provoke",
   "rules": [
@@ -10,10 +10,10 @@
       },
       "actions": [
         {
-          "verb": "redirect_target",
+          "verb": "battle_action",
           "actor": "trigger_subject",
           "params": {
-            "action": "Provoke"
+            "action": "provoke"
           }
         }
       ]

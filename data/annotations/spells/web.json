@@ -1,7 +1,7 @@
 {
   "id": "spell:web",
   "textHash": "bc460233a333",
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

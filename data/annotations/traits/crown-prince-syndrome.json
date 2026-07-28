@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "trait:crown-prince-syndrome",
   "rules": [
@@ -10,10 +10,11 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "battle_action",
           "target": "holder",
           "params": {
-            "action": "Defends or Provokes"
+            "action": "defend or provoke",
+            "text": "Defends or Provokes"
           }
         }
       ]
@@ -25,10 +26,11 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "battle_action",
           "target": "holder",
           "params": {
-            "action": "Defends or Provokes"
+            "action": "defend or provoke",
+            "text": "Defends or Provokes"
           }
         }
       ]

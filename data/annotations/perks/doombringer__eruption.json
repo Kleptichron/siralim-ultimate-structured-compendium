@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:doombringer:eruption",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_effect_activates",
         "subject": "allies",
         "params": {
-          "event": "on-attack effects activate"
+          "what": "on-attack effects activate"
         }
       },
       "actions": [

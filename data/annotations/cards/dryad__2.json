@@ -1,7 +1,7 @@
 {
   "id": "card:dryad:2",
   "textHash": "ea172b001399",
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "machine",
   "machineTemplate": "card-class-attack-dr",
   "rules": [

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "spell:duel",
   "rules": [
@@ -9,17 +9,17 @@
       },
       "actions": [
         {
-          "verb": "redirect_target",
+          "verb": "battle_action",
           "actor": "target",
           "params": {
-            "action": "Provoke"
+            "action": "provoke"
           }
         },
         {
-          "verb": "redirect_target",
+          "verb": "battle_action",
           "actor": "caster",
           "params": {
-            "action": "Provoke"
+            "action": "provoke"
           }
         },
         {

@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "trait:celebrate-decline",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_effect_activates",
         "subject": "allies",
         "params": {
-          "event": "their Artifact's Spell Slots activate"
+          "what": "their Artifact's Spell Slots activate"
         }
       },
       "actions": [

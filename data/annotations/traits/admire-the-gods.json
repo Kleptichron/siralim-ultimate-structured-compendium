@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "trait:admire-the-gods",
   "rules": [
     {
       "trigger": {
-        "type": "other",
-        "subject": "holder",
-        "params": {
-          "event": "takes damage exceeding 25% of its Maximum Health"
-        }
+        "type": "after_damaged",
+        "subject": "holder"
       },
       "actions": [
         {
@@ -19,6 +16,15 @@
             "what": "damage taken per hit",
             "max": "25% of Maximum Health",
             "totalPreventedCap": "200% of Maximum Health"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "holder",
+          "params": {
+            "exceeds": "25% of Maximum Health"
           }
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:mime:gesticulation",
   "rules": [
@@ -10,10 +10,10 @@
       },
       "actions": [
         {
-          "verb": "redirect_target",
+          "verb": "battle_action",
           "actor": "ally",
           "params": {
-            "action": "Provoke",
+            "action": "provoke",
             "which": "one of your creatures"
           }
         }

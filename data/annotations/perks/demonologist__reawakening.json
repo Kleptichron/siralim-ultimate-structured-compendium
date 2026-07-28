@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:demonologist:reawakening",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_minion_lost",
         "subject": "allies",
         "params": {
-          "event": "sacrifices a Lesser Demon"
+          "what": "sacrifices a Lesser Demon"
         }
       },
       "chance": 35,

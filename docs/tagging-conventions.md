@@ -1,4 +1,11 @@
-# Tagging conventions (schema v8 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions)
+# Tagging conventions (schema v9 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers)
+
+**Watching `other`:** `npm run audit` ends with an *other-watch* section grouping
+every `other` use by its params shape. A shape reaching ~8 uses is an enum
+candidate — extend the enum and migrate rather than letting it accumulate
+(this produced v3, v6, v8 and v9). Current watch items below quota:
+counting/adjacency meta-rules ("acts as if the party has 3 more X", 7 uses) and
+battle-fatigue modifiers (4).
 
 Re-read this before every tagging session. Post-freeze schema changes require a
 migration script in scripts/migrations/ and a full re-validation.
@@ -101,17 +108,29 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     carries the number (rule 6), verb describes the outcome
     (`dodge_modifier` + `params.kind: 'avoid damage'`). Chance DELTAS
     ("10% lower chance to Dodge") stay `dodge_modifier` + magnitude.
-22. **Dynamic checks & outcome riders** (v8): property checks against another
+22. **Defend & Provoke** (v9) → verb `battle_action`, `params.action`
+    ('defend' | 'provoke' | 'defend or provoke'); add `params.mode: 'remove'`
+    when an effect *clears* that state. `redirect_target` is now ONLY genuine
+    targeting redirection (interception, Confused, random retargeting) — never
+    the Provoke action.
+23. **Effect-activation & minion events** (v9): "after X effects activate"
+    (on-attack effects, Trick Slots, innate traits) → trigger
+    `after_effect_activates` + `params.what`; minions arriving or departing →
+    `after_minion_gained` / `after_minion_lost`. Damage-threshold events
+    ("takes damage exceeding 25% of Max Health", "would take fatal damage") use
+    the EXISTING `after_damaged` trigger + `damage_threshold` condition.
+    Overworld spawn/encounter rates → verb `spawn_modifier`.
+24. **Dynamic checks & outcome riders** (v8): property checks against another
     entity or a slot ("target's class equals the caster's", "first creature in
     the party") → condition `comparison` (params.what/of/equals). Riders on a
     prior action's result ("if this spell kills the target", "if a debuff was
     removed") → condition `outcome` (params.result). "Has all of X, Y, Z"
     composition requirements → `count_comparison`, never `other`.
-23. **Activation counts & rule caps** (v6): "X effects activate N additional
+25. **Activation counts & rule caps** (v6): "X effects activate N additional
     times / activate now" → verb `activation_modifier` (`params.what` names
     the effect family; magnitude carries the count). "Maximum N per
     battle/turn" caps → verb `limit_modifier` + `magnitude.amountFlat`.
-24. **Relics** (v7): "the bearer" = `holder`. The relic is its own battle
+26. **Relics** (v7): "the bearer" = `holder`. The relic is its own battle
     entity: "This relic Attacks/Casts" → actor `relic`; "After this relic
     Attacks" → trigger subject `relic`. The `relic` scope is valid only in
     relic records. "This relic or its bearer…" (either source) → subject

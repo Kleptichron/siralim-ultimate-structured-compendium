@@ -1,7 +1,7 @@
 {
   "id": "perk:evoker:outspoken",
   "textHash": "fe9e21cf7008",
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

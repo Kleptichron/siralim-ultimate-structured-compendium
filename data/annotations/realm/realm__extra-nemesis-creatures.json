@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "realm:realm:extra-nemesis-creatures",
   "rules": [
@@ -9,7 +9,7 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "spawn_modifier",
           "magnitude": {
             "direction": "up"
           },

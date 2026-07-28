@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "card:dumpling:2",
   "rules": [
@@ -9,7 +9,7 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "spawn_modifier",
           "magnitude": {
             "amountPct": 50,
             "direction": "up"

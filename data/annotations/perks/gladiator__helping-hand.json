@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:gladiator:helping-hand",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_effect_activates",
         "subject": "allies",
         "params": {
-          "event": "their Trick Slots activate"
+          "what": "their Trick Slots activate"
         }
       },
       "actions": [

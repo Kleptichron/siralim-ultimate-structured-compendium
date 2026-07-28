@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "relic:ripplevein:r90",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_minion_gained",
         "subject": "holder",
         "params": {
-          "event": "gains Zombies, Spiderlings, Unstable Horror, or Dire Wolves"
+          "what": "gains Zombies, Spiderlings, Unstable Horror, or Dire Wolves"
         }
       },
       "actions": [

@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "card:slime:3",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_effect_activates",
         "subject": "enemy",
         "params": {
-          "event": "Confused debuff activates"
+          "what": "Confused debuff activates"
         }
       },
       "actions": [

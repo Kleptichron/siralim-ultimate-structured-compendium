@@ -1,17 +1,22 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:paladin:divine-intervention",
   "rules": [
     {
       "trigger": {
-        "type": "other",
-        "subject": "allies",
-        "params": {
-          "event": "would take fatal damage"
-        }
+        "type": "after_damaged",
+        "subject": "allies"
       },
       "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "allies",
+          "params": {
+            "exceeds": "remaining Health (fatal)",
+            "timing": "would"
+          }
+        },
         {
           "type": "once_per_battle"
         }

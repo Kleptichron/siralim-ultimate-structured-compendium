@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 8;
+export const SCHEMA_VERSION = 9;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -37,6 +37,10 @@ export const TRIGGER_TYPES = [
   'after_dodge',
   'after_critical',
   'after_joins_battle',             // summoned/spawns mid-battle
+  'after_effect_activates',         // another effect fired: on-attack effects, Trick
+                                    //   Slots, innate traits (params.what names the family)
+  'after_minion_gained',
+  'after_minion_lost',              // minions go away, are sacrificed, or would depart
   'non_combat',                     // breeding, loot, resources, overworld (mostly perks/realm)
   'other',
 ];
@@ -115,7 +119,11 @@ export const ACTION_VERBS = [
   'summon_minion',
   'minion_modifier',
   'timeline_move',
-  'redirect_target', // taunt/provoke-style redirection
+  'battle_action',   // the creature performs a battle action itself:
+                     //   params.action 'defend' | 'provoke'
+  'redirect_target', // genuine targeting redirection (interception, Confused,
+                     //   "target chosen at random") — NOT the Provoke action
+  'spawn_modifier',  // overworld spawn/encounter rates (params.what names it)
   'prevent_action',  // "cannot Provoke/dodge/be resurrected/cast..."
   'dodge_modifier',  // dodge/avoid-damage chance changes
   'crit_chance_modifier', // critical-hit CHANCE changes; crit damage AMOUNT stays

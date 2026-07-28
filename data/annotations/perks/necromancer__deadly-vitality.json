@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:necromancer:deadly-vitality",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_minion_gained",
         "subject": "allies",
         "params": {
-          "event": "gains a minion or minion stack"
+          "what": "gains a minion or minion stack"
         }
       },
       "actions": [

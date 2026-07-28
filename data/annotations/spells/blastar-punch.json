@@ -1,7 +1,7 @@
 {
   "id": "spell:blastar-punch",
   "textHash": "2f0b0e9e62e7",
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

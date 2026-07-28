@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "relic:brambleskin:r40",
   "rules": [
@@ -10,10 +10,10 @@
       },
       "actions": [
         {
-          "verb": "redirect_target",
+          "verb": "battle_action",
           "actor": "holder",
           "params": {
-            "action": "Provoke"
+            "action": "provoke"
           }
         },
         {

@@ -1,7 +1,7 @@
 {
   "id": "perk:hell-knight:indomitable",
   "textHash": "e5b06c544658",
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

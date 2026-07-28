@@ -1,7 +1,7 @@
 {
   "id": "spell:rapture",
   "textHash": "0683ef51e567",
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

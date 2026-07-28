@@ -1,13 +1,13 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:spellweaver:spectral-affinity",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_minion_gained",
         "params": {
-          "event": "you gain an Infusion"
+          "what": "you gain an Infusion"
         }
       },
       "actions": [

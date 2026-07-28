@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:demonologist:inner-demons",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_minion_lost",
         "subject": "allies",
         "params": {
-          "event": "stacks of their Lesser Demons go away"
+          "what": "stacks of their Lesser Demons go away"
         }
       },
       "actions": [

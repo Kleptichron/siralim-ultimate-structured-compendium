@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "spell:stone-ward",
   "rules": [
@@ -20,17 +20,18 @@
           }
         },
         {
-          "verb": "other",
+          "verb": "battle_action",
           "target": "target",
           "params": {
-            "action": "Defends"
+            "action": "defend",
+            "text": "Defends"
           }
         },
         {
-          "verb": "redirect_target",
+          "verb": "battle_action",
           "actor": "target",
           "params": {
-            "action": "Provoke"
+            "action": "provoke"
           }
         }
       ]

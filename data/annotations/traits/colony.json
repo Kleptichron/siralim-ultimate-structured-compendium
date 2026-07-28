@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "trait:colony",
   "rules": [
@@ -19,11 +19,12 @@
       ],
       "actions": [
         {
-          "verb": "other",
+          "verb": "battle_action",
           "target": "allies",
           "params": {
-            "action": "Defend",
-            "which": "the rest of your Griffons"
+            "action": "defend",
+            "which": "the rest of your Griffons",
+            "text": "Defend"
           }
         }
       ]

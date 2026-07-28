@@ -1,7 +1,7 @@
 {
   "id": "relic:ferro:r10",
   "textHash": "d6ecc6a2deda",
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "machine",
   "machineTemplate": "start-battle-gain",
   "rules": [

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:astrologer:synastry",
   "rules": [
@@ -13,10 +13,10 @@
       },
       "actions": [
         {
-          "verb": "redirect_target",
+          "verb": "battle_action",
           "actor": "trigger_subject",
           "params": {
-            "action": "Provoke"
+            "action": "provoke"
           }
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "buff:defensive",
   "rules": [
@@ -19,10 +19,11 @@
       ],
       "actions": [
         {
-          "verb": "other",
+          "verb": "battle_action",
           "target": "trigger_subject",
           "params": {
-            "action": "Defends automatically"
+            "action": "defend",
+            "text": "Defends automatically"
           }
         }
       ]

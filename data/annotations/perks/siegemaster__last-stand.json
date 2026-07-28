@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:siegemaster:last-stand",
   "rules": [
     {
       "trigger": {
-        "type": "other",
-        "subject": "allies",
-        "params": {
-          "event": "takes damage exceeding 100% of Maximum Health"
-        }
+        "type": "after_damaged",
+        "subject": "allies"
       },
       "chance": 50,
       "actions": [
@@ -22,6 +19,15 @@
           "params": {
             "setTo": 1,
             "instead": "of dying"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "allies",
+          "params": {
+            "exceeds": "100% of Maximum Health"
           }
         }
       ]

@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 9,
   "provenance": "claude",
   "id": "perk:demonologist:final-summoning",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_minion_lost",
         "subject": "allies",
         "params": {
-          "event": "their Greater Demon goes away"
+          "what": "their Greater Demon goes away"
         }
       },
       "actions": [
