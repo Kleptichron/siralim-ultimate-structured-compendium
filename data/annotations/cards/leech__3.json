@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:leech:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Leeching"
+          ],
+          "params": {
+            "duration": "forever"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7db9343abfdb"
+}

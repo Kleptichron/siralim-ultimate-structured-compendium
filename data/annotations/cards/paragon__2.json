@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:paragon:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Silenced"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
+          "params": {
+            "property": "duration (turns)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "55c1e51cf9ff"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:leech:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "trigger_subject",
+          "flow": "taken",
+          "statuses": [
+            "Leeching"
+          ],
+          "params": {
+            "source": "Leeching",
+            "effect": "healing doubled"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "40b2e7b32e98"
+}

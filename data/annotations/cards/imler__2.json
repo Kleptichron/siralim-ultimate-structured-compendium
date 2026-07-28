@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:imler:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "params": {
+            "state": "provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "120c977f7237"
+}

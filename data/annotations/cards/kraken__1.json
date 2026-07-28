@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:kraken:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "resource": "Brimstone",
+            "from": "battles"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "57ef98a34ffe"
+}

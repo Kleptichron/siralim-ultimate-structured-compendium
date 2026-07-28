@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:occultist:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "sourceClass": "Sorcery",
+            "source": "spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5e5b5ed70ebf"
+}

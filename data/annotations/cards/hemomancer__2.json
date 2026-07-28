@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:hemomancer:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down"
+          },
+          "params": {
+            "amplifies": "stat losses"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e1f4085ebc4a"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:maniac:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "params": {
+            "state": "dead"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fd64a5ab9c32"
+}

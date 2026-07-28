@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:nihilist:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "cast does not consume a Charge"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ac5ca4979e88"
+}

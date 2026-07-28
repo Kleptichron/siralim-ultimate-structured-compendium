@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:modron:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountFlat": 15,
+            "direction": "up"
+          },
+          "params": {
+            "resource": "Power",
+            "from": "battles",
+            "base": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6a470e1551dd"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:mimic:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "other",
+          "params": {
+            "effect": "a Treasure Golem spawns after defeating a Mimic"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Overworld spawn effect; no spawn verb — verb other is honest here.",
+  "textHash": "95dc1738875c"
+}

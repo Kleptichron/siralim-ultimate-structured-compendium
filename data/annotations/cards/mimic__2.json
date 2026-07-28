@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:mimic:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "enemy",
+          "params": {
+            "race": "Mimic"
+          }
+        }
+      ],
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemy",
+          "stats": [
+            "Current Health"
+          ],
+          "params": {
+            "setTo": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cc462c1fffcb"
+}

@@ -80,7 +80,8 @@ export const CONDITION_TYPES = [
   'resource_threshold', // charges, mana
   'equipment',          // artifact / spell gem prerequisites
   'timeline_position',
-  'action_state',       // "while they're Provoking/Defending" — params.state names it
+  'action_state',       // in-battle state: "while they're Provoking/Defending/dead" —
+                        //   params.state names it
   'other',
 ];
 

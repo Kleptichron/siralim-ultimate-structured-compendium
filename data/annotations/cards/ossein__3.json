@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:ossein:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Current Health"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down"
+          },
+          "params": {
+            "context": "resurrection health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c2ceb7b58743"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:mummy:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "trigger_subject",
+          "flow": "taken",
+          "statuses": [
+            "Cursed"
+          ],
+          "params": {
+            "source": "Cursed",
+            "effect": "damage doubled"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b61481c39ad3"
+}

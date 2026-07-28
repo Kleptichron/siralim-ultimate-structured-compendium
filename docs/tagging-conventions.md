@@ -90,9 +90,9 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     'nether_stone'), `params.property` when the text names one.
 19. **Card-set meta-records** ("Doubles the potency of these effects") →
     `flags.unmodeled` + notes; they modify sibling records, not the battle.
-20. **"While they're Provoking/Defending"** (v4) → condition `action_state`,
-    `params.state` ('provoking' | 'defending'). Being attacked with a failed
-    Dodge etc. stays a trigger param, not a state.
+20. **"While they're Provoking/Defending/dead"** (v4) → condition `action_state`,
+    `params.state` ('provoking' | 'defending' | 'dead'). Being attacked with a
+    failed Dodge etc. stays a trigger param, not a state.
 21. **Flat chance grants** ("have a 5% chance to avoid damage") → `rule.chance`
     carries the number (rule 6), verb describes the outcome
     (`dodge_modifier` + `params.kind: 'avoid damage'`). Chance DELTAS
