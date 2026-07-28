@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:panicked-overheals",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 200
+          },
+          "params": {
+            "of": "Maximum Health",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "168d91491840"
+}

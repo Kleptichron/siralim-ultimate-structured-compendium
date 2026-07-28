@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:paradigm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "attacker"
+        }
+      ]
+    }
+  ],
+  "textHash": "32839ed5b481"
+}

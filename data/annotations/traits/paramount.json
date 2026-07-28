@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:paramount",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "chance": 2,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "one of its spells",
+            "chancePer": "spell cast by all creatures this battle",
+            "limit": "once per turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ba287fb740f3"
+}

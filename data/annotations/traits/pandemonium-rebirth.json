@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pandemonium-rebirth",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "healthPct": 100,
+            "others": true
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 50
+          },
+          "params": {
+            "of": "Maximum Health",
+            "otherwise": "if not dead"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not activate if more than one of your creatures has this trait.",
+  "textHash": "e98ef9667a1d"
+}

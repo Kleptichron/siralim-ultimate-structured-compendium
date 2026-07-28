@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:ovular-barrage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "attacker",
+          "params": {
+            "spell": "Verdant Spheres"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "74fc40e5bc45"
+}

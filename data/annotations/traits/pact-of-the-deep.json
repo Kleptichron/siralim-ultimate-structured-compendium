@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pact-of-the-deep",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Health"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "down"
+          },
+          "params": {
+            "others": true
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Health"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "232e1ccb4f4b"
+}

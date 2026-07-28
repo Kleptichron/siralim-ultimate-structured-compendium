@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pandemonium-sin",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "each": true,
+            "damagePctOfNormal": 200
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "258c175c987b"
+}

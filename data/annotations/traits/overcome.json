@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:overcome",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "holder",
+          "params": {
+            "equipment": "artifact",
+            "property": "Spell Slot",
+            "effect": "activates",
+            "independent": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4cbb0e40acf3"
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:parity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "spells cast parity",
+            "equals": "even"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 30
+          },
+          "params": {
+            "what": "spell potency bonus"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "spells cast parity",
+            "equals": "odd"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "scaleStat": "Defense",
+            "scalePct": 30
+          },
+          "params": {
+            "what": "spell potency bonus"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "62fc595da3b2"
+}

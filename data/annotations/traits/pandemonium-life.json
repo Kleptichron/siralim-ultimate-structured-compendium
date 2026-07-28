@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pandemonium-life",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 2,
+            "scaleRef": "other",
+            "per": "Maximum Charge the Spell Gem has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5b705685d9c2"
+}

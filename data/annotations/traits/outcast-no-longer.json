@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:outcast-no-longer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "allies",
+          "params": {
+            "what": "races of the last 3 party creatures change to the first creature’s"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c000afcafa9c"
+}
