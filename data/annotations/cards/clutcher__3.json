@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:clutcher:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "allies",
+        "params": {
+          "context": "failed to Dodge the attack"
+        }
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "trigger_subject",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Failed-dodge rider on being attacked; trigger params carry the failed-Dodge context.",
+  "textHash": "fe373128c7ae"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:beacon:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "what": "Artifact 'Strength' property potency"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Artifact-property amplifier; no equipment-modifier verb in schema — candidate enum extension if frequent.",
+  "textHash": "8bf23d48e043"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:chimera:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          },
+          "params": {
+            "what": "Nether Stone potency"
+          }
+        }
+      ]
+    }
+  ],
+  "waivedStatuses": [
+    "Stone"
+  ],
+  "notes": "Nether Stone amplifier; no equipment-modifier verb in schema — candidate enum extension if frequent.",
+  "textHash": "cf7cc2147a72"
+}

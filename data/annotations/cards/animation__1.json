@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:animation:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "statuses": [
+            "Inverted"
+          ],
+          "params": {
+            "source": "enemies' Inverted debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "915cfb02a8d6"
+}

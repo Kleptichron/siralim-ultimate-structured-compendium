@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:clutcher:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          },
+          "params": {
+            "vs": "attacks",
+            "independent": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cbf64de4d88a"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:bard:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e33448fd0c5d"
+}

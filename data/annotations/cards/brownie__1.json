@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:brownie:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Splashing"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "property": "damage to adjacent creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f9f747802443"
+}

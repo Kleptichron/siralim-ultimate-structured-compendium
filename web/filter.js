@@ -4,7 +4,7 @@
 // record facet array holding "Key|interaction" pairs.
 export const PICKERS = [
   { id: 'status', facet: 'statusInteractions', title: 'Status × interaction',
-    interactions: ['inflicts', 'grants', 'removes', 'prevents', 'modifies', 'steals', 'detonates', 'triggers_off', 'conditions_on'] },
+    interactions: ['inflicts', 'grants', 'removes', 'prevents', 'modifies', 'steals', 'detonates', 'triggers_off', 'conditions_on', 'interacts'] },
   { id: 'stat', facet: 'statInteractions', title: 'Stat × interaction',
     interactions: ['increases', 'decreases', 'steals', 'scales_with', 'modifies', 'triggers_off', 'conditions_on'] },
   { id: 'class', facet: 'classInteractions', title: 'Class × interaction',

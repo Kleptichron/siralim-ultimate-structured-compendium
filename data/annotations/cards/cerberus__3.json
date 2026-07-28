@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:cerberus:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "sourceClass": "Chaos"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9f74f80cdd2e"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:carver:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "vsClass": "Chaos"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cb03a225dd21"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:arbiter:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 3,
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "incoming": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ee39a51f42b7"
+}

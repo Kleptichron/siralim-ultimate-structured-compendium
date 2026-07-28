@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:arachnalisk:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Snared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Snared"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down"
+          },
+          "params": {
+            "property": "break free chance"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b9f29f8af721"
+}

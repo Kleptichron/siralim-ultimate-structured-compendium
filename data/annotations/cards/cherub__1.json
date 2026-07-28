@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:cherub:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 0.5,
+            "direction": "down",
+            "scaleRef": "buff_count",
+            "per": "buff on the creature"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d0fab42f33ec"
+}

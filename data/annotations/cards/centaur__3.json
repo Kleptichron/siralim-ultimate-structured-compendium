@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:centaur:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "vsClass": "Nature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "078453e6d2de"
+}

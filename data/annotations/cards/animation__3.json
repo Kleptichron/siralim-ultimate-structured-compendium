@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:animation:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          },
+          "statuses": [
+            "Inverted"
+          ],
+          "params": {
+            "source": "their Inverted debuffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f5ed60f52793"
+}

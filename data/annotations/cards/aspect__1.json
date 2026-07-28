@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:aspect:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Agile"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          },
+          "params": {
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e3d12612a8a0"
+}

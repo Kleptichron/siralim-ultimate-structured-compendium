@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:basilisk:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a4fa572b1216"
+}

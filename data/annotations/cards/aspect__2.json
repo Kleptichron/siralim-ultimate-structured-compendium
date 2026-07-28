@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:aspect:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Agile"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1389195eb213"
+}

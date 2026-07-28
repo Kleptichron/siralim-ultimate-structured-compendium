@@ -84,7 +84,7 @@ function ruleHtml(rule, query) {
       const stHit = pst.on.size && (!pst.key || a.stats.includes(pst.key)) ? 'hit' : '';
       parts.push(chip(a.stats.join(', '), stHit));
     }
-    if (a.flow) parts.push(chip(`dmg ${a.flow}`));
+    if (a.flow) parts.push(chip(`${a.verb.startsWith('healing') || a.verb === 'heal' ? 'healing' : 'dmg'} ${a.flow}`));
     for (const q of a.qualifiers ?? []) if (q !== 'random' || !a.statusKind) parts.push(chip(q));
     const mg = magText(a.magnitude);
     if (mg) parts.push(chip(mg, pst.on.has('scales_with') && a.magnitude?.scaleStat && (!pst.key || a.magnitude.scaleStat === pst.key) ? 'hit' : ''));

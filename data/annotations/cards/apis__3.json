@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:apis:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Protected"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          },
+          "params": {
+            "avoids": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "491d7251f68d"
+}

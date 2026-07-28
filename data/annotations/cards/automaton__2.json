@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:automaton:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          },
+          "params": {
+            "amplifies": "stat gains from start-of-battle effects"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8aaf63b2e718"
+}

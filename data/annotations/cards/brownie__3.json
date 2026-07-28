@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:brownie:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Splashing"
+          ],
+          "params": {
+            "effect": "activates twice"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a130677d8901"
+}

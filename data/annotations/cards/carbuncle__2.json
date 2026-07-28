@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:carbuncle:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 1,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "spell cast by that creature this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3d47c5f4d8ec"
+}

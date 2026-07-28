@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:cerberus:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "params": {
+            "sourceClass": "Chaos",
+            "source": "damaging spells",
+            "ignoresDefensePct": 10
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No magnitude: the effect is Defense penetration, not a damage % change.",
+  "textHash": "6b8fb84816ff"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:arachnalisk:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1f85840a20a5"
+}

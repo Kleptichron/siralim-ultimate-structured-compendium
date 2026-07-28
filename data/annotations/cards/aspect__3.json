@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:aspect:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Agile"
+          ],
+          "params": {
+            "duration": "forever"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "13daeb3d6969"
+}

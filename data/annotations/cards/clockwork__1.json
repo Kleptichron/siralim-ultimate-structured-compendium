@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:clockwork:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "resource": "Granite",
+            "from": "battles"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0c9d00b8eda0"
+}

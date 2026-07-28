@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:asura:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Savage"
+          ],
+          "params": {
+            "duration": "forever"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b528fb3f435c"
+}

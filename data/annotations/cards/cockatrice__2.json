@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "provenance": "claude",
+  "id": "card:cockatrice:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
+          "params": {
+            "base": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d3ea98ba2d52"
+}
