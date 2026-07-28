@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:toxdweller:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Bomb"
+          ],
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up"
+          },
+          "params": {
+            "property": "Speed added on application"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "75f919161c3a"
+}

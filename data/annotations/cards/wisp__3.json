@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:wisp:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "allies",
+          "params": {
+            "action": "being moved to the bottom of the Timeline",
+            "kind": "resist"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "96242237407d"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:valkyrie:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          },
+          "params": {
+            "criticalOnly": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "73720cc4c917"
+}

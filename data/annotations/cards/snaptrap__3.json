@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:snaptrap:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "chance": 1,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "enemies",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a11ad4029e24"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:wolpertinger:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3d5c6fb81a2b"
+}

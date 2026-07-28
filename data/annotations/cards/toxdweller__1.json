@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:toxdweller:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up"
+          },
+          "statuses": [
+            "Bomb"
+          ],
+          "params": {
+            "source": "their Bomb debuffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f67e66fbe819"
+}

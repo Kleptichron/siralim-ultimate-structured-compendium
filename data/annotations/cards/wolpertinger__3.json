@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:wolpertinger:3",
+  "rules": [],
+  "flags": {
+    "unmodeled": true
+  },
+  "notes": "Meta-record: amplifies this card set's tier 1-2 effects; no independent mechanic to model.",
+  "textHash": "c16c7b42b356"
+}

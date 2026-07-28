@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:spirit:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "statuses": [
+            "Blighted"
+          ],
+          "params": {
+            "effect": "ignores Blighted"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c3a66f1957c4"
+}

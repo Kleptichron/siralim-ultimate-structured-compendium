@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:soulflayer:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "params": {
+            "resource": "all",
+            "from": "breakable objects",
+            "effect": "double gain"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2bcf5602f5e6"
+}

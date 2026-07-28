@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:voidlord:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Repelling"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down"
+          },
+          "params": {
+            "source": "spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5095f8a59bda"
+}

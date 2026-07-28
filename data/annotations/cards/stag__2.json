@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:stag:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountFlat": 15,
+            "direction": "up"
+          },
+          "params": {
+            "resource": "Power",
+            "from": "battles",
+            "base": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fd3032aa3bad"
+}
