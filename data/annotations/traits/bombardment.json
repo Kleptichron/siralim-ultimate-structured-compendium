@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bombardment",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "target",
+          "magnitude": {
+            "scaleStat": "Attack",
+            "scalePct": 35
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "499d57e9f625"
+}

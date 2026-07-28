@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:book-of-the-heretic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "spell potency"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "25% chance to fizzle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0f645811d15f"
+}

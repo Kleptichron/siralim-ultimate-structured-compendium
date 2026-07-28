@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bonding",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "chance": 7,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "healthPct": 50,
+            "chancePer": "same-class creature on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Chance is 7% per same-class creature fighting on your side.",
+  "textHash": "ddb7f56a24ed"
+}

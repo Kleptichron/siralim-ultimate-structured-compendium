@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bravely-inspired",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 25
+          },
+          "params": {
+            "of": "the holder",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e16ac0be9bee"
+}

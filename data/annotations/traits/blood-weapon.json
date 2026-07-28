@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blood-weapon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Mending",
+            "Leeching"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        },
+        {
+          "verb": "healing_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "source": "all sources"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1075b8dcf539"
+}

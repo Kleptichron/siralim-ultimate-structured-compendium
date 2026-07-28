@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:boing-boing-boing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "damagePctOfNormal": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "99e5b014db35"
+}

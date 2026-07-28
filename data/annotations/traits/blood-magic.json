@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blood-magic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 20
+          },
+          "params": {
+            "self": true
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "damage_taken",
+            "scalePct": 200
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "019af3df52c9"
+}

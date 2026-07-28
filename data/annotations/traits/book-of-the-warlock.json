@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:book-of-the-warlock",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Arcane"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Arcane"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "68c8c41d78db"
+}

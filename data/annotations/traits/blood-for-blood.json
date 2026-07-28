@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blood-for-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 20
+          },
+          "params": {
+            "self": true
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "target",
+          "magnitude": {
+            "scaleRef": "amount_gained",
+            "scalePct": 200
+          },
+          "params": {
+            "of": "the Health lost",
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "85b1b2da7b07"
+}

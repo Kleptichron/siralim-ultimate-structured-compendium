@@ -12122,55 +12122,68 @@
     },
     "trait:blood-for-blood": {
       "hash": "85b1b2da7b07",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-magic": {
       "hash": "019af3df52c9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-pact": {
       "hash": "a656062a53fa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-sucker": {
       "hash": "c58fcc61a6a3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-thirst": {
       "hash": "a9147e05925d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-weapon": {
       "hash": "1075b8dcf539",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bloodbath": {
       "hash": "168095b6f824",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bloodfury": {
       "hash": "23ce136d7dc3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bloodletting": {
       "hash": "981f2649798f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bloodline": {
       "hash": "a7f227e1c9a8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bloodlust": {
       "hash": "78db5c61d614",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bloodripper": {
       "hash": "ef6dc3acc9a8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blue-tether": {
       "hash": "f38a4eed8dc0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:boastful-protector": {
       "hash": "613556bb323b",
@@ -12179,63 +12192,78 @@
     },
     "trait:bob-and-weave": {
       "hash": "cb29fa89dc98",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:boing-boing-boing": {
       "hash": "99e5b014db35",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bombardment": {
       "hash": "499d57e9f625",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bombshell": {
       "hash": "90159ae00a30",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bonding": {
       "hash": "ddb7f56a24ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bonecraft": {
       "hash": "2b5384c18a3d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:book-of-the-arsonist": {
       "hash": "775cba56d42d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:book-of-the-dead": {
       "hash": "d134ed53cacc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:book-of-the-elder": {
       "hash": "90f4406c3a22",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:book-of-the-heretic": {
       "hash": "0f645811d15f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:book-of-the-lost": {
       "hash": "98d561ca4ddf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:book-of-the-warlock": {
       "hash": "68c8c41d78db",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:boon-to-bane": {
       "hash": "e41635accb2f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:boss-powers": {
       "hash": "e724193a560d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bottom-feeder": {
       "hash": "36e76bd1aeee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bounce": {
       "hash": "8020f4f49239",
@@ -12244,51 +12272,63 @@
     },
     "trait:boundless-creativity": {
       "hash": "8c6543ef888a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:braaaawk": {
       "hash": "93dd2ba126e0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:brain-bash": {
       "hash": "57407bcd8097",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:brain-drain": {
       "hash": "abb30e9d567e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:brain-freeze": {
       "hash": "ac04d0652792",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:brain-zap": {
       "hash": "816baec03ced",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bravely-inspired": {
       "hash": "e16ac0be9bee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:brawl": {
       "hash": "167240d71ab3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:braze": {
       "hash": "7a3f5bb3b606",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:breach": {
       "hash": "13e28aa3e4c7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:break-down-and-cry": {
       "hash": "1a644307985b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:break-of-dawn": {
       "hash": "ade7307affd5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:break-the-cycle": {
       "hash": "50328ba8c6f8",

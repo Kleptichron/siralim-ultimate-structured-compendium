@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:book-of-the-arsonist",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "what": "Burning-applying spell damage"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "property": "damage",
+            "appliedBy": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "775cba56d42d"
+}

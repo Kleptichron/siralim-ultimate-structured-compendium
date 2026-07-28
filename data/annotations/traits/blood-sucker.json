@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blood-sucker",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c58fcc61a6a3"
+}

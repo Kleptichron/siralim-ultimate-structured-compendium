@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:braaaawk",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "a random spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "93dd2ba126e0"
+}

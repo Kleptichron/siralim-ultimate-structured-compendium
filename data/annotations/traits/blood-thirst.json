@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blood-thirst",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 5,
+            "direction": "up"
+          },
+          "params": {
+            "what": "Dire Wolves stacks"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a9147e05925d"
+}

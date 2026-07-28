@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:brawl",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "167240d71ab3"
+}

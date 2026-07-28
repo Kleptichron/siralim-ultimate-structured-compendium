@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:break-down-and-cry",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "before it dies",
+          "timing": "before"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "spells": "3 of its spells"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No 'before death' trigger exists; other is honest here.",
+  "textHash": "1a644307985b"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bonecraft",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "target": "an ally"
+        }
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "target",
+          "params": {
+            "below": "35%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "the killed creature",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2b5384c18a3d"
+}

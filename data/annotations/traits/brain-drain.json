@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:brain-drain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bleeding",
+          "source": "Bleeding"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Intelligence"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Intelligence"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "amount": "the Intelligence lost"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "abb30e9d567e"
+}

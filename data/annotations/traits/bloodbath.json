@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bloodbath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Bleeding"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Bleeding"
+          }
+        }
+      ],
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "spell": "Hemorrhage",
+            "targets": "each enemy that already has Bleeding",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "168095b6f824"
+}

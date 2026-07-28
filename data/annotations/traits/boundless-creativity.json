@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:boundless-creativity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "any",
+          "magnitude": {
+            "scaleRef": "amount_gained",
+            "scalePct": 25
+          },
+          "params": {
+            "recipients": "the creature's allies",
+            "direction": "same as the original change"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8c6543ef888a"
+}

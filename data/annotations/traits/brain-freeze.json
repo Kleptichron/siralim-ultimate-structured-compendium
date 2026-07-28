@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:brain-freeze",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "attacker",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "ac04d0652792"
+}

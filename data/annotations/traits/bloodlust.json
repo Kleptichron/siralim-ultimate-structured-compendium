@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bloodlust",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Leeching"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        },
+        {
+          "verb": "healing_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "78db5c61d614"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:book-of-the-elder",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "first 2 equipped Spell Gems",
+            "among": "your Grimoire creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "90f4406c3a22"
+}

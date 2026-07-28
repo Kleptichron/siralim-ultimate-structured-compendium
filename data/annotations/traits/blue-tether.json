@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blue-tether",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "adjacent_allies",
+        "params": {
+          "event": "would take attack/spell damage or gain a buff/debuff",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "holder",
+          "params": {
+            "effect": "this creature becomes the new target instead"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Would-be-targeted has no trigger; other is honest here.",
+  "textHash": "f38a4eed8dc0"
+}

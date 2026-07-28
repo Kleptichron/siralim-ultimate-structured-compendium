@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bloodripper",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Bleeding"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Bleeding"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 120,
+            "direction": "up"
+          },
+          "params": {
+            "vsWith": "Bleeding"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ef6dc3acc9a8"
+}

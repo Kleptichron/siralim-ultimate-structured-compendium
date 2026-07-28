@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bloodletting",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bleeding",
+          "source": "Bleeding"
+        }
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "allies",
+          "params": {
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "981f2649798f"
+}

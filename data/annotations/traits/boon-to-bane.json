@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:boon-to-bane",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "enemy",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "instead": "of the buff"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e41635accb2f"
+}

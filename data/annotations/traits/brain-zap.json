@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:brain-zap",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "enemy",
+        "params": {
+          "dodged": "an attack"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Confused"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "816baec03ced"
+}

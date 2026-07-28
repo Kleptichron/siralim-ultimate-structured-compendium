@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:book-of-the-dead",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "spells": "its first 2 permanent minion-summoning Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d134ed53cacc"
+}

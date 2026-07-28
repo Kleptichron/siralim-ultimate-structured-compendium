@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bloodfury",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Berserk",
+            "Savage"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "23ce136d7dc3"
+}

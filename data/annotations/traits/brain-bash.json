@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:brain-bash",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Confused"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "adjacent_enemies",
+          "statuses": [
+            "Confused"
+          ],
+          "params": {
+            "anchor": "the target",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "57407bcd8097"
+}

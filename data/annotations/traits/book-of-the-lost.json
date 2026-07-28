@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:book-of-the-lost",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "manual": true,
+          "condition": "the spell is equipped by the holder"
+        }
+      },
+      "chance": 40,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "effect": "the spell fizzles"
+          }
+        },
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "that spell",
+            "instead": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "98d561ca4ddf"
+}
