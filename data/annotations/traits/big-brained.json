@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:big-brained",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Confused"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "55289594d1ab"
+}

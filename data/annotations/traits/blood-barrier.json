@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blood-barrier",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies",
+        "params": {
+          "source": "their Leeching buff",
+          "status": "Leeching"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "healing_received",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8ed11dd8e535"
+}

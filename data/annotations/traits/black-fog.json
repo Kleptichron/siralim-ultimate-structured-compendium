@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:black-fog",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "by": "holder"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "lowest_stat",
+            "scalePct": 15,
+            "scaleRef": "debuff_count",
+            "per": "debuff the enemy has"
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ebe723989974"
+}

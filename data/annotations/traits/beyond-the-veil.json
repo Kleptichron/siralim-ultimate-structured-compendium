@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:beyond-the-veil",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "holder",
+          "params": {
+            "effect": "affected by stat changes while dead; stats not lost on death"
+          }
+        },
+        {
+          "verb": "activation_modifier",
+          "target": "holder",
+          "params": {
+            "what": "its traits",
+            "mode": "active while dead"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Except traits that redirect attacks or take damage in place of allies.",
+  "textHash": "a494277d1b7a"
+}

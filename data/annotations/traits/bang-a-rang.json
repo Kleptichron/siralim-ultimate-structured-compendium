@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bang-a-rang",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bomb",
+          "source": "Bomb"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Burning",
+            "Poisoned"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Bomb",
+          "source": "Bomb"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Burning"
+          }
+        },
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Poisoned"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "trigger_subject",
+          "statuses": [
+            "Burning",
+            "Poisoned"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency",
+            "instead": "of afflicting"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "614392b09673"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blood-boil",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "holder",
+          "params": {
+            "self": true,
+            "effect": "explodes"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 50,
+            "scaleRef": "debuff_count",
+            "per": "debuff it had before dying"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1c06db22f754"
+}

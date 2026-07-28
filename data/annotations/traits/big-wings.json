@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:big-wings",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "Attack and Intelligence",
+            "within": "100% of each other"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "always critical",
+            "source": "attacks"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "dodging its attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8aca7b43ce3a"
+}

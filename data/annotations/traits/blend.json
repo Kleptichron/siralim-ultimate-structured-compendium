@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blend",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "allies",
+          "params": {
+            "what": "Fused creatures' classes change to their primary parent's"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2380b6a95ad1"
+}

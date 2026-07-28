@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:balanced-swordplay",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "total_stats",
+            "scalePct": 25
+          },
+          "params": {
+            "basis": "25% of all stats (other than Health)",
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "659bc7a413f1"
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:barbearian",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "actor": "holder",
+          "params": {
+            "action": "Provoke"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d0fb0aa516c8"
+}

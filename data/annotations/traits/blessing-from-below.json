@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blessing-from-below",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "holder",
+        "params": {
+          "direction": "up",
+          "except": "Maximum Health"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "magnitude": {
+            "direction": "down",
+            "scaleRef": "amount_gained",
+            "scalePct": 25
+          },
+          "params": {
+            "stat": "the same stat"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ed814dddd061"
+}

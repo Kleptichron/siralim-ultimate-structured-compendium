@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:betrayal",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "ally",
+        "params": {
+          "condition": "health falls below 40%"
+        }
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "trigger_subject"
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 100
+          },
+          "params": {
+            "of": "the killed creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "614e02a8e70a"
+}

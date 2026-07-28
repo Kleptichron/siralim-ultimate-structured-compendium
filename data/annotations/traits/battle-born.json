@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:battle-born",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "artifact",
+            "property": "Spell Slots",
+            "effect": "activation chance"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "43ffeeacf8bf"
+}

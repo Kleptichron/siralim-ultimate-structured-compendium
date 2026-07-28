@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:black-to-white",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "enemy",
+        "params": {
+          "statusKind": "debuff",
+          "context": "wore off"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "1baf4414ab91"
+}

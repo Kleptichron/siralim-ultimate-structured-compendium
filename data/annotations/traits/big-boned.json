@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:big-boned",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "other",
+            "scalePct": 35
+          },
+          "params": {
+            "of": "its Attack, Intelligence, Defense and Speed"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "setTo": "minimum values"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fef61e83045e"
+}

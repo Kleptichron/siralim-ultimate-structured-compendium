@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:blending-in",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "allies",
+          "params": {
+            "what": "classes of the last 3 party creatures change to the first creature’s"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f52d13aefbd1"
+}

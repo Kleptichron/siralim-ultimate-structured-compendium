@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:better-faster-stronger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "minions",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
+          "params": {
+            "what": "minion effects",
+            "mode": "perform twice"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "minions",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "otherwise": "if no repeatable effect, 100% more powerful"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Does not affect Illusion or Demon minions.",
+  "textHash": "4ef52cec97ae"
+}

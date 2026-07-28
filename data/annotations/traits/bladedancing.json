@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:bladedancing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "allies"
+      },
+      "chance": 30,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "target": "target",
+          "params": {
+            "again": true,
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2cef42742c42"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:beautiful-sorrow",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "the dead creature's innate trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "15bd7816f082"
+}

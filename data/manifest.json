@@ -11922,163 +11922,203 @@
     },
     "trait:balanced-spellcasting": {
       "hash": "5e017381503f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:balanced-swordplay": {
       "hash": "659bc7a413f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bang-a-rang": {
       "hash": "614392b09673",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:barbearian": {
       "hash": "d0fb0aa516c8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:barbecue-time": {
       "hash": "6b2932cfa4f6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:barbed-vines": {
       "hash": "24ba5fdbc282",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bathed-in-light": {
       "hash": "36d0a9da1acb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:battle-born": {
       "hash": "43ffeeacf8bf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:battle-from-within": {
       "hash": "4e91e39f21ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bearer-of-needs": {
       "hash": "5eae54a5285a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:beast-within": {
       "hash": "3eb13024db0d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:beautiful-sorrow": {
       "hash": "15bd7816f082",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:benefic": {
       "hash": "951bf1a5f42b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:best-kind-of-weather": {
       "hash": "8911f65d635f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:betrayal": {
       "hash": "614e02a8e70a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:better-faster-stronger": {
       "hash": "4ef52cec97ae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:beyond-oblivion": {
       "hash": "15ea90c5946b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:beyond-the-veil": {
       "hash": "a494277d1b7a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bide": {
       "hash": "dda271151a01",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:big-boned": {
       "hash": "fef61e83045e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:big-brained": {
       "hash": "55289594d1ab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:big-wings": {
       "hash": "8aca7b43ce3a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:binary-affliction": {
       "hash": "128d2b182a38",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bismuth-attunement": {
       "hash": "66983ea96231",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:black-fog": {
       "hash": "ebe723989974",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:black-hole-halo": {
       "hash": "232316444838",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:black-lotus": {
       "hash": "988233ef998b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:black-to-white": {
       "hash": "1baf4414ab91",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blade-eater": {
       "hash": "71e56c4e24b2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bladedancing": {
       "hash": "2cef42742c42",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:bleed-out": {
       "hash": "67238b5a74dd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blend": {
       "hash": "2380b6a95ad1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blending-in": {
       "hash": "f52d13aefbd1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blessing-from-below": {
       "hash": "ed814dddd061",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blessing-of-sands": {
       "hash": "dc673b525872",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blink": {
       "hash": "92010caeb2c7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-and-power": {
       "hash": "a76e693750bb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-barrier": {
       "hash": "8ed11dd8e535",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-boil": {
       "hash": "1c06db22f754",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-crazed": {
       "hash": "b798a81ea0cf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:blood-for-blood": {
       "hash": "85b1b2da7b07",
