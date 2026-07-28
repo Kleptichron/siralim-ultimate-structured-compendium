@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sharing-is-caring",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "enemy",
+        "params": {
+          "event": "their Bomb detonates",
+          "status": "Bomb"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "adjacent_enemies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          },
+          "params": {
+            "anchor": "the detonating enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Detonation events have no trigger; other is honest here.",
+  "textHash": "21cd993aa7fc"
+}

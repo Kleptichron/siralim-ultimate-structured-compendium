@@ -18377,163 +18377,203 @@
     },
     "trait:seal-magic": {
       "hash": "7ae956eb578a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sealed-fate": {
       "hash": "e687d9b43a52",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:second-chance": {
       "hash": "8143372785e6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:second-wind": {
       "hash": "e412a31f4126",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:secret-ingredient": {
       "hash": "86a538ab90f7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:secret-recipe": {
       "hash": "03c0a982956a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:seed-of-potentiality": {
       "hash": "944a9819b8d2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:seeing-red": {
       "hash": "455b4e525e7f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:seeth": {
       "hash": "5506b52a3074",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:seethe": {
       "hash": "aa4ee1677fb8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:seize": {
       "hash": "29e4d5e27b19",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:self-awareness": {
       "hash": "bd6827c34088",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:semi-bluff": {
       "hash": "8ee605921d53",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sense-of-purpose": {
       "hash": "7cc61fb5e282",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sentinel": {
       "hash": "398bf3b1a5f3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shackler-s-domination": {
       "hash": "34ad7ee8c8c5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shackler-s-mastery": {
       "hash": "97e1e77a821e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shackler-s-trance": {
       "hash": "6e2a4b3e6ff7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shadow-aegis": {
       "hash": "f54490bc14a0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shadow-bulwark": {
       "hash": "2050ee50a288",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shadow-hook": {
       "hash": "16a548acd6aa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shadow-scythe": {
       "hash": "e82a0c86d083",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shadowmeld": {
       "hash": "bff31c8d2d9d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shake": {
       "hash": "8beddda9157d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shall-not-pass": {
       "hash": "e0e5bc7a3110",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shared-consciousness": {
       "hash": "08fbb9d260c7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sharing-is-caring": {
       "hash": "21cd993aa7fc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shattering-tackle": {
       "hash": "1267d9428c3b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shellshock": {
       "hash": "e31ace0590bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shepherd-of-fire": {
       "hash": "1caf5207e20e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shield-aura": {
       "hash": "67ae81fc8182",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shield-mastery": {
       "hash": "9684be8ab7d8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shifting-brilliance": {
       "hash": "8d0d2f4d216b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shining-armor": {
       "hash": "313da23a8a0e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shipbreaker": {
       "hash": "9465d06afa91",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shock-aura": {
       "hash": "998a7f32c19f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shorted-out": {
       "hash": "2a24f06299d2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:showdown": {
       "hash": "178ed06f3e5a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:shrapnel-blast": {
       "hash": "c68ba173f2ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sidewinder": {
       "hash": "2a0462509972",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:silence-speaks": {
       "hash": "20260578b480",

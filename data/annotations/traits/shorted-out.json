@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:shorted-out",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_targeted_by_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "enemy",
+          "params": {
+            "effect": "that Spell Gem is Sealed"
+          }
+        },
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "that Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2a24f06299d2"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sidewinder",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "holder"
+      },
+      "chance": 75,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "again": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2a0462509972"
+}

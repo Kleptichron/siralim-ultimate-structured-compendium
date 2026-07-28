@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:shared-consciousness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "ally",
+        "params": {
+          "manual": true
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "copyOf": "that spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "08fbb9d260c7"
+}

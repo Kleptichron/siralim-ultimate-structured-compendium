@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:shattering-tackle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 2.5,
+            "scaleRef": "other",
+            "per": "Yeti creature fighting on your side"
+          },
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "what": "Defense ignored",
+            "source": "attacks",
+            "doubledIf": "the enemy has Frozen"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "1267d9428c3b"
+}

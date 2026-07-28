@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:shield-mastery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Defense",
+            "scalePct": 50
+          },
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "holder",
+          "params": {
+            "action": "defend"
+          }
+        },
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "its turn then ends"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Turn-ending has no verb; other is honest here.",
+  "textHash": "9684be8ab7d8"
+}

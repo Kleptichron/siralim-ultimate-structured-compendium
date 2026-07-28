@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:shadow-scythe",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "target",
+          "params": {
+            "below": "35%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "target"
+        },
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "adjacent_enemies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 200
+          },
+          "params": {
+            "anchor": "the killed enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e82a0c86d083"
+}

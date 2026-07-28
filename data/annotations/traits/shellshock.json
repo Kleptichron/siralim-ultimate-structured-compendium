@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:shellshock",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "attacker",
+          "params": {
+            "effect": "one of its Spell Gems is Sealed"
+          }
+        },
+        {
+          "verb": "battle_action",
+          "actor": "holder",
+          "params": {
+            "action": "provoke"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e31ace0590bc"
+}

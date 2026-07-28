@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:seed-of-potentiality",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "holder",
+        "params": {
+          "direction": "up"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 200
+          },
+          "params": {
+            "stat": "another stat",
+            "except": "Health",
+            "noOnStatGainEffects": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "944a9819b8d2"
+}
