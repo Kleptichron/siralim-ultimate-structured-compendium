@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-pilwizes",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Pilwiz",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statuses": [
+            "Bleeding"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "property": "damage basis"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8e546d6d3f97"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-luckmantrias",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Luckmantria",
+            "scope": "all"
+          }
+        }
+      ],
+      "chance": 40,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "allies",
+          "params": {
+            "to": "top",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2b047b783687"
+}

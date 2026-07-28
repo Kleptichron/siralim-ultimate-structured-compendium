@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-sea-shamblers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Sea Shambler",
+            "scope": "all"
+          }
+        },
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Blighted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 12,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "enemy afflicted with Blighted"
+          },
+          "statuses": [
+            "Blighted"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "6cb6bb6238cb"
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-marionettes",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "your Marionettes perform an action"
+        }
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Marionette"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "enemy",
+          "params": {
+            "effect": "the enemy in the corresponding position performs the same action on the opposite target"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "enemy",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Action-mirroring has no trigger or verb; other is honest here.",
+  "textHash": "a616c5e07bfa"
+}

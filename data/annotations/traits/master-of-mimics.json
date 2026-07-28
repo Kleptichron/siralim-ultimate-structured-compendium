@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-mimics",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Mimic",
+            "scope": "all"
+          }
+        }
+      ],
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "allies",
+          "params": {
+            "to": "top",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4885e10920b8"
+}

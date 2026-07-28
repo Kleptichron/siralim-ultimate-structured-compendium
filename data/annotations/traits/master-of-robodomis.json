@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-robodomis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Robodomi",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "trigger_subject",
+          "target": "allies",
+          "statuses": [
+            "Rebirth"
+          ],
+          "params": {
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3d9b254228a1"
+}

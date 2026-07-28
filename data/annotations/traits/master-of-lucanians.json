@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-lucanians",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Lucanian",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "setEqualTo": "whichever is highest"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f7537ab4f214"
+}

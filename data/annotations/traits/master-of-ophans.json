@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-ophans",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellClass": "Life"
+        }
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Ophan"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 25
+          },
+          "params": {
+            "of": "Maximum Health",
+            "which": "all your Ophans"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6f3c381acf70"
+}

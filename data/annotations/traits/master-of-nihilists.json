@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-nihilists",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Nihilist",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "resistant"
+          }
+        },
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Scorned"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c0f48bbf84e4"
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-osseins",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Ossein",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Rebirth"
+          ],
+          "params": {
+            "timing": "start of battle"
+          }
+        },
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Rebirth"
+          ],
+          "params": {
+            "property": "resurrection Health",
+            "value": "100%"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "03e049e7fbb6"
+}

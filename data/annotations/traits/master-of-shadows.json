@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:master-of-shadows",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "race": "Shadow",
+            "scope": "all"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "statuses": [
+            "Feared"
+          ],
+          "params": {
+            "vsWith": "Feared"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          },
+          "statuses": [
+            "Feared"
+          ]
+        },
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statuses": [
+            "Feared"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8afacaefaa9a"
+}
