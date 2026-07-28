@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:toxicologist:inoculate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "Poisoned damage taken this battle",
+            "cap": 80
+          },
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "49c2505f18db"
+}

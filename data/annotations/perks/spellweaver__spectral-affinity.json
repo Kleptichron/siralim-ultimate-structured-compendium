@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:spellweaver:spectral-affinity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "params": {
+          "event": "you gain an Infusion"
+        }
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "resource": "Infusion of the least-held type"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No trigger models Infusion gains; trigger other is honest here.",
+  "textHash": "2037b1861270"
+}

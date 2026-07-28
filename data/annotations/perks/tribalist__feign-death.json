@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:tribalist:feign-death",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank per same-race creature on your side; rule.chance records the max-rank per-creature value.",
+  "textHash": "bb424ddf449a"
+}

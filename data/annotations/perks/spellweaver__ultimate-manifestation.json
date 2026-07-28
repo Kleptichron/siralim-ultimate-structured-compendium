@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:spellweaver:ultimate-manifestation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "each Infusion type held",
+            "atLeast": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "can Cast Colorwave"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spell": "Colorwave"
+        }
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "down"
+          },
+          "params": {
+            "resource": "each Infusion type"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b20488e89e67"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:toxicologist:sudden-exposure",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "status": "Poisoned",
+          "source": "Poisoned"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "random_enemy",
+          "params": {
+            "copyOf": "that damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "df09755571dd"
+}

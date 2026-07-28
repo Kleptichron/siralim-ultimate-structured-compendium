@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:tribalist:we-are-pack",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "creatures of the same race on your side",
+            "atLeast": 4
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "allies",
+          "params": {
+            "what": "remaining creatures change to that race",
+            "except": "Imler"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a581641a1bf2"
+}

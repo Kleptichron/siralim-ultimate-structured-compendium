@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:toxicologist:neurotoxicity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 1,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "time that enemy took Poisoned damage this battle"
+          },
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d4ef8832da31"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:tribalist:survival-instincts",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "direction": "down",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 10
+            },
+            "scaleRef": "other",
+            "per": "dead same-race creature on your side"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 1,
+              "maxTotal": 10
+            },
+            "scaleRef": "other",
+            "per": "dead same-race creature on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fa123a6ba578"
+}

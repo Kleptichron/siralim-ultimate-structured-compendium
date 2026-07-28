@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:toxicologist:addictive-effect",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 4,
+              "maxTotal": 20
+            },
+            "scaleRef": "status_potency",
+            "per": "their own Poisoned potency"
+          },
+          "statuses": [
+            "Poisoned"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "0d237ea6c4ed"
+}

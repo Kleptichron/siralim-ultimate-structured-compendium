@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:spellweaver:prismatic-barrier",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "other",
+          "params": {
+            "requires": "an Infusion matching the creature's class"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "kind": "resistant"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Infusion-composition requirement has no condition type; condition other is honest here.",
+  "textHash": "e07ead6c82e0"
+}

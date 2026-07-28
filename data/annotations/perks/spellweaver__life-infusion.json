@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:spellweaver:life-infusion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true,
+          "spellClass": "Life"
+        }
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "resource": "Life Infusion"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 10,
+            "scaleRef": "infusions",
+            "per": "Life Infusion"
+          },
+          "params": {
+            "of": "Health"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "healing_done"
+          },
+          "params": {
+            "absorbs": "the amount recovered"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cfa157257073"
+}

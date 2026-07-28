@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:toxicologist:confounding-factors",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "statuses": [
+            "Poisoned"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 20,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "what": "Poisoned-interacting spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a073f56a731e"
+}

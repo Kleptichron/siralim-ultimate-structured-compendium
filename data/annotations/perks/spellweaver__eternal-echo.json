@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:spellweaver:eternal-echo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 2
+            }
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3b5cf82dce1e"
+}

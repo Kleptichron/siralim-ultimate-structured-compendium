@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:tribalist:battalion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "same-race creature fighting on your side",
+            "cap": 6
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b63f8fc53186"
+}

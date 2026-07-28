@@ -4929,79 +4929,98 @@
     },
     "perk:spellweaver:attunement": {
       "hash": "61b188d6d18c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:chaos-infusion": {
       "hash": "5fd93ef2548b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:chromatic-layering": {
       "hash": "8dc8eb4d0884",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:chrono-shift": {
       "hash": "4a38b13f3463",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:death-infusion": {
       "hash": "84b552fcdf27",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:elemental-empowerment": {
       "hash": "2cfdf9084161",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:eternal-echo": {
       "hash": "3b5cf82dce1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:infinity": {
       "hash": "4fd2efeddd3f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:inspirited-gems": {
       "hash": "93e459143d46",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:life-infusion": {
       "hash": "cfa157257073",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:nature-infusion": {
       "hash": "2afd3f2ed65d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:prismatic-barrier": {
       "hash": "e07ead6c82e0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:sorcery-infusion": {
       "hash": "2ec8c073d168",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:spectral-affinity": {
       "hash": "2037b1861270",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:temporal-anomaly": {
       "hash": "9fa1e19a176a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:spellweaver:ultimate-manifestation": {
       "hash": "b20488e89e67",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:addictive-effect": {
       "hash": "0d237ea6c4ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:bioassay": {
       "hash": "06b46d31da9e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:breath-of-death": {
       "hash": "04e1afa9751f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:carcinogen": {
       "hash": "8991bcb8f176",
@@ -5010,115 +5029,143 @@
     },
     "perk:toxicologist:chronic-illness": {
       "hash": "dd657be7badb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:confounding-factors": {
       "hash": "a073f56a731e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:diagnosis": {
       "hash": "29a7980e47b7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:dispersing-plague": {
       "hash": "10e734d4e791",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:inoculate": {
       "hash": "49c2505f18db",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:neurotoxicity": {
       "hash": "d4ef8832da31",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:plague-of-toads": {
       "hash": "73fbd8ab252e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:prognosis": {
       "hash": "b681a55b0931",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:side-effects": {
       "hash": "37bb663d8426",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:sudden-exposure": {
       "hash": "df09755571dd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:teratogen": {
       "hash": "358b49d0bfa5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:toxic-absorption": {
       "hash": "005f263743f4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:battalion": {
       "hash": "b63f8fc53186",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:cogence": {
       "hash": "b9904b2f41cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:familiarity": {
       "hash": "e1efd815eadd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:feign-death": {
       "hash": "bb424ddf449a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:fluster": {
       "hash": "d2cea035d95a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:forest-pact": {
       "hash": "24f2fc093ef2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:gone-but-not-forgotten": {
       "hash": "01fe9d1f1834",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:harbinger": {
       "hash": "daf146d5f6a9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:hybridization": {
       "hash": "96e4bed79786",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:overwhelm": {
       "hash": "22f9b70519f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:purebred": {
       "hash": "403bad7e3967",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:survival-instincts": {
       "hash": "fa123a6ba578",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:ties-that-bind": {
       "hash": "e6c79070600d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:transformation": {
       "hash": "fe7cd4c994f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:union": {
       "hash": "2f0264aaf96a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:tribalist:we-are-pack": {
       "hash": "a581641a1bf2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:trickster:bafflement": {
       "hash": "115975e4f1f8",

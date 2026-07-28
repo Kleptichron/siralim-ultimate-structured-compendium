@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:tribalist:forest-pact",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 3
+            }
+          },
+          "params": {
+            "effect": "race/class-count effects act as if you have more of those creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Meta-rule over other effects; verb other is honest here.",
+  "textHash": "24f2fc093ef2"
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:spellweaver:death-infusion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true,
+          "spellClass": "Death"
+        }
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "resource": "Death Infusion"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "infusions",
+            "per": "3 Death Infusions beyond the first"
+          },
+          "params": {
+            "requires": "at least 1 Death Infusion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "84b552fcdf27"
+}

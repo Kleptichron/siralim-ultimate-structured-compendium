@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:tribalist:transformation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "equipment",
+          "params": {
+            "topSpellGemSlot": "a Morph spell"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "allies",
+          "params": {
+            "spell": "their Morph spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fe7cd4c994f1"
+}

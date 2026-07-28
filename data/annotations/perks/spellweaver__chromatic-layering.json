@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:spellweaver:chromatic-layering",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 5
+            }
+          },
+          "params": {
+            "resource": "Infusions",
+            "upTo": "1 per class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8dc8eb4d0884"
+}
