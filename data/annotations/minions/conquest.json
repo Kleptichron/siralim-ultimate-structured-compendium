@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:conquest",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "owner",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "allies",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "9e1d1fb67b0d"
+}

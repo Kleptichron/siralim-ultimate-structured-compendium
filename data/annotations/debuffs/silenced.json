@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "debuff:silenced",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "any",
+          "params": {
+            "status": "Silenced"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "any",
+          "statuses": [
+            "Scorned"
+          ],
+          "params": {
+            "action": "casting spells",
+            "overwrites": "Scorned"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ae0563b45b99"
+}

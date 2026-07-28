@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "buff:warded",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "any",
+          "params": {
+            "status": "Warded"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "any",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "cannotLose": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3dfe21354e4f"
+}

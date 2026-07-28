@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:spiderlings",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "owner",
+        "params": {
+          "by": "an enemy"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "attacker",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 50,
+            "per": "stack"
+          },
+          "params": {
+            "of": "the master",
+            "sacrifices": "each Spiderling explodes",
+            "maxStacks": 9
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ce131b81f27f"
+}

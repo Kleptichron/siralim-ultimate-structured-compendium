@@ -12,67 +12,83 @@
     },
     "buff:barrier": {
       "hash": "e16ac772d6d3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:berserk": {
       "hash": "beda07891b08",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:defensive": {
       "hash": "6ab30c8b1118",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:immune": {
       "hash": "28fea90b5dcc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:invisible": {
       "hash": "935ae8462ac6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:leeching": {
       "hash": "3ac4c711aacb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:mending": {
       "hash": "1fae7f451de3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:proficient": {
       "hash": "1f941cebd162",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:protected": {
       "hash": "b0b7b1f9db6d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:rebirth": {
       "hash": "262a976933a2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:repelling": {
       "hash": "f1af2f9aef1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:savage": {
       "hash": "8b9c886ee70b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:shelled": {
       "hash": "41bca44a42f7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:splashing": {
       "hash": "5561dd0feebd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:taunting": {
       "hash": "5b2dd6c882fb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "buff:warded": {
       "hash": "3dfe21354e4f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:abomination:1": {
       "hash": "f638a3dd61d5",
@@ -2191,79 +2207,98 @@
     },
     "debuff:bleeding": {
       "hash": "d50b3e9eae07",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:blighted": {
       "hash": "437620cccc82",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:blind": {
       "hash": "9531e7ec7dcb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:bomb": {
       "hash": "71370c33ae20",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:burning": {
       "hash": "71ac3a307c68",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:confused": {
       "hash": "96e9e3055520",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:cursed": {
       "hash": "4e10b9ef17bf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:disarmed": {
       "hash": "cb67203788b9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:feared": {
       "hash": "e21b66b140e8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:frozen": {
       "hash": "824bfe5fdbc5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:inverted": {
       "hash": "c93c84203b68",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:poisoned": {
       "hash": "144deefb9598",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:scorned": {
       "hash": "38bdff925fdd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:silenced": {
       "hash": "ae0563b45b99",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:sleeping": {
       "hash": "bb7c35bd74d1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:snared": {
       "hash": "3e22ac170eb2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:stone": {
       "hash": "4a7085431690",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:vulnerable": {
       "hash": "6644f3abdbe5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:weak": {
       "hash": "072ed20931cf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:amalgamation": {
       "hash": "76f8754a0b17",
@@ -2277,99 +2312,123 @@
     },
     "minion:animated-weapon": {
       "hash": "931b755d3f90",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:asmodeus": {
       "hash": "3fb13458cf9b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:beelzebub": {
       "hash": "039f370122ff",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:belphegor": {
       "hash": "bf521d104638",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:brim-fiends": {
       "hash": "144ec903fdd9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:chaos-satyrs": {
       "hash": "a154f55f4d76",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:conquest": {
       "hash": "9e1d1fb67b0d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:death": {
       "hash": "2f64291e4421",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:dire-wolves": {
       "hash": "ef78631b0114",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:doppelganger": {
       "hash": "8c194870de79",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:famine": {
       "hash": "6823a8972b38",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:fire-imps": {
       "hash": "d418b12986ff",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:illusion": {
       "hash": "b79212a0250b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:leviathan": {
       "hash": "c0a7a1042dee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:lucifer": {
       "hash": "caa24e0f2b91",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:mammon": {
       "hash": "1c6fc315f2d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:microbots": {
       "hash": "0480f8492559",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:satanachia": {
       "hash": "0b9df479e367",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:spiderlings": {
       "hash": "ce131b81f27f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:torun-junior": {
       "hash": "0ac866d2c7ab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:unstable-horror": {
       "hash": "a7327f1557a8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:war": {
       "hash": "13657a1c77e7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:writhelings": {
       "hash": "fe0b92d0a87e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:zombies": {
       "hash": "c3c42f725a39",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:agile": {
       "hash": "11af269a0515",
@@ -2383,59 +2442,73 @@
     },
     "nemesis:blinking": {
       "hash": "a77d886ab98d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:brutal": {
       "hash": "58f088dba3db",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:champion": {
       "hash": "57a7e4fb6915",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:feedback": {
       "hash": "f34c17e3701a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:hearty": {
       "hash": "f0c864498584",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:hex": {
       "hash": "de2a191472f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:macabre": {
       "hash": "823fb09d8481",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:misery": {
       "hash": "90d44596d279",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:obtuse": {
       "hash": "b93fde539b4c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:plague": {
       "hash": "8dbb8372df6e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:protected": {
       "hash": "aa5f54834cd5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:thorns": {
       "hash": "a3d6fb8e37b7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:undying": {
       "hash": "645d204d5cb6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "nemesis:vengeance": {
       "hash": "0efd32f8b02c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:animator:anguish-through-awareness": {
       "hash": "cc0329b6fb62",

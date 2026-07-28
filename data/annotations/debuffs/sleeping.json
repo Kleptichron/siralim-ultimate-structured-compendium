@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "debuff:sleeping",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "any",
+          "params": {
+            "status": "Sleeping"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "any",
+          "params": {
+            "action": "acting until they take damage or the debuff wears off"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bb7c35bd74d1"
+}

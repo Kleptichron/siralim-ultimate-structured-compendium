@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:war",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "attacker",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "13657a1c77e7"
+}

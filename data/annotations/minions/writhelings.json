@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:writhelings",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "owner",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "random_enemy",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "per": "stack"
+          },
+          "params": {
+            "maxStacks": 5
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fe0b92d0a87e"
+}

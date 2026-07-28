@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:famine",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "scaleRef": "damage_dealt",
+            "scalePct": 30
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6823a8972b38"
+}

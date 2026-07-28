@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:asmodeus",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "owner",
+          "params": {
+            "kind": "always critical",
+            "source": "attacks"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "dodging this attack"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "params": {
+            "others": true,
+            "damagePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
+  "textHash": "3fb13458cf9b"
+}

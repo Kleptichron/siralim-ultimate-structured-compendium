@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "debuff:feared",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "any",
+          "params": {
+            "status": "Feared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "any",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "cannotGain": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e21b66b140e8"
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "nemesis:champion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemy",
+        "params": {
+          "who": "Leader"
+        }
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "living allies of the leader",
+            "atLeast": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemy",
+          "params": {
+            "who": "Leader",
+            "action": "taking damage"
+          }
+        },
+        {
+          "verb": "prevent_status",
+          "target": "enemy",
+          "statusKind": "debuff",
+          "params": {
+            "who": "Leader",
+            "kind": "immune"
+          }
+        },
+        {
+          "verb": "stat_rule",
+          "target": "enemy",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "who": "Leader",
+            "cannotLose": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "57a7e4fb6915"
+}

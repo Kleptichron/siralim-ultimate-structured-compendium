@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "debuff:blighted",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "any",
+          "params": {
+            "status": "Blighted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "any",
+          "params": {
+            "action": "being healed"
+          }
+        },
+        {
+          "verb": "healing_modifier",
+          "target": "any",
+          "flow": "taken",
+          "magnitude": {
+            "scalePct": 50
+          },
+          "params": {
+            "effect": "healing effects deal damage instead"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "437620cccc82"
+}

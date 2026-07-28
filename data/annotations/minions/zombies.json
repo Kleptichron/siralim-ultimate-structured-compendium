@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:zombies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "Attack",
+            "scalePct": 50,
+            "per": "stack"
+          },
+          "params": {
+            "of": "the master",
+            "maxStacks": 9
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c3c42f725a39"
+}

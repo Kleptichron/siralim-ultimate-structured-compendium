@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:chaos-satyrs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemy",
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 15,
+            "per": "stack sacrificed"
+          },
+          "params": {
+            "sacrifices": "each stack",
+            "maxStacks": 9
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemy",
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 15,
+            "per": "stack sacrificed"
+          },
+          "params": {
+            "sacrifices": "each stack",
+            "maxStacks": 9
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
+  "textHash": "a154f55f4d76"
+}

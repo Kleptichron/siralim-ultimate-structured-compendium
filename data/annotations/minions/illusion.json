@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:illusion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "owner",
+          "magnitude": {
+            "amountFlat": 2,
+            "direction": "up"
+          },
+          "params": {
+            "what": "post-action effects (on-attack, on-cast, and so on)"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b79212a0250b"
+}

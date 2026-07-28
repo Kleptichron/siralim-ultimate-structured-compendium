@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:doppelganger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "owner"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "extra_turn",
+          "target": "owner"
+        }
+      ]
+    }
+  ],
+  "textHash": "8c194870de79"
+}

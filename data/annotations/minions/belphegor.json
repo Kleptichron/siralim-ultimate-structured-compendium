@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:belphegor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "owner",
+        "params": {
+          "spellType": "single-target"
+        }
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "owner",
+          "params": {
+            "effect": "targets all creatures on the target's side"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
+  "textHash": "bf521d104638"
+}

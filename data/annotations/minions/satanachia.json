@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:satanachia",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "spells": "the last 3 spells cast in the current battle"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
+  "textHash": "0b9df479e367"
+}

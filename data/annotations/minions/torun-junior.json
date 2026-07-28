@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:torun-junior",
+  "rules": [],
+  "flags": {
+    "unmodeled": true
+  },
+  "notes": "Joke flavor text (\"SHOOTS LASERS AND !@#$.\"); no mechanic stated.",
+  "textHash": "0ac866d2c7ab"
+}

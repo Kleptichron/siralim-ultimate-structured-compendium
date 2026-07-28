@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "buff:shelled",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "any",
+          "params": {
+            "status": "Shelled"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "any",
+          "params": {
+            "kind": "negates the next incoming attack or spell",
+            "uses": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "41bca44a42f7"
+}

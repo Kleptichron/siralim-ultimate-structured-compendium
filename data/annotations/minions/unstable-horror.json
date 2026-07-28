@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:unstable-horror",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "owner",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "minion_count",
+            "per": "Unstable Horror stack"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 10,
+            "per": "stack"
+          },
+          "params": {
+            "of": "the master"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 10,
+            "per": "stack"
+          },
+          "params": {
+            "of": "the master"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a7327f1557a8"
+}

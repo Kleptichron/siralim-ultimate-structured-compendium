@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "minion:microbots",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 50,
+            "per": "stack"
+          },
+          "params": {
+            "of": "the master",
+            "maxStacks": 9
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0480f8492559"
+}

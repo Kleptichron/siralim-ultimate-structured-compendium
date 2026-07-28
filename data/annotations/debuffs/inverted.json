@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "debuff:inverted",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "any",
+          "params": {
+            "status": "Inverted"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "any",
+          "flow": "dealt",
+          "params": {
+            "effect": "attacks and spells heal enemies instead of damaging them"
+          }
+        },
+        {
+          "verb": "healing_modifier",
+          "target": "any",
+          "flow": "dealt",
+          "params": {
+            "effect": "healing damages allies instead"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Removed once enough damage or healing has offset its potency.",
+  "textHash": "c93c84203b68"
+}
