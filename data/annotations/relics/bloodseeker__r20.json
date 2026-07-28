@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:bloodseeker:r20",
   "rules": [
@@ -11,11 +11,8 @@
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
-          "target": "target",
-          "params": {
-            "byRelic": true
-          }
+          "actor": "relic",
+          "target": "target"
         }
       ]
     },
@@ -30,11 +27,8 @@
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
-          "target": "target",
-          "params": {
-            "byRelic": true
-          }
+          "actor": "relic",
+          "target": "target"
         }
       ]
     }

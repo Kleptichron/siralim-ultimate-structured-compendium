@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:mutatias:r10",
   "rules": [
@@ -14,15 +14,12 @@
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
+          "actor": "relic",
           "target": "random_enemy",
           "magnitude": {
             "amountFlat": 1,
             "scaleRef": "turns_taken",
             "per": "2 turns the bearer has taken this battle"
-          },
-          "params": {
-            "byRelic": true
           }
         }
       ]

@@ -1,7 +1,7 @@
 {
   "id": "spell:damnation",
   "textHash": "812731847217",
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

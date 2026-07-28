@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:lamora:r30",
   "rules": [
@@ -20,10 +20,9 @@
       "actions": [
         {
           "verb": "cast",
-          "actor": "holder",
+          "actor": "relic",
           "target": "enemies",
           "params": {
-            "byRelic": true,
             "spell": "Minor Healing",
             "targets": "each enemy with Blighted"
           }

@@ -1,7 +1,7 @@
 {
   "id": "card:nix:1",
   "textHash": "f3fe25d00d43",
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "machine",
   "machineTemplate": "card-class-attack-dr",
   "rules": [

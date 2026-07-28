@@ -1,7 +1,7 @@
 {
   "id": "spell:boulder",
   "textHash": "d8d4b9d48e53",
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

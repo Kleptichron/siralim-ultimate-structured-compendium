@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:moonfire-and-sunfury:r100",
   "rules": [
@@ -27,9 +27,8 @@
       "actions": [
         {
           "verb": "cast",
-          "actor": "holder",
+          "actor": "relic",
           "params": {
-            "byRelic": true,
             "spell": "Planets"
           }
         }

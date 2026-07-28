@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:moonfire-and-sunfury:r40",
   "rules": [
@@ -15,13 +15,12 @@
       "actions": [
         {
           "verb": "cast",
-          "actor": "holder",
+          "actor": "relic",
           "target": "trigger_subject",
           "qualifiers": [
             "random"
           ],
           "params": {
-            "byRelic": true,
             "spell": "random single-target spell"
           }
         }

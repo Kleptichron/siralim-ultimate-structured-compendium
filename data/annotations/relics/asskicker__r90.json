@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:asskicker:r90",
   "rules": [
@@ -14,10 +14,10 @@
           "target": "holder",
           "flow": "dealt",
           "params": {
-            "byRelic": true,
             "source": "attacks and spells",
             "ignoresDefensePct": 25
-          }
+          },
+          "actor": "relic"
         }
       ]
     }

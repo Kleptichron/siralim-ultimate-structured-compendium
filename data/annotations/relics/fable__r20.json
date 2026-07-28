@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:fable:r20",
   "rules": [
@@ -15,11 +15,8 @@
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
-          "target": "random_enemy",
-          "params": {
-            "byRelic": true
-          }
+          "actor": "relic",
+          "target": "random_enemy"
         }
       ]
     }

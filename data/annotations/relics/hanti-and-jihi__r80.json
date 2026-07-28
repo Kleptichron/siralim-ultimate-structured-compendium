@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:hanti-and-jihi:r80",
   "rules": [
@@ -22,9 +22,9 @@
           "verb": "crit_chance_modifier",
           "target": "holder",
           "params": {
-            "byRelic": true,
             "kind": "always critical"
-          }
+          },
+          "actor": "relic"
         }
       ]
     }

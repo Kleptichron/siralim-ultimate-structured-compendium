@@ -1,7 +1,7 @@
 {
   "id": "spell:blinding-beam",
   "textHash": "7cda1c5697ce",
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

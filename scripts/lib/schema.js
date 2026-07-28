@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 6;
+export const SCHEMA_VERSION = 7;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -46,6 +46,8 @@ export const SCOPES = [
   'holder',          // the entity this record's effect is attached to: trait holder,
                      //   relic bearer, the minion itself. NEVER the turn-taker
                      //   (that's trigger_subject). Not valid in spell rules (use caster).
+  'relic',           // the relic itself — a battle entity distinct from its bearer
+                     //   ("this relic Attacks"). Valid only in relic records.
   'ally',            // one of your other creatures
   'allies',          // "your creatures" as a group
   'random_ally',
@@ -210,6 +212,10 @@ export function validateAnnotation(ann, record, lex, corpus) {
     err('rules empty without flags.unmodeled, amplifies, or loreOnly record');
   }
 
+  const relicScopeOk = record.id.startsWith('relic:');
+  const checkRelicScope = (re, field, v) => {
+    if (v === 'relic' && !relicScopeOk) re(`scope 'relic' in ${field} is only valid in relic records`);
+  };
   rules.forEach((rule, i) => {
     const re = m => err(`rules[${i}]: ${m}`);
     for (const k of Object.keys(rule)) if (!RULE_KEYS.has(k)) re(`unknown key "${k}"`);
@@ -219,11 +225,13 @@ export function validateAnnotation(ann, record, lex, corpus) {
       for (const k of Object.keys(t)) if (!TRIGGER_KEYS.has(k)) re(`unknown trigger key "${k}"`);
       if (!TRIGGER_TYPES.includes(t.type)) re(`bad trigger.type "${t.type}"`);
       if (t.subject !== undefined && !SCOPES.includes(t.subject)) re(`bad trigger.subject "${t.subject}"`);
+      checkRelicScope(re, 'trigger.subject', t.subject);
     }
     for (const c of rule.conditions ?? []) {
       for (const k of Object.keys(c)) if (!CONDITION_KEYS.has(k)) re(`unknown condition key "${k}"`);
       if (!CONDITION_TYPES.includes(c.type)) re(`bad condition.type "${c.type}"`);
       if (c.who !== undefined && !SCOPES.includes(c.who)) re(`bad condition.who "${c.who}"`);
+      checkRelicScope(re, 'condition.who', c.who);
       // Semi-structured params: when these conventional keys appear, their
       // values must come from the lexicons (facet derivation reads them).
       if (c.params?.class !== undefined && !lex.classes.includes(c.params.class)) {
@@ -250,6 +258,8 @@ export function validateAnnotation(ann, record, lex, corpus) {
         ae(`verb "${a.verb}" requires an explicit actor (holder/caster/trigger_subject/...)`);
       }
       if (a.target !== undefined && !SCOPES.includes(a.target)) ae(`bad target "${a.target}"`);
+      checkRelicScope(ae, 'actor', a.actor);
+      checkRelicScope(ae, 'target', a.target);
       if (a.statusKind !== undefined && !STATUS_KINDS.includes(a.statusKind)) ae(`bad statusKind "${a.statusKind}"`);
       if (a.flow !== undefined && !FLOWS.includes(a.flow)) ae(`bad flow "${a.flow}"`);
       for (const q of a.qualifiers ?? []) {

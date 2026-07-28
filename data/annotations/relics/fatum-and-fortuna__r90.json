@@ -1,15 +1,12 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:fatum-and-fortuna:r90",
   "rules": [
     {
       "trigger": {
         "type": "after_cast",
-        "subject": "holder",
-        "params": {
-          "byRelic": true
-        }
+        "subject": "relic"
       },
       "actions": [
         {

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:asskicker:r30",
   "rules": [
@@ -11,10 +11,9 @@
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
+          "actor": "relic",
           "target": "enemy",
           "params": {
-            "byRelic": true,
             "targetSelection": "bottom-most enemy on the Timeline"
           }
         }

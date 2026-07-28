@@ -1,7 +1,7 @@
 {
   "id": "card:bat:3",
   "textHash": "7d0e8829e875",
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "machine",
   "machineTemplate": "stat-mod-allies",
   "rules": [

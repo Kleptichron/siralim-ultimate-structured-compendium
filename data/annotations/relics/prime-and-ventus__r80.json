@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:prime-and-ventus:r80",
   "rules": [
@@ -11,13 +11,12 @@
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
+          "actor": "relic",
           "target": "attacker",
           "magnitude": {
             "amountFlat": 2
           },
           "params": {
-            "byRelic": true,
             "damagePct": 50
           }
         }
@@ -31,13 +30,12 @@
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
+          "actor": "relic",
           "target": "target",
           "magnitude": {
             "amountFlat": 2
           },
           "params": {
-            "byRelic": true,
             "damagePct": 50
           }
         }

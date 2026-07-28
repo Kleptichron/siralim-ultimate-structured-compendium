@@ -1,25 +1,19 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:ferro:r80",
   "rules": [
     {
       "trigger": {
         "type": "after_attack",
-        "subject": "holder",
-        "params": {
-          "byRelic": true
-        }
+        "subject": "relic"
       },
       "chance": 25,
       "actions": [
         {
           "verb": "deal_damage",
-          "actor": "holder",
-          "target": "enemies",
-          "params": {
-            "byRelic": true
-          }
+          "actor": "relic",
+          "target": "enemies"
         }
       ]
     }

@@ -1,4 +1,4 @@
-# Tagging conventions (schema v6 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs)
+# Tagging conventions (schema v7 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope)
 
 Re-read this before every tagging session. Post-freeze schema changes require a
 migration script in scripts/migrations/ and a full re-validation.
@@ -105,14 +105,15 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     times / activate now" → verb `activation_modifier` (`params.what` names
     the effect family; magnitude carries the count). "Maximum N per
     battle/turn" caps → verb `limit_modifier` + `magnitude.amountFlat`.
-23. **Relics**: "the bearer" = `holder`. "This relic Attacks/Casts" → actor
-    `holder` + `params.byRelic: true` (same marker on triggers:
-    "After this relic Attacks" → `after_attack` subject holder + byRelic).
-    Cast spell names go in `params.spell`; spell-name words that collide with
-    status names ("Stone Skin") get `waivedStatuses`. "This relic and its
-    bearer deal…" → one holder-targeted modifier + `params.includesRelic`.
-    Stat-gain amplifiers use the cards shape: `stat_change` +
-    `params.amplifies: 'stat gains'` (NOT stat_rule).
+23. **Relics** (v7): "the bearer" = `holder`. The relic is its own battle
+    entity: "This relic Attacks/Casts" → actor `relic`; "After this relic
+    Attacks" → trigger subject `relic`. The `relic` scope is valid only in
+    relic records. "This relic or its bearer…" (either source) → subject
+    holder + `params.byRelicOrBearer`. Cast spell names go in `params.spell`;
+    spell-name words that collide with status names ("Stone Skin") get
+    `waivedStatuses`. "This relic and its bearer deal…" → one holder-targeted
+    modifier + `params.includesRelic`. Stat-gain amplifiers use the cards
+    shape: `stat_change` + `params.amplifies: 'stat gains'` (NOT stat_rule).
 
 ## Semi-structured params (validated + faceted)
 

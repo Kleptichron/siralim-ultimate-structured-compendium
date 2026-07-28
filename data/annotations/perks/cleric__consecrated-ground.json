@@ -1,7 +1,7 @@
 {
   "id": "perk:cleric:consecrated-ground",
   "textHash": "b75e47c7d385",
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

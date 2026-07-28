@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:triumvir:r80",
   "rules": [
@@ -15,14 +15,11 @@
       "actions": [
         {
           "verb": "apply_status",
-          "actor": "holder",
+          "actor": "relic",
           "target": "holder",
           "statuses": [
             "Arcane"
-          ],
-          "params": {
-            "byRelic": true
-          }
+          ]
         }
       ]
     }

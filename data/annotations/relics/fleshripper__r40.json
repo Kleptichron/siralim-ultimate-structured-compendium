@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:fleshripper:r40",
   "rules": [
@@ -16,11 +16,8 @@
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
-          "target": "trigger_subject",
-          "params": {
-            "byRelic": true
-          }
+          "actor": "relic",
+          "target": "trigger_subject"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:fleshripper:r100",
   "rules": [
@@ -20,10 +20,9 @@
       "actions": [
         {
           "verb": "cast",
-          "actor": "holder",
+          "actor": "relic",
           "target": "target",
           "params": {
-            "byRelic": true,
             "spell": "Lacerate"
           }
         }

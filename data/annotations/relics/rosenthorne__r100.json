@@ -1,21 +1,18 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:rosenthorne:r100",
   "rules": [
     {
       "trigger": {
         "type": "after_attack",
-        "subject": "holder",
-        "params": {
-          "byRelic": true
-        }
+        "subject": "relic"
       },
       "chance": 20,
       "actions": [
         {
           "verb": "cast",
-          "actor": "holder",
+          "actor": "relic",
           "statuses": [
             "Blind"
           ],
@@ -23,7 +20,6 @@
             "per": "enemy with Blind"
           },
           "params": {
-            "byRelic": true,
             "spell": "Murder of Crows",
             "chanceEach": true
           }

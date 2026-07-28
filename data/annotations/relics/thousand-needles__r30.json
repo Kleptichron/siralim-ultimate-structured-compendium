@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:thousand-needles:r30",
   "rules": [
@@ -11,9 +11,8 @@
       "actions": [
         {
           "verb": "cast",
-          "actor": "holder",
+          "actor": "relic",
           "params": {
-            "byRelic": true,
             "copyOf": "that spell"
           }
         }

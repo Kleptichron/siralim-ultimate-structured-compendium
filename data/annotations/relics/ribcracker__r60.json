@@ -1,24 +1,18 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "provenance": "claude",
   "id": "relic:ribcracker:r60",
   "rules": [
     {
       "trigger": {
         "type": "after_cast",
-        "subject": "holder",
-        "params": {
-          "byRelic": true
-        }
+        "subject": "relic"
       },
       "actions": [
         {
           "verb": "attack",
-          "actor": "holder",
-          "target": "random_enemy",
-          "params": {
-            "byRelic": true
-          }
+          "actor": "relic",
+          "target": "random_enemy"
         }
       ]
     }
