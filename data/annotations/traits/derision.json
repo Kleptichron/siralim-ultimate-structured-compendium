@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:derision",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Taunting"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "aa9972b5ed64"
+}

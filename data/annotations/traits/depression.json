@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:depression",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Defense"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Defense"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "amount": "the Defense stolen"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c9f4d503c2b2"
+}

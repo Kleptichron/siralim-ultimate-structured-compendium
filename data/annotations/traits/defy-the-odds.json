@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:defy-the-odds",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "its attacks this battle",
+            "atLeast": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 65,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "859a49a84a93"
+}

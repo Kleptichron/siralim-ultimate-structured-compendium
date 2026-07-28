@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:desert-glory",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "healthPct": 50,
+            "chancePer": "same-class creature fighting on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Chance is 5% per same-class creature on your side.",
+  "textHash": "6234fb7aa62e"
+}

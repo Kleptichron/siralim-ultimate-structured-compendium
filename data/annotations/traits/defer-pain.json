@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:defer-pain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 90,
+            "direction": "down"
+          },
+          "params": {
+            "effect": "90% of the damage is delayed until the start of its next turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f1acb7677f59"
+}

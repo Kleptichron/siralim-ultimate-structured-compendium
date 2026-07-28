@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:deafening-roar",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Griffon"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Griffon fighting on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f57263124b14"
+}

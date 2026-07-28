@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:death-s-bite",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "damagePctOfNormal": 30
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0686554026fc"
+}

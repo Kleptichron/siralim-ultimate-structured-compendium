@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:death-sentence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Feared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 125,
+            "direction": "up"
+          },
+          "params": {
+            "vsWith": "Feared"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f1c62d0659b4"
+}

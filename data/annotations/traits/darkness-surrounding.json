@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:darkness-surrounding",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 125,
+            "direction": "up"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 15
+          },
+          "params": {
+            "self": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "66061b82692e"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dead-of-winter",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "ally",
+        "params": {
+          "by": "an enemy"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemy",
+          "statuses": [
+            "Frozen",
+            "Poisoned"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "5bd51eac9590"
+}

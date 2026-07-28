@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:despair",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "down"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "29efc2c9c005"
+}

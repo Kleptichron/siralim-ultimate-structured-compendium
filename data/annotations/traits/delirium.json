@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:delirium",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "damage_taken",
+            "scalePct": 40
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "48d9ae03e318"
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dead-butterflies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "its deaths this battle",
+            "atMost": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "params": {
+            "healthPct": 100
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "98b073f620cc"
+}

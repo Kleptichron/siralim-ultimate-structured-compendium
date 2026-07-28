@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:defiance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "a random Living Shield spell"
+          }
+        },
+        {
+          "verb": "cast",
+          "actor": "adjacent_allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "a random Living Shield spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "81d2704084db"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:deterioration",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "creature with Stone on their side"
+          },
+          "statuses": [
+            "Stone"
+          ],
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "81473cea2c5d"
+}

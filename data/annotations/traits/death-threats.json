@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:death-threats",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "what": "on-dodge effects",
+            "mode": "activate now",
+            "targets": "3 random enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2f030ca89900"
+}

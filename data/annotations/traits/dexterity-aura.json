@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:dexterity-aura",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true
+          }
+        },
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          },
+          "params": {
+            "independent": true,
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "9cb866671e16"
+}

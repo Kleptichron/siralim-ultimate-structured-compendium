@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:deeper-sucking",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Leeching"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "property": "effectiveness"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "163d39f359ed"
+}

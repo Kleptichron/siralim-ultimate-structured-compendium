@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:darkbloom",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountFlat": 20,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "permanent Spell Gem equipped (first 8)"
+          },
+          "params": {
+            "base": true,
+            "plusPerGem": 5,
+            "statChosenBy": "the Spell Gem's class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ce900d5de050"
+}

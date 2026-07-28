@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:destruction-beam",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "enemy",
+          "params": {
+            "which": "highest Speed",
+            "battles": "normal"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemy",
+          "params": {
+            "which": "highest Speed",
+            "battles": "boss",
+            "instead": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1f001885a58f"
+}

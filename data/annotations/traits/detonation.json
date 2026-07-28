@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:detonation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Maniac"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "allies",
+          "params": {
+            "which": "your other Maniacs"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 25
+          },
+          "params": {
+            "of": "each killed creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8c0d631ea5b4"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:demoralize",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0b07907a5ff9"
+}

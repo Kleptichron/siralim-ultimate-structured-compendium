@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:deep-roots",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "class",
+            "of": "attacker",
+            "equals": "the holder's class"
+          }
+        }
+      ],
+      "chance": 75,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "avoid damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0591f015c6df"
+}

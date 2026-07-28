@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:deep-inhalation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "spellType": "targets all your creatures"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "copyOf": "that spell"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7f74096255a9"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:diabolic-brilliance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Diabolic Horde"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Diabolic Horde fighting on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a7f1e8e514b8"
+}

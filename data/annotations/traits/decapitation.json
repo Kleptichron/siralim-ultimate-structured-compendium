@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:decapitation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "target",
+          "params": {
+            "below": "35%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        },
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 200
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5ba5b2ebc0bd"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:deflective-dragon-armor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7a9d17915d7d"
+}

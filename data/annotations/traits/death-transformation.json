@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:death-transformation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "up",
+          "by": "allies",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "magnitude": {
+            "direction": "down",
+            "scaleRef": "amount_gained",
+            "scalePct": 50
+          },
+          "params": {
+            "instead": "of increasing"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "63e7ee2452b3"
+}

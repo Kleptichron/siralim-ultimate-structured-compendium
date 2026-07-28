@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:deathwalker-s-strangulation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Poisoned",
+          "source": "Poisoned"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "detonate",
+          "target": "trigger_subject",
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "effect": "takes the damage a second time",
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "475a27355e7f"
+}

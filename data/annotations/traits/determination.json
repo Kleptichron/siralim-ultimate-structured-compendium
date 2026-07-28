@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:determination",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fa867bc92c6c"
+}

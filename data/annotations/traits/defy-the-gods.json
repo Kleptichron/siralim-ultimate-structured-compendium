@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:defy-the-gods",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "target": "an ally"
+        }
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "target",
+          "params": {
+            "below": "50%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target"
+        },
+        {
+          "verb": "resurrect",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "healthPct": 100
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1c3ad6f0bde9"
+}

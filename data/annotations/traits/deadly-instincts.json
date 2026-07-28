@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:deadly-instincts",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 75
+          },
+          "params": {
+            "of": "the holder",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ecb85798fe0a"
+}

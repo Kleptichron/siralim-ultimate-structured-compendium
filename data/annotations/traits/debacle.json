@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 8,
+  "provenance": "claude",
+  "id": "trait:debacle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "enemy"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "trigger_subject",
+          "params": {
+            "to": "bottom"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "43cfbf705460"
+}
