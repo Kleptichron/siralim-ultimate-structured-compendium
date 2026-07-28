@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:psychic-barrier",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Intelligence",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "01c0321c7cb1"
+}

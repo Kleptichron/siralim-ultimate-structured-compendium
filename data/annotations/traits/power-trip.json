@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:power-trip",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "trait gained during battle"
+          },
+          "params": {
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "161964a4eb27"
+}

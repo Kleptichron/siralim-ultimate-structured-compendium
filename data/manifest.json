@@ -17572,163 +17572,203 @@
     },
     "trait:potion-time": {
       "hash": "8e14295ee236",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:power-in-balance": {
       "hash": "30dd0af5d886",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:power-trip": {
       "hash": "161964a4eb27",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:powerful-draw": {
       "hash": "fc152d901516",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:powershift": {
       "hash": "5ca056ecb944",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:praise-the-light": {
       "hash": "3c9d01a95941",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prayer-position": {
       "hash": "e2c8417e3c5e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:preacher-of-stone": {
       "hash": "faf9ffd2518c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prejudice": {
       "hash": "85034f9baad2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prepared": {
       "hash": "ea6c44771abf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prey": {
       "hash": "2e8e4515fb91",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pride": {
       "hash": "ab328ecf83ae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pride-of-the-pack": {
       "hash": "c039ffa85617",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:primed-and-ready": {
       "hash": "20bc8320f374",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:primitive-incantation": {
       "hash": "71b4b368a502",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prism": {
       "hash": "1f4baca144ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prismagic": {
       "hash": "b3dc827b2b54",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prismatic-amplifier": {
       "hash": "5e2c8d697ea8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prismatic-one": {
       "hash": "5912c7f55631",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:projection": {
       "hash": "0f6826073cf3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:proof-is-in-the-pudding": {
       "hash": "ce192a632b02",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:propulsion": {
       "hash": "b45a057f130a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:protect-the-glass-cannon": {
       "hash": "08bad6f2dbbf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:providence": {
       "hash": "cfa17832a0be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:prowess": {
       "hash": "4d73e46ba4da",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:psychic-barrier": {
       "hash": "01c0321c7cb1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:psychic-dance": {
       "hash": "10347b67a172",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:puff-up": {
       "hash": "87cba8a1b524",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pull-the-strings": {
       "hash": "f0a996afe7ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pulverizing-stare": {
       "hash": "de6811b0a048",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pummel": {
       "hash": "6490c9c11980",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pumpkin-spice": {
       "hash": "203837c02a04",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:puppet-master": {
       "hash": "c0112d0a1679",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:purge": {
       "hash": "8b592c02c0a2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:purity-and-emptiness": {
       "hash": "b1c0a36e57eb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:purple-tether": {
       "hash": "da5fbd0af571",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:purrr": {
       "hash": "b9ac18cee9bb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pus-and-pox": {
       "hash": "fd1e81f377ee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pyre": {
       "hash": "a5b5c569581d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:pyromaniac": {
       "hash": "867286ca1c81",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:qila-s-assurance": {
       "hash": "22277c76b638",

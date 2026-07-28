@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pull-the-strings",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "ally",
+          "params": {
+            "instead": "of the holder",
+            "damageBonusPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work if any of your other creatures have it.",
+  "textHash": "f0a996afe7ed"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:protect-the-glass-cannon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "trigger_subject",
+          "params": {
+            "action": "defend"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "08bad6f2dbbf"
+}

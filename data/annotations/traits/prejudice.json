@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:prejudice",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "targets": "every other enemy of the same class as the target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "85034f9baad2"
+}

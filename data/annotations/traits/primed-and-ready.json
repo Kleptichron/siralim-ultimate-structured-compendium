@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:primed-and-ready",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy",
+        "params": {
+          "spellType": "targets all your creatures"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "params": {
+            "damagePctOfNormal": 300
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "20bc8320f374"
+}

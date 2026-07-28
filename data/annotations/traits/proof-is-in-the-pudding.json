@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:proof-is-in-the-pudding",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Dumpling"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "Dumpling fighting on your side"
+          },
+          "params": {
+            "what": "equippable Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ce192a632b02"
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:prayer-position",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "trigger_subject",
+          "params": {
+            "action": "defend"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "allies",
+          "params": {
+            "state": "defending"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 90,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e2c8417e3c5e"
+}

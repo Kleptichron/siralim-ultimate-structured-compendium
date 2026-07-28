@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:prepared",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "allies",
+          "params": {
+            "basis": "Intelligence rather than Speed for initial placement"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ea6c44771abf"
+}

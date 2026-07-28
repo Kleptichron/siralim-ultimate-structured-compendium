@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:propulsion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "is forcibly moved to the top of the Timeline"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Splashing"
+          ]
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Timeline-move events have no trigger; other is honest here.",
+  "textHash": "b45a057f130a"
+}

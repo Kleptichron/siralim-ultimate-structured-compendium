@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:powershift",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "above": "90%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5ca056ecb944"
+}

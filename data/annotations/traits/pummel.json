@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pummel",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 200,
+            "direction": "up"
+          },
+          "params": {
+            "criticalOnly": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6490c9c11980"
+}

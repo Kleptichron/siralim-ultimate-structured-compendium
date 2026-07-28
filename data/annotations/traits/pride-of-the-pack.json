@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pride-of-the-pack",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Eft"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "qualifiers": [
+            "permanent"
+          ],
+          "statuses": [
+            "Savage",
+            "Splashing",
+            "Protected",
+            "Berserk",
+            "Agile",
+            "Warded"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "Eft fighting on your side"
+          },
+          "params": {
+            "priorityOrder": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c039ffa85617"
+}

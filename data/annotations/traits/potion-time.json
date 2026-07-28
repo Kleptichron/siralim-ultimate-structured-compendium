@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:potion-time",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "ally"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Concoction"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Concoction"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8e14295ee236"
+}

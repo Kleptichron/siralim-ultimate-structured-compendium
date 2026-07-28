@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:prismatic-one",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "class randomized, prioritizing classes not on your team"
+          }
+        },
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "the top-most Spell Gem of each ally of a different class",
+            "charges": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5912c7f55631"
+}

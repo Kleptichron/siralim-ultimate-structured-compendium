@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pride",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Repelling"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ab328ecf83ae"
+}

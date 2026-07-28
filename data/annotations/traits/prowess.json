@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:prowess",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Sorcery creature you have above the enemy count"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4d73e46ba4da"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:purrr",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "can equip Spell Gems from any class"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "that Gem is Sealed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b9ac18cee9bb"
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:power-in-balance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_start_of_battle_effects"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "effect": "stats averaged",
+            "except": "Health"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "unique class among your creatures"
+          },
+          "params": {
+            "except": "Health"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "holder",
+          "params": {
+            "effect": "stat changes persist through death"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "30dd0af5d886"
+}

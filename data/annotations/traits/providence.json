@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:providence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Shelled"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 150,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cfa17832a0be"
+}

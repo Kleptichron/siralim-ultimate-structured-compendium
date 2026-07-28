@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:purge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "params": {
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8b592c02c0a2"
+}

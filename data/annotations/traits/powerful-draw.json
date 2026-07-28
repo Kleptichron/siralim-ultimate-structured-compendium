@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:powerful-draw",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "can only equip Arrow spells, but from any class"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Attack",
+            "scalePct": 50
+          },
+          "params": {
+            "source": "single-target Arrow spells"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "Splitting Arrow and Fragmenting Arrow damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "fc152d901516"
+}

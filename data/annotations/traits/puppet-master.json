@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:puppet-master",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "minion_count",
+            "per": "minion it has"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down",
+            "scaleRef": "minion_count",
+            "per": "minion it has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c0112d0a1679"
+}

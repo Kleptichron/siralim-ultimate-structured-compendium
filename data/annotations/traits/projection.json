@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:projection",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "adjacent_allies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "adjacent_allies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "copyOf": "that spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "adjacent_allies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "holder",
+          "params": {
+            "action": "defend"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "adjacent_allies"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "holder",
+          "params": {
+            "action": "provoke"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work on creatures that also have this trait.",
+  "textHash": "0f6826073cf3"
+}

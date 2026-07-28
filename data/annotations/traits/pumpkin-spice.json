@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:pumpkin-spice",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Maximum Health",
+            "Defense"
+          ],
+          "params": {
+            "effect": "swapped"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "203837c02a04"
+}

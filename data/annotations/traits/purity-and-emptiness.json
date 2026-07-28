@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:purity-and-emptiness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "allies",
+          "params": {
+            "class": "Life"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Berserk"
+          ],
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "which": "your Life and Beacon creatures"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_heal",
+        "subject": "enemy",
+        "params": {
+          "target": "one of its allies",
+          "timing": "would"
+        }
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "trigger_subject",
+          "params": {
+            "class": "Life"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "actor": "trigger_subject",
+          "target": "ally",
+          "params": {
+            "instead": "heals one of your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b1c0a36e57eb"
+}
