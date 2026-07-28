@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:cruncher:3",
+  "rules": [],
+  "flags": {
+    "unmodeled": true
+  },
+  "notes": "Meta-record: amplifies this card set's tier 1-2 effects; no independent mechanic to model.",
+  "textHash": "8f7acdd91fc0"
+}

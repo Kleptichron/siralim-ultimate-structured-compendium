@@ -1,7 +1,7 @@
 {
   "id": "spell:vertigo",
   "textHash": "c205e6e759fb",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

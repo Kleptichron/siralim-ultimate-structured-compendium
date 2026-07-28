@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:griffon:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "chance": 15,
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "params": {
+            "resource": "all",
+            "from": "battles",
+            "effect": "double gain"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6ec925ed3c40"
+}

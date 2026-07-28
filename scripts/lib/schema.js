@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 3;
+export const SCHEMA_VERSION = 4;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -80,6 +80,7 @@ export const CONDITION_TYPES = [
   'resource_threshold', // charges, mana
   'equipment',          // artifact / spell gem prerequisites
   'timeline_position',
+  'action_state',       // "while they're Provoking/Defending" — params.state names it
   'other',
 ];
 

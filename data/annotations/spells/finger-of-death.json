@@ -1,7 +1,7 @@
 {
   "id": "spell:finger-of-death",
   "textHash": "d8d4b9d48e53",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

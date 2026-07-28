@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "claude",
   "id": "trait:boastful-protector",
   "rules": [
@@ -10,9 +10,9 @@
       },
       "conditions": [
         {
-          "type": "other",
+          "type": "action_state",
           "params": {
-            "while": "provoking"
+            "state": "provoking"
           }
         }
       ],
@@ -21,11 +21,11 @@
           "verb": "dodge_modifier",
           "target": "holder",
           "params": {
-            "kind": "avoid damage",
-            "chancePct": 25
+            "kind": "avoid damage"
           }
         }
-      ]
+      ],
+      "chance": 25
     }
   ],
   "textHash": "613556bb323b"

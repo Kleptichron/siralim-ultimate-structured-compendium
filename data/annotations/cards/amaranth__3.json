@@ -1,7 +1,7 @@
 {
   "id": "card:amaranth:3",
   "textHash": "35470c8c3621",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "machine",
   "machineTemplate": "stat-mod-allies",
   "rules": [

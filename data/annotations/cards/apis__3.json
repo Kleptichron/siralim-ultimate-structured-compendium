@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "claude",
   "id": "card:apis:3",
   "rules": [
@@ -21,15 +21,13 @@
         {
           "verb": "dodge_modifier",
           "target": "allies",
-          "magnitude": {
-            "amountPct": 5,
-            "direction": "up"
-          },
           "params": {
+            "kind": "avoid damage",
             "avoids": "attacks and spells"
           }
         }
-      ]
+      ],
+      "chance": 5
     }
   ],
   "textHash": "491d7251f68d"

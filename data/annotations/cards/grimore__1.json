@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:grimore:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Arcane"
+          ],
+          "params": {
+            "effect": "grants the Spell Gem an extra Charge on activation"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9631a1d0addc"
+}

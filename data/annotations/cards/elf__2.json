@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:elf:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountFlat": 15,
+            "direction": "up"
+          },
+          "params": {
+            "resource": "Crystal",
+            "from": "battles",
+            "base": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4e37e095293e"
+}

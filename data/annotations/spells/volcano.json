@@ -1,7 +1,7 @@
 {
   "id": "spell:volcano",
   "textHash": "0857c0f2f7b9",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

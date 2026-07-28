@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:fiend:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Berserk"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "crit_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "91ab540ec1f1"
+}

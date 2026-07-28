@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:golem:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "chance": 15,
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "params": {
+            "resource": "Essence",
+            "from": "battles",
+            "effect": "double gain"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f1355f145595"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:efreet:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          },
+          "statuses": [
+            "Burning"
+          ],
+          "params": {
+            "source": "Burning"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "938595f71fab"
+}

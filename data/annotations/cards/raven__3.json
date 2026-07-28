@@ -1,7 +1,7 @@
 {
   "id": "card:raven:3",
   "textHash": "9c615a2d4bd9",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "machine",
   "machineTemplate": "stat-mod-allies",
   "rules": [

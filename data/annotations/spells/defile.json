@@ -1,7 +1,7 @@
 {
   "id": "spell:defile",
   "textHash": "176a2fb8cdcd",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

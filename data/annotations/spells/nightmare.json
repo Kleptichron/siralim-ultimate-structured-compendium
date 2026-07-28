@@ -1,7 +1,7 @@
 {
   "id": "spell:nightmare",
   "textHash": "1ce1c471e65f",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

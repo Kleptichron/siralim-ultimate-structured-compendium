@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:gargantuan:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down"
+          },
+          "params": {
+            "vs": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ff580fb7a80e"
+}

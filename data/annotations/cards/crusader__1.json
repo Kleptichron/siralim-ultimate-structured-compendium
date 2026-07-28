@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 4,
+  "provenance": "claude",
+  "id": "card:crusader:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Shelled"
+          ],
+          "params": {
+            "effect": "persists after taking damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8c009fb6a1c6"
+}

@@ -1,7 +1,7 @@
 {
   "id": "spell:surrender-to-madness",
   "textHash": "e2760e2d2d46",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [
