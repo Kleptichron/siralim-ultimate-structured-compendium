@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:mime:trapped-in-a-box",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "ally",
+          "params": {
+            "action": "Defends",
+            "which": "one of your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "No verb models the Defend action itself; verb other is honest here.",
+  "textHash": "5362d29f711f"
+}

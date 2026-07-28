@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:hell-knight:hellion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "Attack this battle"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "43bfc479fe24"
+}

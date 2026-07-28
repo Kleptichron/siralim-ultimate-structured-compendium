@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:hell-knight:enduring-rage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "319afaf6a9f7"
+}

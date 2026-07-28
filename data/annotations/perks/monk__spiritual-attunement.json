@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:monk:spiritual-attunement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "timing": "would",
+          "source": "indirect"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "kind": "prevent damage"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "188361b8dbd8"
+}

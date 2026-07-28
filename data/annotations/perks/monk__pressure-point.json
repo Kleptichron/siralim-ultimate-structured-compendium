@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:monk:pressure-point",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 2,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "source": "Celerity counter-attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6d45bcdafc21"
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:monk:good-karma",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Agile"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        },
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Agile"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 5,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "property": "activation chance"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ba8ba9c63e53"
+}

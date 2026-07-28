@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:mime:finger-painting",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "ally",
+          "statusKind": "buff",
+          "params": {
+            "copyOf": "the buff just gained"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "efb4a2b1cda3"
+}

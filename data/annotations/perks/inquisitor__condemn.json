@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:inquisitor:condemn",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "enemies",
+          "params": {
+            "class": "Death"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Vulnerable"
+          ]
+        },
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1533cac55bd5"
+}

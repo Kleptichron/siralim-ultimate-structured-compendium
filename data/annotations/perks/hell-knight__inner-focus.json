@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:hell-knight:inner-focus",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "perRank": {
+              "per": 1,
+              "maxTotal": 25
+            },
+            "scaleStat": "Attack"
+          },
+          "params": {
+            "addedTo": "Intelligence to determine spell damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "06ea9831c6fd"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:monk:serenity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "perRank": {
+              "per": 5,
+              "maxTotal": 100
+            }
+          },
+          "params": {
+            "what": "attack-Dodge chance applied to spells",
+            "excludes": "independent dodge chances"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "434935d5a609"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:mime:stationary-walk",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "enemy spell cast this battle",
+            "cap": 80
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "22eb161585bc"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:mime:the-lean",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "enemy Attack this battle"
+          },
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "52b948b405d8"
+}

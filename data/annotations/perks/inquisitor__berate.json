@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:inquisitor:berate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "enemies",
+          "params": {
+            "class": "Life"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Blighted"
+          ]
+        },
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ee758fcf3c11"
+}

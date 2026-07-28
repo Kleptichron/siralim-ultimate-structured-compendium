@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:monk:ride-the-wind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "allies",
+          "params": {
+            "state": "defending"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "allies",
+          "stats": [
+            "Speed",
+            "Defense"
+          ],
+          "params": {
+            "effect": "Defend bonus applies to Speed instead of Defense"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2f44c2b91810"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:mime:mock",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Confused"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "2ae10c4adba6"
+}

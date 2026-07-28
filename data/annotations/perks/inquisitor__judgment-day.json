@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:inquisitor:judgment-day",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 150,
+            "direction": "up"
+          },
+          "params": {
+            "basis": "class strength"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 65,
+            "direction": "down"
+          },
+          "params": {
+            "basis": "class strength"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "23938ac88260"
+}

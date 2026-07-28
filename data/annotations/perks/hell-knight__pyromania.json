@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:hell-knight:pyromania",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "Flamestrike"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
+  "textHash": "068eb6df8422"
+}

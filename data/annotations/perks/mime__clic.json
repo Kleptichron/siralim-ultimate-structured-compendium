@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:mime:clic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies",
+        "params": {
+          "first": "each turn"
+        }
+      },
+      "chance": 15,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "target",
+          "target": "target",
+          "params": {
+            "self": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3405dd631dbe"
+}

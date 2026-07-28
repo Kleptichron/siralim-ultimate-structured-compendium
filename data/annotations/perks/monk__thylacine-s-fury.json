@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:monk:thylacine-s-fury",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Speed",
+            "scalePct": 50
+          },
+          "params": {
+            "amount": "amount their Speed exceeds the target's"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e4b123db7676"
+}

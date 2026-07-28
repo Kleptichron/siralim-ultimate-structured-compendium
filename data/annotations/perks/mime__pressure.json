@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:mime:pressure",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "first": "each turn"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "ally",
+          "target": "random_enemy"
+        }
+      ]
+    }
+  ],
+  "textHash": "204a9ebd97c8"
+}

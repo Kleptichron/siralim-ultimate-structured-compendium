@@ -3869,19 +3869,23 @@
     },
     "perk:hell-knight:dreadnaught": {
       "hash": "54615fc268c9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:enduring-rage": {
       "hash": "319afaf6a9f7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:executioner": {
       "hash": "f660cd304c15",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:hellion": {
       "hash": "43bfc479fe24",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:indomitable": {
       "hash": "e5b06c544658",
@@ -3890,11 +3894,13 @@
     },
     "perk:hell-knight:inner-focus": {
       "hash": "06ea9831c6fd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:kindling": {
       "hash": "21e1ef1f1324",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:magma-diver": {
       "hash": "d617b221591e",
@@ -3903,83 +3909,103 @@
     },
     "perk:hell-knight:massacre": {
       "hash": "97888d355506",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:pyromania": {
       "hash": "068eb6df8422",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:reckless-abandon": {
       "hash": "8b60b98ef5a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:touch-of-chaos": {
       "hash": "3d0c898eca37",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:admonish": {
       "hash": "4835a41ba0b2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:begrudge": {
       "hash": "d9dbacfbfd5e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:berate": {
       "hash": "ee758fcf3c11",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:castigate": {
       "hash": "4e63b16cef2b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:censure": {
       "hash": "7fa94c01ddb6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:condemn": {
       "hash": "1533cac55bd5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:contrition": {
       "hash": "aa05ccd07914",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:defy-evil": {
       "hash": "72ef7a97a37f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:divine-strength": {
       "hash": "3b48a0bb4c53",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:flagellation": {
       "hash": "4b719a023d1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:heresy": {
       "hash": "f5cd472e6367",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:judgment": {
       "hash": "d74e61877d6a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:judgment-day": {
       "hash": "23938ac88260",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:lay-to-rest": {
       "hash": "00d685e90d85",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:miracle": {
       "hash": "c06b276e1870",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:rebuke": {
       "hash": "3cafd0ffbdf8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:inquisitor:shining-force": {
       "hash": "f4ade117c089",
@@ -3988,55 +4014,68 @@
     },
     "perk:mime:bewilderment": {
       "hash": "6adc112dd497",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:circus-walk": {
       "hash": "3c9e5cf4d5b1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:clic": {
       "hash": "3405dd631dbe",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:fidelity": {
       "hash": "6bdc27d0bf42",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:finger-painting": {
       "hash": "efb4a2b1cda3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:follow-the-leader": {
       "hash": "142a38a28f96",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:gesticulation": {
       "hash": "fc765d721278",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:imitation": {
       "hash": "77e3fd9a4374",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:immobility": {
       "hash": "9c4b54bcff4c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:mock": {
       "hash": "2ae10c4adba6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:pressure": {
       "hash": "204a9ebd97c8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:pull-the-rope": {
       "hash": "ade8ec455c6a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:stationary-walk": {
       "hash": "22eb161585bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:stillness-and-silence": {
       "hash": "873ab40591fa",
@@ -4045,75 +4084,93 @@
     },
     "perk:mime:the-lean": {
       "hash": "52b948b405d8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:trapped-in-a-box": {
       "hash": "5362d29f711f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:blurred-strikes": {
       "hash": "06bfe3382029",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:celerity": {
       "hash": "704efb57abd7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:crosswinds": {
       "hash": "9110e851c678",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:dampen-harm": {
       "hash": "4c886fa038a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:extended-reach": {
       "hash": "2e1ea8d1bea0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:fake-out": {
       "hash": "bcb1e8886d77",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:fortified-spirit": {
       "hash": "22ee01efa375",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:good-karma": {
       "hash": "ba8ba9c63e53",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:pressure-point": {
       "hash": "6d45bcdafc21",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:protective-winds": {
       "hash": "d0d5b597f73f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:ride-the-wind": {
       "hash": "2f44c2b91810",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:serenity": {
       "hash": "434935d5a609",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:spiritual-attunement": {
       "hash": "188361b8dbd8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:thylacine-s-fury": {
       "hash": "e4b123db7676",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:vital-strike": {
       "hash": "c8fef091f2b0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:monk:windwalker": {
       "hash": "f956bbe04b88",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:necromancer:amalgamation": {
       "hash": "a1df3872af12",

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:monk:dampen-harm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "allies",
+        "params": {
+          "event": "would receive fatal damage"
+        }
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "kind": "prevent damage",
+            "chance": "equal to their Dodge chance"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4c886fa038a6"
+}

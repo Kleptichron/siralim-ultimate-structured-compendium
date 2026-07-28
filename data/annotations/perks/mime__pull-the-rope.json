@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "perk:mime:pull-the-rope",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "ally",
+        "params": {
+          "by": "enemies"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "random_enemy",
+          "statusKind": "debuff",
+          "params": {
+            "copyOf": "that debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ade8ec455c6a"
+}
