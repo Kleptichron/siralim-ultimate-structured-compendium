@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:naivety",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "allies",
+          "params": {
+            "exceeds": "15% of Maximum Health"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "spell": "one of their spells at random",
+            "limit": "once per turn per creature"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7aab92a7f294"
+}

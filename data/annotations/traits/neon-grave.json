@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:neon-grave",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Affliction"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c7c0ee98473b"
+}

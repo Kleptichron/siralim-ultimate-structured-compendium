@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nature-transformation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "allies",
+        "params": {
+          "target": "one of your creatures",
+          "timing": "would"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 50
+          },
+          "params": {
+            "instead": "of taking the damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b98bb2cf576b"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nature-of-the-beast",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "minion": "Dire Wolves",
+            "stacks": 3
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "efdabd83d572"
+}

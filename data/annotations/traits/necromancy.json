@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:necromancy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "minion": "Zombies",
+            "stacks": "1 to 3"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "3eb18aa07fd7"
+}

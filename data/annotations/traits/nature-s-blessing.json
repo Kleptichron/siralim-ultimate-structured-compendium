@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nature-s-blessing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statuses": [
+            "Mending"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ffaac58d7adb"
+}

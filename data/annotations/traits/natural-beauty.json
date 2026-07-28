@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:natural-beauty",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "the Crystal Shield spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up"
+          },
+          "params": {
+            "property": "strength"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b10e1e272688"
+}

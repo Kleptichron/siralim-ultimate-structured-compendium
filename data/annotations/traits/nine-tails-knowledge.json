@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nine-tails-knowledge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "what": "spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "9c0b106f68bd"
+}

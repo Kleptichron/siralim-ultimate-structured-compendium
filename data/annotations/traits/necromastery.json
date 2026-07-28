@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:necromastery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "minion-summoning Spell Gems",
+            "effect": "consume no Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8d00cc985953"
+}

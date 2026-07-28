@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:naxor-harbinger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up",
+            "scaleRef": "turns_taken",
+            "per": "turn taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d5bbfe79bec4"
+}

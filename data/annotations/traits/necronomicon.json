@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:necronomicon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "spellClass": "Death"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 50
+          },
+          "params": {
+            "what": "Death spells",
+            "asIf": "50% less Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "89b4a40cfd15"
+}

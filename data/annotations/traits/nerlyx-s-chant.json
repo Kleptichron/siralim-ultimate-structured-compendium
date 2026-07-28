@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nerlyx-s-chant",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "00541e942c9a"
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:necessitarianism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 70,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7cbd44dc5d9b"
+}

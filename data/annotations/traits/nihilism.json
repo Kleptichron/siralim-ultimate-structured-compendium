@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nihilism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 50
+          },
+          "params": {
+            "others": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 12,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "living enemy"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f88fda413a1c"
+}

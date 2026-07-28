@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:multibite",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "repeatable": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "959d85942e90"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:naturalization",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 4,
+            "direction": "down",
+            "scaleRef": "spell_gems",
+            "per": "permanent Spell Gem they have"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "860750bcc801"
+}

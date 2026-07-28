@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nice-haircut",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies",
+        "params": {
+          "during": "an ally's turn"
+        }
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "trigger_subject",
+          "params": {
+            "race": "Maniac"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "params": {
+            "healthPct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d670eaf42d69"
+}

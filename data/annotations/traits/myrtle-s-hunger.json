@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:myrtle-s-hunger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 20
+          },
+          "params": {
+            "of": "the dead enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "939392fb6888"
+}

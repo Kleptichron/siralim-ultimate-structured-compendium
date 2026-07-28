@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:myosotis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "Intelligence"
+          },
+          "params": {
+            "source": "attacks",
+            "replaces": "Attack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "533cf664ae97"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:myrtle-s-greed",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "the dead ally"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ee26b618f390"
+}

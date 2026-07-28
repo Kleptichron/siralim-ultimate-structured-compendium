@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:negative-charge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Silenced"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "statuses": [
+            "Silenced"
+          ],
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 50,
+            "scaleRef": "other",
+            "per": "ally afflicted with Silenced"
+          },
+          "params": {
+            "what": "Lightning Storm",
+            "asIf": "more Intelligence"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4921e3601e6d"
+}

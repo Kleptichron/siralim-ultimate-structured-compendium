@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mungus-harbinger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down",
+            "scaleRef": "turns_taken",
+            "per": "turn taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b4b072dce926"
+}

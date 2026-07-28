@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:motivation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "actor": "holder",
+          "target": "enemies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "scaleStat": "Attack",
+            "scalePct": 15
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ae4668074fae"
+}

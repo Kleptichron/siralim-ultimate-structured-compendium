@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:myrtle-s-perseverence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "params": {
+            "healthPct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5a2659686764"
+}

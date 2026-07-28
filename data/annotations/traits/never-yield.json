@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:never-yield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "always critical"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "holder",
+          "params": {
+            "action": "defend"
+          }
+        },
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "its turn then ends"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Turn-ending has no verb; other is honest here.",
+  "textHash": "4810ee5d690b"
+}

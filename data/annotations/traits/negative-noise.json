@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:negative-noise",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "at": "100%"
+          }
+        }
+      ],
+      "chance": 90,
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "avoid damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b7b806c87938"
+}

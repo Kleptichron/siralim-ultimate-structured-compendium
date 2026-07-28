@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:multistrike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "053495dd9bca"
+}

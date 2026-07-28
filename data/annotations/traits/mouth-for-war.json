@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mouth-for-war",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "spellType": "single-target on enemy"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "target",
+          "magnitude": {
+            "amountFlat": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4f1d59327745"
+}

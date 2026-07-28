@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:nerlyx-s-disturbance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "time they have defended this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c8d38aabac2d"
+}

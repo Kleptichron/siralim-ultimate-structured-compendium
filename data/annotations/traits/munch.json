@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:munch",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "target",
+          "params": {
+            "effect": "one of its Spell Gems is Sealed"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "700b4b3fe6ef"
+}

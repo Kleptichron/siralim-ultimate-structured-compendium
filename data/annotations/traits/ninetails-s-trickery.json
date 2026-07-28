@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:ninetails-s-trickery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "each enemy's first Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ed5c9a6151ad"
+}

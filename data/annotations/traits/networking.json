@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:networking",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "effect": "Electropod traits act as if the party contains 3 more Electropods"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Counting meta-rule; verb other is honest here.",
+  "textHash": "5db05fd3cc4c"
+}

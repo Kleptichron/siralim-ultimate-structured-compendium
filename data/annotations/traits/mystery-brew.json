@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:mystery-brew",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "other",
+            "per": "Provoke this battle",
+            "cap": 5
+          },
+          "params": {
+            "spell": "a random Booze Spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6e94282d892c"
+}

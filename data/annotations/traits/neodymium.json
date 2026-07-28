@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:neodymium",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "what": "'Magnetic' Spell Gems",
+            "effect": "act as if 3 more exist"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4d2f5b5c4e8a"
+}

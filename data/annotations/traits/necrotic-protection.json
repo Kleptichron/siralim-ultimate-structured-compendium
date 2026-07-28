@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:necrotic-protection",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "allies",
+          "params": {
+            "state": "provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "5ff6f3b7af70"
+}

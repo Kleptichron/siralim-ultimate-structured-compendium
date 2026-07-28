@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:never-fade",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "holder",
+          "statuses": [
+            "Disarmed"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        },
+        {
+          "verb": "prevent_status",
+          "target": "adjacent_allies",
+          "statuses": [
+            "Disarmed"
+          ],
+          "params": {
+            "kind": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6cc1deb17b87"
+}
