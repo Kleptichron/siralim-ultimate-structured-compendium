@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spec:cleric",
+  "rules": [],
+  "notes": "Specialization lore text; mechanics live in the perk records.",
+  "textHash": "f86d29fd13a8"
+}

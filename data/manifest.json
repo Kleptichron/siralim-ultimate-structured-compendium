@@ -7512,163 +7512,203 @@
     },
     "spec:animator": {
       "hash": "b63ccf94eb9d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:astrologer": {
       "hash": "02da0dd6ba1d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:bloodmage": {
       "hash": "20877437ba1f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:brewmaster": {
       "hash": "9fe676a12570",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:cabalist": {
       "hash": "ad7eac73bcd4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:cleric": {
       "hash": "f86d29fd13a8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:defiler": {
       "hash": "bb006759ca31",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:demonologist": {
       "hash": "bc2225322db4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:deprived": {
       "hash": "8d63e23788a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:doombringer": {
       "hash": "0bb8eec6119a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:dreamshade": {
       "hash": "5e465a23552e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:druid": {
       "hash": "6efae4e581c3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:engineer": {
       "hash": "17403b0fe0c6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:evoker": {
       "hash": "0f6b779e8976",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:fanatic": {
       "hash": "02d82a0357de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:gladiator": {
       "hash": "78f682510a6f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:graveborn": {
       "hash": "0c6c33fd83d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:grovetender": {
       "hash": "36ec70894425",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:hell-knight": {
       "hash": "7552af1a1084",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:inquisitor": {
       "hash": "206ff0015464",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:mime": {
       "hash": "834785911350",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:monk": {
       "hash": "ab6d3d6967e6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:necromancer": {
       "hash": "1658c34e3072",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:paladin": {
       "hash": "594de9da0f6a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:pariah": {
       "hash": "c4652af003af",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:purgatorian": {
       "hash": "0cad12d40796",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:pyromancer": {
       "hash": "4cef564eecee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:reaver": {
       "hash": "24c76d7952ba",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:royal": {
       "hash": "444a9c2b9231",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:rune-knight": {
       "hash": "19127e416603",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:shadowbringer": {
       "hash": "548c55f49db5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:siegemaster": {
       "hash": "5e4143e8749e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:sorcerer": {
       "hash": "282ae0e29a73",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:spellweaver": {
       "hash": "a9a2f59bb07e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:toxicologist": {
       "hash": "2da32e7f1d2b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:tribalist": {
       "hash": "e46821dba3dd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:trickster": {
       "hash": "87a21b172bbc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:warden": {
       "hash": "31ef3fb1ce30",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:windrunner": {
       "hash": "c0dc49ae0500",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:witch-doctor": {
       "hash": "2f25742eddb3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:absolute-corruption": {
       "hash": "a0979b0f2073",
