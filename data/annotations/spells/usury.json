@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:usury",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "caster",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "tier": "small",
+            "direction": "up",
+            "scaleRef": "turns_taken",
+            "per": "turn taken this battle",
+            "cap": 5
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c60c2f8b644d"
+}

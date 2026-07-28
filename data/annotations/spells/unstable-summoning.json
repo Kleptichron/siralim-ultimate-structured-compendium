@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:unstable-summoning",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "target",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "minion": "random minion"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f68cc3b2a9da"
+}

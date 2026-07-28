@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:voodoo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "caster",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "tierRange": "small to devastating, chosen randomly"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "params": {
+            "copyOf": "that amount"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7e0dc7c774f7"
+}

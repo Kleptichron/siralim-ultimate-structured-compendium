@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:vitality-explosion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "scaleStat": "Maximum Health"
+          },
+          "params": {
+            "amount": "Maximum Health above its base amount"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "17d5199c0ffd"
+}

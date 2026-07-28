@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:volatile-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "target",
+          "magnitude": {
+            "tier": "moderate",
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "basis": "100% caster's highest stat instead of Intelligence",
+            "mitigatedBy": "the target's lowest stat"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6af14d1bae90"
+}

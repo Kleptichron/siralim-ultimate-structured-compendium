@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:vivacious-vodka",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "ally",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Booze Spell. Can only target 1 creature; can only be Cast once at a time.",
+  "textHash": "12389f6ee7e6"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:true-magic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "tier": "moderate"
+          },
+          "params": {
+            "bonusPct": 5,
+            "per": "Charge their other Spell Gems are missing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e60d2c611f63"
+}

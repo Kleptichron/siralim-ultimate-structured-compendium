@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:work-of-art",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "params": {
+            "minions": "an army of minions",
+            "noOnMinionEffects": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Ultimate Spell; does not activate on-minion effects.",
+  "textHash": "ec820f4ed06c"
+}

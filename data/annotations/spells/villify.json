@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:villify",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "enemies",
+          "params": {
+            "effect": "no longer Defending or Provoking"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Action-state removal has no verb; other is honest here.",
+  "textHash": "fb8151a7baed"
+}

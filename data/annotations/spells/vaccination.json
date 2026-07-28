@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:vaccination",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "lowest_stat"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "status_potency",
+            "scalePct": 100
+          },
+          "statuses": [
+            "Poisoned"
+          ],
+          "params": {
+            "of": "the target's Poisoned potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "46a3fca3fd27"
+}

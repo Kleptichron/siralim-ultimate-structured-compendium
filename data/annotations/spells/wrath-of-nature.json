@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:wrath-of-nature",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e22f1474a183"
+}

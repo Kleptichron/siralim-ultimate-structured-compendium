@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 7,
+  "provenance": "claude",
+  "id": "spell:witchcraft",
+  "rules": [
+    {
+      "trigger": {
+        "type": "activated"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Cursed"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "enemies",
+          "target": "random_any",
+          "params": {
+            "spell": "one of their single-target damage spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0e24b4c4d9e9"
+}
