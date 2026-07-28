@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "claude",
   "id": "relic:fable:r50",
   "rules": [
@@ -10,10 +10,14 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "activation_modifier",
           "target": "holder",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
           "params": {
-            "effect": "on-heal, on-debuff, and on-buff effects activate 1 additional time",
+            "what": "on-heal, on-debuff, and on-buff effects",
             "includesRelic": true
           }
         }

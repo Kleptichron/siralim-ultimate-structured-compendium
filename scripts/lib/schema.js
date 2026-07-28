@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 5;
+export const SCHEMA_VERSION = 6;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -120,6 +120,10 @@ export const ACTION_VERBS = [
   'transform',
   'grant_ability',   // grants traits/spell gems/abilities
   'resource_gain',   // non-combat loot/resources
+  'activation_modifier', // effects/traits activate extra times or on demand
+                         //   (params.what names the effect family)
+  'limit_modifier',  // raises/sets rule caps ("max 20 Attacks per turn",
+                     //   "resurrected a maximum of 15 times per battle")
   'other',
 ];
 

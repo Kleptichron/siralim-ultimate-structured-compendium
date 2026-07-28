@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "claude",
   "id": "relic:thousand-needles:r60",
   "rules": [
@@ -10,17 +10,18 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "limit_modifier",
           "target": "holder",
+          "magnitude": {
+            "amountFlat": 20
+          },
           "params": {
-            "what": "Attack/Cast limit per turn",
-            "value": 20,
+            "what": "Attacks/Casts per turn",
             "includesRelic": true
           }
         }
       ]
     }
   ],
-  "notes": "Raises the per-turn action cap; no verb models rule-caps — other is honest here.",
   "textHash": "bdf10a2c86a8"
 }

@@ -1,7 +1,7 @@
 {
   "id": "spell:petrify",
   "textHash": "0799504a0bef",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

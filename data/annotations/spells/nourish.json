@@ -1,7 +1,7 @@
 {
   "id": "spell:nourish",
   "textHash": "5a59573e124e",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

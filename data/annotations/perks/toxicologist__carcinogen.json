@@ -1,7 +1,7 @@
 {
   "id": "perk:toxicologist:carcinogen",
   "textHash": "8991bcb8f176",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [

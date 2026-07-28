@@ -1,7 +1,7 @@
 {
   "id": "spell:decay",
   "textHash": "98fd2b393866",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

@@ -1,7 +1,7 @@
 {
   "id": "perk:shadowbringer:shadow-sickness",
   "textHash": "9e8f662c1595",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [

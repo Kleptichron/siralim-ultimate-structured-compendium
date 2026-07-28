@@ -1,7 +1,7 @@
 {
   "id": "realm:enemy:buff-proficient",
   "textHash": "469065f32e8b",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "enemies-start-with",
   "rules": [

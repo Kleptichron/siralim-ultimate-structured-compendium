@@ -1,7 +1,7 @@
 {
   "id": "realm:enemy:buff-protected",
   "textHash": "749d17abed78",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "enemies-start-with",
   "rules": [

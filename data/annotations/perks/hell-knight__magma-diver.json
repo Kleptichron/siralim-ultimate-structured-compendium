@@ -1,7 +1,7 @@
 {
   "id": "perk:hell-knight:magma-diver",
   "textHash": "d617b221591e",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "always-have",
   "rules": [

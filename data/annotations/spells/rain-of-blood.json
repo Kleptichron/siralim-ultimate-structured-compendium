@@ -1,7 +1,7 @@
 {
   "id": "spell:rain-of-blood",
   "textHash": "43e114db6137",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

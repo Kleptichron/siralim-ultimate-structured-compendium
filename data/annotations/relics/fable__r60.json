@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "claude",
   "id": "relic:fable:r60",
   "rules": [
@@ -10,10 +10,16 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "activation_modifier",
           "target": "holder",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "5 relic Attacks/Casts this battle"
+          },
           "params": {
-            "effect": "on-attack or on-cast effects activate 1 additional time per 5 relic Attacks/Casts this battle"
+            "what": "on-attack or on-cast effects"
           }
         }
       ]

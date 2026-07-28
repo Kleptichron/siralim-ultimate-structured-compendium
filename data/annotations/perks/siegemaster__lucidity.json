@@ -1,7 +1,7 @@
 {
   "id": "perk:siegemaster:lucidity",
   "textHash": "55289594d1ab",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

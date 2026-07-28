@@ -1,7 +1,7 @@
 {
   "id": "card:unicorn:1",
   "textHash": "de3322334f5b",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "card-class-attack-dr",
   "rules": [

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "claude",
   "id": "card:doomguard:3",
   "rules": [
@@ -20,14 +20,18 @@
       "chance": 15,
       "actions": [
         {
-          "verb": "other",
+          "verb": "activation_modifier",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
           "params": {
-            "effect": "after-Provoke effects activate an additional time"
+            "what": "after-Provoke effects"
           }
         }
       ]
     }
   ],
-  "notes": "Meta-amplifier of other after-Provoke effects — verb other is honest here.",
   "textHash": "a8d96e3dcff5"
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "claude",
   "id": "card:phoenix:3",
   "rules": [
@@ -10,16 +10,17 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "limit_modifier",
           "target": "allies",
+          "magnitude": {
+            "amountFlat": 15
+          },
           "params": {
-            "what": "resurrection limit per battle",
-            "value": 15
+            "what": "resurrections per battle"
           }
         }
       ]
     }
   ],
-  "notes": "Raises the per-battle resurrection cap; no verb models rule-caps — other is honest here.",
   "textHash": "3c06089d648b"
 }

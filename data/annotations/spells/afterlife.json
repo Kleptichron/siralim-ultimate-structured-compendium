@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "claude",
   "id": "spell:afterlife",
   "rules": [
@@ -9,10 +9,11 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "activation_modifier",
           "target": "allies",
           "params": {
-            "effect": "on-resurrect and on-death effects activate"
+            "what": "on-resurrect and on-death effects",
+            "mode": "activate now"
           }
         }
       ]

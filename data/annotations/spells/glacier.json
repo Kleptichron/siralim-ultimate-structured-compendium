@@ -1,7 +1,7 @@
 {
   "id": "spell:glacier",
   "textHash": "caeb9665f058",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

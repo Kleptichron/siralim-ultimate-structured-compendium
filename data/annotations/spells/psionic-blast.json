@@ -1,7 +1,7 @@
 {
   "id": "spell:psionic-blast",
   "textHash": "9d3f3ad64f91",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

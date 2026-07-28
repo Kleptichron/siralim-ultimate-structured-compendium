@@ -1,7 +1,7 @@
 {
   "id": "spell:chastise",
   "textHash": "590611b77ccc",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

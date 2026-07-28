@@ -1,7 +1,7 @@
 {
   "id": "spell:flame-lash",
   "textHash": "cb9581efbafc",
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "provenance": "claude",
   "id": "relic:fable:r30",
   "rules": [
@@ -10,10 +10,14 @@
       },
       "actions": [
         {
-          "verb": "other",
+          "verb": "activation_modifier",
           "target": "holder",
+          "magnitude": {
+            "amountFlat": 1,
+            "direction": "up"
+          },
           "params": {
-            "effect": "on-defend or on-provoke effects activate 1 additional time",
+            "what": "on-defend or on-provoke effects",
             "basis": "higher of Defense or Speed"
           }
         }
