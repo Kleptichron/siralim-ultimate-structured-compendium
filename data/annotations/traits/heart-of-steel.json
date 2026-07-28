@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heart-of-steel",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "Chaos spells manually cast by the holder this battle",
+            "atLeast": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "params": {
+            "healthPct": 50,
+            "then": "the trait resets"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a9265fc03dac"
+}

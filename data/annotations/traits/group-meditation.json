@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:group-meditation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "Familiars fighting on your side",
+            "atLeast": 3
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "gain_charges",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8e8d83efd738"
+}

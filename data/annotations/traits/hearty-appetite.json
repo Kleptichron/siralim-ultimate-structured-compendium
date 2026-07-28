@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hearty-appetite",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "allies",
+        "params": {
+          "direction": "up",
+          "stats": "Attack, Intelligence, Defense or Speed"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "scalePct": 20
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a56e9e14f78b"
+}

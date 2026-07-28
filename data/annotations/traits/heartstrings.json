@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heartstrings",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "params": {
+            "spell": "one of their spells",
+            "forced": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Cursed"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 20
+          },
+          "params": {
+            "of": "the holder"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "60c8e66f8517"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heavy-repercussions",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "chance": 7,
+      "actions": [
+        {
+          "verb": "extra_turn",
+          "target": "holder",
+          "params": {
+            "chancePer": "Griffon fighting on your side"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "032a511d5186"
+}

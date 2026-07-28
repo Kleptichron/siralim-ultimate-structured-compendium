@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:gumption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "holder",
+          "params": {
+            "exceeds": "remaining Health (fatal)",
+            "timing": "would"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Current Health"
+          ],
+          "params": {
+            "setTo": 1,
+            "instead": "of dying"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b219899cbd17"
+}

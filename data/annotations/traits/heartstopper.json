@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heartstopper",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Speed"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "down"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Speed"
+          ],
+          "qualifiers": [
+            "stolen"
+          ],
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "amount": "the Speed stolen"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "25fec439bb51"
+}

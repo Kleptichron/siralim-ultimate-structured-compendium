@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heated-ichor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "params": {
+            "what": "attack/spell damage taken between its turns",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 50
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ecb56e9dd1c2"
+}

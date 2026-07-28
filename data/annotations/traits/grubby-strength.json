@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:grubby-strength",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "lowest_stat",
+            "scalePct": 3,
+            "scaleRef": "other",
+            "per": "time it attacked this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e2f598201ffc"
+}

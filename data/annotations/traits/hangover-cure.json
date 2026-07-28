@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hangover-cure",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_heal",
+        "subject": "allies",
+        "params": {
+          "target": "an enemy"
+        }
+      },
+      "chance": 3,
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "target",
+          "params": {
+            "chancePer": "debuff it has"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Chance is 3% per debuff on the enemy.",
+  "textHash": "b2e4f7b72fd8"
+}

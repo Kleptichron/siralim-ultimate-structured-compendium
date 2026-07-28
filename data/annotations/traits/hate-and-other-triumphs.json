@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hate-and-other-triumphs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "params": {
+            "what": "on-death effects",
+            "mode": "ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work in boss battles.",
+  "textHash": "718b7f084954"
+}

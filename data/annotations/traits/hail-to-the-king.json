@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hail-to-the-king",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "Summon Conquest, Summon War, Summon Death and Summon Famine"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cecfda5faf11"
+}

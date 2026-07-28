@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:guilt",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "stats": [
+            "lowest_stat"
+          ],
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "713078714917"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:haunted-carapace",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "ally"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 15
+          },
+          "params": {
+            "of": "the ally taking its turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "abb0f7301a39"
+}

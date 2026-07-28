@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heavy-weighs-the-crown",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "class_is",
+          "who": "allies",
+          "params": {
+            "class": "Chaos"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "minion": "Animated Gem",
+            "which": "your Chaos and Beacon creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c7517cff3084"
+}

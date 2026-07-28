@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:hederas-s-grasp",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Snared"
+          ]
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "adjacent_enemies",
+          "statuses": [
+            "Snared"
+          ],
+          "params": {
+            "anchor": "the target"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "134c6903e7cc"
+}

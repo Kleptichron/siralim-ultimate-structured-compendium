@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:grovel-and-beg",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "below": "75%"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "params": {
+            "kind": "avoid damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a05bce978fea"
+}

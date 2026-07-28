@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heart-versus-mind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "allies",
+        "params": {
+          "status": "Barrier",
+          "context": "damaged and destroyed"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "other",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "the original Barrier strength"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c3ec110d41d4"
+}

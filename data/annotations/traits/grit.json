@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:grit",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Health",
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Attack",
+            "scalePct": 100
+          },
+          "params": {
+            "addedFrom": "its Attack"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "setTo": "its minimum value"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "30b9d58d2ac4"
+}

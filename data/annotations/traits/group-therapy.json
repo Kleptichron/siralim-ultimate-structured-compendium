@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:group-therapy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_heal",
+        "subject": "allies",
+        "params": {
+          "which": "creatures of your most common race"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "actor": "allies",
+          "target": "target",
+          "params": {
+            "which": "the other creatures of that race",
+            "copyOf": "the same heal"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "75ffbbec1ff6"
+}

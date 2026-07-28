@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heads-or-tails",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "minion": "random minion",
+            "otherwise": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "461ec8c08d1f"
+}

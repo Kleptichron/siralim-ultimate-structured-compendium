@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 9,
+  "provenance": "claude",
+  "id": "trait:heartseeker",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "additional": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "damage_dealt",
+            "scalePct": 35
+          },
+          "params": {
+            "appliesTo": "extra attacks after the first",
+            "of": "the first attack’s damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f673dcceae24"
+}
