@@ -133,10 +133,23 @@ export function cloneQuery(query) {
 
 const tokens = q => q.toLowerCase().split(/\s+/).filter(Boolean);
 
+// People look for the creature that HAS a trait far more often than the trait's
+// own name — "Toxdweller", not "A Gift For You". Every identity-bearing meta
+// value is a string (creature, family, class, material, specialization, relic,
+// shortName, abbreviation…) while numbers and booleans are structural, so
+// taking the strings picks up exactly what someone would type. This is already
+// the line printed on each card; it just wasn't searchable.
+const metaStrings = rec => Object.values(rec.meta ?? {}).filter(v => typeof v === 'string');
+
+// Memoised on first use: the old code rebuilt and lowercased a haystack for all
+// 4,068 records on every keystroke.
+const metaHay = rec => (rec._metaHay ??= metaStrings(rec).join(' ').toLowerCase());
+const hay = rec => (rec._hay ??= `${rec.name} ${rec.text} ${metaStrings(rec).join(' ')}`.toLowerCase());
+
 function textMatch(rec, toks) {
   if (!toks.length) return true;
-  const hay = (rec.name + ' ' + rec.text).toLowerCase();
-  return toks.every(t => hay.includes(t));
+  const h = hay(rec);
+  return toks.every(t => h.includes(t));
 }
 
 // A picker matches when some selected interaction pairs with the chosen key —
@@ -229,7 +242,10 @@ function relevanceRank(rec, q, toks) {
   if (name.startsWith(q)) return 1;
   if (name.includes(q)) return 2;
   if (toks.every(t => name.includes(t))) return 3;
-  return 4;
+  // Searching a creature or family should surface ITS effects above effects
+  // that merely mention the word in their rules text.
+  if (toks.every(t => metaHay(rec).includes(t))) return 4;
+  return 5;
 }
 
 // Returns a NEW array — callers slice it for display, so it must not alias the
