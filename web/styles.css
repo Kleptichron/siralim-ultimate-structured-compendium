@@ -254,6 +254,24 @@ select {
 .ichip.off { background: var(--chip-off); color: var(--debuff); border-color: var(--debuff); }
 .ichip.zero { opacity: .4; }
 
+.empty {
+  border: 1px dashed var(--border); border-radius: 8px;
+  padding: 22px 20px; margin-top: 4px; background: var(--panel);
+}
+.empty-title { margin: 0 0 10px; font-size: 1.0625rem; }
+.empty p.dim { margin: 0 0 10px; }
+.empty-acts { display: flex; flex-wrap: wrap; gap: 8px; }
+.empty-acts button {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+  padding: 7px 13px; border-radius: 6px; font: inherit; font-size: .9375rem;
+  background: var(--chip); color: var(--text); border: 1px solid var(--border);
+}
+.empty-acts button:hover { border-color: var(--accent); color: var(--accent); }
+.empty-acts .n {
+  padding: 0 7px; border-radius: 9px; font-size: .8125rem;
+  background: var(--chip-hit); color: var(--accent);
+}
+
 .card {
   background: var(--panel); border: 1px solid var(--border);
   border-radius: 8px; padding: 12px 16px; margin-bottom: 12px;

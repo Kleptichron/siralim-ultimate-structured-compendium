@@ -298,10 +298,6 @@ const MARKER_LABELS = {
   unmodeled: 'not fully modelled',
 };
 
-// How many results an exclusion actually removes. The plain count answers "how
-// many if I INCLUDE this", which is the wrong question once a value is
-// excluded — and is why excluding a 0-count value looks broken rather than
-// inert. Cheap: only ever computed for the handful of excluded values.
 // Shown from the FIRST selected value, not the second: with one selected the
 // two modes return the same records, but ALL re-counts everything else as "how
 // many co-occur with this", which is the only way to see which values can
@@ -320,6 +316,10 @@ function allModeToggle(group, selectedCount) {
     <span class="${all ? '' : 'sel'}">any</span><span class="${all ? 'sel' : ''}">all</span></span>`;
 }
 
+// How many results an exclusion actually removes. The plain count answers "how
+// many if I INCLUDE this", which is the wrong question once a value is
+// excluded — and is why excluding a 0-count value looks broken rather than
+// inert. Cheap: only ever computed for the handful of excluded values.
 function exclusionImpact(mutate) {
   const sub = cloneQuery(query);
   mutate(sub);
@@ -436,9 +436,9 @@ function renderFacets() {
   const scoped = anyRuleScopedFilter(query);
   el.innerHTML = `
     <button class="clear">Clear all filters</button>
-    <label class="samerule ${scoped ? '' : 'idle'}" title="Require one rule to satisfy every trigger/action/actor/target/interaction filter, instead of the record merely containing each somewhere. Only changes results when two or more of those filters are active.">
+    <label class="samerule ${scoped ? '' : 'idle'}" title="Action, actor, target, flow, qualifier and magnitude filters must all be satisfied by the SAME action, together with its rule's trigger and conditions. Untick to match them anywhere in the record. Only changes results when two or more such filters are active.">
       <input type="checkbox" id="samerule" ${query.sameRule ? 'checked' : ''}>
-      <span>Match within a single rule</span>
+      <span>Match within a single action</span>
     </label>
     ${facetSelectHtml('Creature family', 'families', facetCounts(index.records, query, 'families'))}
     ${PICKERS.map(pickerHtml).join('')}
@@ -627,19 +627,21 @@ function activeChips() {
   return chips;
 }
 
-function removeChip(kind) {
+// Takes the query to act on so the empty state can try removals on a copy
+// without disturbing what is on screen.
+function removeChip(q, kind) {
   const [head, ...rest] = kind.split(':');
-  if (head === 'q') { query.q = ''; $('#search').value = ''; return; }
-  if (head === 'pct') { query.pctMin = null; query.pctMax = null; return; }
+  if (head === 'q') { q.q = ''; return; }
+  if (head === 'pct') { q.pctMin = null; q.pctMax = null; return; }
   if (head === 'set' || head === 'ex') {
     const group = rest[0];
     const value = rest.slice(1).join(':'); // ids can contain ':'
-    (head === 'set' ? query[group] : query.excluded[group]).delete(value);
+    (head === 'set' ? q[group] : q.excluded[group]).delete(value);
     return;
   }
   if (head === 'pk') {
     const [id, which, ...iRest] = rest;
-    const sel = query.pickers[id];
+    const sel = q.pickers[id];
     if (which === 'key') sel.key = '';
     else sel[which === 'on' ? 'on' : 'off'].delete(iRest.join(':'));
   }
@@ -655,7 +657,11 @@ function renderActiveFilters() {
        title="Remove this filter">${attr(c.label)}<span class="x">×</span></button>`).join('')
     + '<button class="afclear">Clear all</button>';
   el.querySelectorAll('.afchip').forEach(b => {
-    b.onclick = () => { removeChip(b.dataset.kind); render({ push: true }); };
+    b.onclick = () => {
+      removeChip(query, b.dataset.kind);
+      if (b.dataset.kind === 'q') $('#search').value = '';
+      render({ push: true });
+    };
   });
   el.querySelector('.afclear').onclick = () => {
     const { q, sameRule, sort } = query;
@@ -664,12 +670,58 @@ function renderActiveFilters() {
   };
 }
 
+// Nothing matched. Rather than a bare "0 results", work out what would actually
+// help and offer it: 31% of two-chip combinations taken from one card drop that
+// card under action scoping, and 86% of those come back by relaxing the match
+// mode — so a blank screen is usually one click from what the reader wanted.
+function renderEmptyState() {
+  const el = $('#results');
+  if (query.recordId) { el.innerHTML = ''; return; } // the bar already explains
+  const options = [];
+
+  if (query.sameRule && anyRuleScopedFilter(query)) {
+    const relaxed = cloneQuery(query);
+    relaxed.sameRule = false;
+    const n = runQuery(index.records, relaxed).length;
+    if (n) {
+      options.push({ act: 'relax', label: `Match anywhere in the record instead`, n });
+    }
+  }
+  // Which single filter is costing the most? Cheap — a handful of active chips.
+  let best = null;
+  for (const c of activeChips()) {
+    const sub = cloneQuery(query);
+    removeChip(sub, c.kind);
+    const n = runQuery(index.records, sub).length;
+    // No added quotes: the text-query chip already carries its own.
+    if (n && (!best || n > best.n)) best = { act: 'drop', kind: c.kind, label: `Drop ${c.label}`, n };
+  }
+  if (best) options.push(best);
+
+  el.innerHTML = `<div class="empty">
+    <p class="empty-title">Nothing matches all of these filters.</p>
+    ${options.length
+      ? `<p class="dim">Closest ways back:</p><div class="empty-acts">${options.map(o =>
+          `<button data-act="${o.act}"${o.kind ? ` data-kind="${attr(o.kind)}"` : ''}>${attr(o.label)}
+             <span class="n">${num(o.n)}</span></button>`).join('')}</div>`
+      : '<p class="dim">Try removing a filter, or search for a creature or effect name.</p>'}
+  </div>`;
+  el.querySelectorAll('.empty-acts button').forEach(b => {
+    b.onclick = () => {
+      if (b.dataset.act === 'relax') query.sameRule = false;
+      else { removeChip(query, b.dataset.kind); if (b.dataset.kind === 'q') $('#search').value = ''; }
+      render({ push: true });
+    };
+  });
+}
+
 function paint() {
   lastResults = sortResults(runQuery(index.records, query), query);
   syncNavCount();
   renderResultBar();
   renderActiveFilters();
-  $('#results').innerHTML = lastResults.slice(0, query.shown).map(r => cardHtml(r, query)).join('');
+  if (lastResults.length === 0) renderEmptyState();
+  else $('#results').innerHTML = lastResults.slice(0, query.shown).map(r => cardHtml(r, query)).join('');
   renderMore();
   renderFacets();
 }
