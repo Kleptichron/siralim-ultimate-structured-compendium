@@ -191,6 +191,15 @@ main { padding: 16px 22px; max-width: 1180px; }
   font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
   color: var(--dim); margin: 0;
 }
+/* any/all switch — only rendered once a group holds two selected values. */
+.anyall {
+  display: inline-flex; margin-left: auto; border: 1px solid var(--border);
+  border-radius: 5px; overflow: hidden; font-size: .65rem; text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.anyall span { padding: 1px 5px; color: var(--dim); }
+.anyall span.sel { background: var(--chip-hit); color: var(--accent); }
+.anyall:hover { border-color: var(--accent); }
 /* How many values are active in a group — readable while it is collapsed. */
 .gcount {
   font-size: .7rem; padding: 0 6px; border-radius: 8px;

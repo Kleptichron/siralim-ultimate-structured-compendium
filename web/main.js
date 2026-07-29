@@ -1,7 +1,7 @@
 import {
   PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, cloneQuery, runQuery, sortResults,
   facetCounts, anyRuleScopedFilter, activeFilterCount, pctRangeActive,
-  queryToHash, hashToQuery,
+  canUseAllMode, isAllMode, queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
@@ -271,6 +271,17 @@ const MARKER_LABELS = {
 // many if I INCLUDE this", which is the wrong question once a value is
 // excluded — and is why excluding a 0-count value looks broken rather than
 // inert. Cheap: only ever computed for the handful of excluded values.
+// Shown only once two values are selected, and never for groups where a record
+// can hold just one — "source: cards AND traits" is always empty, so offering
+// it would be a trap rather than a feature.
+function allModeToggle(group, selectedCount) {
+  if (!canUseAllMode(group) || selectedCount < 2) return '';
+  const all = query.allOf.has(group);
+  return `<span class="anyall" data-group="${group}"
+    title="${all ? 'matching records carry ALL of these' : 'matching records carry ANY of these'} — click to switch">
+    <span class="${all ? '' : 'sel'}">any</span><span class="${all ? 'sel' : ''}">all</span></span>`;
+}
+
 function exclusionImpact(mutate) {
   const sub = cloneQuery(query);
   mutate(sub);
@@ -306,7 +317,7 @@ function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
   const open = active || !collapsed.has(group) ? ' open' : '';
   const badge = active ? `<span class="gcount">${selected.size + excluded.size}</span>` : '';
   return `<details class="facet-group" data-group="${group}"${open}>
-    <summary><h3>${title}</h3>${badge}</summary>${rows}</details>`;
+    <summary><h3>${title}</h3>${badge}${allModeToggle(group, selected.size)}</summary>${rows}</details>`;
 }
 
 // A dropdown instead of rows: 169 families would be an unusable list, and the
@@ -374,7 +385,7 @@ function pickerHtml(cfg) {
   const open = active || !collapsed.has(cfg.id) ? ' open' : '';
   const badge = active ? `<span class="gcount">${active}</span>` : '';
   return `<details class="facet-group" data-group="${cfg.id}"${open}>
-    <summary><h3>${cfg.title}</h3>${badge}</summary>
+    <summary><h3>${cfg.title}</h3>${badge}${allModeToggle(cfg.id, sel.on.size)}</summary>
     <select data-psel="${cfg.id}">${options.join('')}</select>
     <div class="ichips">${chips}</div></details>`;
 }
@@ -445,6 +456,15 @@ function renderFacets() {
   // parsing <details open> during the innerHTML rebuild fires toggle too, so a
   // group force-opened by an active filter would silently lose its default.
   // At click time `open` still holds the pre-click state.
+  el.querySelectorAll('.anyall').forEach(t => {
+    t.onclick = e => {
+      e.preventDefault();  // don't let the click collapse the group
+      e.stopPropagation();
+      const g = t.dataset.group;
+      if (query.allOf.has(g)) query.allOf.delete(g); else query.allOf.add(g);
+      render({ push: true });
+    };
+  });
   el.querySelectorAll('details[data-group] > summary').forEach(s => {
     s.onclick = () => {
       const d = s.parentElement;
@@ -538,19 +558,28 @@ function activeChips() {
   const chips = [];
   const add = (kind, label, off = false) => chips.push({ kind, label, off });
   const valueLabel = (g, v) => (g === 'markers' ? MARKER_LABELS[v] ?? v : String(v).replace(/_/g, ' '));
-  const prefix = g => (GROUP_LABEL[g] ? `${GROUP_LABEL[g]}: ` : '');
+  // Say "all" in the chip when the group demands every value — otherwise two
+  // chips look identical whether they mean AND or OR.
+  const prefix = (g, size) => {
+    const base = GROUP_LABEL[g] ? GROUP_LABEL[g] : '';
+    const all = isAllMode(query, g, size) ? (base ? ' (all)' : 'all: ') : '';
+    return base ? `${base}${all}: ` : all;
+  };
 
   if (query.q) add('q', `“${query.q}”`);
   for (const g of EXCLUDABLE) {
-    for (const v of query[g]) add(`set:${g}:${v}`, `${prefix(g)}${valueLabel(g, v)}`);
-    for (const v of query.excluded[g]) add(`ex:${g}:${v}`, `${prefix(g)}${valueLabel(g, v)}`, true);
+    for (const v of query[g]) add(`set:${g}:${v}`, `${prefix(g, query[g].size)}${valueLabel(g, v)}`);
+    for (const v of query.excluded[g]) add(`ex:${g}:${v}`, `${prefix(g, 0)}${valueLabel(g, v)}`, true);
   }
   for (const cfg of PICKERS) {
     const sel = query.pickers[cfg.id];
-    const noun = cfg.id;
-    if (sel.key) add(`pk:${cfg.id}:key`, `${noun}: ${sel.key}`);
-    for (const i of sel.on) add(`pk:${cfg.id}:on:${i}`, `${sel.key || `any ${noun}`} ${i.replace(/_/g, ' ')}`);
-    for (const i of sel.off) add(`pk:${cfg.id}:off:${i}`, `${sel.key || `any ${noun}`} ${i.replace(/_/g, ' ')}`, true);
+    // "(all)" goes at the END so it qualifies the whole chip — mid-phrase it
+    // read as "any status (all) grants", which parses as nonsense.
+    const suffix = isAllMode(query, cfg.id, sel.on.size) ? ' (all)' : '';
+    const subject = sel.key || `any ${cfg.id}`;
+    if (sel.key) add(`pk:${cfg.id}:key`, `${cfg.id}: ${sel.key}`);
+    for (const i of sel.on) add(`pk:${cfg.id}:on:${i}`, `${subject} ${i.replace(/_/g, ' ')}${suffix}`);
+    for (const i of sel.off) add(`pk:${cfg.id}:off:${i}`, `${subject} ${i.replace(/_/g, ' ')}`, true);
   }
   if (pctRangeActive(query)) {
     const lo = query.pctMin, hi = query.pctMax;

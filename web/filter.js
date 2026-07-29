@@ -47,6 +47,15 @@ export const EXCLUDABLE = [
 // handled separately because it lives on the record, not in its facet bag.
 const RECORD_LEVEL = ['markers', 'families'];
 
+// Groups where requiring ALL selected values is impossible by construction: a
+// record has exactly one source and one family, so an AND there is always zero.
+const NO_ALL_MODE = new Set(['types', 'families']);
+export const canUseAllMode = group => !NO_ALL_MODE.has(group);
+
+// Is this group currently in "match all" mode? One selected value makes ALL and
+// ANY identical, so the mode only bites from two.
+export const isAllMode = (query, group, size) => query.allOf.has(group) && size > 1;
+
 export function emptyQuery() {
   const pickers = {};
   for (const p of PICKERS) pickers[p.id] = { key: '', on: new Set(), off: new Set() };
@@ -70,6 +79,10 @@ export function emptyQuery() {
     // Percentage-magnitude range; null means unbounded on that side.
     pctMin: null,
     pctMax: null,
+    // Groups switched from "any of these" to "all of these". Evaluated at
+    // RECORD level: an action holds one verb and a rule one trigger, so "damages
+    // AND heals" can only ever be a statement about the whole effect.
+    allOf: new Set(),
     // Exclusion is RECORD-scoped even in same-rule mode: "not attack" means
     // this effect never attacks, not "some rule of it happens not to". Saying
     // hide-me and still seeing the thing would be the surprising reading.
@@ -119,6 +132,7 @@ export function queryToHash(query) {
   }
   if (!query.sameRule) p.set('same', '0'); // on is the default, so only note the opt-out
   if (pctRangeActive(query)) p.set('pct', `${query.pctMin ?? ''}-${query.pctMax ?? ''}`);
+  if (query.allOf.size) p.set('all', [...query.allOf].sort().join(','));
   if (query.sort !== SORTS[0].id) p.set('sort', query.sort);
   if (query.shown > PAGE) p.set('show', String(query.shown));
   // ',' ':' and '!' are all legal fragment characters — keep them literal so
@@ -148,6 +162,9 @@ export function hashToQuery(hash) {
     split(cut < 0 ? '' : raw.slice(cut + 1), query.pickers[cfg.id].on, query.pickers[cfg.id].off);
   }
   if (p.get('same') === '0') query.sameRule = false;
+  for (const g of String(p.get('all') ?? '').split(',').filter(Boolean)) {
+    if (canUseAllMode(g)) query.allOf.add(g);
+  }
   if (p.has('pct')) {
     const [lo, hi] = String(p.get('pct')).split('-');
     const num = s => (s !== '' && Number.isFinite(Number(s)) ? Number(s) : null);
@@ -185,6 +202,7 @@ export function cloneQuery(query) {
     ...query,
     ...Object.fromEntries(EXCLUDABLE.map(g => [g, new Set(query[g])])),
     excluded: Object.fromEntries(EXCLUDABLE.map(g => [g, new Set(query.excluded[g])])),
+    allOf: new Set(query.allOf),
     pickers,
   };
 }
@@ -218,12 +236,11 @@ function textMatch(rec, toks) {
 
 // A picker matches when some selected interaction pairs with the chosen key —
 // or, with no key chosen, pairs with ANY key ("removes any status").
-function pickerMatch(pairs, sel) {
+function pickerMatch(pairs, sel, all = false) {
   if (!sel.on.size) return true;
   if (!pairs) return false;
-  return [...sel.on].some(i =>
-    sel.key ? pairs.includes(`${sel.key}|${i}`) : pairs.some(p => p.endsWith(`|${i}`))
-  );
+  const hit = i => (sel.key ? pairs.includes(`${sel.key}|${i}`) : pairs.some(p => p.endsWith(`|${i}`)));
+  return all ? [...sel.on].every(hit) : [...sel.on].some(hit);
 }
 
 function anyPickerActive(query) {
@@ -246,6 +263,9 @@ export function anyRuleScopedFilter(query) {
 function satisfiesBag(f, query) {
   if (!f) return false;
   for (const g of RULE_SCOPED) {
+    // "All of these" is checked once against the record in runQuery — a single
+    // action can't hold two verbs, so demanding both of one bag finds nothing.
+    if (isAllMode(query, g, query[g].size)) continue;
     if (query[g].size && ![...query[g]].some(v => f[g]?.includes(v))) return false;
   }
   if (pctRangeActive(query)) {
@@ -262,6 +282,7 @@ function satisfiesBag(f, query) {
     if (!ok) return false;
   }
   for (const p of PICKERS) {
+    if (isAllMode(query, p.id, query.pickers[p.id].on.size)) continue; // record level
     if (!pickerMatch(f[p.facet], query.pickers[p.id])) return false;
   }
   return true;
@@ -310,6 +331,17 @@ export function runQuery(records, query) {
   const toks = tokens(query.q);
   return records.filter(rec => {
     if (query.types.size && !query.types.has(rec.type)) return false;
+    // "All of these" groups: the whole record must carry every selected value,
+    // wherever in it they occur.
+    for (const g of EXCLUDABLE) {
+      if (!isAllMode(query, g, query[g].size)) continue;
+      if (![...query[g]].every(v => rec.facets?.[g]?.includes(v))) return false;
+    }
+    for (const p of PICKERS) {
+      const sel = query.pickers[p.id];
+      if (!isAllMode(query, p.id, sel.on.size)) continue;
+      if (!pickerMatch(rec.facets?.[p.facet], sel, true)) return false;
+    }
     // Record-level like types, not rule-scoped — "does not stack" and "is an
     // Uralos effect" are properties of the whole record, not of one of its rules.
     for (const g of RECORD_LEVEL) {
