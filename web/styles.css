@@ -254,6 +254,57 @@ select {
 .ichip.off { background: var(--chip-off); color: var(--debuff); border-color: var(--debuff); }
 .ichip.zero { opacity: .4; }
 
+/* --- team builder --- */
+#build[hidden] { display: none; }
+/* The facet sidebar filters the corpus, not a build — it has nothing to say here. */
+body.building aside, body.building #navtoggle { display: none; }
+body.building .layout { grid-template-columns: 1fr; }
+#buildtoggle {
+  flex: none; padding: 7px 12px; border-radius: 6px; cursor: pointer; font: inherit;
+  font-size: .9375rem; background: var(--chip); color: var(--text);
+  border: 1px solid var(--border);
+}
+#buildtoggle:hover, #buildtoggle.on { border-color: var(--accent); color: var(--accent); }
+#buildtoggle.on { background: var(--chip-hit); }
+.bbar {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 12px;
+}
+.bnether { display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+.bnether input { accent-color: var(--accent); width: 15px; height: 15px; cursor: pointer; }
+.bclear {
+  margin-left: auto; padding: 6px 13px; border-radius: 6px; cursor: pointer; font: inherit;
+  font-size: .9375rem; background: var(--chip); color: var(--text); border: 1px solid var(--border);
+}
+.bclear:hover { border-color: var(--accent); color: var(--accent); }
+.bwarnings { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+.bwarning {
+  padding: 8px 12px; border-radius: 6px; font-size: .9375rem;
+  background: var(--chip-off); color: var(--debuff); border: 1px solid var(--debuff);
+}
+.bwarning.duplicate { background: var(--panel2); color: var(--text); border-color: var(--border); }
+.bsummary { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; font-size: .9375rem; }
+.bpill {
+  display: inline-block; margin: 2px 4px 2px 0; padding: 1px 9px;
+  border-radius: 10px; background: var(--chip);
+}
+.bteam { display: flex; flex-direction: column; gap: 18px; }
+.bcreature { border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+.bcreature-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+.bcreature-head h3 {
+  margin: 0; font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; color: var(--dim);
+}
+.bslots { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
+.bslot { display: flex; flex-direction: column; gap: 4px; flex: 1 1 200px; min-width: 0; }
+.bslot-label { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--dim); }
+.bslot input {
+  padding: 7px 10px; border-radius: 6px; font: inherit; font-size: .9375rem;
+  background: var(--bg); color: var(--text); border: 1px solid var(--border);
+}
+.bslot input:focus { outline: 1px solid var(--accent); }
+.bslot input.unknown { border-color: var(--debuff); }
+.bcard .card { margin-bottom: 8px; }
+.bcard.bwarn .card { border-color: var(--debuff); }
+
 .empty {
   border: 1px dashed var(--border); border-radius: 8px;
   padding: 22px 20px; margin-top: 4px; background: var(--panel);

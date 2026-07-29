@@ -4,6 +4,10 @@ import {
   canUseAllMode, isAllMode, chipApplied, queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
+import {
+  SLOTS, TRAITS_PER_CREATURE, SLOT_LABELS, emptyBuild, buildToParam, buildFromParam,
+  buildIsEmpty, buildWarnings, buildSummary,
+} from '/build.js';
 
 // Cards render at roughly 20µs each, so a 250-card chunk costs ~5ms while the
 // full 4,068 costs ~110ms. Revealing in chunks AND resetting on every query
@@ -11,6 +15,10 @@ import { initHighlight, cardHtml } from '/render.js';
 let index = null;
 let query = emptyQuery();
 let lastResults = [];
+let build = emptyBuild();
+let buildMode = false;
+let byId = new Map();       // trait lookup for the builder
+let traitByName = new Map();
 
 const $ = sel => document.querySelector(sel);
 
@@ -25,7 +33,7 @@ let urlTimer = null;
 //       'replace' — same search, new view (revealing more); write it now
 //       'defer'   — typing; coalesce so we do not replaceState per keystroke
 function syncUrl(mode) {
-  const s = queryToHash(query);
+  const s = modeHash();
   if (s === lastHash) return;
   lastHash = s;
   const url = s ? `#${s}` : location.pathname + location.search;
@@ -37,10 +45,16 @@ function syncUrl(mode) {
 function adoptUrl() {
   const incoming = location.hash.replace(/^#/, '');
   if (incoming === lastHash) return; // our own write echoing back
-  query = hashToQuery(incoming); // carries sort + reveal count
-  lastHash = queryToHash(query);
-  $('#search').value = query.q;
-  paint();
+  const params = new URLSearchParams(incoming);
+  buildMode = params.has('build');
+  if (buildMode) {
+    build = buildFromParam(params.get('build'), params.get('nether') === '1');
+  } else {
+    query = hashToQuery(incoming); // carries sort + reveal count
+    $('#search').value = query.q;
+  }
+  lastHash = modeHash();
+  applyMode();
 }
 
 const MB = n => `${(n / 1048576).toFixed(1)} MB`;
@@ -185,8 +199,19 @@ async function boot() {
   computeFacetOrder();
   $('#coverage').textContent =
     `${index.counts.tagged}/${index.counts.total} tagged · schema v${index.schemaVersion}`;
+  // Trait lookups for the builder: names are unique corpus-wide, so a
+  // type-ahead by name resolves to exactly one trait.
+  const traits = index.records.filter(r => r.type === 'traits');
+  byId = new Map(traits.map(r => [r.id, r]));
+  traitByName = new Map(traits.map(r => [r.name.toLowerCase(), r]));
+  $('#traitnames').innerHTML = traits
+    .map(r => `<option value="${attr(r.name)}">`).join('');
+
+  const bootParams = new URLSearchParams(location.hash.replace(/^#/, ''));
+  buildMode = bootParams.has('build');
+  if (buildMode) build = buildFromParam(bootParams.get('build'), bootParams.get('nether') === '1');
   query = hashToQuery(location.hash);
-  lastHash = queryToHash(query);
+  lastHash = modeHash();
   $('#search').value = query.q;
   $('#search').addEventListener('input', e => { query.q = e.target.value; render(); });
   document.addEventListener('keydown', e => {
@@ -195,6 +220,14 @@ async function boot() {
       $('#search').focus();
     }
   });
+  $('#buildtoggle').onclick = () => {
+    buildMode = !buildMode;
+    // Leaving an empty build should land on the search, not a stale hash.
+    lastHash = null;
+    syncUrl('push');
+    applyMode();
+  };
+
   // Open on desktop, shut on phones where it would cover the results.
   setNav(!narrow());
   $('#navtoggle').onclick = () => setNav(document.body.classList.contains('nav-closed'));
@@ -240,7 +273,7 @@ async function boot() {
   // popstate covers Back/Forward; hashchange covers editing the address bar.
   addEventListener('popstate', adoptUrl);
   addEventListener('hashchange', adoptUrl);
-  render();
+  applyMode();
   document.body.classList.add('ready');
   $('#boot').remove();
 }
@@ -713,6 +746,105 @@ function renderEmptyState() {
       render({ push: true });
     };
   });
+}
+
+// --- team builder ----------------------------------------------------------
+
+function creatureLabel(row) {
+  // Name the slot after whatever its innate pick belongs to, so the sheet reads
+  // as a team rather than a list of loose traits.
+  const rec = byId.get(row[0]);
+  return rec?.meta?.creature ? `${rec.meta.creature} · ${rec.meta.family}` : '';
+}
+
+function slotInputHtml(c, s, id) {
+  const rec = byId.get(id);
+  return `<label class="bslot">
+    <span class="bslot-label">${SLOT_LABELS[s]}</span>
+    <input list="traitnames" data-c="${c}" data-s="${s}" placeholder="trait name…"
+      value="${rec ? attr(rec.name) : ''}" class="${id && !rec ? 'unknown' : ''}">
+  </label>`;
+}
+
+function renderBuild() {
+  const el = $('#build');
+  const warnings = buildWarnings(build, byId);
+  const summary = buildSummary(build, byId);
+  const flagged = new Set(warnings.flatMap(w => w.places.map(p => `${p.creature}:${p.slot}`)));
+
+  const creatures = build.slots.map((row, c) => {
+    const shown = row.slice(0, build.nether ? TRAITS_PER_CREATURE : 3);
+    const cards = shown.map((id, s) => {
+      const rec = byId.get(id);
+      if (!rec) return '';
+      const warn = flagged.has(`${c}:${s}`) ? ' bwarn' : '';
+      return `<div class="bcard${warn}">${cardHtml(rec, query)}</div>`;
+    }).join('');
+    return `<section class="bcreature">
+      <header class="bcreature-head">
+        <h3>Creature ${c + 1}</h3><span class="dim">${attr(creatureLabel(row))}</span>
+      </header>
+      <div class="bslots">${shown.map((id, s) => slotInputHtml(c, s, id)).join('')}</div>
+      ${cards}
+    </section>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="bbar">
+      <label class="bnether"><input type="checkbox" id="netherbox" ${build.nether ? 'checked' : ''}>
+        <span>Nether stone 4th trait</span></label>
+      <span class="dim">${summary.count} trait${summary.count === 1 ? '' : 's'} chosen${
+        summary.noStack ? ` · ${summary.noStack} do not stack` : ''}</span>
+      <button class="bclear">Clear build</button>
+    </div>
+    ${warnings.length ? `<div class="bwarnings">${warnings.map(w =>
+      `<div class="bwarning ${w.severity}"><strong>${attr(w.name)}</strong> ${attr(w.note)}
+        <span class="dim">(${w.places.length} slots)</span></div>`).join('')}</div>` : ''}
+    ${summary.count ? `<div class="bsummary">
+      ${summary.statuses.length ? `<div><span class="dim">applies</span> ${summary.statuses.slice(0, 12)
+        .map(([n, c2]) => `<span class="bpill">${attr(n)}${c2 > 1 ? ` ×${c2}` : ''}</span>`).join('')}</div>` : ''}
+      ${summary.triggers.length ? `<div><span class="dim">fires on</span> ${summary.triggers.slice(0, 10)
+        .map(([n, c2]) => `<span class="bpill">${attr(n.replace(/_/g, ' '))}${c2 > 1 ? ` ×${c2}` : ''}</span>`).join('')}</div>` : ''}
+    </div>` : ''}
+    <div class="bteam">${creatures}</div>`;
+
+  el.querySelectorAll('.bslots input').forEach(input => {
+    input.onchange = () => {
+      const rec = traitByName.get(input.value.trim().toLowerCase());
+      build.slots[+input.dataset.c][+input.dataset.s] = rec ? rec.id : '';
+      if (input.value.trim() && !rec) return; // leave the typo visible to fix
+      renderMode({ push: true });
+    };
+  });
+  $('#netherbox').onchange = e => { build.nether = e.target.checked; renderMode({ push: true }); };
+  el.querySelector('.bclear').onclick = () => {
+    const nether = build.nether;
+    build = emptyBuild();
+    build.nether = nether;
+    renderMode({ push: true });
+  };
+}
+
+// Build mode owns the URL while active — writing the search query alongside it
+// would let one clobber the other on the next render.
+function modeHash() {
+  if (!buildMode) return queryToHash(query);
+  const p = buildToParam(build);
+  return `build=${p}${build.nether ? '&nether=1' : ''}`;
+}
+
+function renderMode({ push = false } = {}) {
+  if (!buildMode) { render({ push }); return; }
+  syncUrl(push ? 'push' : 'replace');
+  renderBuild();
+}
+
+function applyMode() {
+  $('#build').hidden = !buildMode;
+  for (const id of ['#resultbar', '#activefilters', '#results', '#more']) $(id).hidden = buildMode;
+  document.body.classList.toggle('building', buildMode);
+  $('#buildtoggle').classList.toggle('on', buildMode);
+  if (buildMode) renderBuild(); else paint();
 }
 
 function paint() {

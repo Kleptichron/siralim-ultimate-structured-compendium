@@ -13,8 +13,10 @@
     </button>
     <h1>SU Structured Compendium</h1>
     <input id="search" type="search" placeholder="Search names, creatures, effect text… ( / )" autocomplete="off">
+    <button id="buildtoggle" type="button">Build</button>
     <span id="coverage" class="dim"></span>
   </header>
+  <datalist id="traitnames"></datalist>
   <div id="backdrop" hidden></div>
   <div id="boot" role="status" aria-live="polite">
     <div class="boot-msg">Loading compendium…</div>
@@ -28,6 +30,7 @@
       <div id="activefilters"></div>
       <div id="results"></div>
       <div id="more"></div>
+      <div id="build" hidden></div>
     </main>
   </div>
   <script type="module" src="/main.js"></script>
