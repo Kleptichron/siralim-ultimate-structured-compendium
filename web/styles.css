@@ -14,8 +14,24 @@
   /* Sticky offsets are derived from this rather than a magic number, so the
      sidebar stays aligned when the header's type size changes. */
   --header-h: 58px;
+  /* Without this the browser paints light scrollbars and light dropdown menus
+     over a dark page — it has no other way to know the theme. */
+  color-scheme: dark;
 }
 * { box-sizing: border-box; }
+
+/* Standard properties (Firefox, Chromium 121+). */
+* { scrollbar-width: thin; scrollbar-color: var(--chip) transparent; }
+/* WebKit / older Chromium. Track stays transparent so the thumb reads as an
+   overlay rather than a chrome-coloured gutter. */
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--chip); border-radius: 7px;
+  border: 3px solid transparent; background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background: #3c434f; background-clip: padding-box; }
+::-webkit-scrollbar-corner { background: transparent; }
 body {
   margin: 0; background: var(--bg); color: var(--text);
   font: 1rem/1.5 system-ui, 'Segoe UI', sans-serif;
@@ -56,7 +72,8 @@ h1 { font-size: 1.15rem; margin: 0; color: var(--accent); white-space: nowrap; }
 .boot-track.indeterminate .boot-bar { width: 35%; animation: bootsweep 1.1s ease-in-out infinite; }
 @keyframes bootsweep { 0% { margin-left: -35%; } 100% { margin-left: 100%; } }
 @media (prefers-reduced-motion: reduce) {
-  aside { transition: none; }
+  aside, .layout { transition: none; }
+  .facet-group > summary::before { transition: none; }
   .boot-bar { transition: none; }
   .boot-track.indeterminate .boot-bar { animation: none; width: 100%; opacity: .4; }
 }
@@ -75,11 +92,15 @@ body:not(.ready) .layout { display: none; }
 /* Grid items default to min-width:auto, so one nowrap rule chip would widen the
    1fr column past the viewport and scroll the whole page sideways. */
 .layout > * { min-width: 0; }
-/* Desktop: collapsing gives the results the full width. Single column, not
-   "0 1fr" — the hidden aside leaves the grid, so main would be placed in that
-   first zero-width track and render 44px wide. */
-body.nav-closed .layout { grid-template-columns: 1fr; }
-body.nav-closed aside { display: none; }
+/* Desktop: collapsing gives the results the full width, animated by narrowing
+   the track. The aside must STAY IN FLOW while it shrinks — display:none would
+   drop it out of the grid and put main in the first (now zero-width) track,
+   rendering results 44px wide. Clipping and zero padding hide its contents. */
+.layout { transition: grid-template-columns .2s ease; }
+body.nav-closed .layout { grid-template-columns: 0 1fr; }
+body.nav-closed aside {
+  overflow: hidden; padding-left: 0; padding-right: 0; border-right-width: 0;
+}
 
 #navtoggle {
   display: flex; align-items: center; gap: 8px; flex: none;
@@ -105,6 +126,7 @@ aside {
   padding: 14px; border-right: 1px solid var(--border);
   height: calc(100vh - var(--header-h)); overflow-y: auto;
   position: sticky; top: var(--header-h);
+  transition: padding .2s ease; /* collapses in step with the track */
 }
 main { padding: 16px 22px; max-width: 1180px; }
 #resultbar {
@@ -247,8 +269,11 @@ button.clear:hover { border-color: var(--accent); }
     transform: translateX(-101%); transition: transform .18s ease;
   }
   body:not(.nav-closed) aside { transform: none; }
-  /* The desktop collapse rule must not also hide the drawer. */
-  body.nav-closed aside { display: block; }
+  /* The desktop collapse rule shrinks the aside to nothing; the drawer slides
+     instead, so undo those overrides here or it would arrive empty and padless. */
+  body.nav-closed aside {
+    display: block; overflow-y: auto; padding: 14px; border-right-width: 1px;
+  }
   #backdrop {
     position: fixed; inset: var(--header-h) 0 0; z-index: 20;
     background: rgba(0, 0, 0, .55);
