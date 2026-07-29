@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:taste-of-fear",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemies",
+        "params": {
+          "direction": "up",
+          "timing": "prevented"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Feared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "magnitude": {
+            "direction": "up"
+          },
+          "params": {
+            "effect": "gains the prevented stats instead",
+            "qualifier": "stolen"
+          },
+          "qualifiers": [
+            "stolen"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "0c731ccfb218"
+}

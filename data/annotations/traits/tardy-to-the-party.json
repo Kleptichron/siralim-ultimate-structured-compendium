@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:tardy-to-the-party",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "equipment",
+          "who": "allies",
+          "params": {
+            "what": "top-most Spell Gem",
+            "equals": "Party in the Back"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "allies",
+          "target": "allies",
+          "params": {
+            "spell": "Chrysalis",
+            "on": "themselves"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "dcf59529dae5"
+}

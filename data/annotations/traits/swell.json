@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:swell",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "scaleRef": "debuff_count",
+            "per": "debuff the target already has"
+          },
+          "params": {
+            "debuff": "random"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "063eff96c32e"
+}

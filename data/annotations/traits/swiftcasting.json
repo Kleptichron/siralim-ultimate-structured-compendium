@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:swiftcasting",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up",
+            "scaleStat": "Speed"
+          },
+          "params": {
+            "property": "potency",
+            "effect": "35% of Speed is added to Intelligence for spell potency"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "44288e28f116"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-end",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 40
+          },
+          "params": {
+            "of": "this creature"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "da6acbe5cc70"
+}

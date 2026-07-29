@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:surge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "6a0b3e3600d1"
+}

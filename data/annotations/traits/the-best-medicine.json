@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-best-medicine",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "allies",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "chance": 25,
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "random_enemy",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "effect": "the debuff is applied to a random enemy instead"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "33b880b11cc4"
+}

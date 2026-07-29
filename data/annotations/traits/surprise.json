@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:surprise",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "holder",
+          "params": {
+            "to": "top",
+            "always": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "216b8e086204"
+}

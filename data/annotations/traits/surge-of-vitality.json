@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:surge-of-vitality",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies",
+        "params": {
+          "alsoAfter": "being attacked"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "fef634e3121d"
+}

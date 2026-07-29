@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:sweeping-dragon-tail",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8e9bb0d41802"
+}

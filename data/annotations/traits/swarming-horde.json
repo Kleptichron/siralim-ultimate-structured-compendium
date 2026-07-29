@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:swarming-horde",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 4,
+            "direction": "up",
+            "scaleRef": "creatures_in_party",
+            "per": "creature of their same race fighting on your side"
+          },
+          "params": {
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e06694856678"
+}

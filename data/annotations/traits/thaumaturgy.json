@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:thaumaturgy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 7,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "permanent Sorcery Spell Gem equipped",
+            "cap": 3
+          },
+          "params": {
+            "spellClass": "Sorcery",
+            "capNote": "maximum of 3 Spell Gems per creature"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "31676bdb7186"
+}

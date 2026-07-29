@@ -19177,163 +19177,203 @@
     },
     "trait:surge": {
       "hash": "6a0b3e3600d1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:surge-of-vitality": {
       "hash": "fef634e3121d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:surprise": {
       "hash": "216b8e086204",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:surprise-treat": {
       "hash": "7680f91aaec1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sustain": {
       "hash": "862fed14f830",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:suture-technique": {
       "hash": "87392c6b85f5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:swarm": {
       "hash": "d72536ef1f33",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:swarm-of-bees": {
       "hash": "f4d4dd4f2336",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:swarming-horde": {
       "hash": "e06694856678",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sweeping-dragon-tail": {
       "hash": "8e9bb0d41802",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sweeping-smash": {
       "hash": "9f3a1f727a88",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:swell": {
       "hash": "063eff96c32e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:swelling-ranks": {
       "hash": "57e12d81a318",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:swiftcasting": {
       "hash": "44288e28f116",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sword-dance": {
       "hash": "fe3a22abfc76",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sword-of-will": {
       "hash": "b845c9987480",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sycophant": {
       "hash": "b3d9cd205b73",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:syndicate": {
       "hash": "744095294693",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:synthesis": {
       "hash": "b78791d9a117",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tacos-inflation": {
       "hash": "5846525fa7eb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tainted-blood": {
       "hash": "f898765154eb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tardy-to-the-party": {
       "hash": "dcf59529dae5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:taste-of-fear": {
       "hash": "0c731ccfb218",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tellur-s-fangs": {
       "hash": "aa4ee1677fb8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tellur-s-glands": {
       "hash": "633114fc2fd4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tellur-s-scales": {
       "hash": "2ce949158420",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:temperance": {
       "hash": "1e14e88c4998",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tempest": {
       "hash": "2824c2895335",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tender-of-earth": {
       "hash": "f1385d12ba95",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:terminus": {
       "hash": "ea533f89948f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:testu-oyakodon": {
       "hash": "9381936a97db",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thaumaturgy": {
       "hash": "31676bdb7186",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-best-medicine": {
       "hash": "33b880b11cc4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-black": {
       "hash": "9ba3679cfaea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-crimson": {
       "hash": "2e2f9a101431",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-end": {
       "hash": "da6acbe5cc70",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-end-of-all-things": {
       "hash": "02566a35b8de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-golden-sign": {
       "hash": "8e992de59569",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-great-beyond": {
       "hash": "cf6549fe8823",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-grudge": {
       "hash": "cfa8fa529190",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-high-hunt": {
       "hash": "74678f02f13f",

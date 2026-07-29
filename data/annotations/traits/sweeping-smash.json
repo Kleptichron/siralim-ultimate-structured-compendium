@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:sweeping-smash",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "adjacent_enemies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 70
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9f3a1f727a88"
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:testu-oyakodon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Savage"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Eggxotic"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Shelled"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "9381936a97db"
+}

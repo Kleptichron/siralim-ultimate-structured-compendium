@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:temperance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "scaleStat": "total_stats"
+          },
+          "params": {
+            "effect": "each stat set to the average of all their stats",
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1e14e88c4998"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-great-beyond",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "manual": false
+        }
+      },
+      "chance": 40,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "the automatic cast counts as a manual cast"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "casting spells manually"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cf6549fe8823"
+}

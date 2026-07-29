@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-grudge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Cursed"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "statuses": [
+            "Cursed"
+          ],
+          "magnitude": {
+            "scaleStat": "lowest_stat"
+          },
+          "params": {
+            "source": "Cursed",
+            "effect": "based on their lowest stat rather than attack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cfa8fa529190"
+}

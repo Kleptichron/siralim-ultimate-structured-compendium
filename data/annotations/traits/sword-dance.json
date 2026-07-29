@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:sword-dance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "any",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "effects that activate when a creature deals critical damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "fe3a22abfc76"
+}

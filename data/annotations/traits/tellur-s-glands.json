@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:tellur-s-glands",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "who": "holder",
+          "params": {
+            "what": "times damaged this battle",
+            "equals": 10
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 100
+          },
+          "params": {
+            "of": "damage taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "633114fc2fd4"
+}

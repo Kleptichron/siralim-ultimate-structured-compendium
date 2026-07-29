@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-end-of-all-things",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "adjacent_any",
+          "params": {
+            "what": "their end-of-turn effects",
+            "effect": "activate"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Does not work on creatures that also have this trait.",
+  "textHash": "02566a35b8de"
+}

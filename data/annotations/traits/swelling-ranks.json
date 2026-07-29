@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:swelling-ranks",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "actor": "holder",
+          "target": "allies",
+          "params": {
+            "minion": "a copy of one of the holder's minions",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "57e12d81a318"
+}

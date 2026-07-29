@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:tainted-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Poisoned",
+          "source": "Poisoned"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 35
+          },
+          "params": {
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f898765154eb"
+}

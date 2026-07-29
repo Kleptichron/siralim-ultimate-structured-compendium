@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:sycophant",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 125,
+            "direction": "up",
+            "scaleRef": "dead_creatures",
+            "per": "additional dead creature you have greater than the enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b3d9cd205b73"
+}

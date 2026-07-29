@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-black",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Poisoned",
+            "Blighted",
+            "Leeching",
+            "Mending"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "9ba3679cfaea"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-crimson",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "down"
+          },
+          "params": {
+            "source": "attacks",
+            "effect": "attack as if they have 40% less attack"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2e2f9a101431"
+}

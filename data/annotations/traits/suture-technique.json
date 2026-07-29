@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:suture-technique",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies",
+        "params": {
+          "source": "indirect damage"
+        }
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 20
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "87392c6b85f5"
+}

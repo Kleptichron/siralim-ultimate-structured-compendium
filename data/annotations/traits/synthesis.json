@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:synthesis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_minion_gained",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "highest_stat"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "highest_stat",
+            "scalePct": 30
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b78791d9a117"
+}

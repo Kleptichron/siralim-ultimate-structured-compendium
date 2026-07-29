@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:tempest",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellType": "single-target"
+        }
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "enemies",
+          "params": {
+            "copyOf": "that spell",
+            "on": "all the target's allies"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2824c2895335"
+}

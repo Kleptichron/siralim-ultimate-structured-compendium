@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:sustain",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 10
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "862fed14f830"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:syndicate",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies",
+        "params": {
+          "which": "their third turn"
+        }
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Godspawn"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "trigger_subject",
+          "params": {
+            "into": "their corresponding Avatar"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "744095294693"
+}

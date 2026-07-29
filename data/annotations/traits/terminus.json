@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:terminus",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "holder"
+        },
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "at": "100% health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ea533f89948f"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:tender-of-earth",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "actor": "holder",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "a random Spell Gem that belongs to their class",
+            "kind": "spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f1385d12ba95"
+}

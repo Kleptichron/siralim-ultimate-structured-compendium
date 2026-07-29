@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:sword-of-will",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "target",
+          "params": {
+            "exceeds": "300% of the target's lowest stat"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "target"
+        }
+      ]
+    }
+  ],
+  "textHash": "b845c9987480"
+}

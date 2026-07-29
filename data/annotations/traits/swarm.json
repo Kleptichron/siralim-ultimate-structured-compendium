@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:swarm",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Waspid"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 4,
+            "scaleRef": "creatures_in_party",
+            "per": "Waspid fighting on your side"
+          },
+          "params": {
+            "to": "top",
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d72536ef1f33"
+}

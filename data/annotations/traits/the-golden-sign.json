@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-golden-sign",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "branch": "A"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "allies",
+          "statuses": [
+            "Scorned"
+          ],
+          "params": {
+            "branch": "A"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "branch": "B"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "allies",
+          "statuses": [
+            "Silenced"
+          ],
+          "params": {
+            "branch": "B"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Either/or: branch A (attack + Scorned) or branch B (intelligence + Silenced), one of the two.",
+  "textHash": "8e992de59569"
+}

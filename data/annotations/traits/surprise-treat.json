@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:surprise-treat",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "what": "their on-buff effects",
+            "effect": "activate"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "races": [
+              "Dumpling",
+              "Mimic"
+            ]
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "their on-buff effects"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7680f91aaec1"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:swarm-of-bees",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "params": {
+            "repeats": "continuously",
+            "stopChance": "50% after each attack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f4d4dd4f2336"
+}
