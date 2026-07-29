@@ -1,17 +1,14 @@
 import {
-  PICKERS, emptyQuery, runQuery, facetCounts, anyRuleScopedFilter,
-  queryToHash, hashToQuery,
+  PICKERS, SORTS, PAGE, emptyQuery, runQuery, sortResults, facetCounts,
+  anyRuleScopedFilter, queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
 // Cards render at roughly 20µs each, so a 250-card chunk costs ~5ms while the
 // full 4,068 costs ~110ms. Revealing in chunks AND resetting on every query
 // change keeps typing cheap no matter how deep the reader has scrolled.
-const PAGE = 250;
-
 let index = null;
 let query = emptyQuery();
-let shown = PAGE;
 let lastResults = [];
 
 const $ = sel => document.querySelector(sel);
@@ -23,23 +20,25 @@ const $ = sel => document.querySelector(sel);
 let lastHash = null;
 let urlTimer = null;
 
-function syncUrl(push) {
+// mode: 'push'    — a distinct search, Back should undo it
+//       'replace' — same search, new view (revealing more); write it now
+//       'defer'   — typing; coalesce so we do not replaceState per keystroke
+function syncUrl(mode) {
   const s = queryToHash(query);
   if (s === lastHash) return;
   lastHash = s;
   const url = s ? `#${s}` : location.pathname + location.search;
   clearTimeout(urlTimer);
-  const apply = () => history[push ? 'pushState' : 'replaceState'](null, '', url);
-  if (push) apply(); else urlTimer = setTimeout(apply, 250);
+  const apply = () => history[mode === 'push' ? 'pushState' : 'replaceState'](null, '', url);
+  if (mode === 'defer') urlTimer = setTimeout(apply, 250); else apply();
 }
 
 function adoptUrl() {
   const incoming = location.hash.replace(/^#/, '');
   if (incoming === lastHash) return; // our own write echoing back
-  query = hashToQuery(incoming);
+  query = hashToQuery(incoming); // carries sort + reveal count
   lastHash = queryToHash(query);
   $('#search').value = query.q;
-  shown = PAGE;
   paint();
 }
 
@@ -115,11 +114,9 @@ function renderFacets() {
     ${facetGroupHtml('Target (who it hits)', 'targets', query.targets, facetCounts(index.records, query, 'targets'), v => v.replace(/_/g, ' '))}
   `;
   el.querySelector('.clear').onclick = () => {
-    const q = query.q;
-    const sameRule = query.sameRule;
-    query = emptyQuery();
-    query.q = q;
-    query.sameRule = sameRule;
+    // Text, match mode and sort are not filters — clearing filters keeps them.
+    const { q, sameRule, sort } = query;
+    query = Object.assign(emptyQuery(), { q, sameRule, sort });
     render({ push: true });
   };
   el.querySelector('#samerule').onchange = e => {
@@ -141,47 +138,55 @@ const num = n => n.toLocaleString();
 
 function renderResultBar() {
   const total = lastResults.length;
-  const visible = Math.min(shown, total);
-  $('#resultbar').textContent = total > visible
+  const visible = Math.min(query.shown, total);
+  const count = total > visible
     ? `showing ${num(visible)} of ${num(total)} results`
     : `${num(total)} result${total === 1 ? '' : 's'}`;
+  const opts = SORTS.map(s =>
+    `<option value="${s.id}" ${query.sort === s.id ? 'selected' : ''}>${s.label}</option>`).join('');
+  $('#resultbar').innerHTML =
+    `<span>${count}</span><label class="sort">sort <select id="sort">${opts}</select></label>`;
+  $('#sort').onchange = e => { query.sort = e.target.value; render({ push: true }); };
 }
 
 function renderMore() {
-  const remaining = lastResults.length - Math.min(shown, lastResults.length);
+  const remaining = lastResults.length - Math.min(query.shown, lastResults.length);
   const el = $('#more');
   if (remaining <= 0) { el.innerHTML = ''; return; }
   const next = Math.min(PAGE, remaining);
   el.innerHTML = `
-    <button class="showmore" data-n="${next}">Show ${num(next)} more</button>
+    <button class="showmore">Show ${num(next)} more</button>
     ${remaining > next ? `<button class="showall">Show all ${num(lastResults.length)}</button>` : ''}
     <span class="dim">${num(remaining)} not shown</span>`;
-  el.querySelector('.showmore').onclick = () => reveal(shown + PAGE);
+  el.querySelector('.showmore').onclick = () => reveal(query.shown + PAGE);
   el.querySelector('.showall')?.addEventListener('click', () => reveal(lastResults.length));
 }
 
 // Append only the newly revealed cards: the ones already on screen are
 // unchanged, and the facet sidebar does not depend on how many are visible.
+// Revealing more is not a new search, so it replaces the history entry rather
+// than pushing one — the URL still updates, so the link stays copyable.
 function reveal(upTo) {
-  const from = shown;
-  shown = Math.min(upTo, lastResults.length);
+  const from = query.shown;
+  query.shown = Math.min(upTo, lastResults.length);
   $('#results').insertAdjacentHTML('beforeend',
-    lastResults.slice(from, shown).map(r => cardHtml(r, query)).join(''));
+    lastResults.slice(from, query.shown).map(r => cardHtml(r, query)).join(''));
+  syncUrl('replace');
   renderResultBar();
   renderMore();
 }
 
 function paint() {
-  lastResults = runQuery(index.records, query);
+  lastResults = sortResults(runQuery(index.records, query), query);
   renderResultBar();
-  $('#results').innerHTML = lastResults.slice(0, shown).map(r => cardHtml(r, query)).join('');
+  $('#results').innerHTML = lastResults.slice(0, query.shown).map(r => cardHtml(r, query)).join('');
   renderMore();
   renderFacets();
 }
 
 function render({ push = false } = {}) {
-  shown = PAGE; // a new query starts at the top
-  syncUrl(push);
+  query.shown = PAGE; // a new query starts at the top
+  syncUrl(push ? 'push' : 'defer');
   paint();
 }
 

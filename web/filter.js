@@ -17,6 +17,17 @@ export const PICKERS = [
 // (free text, source type) is a property of the record as a whole.
 const RULE_SCOPED = ['triggers', 'verbs', 'actors', 'targets'];
 
+// How many results a reveal step adds, and the serialization default for it.
+export const PAGE = 250;
+
+// First entry is the default. 'relevance' with no text query is identical to
+// 'source', so the out-of-the-box order is unchanged until you actually search.
+export const SORTS = [
+  { id: 'relevance', label: 'Relevance' },
+  { id: 'name', label: 'Name A–Z' },
+  { id: 'source', label: 'Source' },
+];
+
 export function emptyQuery() {
   const pickers = {};
   for (const p of PICKERS) pickers[p.id] = { key: '', on: new Set() };
@@ -31,6 +42,10 @@ export function emptyQuery() {
     // Default ON: "start of battle AND inflicts a debuff" should mean one rule
     // does both, not that the record happens to contain each somewhere.
     sameRule: true,
+    sort: SORTS[0].id,
+    // View state, not a filter: how many results have been revealed. Lives here
+    // so it round-trips through the URL with everything else.
+    shown: PAGE,
     showUntagged: true,
   };
 }
@@ -55,6 +70,8 @@ export function queryToHash(query) {
     p.set(cfg.id, `${sel.key}:${[...sel.on].sort().join(',')}`);
   }
   if (!query.sameRule) p.set('same', '0'); // on is the default, so only note the opt-out
+  if (query.sort !== SORTS[0].id) p.set('sort', query.sort);
+  if (query.shown > PAGE) p.set('show', String(query.shown));
   // ',' and ':' are legal fragment characters — keep them literal so the URL
   // stays readable. Everything else keeps standard form encoding.
   return p.toString().replace(/%2C/g, ',').replace(/%3A/g, ':');
@@ -77,6 +94,11 @@ export function hashToQuery(hash) {
     }
   }
   if (p.get('same') === '0') query.sameRule = false;
+  if (SORTS.some(s => s.id === p.get('sort'))) query.sort = p.get('sort');
+  // Clamp hard: a negative `show` would turn slice(0, n) into "drop the last n",
+  // silently hiding results. Unparseable values fall back to the default.
+  const show = Number.parseInt(p.get('show') ?? '', 10);
+  query.shown = Number.isFinite(show) ? Math.max(PAGE, show) : PAGE;
   return query;
 }
 
@@ -152,6 +174,38 @@ export function runQuery(records, query) {
     if (!textMatch(rec, toks)) return false;
     return facetMatch(rec, query);
   });
+}
+
+// Cheap, explainable ranking: a hit in the NAME beats a hit in the body text,
+// and an exact/prefix name hit beats a scattered one. No corpus statistics —
+// this is a lookup tool, not a search engine, and a rule you can predict beats
+// a score you can't.
+function relevanceRank(rec, q, toks) {
+  const name = rec.name.toLowerCase();
+  if (!toks.length) return 0;
+  if (name === q) return 0;
+  if (name.startsWith(q)) return 1;
+  if (name.includes(q)) return 2;
+  if (toks.every(t => name.includes(t))) return 3;
+  return 4;
+}
+
+// Returns a NEW array — callers slice it for display, so it must not alias the
+// filtered result.
+export function sortResults(results, query) {
+  const byName = (a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id);
+  if (query.sort === 'name') return [...results].sort(byName);
+  if (query.sort === 'source') {
+    return [...results].sort((a, b) => a.type.localeCompare(b.type) || byName(a, b));
+  }
+  const q = query.q.trim().toLowerCase();
+  const toks = tokens(query.q);
+  if (!toks.length) return [...results]; // nothing to rank by: keep corpus order
+  const rank = new Map(results.map(r => [r.id, relevanceRank(r, q, toks)]));
+  // Index tie-break keeps the sort stable and predictable within a rank.
+  const pos = new Map(results.map((r, i) => [r.id, i]));
+  return [...results].sort((a, b) =>
+    rank.get(a.id) - rank.get(b.id) || pos.get(a.id) - pos.get(b.id));
 }
 
 // Counts follow the standard facet convention: apply every filter EXCEPT the

@@ -35,7 +35,12 @@ aside {
   height: calc(100vh - 49px); overflow-y: auto; position: sticky; top: 49px;
 }
 main { padding: 12px 18px; max-width: 1000px; }
-#resultbar { margin-bottom: 10px; }
+#resultbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; margin-bottom: 10px;
+}
+.sort { display: flex; align-items: center; gap: 6px; }
+.sort select { font: inherit; }
 
 .facet-group { margin-bottom: 18px; }
 .facet-group h3 {
