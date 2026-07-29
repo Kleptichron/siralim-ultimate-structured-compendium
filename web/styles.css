@@ -147,6 +147,26 @@ main { padding: 16px 22px; max-width: 1180px; }
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px; margin-bottom: 12px;
 }
+#activefilters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+#activefilters:empty { display: none; }
+.afchip {
+  display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
+  padding: 3px 8px 3px 10px; border-radius: 11px; font: inherit; font-size: .875rem;
+  background: var(--chip-hit); color: var(--accent);
+  border: 1px solid var(--accent);
+}
+/* Excluded chips mirror the sidebar: same shape, red instead of gold. */
+.afchip.off { background: var(--chip-off); color: var(--debuff); border-color: var(--debuff); }
+.afchip.off::before { content: '\2212'; font-weight: 700; }
+.afchip .x { font-size: 1.05rem; line-height: 1; opacity: .7; }
+.afchip:hover .x { opacity: 1; }
+.afchip:hover { filter: brightness(1.25); }
+.afclear {
+  padding: 3px 10px; border-radius: 11px; cursor: pointer; font: inherit;
+  font-size: .875rem; background: none; color: var(--dim);
+  border: 1px solid var(--border);
+}
+.afclear:hover { border-color: var(--accent); color: var(--accent); }
 .showall-link {
   padding: 5px 12px; border-radius: 6px; cursor: pointer; font: inherit;
   font-size: .875rem; background: var(--chip); color: var(--text);

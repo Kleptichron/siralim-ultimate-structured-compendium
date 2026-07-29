@@ -1,6 +1,6 @@
 import {
   PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, runQuery, sortResults, facetCounts,
-  anyRuleScopedFilter, activeFilterCount, queryToHash, hashToQuery,
+  anyRuleScopedFilter, activeFilterCount, pctRangeActive, queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
@@ -252,6 +252,13 @@ const collapsed = new Set([
   'class', 'race', // the two narrowest key pickers; status and stat stay open
 ]);
 
+// Short names for the summary chips, where the sidebar's headings are too long.
+const GROUP_LABEL = {
+  types: 'source', triggers: 'when', verbs: 'action', actors: 'actor',
+  targets: 'target', conditions: 'if', flows: 'flow', scaleRefs: 'scales with',
+  tiers: 'tier', qualifiers: 'qualifier', markers: '', families: 'family',
+};
+
 const MARKER_LABELS = {
   noStack: 'does not stack',
   chanceBased: 'chance-based',
@@ -493,10 +500,81 @@ function syncNavCount() {
   $('#navcount').textContent = n ? String(n) : '';
 }
 
+const attr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+
+// Every filter currently applied, as one removable chip each. With 16 groups
+// and most collapsed by default, the sidebar alone can't answer "why am I
+// seeing these results" — and when it's collapsed or drawered it isn't even on
+// screen. Sort and match-mode are deliberately absent: they shape the ordering
+// and the reading, not which records qualify.
+function activeChips() {
+  const chips = [];
+  const add = (kind, label, off = false) => chips.push({ kind, label, off });
+  const valueLabel = (g, v) => (g === 'markers' ? MARKER_LABELS[v] ?? v : String(v).replace(/_/g, ' '));
+  const prefix = g => (GROUP_LABEL[g] ? `${GROUP_LABEL[g]}: ` : '');
+
+  if (query.q) add('q', `“${query.q}”`);
+  for (const g of EXCLUDABLE) {
+    for (const v of query[g]) add(`set:${g}:${v}`, `${prefix(g)}${valueLabel(g, v)}`);
+    for (const v of query.excluded[g]) add(`ex:${g}:${v}`, `${prefix(g)}${valueLabel(g, v)}`, true);
+  }
+  for (const cfg of PICKERS) {
+    const sel = query.pickers[cfg.id];
+    const noun = cfg.id;
+    if (sel.key) add(`pk:${cfg.id}:key`, `${noun}: ${sel.key}`);
+    for (const i of sel.on) add(`pk:${cfg.id}:on:${i}`, `${sel.key || `any ${noun}`} ${i.replace(/_/g, ' ')}`);
+    for (const i of sel.off) add(`pk:${cfg.id}:off:${i}`, `${sel.key || `any ${noun}`} ${i.replace(/_/g, ' ')}`, true);
+  }
+  if (pctRangeActive(query)) {
+    const lo = query.pctMin, hi = query.pctMax;
+    const range = lo !== null && hi !== null ? `${lo}–${hi}%` : lo !== null ? `≥ ${lo}%` : `≤ ${hi}%`;
+    add('pct', `magnitude ${range}`);
+  }
+  return chips;
+}
+
+function removeChip(kind) {
+  const [head, ...rest] = kind.split(':');
+  if (head === 'q') { query.q = ''; $('#search').value = ''; return; }
+  if (head === 'pct') { query.pctMin = null; query.pctMax = null; return; }
+  if (head === 'set' || head === 'ex') {
+    const group = rest[0];
+    const value = rest.slice(1).join(':'); // ids can contain ':'
+    (head === 'set' ? query[group] : query.excluded[group]).delete(value);
+    return;
+  }
+  if (head === 'pk') {
+    const [id, which, ...iRest] = rest;
+    const sel = query.pickers[id];
+    if (which === 'key') sel.key = '';
+    else sel[which === 'on' ? 'on' : 'off'].delete(iRest.join(':'));
+  }
+}
+
+function renderActiveFilters() {
+  const el = $('#activefilters');
+  // In permalink mode the result bar already explains the view.
+  const chips = query.recordId ? [] : activeChips();
+  if (!chips.length) { el.innerHTML = ''; return; }
+  el.innerHTML = chips.map(c =>
+    `<button class="afchip ${c.off ? 'off' : ''}" data-kind="${attr(c.kind)}"
+       title="Remove this filter">${attr(c.label)}<span class="x">×</span></button>`).join('')
+    + '<button class="afclear">Clear all</button>';
+  el.querySelectorAll('.afchip').forEach(b => {
+    b.onclick = () => { removeChip(b.dataset.kind); render({ push: true }); };
+  });
+  el.querySelector('.afclear').onclick = () => {
+    const { q, sameRule, sort } = query;
+    query = Object.assign(emptyQuery(), { q, sameRule, sort });
+    render({ push: true });
+  };
+}
+
 function paint() {
   lastResults = sortResults(runQuery(index.records, query), query);
   syncNavCount();
   renderResultBar();
+  renderActiveFilters();
   $('#results').innerHTML = lastResults.slice(0, query.shown).map(r => cardHtml(r, query)).join('');
   renderMore();
   renderFacets();

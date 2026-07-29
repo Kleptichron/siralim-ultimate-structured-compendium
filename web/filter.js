@@ -164,8 +164,10 @@ export function hashToQuery(hash) {
 
 // How many filter values are set, for the Filters button — the count is the
 // only cue that filters are active while the sidebar is collapsed or drawered.
+// Counts the text query too, so this always equals the number of summary chips.
+// Two visible numbers disagreeing reads as a bug, whatever the distinction.
 export function activeFilterCount(query) {
-  let n = pctRangeActive(query) ? 1 : 0;
+  let n = (pctRangeActive(query) ? 1 : 0) + (query.q ? 1 : 0);
   for (const g of EXCLUDABLE) n += query[g].size + query.excluded[g].size;
   for (const cfg of PICKERS) {
     const sel = query.pickers[cfg.id];
