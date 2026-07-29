@@ -144,6 +144,12 @@ const metaStrings = rec => Object.values(rec.meta ?? {}).filter(v => typeof v ==
 // Memoised on first use: the old code rebuilt and lowercased a haystack for all
 // 4,068 records on every keystroke.
 const metaHay = rec => (rec._metaHay ??= metaStrings(rec).join(' ').toLowerCase());
+// The fields that NAME the thing, as opposed to describing it. Kept separate
+// from metaHay because class and material must stay searchable without
+// affecting rank — otherwise searching "Chaos" would bury "Chaos Bolt" among
+// every Chaos-class record.
+const identityHay = rec =>
+  (rec._idHay ??= [rec.meta?.family, rec.meta?.creature].filter(Boolean).join(' ').toLowerCase());
 const hay = rec => (rec._hay ??= `${rec.name} ${rec.text} ${metaStrings(rec).join(' ')}`.toLowerCase());
 
 function textMatch(rec, toks) {
@@ -238,10 +244,18 @@ export function runQuery(records, query) {
 function relevanceRank(rec, q, toks) {
   const name = rec.name.toLowerCase();
   if (!toks.length) return 0;
-  if (name === q) return 0;
-  if (name.startsWith(q)) return 1;
-  if (name.includes(q)) return 2;
-  if (toks.every(t => name.includes(t))) return 3;
+  if (name === q) return 0; // an exact name hit always wins outright
+  // A name hit that the record's own identity already explains is the same fact
+  // restated, not a stronger signal: "Toxdweller Cards (2 collected)" contains
+  // the word only because its family IS Toxdweller. Awarding it a name-tier
+  // rank pushed the derived card names ahead of that family's actual creature
+  // traits, which is not what someone typing a creature name is looking for.
+  const isIdentity = toks.every(t => identityHay(rec).includes(t));
+  if (!isIdentity) {
+    if (name.startsWith(q)) return 1;
+    if (name.includes(q)) return 2;
+    if (toks.every(t => name.includes(t))) return 3;
+  }
   // Searching a creature or family should surface ITS effects above effects
   // that merely mention the word in their rules text.
   if (toks.every(t => metaHay(rec).includes(t))) return 4;
