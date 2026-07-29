@@ -28,9 +28,12 @@ export const SORTS = [
   { id: 'source', label: 'Source' },
 ];
 
+// Groups that support exclusion, i.e. every value-list group.
+export const EXCLUDABLE = ['types', 'triggers', 'verbs', 'actors', 'targets'];
+
 export function emptyQuery() {
   const pickers = {};
-  for (const p of PICKERS) pickers[p.id] = { key: '', on: new Set() };
+  for (const p of PICKERS) pickers[p.id] = { key: '', on: new Set(), off: new Set() };
   return {
     q: '',
     types: new Set(),
@@ -38,6 +41,10 @@ export function emptyQuery() {
     verbs: new Set(),
     actors: new Set(),
     targets: new Set(),
+    // Exclusion is RECORD-scoped even in same-rule mode: "not attack" means
+    // this effect never attacks, not "some rule of it happens not to". Saying
+    // hide-me and still seeing the thing would be the surprising reading.
+    excluded: Object.fromEntries(EXCLUDABLE.map(g => [g, new Set()])),
     pickers,
     // Default ON: "start of battle AND inflicts a debuff" should mean one rule
     // does both, not that the record happens to contain each somewhere.
@@ -58,40 +65,49 @@ const SET_PARAMS = [
   ['actor', 'actors'], ['target', 'targets'],
 ];
 
+// Excluded values ride in the same param with a '!' prefix, so the relationship
+// stays visible: do=apply_status,!attack. No facet value starts with '!'.
+const withExclusions = (inc, exc) =>
+  [...[...inc].sort(), ...[...exc].sort().map(v => `!${v}`)].join(',');
+
 export function queryToHash(query) {
   const p = new URLSearchParams();
   if (query.q) p.set('q', query.q);
   for (const [param, group] of SET_PARAMS) {
-    if (query[group].size) p.set(param, [...query[group]].sort().join(','));
+    const v = withExclusions(query[group], query.excluded[group]);
+    if (v) p.set(param, v);
   }
   for (const cfg of PICKERS) {
     const sel = query.pickers[cfg.id];
-    if (!sel.key && !sel.on.size) continue;
-    p.set(cfg.id, `${sel.key}:${[...sel.on].sort().join(',')}`);
+    if (!sel.key && !sel.on.size && !sel.off.size) continue;
+    p.set(cfg.id, `${sel.key}:${withExclusions(sel.on, sel.off)}`);
   }
   if (!query.sameRule) p.set('same', '0'); // on is the default, so only note the opt-out
   if (query.sort !== SORTS[0].id) p.set('sort', query.sort);
   if (query.shown > PAGE) p.set('show', String(query.shown));
-  // ',' and ':' are legal fragment characters — keep them literal so the URL
-  // stays readable. Everything else keeps standard form encoding.
-  return p.toString().replace(/%2C/g, ',').replace(/%3A/g, ':');
+  // ',' ':' and '!' are all legal fragment characters — keep them literal so
+  // the URL stays readable. Everything else keeps standard form encoding.
+  return p.toString().replace(/%2C/g, ',').replace(/%3A/g, ':').replace(/%21/g, '!');
 }
 
 export function hashToQuery(hash) {
   const query = emptyQuery();
   const p = new URLSearchParams(String(hash).replace(/^#/, ''));
+  const split = (raw, inc, exc) => {
+    for (const v of String(raw ?? '').split(',').filter(Boolean)) {
+      if (v.startsWith('!')) { if (v.length > 1) exc.add(v.slice(1)); } else inc.add(v);
+    }
+  };
   query.q = p.get('q') ?? '';
   for (const [param, group] of SET_PARAMS) {
-    for (const v of (p.get(param) ?? '').split(',').filter(Boolean)) query[group].add(v);
+    split(p.get(param), query[group], query.excluded[group]);
   }
   for (const cfg of PICKERS) {
     const raw = p.get(cfg.id);
     if (raw === null) continue;
     const cut = raw.indexOf(':');
     query.pickers[cfg.id].key = cut < 0 ? raw : raw.slice(0, cut);
-    for (const v of (cut < 0 ? '' : raw.slice(cut + 1)).split(',').filter(Boolean)) {
-      query.pickers[cfg.id].on.add(v);
-    }
+    split(cut < 0 ? '' : raw.slice(cut + 1), query.pickers[cfg.id].on, query.pickers[cfg.id].off);
   }
   if (p.get('same') === '0') query.sameRule = false;
   if (SORTS.some(s => s.id === p.get('sort'))) query.sort = p.get('sort');
@@ -104,11 +120,15 @@ export function hashToQuery(hash) {
 
 export function cloneQuery(query) {
   const pickers = {};
-  for (const [id, p] of Object.entries(query.pickers)) pickers[id] = { key: p.key, on: new Set(p.on) };
+  for (const [id, p] of Object.entries(query.pickers)) {
+    pickers[id] = { key: p.key, on: new Set(p.on), off: new Set(p.off) };
+  }
   return {
     ...query,
     types: new Set(query.types), triggers: new Set(query.triggers), verbs: new Set(query.verbs),
-    actors: new Set(query.actors), targets: new Set(query.targets), pickers,
+    actors: new Set(query.actors), targets: new Set(query.targets),
+    excluded: Object.fromEntries(EXCLUDABLE.map(g => [g, new Set(query.excluded[g])])),
+    pickers,
   };
 }
 
@@ -166,12 +186,36 @@ function facetMatch(rec, query) {
   return satisfiesBag(rec.facets, query);
 }
 
+// Record-scoped by design (see emptyQuery): if ANY rule of the record carries
+// an excluded value, the record is out. Evaluated against the union bag, which
+// is exactly "does this effect ever do X".
+function isExcluded(rec, query) {
+  if (query.excluded.types.has(rec.type)) return true;
+  const f = rec.facets;
+  if (!f) return false;
+  for (const g of EXCLUDABLE) {
+    if (g === 'types') continue;
+    for (const v of query.excluded[g]) if (f[g]?.includes(v)) return true;
+  }
+  for (const cfg of PICKERS) {
+    const sel = query.pickers[cfg.id];
+    const pairs = f[cfg.facet];
+    if (!sel.off.size || !pairs) continue;
+    for (const i of sel.off) {
+      const hit = sel.key ? pairs.includes(`${sel.key}|${i}`) : pairs.some(p => p.endsWith(`|${i}`));
+      if (hit) return true;
+    }
+  }
+  return false;
+}
+
 export function runQuery(records, query) {
   const toks = tokens(query.q);
   return records.filter(rec => {
     if (query.types.size && !query.types.has(rec.type)) return false;
     if (!query.showUntagged && !rec.rules) return false;
     if (!textMatch(rec, toks)) return false;
+    if (isExcluded(rec, query)) return false;
     return facetMatch(rec, query);
   });
 }
@@ -213,14 +257,12 @@ export function sortResults(results, query) {
 // perInteraction counts records having ANY key with that interaction.
 export function facetCounts(records, query, group) {
   const sub = cloneQuery(query);
-  if (group === 'types') sub.types = new Set();
-  else if (group === 'triggers') sub.triggers = new Set();
-  else if (group === 'verbs') sub.verbs = new Set();
-  else if (group === 'actors') sub.actors = new Set();
-  else if (group === 'targets') sub.targets = new Set();
-  else if (group.startsWith('picker:')) {
+  if (EXCLUDABLE.includes(group)) {
+    sub[group] = new Set();
+    sub.excluded[group] = new Set(); // clearing a group clears BOTH its states
+  } else if (group.startsWith('picker:')) {
     const id = group.slice(7);
-    sub.pickers[id] = { key: '', on: new Set() };
+    sub.pickers[id] = { key: '', on: new Set(), off: new Set() };
   }
   const pool = runQuery(records, sub);
   // In same-rule mode a count must answer "how many results if I ALSO pick

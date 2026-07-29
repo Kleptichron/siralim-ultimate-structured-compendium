@@ -53,6 +53,10 @@ main { padding: 12px 18px; max-width: 1000px; }
 }
 .fv:hover { background: var(--panel2); }
 .fv.on { background: var(--chip-hit); color: var(--accent); }
+/* Excluded: struck through and in the debuff colour — reads as "hide this". */
+.fv.off { color: var(--debuff); }
+.fv.off span:first-child { text-decoration: line-through; }
+.fv.off::before, .ichip.off::before { content: '−'; margin-right: 4px; font-weight: 700; }
 .fv .n { color: var(--dim); font-size: 12px; }
 .fv.zero { opacity: .35; }
 select, .ichips { width: 100%; margin-bottom: 6px; }
@@ -66,6 +70,7 @@ select {
   font-size: 12px; cursor: pointer; border: 1px solid transparent;
 }
 .ichip.on { background: var(--chip-hit); color: var(--accent); border-color: var(--accent); }
+.ichip.off { color: var(--debuff); border-color: var(--debuff); text-decoration: line-through; }
 .ichip.zero { opacity: .4; }
 
 .card {

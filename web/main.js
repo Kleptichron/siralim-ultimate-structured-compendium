@@ -63,15 +63,25 @@ async function boot() {
   render();
 }
 
-function toggle(set, v) { set.has(v) ? set.delete(v) : set.add(v); }
+// Three states, cycled by clicking: off -> include -> exclude -> off. No hidden
+// modifier key, so it is discoverable and works on touch.
+function cycle(inc, exc, v) {
+  if (inc.has(v)) { inc.delete(v); exc.add(v); }
+  else if (exc.has(v)) exc.delete(v);
+  else inc.add(v);
+}
 
 function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
+  const excluded = query.excluded[group];
   const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  for (const v of selected) if (!counts.has(v)) entries.push([v, 0]);
-  const rows = entries.map(([v, n]) =>
-    `<div class="fv ${selected.has(v) ? 'on' : ''} ${n === 0 ? 'zero' : ''}" data-g="${group}" data-v="${v}">
+  for (const v of [...selected, ...excluded]) if (!counts.has(v)) entries.push([v, 0]);
+  const rows = entries.map(([v, n]) => {
+    const state = selected.has(v) ? 'on' : excluded.has(v) ? 'off' : '';
+    const title = excluded.has(v) ? 'excluded — click to clear' : 'click to include, again to exclude';
+    return `<div class="fv ${state} ${n === 0 && !state ? 'zero' : ''}" data-g="${group}" data-v="${v}" title="${title}">
        <span>${labelFn(v)}</span><span class="n">${n}</span>
-     </div>`).join('');
+     </div>`;
+  }).join('');
   return `<div class="facet-group"><h3>${title}</h3>${rows}</div>`;
 }
 
@@ -89,8 +99,8 @@ function pickerHtml(cfg) {
       .map(([k, n]) => `<option value="${k}" ${sel.key === k ? 'selected' : ''}>${k} (${n})</option>`)];
   const chips = cfg.interactions.map(i => {
     const n = sel.key ? (pairs.get(`${sel.key}|${i}`) ?? 0) : (perInteraction.get(i) ?? 0);
-    const on = sel.on.has(i);
-    return `<span class="ichip ${on ? 'on' : ''} ${n === 0 && !on ? 'zero' : ''}" data-p="${cfg.id}" data-i="${i}">${i.replace(/_/g, ' ')} ${n}</span>`;
+    const state = sel.on.has(i) ? 'on' : sel.off.has(i) ? 'off' : '';
+    return `<span class="ichip ${state} ${n === 0 && !state ? 'zero' : ''}" data-p="${cfg.id}" data-i="${i}">${i.replace(/_/g, ' ')} ${n}</span>`;
   }).join('');
   return `<div class="facet-group"><h3>${cfg.title}</h3>
     <select data-psel="${cfg.id}">${options.join('')}</select>
@@ -124,13 +134,15 @@ function renderFacets() {
     render({ push: true });
   };
   el.querySelectorAll('.fv').forEach(fv => {
-    fv.onclick = () => { toggle(query[fv.dataset.g], fv.dataset.v); render({ push: true }); };
+    const g = fv.dataset.g;
+    fv.onclick = () => { cycle(query[g], query.excluded[g], fv.dataset.v); render({ push: true }); };
   });
   el.querySelectorAll('select[data-psel]').forEach(s => {
     s.onchange = () => { query.pickers[s.dataset.psel].key = s.value; render({ push: true }); };
   });
   el.querySelectorAll('.ichip').forEach(c => {
-    c.onclick = () => { toggle(query.pickers[c.dataset.p].on, c.dataset.i); render({ push: true }); };
+    const sel = query.pickers[c.dataset.p];
+    c.onclick = () => { cycle(sel.on, sel.off, c.dataset.i); render({ push: true }); };
   });
 }
 
