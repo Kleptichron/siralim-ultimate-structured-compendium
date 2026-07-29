@@ -231,7 +231,10 @@ function computeFacetOrder() {
 // renderFacets rebuilds innerHTML on every click, which would otherwise reset
 // every <details> the reader had opened. Not in the URL — it is a view
 // preference, not part of the query being shared.
-const collapsed = new Set(['conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers']);
+const collapsed = new Set([
+  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers',
+  'class', 'race', // the two narrowest key pickers; status and stat stay open
+]);
 
 const MARKER_LABELS = {
   noStack: 'does not stack',
@@ -263,6 +266,24 @@ function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
     <summary><h3>${title}</h3>${badge}</summary>${rows}</details>`;
 }
 
+// A dropdown instead of rows: 169 families would be an unusable list, and the
+// existing key pickers already establish the select idiom for long vocabularies.
+// Option order is frozen like every other group so the list never reshuffles.
+function facetSelectHtml(title, group, counts) {
+  const selected = [...query[group]][0] ?? '';
+  const options = [`<option value="">— any ${title.toLowerCase()} —</option>`];
+  for (const v of facetOrder[group]) {
+    const n = counts.get(v) ?? 0;
+    if (!n && v !== selected) continue; // a dropdown can hide empties without shifting anything
+    options.push(`<option value="${v}" ${v === selected ? 'selected' : ''}>${v} (${n})</option>`);
+  }
+  const badge = selected ? '<span class="gcount">1</span>' : '';
+  const open = selected || !collapsed.has(group) ? ' open' : '';
+  return `<details class="facet-group" data-group="${group}"${open}>
+    <summary><h3>${title}</h3>${badge}</summary>
+    <select data-fsel="${group}">${options.join('')}</select></details>`;
+}
+
 function pickerHtml(cfg) {
   const sel = query.pickers[cfg.id];
   const { pairs, perInteraction } = facetCounts(index.records, query, `picker:${cfg.id}`);
@@ -283,9 +304,13 @@ function pickerHtml(cfg) {
     // shove every group below it upward — the other half of the jumping.
     return `<span class="ichip ${state} ${n === 0 && !state ? 'zero' : ''}" data-p="${cfg.id}" data-i="${i}">${i.replace(/_/g, ' ')} <span class="cn">${n}</span></span>`;
   }).join('');
-  return `<div class="facet-group"><h3>${cfg.title}</h3>
+  const active = (sel.key ? 1 : 0) + sel.on.size + sel.off.size;
+  const open = active || !collapsed.has(cfg.id) ? ' open' : '';
+  const badge = active ? `<span class="gcount">${active}</span>` : '';
+  return `<details class="facet-group" data-group="${cfg.id}"${open}>
+    <summary><h3>${cfg.title}</h3>${badge}</summary>
     <select data-psel="${cfg.id}">${options.join('')}</select>
-    <div class="ichips">${chips}</div></div>`;
+    <div class="ichips">${chips}</div></details>`;
 }
 
 function renderFacets() {
@@ -298,6 +323,7 @@ function renderFacets() {
       <input type="checkbox" id="samerule" ${query.sameRule ? 'checked' : ''}>
       <span>Match within a single rule</span>
     </label>
+    ${facetSelectHtml('Creature family', 'families', facetCounts(index.records, query, 'families'))}
     ${PICKERS.map(pickerHtml).join('')}
     ${facetGroupHtml('Source', 'types', query.types, facetCounts(index.records, query, 'types'))}
     ${facetGroupHtml('Trigger', 'triggers', query.triggers, facetCounts(index.records, query, 'triggers'), v => v.replace(/_/g, ' '))}
@@ -327,6 +353,12 @@ function renderFacets() {
   });
   el.querySelectorAll('select[data-psel]').forEach(s => {
     s.onchange = () => { query.pickers[s.dataset.psel].key = s.value; render({ push: true }); };
+  });
+  el.querySelectorAll('select[data-fsel]').forEach(s => {
+    s.onchange = () => {
+      query[s.dataset.fsel] = new Set(s.value ? [s.value] : []);
+      render({ push: true });
+    };
   });
   el.querySelectorAll('.ichip').forEach(c => {
     const sel = query.pickers[c.dataset.p];

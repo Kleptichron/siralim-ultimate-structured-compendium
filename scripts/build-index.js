@@ -173,6 +173,9 @@ for (const src of Object.values(SOURCE_DIRS)) {
       entry.provenance = ann.provenance;
       entry.ruleFacets = (ann.rules ?? []).map(deriveRuleFacets);
       entry.facets = unionFacets(entry.ruleFacets, ann);
+      // Whose effect this IS — distinct from raceInteractions, which is about
+      // rules that CHECK a race. Same vocabulary, opposite direction.
+      if (r.meta?.family) entry.facets.families = [r.meta.family];
       entry.rules = ann.rules;
       if (ann.flags) entry.flags = ann.flags;
       if (ann.notes) entry.notes = ann.notes;

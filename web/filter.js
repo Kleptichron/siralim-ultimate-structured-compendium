@@ -9,7 +9,11 @@ export const PICKERS = [
     interactions: ['increases', 'decreases', 'steals', 'scales_with', 'modifies', 'triggers_off', 'conditions_on'] },
   { id: 'class', facet: 'classInteractions', title: 'Class × interaction',
     interactions: ['conditions_on', 'vs', 'spells'] },
-  { id: 'race', facet: 'raceInteractions', title: 'Race × interaction',
+  // Named "referenced by rules" to keep it apart from the Creature family
+  // group: in this game family and race are the same vocabulary, so two
+  // controls both labelled for it would read as duplicates. This one is about
+  // rules that CHECK a race; that one is about whose effect it is.
+  { id: 'race', facet: 'raceInteractions', title: 'Race referenced by rules',
     interactions: ['conditions_on', 'vs'] },
 ];
 
@@ -36,8 +40,12 @@ export const SORTS = [
 // Groups that support exclusion, i.e. every value-list group.
 export const EXCLUDABLE = [
   'types', 'triggers', 'verbs', 'actors', 'targets',
-  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers',
+  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'families',
 ];
+
+// Properties of the whole record rather than of any one rule. `types` is
+// handled separately because it lives on the record, not in its facet bag.
+const RECORD_LEVEL = ['markers', 'families'];
 
 export function emptyQuery() {
   const pickers = {};
@@ -55,6 +63,7 @@ export function emptyQuery() {
     tiers: new Set(),
     qualifiers: new Set(),
     markers: new Set(),
+    families: new Set(),
     // Exclusion is RECORD-scoped even in same-rule mode: "not attack" means
     // this effect never attacks, not "some rule of it happens not to". Saying
     // hide-me and still seeing the thing would be the surprising reading.
@@ -79,6 +88,7 @@ const SET_PARAMS = [
   // 'if' mirrors the IF keyword the rule chips render.
   ['if', 'conditions'], ['flow', 'flows'], ['scales', 'scaleRefs'],
   ['tier', 'tiers'], ['qual', 'qualifiers'], ['is', 'markers'],
+  ['family', 'families'],
 ];
 
 // Excluded values ride in the same param with a '!' prefix, so the relationship
@@ -247,10 +257,11 @@ export function runQuery(records, query) {
   const toks = tokens(query.q);
   return records.filter(rec => {
     if (query.types.size && !query.types.has(rec.type)) return false;
-    // Record-level like types, not rule-scoped — "does not stack" is a property
-    // of the whole effect, not of one of its rules.
-    if (query.markers.size
-        && ![...query.markers].some(m => rec.facets?.markers?.includes(m))) return false;
+    // Record-level like types, not rule-scoped — "does not stack" and "is an
+    // Uralos effect" are properties of the whole record, not of one of its rules.
+    for (const g of RECORD_LEVEL) {
+      if (query[g].size && ![...query[g]].some(v => rec.facets?.[g]?.includes(v))) return false;
+    }
     if (!textMatch(rec, toks)) return false;
     if (isExcluded(rec, query)) return false;
     return facetMatch(rec, query);
@@ -320,10 +331,10 @@ export function facetCounts(records, query, group) {
   const scoped = sub.sameRule && anyRuleScopedFilter(sub);
   const bagsFor = rec => (scoped ? matchingRules(rec, sub).map(i => rec.ruleFacets[i]) : [rec.facets]);
   const valuesOf = (rec, key) =>
-    // markers exist only on the record bag; reading them from rule bags would
+    // These exist only on the record bag; reading them from rule bags would
     // count zero the moment any rule-scoped filter is active.
-    key === 'markers'
-      ? new Set(rec.facets?.markers ?? [])
+    RECORD_LEVEL.includes(key)
+      ? new Set(rec.facets?.[key] ?? [])
       : new Set(bagsFor(rec).flatMap(f => f?.[key] ?? []));
 
   if (group.startsWith('picker:')) {
