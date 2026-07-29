@@ -4,7 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Siralim Ultimate Structured Compendium</title>
+  <meta name="description" content="Faceted search across every effect in Siralim Ultimate — 4,068 traits, spells, relics and perks parsed into a trigger/condition/action rule model, so you can query by what an effect actually does.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <!-- The address bar and mobile status bar otherwise stay light over a page
+       that is dark from the first paint. -->
+  <meta name="theme-color" content="#14161a">
+  <!-- This site gets shared by pasting a link into a Discord or a subreddit, so
+       the unfurled card is the first thing most readers see of it. No og:url or
+       og:image on purpose: a URL would bake the repo name in (see
+       vite.config.js) and an image would need a raster file to point at, while
+       title + description already unfurl as a text card everywhere. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SU Structured Compendium">
+  <meta property="og:title" content="Siralim Ultimate Structured Compendium">
+  <meta property="og:description" content="Search 4,068 Siralim Ultimate effects by what they do, not how they are worded — trigger, condition and action, matched within a single rule.">
+  <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="/styles.css">
+  <!-- Parsed only when scripting is off, which is the only time it matters:
+       nothing would ever remove #boot, so the page would otherwise sit on
+       "Loading compendium…" for good and never say why. -->
+  <noscript><style>#boot { display: none; }</style></noscript>
 </head>
 <body>
   <!-- Buttons, not anchors: the hash is the search state, so href="#results"
@@ -35,6 +54,15 @@
     <div class="boot-track"><div class="boot-bar"></div></div>
     <div class="boot-sub"></div>
   </div>
+  <!-- Outside .layout: that is hidden until body.ready, which only JS sets. -->
+  <noscript>
+    <div class="noscript">
+      <p><strong>This compendium needs JavaScript.</strong></p>
+      <p>The whole thing is one static page that downloads a 400 KB index and
+        searches it in your browser — there is no server to fall back to, and
+        nothing you search is sent anywhere.</p>
+    </div>
+  </noscript>
   <div class="layout">
     <aside id="facets"><div class="facets-inner" id="facetsinner" tabindex="-1"></div></aside>
     <main>
@@ -45,6 +73,18 @@
       <div id="results" tabindex="-1"></div>
       <div id="more" tabindex="-1"></div>
       <div id="build" hidden></div>
+      <!-- Not hidden in build mode with the rest of main: the attribution is
+           the site's, not the result list's. -->
+      <footer>
+        <p>
+          An unofficial fan project, not affiliated with Thylacine Studios.
+          Siralim Ultimate and its effect text belong to them. The rule model,
+          the annotations and this app are open source —
+          <a href="https://github.com/Kleptichron/siralim-ultimate-structured-compendium">source
+          and how the tagging works</a>.
+        </p>
+        <p id="stamp"></p>
+      </footer>
     </main>
   </div>
   <script type="module" src="/main.js"></script>

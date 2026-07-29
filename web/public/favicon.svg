@@ -1,0 +1,13 @@
+<!-- Three narrowing bars: a filter funnel, which is what the site is. Kept to
+     flat shapes with no text, because the whole mark has to survive at 16px in
+     a tab strip. Colours are the page's own --bg and --accent, hardcoded here
+     because an SVG loaded as a favicon gets no stylesheet. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img"
+     aria-label="Siralim Ultimate Structured Compendium">
+  <rect width="32" height="32" rx="7" fill="#14161a"/>
+  <g fill="#35a7ad">
+    <rect x="6"  y="8"  width="20" height="4" rx="2"/>
+    <rect x="9"  y="15" width="14" height="4" rx="2"/>
+    <rect x="12" y="22" width="8"  height="4" rx="2"/>
+  </g>
+</svg>

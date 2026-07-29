@@ -213,6 +213,18 @@ async function boot() {
   computeFacetOrder();
   $('#coverage').textContent =
     `${index.counts.tagged}/${index.counts.total} tagged · schema v${index.schemaVersion}`;
+  // How old the data is, in the footer as well as the header, because #coverage
+  // is hidden below 760px and a reader on a phone would otherwise have no way
+  // to tell whether this predates the patch they are asking about. Guarded: a
+  // stale cached index from before build-index stamped `generated` would
+  // otherwise render the words "Invalid Date" at the foot of every page.
+  const gen = index.generated ? new Date(index.generated) : null;
+  const when = gen && !Number.isNaN(gen.getTime())
+    ? `Indexed <time datetime="${attr(index.generated)}">${gen.toLocaleDateString(undefined,
+        { year: 'numeric', month: 'long', day: 'numeric' })}</time>`
+    : 'Built';
+  $('#stamp').innerHTML =
+    `${when} from the game's own data files · ${index.counts.total} records · schema v${index.schemaVersion}`;
   // Trait lookups for the builder: names are unique corpus-wide, so a
   // type-ahead by name resolves to exactly one trait.
   const traits = index.records.filter(r => r.type === 'traits');

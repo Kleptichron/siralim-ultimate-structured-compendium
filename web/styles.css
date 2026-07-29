@@ -221,6 +221,32 @@ aside {
    the results covering the sidebar rather than the sidebar leaving. */
 body.nav-closed .facets-inner { transform: translateX(-100%); }
 main { padding: 16px 22px; max-width: 1180px; }
+
+/* The footer is the first and only place the page has an anchor, so link
+   colours live here rather than in a global rule that styles nothing else. */
+footer {
+  margin: 30px 0 10px; padding-top: 14px; border-top: 1px solid var(--border);
+  /* Attribution is prose: hold it to a readable measure instead of letting it
+     run the full 1180px the result cards want. */
+  max-width: 64ch; font-size: .8125rem; color: var(--dim);
+}
+footer p { margin: 0 0 6px; }
+footer p:last-child { margin-bottom: 0; }
+footer a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+footer a:hover { text-decoration: none; }
+/* #coverage is hidden below 760px, so on a phone this is the ONLY surviving
+   statement of how old the data is. */
+#stamp:empty { display: none; }
+
+/* Rendered only with scripting off — #boot is hidden in that case (see the
+   noscript style in index.html), so this replaces it rather than joining it. */
+.noscript {
+  max-width: 46ch; margin: 15vh auto 0; padding: 18px 20px;
+  border: 1px solid var(--border); border-radius: 8px; background: var(--panel);
+}
+.noscript p { margin: 0 0 8px; font-size: .9375rem; }
+.noscript p:last-child { margin-bottom: 0; color: var(--dim); }
+
 #resultbar {
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px; margin-bottom: 12px;
