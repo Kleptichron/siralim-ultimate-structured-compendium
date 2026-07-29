@@ -144,6 +144,18 @@ export function hashToQuery(hash) {
   return query;
 }
 
+// How many filter values are set, for the Filters button — the count is the
+// only cue that filters are active while the sidebar is collapsed or drawered.
+export function activeFilterCount(query) {
+  let n = 0;
+  for (const g of EXCLUDABLE) n += query[g].size + query.excluded[g].size;
+  for (const cfg of PICKERS) {
+    const sel = query.pickers[cfg.id];
+    n += (sel.key ? 1 : 0) + sel.on.size + sel.off.size;
+  }
+  return n;
+}
+
 export function cloneQuery(query) {
   const pickers = {};
   for (const [id, p] of Object.entries(query.pickers)) {

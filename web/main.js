@@ -1,6 +1,6 @@
 import {
   PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, runQuery, sortResults, facetCounts,
-  anyRuleScopedFilter, queryToHash, hashToQuery,
+  anyRuleScopedFilter, activeFilterCount, queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
@@ -194,6 +194,17 @@ async function boot() {
       $('#search').focus();
     }
   });
+  // Open on desktop, shut on phones where it would cover the results.
+  setNav(!narrow());
+  $('#navtoggle').onclick = () => setNav(document.body.classList.contains('nav-closed'));
+  $('#backdrop').onclick = () => setNav(false);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && narrow() && !document.body.classList.contains('nav-closed')) setNav(false);
+  });
+  // Crossing the breakpoint (rotation, resize) re-applies the right default,
+  // otherwise a drawer left open becomes a stuck column on desktop.
+  window.matchMedia('(max-width: 760px)').addEventListener('change', e => setNav(!e.matches));
+
   // popstate covers Back/Forward; hashchange covers editing the address bar.
   addEventListener('popstate', adoptUrl);
   addEventListener('hashchange', adoptUrl);
@@ -419,8 +430,26 @@ function reveal(upTo) {
   renderMore();
 }
 
+// --- sidebar visibility -----------------------------------------------------
+// One control, two behaviours: on desktop it collapses the column so results
+// get the full width; below the breakpoint the sidebar is an overlay drawer,
+// because a fixed 320px column left only 55px for results on a phone.
+const narrow = () => window.matchMedia('(max-width: 760px)').matches;
+
+function setNav(open) {
+  document.body.classList.toggle('nav-closed', !open);
+  $('#navtoggle').setAttribute('aria-expanded', String(open));
+  $('#backdrop').hidden = !(open && narrow()); // backdrop only for the drawer
+}
+
+function syncNavCount() {
+  const n = activeFilterCount(query);
+  $('#navcount').textContent = n ? String(n) : '';
+}
+
 function paint() {
   lastResults = sortResults(runQuery(index.records, query), query);
+  syncNavCount();
   renderResultBar();
   $('#results').innerHTML = lastResults.slice(0, query.shown).map(r => cardHtml(r, query)).join('');
   renderMore();

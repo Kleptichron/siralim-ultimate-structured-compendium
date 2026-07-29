@@ -8,10 +8,14 @@
 </head>
 <body>
   <header>
+    <button id="navtoggle" type="button" aria-controls="facets" aria-expanded="true">
+      <span class="bars" aria-hidden="true"></span><span class="navlabel">Filters</span><span id="navcount"></span>
+    </button>
     <h1>SU Structured Compendium</h1>
     <input id="search" type="search" placeholder="Search names, creatures, effect text… ( / )" autocomplete="off">
     <span id="coverage" class="dim"></span>
   </header>
+  <div id="backdrop" hidden></div>
   <div id="boot" role="status" aria-live="polite">
     <div class="boot-msg">Loading compendium…</div>
     <div class="boot-track"><div class="boot-bar"></div></div>
