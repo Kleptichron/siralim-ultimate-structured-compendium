@@ -99,6 +99,9 @@ function ruleHtml(rule, query, mark) {
 export function cardHtml(rec, query) {
   const metaFn = META_LINES[rec.type];
   const badges = [`<span class="badge type">${rec.type}</span>`];
+  // Coverage is 100%, so this is currently unreachable — kept because a future
+  // `npm run import` can add records the corpus has not been tagged for yet,
+  // and a card with no rules needs to say why rather than look broken.
   if (!rec.rules) badges.push('<span class="badge untagged">untagged</span>');
   else if (rec.provenance === 'machine') badges.push('<span class="badge machine">machine</span>');
   // With 2+ rules it's not obvious WHICH one answered the query — say so.

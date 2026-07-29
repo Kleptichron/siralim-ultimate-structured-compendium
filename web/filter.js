@@ -53,7 +53,6 @@ export function emptyQuery() {
     // View state, not a filter: how many results have been revealed. Lives here
     // so it round-trips through the URL with everything else.
     shown: PAGE,
-    showUntagged: true,
   };
 }
 
@@ -213,7 +212,6 @@ export function runQuery(records, query) {
   const toks = tokens(query.q);
   return records.filter(rec => {
     if (query.types.size && !query.types.has(rec.type)) return false;
-    if (!query.showUntagged && !rec.rules) return false;
     if (!textMatch(rec, toks)) return false;
     if (isExcluded(rec, query)) return false;
     return facetMatch(rec, query);
