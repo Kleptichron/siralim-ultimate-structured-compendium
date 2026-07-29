@@ -1,6 +1,7 @@
 // DOM rendering: result cards with rule chips, status-term highlighting,
 // and hit-marking of chips that satisfy the active query.
 import { matchingRules, anyRuleScopedFilter, chipApplied, chipAnyApplied } from '/filter.js';
+import { stateAttrs } from '/a11y.js';
 
 const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -80,11 +81,10 @@ function magText(m) {
 // to that term. Entries are ['g', group, value] or ['p', picker, key, interaction]
 // or ['pct', min, max]; a chip with none is inert and must not look clickable.
 const baseChip = (label, cls = '', filters = [], applied = false) => {
-  const attr = filters.length ? ` data-f="${esc(JSON.stringify(filters))}"` : '';
-  const title = filters.length
-    ? ` title="${applied ? 'Remove this from the search' : 'Add this to the search'}"`
-    : '';
-  return `<span class="chip ${cls}${filters.length ? ' clickable' : ''}"${attr}${title}>${esc(label)}</span>`;
+  if (!filters.length) return `<span class="chip ${cls}">${esc(label)}</span>`;
+  const verb = applied ? 'Remove this from the search' : 'Add this to the search';
+  return `<span class="chip ${cls} clickable" data-f="${esc(JSON.stringify(filters))}"
+    title="${verb}" ${stateAttrs(esc(label), applied ? 'on' : '')}>${esc(label)}</span>`;
 };
 
 // Mirrors build-index's VERB_INTERACTION: clicking "Burning" on an apply_status
@@ -223,13 +223,17 @@ export function cardHtml(rec, query) {
   const link = `#id=${encodeURIComponent(rec.id)}`;
   // Only traits go into a build — a spell or relic has no slot to occupy.
   const addBtn = rec.type === 'traits'
-    ? `<button class="addtrait" data-id="${esc(rec.id)}" title="Add to a creature in your build" aria-label="Add to build">+</button>`
+    ? `<button class="addtrait" data-rove data-id="${esc(rec.id)}"
+        title="Add to a creature in your build" aria-label="Add ${esc(rec.name)} to build">+</button>`
     : '';
   // Name and meta get search highlighting too: with creature names searchable,
   // the match is often in the meta line and nowhere in the effect text, which
   // otherwise looks like an unexplained result.
-  return `<div class="card">
-    <div class="head"><a class="name" href="${link}" title="${esc(rec.id)}">${hl(rec.name, query.q, false)}</a>${badges.join('')}${addBtn}</div>
+  // One tab stop per card, arrows move through its link, + button and chips.
+  // Per-rule groups would be tidier but 250 cards x 2-4 rules is back to a tab
+  // order nobody can get past.
+  return `<div class="card" data-roving role="group" aria-label="${esc(rec.name)}">
+    <div class="head"><a class="name" data-rove href="${link}" title="${esc(rec.id)}">${hl(rec.name, query.q, false)}</a>${badges.join('')}${addBtn}</div>
     ${metaFn ? `<div class="meta">${hl(metaFn(rec.meta ?? {}), query.q, false)}</div>` : ''}
     <div class="text">${hl(rec.text, query.q)}</div>
     ${rules}

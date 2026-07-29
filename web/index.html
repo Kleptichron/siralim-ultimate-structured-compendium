@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+  <!-- Buttons, not anchors: the hash is the search state, so href="#results"
+       would wipe the query it is trying to skip you to. -->
+  <button class="skip" type="button" data-skip="#results">Skip to results</button>
+  <button class="skip" type="button" data-skip="#facetsinner">Skip to filters</button>
   <header>
     <button id="navtoggle" type="button" aria-controls="facets" aria-expanded="true">
       <span class="bars" aria-hidden="true"></span><span class="navlabel">Filters</span><span id="navcount"></span>
@@ -25,12 +29,14 @@
     <div class="boot-sub"></div>
   </div>
   <div class="layout">
-    <aside id="facets"><div class="facets-inner" id="facetsinner"></div></aside>
+    <aside id="facets"><div class="facets-inner" id="facetsinner" tabindex="-1"></div></aside>
     <main>
       <div id="resultbar" class="dim"></div>
-      <div id="activefilters"></div>
-      <div id="results"></div>
-      <div id="more"></div>
+      <!-- tabindex="-1": these are the regions focus falls back to when the
+           control that was focused no longer exists after a re-render. -->
+      <div id="activefilters" tabindex="-1"></div>
+      <div id="results" tabindex="-1"></div>
+      <div id="more" tabindex="-1"></div>
       <div id="build" hidden></div>
     </main>
   </div>

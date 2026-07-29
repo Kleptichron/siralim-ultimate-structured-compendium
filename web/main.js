@@ -4,6 +4,7 @@ import {
   canUseAllMode, isAllMode, chipApplied, queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
+import { initRoving, stateAttrs, captureFocus, restoreFocus } from '/a11y.js';
 import {
   SLOTS, TRAITS_PER_CREATURE, SLOT_LABELS, emptyBuild, buildToParam, buildFromParam,
   buildIsEmpty, buildWarnings, buildSummary, buildCount, saveBuild, loadBuild,
@@ -225,6 +226,16 @@ async function boot() {
       $('#search').focus();
     }
   });
+  // Jumping past the header lands ON the region, so the next Tab enters it —
+  // and the sidebar has to be open for "skip to filters" to mean anything.
+  for (const b of document.querySelectorAll('.skip')) {
+    b.onclick = () => {
+      const el = $(b.dataset.skip);
+      if (el === $('#facetsinner')) setNav(true);
+      el.focus();
+      el.scrollIntoView({ block: 'start' });
+    };
+  }
   $('#buildtoggle').onclick = () => {
     buildMode = !buildMode;
     closeAddMenu();
@@ -359,8 +370,12 @@ function allModeToggle(group, selectedCount) {
       ? 'records must carry ALL of these — counts show what each would narrow to'
       : 'counts now show what co-occurs with this, i.e. what can be added')
     : 'records carry ANY of these — switch to ALL to see what combines';
-  return `<span class="anyall" data-group="${group}" title="${hint} — click to switch">
-    <span class="${all ? '' : 'sel'}">any</span><span class="${all ? 'sel' : ''}">all</span></span>`;
+  // A real button, not a span: it is a control in a header, not part of a
+  // roving group, so it should be its own tab stop.
+  return `<button type="button" class="anyall" data-group="${group}" data-fk="aa:${group}"
+    aria-pressed="${all}" aria-label="Match ${all ? 'all' : 'any'} of the selected values"
+    title="${hint} — click to switch">
+    <span class="${all ? '' : 'sel'}">any</span><span class="${all ? 'sel' : ''}">all</span></button>`;
 }
 
 // How many results an exclusion actually removes. The plain count answers "how
@@ -388,11 +403,13 @@ function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
       n = exclusionImpact(sub => sub.excluded[group].delete(v));
       hint = n ? `excluded — hiding ${n} — click to clear` : 'excluded, but nothing here has it — no effect';
       if (!n) inert = ' inert';
-      return `<div class="fv off${inert}" data-g="${group}" data-v="${v}" title="${hint}">
+      return `<div class="fv off${inert}" data-g="${group}" data-v="${v}" data-fk="fv:${group}:${v}" title="${hint}"
+         ${stateAttrs(`${title}: ${labelFn(v)}`, 'off')}>
          <span>${labelFn(v)}</span><span class="n">−${n}</span>
        </div>`;
     }
-    return `<div class="fv ${state} ${n === 0 && !state ? 'zero' : ''}" data-g="${group}" data-v="${v}" title="${hint}">
+    return `<div class="fv ${state} ${n === 0 && !state ? 'zero' : ''}" data-g="${group}" data-v="${v}" data-fk="fv:${group}:${v}" title="${hint}"
+       ${stateAttrs(`${title}: ${labelFn(v)}`, state)}>
        <span>${labelFn(v)}</span><span class="n">${n}</span>
      </div>`;
   }).join('');
@@ -402,7 +419,8 @@ function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
   const open = active || !collapsed.has(group) ? ' open' : '';
   const badge = active ? `<span class="gcount">${selected.size + excluded.size}</span>` : '';
   return `<details class="facet-group" data-group="${group}"${open}>
-    <summary><h3>${title}</h3>${badge}${allModeToggle(group, selected.size)}</summary>${rows}</details>`;
+    <summary><h3>${title}</h3>${badge}${allModeToggle(group, selected.size)}</summary>
+    <div data-roving role="group" aria-label="${title} values">${rows}</div></details>`;
 }
 
 // A dropdown instead of rows: 169 families would be an unusable list, and the
@@ -459,12 +477,14 @@ function pickerHtml(cfg) {
       // an impossible pairing (a debuff can never be "granted") reads as −0.
       n = exclusionImpact(sub => sub.pickers[cfg.id].off.delete(i));
       const hint = n ? `excluded — hiding ${n}` : 'excluded, but nothing here has it — no effect';
-      return `<span class="ichip off${n ? '' : ' inert'}" data-p="${cfg.id}" data-i="${i}" title="${hint}">${i.replace(/_/g, ' ')} <span class="cn">−${n}</span></span>`;
+      return `<span class="ichip off${n ? '' : ' inert'}" data-p="${cfg.id}" data-i="${i}" data-fk="ic:${cfg.id}:${i}" title="${hint}"
+        ${stateAttrs(`${sel.key || 'any'} ${i.replace(/_/g, ' ')}`, 'off')}>${i.replace(/_/g, ' ')} <span class="cn">−${n}</span></span>`;
     }
     // Count sits in a fixed-width slot: chips are inline and wrap, so a count
     // shrinking from 4 digits to 1 would reflow the block to fewer lines and
     // shove every group below it upward — the other half of the jumping.
-    return `<span class="ichip ${state} ${n === 0 && !state ? 'zero' : ''}" data-p="${cfg.id}" data-i="${i}">${i.replace(/_/g, ' ')} <span class="cn">${n}</span></span>`;
+    return `<span class="ichip ${state} ${n === 0 && !state ? 'zero' : ''}" data-p="${cfg.id}" data-i="${i}" data-fk="ic:${cfg.id}:${i}"
+      ${stateAttrs(`${sel.key || 'any'} ${i.replace(/_/g, ' ')}`, state)}>${i.replace(/_/g, ' ')} <span class="cn">${n}</span></span>`;
   }).join('');
   const active = (sel.key ? 1 : 0) + sel.on.size + sel.off.size;
   const open = active || !collapsed.has(cfg.id) ? ' open' : '';
@@ -472,7 +492,7 @@ function pickerHtml(cfg) {
   return `<details class="facet-group" data-group="${cfg.id}"${open}>
     <summary><h3>${cfg.title}</h3>${badge}${allModeToggle(cfg.id, sel.on.size)}</summary>
     <select data-psel="${cfg.id}">${options.join('')}</select>
-    <div class="ichips">${chips}</div></details>`;
+    <div class="ichips" data-roving role="group" aria-label="${cfg.title} interactions">${chips}</div></details>`;
 }
 
 function renderFacets() {
@@ -556,6 +576,7 @@ function renderFacets() {
       if (d.open) collapsed.add(d.dataset.group); else collapsed.delete(d.dataset.group);
     };
   });
+  initRoving(el);
   el.scrollTop = scrollTop;
 }
 
@@ -594,8 +615,8 @@ function renderMore() {
   if (remaining <= 0) { el.innerHTML = ''; return; }
   const next = Math.min(PAGE, remaining);
   el.innerHTML = `
-    <button class="showmore">Show ${num(next)} more</button>
-    ${remaining > next ? `<button class="showall">Show all ${num(lastResults.length)}</button>` : ''}
+    <button class="showmore" data-fk="more:next">Show ${num(next)} more</button>
+    ${remaining > next ? `<button class="showall" data-fk="more:all">Show all ${num(lastResults.length)}</button>` : ''}
     <span class="dim">${num(remaining)} not shown</span>`;
   el.querySelector('.showmore').onclick = () => reveal(query.shown + PAGE);
   el.querySelector('.showall')?.addEventListener('click', () => reveal(lastResults.length));
@@ -610,9 +631,12 @@ function reveal(upTo) {
   query.shown = Math.min(upTo, lastResults.length);
   $('#results').insertAdjacentHTML('beforeend',
     lastResults.slice(from, query.shown).map(r => cardHtml(r, query)).join(''));
+  initRoving($('#results')); // only the appended cards: the rest are flagged
   syncUrl('replace');
   renderResultBar();
+  const focused = captureFocus();
   renderMore();
+  restoreFocus(focused); // keep "Show 250 more" pressable twice running
 }
 
 // --- sidebar visibility -----------------------------------------------------
@@ -700,7 +724,7 @@ function renderActiveFilters() {
   const chips = query.recordId ? [] : activeChips();
   if (!chips.length) { el.innerHTML = ''; return; }
   el.innerHTML = chips.map(c =>
-    `<button class="afchip ${c.off ? 'off' : ''}" data-kind="${attr(c.kind)}"
+    `<button class="afchip ${c.off ? 'off' : ''}" data-kind="${attr(c.kind)}" data-fk="af:${attr(c.kind)}"
        title="Remove this filter">${attr(c.label)}<span class="x">×</span></button>`).join('')
     + '<button class="afclear">Clear all</button>';
   el.querySelectorAll('.afchip').forEach(b => {
@@ -816,11 +840,25 @@ function openAddMenu(traitId, anchor) {
     build.nether = e.target.checked;
     saveBuild(build);
     openAddMenu(traitId, anchor); // re-render with the extra column
+    $('#amnether').focus();       // ...without yanking focus off the checkbox
   };
   el.querySelector('.amclose').onclick = closeAddMenu;
+  // Opened from the keyboard the menu is useless unless focus follows it there
+  // and comes back afterwards — Escape would otherwise strand you at the top of
+  // the document. Re-rendering for the nether checkbox keeps the same opener.
+  addMenuOpener = anchor;
+  el.querySelector('.amslot')?.focus();
 }
 
-function closeAddMenu() { $('#addmenu').hidden = true; }
+let addMenuOpener = null;
+
+function closeAddMenu() {
+  const el = $('#addmenu');
+  if (el.hidden) return;
+  el.hidden = true;
+  if (addMenuOpener?.isConnected) addMenuOpener.focus();
+  addMenuOpener = null;
+}
 
 function syncBuildBadge() {
   const n = buildCount(build);
@@ -841,13 +879,16 @@ function slotInputHtml(c, s, id) {
   const rec = byId.get(id);
   return `<label class="bslot">
     <span class="bslot-label">${SLOT_LABELS[s]}</span>
-    <input list="traitnames" data-c="${c}" data-s="${s}" placeholder="trait name…"
+    <input list="traitnames" data-c="${c}" data-s="${s}" data-fk="bs:${c}:${s}" placeholder="trait name…"
       value="${rec ? attr(rec.name) : ''}" class="${id && !rec ? 'unknown' : ''}">
   </label>`;
 }
 
 function renderBuild() {
   const el = $('#build');
+  // Editing a slot re-renders the whole sheet, so the same rule as the search
+  // side applies: put focus back on the control that was just used.
+  const focused = captureFocus();
   const warnings = buildWarnings(build, byId);
   const summary = buildSummary(build, byId);
   const flagged = new Set(warnings.flatMap(w => w.places.map(p => `${p.creature}:${p.slot}`)));
@@ -871,11 +912,11 @@ function renderBuild() {
 
   el.innerHTML = `
     <div class="bbar">
-      <label class="bnether"><input type="checkbox" id="netherbox" ${build.nether ? 'checked' : ''}>
+      <label class="bnether"><input type="checkbox" id="netherbox" data-fk="bnether" ${build.nether ? 'checked' : ''}>
         <span>Nether stone 4th trait</span></label>
       <span class="dim">${summary.count} trait${summary.count === 1 ? '' : 's'} chosen${
         summary.noStack ? ` · ${summary.noStack} do not stack` : ''}</span>
-      <button class="bclear">Clear build</button>
+      <button class="bclear" data-fk="bclear">Clear build</button>
     </div>
     ${warnings.length ? `<div class="bwarnings">${warnings.map(w =>
       `<div class="bwarning ${w.severity}"><strong>${attr(w.name)}</strong> ${attr(w.note)}
@@ -905,6 +946,8 @@ function renderBuild() {
     saveBuild(build);
     renderMode({ push: true });
   };
+  initRoving(el); // the sheet renders real cards, chips and all
+  restoreFocus(focused);
 }
 
 // Build mode owns the URL while active — writing the search query alongside it
@@ -936,15 +979,22 @@ function paint() {
   renderResultBar();
   renderActiveFilters();
   if (lastResults.length === 0) renderEmptyState();
-  else $('#results').innerHTML = lastResults.slice(0, query.shown).map(r => cardHtml(r, query)).join('');
+  else {
+    $('#results').innerHTML = lastResults.slice(0, query.shown).map(r => cardHtml(r, query)).join('');
+    initRoving($('#results'));
+  }
   renderMore();
   renderFacets();
 }
 
 function render({ push = false } = {}) {
   query.shown = PAGE; // a new query starts at the top
+  // Typing focuses the search box, which carries no focus key — so this is a
+  // no-op there and only fires for the controls that rebuild themselves.
+  const focused = captureFocus();
   syncUrl(push ? 'push' : 'defer');
   paint();
+  restoreFocus(focused);
 }
 
 boot();
