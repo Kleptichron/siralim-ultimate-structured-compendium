@@ -249,11 +249,19 @@ export function validateAnnotation(ann, record, lex, corpus) {
       checkRelicScope(re, 'condition.who', c.who);
       // Semi-structured params: when these conventional keys appear, their
       // values must come from the lexicons (facet derivation reads them).
+      // Plural forms exist for conditions naming several at once ("your Imlers
+      // and Imlings"); a bare compound string would skip faceting entirely.
       if (c.params?.class !== undefined && !lex.classes.includes(c.params.class)) {
         re(`condition params.class "${c.params.class}" not a class`);
       }
+      for (const cl of c.params?.classes ?? []) {
+        if (!lex.classes.includes(cl)) re(`condition params.classes "${cl}" not a class`);
+      }
       if (c.params?.race !== undefined && !lex.families.includes(c.params.race)) {
         re(`condition params.race "${c.params.race}" not a known family`);
+      }
+      for (const r of c.params?.races ?? []) {
+        if (!lex.families.includes(r)) re(`condition params.races "${r}" not a known family`);
       }
       if (c.type === 'stat_comparison' && c.params?.stat !== undefined
           && !lex.stats.includes(c.params.stat) && !SCALE_SPECIALS.includes(c.params.stat)) {

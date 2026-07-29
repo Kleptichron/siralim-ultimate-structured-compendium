@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:squirmies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "actor": "holder",
+          "target": "holder",
+          "params": {
+            "minion": "Writhelings"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "actor": "holder",
+          "target": "holder",
+          "params": {
+            "minion": "Writhelings",
+            "effect": "gains another stack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2be4a4bdc456"
+}

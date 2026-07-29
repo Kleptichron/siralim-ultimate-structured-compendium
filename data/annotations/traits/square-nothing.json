@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:square-nothing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "debuffs",
+            "of": "each enemy",
+            "equals": "at least one of the target's debuffs"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 60
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9e7aac7fe074"
+}

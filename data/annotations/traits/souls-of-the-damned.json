@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:souls-of-the-damned",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_kill",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "the killed creature's innate trait",
+            "kind": "trait"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Attack",
+            "scalePct": 20
+          },
+          "params": {
+            "of": "the killed creature"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Defense",
+            "scalePct": 20
+          },
+          "params": {
+            "of": "the killed creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "499a1f64f719"
+}

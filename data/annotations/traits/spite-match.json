@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:spite-match",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "gaining this creature's Personality-decreased stats"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemy",
+        "params": {
+          "direction": "up",
+          "timing": "would",
+          "source": "this creature's Personality-decreased stats"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemies"
+        }
+      ]
+    }
+  ],
+  "textHash": "dad2b4ebda28"
+}

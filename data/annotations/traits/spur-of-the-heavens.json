@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:spur-of-the-heavens",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "random_ally",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "48d5dec94ecb"
+}

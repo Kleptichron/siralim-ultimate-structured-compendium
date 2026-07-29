@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:soul-to-keep",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "holder",
+          "params": {
+            "what": "the target's trait",
+            "kind": "trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b00264eff5bf"
+}

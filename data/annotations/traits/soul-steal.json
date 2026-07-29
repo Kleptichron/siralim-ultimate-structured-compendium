@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:soul-steal",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "gain_charges",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "which": "its Spell Gem with the lowest number of remaining Charges"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8668a7e18e31"
+}

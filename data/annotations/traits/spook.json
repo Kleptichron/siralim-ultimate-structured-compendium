@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:spook",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Invisible"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "holder",
+          "params": {
+            "status": "Invisible"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 200,
+            "direction": "up"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "holder",
+          "statuses": [
+            "Invisible"
+          ],
+          "params": {
+            "effect": "no longer removed at the start of its turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "48d8e1106297"
+}

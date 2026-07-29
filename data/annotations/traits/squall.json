@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:squall",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle",
+          "params": {
+            "per": "turn"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "which": "a random spell"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "65923cc99f1d"
+}

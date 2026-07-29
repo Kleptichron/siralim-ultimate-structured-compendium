@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:soul-exchange",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "scaleStat": "highest_stat"
+          },
+          "params": {
+            "effect": "both set to whichever of the two is highest"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "be1203f1cce6"
+}

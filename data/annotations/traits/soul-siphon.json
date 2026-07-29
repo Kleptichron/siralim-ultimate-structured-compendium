@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:soul-siphon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "target",
+          "params": {
+            "below": "35%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "target"
+        },
+        {
+          "verb": "grant_ability",
+          "actor": "holder",
+          "target": "allies",
+          "params": {
+            "what": "a copy of this creature's trait",
+            "kind": "trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8550bf3589ad"
+}

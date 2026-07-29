@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:soul-corruption",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "target",
+          "params": {
+            "below": "35%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "actor": "holder",
+          "target": "target"
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "scaleRef": "buff_count",
+            "per": "buff the target had before it died"
+          },
+          "params": {
+            "debuff": "random"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "dbde74ac2067"
+}

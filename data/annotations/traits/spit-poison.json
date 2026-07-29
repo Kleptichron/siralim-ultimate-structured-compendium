@@ -1,7 +1,7 @@
 {
   "schemaVersion": 10,
   "provenance": "claude",
-  "id": "trait:slop",
+  "id": "trait:spit-poison",
   "rules": [
     {
       "trigger": {
@@ -14,7 +14,7 @@
           "actor": "holder",
           "target": "enemies",
           "statuses": [
-            "Blind"
+            "Poisoned"
           ]
         }
       ]
@@ -29,27 +29,28 @@
           "type": "has_status",
           "who": "enemies",
           "params": {
-            "status": "Blind"
+            "status": "Poisoned"
           }
         }
       ],
       "actions": [
         {
-          "verb": "stat_change",
+          "verb": "status_modifier",
           "target": "enemies",
-          "stats": [
-            "Speed"
+          "statuses": [
+            "Poisoned"
           ],
           "magnitude": {
-            "amountPct": 20,
-            "direction": "down"
+            "amountPct": 30,
+            "direction": "up"
           },
           "params": {
+            "property": "potency",
             "instead": "of afflicting"
           }
         }
       ]
     }
   ],
-  "textHash": "e8996e9db982"
+  "textHash": "5a8e81031156"
 }

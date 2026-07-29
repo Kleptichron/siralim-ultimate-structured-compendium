@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:spectrum-of-eternity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": true,
+          "spellClass": "Life"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "extra_turn",
+          "target": "trigger_subject",
+          "params": {
+            "spellClass": "Life"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4ff99869dcbb"
+}

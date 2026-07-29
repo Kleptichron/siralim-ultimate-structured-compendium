@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:spontaneous-entropy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "gemType": "Ethereal",
+            "effect": "replaced with different ones"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "gemType": "Ethereal",
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a115c109874a"
+}

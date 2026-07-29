@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:spooky-technique",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "allies",
+        "params": {
+          "status": "Invisible",
+          "cause": "their own attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "trigger_subject",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Defense",
+            "scalePct": 35
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b5c71152f6df"
+}

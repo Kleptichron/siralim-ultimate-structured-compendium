@@ -56,8 +56,14 @@ function deriveFacets(ann) {
       for (const s of [...statusesOf(c.params?.status), ...statusesOf(c.params?.statuses)]) {
         f.statusInteractions.add(`${s}|conditions_on`);
       }
-      if (c.params?.class) f.classInteractions.add(`${c.params.class}|conditions_on`);
-      if (c.params?.race) f.raceInteractions.add(`${c.params.race}|conditions_on`);
+      // Plural forms cover conditions that name several races/classes at once
+      // ("your Imlers and Imlings") — same reason statuses accept arrays.
+      for (const cl of [...statusesOf(c.params?.class), ...statusesOf(c.params?.classes)]) {
+        f.classInteractions.add(`${cl}|conditions_on`);
+      }
+      for (const r of [...statusesOf(c.params?.race), ...statusesOf(c.params?.races)]) {
+        f.raceInteractions.add(`${r}|conditions_on`);
+      }
       if (c.type === 'stat_comparison' && c.params?.stat) {
         f.statInteractions.add(`${c.params.stat}|conditions_on`);
       }
@@ -101,6 +107,8 @@ function deriveFacets(ann) {
       if (a.params?.sourceClass) f.classInteractions.add(`${a.params.sourceClass}|vs`);
       if (a.params?.vsClass) f.classInteractions.add(`${a.params.vsClass}|vs`);
       if (a.params?.sourceRace) f.raceInteractions.add(`${a.params.sourceRace}|vs`);
+      // "cares about <class> SPELLS" — distinct from vs-class damage.
+      if (a.params?.spellClass) f.classInteractions.add(`${a.params.spellClass}|spells`);
       const m = a.magnitude;
       if (m) {
         if (m.tier) f.tiers.add(m.tier);

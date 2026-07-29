@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:spin-cycle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "Speed",
+            "scalePct": 75
+          },
+          "params": {
+            "of": "this creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8a7a292d0543"
+}

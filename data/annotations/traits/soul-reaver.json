@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:soul-reaver",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "steal_status",
+          "actor": "holder",
+          "target": "enemy",
+          "statusKind": "buff",
+          "qualifiers": [
+            "stolen"
+          ]
+        },
+        {
+          "verb": "minion_modifier",
+          "actor": "holder",
+          "target": "enemy",
+          "params": {
+            "effect": "steals their minions"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemy",
+          "statusKind": "debuff",
+          "params": {
+            "which": "the holder's own debuffs",
+            "transferred": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "duration": "forever"
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "duration": "forever"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "params": {
+            "duration": "forever"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4de454263d6d"
+}

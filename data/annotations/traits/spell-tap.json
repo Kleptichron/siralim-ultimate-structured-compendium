@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:spell-tap",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "casting spells manually"
+          }
+        },
+        {
+          "verb": "limit_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "what": "extra Spell Gems it can equip"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "this creature's permanent Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c0bdf87f1df6"
+}

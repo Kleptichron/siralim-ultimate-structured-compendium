@@ -18777,163 +18777,203 @@
     },
     "trait:soul-corruption": {
       "hash": "dbde74ac2067",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soul-exchange": {
       "hash": "be1203f1cce6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soul-reaver": {
       "hash": "4de454263d6d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soul-siphon": {
       "hash": "8550bf3589ad",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soul-squelch": {
       "hash": "6e637643741a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soul-steal": {
       "hash": "8668a7e18e31",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soul-sucker": {
       "hash": "c621ff1a643d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soul-to-keep": {
       "hash": "b00264eff5bf",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:souls-of-the-damned": {
       "hash": "499a1f64f719",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soulstone-splinter": {
       "hash": "947b3c4a990b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:soup-ffleyed": {
       "hash": "e877f2d1cf13",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spasm": {
       "hash": "031873af5cf7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spatter": {
       "hash": "8033b0b91063",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spectrometry": {
       "hash": "3d1b209b8654",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spectrum-of-eternity": {
       "hash": "4ff99869dcbb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:speculation": {
       "hash": "5b2992bf7196",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spell-stealer": {
       "hash": "bf5d78c64162",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spell-tap": {
       "hash": "c0bdf87f1df6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spew-acid": {
       "hash": "1ed12842bfe9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spin-cycle": {
       "hash": "8a7a292d0543",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spin-the-wheel": {
       "hash": "9fb609155b9e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spiral-ward": {
       "hash": "71c2e375a66f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spirit-eater": {
       "hash": "5b22046785bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spirit-link": {
       "hash": "c0f3af2ad38b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spit-poison": {
       "hash": "5a8e81031156",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spite-match": {
       "hash": "dad2b4ebda28",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spontaneous-combustion": {
       "hash": "87c1774644a6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spontaneous-entropy": {
       "hash": "a115c109874a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spook": {
       "hash": "48d8e1106297",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spooky-technique": {
       "hash": "b5c71152f6df",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spoonor-s-breath": {
       "hash": "1e7d34987a91",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spoonor-s-gift": {
       "hash": "f450c09d930d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spoonor-s-other-breath": {
       "hash": "45678fc05c2d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spotlight": {
       "hash": "33579af930cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:spur-of-the-heavens": {
       "hash": "48d5dec94ecb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:squadron-leader": {
       "hash": "68b6da11bf00",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:squall": {
       "hash": "65923cc99f1d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:square-nothing": {
       "hash": "9e7aac7fe074",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:squelch": {
       "hash": "f080283b0fc8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:squirmies": {
       "hash": "2be4a4bdc456",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stampede": {
       "hash": "ac0707b0db65",

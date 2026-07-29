@@ -8,7 +8,7 @@ export const PICKERS = [
   { id: 'stat', facet: 'statInteractions', title: 'Stat × interaction',
     interactions: ['increases', 'decreases', 'steals', 'scales_with', 'modifies', 'triggers_off', 'conditions_on'] },
   { id: 'class', facet: 'classInteractions', title: 'Class × interaction',
-    interactions: ['conditions_on', 'vs'] },
+    interactions: ['conditions_on', 'vs', 'spells'] },
   { id: 'race', facet: 'raceInteractions', title: 'Race × interaction',
     interactions: ['conditions_on', 'vs'] },
 ];
