@@ -74,8 +74,10 @@ function deriveRuleBags(rule, ruleIndex) {
     for (const s of [...statusesOf(t.params?.status), ...statusesOf(t.params?.statuses)]) {
       f.statusInteractions.add(`${s}|triggers_off`);
     }
-    if (t.type === 'after_stat_change' && t.params?.stat) {
-      f.statInteractions.add(`${t.params.stat}|triggers_off`);
+    // Plural form for triggers that name several stats at once ("gain attack,
+    // intelligence, defense, or speed") — same reason statuses accept arrays.
+    for (const s of [...statusesOf(t.params?.stat), ...statusesOf(t.params?.stats)]) {
+      f.statInteractions.add(`${s}|triggers_off`);
     }
     // "cares about <class> SPELLS" reads the same key wherever it appears —
     // "after casting a Life spell" is as searchable as "amplifies Life spells".

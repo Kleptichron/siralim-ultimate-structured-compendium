@@ -6,10 +6,26 @@
     {
       "trigger": {
         "type": "after_death",
-        "subject": "holder",
-        "params": {
-          "alsoAfter": "being resurrected"
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "which": "its first Spell Gem",
+            "times": 3
+          }
         }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "holder"
       },
       "actions": [
         {

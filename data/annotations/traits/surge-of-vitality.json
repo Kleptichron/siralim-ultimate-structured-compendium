@@ -6,10 +6,26 @@
     {
       "trigger": {
         "type": "after_attack",
-        "subject": "allies",
-        "params": {
-          "alsoAfter": "being attacked"
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up"
+          }
         }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "allies"
       },
       "actions": [
         {

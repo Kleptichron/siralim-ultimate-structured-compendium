@@ -6,10 +6,25 @@
     {
       "trigger": {
         "type": "after_defend",
-        "subject": "allies",
-        "params": {
-          "alsoAfter": "provoking"
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "which": "one of their spells at random"
+          }
         }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies"
       },
       "actions": [
         {

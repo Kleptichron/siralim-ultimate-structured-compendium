@@ -9,7 +9,12 @@
         "subject": "allies",
         "params": {
           "direction": "up",
-          "stats": "Attack, Intelligence, Defense or Speed"
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ]
         }
       },
       "actions": [

@@ -6,10 +6,37 @@
     {
       "trigger": {
         "type": "after_attack",
-        "subject": "holder",
-        "params": {
-          "alsoAfter": "defending or provoking"
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Wrath of Nature"
+          }
         }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Wrath of Nature"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
       },
       "actions": [
         {

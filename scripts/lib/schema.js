@@ -252,6 +252,21 @@ export function validateAnnotation(ann, record, lex, corpus) {
       if (t.params?.spellClass !== undefined && !lex.classes.includes(t.params.spellClass)) {
         re(`trigger params.spellClass "${t.params.spellClass}" not a class`);
       }
+      // "defends or provokes" is two trigger types, not one plus a note. Burying
+      // the second in params made it unsearchable and half-rendered.
+      if (t.params?.alsoAfter !== undefined) {
+        re('trigger params.alsoAfter hides a second trigger type — use one rule per trigger');
+      }
+      // Faceted keys must never hold a compound string ("Attack, Defense or
+      // Speed"): it silently produces no facets at all.
+      if (typeof t.params?.stats === 'string') {
+        re(`trigger params.stats must be an array, got "${t.params.stats}"`);
+      }
+      for (const s of Array.isArray(t.params?.stats) ? t.params.stats : []) {
+        if (!lex.stats.includes(s) && !SCALE_SPECIALS.includes(s)) {
+          re(`trigger params.stats "${s}" not a stat`);
+        }
+      }
     }
     for (const c of rule.conditions ?? []) {
       for (const k of Object.keys(c)) if (!CONDITION_KEYS.has(k)) re(`unknown condition key "${k}"`);

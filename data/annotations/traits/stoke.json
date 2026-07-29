@@ -6,10 +6,30 @@
     {
       "trigger": {
         "type": "after_defend",
-        "subject": "holder",
-        "params": {
-          "alsoAfter": "provoking"
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "amountPct": 65,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency"
+          }
         }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
       },
       "actions": [
         {
