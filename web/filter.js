@@ -13,9 +13,14 @@ export const PICKERS = [
     interactions: ['conditions_on', 'vs'] },
 ];
 
-// Groups evaluated against a single rule's facet bag. Everything else
-// (free text, source type) is a property of the record as a whole.
-const RULE_SCOPED = ['triggers', 'verbs', 'actors', 'targets'];
+// Groups evaluated against a single rule's facet bag. Everything else — free
+// text, source type, markers — is a property of the record as a whole.
+// `markers` is deliberately absent: it is only derived at record level, so
+// testing it against a single rule's bag would never match.
+const RULE_SCOPED = [
+  'triggers', 'verbs', 'actors', 'targets',
+  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers',
+];
 
 // How many results a reveal step adds, and the serialization default for it.
 export const PAGE = 250;
@@ -29,7 +34,10 @@ export const SORTS = [
 ];
 
 // Groups that support exclusion, i.e. every value-list group.
-export const EXCLUDABLE = ['types', 'triggers', 'verbs', 'actors', 'targets'];
+export const EXCLUDABLE = [
+  'types', 'triggers', 'verbs', 'actors', 'targets',
+  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers',
+];
 
 export function emptyQuery() {
   const pickers = {};
@@ -41,6 +49,12 @@ export function emptyQuery() {
     verbs: new Set(),
     actors: new Set(),
     targets: new Set(),
+    conditions: new Set(),
+    flows: new Set(),
+    scaleRefs: new Set(),
+    tiers: new Set(),
+    qualifiers: new Set(),
+    markers: new Set(),
     // Exclusion is RECORD-scoped even in same-rule mode: "not attack" means
     // this effect never attacks, not "some rule of it happens not to". Saying
     // hide-me and still seeing the thing would be the surprising reading.
@@ -62,6 +76,9 @@ export function emptyQuery() {
 const SET_PARAMS = [
   ['src', 'types'], ['when', 'triggers'], ['do', 'verbs'],
   ['actor', 'actors'], ['target', 'targets'],
+  // 'if' mirrors the IF keyword the rule chips render.
+  ['if', 'conditions'], ['flow', 'flows'], ['scales', 'scaleRefs'],
+  ['tier', 'tiers'], ['qual', 'qualifiers'], ['is', 'markers'],
 ];
 
 // Excluded values ride in the same param with a '!' prefix, so the relationship
@@ -124,8 +141,7 @@ export function cloneQuery(query) {
   }
   return {
     ...query,
-    types: new Set(query.types), triggers: new Set(query.triggers), verbs: new Set(query.verbs),
-    actors: new Set(query.actors), targets: new Set(query.targets),
+    ...Object.fromEntries(EXCLUDABLE.map(g => [g, new Set(query[g])])),
     excluded: Object.fromEntries(EXCLUDABLE.map(g => [g, new Set(query.excluded[g])])),
     pickers,
   };
@@ -231,6 +247,10 @@ export function runQuery(records, query) {
   const toks = tokens(query.q);
   return records.filter(rec => {
     if (query.types.size && !query.types.has(rec.type)) return false;
+    // Record-level like types, not rule-scoped — "does not stack" is a property
+    // of the whole effect, not of one of its rules.
+    if (query.markers.size
+        && ![...query.markers].some(m => rec.facets?.markers?.includes(m))) return false;
     if (!textMatch(rec, toks)) return false;
     if (isExcluded(rec, query)) return false;
     return facetMatch(rec, query);
@@ -300,7 +320,11 @@ export function facetCounts(records, query, group) {
   const scoped = sub.sameRule && anyRuleScopedFilter(sub);
   const bagsFor = rec => (scoped ? matchingRules(rec, sub).map(i => rec.ruleFacets[i]) : [rec.facets]);
   const valuesOf = (rec, key) =>
-    new Set(bagsFor(rec).flatMap(f => f?.[key] ?? []));
+    // markers exist only on the record bag; reading them from rule bags would
+    // count zero the moment any rule-scoped filter is active.
+    key === 'markers'
+      ? new Set(rec.facets?.markers ?? [])
+      : new Set(bagsFor(rec).flatMap(f => f?.[key] ?? []));
 
   if (group.startsWith('picker:')) {
     const facet = PICKERS.find(p => p.id === group.slice(7)).facet;

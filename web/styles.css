@@ -88,9 +88,24 @@ main { padding: 16px 22px; max-width: 1180px; }
 .sort select { font: inherit; width: auto; margin: 0; }
 
 .facet-group { margin-bottom: 20px; }
+.facet-group > summary {
+  display: flex; align-items: center; gap: 7px;
+  cursor: pointer; user-select: none; margin-bottom: 7px; list-style: none;
+}
+.facet-group > summary::-webkit-details-marker { display: none; }
+/* Disclosure caret, rotated when open. */
+.facet-group > summary::before {
+  content: '▸'; color: var(--dim); font-size: .7rem; transition: transform .12s ease;
+}
+.facet-group[open] > summary::before { transform: rotate(90deg); }
 .facet-group h3 {
   font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
-  color: var(--dim); margin: 0 0 7px;
+  color: var(--dim); margin: 0;
+}
+/* How many values are active in a group — readable while it is collapsed. */
+.gcount {
+  font-size: .7rem; padding: 0 6px; border-radius: 8px;
+  background: var(--chip-hit); color: var(--accent);
 }
 .fv {
   display: flex; justify-content: space-between; gap: 6px;

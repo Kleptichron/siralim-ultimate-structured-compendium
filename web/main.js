@@ -227,6 +227,19 @@ function computeFacetOrder() {
   ]));
 }
 
+// Which groups are collapsed. Held here rather than in the DOM because
+// renderFacets rebuilds innerHTML on every click, which would otherwise reset
+// every <details> the reader had opened. Not in the URL — it is a view
+// preference, not part of the query being shared.
+const collapsed = new Set(['conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers']);
+
+const MARKER_LABELS = {
+  noStack: 'does not stack',
+  chanceBased: 'chance-based',
+  perRank: 'scales per rank',
+  unmodeled: 'not fully modelled',
+};
+
 function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
   const excluded = query.excluded[group];
   const order = [...facetOrder[group]];
@@ -241,7 +254,13 @@ function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
        <span>${labelFn(v)}</span><span class="n">${n}</span>
      </div>`;
   }).join('');
-  return `<div class="facet-group"><h3>${title}</h3>${rows}</div>`;
+  // An active filter forces its group open — a collapsed group hiding the
+  // reason the result count dropped would be baffling.
+  const active = selected.size || excluded.size;
+  const open = active || !collapsed.has(group) ? ' open' : '';
+  const badge = active ? `<span class="gcount">${selected.size + excluded.size}</span>` : '';
+  return `<details class="facet-group" data-group="${group}"${open}>
+    <summary><h3>${title}</h3>${badge}</summary>${rows}</details>`;
 }
 
 function pickerHtml(cfg) {
@@ -285,6 +304,12 @@ function renderFacets() {
     ${facetGroupHtml('Action', 'verbs', query.verbs, facetCounts(index.records, query, 'verbs'), v => v.replace(/_/g, ' '))}
     ${facetGroupHtml('Actor (who does it)', 'actors', query.actors, facetCounts(index.records, query, 'actors'), v => v.replace(/_/g, ' '))}
     ${facetGroupHtml('Target (who it hits)', 'targets', query.targets, facetCounts(index.records, query, 'targets'), v => v.replace(/_/g, ' '))}
+    ${facetGroupHtml('Condition', 'conditions', query.conditions, facetCounts(index.records, query, 'conditions'), v => v.replace(/_/g, ' '))}
+    ${facetGroupHtml('Scales with', 'scaleRefs', query.scaleRefs, facetCounts(index.records, query, 'scaleRefs'), v => v.replace(/_/g, ' '))}
+    ${facetGroupHtml('Damage / healing flow', 'flows', query.flows, facetCounts(index.records, query, 'flows'))}
+    ${facetGroupHtml('Magnitude tier', 'tiers', query.tiers, facetCounts(index.records, query, 'tiers'))}
+    ${facetGroupHtml('Qualifier', 'qualifiers', query.qualifiers, facetCounts(index.records, query, 'qualifiers'))}
+    ${facetGroupHtml('Properties', 'markers', query.markers, facetCounts(index.records, query, 'markers'), v => MARKER_LABELS[v] ?? v)}
   `;
   el.querySelector('.clear').onclick = () => {
     // Text, match mode and sort are not filters — clearing filters keeps them.
@@ -306,6 +331,16 @@ function renderFacets() {
   el.querySelectorAll('.ichip').forEach(c => {
     const sel = query.pickers[c.dataset.p];
     c.onclick = () => { cycle(sel.on, sel.off, c.dataset.i); render({ push: true }); };
+  });
+  // Record collapse intent from the summary CLICK, not the toggle event:
+  // parsing <details open> during the innerHTML rebuild fires toggle too, so a
+  // group force-opened by an active filter would silently lose its default.
+  // At click time `open` still holds the pre-click state.
+  el.querySelectorAll('details[data-group] > summary').forEach(s => {
+    s.onclick = () => {
+      const d = s.parentElement;
+      if (d.open) collapsed.add(d.dataset.group); else collapsed.delete(d.dataset.group);
+    };
   });
   el.scrollTop = scrollTop;
 }

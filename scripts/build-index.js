@@ -144,10 +144,15 @@ function unionFacets(ruleFacets, ann) {
     const merged = [...new Set(ruleFacets.flatMap(rf => rf[k] ?? []))].sort();
     if (merged.length) out[k] = merged;
   }
-  if (ruleFacets.some(rf => rf.chanceBased)) out.chanceBased = true;
-  if (ruleFacets.some(rf => rf.perRank)) out.perRank = true;
-  if (ann?.flags?.stacks === false) out.noStack = true;
-  if (ann?.flags?.unmodeled) out.unmodeled = true;
+  // Whole-record properties, as a value list rather than loose booleans: the
+  // app's include/exclude/count machinery works on arrays, so this makes them
+  // filterable ("does not stack", "chance-based") with no special cases.
+  const markers = [];
+  if (ruleFacets.some(rf => rf.chanceBased)) markers.push('chanceBased');
+  if (ruleFacets.some(rf => rf.perRank)) markers.push('perRank');
+  if (ann?.flags?.stacks === false) markers.push('noStack');
+  if (ann?.flags?.unmodeled) markers.push('unmodeled');
+  if (markers.length) out.markers = markers;
   return out;
 }
 
