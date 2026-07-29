@@ -82,6 +82,27 @@ h1 { font-size: 1.15rem; margin: 0; color: var(--accent); white-space: nowrap; }
 .skip:focus { left: 8px; }
 .skip:nth-of-type(2):focus { left: 170px; }
 
+/* Announced, never shown. Not display:none — that removes it from the
+   accessibility tree too, which is the opposite of the point. */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap;
+}
+
+/* Export controls, on both the build sheet and the result bar. The export
+   group takes the auto margin that used to push Clear right, so the two do not
+   split the free space between them and end up floating apart. */
+.bexport { display: flex; gap: 6px; margin-left: auto; }
+.bbar .bclear { margin-left: 0; }
+.bx, .xitem {
+  padding: 5px 11px; border-radius: 6px; cursor: pointer;
+  border: 1px solid var(--border); background: var(--panel2); color: var(--text);
+  font: inherit; font-size: .875rem; white-space: nowrap;
+}
+.bx:hover:not(:disabled), .xitem:hover { border-color: var(--accent); color: var(--accent); }
+.bx:disabled { opacity: .45; cursor: default; }
+.bx.failed, .xitem.failed { border-color: var(--debuff); color: var(--debuff); }
+
 /* Boot panel. Hidden for its first 150ms: a cached load finishes inside that
    window, so the bar never flashes for a load that was already instant.
    Visibility is display only, toggled by a JS class. Deliberately NOT faded in:
@@ -511,6 +532,9 @@ button.clear:hover { border-color: var(--accent); }
   header { gap: 10px; padding: 0 12px; }
   .navlabel { display: none; } /* the icon carries it once space is tight */
   #resultbar { flex-wrap: wrap; }
+  /* Once the bar wraps, the export group has its own row — the auto margin
+     that pushed it right on desktop just indents it away from the edge. */
+  .bexport { margin-left: 0; flex-wrap: wrap; }
 }
 /* Phones proper: give the search box the width it needs. */
 @media (max-width: 460px) {

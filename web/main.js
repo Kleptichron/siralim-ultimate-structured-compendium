@@ -5,6 +5,7 @@ import {
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 import { initRoving, stateAttrs, captureFocus, restoreFocus } from '/a11y.js';
+import { buildToMarkdown, copyText, downloadFile } from '/export.js';
 import {
   SLOTS, TRAITS_PER_CREATURE, SLOT_LABELS, emptyBuild, buildToParam, buildFromParam,
   buildIsEmpty, buildWarnings, buildSummary, buildCount, saveBuild, loadBuild,
@@ -892,6 +893,7 @@ function renderBuild() {
   const warnings = buildWarnings(build, byId);
   const summary = buildSummary(build, byId);
   const flagged = new Set(warnings.flatMap(w => w.places.map(p => `${p.creature}:${p.slot}`)));
+  const empty = buildIsEmpty(build) ? 'disabled' : '';
 
   const creatures = build.slots.map((row, c) => {
     const shown = row.slice(0, build.nether ? TRAITS_PER_CREATURE : 3);
@@ -916,6 +918,11 @@ function renderBuild() {
         <span>Nether stone 4th trait</span></label>
       <span class="dim">${summary.count} trait${summary.count === 1 ? '' : 's'} chosen${
         summary.noStack ? ` · ${summary.noStack} do not stack` : ''}</span>
+      <div class="bexport">
+        <button class="bx" data-x="md" data-fk="bx:md" ${empty}>Copy Markdown</button>
+        <button class="bx" data-x="link" data-fk="bx:link" ${empty}>Copy link</button>
+        <button class="bx" data-x="file" data-fk="bx:file" ${empty}>Download .md</button>
+      </div>
       <button class="bclear" data-fk="bclear">Clear build</button>
     </div>
     ${warnings.length ? `<div class="bwarnings">${warnings.map(w =>
@@ -946,8 +953,46 @@ function renderBuild() {
     saveBuild(build);
     renderMode({ push: true });
   };
+  el.querySelectorAll('.bx').forEach(b => {
+    b.onclick = () => {
+      const url = permaUrl();
+      if (b.dataset.x === 'link') { flash(b, copyText(url), 'Link copied'); return; }
+      const md = buildToMarkdown(build, byId, {
+        url,
+        slotLabels: SLOT_LABELS,
+        netherSlots: TRAITS_PER_CREATURE,
+        summary,
+        warnings,
+      });
+      if (b.dataset.x === 'md') flash(b, copyText(md), 'Markdown copied');
+      else { downloadFile('su-team.md', md, 'text/markdown'); say('Downloaded su-team.md'); }
+    };
+  });
   initRoving(el); // the sheet renders real cards, chips and all
   restoreFocus(focused);
+}
+
+// The address bar already holds it, but only after syncUrl has run — build it
+// from the same source the URL comes from so a copy is never a render behind.
+const permaUrl = () => `${location.origin}${location.pathname}${location.search}#${modeHash()}`;
+
+// Confirm in the button itself, and to a screen reader. Restoring the label
+// from a timer rather than a re-render keeps it independent of what else
+// happens to the panel in the meantime.
+function say(msg) { $('#say').textContent = msg; }
+
+async function flash(btn, promise, msg) {
+  const ok = await promise;
+  const original = btn.dataset.label ?? btn.textContent;
+  btn.dataset.label = original;
+  btn.textContent = ok ? 'Copied ✓' : 'Copy failed';
+  btn.classList.toggle('failed', !ok);
+  say(ok ? msg : 'Copy failed — your browser blocked clipboard access');
+  clearTimeout(btn._flash);
+  btn._flash = setTimeout(() => {
+    btn.textContent = btn.dataset.label ?? original;
+    btn.classList.remove('failed');
+  }, 1600);
 }
 
 // Build mode owns the URL while active — writing the search query alongside it
