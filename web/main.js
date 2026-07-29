@@ -4,10 +4,15 @@ import {
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
-const MAX_CARDS = 250;
+// Cards render at roughly 20µs each, so a 250-card chunk costs ~5ms while the
+// full 4,068 costs ~110ms. Revealing in chunks AND resetting on every query
+// change keeps typing cheap no matter how deep the reader has scrolled.
+const PAGE = 250;
 
 let index = null;
 let query = emptyQuery();
+let shown = PAGE;
+let lastResults = [];
 
 const $ = sel => document.querySelector(sel);
 
@@ -34,6 +39,7 @@ function adoptUrl() {
   query = hashToQuery(incoming);
   lastHash = queryToHash(query);
   $('#search').value = query.q;
+  shown = PAGE;
   paint();
 }
 
@@ -131,16 +137,50 @@ function renderFacets() {
   });
 }
 
+const num = n => n.toLocaleString();
+
+function renderResultBar() {
+  const total = lastResults.length;
+  const visible = Math.min(shown, total);
+  $('#resultbar').textContent = total > visible
+    ? `showing ${num(visible)} of ${num(total)} results`
+    : `${num(total)} result${total === 1 ? '' : 's'}`;
+}
+
+function renderMore() {
+  const remaining = lastResults.length - Math.min(shown, lastResults.length);
+  const el = $('#more');
+  if (remaining <= 0) { el.innerHTML = ''; return; }
+  const next = Math.min(PAGE, remaining);
+  el.innerHTML = `
+    <button class="showmore" data-n="${next}">Show ${num(next)} more</button>
+    ${remaining > next ? `<button class="showall">Show all ${num(lastResults.length)}</button>` : ''}
+    <span class="dim">${num(remaining)} not shown</span>`;
+  el.querySelector('.showmore').onclick = () => reveal(shown + PAGE);
+  el.querySelector('.showall')?.addEventListener('click', () => reveal(lastResults.length));
+}
+
+// Append only the newly revealed cards: the ones already on screen are
+// unchanged, and the facet sidebar does not depend on how many are visible.
+function reveal(upTo) {
+  const from = shown;
+  shown = Math.min(upTo, lastResults.length);
+  $('#results').insertAdjacentHTML('beforeend',
+    lastResults.slice(from, shown).map(r => cardHtml(r, query)).join(''));
+  renderResultBar();
+  renderMore();
+}
+
 function paint() {
-  const results = runQuery(index.records, query);
-  $('#resultbar').textContent =
-    `${results.length} result${results.length === 1 ? '' : 's'}` +
-    (results.length > MAX_CARDS ? ` (showing first ${MAX_CARDS})` : '');
-  $('#results').innerHTML = results.slice(0, MAX_CARDS).map(r => cardHtml(r, query)).join('');
+  lastResults = runQuery(index.records, query);
+  renderResultBar();
+  $('#results').innerHTML = lastResults.slice(0, shown).map(r => cardHtml(r, query)).join('');
+  renderMore();
   renderFacets();
 }
 
 function render({ push = false } = {}) {
+  shown = PAGE; // a new query starts at the top
   syncUrl(push);
   paint();
 }
