@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:twilight-zone",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "lowest_stat"
+          },
+          "params": {
+            "source": "attacks and spells",
+            "usesStat": "lowest stat",
+            "insteadOf": "Attack or Intelligence"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "scaleStat": "lowest_stat"
+          },
+          "params": {
+            "source": "attacks and spells",
+            "usesStat": "lowest stat",
+            "insteadOf": "Defense"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "037066932ce0"
+}

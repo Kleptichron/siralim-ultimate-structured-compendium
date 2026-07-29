@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:true-divinity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "who": "the holder's Relic's corresponding Avatar",
+            "present": true
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "other",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up"
+          },
+          "params": {
+            "who": "the holder's Relic",
+            "what": "Defense ignored",
+            "source": "attacks and spells"
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "other",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "who": "the holder's Relic",
+            "property": "potency"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "team_composition",
+          "params": {
+            "who": "the corresponding Godspawn",
+            "present": true
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "other",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "who": "the holder's Relic",
+            "what": "the above bonuses",
+            "effect": "doubled"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d6781c9f79a0"
+}

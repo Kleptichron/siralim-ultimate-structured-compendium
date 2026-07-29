@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:true-north",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "its start-of-turn and end-of-turn effects"
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "amountPct": 95,
+            "direction": "down"
+          },
+          "params": {
+            "except": "Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "63b005d4501e"
+}

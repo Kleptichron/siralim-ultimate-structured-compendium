@@ -19582,163 +19582,203 @@
     },
     "trait:treasure-golem-s-boon": {
       "hash": "2f75f7b521c0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:treasure-golem-s-revenge": {
       "hash": "50892db20a08",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:treasure-golem-s-secret": {
       "hash": "f8b41d027bc1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tribe-mentality": {
       "hash": "5454e0a3ffca",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:trick-or-treat": {
       "hash": "78e236a23fa2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:trick-shot": {
       "hash": "4e163a1fa370",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:triple-suns": {
       "hash": "833830623633",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:triple-take": {
       "hash": "3c3cead0160d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:trove": {
       "hash": "ed2f23b1313b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:true-divinity": {
       "hash": "d6781c9f79a0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:true-north": {
       "hash": "63b005d4501e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:true-strike": {
       "hash": "83a36d6d2f4f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tumble": {
       "hash": "3d7df68e02b0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tumble-over": {
       "hash": "030fb644a127",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:turbulent-waters": {
       "hash": "2ef4ba739521",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:turn-to-gray": {
       "hash": "92aa248c343c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:twilight": {
       "hash": "4781d5d3e3a8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:twilight-zone": {
       "hash": "037066932ce0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:twin-souls": {
       "hash": "e2f13920b7ee",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:twist-of-fate": {
       "hash": "8e59b4252332",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ultimate-sacrifice": {
       "hash": "be7b1978393e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ultimate-trickery": {
       "hash": "34a707f0aceb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ultimatum": {
       "hash": "342d3791dd45",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:ultra-cling": {
       "hash": "a87f7d8f1bff",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unbidden-miracle": {
       "hash": "bd1a5af5a120",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unblinking-eyes": {
       "hash": "b56cca2b307d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unbound-corruption": {
       "hash": "3b47dd4c656b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unbreakable": {
       "hash": "9f8518d8b5a5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:uncharted": {
       "hash": "3fd75b5fa2f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:uncontrollable-anger": {
       "hash": "3b7dc48562ba",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:undead-legion": {
       "hash": "9b9040a69fb2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:undeath": {
       "hash": "e12916bbc322",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:under-stress": {
       "hash": "eba5fefcab5d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unholy-prayer": {
       "hash": "98438d4cb642",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:uninterrupted": {
       "hash": "5d119cd89929",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unleash-the-horde": {
       "hash": "b2c9efd57ec2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unmending": {
       "hash": "1c7c0bc92446",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unrealized-potential": {
       "hash": "9c70351acce1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unrelenting-fury": {
       "hash": "29dbc78f7d9c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unrelenting-sun": {
       "hash": "b97fd4372b77",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unrevealed-secret": {
       "hash": "426fffc8195f",

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:ultimate-trickery",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "holder",
+          "params": {
+            "into": "a copy of the second creature in your party"
+          }
+        },
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "the innate trait of the third creature in your party",
+            "kind": "trait"
+          }
+        },
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "the fused trait of the fourth creature in your party",
+            "kind": "trait"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "holder",
+          "params": {
+            "to": "bottom",
+            "always": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "34a707f0aceb"
+}

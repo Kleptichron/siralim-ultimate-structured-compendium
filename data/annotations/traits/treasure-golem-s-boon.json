@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:treasure-golem-s-boon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "other"
+          ],
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "down"
+          },
+          "params": {
+            "stat": "whichever corresponds to your lowest amount of resources"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2f75f7b521c0"
+}

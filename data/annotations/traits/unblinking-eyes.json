@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:unblinking-eyes",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "who": "holder",
+          "params": {
+            "what": "Intelligence gains or losses this battle",
+            "equals": 0
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 200,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Arcane"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "b56cca2b307d"
+}

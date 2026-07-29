@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:ultimatum",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "adjacent_enemies",
+          "magnitude": {
+            "scaleStat": "Current Health",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "this creature",
+            "alsoHits": "the target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "342d3791dd45"
+}

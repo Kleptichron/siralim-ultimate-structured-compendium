@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:tribe-mentality",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "target": "adjacent_any",
+          "params": {
+            "effect": "class changed to match this creature's class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5454e0a3ffca"
+}

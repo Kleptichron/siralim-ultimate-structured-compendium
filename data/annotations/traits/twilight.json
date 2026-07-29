@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:twilight",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "caused no damage during its turn"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountPct": 200
+          },
+          "params": {
+            "of": "normal damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4781d5d3e3a8"
+}

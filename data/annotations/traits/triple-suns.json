@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:triple-suns",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "statuses": [
+            "Bleeding",
+            "Poisoned",
+            "Burning",
+            "Bomb"
+          ],
+          "magnitude": {
+            "amountPct": 90,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "833830623633"
+}

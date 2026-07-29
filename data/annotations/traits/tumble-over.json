@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:tumble-over",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle",
+          "params": {
+            "per": "turn",
+            "which": "the enemies' first spell"
+          }
+        }
+      ],
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "enemies",
+          "params": {
+            "to": "bottom",
+            "others": true,
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "030fb644a127"
+}

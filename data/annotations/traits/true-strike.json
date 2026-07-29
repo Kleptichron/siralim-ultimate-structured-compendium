@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:true-strike",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks",
+            "what": "Defense ignored"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "params": {
+            "source": "attacks",
+            "effect": "acts as if strong against the enemy's class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "83a36d6d2f4f"
+}

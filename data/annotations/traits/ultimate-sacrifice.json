@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:ultimate-sacrifice",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 5
+          },
+          "params": {
+            "what": "its 5 most recent extra traits",
+            "kind": "trait",
+            "mode": "remove"
+          }
+        },
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 5
+          },
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "5 random traits",
+            "kind": "trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "be7b1978393e"
+}

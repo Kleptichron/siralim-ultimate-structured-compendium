@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:under-stress",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "debuff they have"
+          },
+          "params": {
+            "independent": true,
+            "source": "attacks"
+          }
+        },
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "debuff they have"
+          },
+          "params": {
+            "independent": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "eba5fefcab5d"
+}

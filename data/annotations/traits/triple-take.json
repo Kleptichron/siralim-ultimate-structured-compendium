@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:triple-take",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "what": "its attacks and spell casts"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3c3cead0160d"
+}

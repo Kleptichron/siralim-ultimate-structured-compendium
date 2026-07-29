@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:trick-or-treat",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "enemy",
+          "params": {
+            "spell": "Fireball"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Grand Fireball"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "78e236a23fa2"
+}

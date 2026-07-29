@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:trove",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "races": [
+              "Imler",
+              "Imling"
+            ]
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "what": "their first 3 permanent Spell Gems",
+            "shared": "with each other"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ed2f23b1313b"
+}
