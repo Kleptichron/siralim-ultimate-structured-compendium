@@ -12,8 +12,39 @@ export function initHighlight(statuses) {
   statusRe = new RegExp(`(?<![A-Za-z])(${names})s?(?![a-z])`, 'g');
 }
 
-function hl(text) {
-  return esc(text).replace(statusRe, (m, name) => `<mark class="${statusKind[name] ?? ''}">${m}</mark>`);
+const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// Statuses and search terms are collected as INTERVALS over the raw text, then
+// merged and escaped in one pass. Highlighting in two passes would let the
+// second one match inside the markup the first emitted — searching "mark" or
+// "de" would corrupt a <mark class="debuff"> tag.
+function hl(text, q = '', withStatuses = true) {
+  const spans = [];
+  if (statusRe && withStatuses) {
+    statusRe.lastIndex = 0;
+    for (let m; (m = statusRe.exec(text));) {
+      spans.push({ s: m.index, e: m.index + m[0].length, cls: statusKind[m[1]] ?? '', status: true });
+    }
+  }
+  // Substring, case-insensitive — exactly what the text filter matches on, so
+  // the highlight always explains why a record is in the results.
+  for (const t of q.toLowerCase().split(/\s+/).filter(Boolean)) {
+    const re = new RegExp(escRe(t), 'gi');
+    for (let m; (m = re.exec(text));) {
+      spans.push({ s: m.index, e: m.index + m[0].length, cls: 'q', status: false });
+      if (m.index === re.lastIndex) re.lastIndex++; // guard against a zero-width match
+    }
+  }
+  if (!spans.length) return esc(text);
+  // Longest first at a given start, statuses winning ties, then drop overlaps.
+  spans.sort((a, b) => a.s - b.s || (b.e - b.s) - (a.e - a.s) || (b.status ? 1 : -1));
+  let out = '', at = 0;
+  for (const sp of spans) {
+    if (sp.s < at) continue;
+    out += esc(text.slice(at, sp.s)) + `<mark class="${sp.cls}">${esc(text.slice(sp.s, sp.e))}</mark>`;
+    at = sp.e;
+  }
+  return out + esc(text.slice(at));
 }
 
 const META_LINES = {
@@ -118,10 +149,13 @@ export function cardHtml(rec, query) {
   // A real anchor, not a click handler: copy-link, middle-click and open-in-new
   // -tab all work for free, and the hashchange listener picks up the navigation.
   const link = `#id=${encodeURIComponent(rec.id)}`;
+  // Name and meta get search highlighting too: with creature names searchable,
+  // the match is often in the meta line and nowhere in the effect text, which
+  // otherwise looks like an unexplained result.
   return `<div class="card">
-    <div class="head"><a class="name" href="${link}" title="${esc(rec.id)}">${esc(rec.name)}</a>${badges.join('')}</div>
-    ${metaFn ? `<div class="meta">${esc(metaFn(rec.meta ?? {}))}</div>` : ''}
-    <div class="text">${hl(rec.text)}</div>
+    <div class="head"><a class="name" href="${link}" title="${esc(rec.id)}">${hl(rec.name, query.q, false)}</a>${badges.join('')}</div>
+    ${metaFn ? `<div class="meta">${hl(metaFn(rec.meta ?? {}), query.q, false)}</div>` : ''}
+    <div class="text">${hl(rec.text, query.q)}</div>
     ${rules}
     ${flags.length ? `<div class="flags">${flags.join(' · ')}</div>` : ''}
   </div>`;

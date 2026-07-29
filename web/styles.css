@@ -211,6 +211,10 @@ main { padding: 16px 22px; max-width: 1180px; }
 .fv .n { color: var(--dim); font-size: .875rem; }
 .fv.on .n, .fv.off .n { color: inherit; opacity: .75; }
 .fv.zero { opacity: .35; }
+/* Excluded but removing nothing — the value is absent from these results, so
+   the exclusion cannot bite. Shown rather than blocked, so the reason is
+   visible instead of the click just seeming to do nothing. */
+.fv.off.inert, .ichip.off.inert { opacity: .5; border-style: dashed; }
 select, .ichips { width: 100%; margin-bottom: 7px; }
 select {
   padding: 7px 9px; background: var(--bg); color: var(--text);
@@ -257,6 +261,13 @@ select {
 .text { margin: 5px 0 9px; }
 mark.buff { background: none; color: var(--buff); font-weight: 600; }
 mark.debuff { background: none; color: var(--debuff); font-weight: 600; }
+/* Search hits: a wash rather than a colour, so it stacks legibly with the
+   status colouring instead of competing with it. */
+mark.q {
+  background: rgba(232, 179, 75, .26); color: inherit;
+  border-radius: 3px; padding: 0 1px;
+}
+.meta mark.q, .card .name mark.q { background: rgba(232, 179, 75, .3); }
 
 .rule {
   display: flex; flex-wrap: wrap; gap: 5px; align-items: center;

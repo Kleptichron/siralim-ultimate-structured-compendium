@@ -1,6 +1,7 @@
 import {
-  PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, runQuery, sortResults, facetCounts,
-  anyRuleScopedFilter, activeFilterCount, pctRangeActive, queryToHash, hashToQuery,
+  PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, cloneQuery, runQuery, sortResults,
+  facetCounts, anyRuleScopedFilter, activeFilterCount, pctRangeActive,
+  queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
@@ -266,6 +267,16 @@ const MARKER_LABELS = {
   unmodeled: 'not fully modelled',
 };
 
+// How many results an exclusion actually removes. The plain count answers "how
+// many if I INCLUDE this", which is the wrong question once a value is
+// excluded — and is why excluding a 0-count value looks broken rather than
+// inert. Cheap: only ever computed for the handful of excluded values.
+function exclusionImpact(mutate) {
+  const sub = cloneQuery(query);
+  mutate(sub);
+  return runQuery(index.records, sub).length - lastResults.length;
+}
+
 function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
   const excluded = query.excluded[group];
   const order = [...facetOrder[group]];
@@ -273,9 +284,18 @@ function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
   // pasted URL) — show it anyway so it can be cleared.
   for (const v of [...selected, ...excluded]) if (!order.includes(v)) order.push(v);
   const rows = order.map(v => {
-    const n = counts.get(v) ?? 0;
+    let n = counts.get(v) ?? 0;
     const state = selected.has(v) ? 'on' : excluded.has(v) ? 'off' : '';
-    const hint = excluded.has(v) ? 'excluded — click to clear' : 'click to include, again to exclude';
+    let hint = 'click to include, again to exclude';
+    let inert = '';
+    if (state === 'off') {
+      n = exclusionImpact(sub => sub.excluded[group].delete(v));
+      hint = n ? `excluded — hiding ${n} — click to clear` : 'excluded, but nothing here has it — no effect';
+      if (!n) inert = ' inert';
+      return `<div class="fv off${inert}" data-g="${group}" data-v="${v}" title="${hint}">
+         <span>${labelFn(v)}</span><span class="n">−${n}</span>
+       </div>`;
+    }
     return `<div class="fv ${state} ${n === 0 && !state ? 'zero' : ''}" data-g="${group}" data-v="${v}" title="${hint}">
        <span>${labelFn(v)}</span><span class="n">${n}</span>
      </div>`;
@@ -336,8 +356,15 @@ function pickerHtml(cfg) {
     ...[...perKey.entries()].sort((a, b) => b[1] - a[1])
       .map(([k, n]) => `<option value="${k}" ${sel.key === k ? 'selected' : ''}>${k} (${n})</option>`)];
   const chips = cfg.interactions.map(i => {
-    const n = sel.key ? (pairs.get(`${sel.key}|${i}`) ?? 0) : (perInteraction.get(i) ?? 0);
+    let n = sel.key ? (pairs.get(`${sel.key}|${i}`) ?? 0) : (perInteraction.get(i) ?? 0);
     const state = sel.on.has(i) ? 'on' : sel.off.has(i) ? 'off' : '';
+    if (state === 'off') {
+      // Same reasoning as the facet rows: show what the exclusion removes, so
+      // an impossible pairing (a debuff can never be "granted") reads as −0.
+      n = exclusionImpact(sub => sub.pickers[cfg.id].off.delete(i));
+      const hint = n ? `excluded — hiding ${n}` : 'excluded, but nothing here has it — no effect';
+      return `<span class="ichip off${n ? '' : ' inert'}" data-p="${cfg.id}" data-i="${i}" title="${hint}">${i.replace(/_/g, ' ')} <span class="cn">−${n}</span></span>`;
+    }
     // Count sits in a fixed-width slot: chips are inline and wrap, so a count
     // shrinking from 4 digits to 1 would reflow the block to fewer lines and
     // shove every group below it upward — the other half of the jumping.
