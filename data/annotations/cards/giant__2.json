@@ -1,7 +1,7 @@
 {
   "id": "card:giant:2",
   "textHash": "1ba650e1cd0c",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "stat-mod-allies",
   "rules": [

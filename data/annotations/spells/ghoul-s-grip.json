@@ -1,7 +1,7 @@
 {
   "id": "spell:ghoul-s-grip",
   "textHash": "8dcda0b5559c",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

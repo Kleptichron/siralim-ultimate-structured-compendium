@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "claude",
   "id": "perk:paladin:glory",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_effect_activates",
         "subject": "allies",
         "params": {
-          "event": "deals damage with Retribution"
+          "what": "deals damage with Retribution"
         }
       },
       "actions": [

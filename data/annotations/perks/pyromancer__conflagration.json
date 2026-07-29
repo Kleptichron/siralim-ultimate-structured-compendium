@@ -1,11 +1,11 @@
 {
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "claude",
   "id": "perk:pyromancer:conflagration",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_status_effect",
         "subject": "allies",
         "params": {
           "event": "damaged or healed by Burning",

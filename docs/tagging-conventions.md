@@ -1,11 +1,14 @@
-# Tagging conventions (schema v10 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier)
+# Tagging conventions (schema v11 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier, v11 after_status_effect)
 
 **Watching `other`:** `npm run audit` ends with an *other-watch* section grouping
 every `other` use by its params shape. A shape reaching ~8 uses is an enum
 candidate — extend the enum and migrate rather than letting it accumulate
-(this produced v3, v6, v8 and v9). Current watch items below quota:
-counting/adjacency meta-rules ("acts as if the party has 3 more X", 7 uses) and
-battle-fatigue modifiers (4).
+(this produced v3, v6, v8, v9 and v11). Current watch items below quota:
+counting/adjacency meta-rules ("acts as if the party has 3 more X", 9 uses —
+these are genuinely meta and may stay), forced Timeline movement as an event
+(4), and battle-fatigue modifiers (4). Known false positive: verb-other
+`{effect}` (37) is a generic catch-all key over unrelated one-off meta-rules,
+not one family.
 
 Re-read this before every tagging session. Post-freeze schema changes require a
 migration script in scripts/migrations/ and a full re-validation.
@@ -144,6 +147,11 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     `waivedStatuses`. "This relic and its bearer deal…" → one holder-targeted
     modifier + `params.includesRelic`. Stat-gain amplifiers use the cards
     shape: `stat_change` + `params.amplifies: 'stat gains'` (NOT stat_rule).
+28. **Status payloads fire** (v11): when the *status itself* does something —
+    "after their Bomb detonates", "after a creature is damaged or healed by
+    Burning", "after it breaks free from Snared" — use trigger
+    `after_status_effect` + `params.status`. A creature merely taking damage
+    stays `after_damaged` (add `params.status` when a status dealt it).
 
 ## Semi-structured params (validated + faceted)
 

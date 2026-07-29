@@ -1,11 +1,11 @@
 {
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "claude",
   "id": "trait:appetite-for-eschar",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_status_effect",
         "subject": "allies",
         "params": {
           "event": "deals damage as a result of Blighted",

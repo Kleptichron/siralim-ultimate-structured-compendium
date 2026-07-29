@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 10;
+export const SCHEMA_VERSION = 11;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -41,6 +41,10 @@ export const TRIGGER_TYPES = [
                                     //   Slots, innate traits (params.what names the family)
   'after_minion_gained',
   'after_minion_lost',              // minions go away, are sacrificed, or would depart
+  'after_status_effect',            // a status's OWN payload resolves: Bomb detonates,
+                                    //   Burning ticks damage/healing, a creature breaks
+                                    //   free from Snared. params.status names it.
+                                    //   Plain "took damage" stays after_damaged.
   'non_combat',                     // breeding, loot, resources, overworld (mostly perks/realm)
   'other',
 ];

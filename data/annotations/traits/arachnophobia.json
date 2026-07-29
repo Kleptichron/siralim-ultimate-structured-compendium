@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "claude",
   "id": "trait:arachnophobia",
   "rules": [
@@ -37,7 +37,7 @@
     },
     {
       "trigger": {
-        "type": "other",
+        "type": "after_status_effect",
         "subject": "enemy",
         "params": {
           "event": "breaks free from Snared",

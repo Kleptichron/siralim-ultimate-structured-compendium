@@ -1,7 +1,7 @@
 {
   "id": "perk:warden:preparation",
   "textHash": "414f9a0e2475",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "start-battle-gain",
   "rules": [

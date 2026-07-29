@@ -1,7 +1,7 @@
 {
   "id": "spell:holy-protection",
   "textHash": "b49520f60bea",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

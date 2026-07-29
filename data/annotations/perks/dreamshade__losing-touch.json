@@ -1,7 +1,7 @@
 {
   "id": "perk:dreamshade:losing-touch",
   "textHash": "b75e47c7d385",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

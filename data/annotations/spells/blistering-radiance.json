@@ -1,7 +1,7 @@
 {
   "id": "spell:blistering-radiance",
   "textHash": "16ccbad5e7a5",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

@@ -1,7 +1,7 @@
 {
   "id": "perk:sorcerer:mental-fortitude",
   "textHash": "562e47a4ddfe",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "start-battle-gain",
   "rules": [

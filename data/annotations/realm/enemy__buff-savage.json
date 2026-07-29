@@ -1,7 +1,7 @@
 {
   "id": "realm:enemy:buff-savage",
   "textHash": "7064901979d1",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "enemies-start-with",
   "rules": [

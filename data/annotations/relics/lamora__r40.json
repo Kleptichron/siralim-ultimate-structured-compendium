@@ -1,7 +1,7 @@
 {
   "id": "relic:lamora:r40",
   "textHash": "aadb0ca79d77",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

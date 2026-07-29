@@ -1,7 +1,7 @@
 {
   "id": "spell:harbinger-s-curse",
   "textHash": "606c8f020a19",
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

@@ -1,11 +1,11 @@
 {
-  "schemaVersion": 10,
+  "schemaVersion": 11,
   "provenance": "claude",
   "id": "trait:sharing-is-caring",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_status_effect",
         "subject": "enemy",
         "params": {
           "event": "their Bomb detonates",
