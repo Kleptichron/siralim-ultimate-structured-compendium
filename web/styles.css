@@ -4,11 +4,16 @@
   --panel2: #22262f;
   --text: #d8dce5;
   --dim: #8a91a0;
-  --accent: #e8b34b;
+  /* Blue-leaning teal rather than a green one: --buff is already green, and an
+     accent close to it would blur "this is selected" with "this is a buff". */
+  --accent: #35a7ad;
+  --accent-rgb: 53, 167, 173;  /* for the search-highlight washes */
   --buff: #6fbf73;
   --debuff: #d95f5f;
   --chip: #2a2f3a;
-  --chip-hit: #4a3d1f;   /* included: gold tint */
+  /* Deep enough that the accent stays above 4.5:1 as text on it — the tint is
+     the background for every selected chip, row and badge. */
+  --chip-hit: #0d3034;   /* included: teal tint */
   --chip-off: #4a2626;   /* excluded: the same treatment in red */
   --border: #30343e;
   /* Sticky offsets are derived from this rather than a magic number, so the
@@ -273,10 +278,10 @@ mark.debuff { background: none; color: var(--debuff); font-weight: 600; }
 /* Search hits: a wash rather than a colour, so it stacks legibly with the
    status colouring instead of competing with it. */
 mark.q {
-  background: rgba(232, 179, 75, .26); color: inherit;
+  background: rgba(var(--accent-rgb), .26); color: inherit;
   border-radius: 3px; padding: 0 1px;
 }
-.meta mark.q, .card .name mark.q { background: rgba(232, 179, 75, .3); }
+.meta mark.q, .card .name mark.q { background: rgba(var(--accent-rgb), .3); }
 
 .rule {
   display: flex; flex-wrap: wrap; gap: 5px; align-items: center;
