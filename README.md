@@ -64,7 +64,7 @@ target combination through the real filter code in both match modes).
 ## The pipeline
 
 ```
-source/*.csv                     the game's own data files, unmodified
+source/*.csv                     community-compiled effect data, unmodified
   │  npm run import              parse, assign stable ids, hash each text,
   ▼                              build lexicons, flag drift as stale
 data/normalized/*.json
@@ -84,16 +84,37 @@ sentence can't be tagged two ways), `npm run absorb` (apply a batch of
 annotations all-or-nothing), `npm run audit` (enum usage, quota alarms, review
 sample; `-- --ids a,b` to spot-check specific records).
 
-`data/annotations/` holds no game text — only ids, the rule model, and a short
-`textHash`. Re-importing after a game patch compares those hashes and marks
-every record whose wording moved as `stale`, so a balance patch surfaces as a
-list of things to re-check instead of quietly wrong answers.
+`data/annotations/` holds no effect text — only ids, the rule model, and a short
+`textHash`. Re-importing compares those hashes and marks every record whose
+wording moved as `stale`, so a balance patch surfaces as a list of things to
+re-check instead of quietly wrong answers.
+
+## Data provenance
+
+The effect data in `source/` was **not** exported from the game, and it is worth
+being precise about that, because a reference tool that is wrong about where its
+facts came from is worse than no tool.
+
+It is community-compiled. `traits.csv` and `relics.csv` match the column layout
+of the community-maintained *Siralim Ultimate Compendium* spreadsheet, whose
+published exports carry a version banner and a maintainer contact in row 1.
+`perks.csv` and `specializations.csv` come from a different source again — they
+are the only two files using `snake_case` headers rather than Title Case. The
+transcription typos the lexicon has to alias around (`Frzoen` for Frozen,
+`Beserk` for Berserk, `Poison` for Poisoned) are human ones, which is the
+clearest single sign these are transcriptions rather than a machine export.
+
+**Which game version this describes is unrecorded.** The copy here has no
+version banner, so the site states only when the data was indexed, not which
+patch it reflects. It is a snapshot of a spreadsheet that was itself maintained
+by hand: treat it as approximately current, and verify anything load-bearing in
+game rather than in here.
 
 ## Layout
 
 | path | |
 |---|---|
-| `source/` | the game's CSV exports, eleven files, untouched |
+| `source/` | community-compiled effect data, eleven CSVs, untouched |
 | `data/normalized/` | parsed records: stable id, name, text, textHash, meta |
 | `data/annotations/` | the rule model, one JSON per record |
 | `data/lexicon/` | statuses, classes, families, stats, and aliases for source typos |
@@ -121,12 +142,18 @@ with `HttpError: Not Found`.
 An unofficial fan project. Not affiliated with, endorsed by, or connected to
 Thylacine Studios.
 
-Siralim Ultimate, its effect text and its data files are Thylacine Studios'
-work, included here so the tool can describe what the game does. If you want the
-game — and you should, this tool is no substitute — it's
+Siralim Ultimate and its effect text are Thylacine Studios' work, described here
+so the tool can answer questions about the game. If you want the game — and you
+should, this tool is no substitute — it's
 [on Steam](https://store.steampowered.com/app/1289810/Siralim_Ultimate/).
 
+The effect data under `source/` was transcribed and compiled by Siralim players,
+not by this project. That work is the reason any of this is possible, and the
+credit for it belongs to them. See [Data provenance](#data-provenance) for what
+is and isn't known about which compilations these files came from.
+
 The code, the rule model and the annotations are MIT-licensed ([LICENSE](LICENSE)).
-That license covers this project's own work only; it does not and cannot extend
-to the game content under `source/` or to the effect text carried through into
-`data/normalized/` and the built index.
+That license covers this project's own work only. It does not extend to the game
+content under `source/`, to the effect text carried through into
+`data/normalized/` and the built index, or to any upstream compilation those
+files were derived from.

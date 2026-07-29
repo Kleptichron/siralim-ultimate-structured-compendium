@@ -223,8 +223,12 @@ async function boot() {
     ? `Indexed <time datetime="${attr(index.generated)}">${gen.toLocaleDateString(undefined,
         { year: 'numeric', month: 'long', day: 'numeric' })}</time>`
     : 'Built';
+  // Says when the data was INDEXED, not which game version it describes: the
+  // source data is a community-compiled spreadsheet export whose version banner
+  // is not present in the copy under source/, so the patch it reflects is
+  // genuinely unknown. Claiming one would be worse than admitting it.
   $('#stamp').innerHTML =
-    `${when} from the game's own data files · ${index.counts.total} records · schema v${index.schemaVersion}`;
+    `${when} · ${index.counts.total} records · schema v${index.schemaVersion}`;
   // Trait lookups for the builder: names are unique corpus-wide, so a
   // type-ahead by name resolves to exactly one trait.
   const traits = index.records.filter(r => r.type === 'traits');
