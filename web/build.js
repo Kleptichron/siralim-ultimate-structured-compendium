@@ -13,6 +13,31 @@
 export const SLOTS = 6;
 export const TRAITS_PER_CREATURE = 4;
 export const SLOT_LABELS = ['Innate', 'Fusion', 'Artifact', 'Nether stone'];
+// Matches SLOT_LABELS by position; the index tags each trait with the keys it
+// may occupy (see traitSlots in build-index.js).
+export const SLOT_KEYS = ['innate', 'fusion', 'artifact', 'nether'];
+
+// Why a trait was refused, in the player's terms rather than the data's.
+export const SLOT_REFUSAL = {
+  innate: 'does not come from a creature, so it cannot be an innate trait',
+  fusion: 'does not come from a creature, so it cannot be fused',
+  artifact: 'has no material, so it cannot be put on an artifact',
+  nether: 'cannot go in a nether stone slot', // unreachable: nether takes anything
+};
+
+// Where a warning applies, named the way the sheet labels it. A bare count
+// ("1 slots") tells the reader nothing about where to look.
+export const placeLabel = p => `Creature ${p.creature + 1} · ${SLOT_LABELS[p.slot]}`;
+
+export function slotAccepts(rec, slot) {
+  // Only traits go in slots at all — the stale-index fallback below must not
+  // turn into "a spell fits anywhere".
+  if (rec?.type !== 'traits') return false;
+  // An index built before slots existed tags nothing. Accepting every trait
+  // then is the right failure: a stale deploy should behave as it did before,
+  // not refuse everything in the builder.
+  return !rec.slots || rec.slots.includes(SLOT_KEYS[slot]);
+}
 
 export function emptyBuild() {
   return {
@@ -95,6 +120,23 @@ export function buildWarnings(build, byId) {
     }
   }
   const warnings = [];
+  // A shared link predates nothing and validates nothing, so a build can arrive
+  // with a trait in a slot it may not occupy. Say so rather than silently
+  // dropping it — the reader needs to know their link was not what they meant.
+  for (const [c, row] of build.slots.entries()) {
+    for (const [s, id] of row.entries()) {
+      if (!id || (!build.nether && s === 3)) continue;
+      const rec = byId.get(id);
+      if (!rec || slotAccepts(rec, s)) continue;
+      warnings.push({
+        id,
+        name: rec.name,
+        places: [{ creature: c, slot: s }],
+        severity: 'invalid',
+        note: SLOT_REFUSAL[SLOT_KEYS[s]],
+      });
+    }
+  }
   for (const [id, places] of seen) {
     if (places.length < 2) continue;
     const rec = byId.get(id);

@@ -20,7 +20,11 @@
     <button id="buildtoggle" type="button">Build</button>
     <span id="coverage" class="dim"></span>
   </header>
+  <!-- One suggestion list per slot rule, so a slot only ever offers traits it
+       can actually take. Innate and Fusion share the creature list. -->
   <datalist id="traitnames"></datalist>
+  <datalist id="traitnames-creature"></datalist>
+  <datalist id="traitnames-artifact"></datalist>
   <div id="backdrop" hidden></div>
   <!-- Confirmations that are otherwise only visible in a button label. -->
   <div id="say" class="sr-only" role="status" aria-live="polite"></div>

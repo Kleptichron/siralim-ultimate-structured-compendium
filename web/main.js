@@ -9,7 +9,8 @@ import {
   buildToMarkdown, resultsToCsv, resultsToMarkdown, resultsToJson, copyText, downloadFile,
 } from '/export.js';
 import {
-  SLOTS, TRAITS_PER_CREATURE, SLOT_LABELS, emptyBuild, buildToParam, buildFromParam,
+  SLOTS, TRAITS_PER_CREATURE, SLOT_LABELS, SLOT_KEYS, SLOT_REFUSAL, slotAccepts, placeLabel,
+  emptyBuild, buildToParam, buildFromParam,
   buildIsEmpty, buildWarnings, buildSummary, buildCount, saveBuild, loadBuild,
 } from '/build.js';
 
@@ -211,8 +212,10 @@ async function boot() {
   const traits = index.records.filter(r => r.type === 'traits');
   byId = new Map(traits.map(r => [r.id, r]));
   traitByName = new Map(traits.map(r => [r.name.toLowerCase(), r]));
-  $('#traitnames').innerHTML = traits
-    .map(r => `<option value="${attr(r.name)}">`).join('');
+  const options = rs => rs.map(r => `<option value="${attr(r.name)}">`).join('');
+  $('#traitnames').innerHTML = options(traits); // nether stones take anything
+  $('#traitnames-creature').innerHTML = options(traits.filter(r => slotAccepts(r, 0)));
+  $('#traitnames-artifact').innerHTML = options(traits.filter(r => slotAccepts(r, 2)));
 
   // A shared link always wins; otherwise pick up the working copy from storage.
   const bootParams = new URLSearchParams(location.hash.replace(/^#/, ''));
@@ -896,9 +899,14 @@ function openAddMenu(traitId, anchor) {
     const buttons = row.slice(0, slotCount).map((id, s) => {
       const held = byId.get(id);
       const isThis = id === traitId;
+      // Disabled rather than hidden: a missing Artifact column would read as a
+      // rendering fault, where a greyed one with a reason teaches the rule.
+      const ok = slotAccepts(rec, s);
+      const title = !ok ? `${rec.name} ${SLOT_REFUSAL[SLOT_KEYS[s]]}`
+        : held ? `replaces ${held.name}`
+        : `empty ${SLOT_LABELS[s]} slot`;
       return `<button class="amslot${held ? ' filled' : ''}${isThis ? ' same' : ''}"
-        data-c="${c}" data-s="${s}"
-        title="${held ? `replaces ${attr(held.name)}` : `empty ${SLOT_LABELS[s]} slot`}">
+        data-c="${c}" data-s="${s}" ${ok ? '' : 'disabled'} title="${attr(title)}">
         <span class="amslot-label">${SLOT_LABELS[s][0]}</span>
         <span class="amslot-held">${held ? attr(held.name) : '—'}</span>
       </button>`;
@@ -909,7 +917,14 @@ function openAddMenu(traitId, anchor) {
     </div>`;
   }).join('');
 
-  el.innerHTML = `<div class="amhead">Add <strong>${attr(rec.name)}</strong> to…</div>${rows}
+  // Name the restriction once at the top rather than leaving the reader to
+  // hover a greyed button to find out why half the grid is unavailable.
+  // The two exclusions never overlap, so every slot a given trait is refused
+  // from is refused for the same reason — the first one speaks for all of them.
+  const firstBlocked = SLOT_KEYS.slice(0, slotCount).findIndex((_, s) => !slotAccepts(rec, s));
+  const why = firstBlocked === -1 ? ''
+    : `<div class="amwhy">${attr(rec.name)} ${attr(SLOT_REFUSAL[SLOT_KEYS[firstBlocked]])}</div>`;
+  el.innerHTML = `<div class="amhead">Add <strong>${attr(rec.name)}</strong> to…</div>${why}${rows}
     <div class="amfoot"><label><input type="checkbox" id="amnether" ${build.nether ? 'checked' : ''}>
       <span>Nether stone slot</span></label><button class="amclose">Close</button></div>`;
   el.hidden = false;
@@ -942,7 +957,7 @@ function openAddMenu(traitId, anchor) {
   // and comes back afterwards — Escape would otherwise strand you at the top of
   // the document. Re-rendering for the nether checkbox keeps the same opener.
   addMenuOpener = anchor;
-  el.querySelector('.amslot')?.focus();
+  el.querySelector('.amslot:not([disabled])')?.focus(); // a disabled button cannot take it
 }
 
 let addMenuOpener = null;
@@ -970,12 +985,18 @@ function creatureLabel(row) {
   return rec?.meta?.creature ? `${rec.meta.creature} · ${rec.meta.family}` : '';
 }
 
+// Innate and Fusion both want creature traits; Artifact wants a material; a
+// nether stone takes anything.
+const SLOT_LIST = ['traitnames-creature', 'traitnames-creature', 'traitnames-artifact', 'traitnames'];
+
 function slotInputHtml(c, s, id) {
   const rec = byId.get(id);
+  const wrong = rec && !slotAccepts(rec, s);
   return `<label class="bslot">
     <span class="bslot-label">${SLOT_LABELS[s]}</span>
-    <input list="traitnames" data-c="${c}" data-s="${s}" data-fk="bs:${c}:${s}" placeholder="trait name…"
-      value="${rec ? attr(rec.name) : ''}" class="${id && !rec ? 'unknown' : ''}">
+    <input list="${SLOT_LIST[s]}" data-c="${c}" data-s="${s}" data-fk="bs:${c}:${s}" placeholder="trait name…"
+      value="${rec ? attr(rec.name) : ''}" class="${(id && !rec) || wrong ? 'unknown' : ''}">
+    <span class="bslot-err">${wrong ? `${attr(rec.name)} ${attr(SLOT_REFUSAL[SLOT_KEYS[s]])}` : ''}</span>
   </label>`;
 }
 
@@ -1021,7 +1042,7 @@ function renderBuild() {
     </div>
     ${warnings.length ? `<div class="bwarnings">${warnings.map(w =>
       `<div class="bwarning ${w.severity}"><strong>${attr(w.name)}</strong> ${attr(w.note)}
-        <span class="dim">(${w.places.length} slots)</span></div>`).join('')}</div>` : ''}
+        <span class="dim">${attr(w.places.map(placeLabel).join(', '))}</span></div>`).join('')}</div>` : ''}
     ${summary.count ? `<div class="bsummary">
       ${summary.statuses.length ? `<div><span class="dim">applies</span> ${summary.statuses.slice(0, 12)
         .map(([n, c2]) => `<span class="bpill">${attr(n)}${c2 > 1 ? ` ×${c2}` : ''}</span>`).join('')}</div>` : ''}
@@ -1032,10 +1053,27 @@ function renderBuild() {
 
   el.querySelectorAll('.bslots input').forEach(input => {
     input.onchange = () => {
-      const rec = traitByName.get(input.value.trim().toLowerCase());
-      build.slots[+input.dataset.c][+input.dataset.s] = rec ? rec.id : '';
+      const s = +input.dataset.s;
+      const typed = input.value.trim();
+      const rec = traitByName.get(typed.toLowerCase());
+      // A name the slot cannot take is a different mistake from a typo, and the
+      // suggestion list will not have offered it — so say which rule refused
+      // it. Both cases clear the slot and leave the text on screen to fix.
+      const refused = rec && !slotAccepts(rec, s);
+      build.slots[+input.dataset.c][s] = rec && !refused ? rec.id : '';
       saveBuild(build);
-      if (input.value.trim() && !rec) return; // leave the typo visible to fix
+      const err = input.parentElement.querySelector('.bslot-err');
+      if (typed && !rec) {
+        input.classList.add('unknown');
+        err.textContent = 'no trait by that name';
+        return;
+      }
+      if (refused) {
+        input.classList.add('unknown');
+        err.textContent = `${rec.name} ${SLOT_REFUSAL[SLOT_KEYS[s]]}`;
+        say(`${rec.name} ${SLOT_REFUSAL[SLOT_KEYS[s]]}`);
+        return;
+      }
       renderMode({ push: true });
     };
   });
@@ -1057,6 +1095,7 @@ function renderBuild() {
         netherSlots: TRAITS_PER_CREATURE,
         summary,
         warnings,
+        placeLabel,
       });
       if (b.dataset.x === 'md') flash(b, copyText(md), 'Markdown copied');
       else { downloadFile('su-team.md', md, 'text/markdown'); say('Downloaded su-team.md'); }

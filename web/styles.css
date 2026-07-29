@@ -382,6 +382,12 @@ body.building .layout { grid-template-columns: 1fr; }
   font-size: .9375rem; background: var(--chip); color: var(--text); border: 1px solid var(--border);
 }
 .bclear:hover { border-color: var(--accent); color: var(--accent); }
+/* Why a slot refused what you typed. Empty by default, so it takes no space
+   until there is something to say. */
+.bslot-err { font-size: .8125rem; color: var(--debuff); min-height: 0; }
+.bslot-err:empty { display: none; }
+.amslot:disabled { opacity: .35; cursor: not-allowed; }
+.amwhy { font-size: .8125rem; color: var(--debuff); margin: -2px 0 8px; line-height: 1.4; }
 .bwarnings { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
 .bwarning {
   padding: 8px 12px; border-radius: 6px; font-size: .9375rem;

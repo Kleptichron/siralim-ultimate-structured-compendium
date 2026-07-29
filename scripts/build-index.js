@@ -191,6 +191,36 @@ function unionFacets(bags, ann) {
   return out;
 }
 
+// --- which build slots a trait may occupy ----------------------------------
+// Both exclusions are stated outright in the source data rather than inferred.
+// Three "creatures" name a mechanic instead of a being — mastery sigils, backer
+// rewards and Zantai's jewels are earned, not fused from a creature — and the
+// god and unique-boss traits carry a literal "No Material Exists", which is
+// exactly what stops them being imbued onto an artifact. A nether stone takes
+// anything, so every trait keeps that slot.
+const NOT_A_CREATURE = new Set(['Mastery Trait', 'Backer Trait', 'Zantai Material']);
+const NO_MATERIAL = 'No Material Exists';
+// `class` carries the same distinction independently and agrees on all 1,780
+// traits. Cross-checking the two costs nothing and means a corpus update that
+// changes either one fails the build instead of silently mis-filtering the
+// builder — a wrong slot rule is invisible until someone cannot pick a trait.
+const NON_CREATURE_CLASSES = new Set(['Backer', 'Rodian Master', 'Boss']);
+
+function traitSlots(id, meta) {
+  const fromCreature = !NOT_A_CREATURE.has(meta.creature);
+  if (fromCreature === NON_CREATURE_CLASSES.has(meta.class)) {
+    throw new Error(
+      `${id}: creature "${meta.creature}" and class "${meta.class}" disagree about whether `
+      + 'this trait comes from a creature — the build-slot rules need revisiting',
+    );
+  }
+  const slots = [];
+  if (fromCreature) slots.push('innate', 'fusion');
+  if (meta.material !== NO_MATERIAL) slots.push('artifact');
+  slots.push('nether');
+  return slots;
+}
+
 const manifest = JSON.parse(readFileSync('data/manifest.json', 'utf8')).records;
 const records = [];
 for (const src of Object.values(SOURCE_DIRS)) {
@@ -204,6 +234,7 @@ for (const src of Object.values(SOURCE_DIRS)) {
       meta: r.meta,
       status: manifest[r.id]?.status ?? 'todo',
     };
+    if (src === 'traits') entry.slots = traitSlots(r.id, r.meta);
     if (ann) {
       entry.provenance = ann.provenance;
       entry.matchBags = (ann.rules ?? []).flatMap((rule, i) => deriveRuleBags(rule, i));

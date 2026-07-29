@@ -123,7 +123,9 @@ export function resultsToJson(records, meta = {}) {
 // Markdown because the destination is a post or a chat message. Kept flat —
 // headings and one bullet per trait — so it renders the same on Reddit, Discord
 // and GitHub rather than relying on nested lists that only some of them handle.
-export function buildToMarkdown(build, byId, { url = '', slotLabels, netherSlots = 4, summary, warnings = [] } = {}) {
+export function buildToMarkdown(build, byId, {
+  url = '', slotLabels, netherSlots = 4, summary, warnings = [], placeLabel = p => `slot ${p.slot + 1}`,
+} = {}) {
   const out = ['# Siralim team'];
   if (url) out.push('', url);
 
@@ -151,7 +153,7 @@ export function buildToMarkdown(build, byId, { url = '', slotLabels, netherSlots
 
   if (warnings.length) {
     out.push('', '### Warnings', '');
-    for (const w of warnings) out.push(`- **${w.name}** ${w.note} (${w.places.length} slots)`);
+    for (const w of warnings) out.push(`- **${w.name}** ${w.note} — ${w.places.map(placeLabel).join(', ')}`);
   }
 
   if (summary?.count) {
