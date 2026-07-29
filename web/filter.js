@@ -401,12 +401,22 @@ export function sortResults(results, query) {
 // perInteraction counts records having ANY key with that interaction.
 export function facetCounts(records, query, group) {
   const sub = cloneQuery(query);
+  // In ALL mode the group's own selections STAY applied, so each value is
+  // counted against the results you already have — "how much further does this
+  // narrow it". Clearing the group, as ANY mode does, would advertise 387 for a
+  // value that can only ever yield the 14 records already on screen.
+  const pickerId = group.startsWith('picker:') ? group.slice(7) : null;
+  const allMode = pickerId
+    ? isAllMode(query, pickerId, query.pickers[pickerId].on.size)
+    : isAllMode(query, group, query[group]?.size ?? 0);
   if (EXCLUDABLE.includes(group)) {
-    sub[group] = new Set();
+    if (!allMode) sub[group] = new Set();
     sub.excluded[group] = new Set(); // clearing a group clears BOTH its states
-  } else if (group.startsWith('picker:')) {
-    const id = group.slice(7);
-    sub.pickers[id] = { key: '', on: new Set(), off: new Set() };
+  } else if (pickerId) {
+    const cur = query.pickers[pickerId];
+    sub.pickers[pickerId] = allMode
+      ? { key: cur.key, on: new Set(cur.on), off: new Set() }
+      : { key: '', on: new Set(), off: new Set() };
   }
   const pool = runQuery(records, sub);
   // In same-rule mode a count must answer "how many results if I ALSO pick
