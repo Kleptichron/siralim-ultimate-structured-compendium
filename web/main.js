@@ -325,7 +325,9 @@ function pickerHtml(cfg) {
 }
 
 function renderFacets() {
-  const el = $('#facets');
+  // Written into the persistent inner wrapper, not the aside: the wrapper owns
+  // the scroll position and the fixed width the collapse animation clips.
+  const el = $('#facetsinner');
   const scrollTop = el.scrollTop; // rebuilding innerHTML would otherwise jump to top
   const scoped = anyRuleScopedFilter(query);
   el.innerHTML = `
