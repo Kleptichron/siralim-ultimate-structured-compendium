@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:subjugation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Defense",
+            "scalePct": 100
+          },
+          "params": {
+            "of": "the amount of Defense it has greater than its target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c3d6c2322dc4"
+}

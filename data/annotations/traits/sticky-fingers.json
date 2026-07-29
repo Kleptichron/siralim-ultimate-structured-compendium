@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sticky-fingers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bc24e01ef573"
+}

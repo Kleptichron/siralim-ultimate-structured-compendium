@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:strength-of-the-mind",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "allies",
+          "stats": [
+            "Intelligence"
+          ],
+          "params": {
+            "rule": "cannot be reduced"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c1ccf6fce363"
+}

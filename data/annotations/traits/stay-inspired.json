@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stay-inspired",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "manual Arsenal Spell cast by your creatures this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d63be650bbbd"
+}

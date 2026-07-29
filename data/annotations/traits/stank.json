@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stank",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down",
+            "scaleRef": "debuff_count",
+            "per": "debuff they have"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 7,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "debuff they have"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4b3122ede09f"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stomp",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "trigger_subject",
+          "params": {
+            "action": "attacking (interrupted)"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c00b5edbf1c8"
+}

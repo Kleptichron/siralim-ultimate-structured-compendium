@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stifle",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Silenced"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "b58e6b2e35a3"
+}

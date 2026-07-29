@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:strength-of-the-world",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Defense",
+            "scalePct": 100
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "down"
+          },
+          "params": {
+            "effect": "set to its minimum value"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "696947341647"
+}

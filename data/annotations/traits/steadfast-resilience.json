@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:steadfast-resilience",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 25
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e9ce442ba508"
+}

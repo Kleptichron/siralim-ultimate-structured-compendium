@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:supersonic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Silenced"
+          ],
+          "params": {
+            "turns": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a77317f8db89"
+}

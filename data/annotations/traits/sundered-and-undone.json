@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sundered-and-undone",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Barrier"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "params": {
+            "effect": "shatters"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "actor": "trigger_subject",
+          "target": "enemies",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "scaleRef": "status_potency",
+            "scalePct": 35
+          },
+          "params": {
+            "of": "the shattered Barrier"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "151221ec93d9"
+}

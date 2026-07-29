@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:steel-eater",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Vulnerable"
+          ]
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e3b09afaa930"
+}

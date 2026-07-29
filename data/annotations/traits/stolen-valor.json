@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stolen-valor",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "allies",
+          "params": {
+            "action": "losing extra traits and Spell Gems in battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bf7eb7544969"
+}

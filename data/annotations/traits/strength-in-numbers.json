@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:strength-in-numbers",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "effect": "class-count effects act as if the party contains 2 more creatures of that class"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "notes": "Counting meta-rule (class twin of trait:shackler-s-mastery); verb other is honest here.",
+  "textHash": "f98d612bee3a"
+}

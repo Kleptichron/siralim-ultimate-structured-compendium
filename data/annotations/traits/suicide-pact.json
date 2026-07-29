@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:suicide-pact",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "who": "allies",
+          "params": {
+            "what": "race",
+            "equals": "your most common race"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "kill",
+          "target": "allies",
+          "params": {
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "322eed0d9dde"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stay-dead",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 60
+          },
+          "params": {
+            "of": "this creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "d171d0f112be"
+}

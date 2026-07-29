@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:storm-to-pass",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "enemy"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "above": "90%"
+          }
+        }
+      ],
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "trigger_subject",
+          "params": {
+            "action": "taking its turn"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "83cc06bfad30"
+}

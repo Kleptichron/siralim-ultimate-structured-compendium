@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stoke",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder",
+        "params": {
+          "alsoAfter": "provoking"
+        }
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "actor": "holder",
+          "target": "enemies",
+          "statuses": [
+            "Burning"
+          ],
+          "magnitude": {
+            "amountPct": 65,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "11a732cdf73b"
+}

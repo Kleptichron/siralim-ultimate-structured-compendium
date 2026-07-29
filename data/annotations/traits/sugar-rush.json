@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sugar-rush",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up",
+            "scaleRef": "buff_count",
+            "per": "buff it has"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "holder",
+          "statusKind": "buff"
+        }
+      ]
+    }
+  ],
+  "textHash": "2dc9051c8ba5"
+}

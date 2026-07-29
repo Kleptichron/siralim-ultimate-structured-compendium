@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stand-alone-complex",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "dodge_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "source": "attacks",
+            "always": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "battle_action",
+          "actor": "holder",
+          "params": {
+            "action": "provoke"
+          }
+        },
+        {
+          "verb": "other",
+          "target": "holder",
+          "params": {
+            "effect": "its turn then ends"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Turn-ending has no verb; other is honest here (same as trait:shield-mastery).",
+  "textHash": "46b94dad337b"
+}

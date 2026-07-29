@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sting-martyr",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 125,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Maximum Health"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "23e94654feca"
+}

@@ -18977,163 +18977,203 @@
     },
     "trait:stampede": {
       "hash": "ac0707b0db65",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stand-alone-complex": {
       "hash": "46b94dad337b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stand-as-one": {
       "hash": "662b534b3d1e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stank": {
       "hash": "4b3122ede09f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:star-prayer": {
       "hash": "28e33b0cff50",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:starless": {
       "hash": "4236dd146a36",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stasis": {
       "hash": "45ff71112f3b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:staticstalker": {
       "hash": "c097559aec7b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stay-dead": {
       "hash": "d171d0f112be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stay-inspired": {
       "hash": "d63be650bbbd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:steadfast-resilience": {
       "hash": "e9ce442ba508",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:steady-gaze": {
       "hash": "33031699d0fb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:steel-eater": {
       "hash": "e3b09afaa930",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stick-soul": {
       "hash": "f15bf809a2bc",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sticky-fingers": {
       "hash": "bc24e01ef573",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stifle": {
       "hash": "b58e6b2e35a3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sting-martyr": {
       "hash": "23e94654feca",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stoke": {
       "hash": "11a732cdf73b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stolen-valor": {
       "hash": "bf7eb7544969",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stomp": {
       "hash": "c00b5edbf1c8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:storm-of-the-century": {
       "hash": "999f7b2acbac",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:storm-to-pass": {
       "hash": "83cc06bfad30",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:strength-in-numbers": {
       "hash": "f98d612bee3a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:strength-of-the-mind": {
       "hash": "c1ccf6fce363",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:strength-of-the-world": {
       "hash": "696947341647",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stricken": {
       "hash": "8f48cee7c2e2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:stupify": {
       "hash": "365e6173987a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:su-casa-es-mi-casa": {
       "hash": "31161f7ab371",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:subjugation": {
       "hash": "c3d6c2322dc4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:subtlety": {
       "hash": "740f30ac10a4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:subversion": {
       "hash": "b25ee1e0341e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sugar-and-slice": {
       "hash": "689ea6ac8221",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sugar-rush": {
       "hash": "2dc9051c8ba5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:suicide-pact": {
       "hash": "322eed0d9dde",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:summon-the-pack": {
       "hash": "be1d965cfa53",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sun-prayer": {
       "hash": "2921d7fdd0e4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sundered-and-undone": {
       "hash": "151221ec93d9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:sunny-disposition": {
       "hash": "51254afa0930",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:superfluidity": {
       "hash": "4427441ccb20",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:supersonic": {
       "hash": "a77317f8db89",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:surge": {
       "hash": "6a0b3e3600d1",

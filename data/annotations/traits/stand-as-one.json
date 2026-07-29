@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stand-as-one",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 25
+          },
+          "params": {
+            "others": true,
+            "shared": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "662b534b3d1e"
+}

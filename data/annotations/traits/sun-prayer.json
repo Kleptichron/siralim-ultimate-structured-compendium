@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sun-prayer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "\"Chance to Provoke\" Spell Gem properties",
+            "property": "activation chance"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "2921d7fdd0e4"
+}

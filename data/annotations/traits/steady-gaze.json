@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:steady-gaze",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell",
+          "timing": "would"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "down"
+          },
+          "params": {
+            "effect": "damage negated"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemy",
+          "statuses": [
+            "Stone"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "33031699d0fb"
+}

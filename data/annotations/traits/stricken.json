@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stricken",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "debuff": "random",
+            "count": 2
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "8f48cee7c2e2"
+}

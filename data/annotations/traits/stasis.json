@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stasis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 75,
+            "direction": "up"
+          },
+          "params": {
+            "source": "attacks"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Confused"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "45ff71112f3b"
+}

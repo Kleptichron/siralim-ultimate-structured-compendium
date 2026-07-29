@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:storm-of-the-century",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Lightning Storm"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "999f7b2acbac"
+}

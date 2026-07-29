@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:starless",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "stat_rule",
+          "target": "any",
+          "stats": [
+            "all"
+          ],
+          "params": {
+            "rule": "cannot gain stats"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4236dd146a36"
+}

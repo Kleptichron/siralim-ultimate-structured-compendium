@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:superfluidity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "manual": false
+        }
+      },
+      "chance": 5,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "trigger_subject",
+          "params": {
+            "effect": "the automatic cast counts as a manual cast"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4427441ccb20"
+}

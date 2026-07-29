@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:stampede",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder",
+        "params": {
+          "alsoAfter": "defending or provoking"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Wrath of Nature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ac0707b0db65"
+}

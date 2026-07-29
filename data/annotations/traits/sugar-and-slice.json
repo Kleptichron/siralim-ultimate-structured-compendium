@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:sugar-and-slice",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "enemy",
+        "params": {
+          "status": "Burning",
+          "source": "Burning"
+        }
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 35
+          },
+          "params": {
+            "of": "normal damage"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "689ea6ac8221"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 10,
+  "provenance": "claude",
+  "id": "trait:su-casa-es-mi-casa",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "Personality",
+            "of": "the enemy",
+            "equals": "decreases the same stats as this creature's Personality"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 200,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "31161f7ab371"
+}
