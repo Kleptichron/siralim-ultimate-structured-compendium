@@ -56,7 +56,7 @@ function hl(text, q = '', withStatuses = true) {
 // Empty, null and false values drop out, so nothing renders a bare "Rank:".
 const META_FIELDS = {
   traits: m => [['Creature', m.creature], ['Family', m.family], ['Class', m.class],
-    ['Trait material', m.material]],
+    ['Material', m.material]],
   spells: m => [['Class', m.class], ['Charges', m.charges]],
   perks: m => [['Specialization', m.specialization], ['Ranks', m.ranks],
     [null, m.anointment && 'anointment']],
