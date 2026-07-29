@@ -221,11 +221,15 @@ export function cardHtml(rec, query) {
   // A real anchor, not a click handler: copy-link, middle-click and open-in-new
   // -tab all work for free, and the hashchange listener picks up the navigation.
   const link = `#id=${encodeURIComponent(rec.id)}`;
+  // Only traits go into a build — a spell or relic has no slot to occupy.
+  const addBtn = rec.type === 'traits'
+    ? `<button class="addtrait" data-id="${esc(rec.id)}" title="Add to a creature in your build" aria-label="Add to build">+</button>`
+    : '';
   // Name and meta get search highlighting too: with creature names searchable,
   // the match is often in the meta line and nowhere in the effect text, which
   // otherwise looks like an unexplained result.
   return `<div class="card">
-    <div class="head"><a class="name" href="${link}" title="${esc(rec.id)}">${hl(rec.name, query.q, false)}</a>${badges.join('')}</div>
+    <div class="head"><a class="name" href="${link}" title="${esc(rec.id)}">${hl(rec.name, query.q, false)}</a>${badges.join('')}${addBtn}</div>
     ${metaFn ? `<div class="meta">${hl(metaFn(rec.meta ?? {}), query.q, false)}</div>` : ''}
     <div class="text">${hl(rec.text, query.q)}</div>
     ${rules}

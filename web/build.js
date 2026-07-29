@@ -51,6 +51,38 @@ export function buildFromParam(param, netherFlag) {
 
 export const buildIsEmpty = build => build.slots.every(row => row.every(id => !id));
 
+export const buildCount = build =>
+  build.slots.reduce((n, row) =>
+    n + row.filter((id, s) => id && (build.nether || s !== 3)).length, 0);
+
+// A build assembled from the search results has to outlive the page: while you
+// are searching, the URL is carrying the QUERY, so there is nowhere in it to
+// keep the build. Local storage holds the working copy; the URL stays the way
+// you share one, and a shared link always wins over what is stored.
+const STORE_KEY = 'su-compendium-build';
+
+export function saveBuild(build) {
+  try {
+    localStorage.setItem(STORE_KEY, JSON.stringify({ slots: build.slots, nether: build.nether }));
+  } catch { /* private mode or full quota — the build simply won't persist */ }
+}
+
+export function loadBuild() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(STORE_KEY) ?? 'null');
+    if (!raw || !Array.isArray(raw.slots)) return null;
+    const build = emptyBuild();
+    build.nether = !!raw.nether;
+    raw.slots.slice(0, SLOTS).forEach((row, c) => {
+      if (!Array.isArray(row)) return;
+      row.slice(0, TRAITS_PER_CREATURE).forEach((id, s) => {
+        if (typeof id === 'string') build.slots[c][s] = id;
+      });
+    });
+    return build;
+  } catch { return null; }
+}
+
 // Non-stacking traits are the one duplication the game actively punishes: a
 // second copy does nothing. Everything else may legitimately repeat.
 export function buildWarnings(build, byId) {

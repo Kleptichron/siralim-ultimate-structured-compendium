@@ -6,7 +6,7 @@ import {
 import { initHighlight, cardHtml } from '/render.js';
 import {
   SLOTS, TRAITS_PER_CREATURE, SLOT_LABELS, emptyBuild, buildToParam, buildFromParam,
-  buildIsEmpty, buildWarnings, buildSummary,
+  buildIsEmpty, buildWarnings, buildSummary, buildCount, saveBuild, loadBuild,
 } from '/build.js';
 
 // Cards render at roughly 20µs each, so a 250-card chunk costs ~5ms while the
@@ -48,6 +48,9 @@ function adoptUrl() {
   const params = new URLSearchParams(incoming);
   buildMode = params.has('build');
   if (buildMode) {
+    // Deliberately NOT saved: opening someone's shared link should not
+    // overwrite the build you were working on. Editing it does save, so a
+    // build you actually touch becomes your working copy.
     build = buildFromParam(params.get('build'), params.get('nether') === '1');
   } else {
     query = hashToQuery(incoming); // carries sort + reveal count
@@ -207,9 +210,11 @@ async function boot() {
   $('#traitnames').innerHTML = traits
     .map(r => `<option value="${attr(r.name)}">`).join('');
 
+  // A shared link always wins; otherwise pick up the working copy from storage.
   const bootParams = new URLSearchParams(location.hash.replace(/^#/, ''));
   buildMode = bootParams.has('build');
   if (buildMode) build = buildFromParam(bootParams.get('build'), bootParams.get('nether') === '1');
+  else build = loadBuild() ?? emptyBuild();
   query = hashToQuery(location.hash);
   lastHash = modeHash();
   $('#search').value = query.q;
@@ -222,11 +227,18 @@ async function boot() {
   });
   $('#buildtoggle').onclick = () => {
     buildMode = !buildMode;
+    closeAddMenu();
     // Leaving an empty build should land on the search, not a stale hash.
     lastHash = null;
     syncUrl('push');
     applyMode();
   };
+  // Dismiss the menu the way a menu should dismiss.
+  document.addEventListener('click', e => {
+    if (!e.target.closest('#addmenu') && !e.target.closest('.addtrait')) closeAddMenu();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeAddMenu(); });
+  addEventListener('resize', closeAddMenu);
 
   // Open on desktop, shut on phones where it would cover the results.
   setNav(!narrow());
@@ -242,6 +254,8 @@ async function boot() {
   // Delegated once: #results is rebuilt wholesale on every paint, so per-chip
   // handlers would be re-attached thousands of times.
   $('#results').addEventListener('click', e => {
+    const add = e.target.closest('.addtrait');
+    if (add) { openAddMenu(add.dataset.id, add); return; }
     const el = e.target.closest('.chip.clickable');
     if (!el) return;
     const entries = JSON.parse(el.dataset.f);
@@ -748,6 +762,72 @@ function renderEmptyState() {
   });
 }
 
+// --- add-to-build menu -----------------------------------------------------
+// Six creatures x three or four slots is too many for a flat list, so the menu
+// is a grid: one row per creature, one button per slot, each showing what is
+// already there. Picking an occupied slot replaces it — the alternative, hiding
+// full slots, makes a full build look broken rather than replaceable.
+function openAddMenu(traitId, anchor) {
+  const el = $('#addmenu');
+  const rec = byId.get(traitId);
+  if (!rec) return;
+  const slotCount = build.nether ? TRAITS_PER_CREATURE : 3;
+  const rows = build.slots.map((row, c) => {
+    const label = creatureLabel(row);
+    const buttons = row.slice(0, slotCount).map((id, s) => {
+      const held = byId.get(id);
+      const isThis = id === traitId;
+      return `<button class="amslot${held ? ' filled' : ''}${isThis ? ' same' : ''}"
+        data-c="${c}" data-s="${s}"
+        title="${held ? `replaces ${attr(held.name)}` : `empty ${SLOT_LABELS[s]} slot`}">
+        <span class="amslot-label">${SLOT_LABELS[s][0]}</span>
+        <span class="amslot-held">${held ? attr(held.name) : '—'}</span>
+      </button>`;
+    }).join('');
+    return `<div class="amrow">
+      <div class="amname">Creature ${c + 1}${label ? `<span class="dim"> · ${attr(label)}</span>` : ''}</div>
+      <div class="amslots">${buttons}</div>
+    </div>`;
+  }).join('');
+
+  el.innerHTML = `<div class="amhead">Add <strong>${attr(rec.name)}</strong> to…</div>${rows}
+    <div class="amfoot"><label><input type="checkbox" id="amnether" ${build.nether ? 'checked' : ''}>
+      <span>Nether stone slot</span></label><button class="amclose">Close</button></div>`;
+  el.hidden = false;
+
+  // Anchor under the button, clamped so it never leaves the viewport.
+  const r = anchor.getBoundingClientRect();
+  const w = el.offsetWidth, h = el.offsetHeight;
+  const left = Math.max(8, Math.min(r.right - w, window.innerWidth - w - 8));
+  const top = r.bottom + h + 8 > window.innerHeight ? Math.max(8, r.top - h - 6) : r.bottom + 6;
+  el.style.left = `${left}px`;
+  el.style.top = `${top}px`;
+
+  el.querySelectorAll('.amslot').forEach(b => {
+    b.onclick = () => {
+      build.slots[+b.dataset.c][+b.dataset.s] = traitId;
+      saveBuild(build);
+      closeAddMenu();
+      syncBuildBadge();
+      if (buildMode) renderBuild();
+    };
+  });
+  $('#amnether').onchange = e => {
+    build.nether = e.target.checked;
+    saveBuild(build);
+    openAddMenu(traitId, anchor); // re-render with the extra column
+  };
+  el.querySelector('.amclose').onclick = closeAddMenu;
+}
+
+function closeAddMenu() { $('#addmenu').hidden = true; }
+
+function syncBuildBadge() {
+  const n = buildCount(build);
+  $('#buildtoggle').textContent = n ? `Build ${n}` : 'Build';
+  $('#buildtoggle').classList.toggle('on', buildMode);
+}
+
 // --- team builder ----------------------------------------------------------
 
 function creatureLabel(row) {
@@ -812,15 +892,17 @@ function renderBuild() {
     input.onchange = () => {
       const rec = traitByName.get(input.value.trim().toLowerCase());
       build.slots[+input.dataset.c][+input.dataset.s] = rec ? rec.id : '';
+      saveBuild(build);
       if (input.value.trim() && !rec) return; // leave the typo visible to fix
       renderMode({ push: true });
     };
   });
-  $('#netherbox').onchange = e => { build.nether = e.target.checked; renderMode({ push: true }); };
+  $('#netherbox').onchange = e => { build.nether = e.target.checked; saveBuild(build); renderMode({ push: true }); };
   el.querySelector('.bclear').onclick = () => {
     const nether = build.nether;
     build = emptyBuild();
     build.nether = nether;
+    saveBuild(build);
     renderMode({ push: true });
   };
 }
@@ -844,6 +926,7 @@ function applyMode() {
   for (const id of ['#resultbar', '#activefilters', '#results', '#more']) $(id).hidden = buildMode;
   document.body.classList.toggle('building', buildMode);
   $('#buildtoggle').classList.toggle('on', buildMode);
+  syncBuildBadge();
   if (buildMode) renderBuild(); else paint();
 }
 
