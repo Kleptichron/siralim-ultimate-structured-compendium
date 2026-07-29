@@ -76,7 +76,27 @@ function magText(m) {
   return bits.join(' ');
 }
 
-const chip = (label, cls = '') => `<span class="chip ${cls}">${esc(label)}</span>`;
+// A chip carries the filters it stands for, so clicking it narrows the search
+// to that term. Entries are ['g', group, value] or ['p', picker, key, interaction]
+// or ['pct', min, max]; a chip with none is inert and must not look clickable.
+const chip = (label, cls = '', filters = []) => {
+  const f = filters.filter(Boolean);
+  const attr = f.length ? ` data-f="${esc(JSON.stringify(f))}"` : '';
+  const title = f.length ? ' title="Add this to the search"' : '';
+  return `<span class="chip ${cls}${f.length ? ' clickable' : ''}"${attr}${title}>${esc(label)}</span>`;
+};
+
+// Mirrors build-index's VERB_INTERACTION: clicking "Burning" on an apply_status
+// action has to add status=Burning + inflicts, not just the key — the key alone
+// would widen 37 results to 662.
+const VERB_INTERACTION = {
+  apply_status: s => (statusKind[s] === 'buff' ? 'grants' : 'inflicts'),
+  remove_status: () => 'removes',
+  steal_status: () => 'steals',
+  prevent_status: () => 'prevents',
+  status_modifier: () => 'modifies',
+  detonate: () => 'detonates',
+};
 
 function ruleHtml(rule, query, mark) {
   const ps = query.pickers.status;
@@ -85,7 +105,8 @@ function ruleHtml(rule, query, mark) {
   const prc = query.pickers.race;
   const parts = ['<span class="rk">when</span>'];
   const t = rule.trigger ?? {};
-  parts.push(chip(t.type + (t.subject ? `: ${t.subject}` : ''), query.triggers.has(t.type) ? 'hit' : ''));
+  parts.push(chip(t.type + (t.subject ? `: ${t.subject}` : ''), query.triggers.has(t.type) ? 'hit' : '',
+    [['g', 'triggers', t.type]]));
   for (const c of rule.conditions ?? []) {
     parts.push('<span class="rk">if</span>');
     const st = c.params?.status ?? (c.params?.statuses ?? []).join('/');
@@ -97,9 +118,17 @@ function ruleHtml(rule, query, mark) {
       (ps.on.has('conditions_on') && st && (!ps.key || st.includes(ps.key)))
       || (pcl.on.has('conditions_on') && classes.length && (!pcl.key || classes.includes(pcl.key)))
       || (prc.on.has('conditions_on') && races.length && (!prc.key || races.includes(prc.key)));
-    parts.push(chip(`${c.type}${c.who ? `[${c.who}]` : ''}${st ? ': ' + st : ''}${kr ? ': ' + kr : ''}`, hit ? 'hit' : ''));
+    // A picker holds one key, so only pin it when the condition names exactly
+    // one — otherwise just the interaction, which is still true and not a guess.
+    const statuses = c.params?.status ? [c.params.status] : (c.params?.statuses ?? []);
+    parts.push(chip(`${c.type}${c.who ? `[${c.who}]` : ''}${st ? ': ' + st : ''}${kr ? ': ' + kr : ''}`, hit ? 'hit' : '', [
+      ['g', 'conditions', c.type],
+      statuses.length === 1 && ['p', 'status', statuses[0], 'conditions_on'],
+      classes.length === 1 && ['p', 'class', classes[0], 'conditions_on'],
+      races.length === 1 && ['p', 'race', races[0], 'conditions_on'],
+    ]));
   }
-  if (rule.chance) parts.push(chip(`${rule.chance}% chance`));
+  if (rule.chance) parts.push(chip(`${rule.chance}% chance`, '', [['g', 'markers', 'chanceBased']]));
   parts.push('<span class="rk">do</span>');
   const resolve = v => (v === 'trigger_subject' ? (t.subject ?? v) : v);
   for (const a of rule.actions ?? []) {
@@ -109,20 +138,61 @@ function ruleHtml(rule, query, mark) {
     let label = a.verb;
     if (a.actor) label += ` @${a.actor}`;
     if (a.target) label += ` → ${a.target}`;
-    parts.push(chip(label, hit));
+    // One click applies all three: the facets store the RESOLVED scope, so
+    // trigger_subject has to be resolved here or the filter would miss.
+    parts.push(chip(label, hit, [
+      ['g', 'verbs', a.verb],
+      a.actor && ['g', 'actors', resolve(a.actor)],
+      a.target && ['g', 'targets', resolve(a.target)],
+    ]));
+    const inter = VERB_INTERACTION[a.verb];
     for (const s of a.statuses ?? []) {
       const sHit = ps.on.size && (!ps.key || ps.key === s) ? 'hit' : `st-${statusKind[s] ?? ''}`;
-      parts.push(chip(s, sHit));
+      parts.push(chip(s, sHit, [['p', 'status', s, inter ? inter(s) : 'interacts']]));
     }
-    if (a.statusKind) parts.push(chip(`${a.qualifiers?.includes('random') ? 'random ' : ''}${a.statusKind}s`));
+    if (a.statusKind) {
+      // Unnamed statuses ("a random debuff") facet under a wildcard key. The
+      // interaction comes from the VERB, not the kind — prevent_status on a
+      // debuff is "*|prevents", not "*|inflicts" — and build-index emits no
+      // wildcard at all when the action also names statuses, or when the verb
+      // has no status interaction, so those stay inert.
+      const named = (a.statuses ?? []).length > 0;
+      const wild = named || !inter ? null
+        : a.verb === 'apply_status' ? (a.statusKind === 'buff' ? 'grants' : 'inflicts')
+        : inter('');
+      parts.push(chip(`${a.qualifiers?.includes('random') ? 'random ' : ''}${a.statusKind}s`, '',
+        wild ? [['p', 'status', '', wild]] : []));
+    }
     if (a.stats?.length) {
       const stHit = pst.on.size && (!pst.key || a.stats.includes(pst.key)) ? 'hit' : '';
-      parts.push(chip(a.stats.join(', '), stHit));
+      // Only stat_change and stat_rule produce stat interactions; stats listed
+      // under equipment_modifier or status_modifier have nothing to filter on.
+      const statInter = a.verb === 'stat_rule' ? 'modifies'
+        : a.verb === 'stat_change' ? (a.magnitude?.direction === 'down' ? 'decreases' : 'increases')
+        : null;
+      parts.push(chip(a.stats.join(', '), stHit, statInter
+        ? [['p', 'stat', a.stats.length === 1 ? a.stats[0] : '', statInter]]
+        : []));
     }
-    if (a.flow) parts.push(chip(`${a.verb.startsWith('healing') || a.verb === 'heal' ? 'healing' : 'dmg'} ${a.flow}`));
-    for (const q of a.qualifiers ?? []) if (q !== 'random' || !a.statusKind) parts.push(chip(q));
+    if (a.flow) {
+      parts.push(chip(`${a.verb.startsWith('healing') || a.verb === 'heal' ? 'healing' : 'dmg'} ${a.flow}`, '',
+        [['g', 'flows', a.flow]]));
+    }
+    for (const q of a.qualifiers ?? []) {
+      if (q !== 'random' || !a.statusKind) parts.push(chip(q, '', [['g', 'qualifiers', q]]));
+    }
     const mg = magText(a.magnitude);
-    if (mg) parts.push(chip(mg, pst.on.has('scales_with') && a.magnitude?.scaleStat && (!pst.key || a.magnitude.scaleStat === pst.key) ? 'hit' : ''));
+    if (mg) {
+      const m = a.magnitude;
+      // A magnitude with only a flat amount or a `per` clause has no facet to
+      // point at — those stay inert rather than pretending to be clickable.
+      parts.push(chip(mg, pst.on.has('scales_with') && m?.scaleStat && (!pst.key || m.scaleStat === pst.key) ? 'hit' : '', [
+        m.tier && ['g', 'tiers', m.tier],
+        m.scaleRef && ['g', 'scaleRefs', m.scaleRef],
+        m.scaleStat && ['p', 'stat', m.scaleStat, 'scales_with'],
+        typeof m.amountPct === 'number' && ['pct', m.amountPct, m.amountPct],
+      ]));
+    }
   }
   return `<div class="rule ${mark ?? ''}">${parts.join('')}</div>`;
 }

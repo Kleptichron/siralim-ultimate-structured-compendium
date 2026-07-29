@@ -206,6 +206,23 @@ async function boot() {
   // otherwise a drawer left open becomes a stuck column on desktop.
   window.matchMedia('(max-width: 760px)').addEventListener('change', e => setNav(!e.matches));
 
+  // Delegated once: #results is rebuilt wholesale on every paint, so per-chip
+  // handlers would be re-attached thousands of times.
+  $('#results').addEventListener('click', e => {
+    const el = e.target.closest('.chip.clickable');
+    if (!el) return;
+    for (const entry of JSON.parse(el.dataset.f)) {
+      const [kind, a, b, c] = entry;
+      if (kind === 'g') query[a].add(b);
+      else if (kind === 'p') {
+        const sel = query.pickers[a];
+        if (b) sel.key = b; // a picker holds one key; an empty one means "any"
+        sel.on.add(c);
+      } else if (kind === 'pct') { query.pctMin = a; query.pctMax = b; }
+    }
+    render({ push: true });
+  });
+
   // popstate covers Back/Forward; hashchange covers editing the address bar.
   addEventListener('popstate', adoptUrl);
   addEventListener('hashchange', adoptUrl);
