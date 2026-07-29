@@ -15,7 +15,7 @@
             "tier": "large"
           },
           "params": {
-            "spellClass": "whatever class the target is weak against"
+            "classRule": "the spell's class is whatever class the target is weak against"
           }
         }
       ]

@@ -14,8 +14,17 @@
           "target": "holder",
           "flow": "taken",
           "params": {
-            "effect": "immune",
-            "sourceClass": "its own class"
+            "effect": "immune"
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "class",
+            "of": "the damage source",
+            "equals": "the holder's own class"
           }
         }
       ]

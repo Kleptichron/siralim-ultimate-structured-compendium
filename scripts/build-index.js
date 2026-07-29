@@ -51,6 +51,9 @@ function deriveFacets(ann) {
     if (t.type === 'after_stat_change' && t.params?.stat) {
       f.statInteractions.add(`${t.params.stat}|triggers_off`);
     }
+    // "cares about <class> SPELLS" reads the same key wherever it appears —
+    // "after casting a Life spell" is as searchable as "amplifies Life spells".
+    if (t.params?.spellClass) f.classInteractions.add(`${t.params.spellClass}|spells`);
     for (const c of rule.conditions ?? []) {
       f.conditions.add(c.type);
       for (const s of [...statusesOf(c.params?.status), ...statusesOf(c.params?.statuses)]) {
@@ -67,6 +70,7 @@ function deriveFacets(ann) {
       if (c.type === 'stat_comparison' && c.params?.stat) {
         f.statInteractions.add(`${c.params.stat}|conditions_on`);
       }
+      if (c.params?.spellClass) f.classInteractions.add(`${c.params.spellClass}|spells`);
     }
     if (rule.chance) chanceBased = true;
     // For side-of-battle search, indirection resolves to the trigger's side:

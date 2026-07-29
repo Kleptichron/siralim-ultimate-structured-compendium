@@ -249,6 +249,9 @@ export function validateAnnotation(ann, record, lex, corpus) {
       if (!TRIGGER_TYPES.includes(t.type)) re(`bad trigger.type "${t.type}"`);
       if (t.subject !== undefined && !SCOPES.includes(t.subject)) re(`bad trigger.subject "${t.subject}"`);
       checkRelicScope(re, 'trigger.subject', t.subject);
+      if (t.params?.spellClass !== undefined && !lex.classes.includes(t.params.spellClass)) {
+        re(`trigger params.spellClass "${t.params.spellClass}" not a class`);
+      }
     }
     for (const c of rule.conditions ?? []) {
       for (const k of Object.keys(c)) if (!CONDITION_KEYS.has(k)) re(`unknown condition key "${k}"`);
@@ -270,6 +273,9 @@ export function validateAnnotation(ann, record, lex, corpus) {
       }
       for (const r of c.params?.races ?? []) {
         if (!lex.families.includes(r)) re(`condition params.races "${r}" not a known family`);
+      }
+      if (c.params?.spellClass !== undefined && !lex.classes.includes(c.params.spellClass)) {
+        re(`condition params.spellClass "${c.params.spellClass}" not a class`);
       }
       if (c.type === 'stat_comparison' && c.params?.stat !== undefined
           && !lex.stats.includes(c.params.stat) && !SCALE_SPECIALS.includes(c.params.stat)) {
@@ -301,6 +307,16 @@ export function validateAnnotation(ann, record, lex, corpus) {
       }
       for (const s of a.stats ?? []) {
         if (!lex.stats.includes(s) && !SCALE_SPECIALS.includes(s)) ae(`unknown stat "${s}"`);
+      }
+      // Action params that facet derivation reads must hold real lexicon
+      // names — an unvalidated one silently becomes a garbage facet value.
+      for (const k of ['sourceClass', 'vsClass', 'spellClass']) {
+        if (a.params?.[k] !== undefined && !lex.classes.includes(a.params[k])) {
+          ae(`params.${k} "${a.params[k]}" not a class`);
+        }
+      }
+      if (a.params?.sourceRace !== undefined && !lex.families.includes(a.params.sourceRace)) {
+        ae(`params.sourceRace "${a.params.sourceRace}" not a known family`);
       }
       const m = a.magnitude;
       if (m !== undefined) {
