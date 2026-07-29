@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:why-won-t-you-die",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell",
+          "amount": "0 damage"
+        }
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle",
+          "params": {
+            "per": "turn"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "holder",
+          "stats": [
+            "Attack",
+            "Intelligence"
+          ],
+          "magnitude": {
+            "amountPct": 12,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not work on damage that is completely prevented by other effects.",
+  "textHash": "d0aa8ab52eb6"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wild-stabs",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "amountPct": 50
+          },
+          "params": {
+            "of": "normal damage",
+            "times": "3 to 5"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "22573e8d2b84"
+}

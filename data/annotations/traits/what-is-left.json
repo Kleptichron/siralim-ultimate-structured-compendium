@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:what-is-left",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 1,
+            "direction": "up",
+            "scaleRef": "amount_gained",
+            "per": "stat gained this battle"
+          },
+          "params": {
+            "source": "attacks and spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8b877b8b62aa"
+}

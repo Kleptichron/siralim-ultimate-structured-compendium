@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:widdershins",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "any",
+          "params": {
+            "effect": "class strengths and weaknesses are reversed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "828726220cf7"
+}

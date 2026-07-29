@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:weapons-of-mass-distortion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "holder",
+          "params": {
+            "equipment": "its Artifact's Spell Slot gem",
+            "effect": "replaced with an Ultimate Spell Gem of this creature's equipped Relic's corresponding Avatar"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "31ab677ae405"
+}

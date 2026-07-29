@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:woe",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 30
+          },
+          "params": {
+            "of": "this creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b235f4b70fcf"
+}

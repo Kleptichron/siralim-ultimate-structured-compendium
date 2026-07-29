@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wings-of-despair",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "enemy",
+        "params": {
+          "timing": "would"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "steal_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "stolen"
+          ],
+          "params": {
+            "effect": "this creature gains the buff instead"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "232e2e827d48"
+}

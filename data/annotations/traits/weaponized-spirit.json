@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:weaponized-spirit",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "any",
+          "params": {
+            "effect": "Booze Spells also count as Arsenal Spells and vice-versa"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a9aac476eb3d"
+}

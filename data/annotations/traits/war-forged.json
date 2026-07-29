@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:war-forged",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "\"Gain Buff On Damage\" properties",
+            "property": "activation chance"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "13f507e6395e"
+}

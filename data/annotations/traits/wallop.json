@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wallop",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "adjacent_enemies",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "down"
+          },
+          "params": {
+            "alsoHits": "the target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f0421efb18bd"
+}

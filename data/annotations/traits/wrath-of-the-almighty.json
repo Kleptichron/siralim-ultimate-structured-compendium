@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wrath-of-the-almighty",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "any"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Death and Destruction"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "04e564ade24c"
+}

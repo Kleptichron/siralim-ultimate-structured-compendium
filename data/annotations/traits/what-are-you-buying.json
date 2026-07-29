@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:what-are-you-buying",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "what": "this creature's Artifact trait",
+            "kind": "trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e084f2b3e540"
+}

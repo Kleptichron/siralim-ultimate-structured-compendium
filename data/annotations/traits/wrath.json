@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wrath",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Berserk",
+            "Savage"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9ee01b29ee7e"
+}

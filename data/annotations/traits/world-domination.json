@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:world-domination",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Hemomancer"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "params": {
+            "what": "their innate traits",
+            "effect": "also activate when they are attacked"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2692bdd17016"
+}

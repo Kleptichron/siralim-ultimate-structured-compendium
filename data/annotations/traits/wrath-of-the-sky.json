@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wrath-of-the-sky",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "any"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "EF5 Twister"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "38b4fc343e03"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:war-stomp",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 20
+          },
+          "params": {
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b64f19670c56"
+}

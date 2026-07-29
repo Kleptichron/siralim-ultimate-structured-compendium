@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wrath-of-the-cosmos",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "any"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Kilonova"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "798c78c71282"
+}

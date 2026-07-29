@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:weird-dance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 2
+          },
+          "params": {
+            "what": "random traits that belong to the same race as the first creature in your party",
+            "kind": "trait",
+            "count": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "aab6928feca3"
+}

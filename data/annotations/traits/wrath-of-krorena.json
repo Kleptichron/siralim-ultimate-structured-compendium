@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wrath-of-krorena",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "comparison",
+          "params": {
+            "what": "class",
+            "of": "the enemy",
+            "equals": "their own class"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f793e2784055"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:warped-soul",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "transform",
+          "actor": "holder",
+          "target": "enemies",
+          "params": {
+            "effect": "classes changed to this creature's class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "503194c7896d"
+}

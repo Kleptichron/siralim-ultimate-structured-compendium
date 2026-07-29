@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:whiplash",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "Attack",
+            "scalePct": 40
+          },
+          "params": {
+            "of": "this creature",
+            "targets": "2 other enemies",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "59a05862c977"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wrath-of-the-glacier",
+  "rules": [
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "any"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "params": {
+            "spell": "Icicle Rain"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "06146c408fcc"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wasted-age",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "holder",
+          "params": {
+            "above": "90%"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "down"
+          },
+          "params": {
+            "source": "spells",
+            "effect": "immune"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "60f733cc124b"
+}

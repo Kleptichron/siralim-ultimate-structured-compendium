@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wallflower",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "allies",
+        "params": {
+          "alsoAfter": "provoking"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "which": "one of their spells at random"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "f115847ad42a"
+}

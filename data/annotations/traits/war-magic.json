@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:war-magic",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies",
+        "params": {
+          "spellClass": "Chaos"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 35,
+            "direction": "up"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b9624025004f"
+}

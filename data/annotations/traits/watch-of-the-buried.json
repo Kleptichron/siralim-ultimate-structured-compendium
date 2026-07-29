@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:watch-of-the-buried",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_minion_gained",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "that minion's stacks are set to the maximum amount",
+            "excludes": "effects that increase the maximum stack count"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "343d9d153e76"
+}

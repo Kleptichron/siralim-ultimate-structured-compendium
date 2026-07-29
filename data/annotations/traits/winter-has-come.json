@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:winter-has-come",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_enemy",
+          "statuses": [
+            "Frozen"
+          ],
+          "params": {
+            "count": 2
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0a48efc90717"
+}

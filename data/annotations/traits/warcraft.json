@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:warcraft",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 40,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "Stat Slots",
+            "property": "benefit"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "21b2f3a3907c"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:what-s-yours-is-mine",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "what": "a random enemy's trait",
+            "kind": "trait"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "c736e1af8889"
+}

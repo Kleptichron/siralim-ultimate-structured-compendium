@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:winter-s-edge",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_deals_damage",
+        "subject": "holder",
+        "params": {
+          "source": "attack or spell"
+        }
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Frozen"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "ce1485668224"
+}
