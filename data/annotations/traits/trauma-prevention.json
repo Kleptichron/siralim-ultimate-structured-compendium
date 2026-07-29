@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:trauma-prevention",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "allies",
+        "params": {
+          "status": "Barrier"
+        }
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "trigger_subject",
+          "statuses": [
+            "Barrier"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleStat": "Maximum Health",
+            "scalePct": 25
+          },
+          "params": {
+            "property": "strength"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "7dcdf4ca2fc2"
+}

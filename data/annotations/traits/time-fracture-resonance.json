@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:time-fracture-resonance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "timeline_position",
+          "who": "holder",
+          "params": {
+            "at": "bottom"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "spells do not consume charges"
+          }
+        },
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "source": "spells",
+            "always": true
+          }
+        },
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "property": "potency"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "dec34a4931ab"
+}

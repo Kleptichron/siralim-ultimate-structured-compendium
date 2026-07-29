@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:touch-of-red",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "attack in the same-turn sequence"
+          },
+          "params": {
+            "source": "consecutive attacks on the same turn",
+            "appliesTo": "all of those attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "e56e78f86da6"
+}

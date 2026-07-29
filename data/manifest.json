@@ -19377,11 +19377,13 @@
     },
     "trait:the-high-hunt": {
       "hash": "74678f02f13f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-king-is-dead": {
       "hash": "c29b100fdd6c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-nether": {
       "hash": "b0b114661634",
@@ -19390,155 +19392,193 @@
     },
     "trait:the-shadows": {
       "hash": "90123042c605",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-sickness": {
       "hash": "c0fde88b8af7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-truth": {
       "hash": "608bc1623aaa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-two-made-one": {
       "hash": "c6e9582775d3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-virtue-of-patience": {
       "hash": "90a670b2746a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-walking-dead": {
       "hash": "64faf6a0eafa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:the-wicked-end": {
       "hash": "515e025f9201",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thermal-void": {
       "hash": "c7da46020c42",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thick-and-thin": {
       "hash": "973c252ee66f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thirst-for-blood": {
       "hash": "dcb9db07aaad",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thirst-for-power": {
       "hash": "4f35c221aee8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thorns": {
       "hash": "5be594344496",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thread-pool": {
       "hash": "f79a224da951",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:threshold": {
       "hash": "b8873d04e4ae",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thrillful-trills": {
       "hash": "4cf145bd1957",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:throat-ripper": {
       "hash": "46312d1cdc78",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:throat-slash": {
       "hash": "1a5f3cea5699",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:through-the-gloom": {
       "hash": "7684462ffbe4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thunder-buddy": {
       "hash": "1151815de131",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:thundershock": {
       "hash": "bee3cc5f613a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tiger-s-spirit": {
       "hash": "4327756561df",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:time-fracture-resonance": {
       "hash": "dec34a4931ab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:to-move-on-is-to-grow": {
       "hash": "3144d8f8532d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:tools-of-creation": {
       "hash": "b7900ca59a0d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:topaz-attunement": {
       "hash": "c4653432fc76",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:torn-between-scylla-and-charybdis": {
       "hash": "5b9026a0dc53",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:total-discord": {
       "hash": "33e1fe5ffac0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:touch-of-red": {
       "hash": "e56e78f86da6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:touched-by-the-gods": {
       "hash": "c802c8822410",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:toxic-cloud": {
       "hash": "b32adcbc2035",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:toxic-karma": {
       "hash": "dd46ed17ce57",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:training-day": {
       "hash": "ad76edb82385",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:training-matrix": {
       "hash": "bc3d4efc1135",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:transformation-mastery": {
       "hash": "bb679b4aecbd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:transfusion": {
       "hash": "4d7679c8b281",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:transmogrification": {
       "hash": "8f6326f223aa",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:trauma-prevention": {
       "hash": "7dcdf4ca2fc2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:treachery": {
       "hash": "e619868b99f0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:treasure-golem-s-boon": {
       "hash": "2f75f7b521c0",

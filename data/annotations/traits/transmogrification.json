@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:transmogrification",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "buff": "random",
+            "count": 5
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "holder",
+          "statusKind": "buff",
+          "params": {
+            "effect": "cannot gain additional buffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8f6326f223aa"
+}

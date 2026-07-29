@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:transfusion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "target",
+          "params": {
+            "status": "Poisoned"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Poisoned"
+          ],
+          "magnitude": {
+            "scaleRef": "status_potency",
+            "per": "turn of Poisoned",
+            "amountFlat": 5
+          },
+          "params": {
+            "turns": 5
+          }
+        },
+        {
+          "verb": "remove_status",
+          "actor": "holder",
+          "target": "target",
+          "statuses": [
+            "Poisoned"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "4d7679c8b281"
+}

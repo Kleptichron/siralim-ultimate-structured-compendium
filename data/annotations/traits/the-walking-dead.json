@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-walking-dead",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "minion": "Zombies",
+            "effect": "damage is based on their master's highest stat"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "minion": "Zombies"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "64faf6a0eafa"
+}

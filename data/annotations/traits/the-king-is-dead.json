@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-king-is-dead",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "allies"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "at": "100% Health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c29b100fdd6c"
+}

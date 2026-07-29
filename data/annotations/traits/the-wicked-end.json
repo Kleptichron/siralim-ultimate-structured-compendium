@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-wicked-end",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "which": "random Chaos spells",
+            "count": 3,
+            "spellClass": "Chaos"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "515e025f9201"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:thirst-for-power",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "allies"
+      },
+      "chance": 7,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "scaleRef": "other",
+            "per": "spell cast by all creatures this battle"
+          },
+          "params": {
+            "buff": "random",
+            "chanceIsPer": "spell cast this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4f35c221aee8"
+}

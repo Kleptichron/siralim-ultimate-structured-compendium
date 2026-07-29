@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-truth",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "Nether Stones",
+            "property": "potency"
+          }
+        },
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "what": "their Nether Stones' Spell Gems",
+            "property": "activation chance"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "waivedStatuses": [
+    "Stone"
+  ],
+  "textHash": "608bc1623aaa"
+}

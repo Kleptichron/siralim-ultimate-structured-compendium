@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:total-discord",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "actor": "holder",
+          "params": {
+            "effect": "the targets of the spell are reversed"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not apply to enemies.",
+  "textHash": "33e1fe5ffac0"
+}

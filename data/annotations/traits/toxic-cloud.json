@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:toxic-cloud",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "enemy"
+      },
+      "chance": 35,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "debuff": "random",
+            "others": true,
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "b32adcbc2035"
+}

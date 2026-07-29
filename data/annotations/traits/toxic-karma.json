@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:toxic-karma",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "attacker",
+          "statuses": [
+            "Poisoned",
+            "Bomb"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "dd46ed17ce57"
+}

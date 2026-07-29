@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:thirst-for-blood",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 100
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "dcb9db07aaad"
+}

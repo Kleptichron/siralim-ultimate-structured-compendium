@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:touched-by-the-gods",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "\"Chance to Cast Twice\" Spell Gem properties"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c802c8822410"
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:thrillful-trills",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "holder",
+          "params": {
+            "effect": "can equip Spell Gems from any class"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 5,
+            "scaleRef": "spell_gems",
+            "per": "Sealed Spell Gem your creatures have"
+          },
+          "params": {
+            "of": "Maximum Health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "4cf145bd1957"
+}

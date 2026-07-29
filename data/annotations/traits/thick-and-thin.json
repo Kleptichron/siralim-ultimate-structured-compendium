@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:thick-and-thin",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Imler"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "at": "100% health"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "973c252ee66f"
+}

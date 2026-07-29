@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:training-day",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 30
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Does not activate from damage caused by this trait.",
+  "textHash": "ad76edb82385"
+}

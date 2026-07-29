@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:topaz-attunement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "any",
+          "params": {
+            "property": "duration",
+            "effect": "all buffs and debuffs last only 1 turn",
+            "turns": 1
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c4653432fc76"
+}

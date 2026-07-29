@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:throat-ripper",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Eft"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "heal",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 5,
+            "scaleRef": "damage_dealt",
+            "per": "Eft fighting on your side"
+          },
+          "params": {
+            "which": "all of your Efts"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "46312d1cdc78"
+}

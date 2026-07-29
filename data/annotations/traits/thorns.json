@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:thorns",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "trigger_subject",
+          "target": "attacker",
+          "magnitude": {
+            "scaleStat": "Attack",
+            "scalePct": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5be594344496"
+}

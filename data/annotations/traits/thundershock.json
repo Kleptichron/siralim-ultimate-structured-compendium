@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:thundershock",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_resurrected",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "random_enemy",
+          "statuses": [
+            "Stone"
+          ],
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "targets": "3 enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bee3cc5f613a"
+}

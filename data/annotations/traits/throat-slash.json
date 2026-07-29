@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:throat-slash",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Bleeding"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "1a5f3cea5699"
+}

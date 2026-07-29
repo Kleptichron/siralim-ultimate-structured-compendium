@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:the-sickness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_healed",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "statuses": [
+            "Blighted"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "c0fde88b8af7"
+}

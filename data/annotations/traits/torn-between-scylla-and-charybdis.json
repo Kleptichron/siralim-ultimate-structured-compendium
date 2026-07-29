@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:torn-between-scylla-and-charybdis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "actor": "trigger_subject",
+          "target": "allies",
+          "params": {
+            "what": "a copy of their innate trait",
+            "kind": "trait",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5b9026a0dc53"
+}

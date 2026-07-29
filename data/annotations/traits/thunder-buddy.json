@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:thunder-buddy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "Lightning Strike",
+            "kind": "spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle",
+          "params": {
+            "which": "first time killed"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "holder",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "at": "100% health"
+          }
+        },
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "a new trait that empowers its Lightning Strike",
+            "kind": "trait"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1151815de131"
+}
