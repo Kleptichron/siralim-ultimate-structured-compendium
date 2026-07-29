@@ -103,6 +103,17 @@ h1 { font-size: 1.15rem; margin: 0; color: var(--accent); white-space: nowrap; }
 .bx:disabled { opacity: .45; cursor: default; }
 .bx.failed, .xitem.failed { border-color: var(--debuff); color: var(--debuff); }
 
+#xmenu {
+  position: fixed; z-index: 40; width: min(340px, calc(100vw - 16px));
+  display: flex; flex-direction: column; gap: 6px; padding: 12px;
+  background: var(--panel); border: 1px solid var(--border); border-radius: 9px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+}
+.xhead { font-size: .8125rem; color: var(--dim); line-height: 1.4; margin-bottom: 2px; }
+.xhead strong { color: var(--text); }
+.xitem { display: flex; flex-direction: column; gap: 2px; text-align: left; padding: 8px 11px; }
+.xitem .dim { font-size: .75rem; }
+
 /* Boot panel. Hidden for its first 150ms: a cached load finishes inside that
    window, so the bar never flashes for a load that was already instant.
    Visibility is display only, toggled by a JS class. Deliberately NOT faded in:

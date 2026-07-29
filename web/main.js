@@ -5,7 +5,9 @@ import {
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 import { initRoving, stateAttrs, captureFocus, restoreFocus } from '/a11y.js';
-import { buildToMarkdown, copyText, downloadFile } from '/export.js';
+import {
+  buildToMarkdown, resultsToCsv, resultsToMarkdown, resultsToJson, copyText, downloadFile,
+} from '/export.js';
 import {
   SLOTS, TRAITS_PER_CREATURE, SLOT_LABELS, emptyBuild, buildToParam, buildFromParam,
   buildIsEmpty, buildWarnings, buildSummary, buildCount, saveBuild, loadBuild,
@@ -248,9 +250,14 @@ async function boot() {
   // Dismiss the menu the way a menu should dismiss.
   document.addEventListener('click', e => {
     if (!e.target.closest('#addmenu') && !e.target.closest('.addtrait')) closeAddMenu();
+    if (!e.target.closest('#xmenu') && !e.target.closest('#xtoggle')) closeExportMenu();
   });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeAddMenu(); });
-  addEventListener('resize', closeAddMenu);
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    closeAddMenu();
+    closeExportMenu();
+  });
+  addEventListener('resize', () => { closeAddMenu(); closeExportMenu(); });
 
   // Open on desktop, shut on phones where it would cover the results.
   setNav(!narrow());
@@ -584,6 +591,9 @@ function renderFacets() {
 const num = n => n.toLocaleString();
 
 function renderResultBar() {
+  // The bar is rebuilt on every paint, so an open menu would be left anchored
+  // to a button that no longer exists.
+  closeExportMenu(false);
   const total = lastResults.length;
   const visible = Math.min(query.shown, total);
   if (query.recordId) {
@@ -606,8 +616,92 @@ function renderResultBar() {
   const opts = SORTS.map(s =>
     `<option value="${s.id}" ${query.sort === s.id ? 'selected' : ''}>${s.label}</option>`).join('');
   $('#resultbar').innerHTML =
-    `<span>${count}</span><label class="sort">sort <select id="sort">${opts}</select></label>`;
+    `<span>${count}</span><label class="sort">sort <select id="sort">${opts}</select></label>
+     <div class="bexport"><button class="bx" id="xtoggle" data-fk="x:toggle"
+       aria-haspopup="menu" aria-expanded="false" ${total ? '' : 'disabled'}>Export…</button></div>`;
   $('#sort').onchange = e => { query.sort = e.target.value; render({ push: true }); };
+  $('#xtoggle').onclick = () => (isXMenuOpen() ? closeExportMenu() : openExportMenu());
+}
+
+// --- exporting the result set ----------------------------------------------
+// The whole matching set, not the revealed page: the filter is what the reader
+// built, and "export" that silently meant "the first 250" would be a trap.
+// Sizes are estimated from per-record averages measured over the full index —
+// serialising 4,068 records just to label a menu item would stall the click.
+const BYTES_PER_RECORD = { md: 240, csv: 340, json: 1825 };
+const approx = (n, kind) => {
+  const b = n * BYTES_PER_RECORD[kind];
+  return b < 1048576 ? `~${Math.max(1, Math.round(b / 1024))} KB` : `~${(b / 1048576).toFixed(1)} MB`;
+};
+
+const isXMenuOpen = () => !$('#xmenu').hidden;
+
+// What the reader filtered to, as a line of prose — it becomes the Markdown
+// heading, so a pasted table says what it is a table of.
+function exportTitle() {
+  const chips = activeChips();
+  return chips.length
+    ? `${num(lastResults.length)} results · ${chips.map(c => c.label).join(' · ')}`
+    : `All ${num(lastResults.length)} effects`;
+}
+
+function openExportMenu() {
+  const el = $('#xmenu');
+  const n = lastResults.length;
+  const item = (x, label, note) =>
+    `<button class="xitem" role="menuitem" data-rove data-x="${x}" data-fk="x:${x}">
+       <span>${label}</span><span class="dim">${note}</span></button>`;
+  el.innerHTML = `<div class="xhead">Exporting <strong>${num(n)}</strong> result${n === 1 ? '' : 's'}
+      — everything the filter matches, not just what is shown.</div>
+    ${item('md', 'Copy as Markdown', `table · name, type, source, effect · ${approx(n, 'md')}`)}
+    ${item('csv', 'Download CSV', `every facet as a column · ${approx(n, 'csv')}`)}
+    ${item('json', 'Download JSON', `the full rule model · ${approx(n, 'json')}`)}`;
+  el.hidden = false;
+  $('#xtoggle').setAttribute('aria-expanded', 'true');
+
+  const r = $('#xtoggle').getBoundingClientRect();
+  const w = el.offsetWidth, h = el.offsetHeight;
+  el.style.left = `${Math.max(8, Math.min(r.right - w, window.innerWidth - w - 8))}px`;
+  el.style.top = `${r.bottom + h + 8 > window.innerHeight ? Math.max(8, r.top - h - 6) : r.bottom + 6}px`;
+
+  el.querySelectorAll('.xitem').forEach(b => {
+    b.onclick = () => {
+      const origin = location.origin + location.pathname;
+      const stamp = { generated: index.generated, schemaVersion: index.schemaVersion, query: location.hash.replace(/^#/, '') };
+      if (b.dataset.x === 'md') {
+        flash(b.querySelector('span'), copyText(resultsToMarkdown(lastResults, origin, exportTitle())), 'Markdown copied');
+        return;
+      }
+      const csv = b.dataset.x === 'csv';
+      downloadFile(
+        `su-compendium-results-${lastResults.length}.${csv ? 'csv' : 'json'}`,
+        csv ? resultsToCsv(lastResults, origin) : resultsToJson(lastResults, stamp),
+        csv ? 'text/csv' : 'application/json',
+      );
+      say(`Downloaded ${num(lastResults.length)} results as ${csv ? 'CSV' : 'JSON'}`);
+      closeExportMenu();
+    };
+  });
+  // The container persists across opens while its contents do not, so the
+  // "already wired" flag has to be cleared or the second open would arrow
+  // through items that no longer exist.
+  delete el.dataset.roved;
+  initRoving(el);
+  el.querySelector('.xitem').focus();
+}
+
+// returnFocus is off when the bar itself is being rebuilt: the button we would
+// hand focus back to is about to be replaced, and render() restores focus to
+// whatever the reader was actually using.
+function closeExportMenu(returnFocus = true) {
+  const el = $('#xmenu');
+  if (el.hidden) return;
+  el.hidden = true;
+  const t = $('#xtoggle');
+  if (t) {
+    t.setAttribute('aria-expanded', 'false');
+    if (returnFocus) t.focus();
+  }
 }
 
 function renderMore() {
@@ -981,16 +1075,18 @@ const permaUrl = () => `${location.origin}${location.pathname}${location.search}
 // happens to the panel in the meantime.
 function say(msg) { $('#say').textContent = msg; }
 
-async function flash(btn, promise, msg) {
+// `label` is the element whose text is swapped, which is not always the button
+// itself — a menu item carries a description underneath that should stay put.
+async function flash(btn, promise, msg, label = btn) {
   const ok = await promise;
-  const original = btn.dataset.label ?? btn.textContent;
-  btn.dataset.label = original;
-  btn.textContent = ok ? 'Copied ✓' : 'Copy failed';
+  const original = label.dataset.label ?? label.textContent;
+  label.dataset.label = original;
+  label.textContent = ok ? 'Copied ✓' : 'Copy failed';
   btn.classList.toggle('failed', !ok);
   say(ok ? msg : 'Copy failed — your browser blocked clipboard access');
   clearTimeout(btn._flash);
   btn._flash = setTimeout(() => {
-    btn.textContent = btn.dataset.label ?? original;
+    label.textContent = label.dataset.label ?? original;
     btn.classList.remove('failed');
   }, 1600);
 }

@@ -22,7 +22,12 @@ function focusItem(items, next) {
 // `reveal` appends cards without rebuilding the ones already on screen, so the
 // flag keeps those from collecting a second keydown listener each time.
 export function initRoving(root) {
-  for (const group of root.querySelectorAll('[data-roving]:not([data-roved])')) {
+  // The root itself can be the group — querySelectorAll only sees descendants,
+  // so a container that IS [data-roving] would silently never get wired.
+  const SEL = '[data-roving]:not([data-roved])';
+  const groups = [...root.querySelectorAll(SEL)];
+  if (root.matches?.(SEL)) groups.unshift(root);
+  for (const group of groups) {
     const items = [...group.querySelectorAll(ITEM)];
     if (!items.length) continue;
     group.dataset.roved = '1';
