@@ -1,5 +1,5 @@
 import {
-  PICKERS, SORTS, PAGE, emptyQuery, runQuery, sortResults, facetCounts,
+  PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, runQuery, sortResults, facetCounts,
   anyRuleScopedFilter, queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
@@ -45,6 +45,7 @@ function adoptUrl() {
 async function boot() {
   index = await (await fetch('/index.json')).json();
   initHighlight(index.statuses);
+  computeFacetOrder();
   $('#coverage').textContent =
     `${index.counts.tagged}/${index.counts.total} tagged · schema v${index.schemaVersion}`;
   query = hashToQuery(location.hash);
@@ -71,14 +72,34 @@ function cycle(inc, exc, v) {
   else inc.add(v);
 }
 
+// Row order and membership are frozen at boot from the UNFILTERED corpus.
+// Recomputing either per render made the sidebar jump under the cursor: one
+// click drops ~29 rows across the groups and re-sorting by count moves nearly
+// every survivor, so the row you just clicked slides out from under the mouse.
+// Now only the numbers and the highlight change; nothing moves.
+let facetOrder = {};
+
+function computeFacetOrder() {
+  const base = emptyQuery();
+  facetOrder = Object.fromEntries(EXCLUDABLE.map(group => [
+    group,
+    [...facetCounts(index.records, base, group).entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([v]) => v),
+  ]));
+}
+
 function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
   const excluded = query.excluded[group];
-  const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]);
-  for (const v of [...selected, ...excluded]) if (!counts.has(v)) entries.push([v, 0]);
-  const rows = entries.map(([v, n]) => {
+  const order = [...facetOrder[group]];
+  // A value can be selected without being in the corpus order (e.g. a typo in a
+  // pasted URL) — show it anyway so it can be cleared.
+  for (const v of [...selected, ...excluded]) if (!order.includes(v)) order.push(v);
+  const rows = order.map(v => {
+    const n = counts.get(v) ?? 0;
     const state = selected.has(v) ? 'on' : excluded.has(v) ? 'off' : '';
-    const title = excluded.has(v) ? 'excluded — click to clear' : 'click to include, again to exclude';
-    return `<div class="fv ${state} ${n === 0 && !state ? 'zero' : ''}" data-g="${group}" data-v="${v}" title="${title}">
+    const hint = excluded.has(v) ? 'excluded — click to clear' : 'click to include, again to exclude';
+    return `<div class="fv ${state} ${n === 0 && !state ? 'zero' : ''}" data-g="${group}" data-v="${v}" title="${hint}">
        <span>${labelFn(v)}</span><span class="n">${n}</span>
      </div>`;
   }).join('');
@@ -100,7 +121,10 @@ function pickerHtml(cfg) {
   const chips = cfg.interactions.map(i => {
     const n = sel.key ? (pairs.get(`${sel.key}|${i}`) ?? 0) : (perInteraction.get(i) ?? 0);
     const state = sel.on.has(i) ? 'on' : sel.off.has(i) ? 'off' : '';
-    return `<span class="ichip ${state} ${n === 0 && !state ? 'zero' : ''}" data-p="${cfg.id}" data-i="${i}">${i.replace(/_/g, ' ')} ${n}</span>`;
+    // Count sits in a fixed-width slot: chips are inline and wrap, so a count
+    // shrinking from 4 digits to 1 would reflow the block to fewer lines and
+    // shove every group below it upward — the other half of the jumping.
+    return `<span class="ichip ${state} ${n === 0 && !state ? 'zero' : ''}" data-p="${cfg.id}" data-i="${i}">${i.replace(/_/g, ' ')} <span class="cn">${n}</span></span>`;
   }).join('');
   return `<div class="facet-group"><h3>${cfg.title}</h3>
     <select data-psel="${cfg.id}">${options.join('')}</select>
@@ -109,6 +133,7 @@ function pickerHtml(cfg) {
 
 function renderFacets() {
   const el = $('#facets');
+  const scrollTop = el.scrollTop; // rebuilding innerHTML would otherwise jump to top
   const scoped = anyRuleScopedFilter(query);
   el.innerHTML = `
     <button class="clear">Clear all filters</button>
@@ -144,6 +169,7 @@ function renderFacets() {
     const sel = query.pickers[c.dataset.p];
     c.onclick = () => { cycle(sel.on, sel.off, c.dataset.i); render({ push: true }); };
   });
+  el.scrollTop = scrollTop;
 }
 
 const num = n => n.toLocaleString();

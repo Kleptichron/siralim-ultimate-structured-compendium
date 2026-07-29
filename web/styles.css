@@ -82,6 +82,10 @@ select {
   padding: 3px 9px; border-radius: 10px; background: var(--chip);
   font-size: .875rem; cursor: pointer; border: 1px solid transparent;
 }
+.ichip .cn {
+  display: inline-block; min-width: 3.4ch; text-align: right;
+  font-variant-numeric: tabular-nums; opacity: .8;
+}
 .ichip.on { background: var(--chip-hit); color: var(--accent); border-color: var(--accent); }
 .ichip.off { background: var(--chip-off); color: var(--debuff); border-color: var(--debuff); }
 .ichip.zero { opacity: .4; }
