@@ -271,14 +271,21 @@ const MARKER_LABELS = {
 // many if I INCLUDE this", which is the wrong question once a value is
 // excluded — and is why excluding a 0-count value looks broken rather than
 // inert. Cheap: only ever computed for the handful of excluded values.
-// Shown only once two values are selected, and never for groups where a record
-// can hold just one — "source: cards AND traits" is always empty, so offering
-// it would be a trap rather than a feature.
+// Shown from the FIRST selected value, not the second: with one selected the
+// two modes return the same records, but ALL re-counts everything else as "how
+// many co-occur with this", which is the only way to see which values can
+// actually be combined. Never shown for groups where a record holds just one
+// value — "source: cards AND traits" is always empty, a trap rather than a
+// feature.
 function allModeToggle(group, selectedCount) {
-  if (!canUseAllMode(group) || selectedCount < 2) return '';
+  if (!canUseAllMode(group) || selectedCount < 1) return '';
   const all = query.allOf.has(group);
-  return `<span class="anyall" data-group="${group}"
-    title="${all ? 'matching records carry ALL of these' : 'matching records carry ANY of these'} — click to switch">
+  const hint = all
+    ? (selectedCount > 1
+      ? 'records must carry ALL of these — counts show what each would narrow to'
+      : 'counts now show what co-occurs with this, i.e. what can be added')
+    : 'records carry ANY of these — switch to ALL to see what combines';
+  return `<span class="anyall" data-group="${group}" title="${hint} — click to switch">
     <span class="${all ? '' : 'sel'}">any</span><span class="${all ? 'sel' : ''}">all</span></span>`;
 }
 

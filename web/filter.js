@@ -52,9 +52,16 @@ const RECORD_LEVEL = ['markers', 'families'];
 const NO_ALL_MODE = new Set(['types', 'families']);
 export const canUseAllMode = group => !NO_ALL_MODE.has(group);
 
-// Is this group currently in "match all" mode? One selected value makes ALL and
-// ANY identical, so the mode only bites from two.
+// Is this group currently in "match all" mode FOR MATCHING? One selected value
+// makes ALL and ANY identical, and without this guard a size-1 all-group would
+// silently switch from action scope to record scope, loosening the query.
 export const isAllMode = (query, group, size) => query.allOf.has(group) && size > 1;
+
+// For COUNTING the guard is dropped deliberately. With one value selected, all-
+// mode counts show what CO-OCCURS with it, which is the only way to discover
+// which other values can be added — 21 of 32 triggers co-occur with `passive`
+// and the other 11 would just yield nothing.
+export const countsInAllMode = (query, group) => query.allOf.has(group);
 
 export function emptyQuery() {
   const pickers = {};
@@ -406,9 +413,7 @@ export function facetCounts(records, query, group) {
   // narrow it". Clearing the group, as ANY mode does, would advertise 387 for a
   // value that can only ever yield the 14 records already on screen.
   const pickerId = group.startsWith('picker:') ? group.slice(7) : null;
-  const allMode = pickerId
-    ? isAllMode(query, pickerId, query.pickers[pickerId].on.size)
-    : isAllMode(query, group, query[group]?.size ?? 0);
+  const allMode = countsInAllMode(query, pickerId ?? group);
   if (EXCLUDABLE.includes(group)) {
     if (!allMode) sub[group] = new Set();
     sub.excluded[group] = new Set(); // clearing a group clears BOTH its states
@@ -427,9 +432,12 @@ export function facetCounts(records, query, group) {
   const bagsFor = rec =>
     (scoped ? (rec.matchBags ?? []).filter(b => satisfiesBag(b, sub)) : [rec.facets]);
   const valuesOf = (rec, key) =>
-    // These exist only on the record bag; reading them from rule bags would
-    // count zero the moment any rule-scoped filter is active.
-    RECORD_LEVEL.includes(key)
+    // Record-level keys exist only on the record bag; reading them from rule
+    // bags would count zero the moment any rule-scoped filter is active.
+    // All-mode counting is likewise a record-level question — the bags left by
+    // the filter are the ones already matching, so counting within them would
+    // only ever return the value you selected, hiding everything it combines with.
+    RECORD_LEVEL.includes(key) || allMode
       ? new Set(rec.facets?.[key] ?? [])
       : new Set(bagsFor(rec).flatMap(f => f?.[key] ?? []));
 
