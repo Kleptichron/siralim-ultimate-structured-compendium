@@ -27,6 +27,15 @@
 }
 * { box-sizing: border-box; }
 
+/* The UA rule is [hidden] { display: none }, at specificity (0,1,0) — so any
+   author rule with an id, like #resultbar { display: flex }, silently outranks
+   it and the element stays on screen however many times JS sets .hidden. That
+   had already been patched one element at a time for #backdrop, #addmenu and
+   #build; #resultbar, #more, #activefilters and #xmenu were still broken, which
+   is why build mode kept showing the result bar and the export menu would not
+   close. Fix it once, for anything hidden now or later. */
+[hidden] { display: none !important; }
+
 /* Standard properties (Firefox, Chromium 121+). */
 * { scrollbar-width: thin; scrollbar-color: var(--chip) transparent; }
 /* WebKit / older Chromium. Track stays transparent so the thumb reads as an
@@ -185,7 +194,6 @@ body.nav-closed aside { border-right-width: 0; }
   background: var(--chip-hit); color: var(--accent); text-align: center;
 }
 #navcount:empty { display: none; }
-#backdrop[hidden] { display: none; }
 /* The aside is a clipping frame only. Scrolling lives on .facets-inner so the
    scrollbar sits INSIDE the fixed-width content — on the aside it would eat
    ~11px of the content box and clip the counts off the right of every row. */
@@ -317,7 +325,6 @@ select {
   background: var(--chip); color: var(--dim); border: 1px solid var(--border);
 }
 .addtrait:hover { border-color: var(--accent); color: var(--accent); background: var(--chip-hit); }
-#addmenu[hidden] { display: none; }
 #addmenu {
   position: fixed; z-index: 40; width: min(380px, 92vw); max-height: 70vh; overflow-y: auto;
   padding: 12px; border-radius: 8px; background: var(--panel);
@@ -355,7 +362,6 @@ select {
 .amclose:hover { border-color: var(--accent); color: var(--accent); }
 
 /* --- team builder --- */
-#build[hidden] { display: none; }
 /* The facet sidebar filters the corpus, not a build — it has nothing to say here. */
 body.building aside, body.building #navtoggle { display: none; }
 body.building .layout { grid-template-columns: 1fr; }
