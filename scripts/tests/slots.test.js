@@ -9,6 +9,7 @@ import assert from 'node:assert/strict';
 import {
   SLOT_KEYS, slotAccepts, emptyBuild, buildWarnings, placeLabel,
 } from '../../web/build.js';
+import { emptyQuery, runQuery } from '../../web/filter.js';
 import { loadIndex, traitsOf, byId, everyRecord } from './harness.js';
 
 const index = loadIndex();
@@ -93,6 +94,75 @@ test('the hidden fourth slot is neither validated nor counted', () => {
   build.nether = false;
   assert.equal(buildWarnings(build, lookup).length, 0,
     'a slot that is not shown should not be validated');
+});
+
+// --- the sidebar facet derived from the same rule ---------------------------
+
+const withEquip = value => {
+  const q = emptyQuery();
+  q.equip.add(value);
+  return runQuery(index.records, q);
+};
+
+test('the equip facet says the same thing as slotAccepts', () => {
+  const r = everyRecord(traits, rec => {
+    const equip = rec.facets?.equip ?? [];
+    if (equip.includes('creature') !== slotAccepts(rec, 0)) return 'creature value disagrees with the innate slot';
+    if (equip.includes('artifact') !== slotAccepts(rec, 2)) return 'artifact value disagrees with the artifact slot';
+    return true;
+  });
+  assert.ok(r.ok, r.message);
+});
+
+test('the facet offers no value that cannot narrow anything', () => {
+  // Fusion would duplicate innate exactly and nether would match every trait —
+  // either would be a control that looks like a filter and is not.
+  const values = new Set(traits.flatMap(r => r.facets?.equip ?? []));
+  assert.deepEqual([...values].sort(), ['artifact', 'creature']);
+  for (const v of values) {
+    const n = withEquip(v).length;
+    assert.ok(n > 0 && n < traits.length, `"${v}" matches ${n} of ${traits.length} traits`);
+  }
+});
+
+test('selecting a slot value returns only traits', () => {
+  const r = everyRecord(index.records.filter(rec => rec.type !== 'traits'),
+    rec => !(rec.facets?.equip) || `a ${rec.type} record carries an equip facet`);
+  assert.ok(r.ok, r.message);
+  for (const v of ['creature', 'artifact']) {
+    assert.ok(withEquip(v).every(rec => rec.type === 'traits'), `"${v}" let a non-trait through`);
+  }
+});
+
+test('equip is record-level, so it never joins action scoping', () => {
+  // If it leaked into a match bag, "Artifact + deals damage" under action
+  // scoping would start demanding both of one action and quietly return zero.
+  const r = everyRecord(traits, rec =>
+    (rec.matchBags ?? []).every(b => b.equip === undefined) || 'equip leaked into a match bag');
+  assert.ok(r.ok, r.message);
+
+  const strict = emptyQuery();
+  strict.sameRule = true;
+  strict.equip.add('artifact');
+  strict.verbs.add('deal_damage');
+  const loose = { ...emptyQuery(), sameRule: false, equip: strict.equip, verbs: strict.verbs };
+  assert.equal(runQuery(index.records, strict).length, runQuery(index.records, loose).length,
+    'the match mode changed a record-level filter');
+});
+
+test('excluding a slot value keeps records that never had one', () => {
+  // Consistent with every other group: exclusion removes records that HAVE the
+  // value, it does not imply "must be a trait". Composing with the Source facet
+  // is what narrows it to the traits actually ruled out.
+  const q = emptyQuery();
+  q.excluded.equip.add('artifact');
+  const all = runQuery(index.records, q);
+  assert.ok(all.some(rec => rec.type !== 'traits'), 'non-traits should survive the exclusion');
+
+  q.types.add('traits');
+  const onlyTraits = runQuery(index.records, q);
+  assert.ok(onlyTraits.every(rec => rec.meta.material === NO_MATERIAL));
+  assert.equal(onlyTraits.length, traits.filter(r => !slotAccepts(r, 2)).length);
 });
 
 test('duplicate detection still works alongside slot validation', () => {

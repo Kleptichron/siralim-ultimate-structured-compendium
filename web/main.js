@@ -349,7 +349,7 @@ function computeFacetOrder() {
 // every <details> the reader had opened. Not in the URL — it is a view
 // preference, not part of the query being shared.
 const collapsed = new Set([
-  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'pct',
+  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'pct', 'equip',
   'class', 'race', // the two narrowest key pickers; status and stat stay open
 ]);
 
@@ -358,6 +358,14 @@ const GROUP_LABEL = {
   types: 'source', triggers: 'when', verbs: 'action', actors: 'actor',
   targets: 'target', conditions: 'if', flows: 'flow', scaleRefs: 'scales with',
   tiers: 'tier', qualifiers: 'qualifier', markers: '', families: 'family',
+  equip: 'slot',
+};
+
+// The facet stores which slot RULE a trait satisfies, not the slot names:
+// innate and fusion accept exactly the same traits, so one value covers both.
+const EQUIP_LABELS = {
+  creature: 'Innate or fusion',
+  artifact: 'Artifact',
 };
 
 const MARKER_LABELS = {
@@ -399,7 +407,7 @@ function exclusionImpact(mutate) {
   return runQuery(index.records, sub).length - lastResults.length;
 }
 
-function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
+function facetGroupHtml(title, group, selected, counts, labelFn = x => x, hint = '') {
   const excluded = query.excluded[group];
   const order = [...facetOrder[group]];
   // A value can be selected without being in the corpus order (e.g. a typo in a
@@ -430,7 +438,7 @@ function facetGroupHtml(title, group, selected, counts, labelFn = x => x) {
   const open = active || !collapsed.has(group) ? ' open' : '';
   const badge = active ? `<span class="gcount">${selected.size + excluded.size}</span>` : '';
   return `<details class="facet-group" data-group="${group}"${open}>
-    <summary><h3>${title}</h3>${badge}${allModeToggle(group, selected.size)}</summary>
+    <summary${hint ? ` title="${hint}"` : ''}><h3>${title}</h3>${badge}${allModeToggle(group, selected.size)}</summary>
     <div data-roving role="group" aria-label="${title} values">${rows}</div></details>`;
 }
 
@@ -519,6 +527,8 @@ function renderFacets() {
       <span>Match within a single action</span>
     </label>
     ${facetSelectHtml('Creature family', 'families', facetCounts(index.records, query, 'families'))}
+    ${facetGroupHtml('Trait slot', 'equip', query.equip, facetCounts(index.records, query, 'equip'), v => EQUIP_LABELS[v] ?? v,
+      'Where a trait can be equipped. Innate and fusion accept the same traits, so they share a value; nether stones accept every trait, so there is nothing to filter. Only traits carry this — EXCLUDING a value therefore keeps spells, perks and the rest, so add Source: traits to see only the traits it rules out.')}
     ${PICKERS.map(pickerHtml).join('')}
     ${facetGroupHtml('Source', 'types', query.types, facetCounts(index.records, query, 'types'))}
     ${facetGroupHtml('Trigger', 'triggers', query.triggers, facetCounts(index.records, query, 'triggers'), v => v.replace(/_/g, ' '))}
@@ -764,7 +774,8 @@ const attr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').repla
 function activeChips() {
   const chips = [];
   const add = (kind, label, off = false) => chips.push({ kind, label, off });
-  const valueLabel = (g, v) => (g === 'markers' ? MARKER_LABELS[v] ?? v : String(v).replace(/_/g, ' '));
+  const LABELS = { markers: MARKER_LABELS, equip: EQUIP_LABELS };
+  const valueLabel = (g, v) => LABELS[g]?.[v] ?? String(v).replace(/_/g, ' ');
   // Say "all" in the chip when the group demands every value — otherwise two
   // chips look identical whether they mean AND or OR.
   const prefix = (g, size) => {

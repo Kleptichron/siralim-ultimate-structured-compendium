@@ -40,12 +40,15 @@ export const SORTS = [
 // Groups that support exclusion, i.e. every value-list group.
 export const EXCLUDABLE = [
   'types', 'triggers', 'verbs', 'actors', 'targets',
-  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'families',
+  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'families', 'equip',
 ];
 
 // Properties of the whole record rather than of any one rule. `types` is
 // handled separately because it lives on the record, not in its facet bag.
-const RECORD_LEVEL = ['markers', 'families'];
+// 'equip' is where a TRAIT can be equipped — a property of the record's
+// source, not of anything one of its rules does, so it must not take part in
+// action scoping.
+const RECORD_LEVEL = ['markers', 'families', 'equip'];
 
 // Groups where requiring ALL selected values is impossible by construction: a
 // record has exactly one source and one family, so an AND there is always zero.
@@ -83,6 +86,7 @@ export function emptyQuery() {
     qualifiers: new Set(),
     markers: new Set(),
     families: new Set(),
+    equip: new Set(),
     // Percentage-magnitude range; null means unbounded on that side.
     pctMin: null,
     pctMax: null,
@@ -114,7 +118,7 @@ const SET_PARAMS = [
   // 'if' mirrors the IF keyword the rule chips render.
   ['if', 'conditions'], ['flow', 'flows'], ['scales', 'scaleRefs'],
   ['tier', 'tiers'], ['qual', 'qualifiers'], ['is', 'markers'],
-  ['family', 'families'],
+  ['family', 'families'], ['slot', 'equip'],
 ];
 
 // Excluded values ride in the same param with a '!' prefix, so the relationship

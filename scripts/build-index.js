@@ -206,6 +206,11 @@ const NO_MATERIAL = 'No Material Exists';
 // builder — a wrong slot rule is invisible until someone cannot pick a trait.
 const NON_CREATURE_CLASSES = new Set(['Backer', 'Rodian Master', 'Boss']);
 
+// Slot key -> facet value, in the order the sidebar should list them. Fusion is
+// absent because it accepts exactly what innate does, nether because it accepts
+// everything.
+const EQUIP_FROM_SLOT = [['innate', 'creature'], ['artifact', 'artifact']];
+
 function traitSlots(id, meta) {
   const fromCreature = !NOT_A_CREATURE.has(meta.creature);
   if (fromCreature === NON_CREATURE_CLASSES.has(meta.class)) {
@@ -242,6 +247,15 @@ for (const src of Object.values(SOURCE_DIRS)) {
       // Whose effect this IS — distinct from raceInteractions, which is about
       // rules that CHECK a race. Same vocabulary, opposite direction.
       if (r.meta?.family) entry.facets.families = [r.meta.family];
+      // Where a trait can be equipped, from the slots derived above. Innate and
+      // fusion collapse to one value: they are the same predicate, and two
+      // facet values that can never disagree are noise in a list you scan.
+      // Nether is left out entirely — it accepts every trait, so offering it
+      // would be a filter that cannot filter.
+      if (entry.slots) {
+        entry.facets.equip = EQUIP_FROM_SLOT
+          .filter(([slot]) => entry.slots.includes(slot)).map(([, value]) => value);
+      }
       entry.rules = ann.rules;
       if (ann.flags) entry.flags = ann.flags;
       if (ann.notes) entry.notes = ann.notes;
@@ -278,7 +292,7 @@ const index = {
   // Groups whose values have an inherent order the app should display them in,
   // rather than the by-frequency default. Shipped so the scale lives only in
   // the schema and is never retyped in the UI.
-  ordered: { tiers: TIERS },
+  ordered: { tiers: TIERS, equip: EQUIP_FROM_SLOT.map(([, v]) => v) },
   counts: { total: records.length, tagged: records.filter(r => r.rules).length },
   records,
 };
