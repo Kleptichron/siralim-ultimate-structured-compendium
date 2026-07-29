@@ -1,7 +1,7 @@
 {
   "id": "spell:mega-magic",
   "textHash": "52b95680bac7",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

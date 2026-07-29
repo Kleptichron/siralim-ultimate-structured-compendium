@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "claude",
   "id": "trait:follow-the-leader",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_timeline_move",
         "subject": "enemy",
         "params": {
-          "event": "is sent to the bottom of the Timeline"
+          "event": "is sent to the bottom of the Timeline",
+          "to": "bottom",
+          "forced": true
         }
       },
       "chance": 5,

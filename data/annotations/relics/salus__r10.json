@@ -1,7 +1,7 @@
 {
   "id": "relic:salus:r10",
   "textHash": "377a584e4cde",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "start-battle-gain",
   "rules": [

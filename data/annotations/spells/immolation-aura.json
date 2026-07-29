@@ -1,7 +1,7 @@
 {
   "id": "spell:immolation-aura",
   "textHash": "23e63ff06bbc",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-gain",
   "rules": [

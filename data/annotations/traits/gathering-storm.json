@@ -1,14 +1,15 @@
 {
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "claude",
   "id": "trait:gathering-storm",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_timeline_move",
         "subject": "holder",
         "params": {
-          "event": "is forcibly moved on the Timeline"
+          "event": "is forcibly moved on the Timeline",
+          "forced": true
         }
       },
       "actions": [

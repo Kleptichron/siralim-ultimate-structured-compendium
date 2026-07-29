@@ -1,14 +1,16 @@
-# Tagging conventions (schema v11 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier, v11 after_status_effect)
+# Tagging conventions (schema v12 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier, v11 after_status_effect, v12 after_timeline_move)
 
 **Watching `other`:** `npm run audit` ends with an *other-watch* section grouping
 every `other` use by its params shape. A shape reaching ~8 uses is an enum
 candidate — extend the enum and migrate rather than letting it accumulate
-(this produced v3, v6, v8, v9 and v11). Current watch items below quota:
+(this produced v3, v6, v8, v9, v11 and v12). The strongest signal is an
+*asymmetry*: if a verb exists but the matching trigger doesn't (or vice versa),
+the corpus can answer half the question. That argument carried v9
+(Defend/Provoke) and v12 (timeline_move). Current watch items below quota:
 counting/adjacency meta-rules ("acts as if the party has 3 more X", 9 uses —
-these are genuinely meta and may stay), forced Timeline movement as an event
-(4), and battle-fatigue modifiers (4). Known false positive: verb-other
-`{effect}` (37) is a generic catch-all key over unrelated one-off meta-rules,
-not one family.
+genuinely meta, may stay), "would"-timing events (6), battle-fatigue modifiers
+(4). Known false positive: verb-other `{effect}` (~37) is a generic catch-all
+key over unrelated one-off meta-rules, not one family.
 
 Re-read this before every tagging session. Post-freeze schema changes require a
 migration script in scripts/migrations/ and a full re-validation.
@@ -152,6 +154,10 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     Burning", "after it breaks free from Snared" — use trigger
     `after_status_effect` + `params.status`. A creature merely taking damage
     stays `after_damaged` (add `params.status` when a status dealt it).
+29. **Timeline movement** (v12): "after this creature is moved to the top /
+    sent to the bottom / forcibly moved on the Timeline" → trigger
+    `after_timeline_move` + `params.to` (top|bottom) and `params.forced`. The
+    action side stays verb `timeline_move` + `params.to`.
 
 ## Semi-structured params (validated + faceted)
 

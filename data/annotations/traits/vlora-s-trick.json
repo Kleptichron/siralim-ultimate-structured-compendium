@@ -1,14 +1,15 @@
 {
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "claude",
   "id": "trait:vlora-s-trick",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_timeline_move",
         "subject": "holder",
         "params": {
-          "event": "is moved to the top of the Timeline"
+          "event": "is moved to the top of the Timeline",
+          "to": "top"
         }
       },
       "actions": [

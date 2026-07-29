@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "claude",
   "id": "trait:propulsion",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_timeline_move",
         "subject": "holder",
         "params": {
-          "event": "is forcibly moved to the top of the Timeline"
+          "event": "is forcibly moved to the top of the Timeline",
+          "to": "top",
+          "forced": true
         }
       },
       "actions": [

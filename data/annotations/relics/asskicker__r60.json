@@ -1,7 +1,7 @@
 {
   "id": "relic:asskicker:r60",
   "textHash": "766e2f7799d9",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

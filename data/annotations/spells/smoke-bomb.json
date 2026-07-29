@@ -1,7 +1,7 @@
 {
   "id": "spell:smoke-bomb",
   "textHash": "61329d27480d",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

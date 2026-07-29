@@ -1,7 +1,7 @@
 {
   "id": "spell:split-punch",
   "textHash": "dd075088d656",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

@@ -1,7 +1,7 @@
 {
   "id": "spell:infernal-claw",
   "textHash": "8ee68c36f66c",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

@@ -1,14 +1,15 @@
 {
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "claude",
   "id": "trait:marshal",
   "rules": [
     {
       "trigger": {
-        "type": "other",
+        "type": "after_timeline_move",
         "subject": "allies",
         "params": {
-          "event": "creatures of your most common race move to the top of the Timeline"
+          "event": "creatures of your most common race move to the top of the Timeline",
+          "to": "top"
         }
       },
       "chance": 25,

@@ -1,7 +1,7 @@
 {
   "id": "spell:maelstrom",
   "textHash": "23ebfc2d4a09",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

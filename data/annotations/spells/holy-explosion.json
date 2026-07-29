@@ -1,7 +1,7 @@
 {
   "id": "spell:holy-explosion",
   "textHash": "a091ee8b4246",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

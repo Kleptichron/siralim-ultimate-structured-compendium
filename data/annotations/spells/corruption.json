@@ -1,7 +1,7 @@
 {
   "id": "spell:corruption",
   "textHash": "2f3f4eac3158",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

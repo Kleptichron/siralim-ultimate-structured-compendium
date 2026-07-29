@@ -1,7 +1,7 @@
 {
   "id": "spell:putrescent-odor",
   "textHash": "94780b8ec0ce",
-  "schemaVersion": 11,
+  "schemaVersion": 12,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [
