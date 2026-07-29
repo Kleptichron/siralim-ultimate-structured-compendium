@@ -1,4 +1,7 @@
-import { PICKERS, emptyQuery, runQuery, facetCounts, anyRuleScopedFilter } from '/filter.js';
+import {
+  PICKERS, emptyQuery, runQuery, facetCounts, anyRuleScopedFilter,
+  queryToHash, hashToQuery,
+} from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
 const MAX_CARDS = 250;
@@ -8,11 +11,40 @@ let query = emptyQuery();
 
 const $ = sel => document.querySelector(sel);
 
+// --- URL as the single source of truth for a search -----------------------
+// Discrete filter changes push a history entry (so Back undoes one filter);
+// typing only replaces it, which keeps history clean and stays well under
+// Safari's replaceState rate limit.
+let lastHash = null;
+let urlTimer = null;
+
+function syncUrl(push) {
+  const s = queryToHash(query);
+  if (s === lastHash) return;
+  lastHash = s;
+  const url = s ? `#${s}` : location.pathname + location.search;
+  clearTimeout(urlTimer);
+  const apply = () => history[push ? 'pushState' : 'replaceState'](null, '', url);
+  if (push) apply(); else urlTimer = setTimeout(apply, 250);
+}
+
+function adoptUrl() {
+  const incoming = location.hash.replace(/^#/, '');
+  if (incoming === lastHash) return; // our own write echoing back
+  query = hashToQuery(incoming);
+  lastHash = queryToHash(query);
+  $('#search').value = query.q;
+  paint();
+}
+
 async function boot() {
   index = await (await fetch('/index.json')).json();
   initHighlight(index.statuses);
   $('#coverage').textContent =
     `${index.counts.tagged}/${index.counts.total} tagged · schema v${index.schemaVersion}`;
+  query = hashToQuery(location.hash);
+  lastHash = queryToHash(query);
+  $('#search').value = query.q;
   $('#search').addEventListener('input', e => { query.q = e.target.value; render(); });
   document.addEventListener('keydown', e => {
     if (e.key === '/' && document.activeElement !== $('#search')) {
@@ -20,6 +52,9 @@ async function boot() {
       $('#search').focus();
     }
   });
+  // popstate covers Back/Forward; hashchange covers editing the address bar.
+  addEventListener('popstate', adoptUrl);
+  addEventListener('hashchange', adoptUrl);
   render();
 }
 
@@ -79,27 +114,35 @@ function renderFacets() {
     query = emptyQuery();
     query.q = q;
     query.sameRule = sameRule;
-    render();
+    render({ push: true });
   };
-  el.querySelector('#samerule').onchange = e => { query.sameRule = e.target.checked; render(); };
+  el.querySelector('#samerule').onchange = e => {
+    query.sameRule = e.target.checked;
+    render({ push: true });
+  };
   el.querySelectorAll('.fv').forEach(fv => {
-    fv.onclick = () => { toggle(query[fv.dataset.g], fv.dataset.v); render(); };
+    fv.onclick = () => { toggle(query[fv.dataset.g], fv.dataset.v); render({ push: true }); };
   });
   el.querySelectorAll('select[data-psel]').forEach(s => {
-    s.onchange = () => { query.pickers[s.dataset.psel].key = s.value; render(); };
+    s.onchange = () => { query.pickers[s.dataset.psel].key = s.value; render({ push: true }); };
   });
   el.querySelectorAll('.ichip').forEach(c => {
-    c.onclick = () => { toggle(query.pickers[c.dataset.p].on, c.dataset.i); render(); };
+    c.onclick = () => { toggle(query.pickers[c.dataset.p].on, c.dataset.i); render({ push: true }); };
   });
 }
 
-function render() {
+function paint() {
   const results = runQuery(index.records, query);
   $('#resultbar').textContent =
     `${results.length} result${results.length === 1 ? '' : 's'}` +
     (results.length > MAX_CARDS ? ` (showing first ${MAX_CARDS})` : '');
   $('#results').innerHTML = results.slice(0, MAX_CARDS).map(r => cardHtml(r, query)).join('');
   renderFacets();
+}
+
+function render({ push = false } = {}) {
+  syncUrl(push);
+  paint();
 }
 
 boot();

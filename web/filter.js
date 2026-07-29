@@ -35,6 +35,51 @@ export function emptyQuery() {
   };
 }
 
+// --- URL round-trip -------------------------------------------------------
+// Param names mirror the rule vocabulary the app renders (WHEN / DO), so a
+// shared link reads as the query it encodes.
+const SET_PARAMS = [
+  ['src', 'types'], ['when', 'triggers'], ['do', 'verbs'],
+  ['actor', 'actors'], ['target', 'targets'],
+];
+
+export function queryToHash(query) {
+  const p = new URLSearchParams();
+  if (query.q) p.set('q', query.q);
+  for (const [param, group] of SET_PARAMS) {
+    if (query[group].size) p.set(param, [...query[group]].sort().join(','));
+  }
+  for (const cfg of PICKERS) {
+    const sel = query.pickers[cfg.id];
+    if (!sel.key && !sel.on.size) continue;
+    p.set(cfg.id, `${sel.key}:${[...sel.on].sort().join(',')}`);
+  }
+  if (!query.sameRule) p.set('same', '0'); // on is the default, so only note the opt-out
+  // ',' and ':' are legal fragment characters — keep them literal so the URL
+  // stays readable. Everything else keeps standard form encoding.
+  return p.toString().replace(/%2C/g, ',').replace(/%3A/g, ':');
+}
+
+export function hashToQuery(hash) {
+  const query = emptyQuery();
+  const p = new URLSearchParams(String(hash).replace(/^#/, ''));
+  query.q = p.get('q') ?? '';
+  for (const [param, group] of SET_PARAMS) {
+    for (const v of (p.get(param) ?? '').split(',').filter(Boolean)) query[group].add(v);
+  }
+  for (const cfg of PICKERS) {
+    const raw = p.get(cfg.id);
+    if (raw === null) continue;
+    const cut = raw.indexOf(':');
+    query.pickers[cfg.id].key = cut < 0 ? raw : raw.slice(0, cut);
+    for (const v of (cut < 0 ? '' : raw.slice(cut + 1)).split(',').filter(Boolean)) {
+      query.pickers[cfg.id].on.add(v);
+    }
+  }
+  if (p.get('same') === '0') query.sameRule = false;
+  return query;
+}
+
 export function cloneQuery(query) {
   const pickers = {};
   for (const [id, p] of Object.entries(query.pickers)) pickers[id] = { key: p.key, on: new Set(p.on) };
