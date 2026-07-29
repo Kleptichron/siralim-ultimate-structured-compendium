@@ -14,7 +14,8 @@
     "build-index": "node scripts/build-index.js",
     "dev": "vite web",
     "build": "vite build web",
-    "test": "node scripts/build-index.js && node scripts/validate.js && node --test \"scripts/tests/*.test.js\""
+    "test": "node scripts/build-index.js && node scripts/validate.js && node --test \"scripts/tests/*.test.js\"",
+    "preview": "vite preview web"
   },
   "devDependencies": {
     "vite": "^5.0.0"

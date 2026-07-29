@@ -121,7 +121,13 @@ const gunzip = async bytes =>
 // covers both without trusting headers. Falls back to the plain file.
 async function fetchIndex(onProgress) {
   let lastErr;
-  for (const url of ['/index.json.gz', '/index.json']) {
+  // BASE_URL, not a root-absolute path: on a GitHub project page the site lives
+  // under /<repo>/, so '/index.json.gz' would ask for it at the domain root and
+  // 404 both times — a blank page with "could not load the index" and nothing
+  // to suggest why. Vite rewrites asset URLs in the HTML but cannot touch a
+  // string built at runtime, so this one has to say it itself.
+  const base = import.meta.env.BASE_URL;
+  for (const url of [`${base}index.json.gz`, `${base}index.json`]) {
     try {
       const res = await fetch(url);
       if (!res.ok) { lastErr = new Error(`server responded ${res.status} for ${url}`); continue; }
