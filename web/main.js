@@ -42,8 +42,100 @@ function adoptUrl() {
   paint();
 }
 
+const MB = n => `${(n / 1048576).toFixed(1)} MB`;
+// Let the browser actually paint before a long synchronous step, otherwise the
+// message describing that step lands only after it has already finished.
+// rAF does not fire at all in a backgrounded or non-compositing tab, so a timer
+// backstop is required — without it, loading in a background tab hangs forever.
+const paintTick = () => new Promise(resolve => {
+  let settled = false;
+  const finish = () => { if (!settled) { settled = true; resolve(); } };
+  requestAnimationFrame(() => requestAnimationFrame(finish));
+  setTimeout(finish, 50);
+});
+
+// Streams the index so the progress bar reflects real bytes rather than a
+// spinner that conveys nothing.
+async function fetchIndex(onProgress) {
+  const res = await fetch('/index.json');
+  if (!res.ok) throw new Error(`server responded ${res.status}`);
+  // With Content-Encoding set, Content-Length counts COMPRESSED bytes while the
+  // reader yields decompressed ones — the ratio is meaningless, so don't fake it.
+  const total = res.headers.get('content-encoding')
+    ? 0
+    : Number(res.headers.get('content-length')) || 0;
+  if (!res.body) return { json: JSON.parse(await res.text()), bytes: 0 }; // no streams: still works
+
+  const reader = res.body.getReader();
+  const chunks = [];
+  let bytes = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+    bytes += value.length;
+    onProgress(bytes, total);
+  }
+  const buf = new Uint8Array(bytes);
+  let at = 0;
+  for (const c of chunks) { buf.set(c, at); at += c.length; }
+  return { text: new TextDecoder().decode(buf), bytes };
+}
+
+async function loadIndex() {
+  const el = $('#boot');
+  const msg = el.querySelector('.boot-msg');
+  const track = el.querySelector('.boot-track');
+  const bar = el.querySelector('.boot-bar');
+  const sub = el.querySelector('.boot-sub');
+  // Reveal only if we are still working after 150ms — a warm cache beats it and
+  // the panel never appears. Deliberately NOT cancelled once the download ends:
+  // if parsing is what's slow, the panel should still show up and say so.
+  setTimeout(() => el.classList.add('show'), 150);
+
+  const { text, json, bytes } = await fetchIndex((got, total) => {
+    if (!total) { track.classList.add('indeterminate'); sub.textContent = MB(got); return; }
+    bar.style.width = `${Math.min(100, (got / total) * 100).toFixed(1)}%`;
+    sub.textContent = `${MB(got)} of ${MB(total)}`;
+  });
+
+  track.classList.remove('indeterminate');
+  bar.style.width = '100%';
+  msg.textContent = 'Preparing index…';
+  sub.textContent = `${MB(bytes)} downloaded`;
+  await paintTick(); // the parse below blocks; make sure this message is visible first
+
+  let parsed = json;
+  if (parsed === undefined) {
+    try {
+      parsed = JSON.parse(text);
+    } catch {
+      // A dev server that answers unknown paths with the SPA shell returns
+      // 200 + HTML here, so res.ok told us nothing. Say what actually happened
+      // instead of surfacing "Unexpected token '<'".
+      throw new Error('index.json did not contain JSON — is it built? (npm run build-index)');
+    }
+  }
+  if (!parsed || !Array.isArray(parsed.records)) {
+    throw new Error('index.json is missing its records array');
+  }
+  return parsed;
+}
+
 async function boot() {
-  index = await (await fetch('/index.json')).json();
+  try {
+    index = await loadIndex();
+  } catch (err) {
+    const el = $('#boot');
+    el.classList.add('failed');
+    el.querySelector('.boot-msg').textContent = 'Could not load the compendium.';
+    el.querySelector('.boot-sub').textContent = String(err.message ?? err);
+    const retry = document.createElement('button');
+    retry.textContent = 'Retry';
+    retry.onclick = () => location.reload();
+    el.append(retry);
+    return;
+  }
   initHighlight(index.statuses);
   computeFacetOrder();
   $('#coverage').textContent =
@@ -62,6 +154,8 @@ async function boot() {
   addEventListener('popstate', adoptUrl);
   addEventListener('hashchange', adoptUrl);
   render();
+  document.body.classList.add('ready');
+  $('#boot').remove();
 }
 
 // Three states, cycled by clicking: off -> include -> exclude -> off. No hidden

@@ -35,6 +35,43 @@ h1 { font-size: 1.15rem; margin: 0; color: var(--accent); white-space: nowrap; }
 #search:focus { outline: 1px solid var(--accent); }
 .dim { color: var(--dim); font-size: .875rem; }
 
+/* Boot panel. Held invisible for 150ms first: a cached load finishes inside
+   that window, so the bar never flashes for a load that was already instant.
+   The reveal is a CLASS applied from JS, not an animation — tying visibility to
+   an animation completing would hide the panel outright wherever animations do
+   not run (reduced-motion, a backgrounded tab). */
+#boot {
+  max-width: 420px; margin: 18vh auto 0; padding: 0 20px;
+  opacity: 0; transition: opacity .25s ease;
+}
+#boot.show { opacity: 1; }
+.boot-msg { font-size: 1.0625rem; margin-bottom: 12px; }
+.boot-track {
+  height: 6px; border-radius: 3px; background: var(--panel2); overflow: hidden;
+}
+.boot-bar {
+  height: 100%; width: 0; border-radius: 3px; background: var(--accent);
+  transition: width .15s linear;
+}
+/* No trustworthy Content-Length: sweep instead of lying about a percentage. */
+.boot-track.indeterminate .boot-bar { width: 35%; animation: bootsweep 1.1s ease-in-out infinite; }
+@keyframes bootsweep { 0% { margin-left: -35%; } 100% { margin-left: 100%; } }
+@media (prefers-reduced-motion: reduce) {
+  #boot { transition: none; }
+  .boot-bar { transition: none; }
+  .boot-track.indeterminate .boot-bar { animation: none; width: 100%; opacity: .4; }
+}
+.boot-sub { margin-top: 9px; font-size: .875rem; color: var(--dim); }
+#boot.failed .boot-msg { color: var(--debuff); }
+#boot.failed .boot-track { display: none; }
+#boot button {
+  margin-top: 12px; padding: 7px 15px; border-radius: 6px; cursor: pointer;
+  font-size: .9375rem; background: var(--chip); color: var(--text);
+  border: 1px solid var(--border);
+}
+#boot button:hover { border-color: var(--accent); color: var(--accent); }
+body:not(.ready) .layout { display: none; }
+
 .layout { display: grid; grid-template-columns: 320px 1fr; gap: 0; }
 /* Grid items default to min-width:auto, so one nowrap rule chip would widen the
    1fr column past the viewport and scroll the whole page sideways. */
