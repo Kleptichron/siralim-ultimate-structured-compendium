@@ -2,17 +2,17 @@ import {
   PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, cloneQuery, runQuery, sortResults,
   facetCounts, anyRuleScopedFilter, activeFilterCount, pctRangeActive,
   canUseAllMode, isAllMode, chipApplied, queryToHash, hashToQuery,
-} from '/filter.js';
-import { initHighlight, cardHtml } from '/render.js';
-import { initRoving, stateAttrs, captureFocus, restoreFocus } from '/a11y.js';
+} from './filter.js';
+import { initHighlight, cardHtml } from './render.js';
+import { initRoving, stateAttrs, captureFocus, restoreFocus } from './a11y.js';
 import {
   buildToMarkdown, resultsToCsv, resultsToMarkdown, resultsToJson, copyText, downloadFile,
-} from '/export.js';
+} from './export.js';
 import {
   SLOTS, TRAITS_PER_CREATURE, SLOT_LABELS, SLOT_KEYS, SLOT_REFUSAL, slotAccepts, placeLabel,
   emptyBuild, buildToParam, buildFromParam,
   buildIsEmpty, buildWarnings, buildSummary, buildCount, saveBuild, loadBuild,
-} from '/build.js';
+} from './build.js';
 
 // Cards render at roughly 20µs each, so a 250-card chunk costs ~5ms while the
 // full 4,068 costs ~110ms. Revealing in chunks AND resetting on every query

@@ -13,7 +13,8 @@
     "pipeline": "node scripts/import.js && node scripts/extract.js && node scripts/validate.js",
     "build-index": "node scripts/build-index.js",
     "dev": "vite web",
-    "build": "vite build web"
+    "build": "vite build web",
+    "test": "node scripts/build-index.js && node scripts/validate.js && node --test \"scripts/tests/*.test.js\""
   },
   "devDependencies": {
     "vite": "^5.0.0"

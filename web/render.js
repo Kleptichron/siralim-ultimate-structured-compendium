@@ -1,7 +1,7 @@
 // DOM rendering: result cards with rule chips, status-term highlighting,
 // and hit-marking of chips that satisfy the active query.
-import { matchingRules, anyRuleScopedFilter, chipApplied, chipAnyApplied } from '/filter.js';
-import { stateAttrs } from '/a11y.js';
+import { matchingRules, anyRuleScopedFilter, chipApplied, chipAnyApplied } from './filter.js';
+import { stateAttrs } from './a11y.js';
 
 const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
