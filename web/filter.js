@@ -237,8 +237,10 @@ export function anyRuleScopedFilter(query) {
 }
 
 // Does ONE facet bag satisfy every active rule-scoped group? The bag is either
-// a record's union (cross-rule mode) or a single rule's (same-rule mode) —
-// the predicate is identical, only what you feed it changes.
+// a record's union (cross-rule mode) or a single ACTION's, carrying its rule's
+// trigger and conditions (same-rule mode) — the predicate is identical, only
+// what you feed it changes. Feeding it per-action bags is what makes two
+// action-level filters have to land on the same action.
 function satisfiesBag(f, query) {
   if (!f) return false;
   for (const g of RULE_SCOPED) {
@@ -264,11 +266,12 @@ function satisfiesBag(f, query) {
 }
 
 // Indexes of the rules that satisfy the query on their own — drives both
-// same-rule matching and the "matched" marker on result cards.
+// same-rule matching and the "matched" marker on result cards. A rule counts
+// as matching when any ONE of its action bags does.
 export function matchingRules(rec, query) {
-  const out = [];
-  (rec.ruleFacets ?? []).forEach((rf, i) => { if (satisfiesBag(rf, query)) out.push(i); });
-  return out;
+  const out = new Set();
+  for (const bag of rec.matchBags ?? []) if (satisfiesBag(bag, query)) out.add(bag.r);
+  return [...out];
 }
 
 function facetMatch(rec, query) {
@@ -377,7 +380,8 @@ export function facetCounts(records, query, group) {
   // contribute values. Otherwise a record's unrelated second rule would
   // advertise a combination that clicking it won't actually produce.
   const scoped = sub.sameRule && anyRuleScopedFilter(sub);
-  const bagsFor = rec => (scoped ? matchingRules(rec, sub).map(i => rec.ruleFacets[i]) : [rec.facets]);
+  const bagsFor = rec =>
+    (scoped ? (rec.matchBags ?? []).filter(b => satisfiesBag(b, sub)) : [rec.facets]);
   const valuesOf = (rec, key) =>
     // These exist only on the record bag; reading them from rule bags would
     // count zero the moment any rule-scoped filter is active.

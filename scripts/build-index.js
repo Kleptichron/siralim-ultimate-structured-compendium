@@ -54,12 +54,22 @@ const FACET_KEYS = [
 const sortVals = arr =>
   (arr.every(v => typeof v === 'number') ? arr.sort((a, b) => a - b) : arr.sort());
 
-function deriveRuleFacets(rule) {
-  const f = Object.fromEntries(FACET_KEYS.map(k => [k, new Set()]));
-  let chanceBased = false, perRank = false;
+// One MATCH BAG per action, each carrying its own rule's trigger and condition
+// facets alongside that single action's. Two action-level filters then have to
+// land on the same action, while a trigger filter is satisfied by any bag of
+// the rule — three levels of scoping falling out of one flat predicate.
+//
+// Without this, "deal_damage → caster" matched a rule holding some deal_damage
+// beside some caster-targeted action: 18 of its 21 results were wrong.
+function deriveRuleBags(rule, ruleIndex) {
   const statusesOf = v => (typeof v === 'string' ? [v] : Array.isArray(v) ? v : []);
+  const t = rule.trigger ?? {};
+  const chanceBased = !!rule.chance;
+
+  // --- rule-level: trigger + conditions, shared by every bag of this rule ---
+  const base = Object.fromEntries(FACET_KEYS.map(k => [k, new Set()]));
   {
-    const t = rule.trigger ?? {};
+    const f = base;
     f.triggers.add(t.type);
     for (const s of [...statusesOf(t.params?.status), ...statusesOf(t.params?.statuses)]) {
       f.statusInteractions.add(`${s}|triggers_off`);
@@ -88,11 +98,28 @@ function deriveRuleFacets(rule) {
       }
       if (c.params?.spellClass) f.classInteractions.add(`${c.params.spellClass}|spells`);
     }
-    if (rule.chance) chanceBased = true;
-    // For side-of-battle search, indirection resolves to the trigger's side:
-    // "the enemy that was healed casts…" facets as actor: enemy.
-    const resolve = v => (v === 'trigger_subject' ? (t.subject ?? v) : v);
-    for (const a of rule.actions ?? []) {
+  }
+
+  // For side-of-battle search, indirection resolves to the trigger's side:
+  // "the enemy that was healed casts…" facets as actor: enemy.
+  const resolve = v => (v === 'trigger_subject' ? (t.subject ?? v) : v);
+
+  const finish = (f, perRank) => {
+    const out = { r: ruleIndex };
+    for (const k of FACET_KEYS) if (f[k].size) out[k] = sortVals([...f[k]]);
+    if (chanceBased) out.chanceBased = true;
+    if (perRank) out.perRank = true;
+    return out;
+  };
+
+  const actions = rule.actions ?? [];
+  // A rule with no actions still needs a bag so its trigger stays searchable.
+  if (!actions.length) return [finish(base, false)];
+
+  return actions.map(a => {
+    const f = Object.fromEntries(FACET_KEYS.map(k => [k, new Set(base[k])]));
+    let perRank = false;
+    {
       f.verbs.add(a.verb);
       if (a.actor) f.actors.add(resolve(a.actor));
       if (a.target) f.targets.add(resolve(a.target));
@@ -138,28 +165,24 @@ function deriveRuleFacets(rule) {
         if (m.perRank) perRank = true;
       }
     }
-  }
-  const out = {};
-  for (const [k, v] of Object.entries(f)) if (v.size) out[k] = sortVals([...v]);
-  if (chanceBased) out.chanceBased = true;
-  if (perRank) out.perRank = true;
-  return out;
+    return finish(f, perRank);
+  });
 }
 
-// Record-level bag = union of the rule bags, plus the flags that belong to the
+// Record-level bag = union of the match bags, plus the flags that belong to the
 // annotation rather than any one rule.
-function unionFacets(ruleFacets, ann) {
+function unionFacets(bags, ann) {
   const out = {};
   for (const k of FACET_KEYS) {
-    const merged = sortVals([...new Set(ruleFacets.flatMap(rf => rf[k] ?? []))]);
+    const merged = sortVals([...new Set(bags.flatMap(b => b[k] ?? []))]);
     if (merged.length) out[k] = merged;
   }
   // Whole-record properties, as a value list rather than loose booleans: the
   // app's include/exclude/count machinery works on arrays, so this makes them
   // filterable ("does not stack", "chance-based") with no special cases.
   const markers = [];
-  if (ruleFacets.some(rf => rf.chanceBased)) markers.push('chanceBased');
-  if (ruleFacets.some(rf => rf.perRank)) markers.push('perRank');
+  if (bags.some(b => b.chanceBased)) markers.push('chanceBased');
+  if (bags.some(b => b.perRank)) markers.push('perRank');
   if (ann?.flags?.stacks === false) markers.push('noStack');
   if (ann?.flags?.unmodeled) markers.push('unmodeled');
   if (markers.length) out.markers = markers;
@@ -181,8 +204,8 @@ for (const src of Object.values(SOURCE_DIRS)) {
     };
     if (ann) {
       entry.provenance = ann.provenance;
-      entry.ruleFacets = (ann.rules ?? []).map(deriveRuleFacets);
-      entry.facets = unionFacets(entry.ruleFacets, ann);
+      entry.matchBags = (ann.rules ?? []).flatMap((rule, i) => deriveRuleBags(rule, i));
+      entry.facets = unionFacets(entry.matchBags, ann);
       // Whose effect this IS — distinct from raceInteractions, which is about
       // rules that CHECK a race. Same vocabulary, opposite direction.
       if (r.meta?.family) entry.facets.families = [r.meta.family];
@@ -210,7 +233,7 @@ for (const src of Object.values(SOURCE_DIRS)) {
       for (const [k, v] of Object.entries(s.facets)) {
         if (Array.isArray(v)) e.facets[k] = [...new Set([...(e.facets[k] ?? []), ...v])].sort();
       }
-      e.ruleFacets = [...(e.ruleFacets ?? []), ...(s.ruleFacets ?? [])];
+      e.matchBags = [...(e.matchBags ?? []), ...(s.matchBags ?? [])];
     }
   }
 }
