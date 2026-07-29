@@ -230,12 +230,17 @@ let facetOrder = {};
 
 function computeFacetOrder() {
   const base = emptyQuery();
-  facetOrder = Object.fromEntries(EXCLUDABLE.map(group => [
-    group,
-    [...facetCounts(index.records, base, group).entries()]
+  facetOrder = Object.fromEntries(EXCLUDABLE.map(group => {
+    const seen = [...facetCounts(index.records, base, group).entries()]
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-      .map(([v]) => v),
-  ]));
+      .map(([v]) => v);
+    // Some scales read wrong by frequency — magnitude tiers belong in size
+    // order (small → devastating), not "moderate, large, small, …".
+    const canonical = index.ordered?.[group];
+    if (!canonical) return [group, seen];
+    const rest = seen.filter(v => !canonical.includes(v));
+    return [group, [...canonical.filter(v => seen.includes(v)), ...rest]];
+  }));
 }
 
 // Which groups are collapsed. Held here rather than in the DOM because
@@ -243,7 +248,7 @@ function computeFacetOrder() {
 // every <details> the reader had opened. Not in the URL — it is a view
 // preference, not part of the query being shared.
 const collapsed = new Set([
-  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers',
+  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'pct',
   'class', 'race', // the two narrowest key pickers; status and stat stay open
 ]);
 
@@ -293,6 +298,22 @@ function facetSelectHtml(title, group, counts) {
   return `<details class="facet-group" data-group="${group}"${open}>
     <summary><h3>${title}</h3>${badge}</summary>
     <select data-fsel="${group}">${options.join('')}</select></details>`;
+}
+
+// Percentage magnitudes mean different things per verb (20% more damage vs 20%
+// more Attack), so the range is most useful alongside an Action filter — and it
+// is rule-scoped, so "damage_modifier at 100%+" means one action is both.
+function pctRangeHtml() {
+  const active = query.pctMin !== null || query.pctMax !== null;
+  const open = active || !collapsed.has('pct') ? ' open' : '';
+  const val = v => (v === null ? '' : v);
+  return `<details class="facet-group" data-group="pct"${open}>
+    <summary><h3>Magnitude %</h3>${active ? '<span class="gcount">1</span>' : ''}</summary>
+    <div class="pctrange">
+      <input type="number" id="pctmin" min="0" step="5" placeholder="min" value="${val(query.pctMin)}">
+      <span class="dim">to</span>
+      <input type="number" id="pctmax" min="0" step="5" placeholder="max" value="${val(query.pctMax)}">
+    </div></details>`;
 }
 
 function pickerHtml(cfg) {
@@ -347,6 +368,7 @@ function renderFacets() {
     ${facetGroupHtml('Scales with', 'scaleRefs', query.scaleRefs, facetCounts(index.records, query, 'scaleRefs'), v => v.replace(/_/g, ' '))}
     ${facetGroupHtml('Damage / healing flow', 'flows', query.flows, facetCounts(index.records, query, 'flows'))}
     ${facetGroupHtml('Magnitude tier', 'tiers', query.tiers, facetCounts(index.records, query, 'tiers'))}
+    ${pctRangeHtml()}
     ${facetGroupHtml('Qualifier', 'qualifiers', query.qualifiers, facetCounts(index.records, query, 'qualifiers'))}
     ${facetGroupHtml('Properties', 'markers', query.markers, facetCounts(index.records, query, 'markers'), v => MARKER_LABELS[v] ?? v)}
   `;
@@ -367,6 +389,14 @@ function renderFacets() {
   el.querySelectorAll('select[data-psel]').forEach(s => {
     s.onchange = () => { query.pickers[s.dataset.psel].key = s.value; render({ push: true }); };
   });
+  for (const [id, key] of [['#pctmin', 'pctMin'], ['#pctmax', 'pctMax']]) {
+    const input = el.querySelector(id);
+    input.onchange = () => {
+      const v = input.value.trim();
+      query[key] = v === '' || !Number.isFinite(Number(v)) ? null : Number(v);
+      render({ push: true });
+    };
+  }
   el.querySelectorAll('select[data-fsel]').forEach(s => {
     s.onchange = () => {
       query[s.dataset.fsel] = new Set(s.value ? [s.value] : []);
@@ -395,6 +425,20 @@ const num = n => n.toLocaleString();
 function renderResultBar() {
   const total = lastResults.length;
   const visible = Math.min(query.shown, total);
+  if (query.recordId) {
+    // Say plainly that this is one effect, not a search — and that a stale or
+    // mistyped id is the reason the page is empty, rather than showing "0".
+    $('#resultbar').innerHTML = total
+      ? `<span>one effect · <span class="dim">${query.recordId}</span></span>
+         <button class="showall-link">Show all effects</button>`
+      : `<span>No effect with id <span class="dim">${query.recordId}</span></span>
+         <button class="showall-link">Show all effects</button>`;
+    $('#resultbar').querySelector('.showall-link').onclick = () => {
+      query = emptyQuery();
+      render({ push: true });
+    };
+    return;
+  }
   const count = total > visible
     ? `showing ${num(visible)} of ${num(total)} results`
     : `${num(total)} result${total === 1 ? '' : 's'}`;

@@ -115,8 +115,11 @@ export function cardHtml(rec, query) {
   if (rec.flags?.stacks === false) flags.push('does not stack');
   if (rec.amplifies) flags.push(`amplifies: ${rec.amplifies.map(esc).join(', ')}`);
   if (rec.notes) flags.push(esc(rec.notes));
+  // A real anchor, not a click handler: copy-link, middle-click and open-in-new
+  // -tab all work for free, and the hashchange listener picks up the navigation.
+  const link = `#id=${encodeURIComponent(rec.id)}`;
   return `<div class="card">
-    <div class="head"><span class="name">${esc(rec.name)}</span>${badges.join('')}</div>
+    <div class="head"><a class="name" href="${link}" title="${esc(rec.id)}">${esc(rec.name)}</a>${badges.join('')}</div>
     ${metaFn ? `<div class="meta">${esc(metaFn(rec.meta ?? {}))}</div>` : ''}
     <div class="text">${hl(rec.text)}</div>
     ${rules}

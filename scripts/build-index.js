@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 
 import { gzipSync } from 'node:zlib';
 import { loadLexicon } from './lib/lexicon.js';
 import { SOURCE_DIRS } from './lib/ids.js';
-import { SCHEMA_VERSION } from './lib/schema.js';
+import { SCHEMA_VERSION, TIERS } from './lib/schema.js';
 
 const lex = loadLexicon();
 const statusKind = Object.fromEntries(lex.statuses.map(s => [s.name, s.kind]));
@@ -43,7 +43,16 @@ const FACET_KEYS = [
   'triggers', 'verbs', 'actors', 'targets', 'conditions', 'tiers', 'scaleStats',
   'scaleRefs', 'qualifiers', 'flows', 'statusInteractions', 'statInteractions',
   'classInteractions', 'raceInteractions',
+  // Percentage magnitudes as "verb|pct" pairs, so a range query can be checked
+  // per ACTION. Storing bare numbers made "damage_modifier at 100%+" match a
+  // rule holding a 50% damage_modifier next to a 100% stat_change — the same
+  // cross-contamination as record-level facets, one level further down.
+  'pcts',
 ];
+
+// Default sort is lexicographic, which orders numbers 10, 100, 2, 25.
+const sortVals = arr =>
+  (arr.every(v => typeof v === 'number') ? arr.sort((a, b) => a - b) : arr.sort());
 
 function deriveRuleFacets(rule) {
   const f = Object.fromEntries(FACET_KEYS.map(k => [k, new Set()]));
@@ -122,6 +131,7 @@ function deriveRuleFacets(rule) {
       if (a.params?.spellClass) f.classInteractions.add(`${a.params.spellClass}|spells`);
       const m = a.magnitude;
       if (m) {
+        if (typeof m.amountPct === 'number') f.pcts.add(`${a.verb}|${m.amountPct}`);
         if (m.tier) f.tiers.add(m.tier);
         if (m.scaleStat) { f.scaleStats.add(m.scaleStat); f.statInteractions.add(`${m.scaleStat}|scales_with`); }
         if (m.scaleRef) f.scaleRefs.add(m.scaleRef);
@@ -130,7 +140,7 @@ function deriveRuleFacets(rule) {
     }
   }
   const out = {};
-  for (const [k, v] of Object.entries(f)) if (v.size) out[k] = [...v].sort();
+  for (const [k, v] of Object.entries(f)) if (v.size) out[k] = sortVals([...v]);
   if (chanceBased) out.chanceBased = true;
   if (perRank) out.perRank = true;
   return out;
@@ -141,7 +151,7 @@ function deriveRuleFacets(rule) {
 function unionFacets(ruleFacets, ann) {
   const out = {};
   for (const k of FACET_KEYS) {
-    const merged = [...new Set(ruleFacets.flatMap(rf => rf[k] ?? []))].sort();
+    const merged = sortVals([...new Set(ruleFacets.flatMap(rf => rf[k] ?? []))]);
     if (merged.length) out[k] = merged;
   }
   // Whole-record properties, as a value list rather than loose booleans: the
@@ -209,6 +219,10 @@ const index = {
   generated: new Date().toISOString(),
   schemaVersion: SCHEMA_VERSION,
   statuses: lex.statuses.map(s => ({ name: s.name, kind: s.kind })),
+  // Groups whose values have an inherent order the app should display them in,
+  // rather than the by-frequency default. Shipped so the scale lives only in
+  // the schema and is never retyped in the UI.
+  ordered: { tiers: TIERS },
   counts: { total: records.length, tagged: records.filter(r => r.rules).length },
   records,
 };

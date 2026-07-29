@@ -52,6 +52,9 @@ export function emptyQuery() {
   for (const p of PICKERS) pickers[p.id] = { key: '', on: new Set(), off: new Set() };
   return {
     q: '',
+    // A single record, by id — the permalink form. Narrows to exactly that
+    // record so a link to one effect resolves to one effect.
+    recordId: '',
     types: new Set(),
     triggers: new Set(),
     verbs: new Set(),
@@ -64,6 +67,9 @@ export function emptyQuery() {
     qualifiers: new Set(),
     markers: new Set(),
     families: new Set(),
+    // Percentage-magnitude range; null means unbounded on that side.
+    pctMin: null,
+    pctMax: null,
     // Exclusion is RECORD-scoped even in same-rule mode: "not attack" means
     // this effect never attacks, not "some rule of it happens not to". Saying
     // hide-me and still seeing the thing would be the surprising reading.
@@ -98,6 +104,9 @@ const withExclusions = (inc, exc) =>
 
 export function queryToHash(query) {
   const p = new URLSearchParams();
+  // A permalink stands alone: carrying the filters that happened to be set when
+  // it was copied would make the same link resolve differently for someone else.
+  if (query.recordId) return `id=${encodeURIComponent(query.recordId)}`;
   if (query.q) p.set('q', query.q);
   for (const [param, group] of SET_PARAMS) {
     const v = withExclusions(query[group], query.excluded[group]);
@@ -109,6 +118,7 @@ export function queryToHash(query) {
     p.set(cfg.id, `${sel.key}:${withExclusions(sel.on, sel.off)}`);
   }
   if (!query.sameRule) p.set('same', '0'); // on is the default, so only note the opt-out
+  if (pctRangeActive(query)) p.set('pct', `${query.pctMin ?? ''}-${query.pctMax ?? ''}`);
   if (query.sort !== SORTS[0].id) p.set('sort', query.sort);
   if (query.shown > PAGE) p.set('show', String(query.shown));
   // ',' ':' and '!' are all legal fragment characters — keep them literal so
@@ -124,6 +134,8 @@ export function hashToQuery(hash) {
       if (v.startsWith('!')) { if (v.length > 1) exc.add(v.slice(1)); } else inc.add(v);
     }
   };
+  query.recordId = p.get('id') ?? '';
+  if (query.recordId) return query; // permalink: nothing else applies
   query.q = p.get('q') ?? '';
   for (const [param, group] of SET_PARAMS) {
     split(p.get(param), query[group], query.excluded[group]);
@@ -136,6 +148,12 @@ export function hashToQuery(hash) {
     split(cut < 0 ? '' : raw.slice(cut + 1), query.pickers[cfg.id].on, query.pickers[cfg.id].off);
   }
   if (p.get('same') === '0') query.sameRule = false;
+  if (p.has('pct')) {
+    const [lo, hi] = String(p.get('pct')).split('-');
+    const num = s => (s !== '' && Number.isFinite(Number(s)) ? Number(s) : null);
+    query.pctMin = num(lo);
+    query.pctMax = num(hi);
+  }
   if (SORTS.some(s => s.id === p.get('sort'))) query.sort = p.get('sort');
   // Clamp hard: a negative `show` would turn slice(0, n) into "drop the last n",
   // silently hiding results. Unparseable values fall back to the default.
@@ -147,7 +165,7 @@ export function hashToQuery(hash) {
 // How many filter values are set, for the Filters button — the count is the
 // only cue that filters are active while the sidebar is collapsed or drawered.
 export function activeFilterCount(query) {
-  let n = 0;
+  let n = pctRangeActive(query) ? 1 : 0;
   for (const g of EXCLUDABLE) n += query[g].size + query.excluded[g].size;
   for (const cfg of PICKERS) {
     const sel = query.pickers[cfg.id];
@@ -210,8 +228,12 @@ function anyPickerActive(query) {
   return Object.values(query.pickers).some(p => p.on.size);
 }
 
+export function pctRangeActive(query) {
+  return query.pctMin !== null || query.pctMax !== null;
+}
+
 export function anyRuleScopedFilter(query) {
-  return RULE_SCOPED.some(g => query[g].size) || anyPickerActive(query);
+  return RULE_SCOPED.some(g => query[g].size) || anyPickerActive(query) || pctRangeActive(query);
 }
 
 // Does ONE facet bag satisfy every active rule-scoped group? The bag is either
@@ -221,6 +243,19 @@ function satisfiesBag(f, query) {
   if (!f) return false;
   for (const g of RULE_SCOPED) {
     if (query[g].size && ![...query[g]].some(v => f[g]?.includes(v))) return false;
+  }
+  if (pctRangeActive(query)) {
+    const lo = query.pctMin ?? -Infinity;
+    const hi = query.pctMax ?? Infinity;
+    // Checked per action: with a verb filter active, the SAME action must carry
+    // both the verb and the magnitude, not merely share a rule with it.
+    const ok = (f.pcts ?? []).some(entry => {
+      const bar = entry.lastIndexOf('|');
+      if (query.verbs.size && !query.verbs.has(entry.slice(0, bar))) return false;
+      const pct = Number(entry.slice(bar + 1));
+      return pct >= lo && pct <= hi;
+    });
+    if (!ok) return false;
   }
   for (const p of PICKERS) {
     if (!pickerMatch(f[p.facet], query.pickers[p.id])) return false;
@@ -266,6 +301,7 @@ function isExcluded(rec, query) {
 }
 
 export function runQuery(records, query) {
+  if (query.recordId) return records.filter(rec => rec.id === query.recordId);
   const toks = tokens(query.q);
   return records.filter(rec => {
     if (query.types.size && !query.types.has(rec.type)) return false;
