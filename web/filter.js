@@ -13,6 +13,10 @@ export const PICKERS = [
     interactions: ['conditions_on', 'vs'] },
 ];
 
+// Groups evaluated against a single rule's facet bag. Everything else
+// (free text, source type) is a property of the record as a whole.
+const RULE_SCOPED = ['triggers', 'verbs', 'actors', 'targets'];
+
 export function emptyQuery() {
   const pickers = {};
   for (const p of PICKERS) pickers[p.id] = { key: '', on: new Set() };
@@ -24,6 +28,9 @@ export function emptyQuery() {
     actors: new Set(),
     targets: new Set(),
     pickers,
+    // Default ON: "start of battle AND inflicts a debuff" should mean one rule
+    // does both, not that the record happens to contain each somewhere.
+    sameRule: true,
     showUntagged: true,
   };
 }
@@ -60,18 +67,36 @@ function anyPickerActive(query) {
   return Object.values(query.pickers).some(p => p.on.size);
 }
 
-function facetMatch(rec, query) {
-  const f = rec.facets;
-  if ((query.triggers.size || query.verbs.size || query.actors.size || query.targets.size
-       || anyPickerActive(query)) && !f) return false;
-  if (query.triggers.size && ![...query.triggers].some(t => f.triggers?.includes(t))) return false;
-  if (query.verbs.size && ![...query.verbs].some(v => f.verbs?.includes(v))) return false;
-  if (query.actors.size && ![...query.actors].some(a => f.actors?.includes(a))) return false;
-  if (query.targets.size && ![...query.targets].some(t => f.targets?.includes(t))) return false;
+export function anyRuleScopedFilter(query) {
+  return RULE_SCOPED.some(g => query[g].size) || anyPickerActive(query);
+}
+
+// Does ONE facet bag satisfy every active rule-scoped group? The bag is either
+// a record's union (cross-rule mode) or a single rule's (same-rule mode) —
+// the predicate is identical, only what you feed it changes.
+function satisfiesBag(f, query) {
+  if (!f) return false;
+  for (const g of RULE_SCOPED) {
+    if (query[g].size && ![...query[g]].some(v => f[g]?.includes(v))) return false;
+  }
   for (const p of PICKERS) {
-    if (!pickerMatch(f?.[p.facet], query.pickers[p.id])) return false;
+    if (!pickerMatch(f[p.facet], query.pickers[p.id])) return false;
   }
   return true;
+}
+
+// Indexes of the rules that satisfy the query on their own — drives both
+// same-rule matching and the "matched" marker on result cards.
+export function matchingRules(rec, query) {
+  const out = [];
+  (rec.ruleFacets ?? []).forEach((rf, i) => { if (satisfiesBag(rf, query)) out.push(i); });
+  return out;
+}
+
+function facetMatch(rec, query) {
+  if (!anyRuleScopedFilter(query)) return true;
+  if (query.sameRule) return matchingRules(rec, query).length > 0;
+  return satisfiesBag(rec.facets, query);
 }
 
 export function runQuery(records, query) {
@@ -99,13 +124,22 @@ export function facetCounts(records, query, group) {
     sub.pickers[id] = { key: '', on: new Set() };
   }
   const pool = runQuery(records, sub);
+  // In same-rule mode a count must answer "how many results if I ALSO pick
+  // this?" — so only the rules that already satisfy the other filters get to
+  // contribute values. Otherwise a record's unrelated second rule would
+  // advertise a combination that clicking it won't actually produce.
+  const scoped = sub.sameRule && anyRuleScopedFilter(sub);
+  const bagsFor = rec => (scoped ? matchingRules(rec, sub).map(i => rec.ruleFacets[i]) : [rec.facets]);
+  const valuesOf = (rec, key) =>
+    new Set(bagsFor(rec).flatMap(f => f?.[key] ?? []));
+
   if (group.startsWith('picker:')) {
     const facet = PICKERS.find(p => p.id === group.slice(7)).facet;
     const pairs = new Map();
     const perInteraction = new Map();
     for (const rec of pool) {
       const seen = new Set();
-      for (const pair of rec.facets?.[facet] ?? []) {
+      for (const pair of valuesOf(rec, facet)) {
         pairs.set(pair, (pairs.get(pair) ?? 0) + 1);
         const i = pair.split('|')[1];
         if (!seen.has(i)) { seen.add(i); perInteraction.set(i, (perInteraction.get(i) ?? 0) + 1); }
@@ -116,7 +150,7 @@ export function facetCounts(records, query, group) {
   const counts = new Map();
   for (const rec of pool) {
     if (group === 'types') counts.set(rec.type, (counts.get(rec.type) ?? 0) + 1);
-    else for (const v of rec.facets?.[group] ?? []) counts.set(v, (counts.get(v) ?? 0) + 1);
+    else for (const v of valuesOf(rec, group)) counts.set(v, (counts.get(v) ?? 0) + 1);
   }
   return counts;
 }

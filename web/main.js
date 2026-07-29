@@ -1,4 +1,4 @@
-import { PICKERS, emptyQuery, runQuery, facetCounts } from '/filter.js';
+import { PICKERS, emptyQuery, runQuery, facetCounts, anyRuleScopedFilter } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
 const MAX_CARDS = 250;
@@ -59,8 +59,13 @@ function pickerHtml(cfg) {
 
 function renderFacets() {
   const el = $('#facets');
+  const scoped = anyRuleScopedFilter(query);
   el.innerHTML = `
     <button class="clear">Clear all filters</button>
+    <label class="samerule ${scoped ? '' : 'idle'}" title="Require one rule to satisfy every trigger/action/actor/target/interaction filter, instead of the record merely containing each somewhere. Only changes results when two or more of those filters are active.">
+      <input type="checkbox" id="samerule" ${query.sameRule ? 'checked' : ''}>
+      <span>Match within a single rule</span>
+    </label>
     ${PICKERS.map(pickerHtml).join('')}
     ${facetGroupHtml('Source', 'types', query.types, facetCounts(index.records, query, 'types'))}
     ${facetGroupHtml('Trigger', 'triggers', query.triggers, facetCounts(index.records, query, 'triggers'), v => v.replace(/_/g, ' '))}
@@ -70,10 +75,13 @@ function renderFacets() {
   `;
   el.querySelector('.clear').onclick = () => {
     const q = query.q;
+    const sameRule = query.sameRule;
     query = emptyQuery();
     query.q = q;
+    query.sameRule = sameRule;
     render();
   };
+  el.querySelector('#samerule').onchange = e => { query.sameRule = e.target.checked; render(); };
   el.querySelectorAll('.fv').forEach(fv => {
     fv.onclick = () => { toggle(query[fv.dataset.g], fv.dataset.v); render(); };
   });

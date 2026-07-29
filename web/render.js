@@ -1,5 +1,6 @@
 // DOM rendering: result cards with rule chips, status-term highlighting,
 // and hit-marking of chips that satisfy the active query.
+import { matchingRules, anyRuleScopedFilter } from '/filter.js';
 
 const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -46,7 +47,7 @@ function magText(m) {
 
 const chip = (label, cls = '') => `<span class="chip ${cls}">${esc(label)}</span>`;
 
-function ruleHtml(rule, query) {
+function ruleHtml(rule, query, mark) {
   const ps = query.pickers.status;
   const pst = query.pickers.stat;
   const pcl = query.pickers.class;
@@ -57,11 +58,14 @@ function ruleHtml(rule, query) {
   for (const c of rule.conditions ?? []) {
     parts.push('<span class="rk">if</span>');
     const st = c.params?.status ?? (c.params?.statuses ?? []).join('/');
-    const kr = c.params?.class ?? c.params?.race;
+    // Plural forms name several at once ("your Imlers and Imlings").
+    const classes = c.params?.class ? [c.params.class] : (c.params?.classes ?? []);
+    const races = c.params?.race ? [c.params.race] : (c.params?.races ?? []);
+    const kr = [...classes, ...races].join('/');
     const hit =
       (ps.on.has('conditions_on') && st && (!ps.key || st.includes(ps.key)))
-      || (pcl.on.has('conditions_on') && c.params?.class && (!pcl.key || c.params.class === pcl.key))
-      || (prc.on.has('conditions_on') && c.params?.race && (!prc.key || c.params.race === prc.key));
+      || (pcl.on.has('conditions_on') && classes.length && (!pcl.key || classes.includes(pcl.key)))
+      || (prc.on.has('conditions_on') && races.length && (!prc.key || races.includes(prc.key)));
     parts.push(chip(`${c.type}${c.who ? `[${c.who}]` : ''}${st ? ': ' + st : ''}${kr ? ': ' + kr : ''}`, hit ? 'hit' : ''));
   }
   if (rule.chance) parts.push(chip(`${rule.chance}% chance`));
@@ -89,7 +93,7 @@ function ruleHtml(rule, query) {
     const mg = magText(a.magnitude);
     if (mg) parts.push(chip(mg, pst.on.has('scales_with') && a.magnitude?.scaleStat && (!pst.key || a.magnitude.scaleStat === pst.key) ? 'hit' : ''));
   }
-  return `<div class="rule">${parts.join('')}</div>`;
+  return `<div class="rule ${mark ?? ''}">${parts.join('')}</div>`;
 }
 
 export function cardHtml(rec, query) {
@@ -97,7 +101,13 @@ export function cardHtml(rec, query) {
   const badges = [`<span class="badge type">${rec.type}</span>`];
   if (!rec.rules) badges.push('<span class="badge untagged">untagged</span>');
   else if (rec.provenance === 'machine') badges.push('<span class="badge machine">machine</span>');
-  const rules = (rec.rules ?? []).map(r => ruleHtml(r, query)).join('');
+  // With 2+ rules it's not obvious WHICH one answered the query — say so.
+  const multi = (rec.rules ?? []).length > 1;
+  const scoped = query.sameRule && multi && anyRuleScopedFilter(query);
+  const matched = scoped ? new Set(matchingRules(rec, query)) : null;
+  const rules = (rec.rules ?? [])
+    .map((r, i) => ruleHtml(r, query, scoped ? (matched.has(i) ? 'matched' : 'unmatched') : ''))
+    .join('');
   const flags = [];
   if (rec.flags?.stacks === false) flags.push('does not stack');
   if (rec.amplifies) flags.push(`amplifies: ${rec.amplifies.map(esc).join(', ')}`);
