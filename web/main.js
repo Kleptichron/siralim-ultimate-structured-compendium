@@ -54,32 +54,76 @@ const paintTick = () => new Promise(resolve => {
   setTimeout(finish, 50);
 });
 
-// Streams the index so the progress bar reflects real bytes rather than a
-// spinner that conveys nothing.
-async function fetchIndex(onProgress) {
-  const res = await fetch('/index.json');
-  if (!res.ok) throw new Error(`server responded ${res.status}`);
-  // With Content-Encoding set, Content-Length counts COMPRESSED bytes while the
-  // reader yields decompressed ones — the ratio is meaningless, so don't fake it.
-  const total = res.headers.get('content-encoding')
-    ? 0
-    : Number(res.headers.get('content-length')) || 0;
-  if (!res.body) return { json: JSON.parse(await res.text()), bytes: 0 }; // no streams: still works
+const GZIP_MAGIC = [0x1f, 0x8b];
 
+// Streams a response so the progress bar reflects real bytes rather than a
+// spinner that conveys nothing.
+async function readWithProgress(res, onProgress) {
+  // With Content-Encoding set, Content-Length counts COMPRESSED bytes while the
+  // reader yields decompressed ones — the ratio is meaningless, so don't fake
+  // it. That header also tells us the true transfer size, which is what the
+  // reader can no longer observe.
+  const encoded = !!res.headers.get('content-encoding');
+  const declared = Number(res.headers.get('content-length')) || 0;
+  const total = encoded ? 0 : declared;
+  if (!res.body) { // no streaming support: still works, just no progress
+    const buf = new Uint8Array(await res.arrayBuffer());
+    return { bytes: buf, transferred: declared || buf.length };
+  }
   const reader = res.body.getReader();
   const chunks = [];
-  let bytes = 0;
+  let read = 0;
   for (;;) {
     const { done, value } = await reader.read();
     if (done) break;
     chunks.push(value);
-    bytes += value.length;
-    onProgress(bytes, total);
+    read += value.length;
+    onProgress(read, total);
   }
-  const buf = new Uint8Array(bytes);
+  const buf = new Uint8Array(read);
   let at = 0;
   for (const c of chunks) { buf.set(c, at); at += c.length; }
-  return { text: new TextDecoder().decode(buf), bytes };
+  return { bytes: buf, transferred: encoded && declared ? declared : read };
+}
+
+const gunzip = async bytes =>
+  new Uint8Array(await new Response(
+    new Response(bytes).body.pipeThrough(new DecompressionStream('gzip')),
+  ).arrayBuffer());
+
+// Prefers the pre-compressed copy: ~9x less over the wire, and whether that
+// saving happens is otherwise entirely up to the host. Two shapes to handle —
+// a host that labels it Content-Encoding: gzip (the browser decodes for us) and
+// one that serves it as opaque bytes (we decode). Sniffing the gzip magic
+// covers both without trusting headers. Falls back to the plain file.
+async function fetchIndex(onProgress) {
+  let lastErr;
+  for (const url of ['/index.json.gz', '/index.json']) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) { lastErr = new Error(`server responded ${res.status} for ${url}`); continue; }
+      let { bytes, transferred } = await readWithProgress(res, onProgress);
+      if (bytes[0] === GZIP_MAGIC[0] && bytes[1] === GZIP_MAGIC[1]) {
+        if (typeof DecompressionStream === 'undefined') {
+          lastErr = new Error('gzipped index but no DecompressionStream support');
+          continue;
+        }
+        bytes = await gunzip(bytes);
+      }
+      const text = new TextDecoder().decode(bytes);
+      // A dev server that answers unknown paths with the SPA shell returns
+      // 200 + HTML, so res.ok proved nothing. Sniff the first character rather
+      // than parsing 3MB twice — if this is not an object, try the next URL.
+      if (text.trimStart()[0] !== '{') {
+        lastErr = new Error(`${url} did not return JSON`);
+        continue;
+      }
+      return { text, transferred, url };
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr ?? new Error('could not load the index');
 }
 
 async function loadIndex() {
@@ -93,7 +137,7 @@ async function loadIndex() {
   // if parsing is what's slow, the panel should still show up and say so.
   setTimeout(() => el.classList.add('show'), 150);
 
-  const { text, json, bytes } = await fetchIndex((got, total) => {
+  const { text, transferred } = await fetchIndex((got, total) => {
     if (!total) { track.classList.add('indeterminate'); sub.textContent = MB(got); return; }
     bar.style.width = `${Math.min(100, (got / total) * 100).toFixed(1)}%`;
     sub.textContent = `${MB(got)} of ${MB(total)}`;
@@ -102,11 +146,11 @@ async function loadIndex() {
   track.classList.remove('indeterminate');
   bar.style.width = '100%';
   msg.textContent = 'Preparing index…';
-  sub.textContent = `${MB(bytes)} downloaded`;
+  sub.textContent = `${MB(transferred)} downloaded`; // wire size, not inflated size
   await paintTick(); // the parse below blocks; make sure this message is visible first
 
-  let parsed = json;
-  if (parsed === undefined) {
+  let parsed;
+  {
     try {
       parsed = JSON.parse(text);
     } catch {
@@ -127,7 +171,7 @@ async function boot() {
     index = await loadIndex();
   } catch (err) {
     const el = $('#boot');
-    el.classList.add('failed');
+    el.classList.add('failed', 'show'); // already failed — no reason to hold it back
     el.querySelector('.boot-msg').textContent = 'Could not load the compendium.';
     el.querySelector('.boot-sub').textContent = String(err.message ?? err);
     const retry = document.createElement('button');

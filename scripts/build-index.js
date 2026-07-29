@@ -3,6 +3,7 @@
 // Every record is included — untagged ones are text-searchable and flagged so
 // the app can show coverage honestly. Run from repo root: npm run build-index
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from 'node:fs';
+import { gzipSync } from 'node:zlib';
 import { loadLexicon } from './lib/lexicon.js';
 import { SOURCE_DIRS } from './lib/ids.js';
 import { SCHEMA_VERSION } from './lib/schema.js';
@@ -206,4 +207,12 @@ const index = {
 mkdirSync('web/public', { recursive: true });
 const json = JSON.stringify(index);
 writeFileSync('web/public/index.json', json);
-console.log(`index: ${records.length} records (${index.counts.tagged} tagged), ${(json.length / 1024).toFixed(0)} KB`);
+// Ship a pre-compressed copy too. This index is ~9x smaller gzipped, and
+// whether that saving arrives is otherwise entirely up to the host — Vite's dev
+// server does not compress static files at all. The app prefers this file and
+// falls back to the plain one, so hosts that DO compress lose nothing.
+const gz = gzipSync(json, { level: 9 });
+writeFileSync('web/public/index.json.gz', gz);
+const kb = n => `${(n / 1024).toFixed(0)} KB`;
+console.log(`index: ${records.length} records (${index.counts.tagged} tagged), `
+  + `${kb(json.length)} raw, ${kb(gz.length)} gzip (${(json.length / gz.length).toFixed(1)}x)`);

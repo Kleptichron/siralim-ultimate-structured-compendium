@@ -1,3 +1,4 @@
 node_modules/
 dist/
 web/public/index.json
+web/public/index.json.gz
