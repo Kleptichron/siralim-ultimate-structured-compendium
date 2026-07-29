@@ -200,6 +200,32 @@ export function activeFilterCount(query) {
   return n;
 }
 
+// Is every filter a result chip stands for already in the query? Drives the
+// toggle: fully applied means a click removes it, anything less means add.
+// Partial counts as "not applied" so a click completes the chip rather than
+// tearing down the part that is already there.
+const entryApplied = (query, [kind, a, b, c]) => {
+  if (kind === 'g') return !!query[a]?.has(b);
+  if (kind === 'p') {
+    const sel = query.pickers[a];
+    return sel.on.has(c) && (!b || sel.key === b);
+  }
+  if (kind === 'pct') return query.pctMin === a && query.pctMax === b;
+  return false;
+};
+
+export function chipApplied(query, entries) {
+  return entries.length > 0 && entries.every(e => entryApplied(query, e));
+}
+
+// Any part applied — this is what highlights a chip. Deriving the highlight
+// from the same descriptor that drives the click means a chip lights up exactly
+// when it is in the query, instead of relying on a hand-written check per chip
+// kind that silently omitted flow, qualifiers, chance, tiers and magnitude.
+export function chipAnyApplied(query, entries) {
+  return entries.some(e => entryApplied(query, e));
+}
+
 export function cloneQuery(query) {
   const pickers = {};
   for (const [id, p] of Object.entries(query.pickers)) {

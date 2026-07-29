@@ -1,6 +1,6 @@
 // DOM rendering: result cards with rule chips, status-term highlighting,
 // and hit-marking of chips that satisfy the active query.
-import { matchingRules, anyRuleScopedFilter } from '/filter.js';
+import { matchingRules, anyRuleScopedFilter, chipApplied, chipAnyApplied } from '/filter.js';
 
 const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
@@ -79,11 +79,12 @@ function magText(m) {
 // A chip carries the filters it stands for, so clicking it narrows the search
 // to that term. Entries are ['g', group, value] or ['p', picker, key, interaction]
 // or ['pct', min, max]; a chip with none is inert and must not look clickable.
-const chip = (label, cls = '', filters = []) => {
-  const f = filters.filter(Boolean);
-  const attr = f.length ? ` data-f="${esc(JSON.stringify(f))}"` : '';
-  const title = f.length ? ' title="Add this to the search"' : '';
-  return `<span class="chip ${cls}${f.length ? ' clickable' : ''}"${attr}${title}>${esc(label)}</span>`;
+const baseChip = (label, cls = '', filters = [], applied = false) => {
+  const attr = filters.length ? ` data-f="${esc(JSON.stringify(filters))}"` : '';
+  const title = filters.length
+    ? ` title="${applied ? 'Remove this from the search' : 'Add this to the search'}"`
+    : '';
+  return `<span class="chip ${cls}${filters.length ? ' clickable' : ''}"${attr}${title}>${esc(label)}</span>`;
 };
 
 // Mirrors build-index's VERB_INTERACTION: clicking "Burning" on an apply_status
@@ -103,10 +104,20 @@ function ruleHtml(rule, query, mark) {
   const pst = query.pickers.stat;
   const pcl = query.pickers.class;
   const prc = query.pickers.race;
+  // Highlight and toggle state both come from the chip's own filters, so a chip
+  // lights up exactly when it is in the query — no per-kind bookkeeping to
+  // forget. `idleCls` only applies when the chip is not highlighted (the
+  // buff/debuff colouring on status chips).
+  const chip = (label, idleCls = '', filters = []) => {
+    const f = filters.filter(Boolean);
+    const applied = chipApplied(query, f);
+    const lit = applied || chipAnyApplied(query, f);
+    const cls = [lit ? 'hit' : idleCls, applied ? 'applied' : ''].filter(Boolean).join(' ');
+    return baseChip(label, cls, f, applied);
+  };
   const parts = ['<span class="rk">when</span>'];
   const t = rule.trigger ?? {};
-  parts.push(chip(t.type + (t.subject ? `: ${t.subject}` : ''), query.triggers.has(t.type) ? 'hit' : '',
-    [['g', 'triggers', t.type]]));
+  parts.push(chip(t.type + (t.subject ? `: ${t.subject}` : ''), '', [['g', 'triggers', t.type]]));
   for (const c of rule.conditions ?? []) {
     parts.push('<span class="rk">if</span>');
     const st = c.params?.status ?? (c.params?.statuses ?? []).join('/');
@@ -114,14 +125,10 @@ function ruleHtml(rule, query, mark) {
     const classes = c.params?.class ? [c.params.class] : (c.params?.classes ?? []);
     const races = c.params?.race ? [c.params.race] : (c.params?.races ?? []);
     const kr = [...classes, ...races].join('/');
-    const hit =
-      (ps.on.has('conditions_on') && st && (!ps.key || st.includes(ps.key)))
-      || (pcl.on.has('conditions_on') && classes.length && (!pcl.key || classes.includes(pcl.key)))
-      || (prc.on.has('conditions_on') && races.length && (!prc.key || races.includes(prc.key)));
     // A picker holds one key, so only pin it when the condition names exactly
     // one — otherwise just the interaction, which is still true and not a guess.
     const statuses = c.params?.status ? [c.params.status] : (c.params?.statuses ?? []);
-    parts.push(chip(`${c.type}${c.who ? `[${c.who}]` : ''}${st ? ': ' + st : ''}${kr ? ': ' + kr : ''}`, hit ? 'hit' : '', [
+    parts.push(chip(`${c.type}${c.who ? `[${c.who}]` : ''}${st ? ': ' + st : ''}${kr ? ': ' + kr : ''}`, '', [
       ['g', 'conditions', c.type],
       statuses.length === 1 && ['p', 'status', statuses[0], 'conditions_on'],
       classes.length === 1 && ['p', 'class', classes[0], 'conditions_on'],
@@ -132,23 +139,19 @@ function ruleHtml(rule, query, mark) {
   parts.push('<span class="rk">do</span>');
   const resolve = v => (v === 'trigger_subject' ? (t.subject ?? v) : v);
   for (const a of rule.actions ?? []) {
-    const hit = query.verbs.has(a.verb)
-      || (a.actor && query.actors.has(resolve(a.actor)))
-      || (a.target && query.targets.has(resolve(a.target))) ? 'hit' : '';
     let label = a.verb;
     if (a.actor) label += ` @${a.actor}`;
     if (a.target) label += ` → ${a.target}`;
     // One click applies all three: the facets store the RESOLVED scope, so
     // trigger_subject has to be resolved here or the filter would miss.
-    parts.push(chip(label, hit, [
+    parts.push(chip(label, '', [
       ['g', 'verbs', a.verb],
       a.actor && ['g', 'actors', resolve(a.actor)],
       a.target && ['g', 'targets', resolve(a.target)],
     ]));
     const inter = VERB_INTERACTION[a.verb];
     for (const s of a.statuses ?? []) {
-      const sHit = ps.on.size && (!ps.key || ps.key === s) ? 'hit' : `st-${statusKind[s] ?? ''}`;
-      parts.push(chip(s, sHit, [['p', 'status', s, inter ? inter(s) : 'interacts']]));
+      parts.push(chip(s, `st-${statusKind[s] ?? ''}`, [['p', 'status', s, inter ? inter(s) : 'interacts']]));
     }
     if (a.statusKind) {
       // Unnamed statuses ("a random debuff") facet under a wildcard key. The
@@ -164,13 +167,12 @@ function ruleHtml(rule, query, mark) {
         wild ? [['p', 'status', '', wild]] : []));
     }
     if (a.stats?.length) {
-      const stHit = pst.on.size && (!pst.key || a.stats.includes(pst.key)) ? 'hit' : '';
       // Only stat_change and stat_rule produce stat interactions; stats listed
       // under equipment_modifier or status_modifier have nothing to filter on.
       const statInter = a.verb === 'stat_rule' ? 'modifies'
         : a.verb === 'stat_change' ? (a.magnitude?.direction === 'down' ? 'decreases' : 'increases')
         : null;
-      parts.push(chip(a.stats.join(', '), stHit, statInter
+      parts.push(chip(a.stats.join(', '), '', statInter
         ? [['p', 'stat', a.stats.length === 1 ? a.stats[0] : '', statInter]]
         : []));
     }
@@ -186,7 +188,7 @@ function ruleHtml(rule, query, mark) {
       const m = a.magnitude;
       // A magnitude with only a flat amount or a `per` clause has no facet to
       // point at — those stay inert rather than pretending to be clickable.
-      parts.push(chip(mg, pst.on.has('scales_with') && m?.scaleStat && (!pst.key || m.scaleStat === pst.key) ? 'hit' : '', [
+      parts.push(chip(mg, '', [
         m.tier && ['g', 'tiers', m.tier],
         m.scaleRef && ['g', 'scaleRefs', m.scaleRef],
         m.scaleStat && ['p', 'stat', m.scaleStat, 'scales_with'],

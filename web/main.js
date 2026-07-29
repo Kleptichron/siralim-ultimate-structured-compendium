@@ -1,7 +1,7 @@
 import {
   PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, cloneQuery, runQuery, sortResults,
   facetCounts, anyRuleScopedFilter, activeFilterCount, pctRangeActive,
-  canUseAllMode, isAllMode, queryToHash, hashToQuery,
+  canUseAllMode, isAllMode, chipApplied, queryToHash, hashToQuery,
 } from '/filter.js';
 import { initHighlight, cardHtml } from '/render.js';
 
@@ -211,14 +211,28 @@ async function boot() {
   $('#results').addEventListener('click', e => {
     const el = e.target.closest('.chip.clickable');
     if (!el) return;
-    for (const entry of JSON.parse(el.dataset.f)) {
-      const [kind, a, b, c] = entry;
-      if (kind === 'g') query[a].add(b);
-      else if (kind === 'p') {
+    const entries = JSON.parse(el.dataset.f);
+    // Toggle: a chip already fully in the query removes itself. A partly
+    // applied chip completes instead, rather than tearing down what is there.
+    const removing = chipApplied(query, entries);
+    for (const [kind, a, b, c] of entries) {
+      if (kind === 'g') {
+        if (removing) query[a].delete(b); else query[a].add(b);
+      } else if (kind === 'p') {
         const sel = query.pickers[a];
-        if (b) sel.key = b; // a picker holds one key; an empty one means "any"
-        sel.on.add(c);
-      } else if (kind === 'pct') { query.pctMin = a; query.pctMax = b; }
+        if (removing) {
+          sel.on.delete(c);
+          // The key belongs to the picker, not this chip — only clear it once
+          // nothing is left selecting against it.
+          if (!sel.on.size && !sel.off.size) sel.key = '';
+        } else {
+          if (b) sel.key = b; // a picker holds one key; an empty one means "any"
+          sel.on.add(c);
+        }
+      } else if (kind === 'pct') {
+        if (removing) { query.pctMin = null; query.pctMax = null; }
+        else { query.pctMin = a; query.pctMax = b; }
+      }
     }
     render({ push: true });
   });
