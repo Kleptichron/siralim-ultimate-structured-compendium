@@ -1,17 +1,13 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "trait:dusty-struggle",
   "rules": [
     {
       "trigger": {
-        "type": "other",
-        "subject": "holder",
-        "params": {
-          "event": "attacks, casts, defends, or provokes"
-        }
+        "type": "after_attack",
+        "subject": "holder"
       },
-      "chance": 20,
       "actions": [
         {
           "verb": "apply_status",
@@ -28,10 +24,167 @@
           "qualifiers": [
             "random"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "chance": 20,
+      "actions": [
         {
           "verb": "timeline_move",
           "target": "holder",
+          "params": {
+            "to": "top"
+          }
+        },
+        {
+          "verb": "timeline_move",
+          "target": "adjacent_allies",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        },
+        {
+          "verb": "apply_status",
+          "target": "adjacent_allies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "holder",
+          "params": {
+            "to": "top"
+          }
+        },
+        {
+          "verb": "timeline_move",
+          "target": "adjacent_allies",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        },
+        {
+          "verb": "apply_status",
+          "target": "adjacent_allies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "holder"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "holder",
+          "params": {
+            "to": "top"
+          }
+        },
+        {
+          "verb": "timeline_move",
+          "target": "adjacent_allies",
+          "params": {
+            "to": "top"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        },
+        {
+          "verb": "apply_status",
+          "target": "adjacent_allies",
+          "statusKind": "debuff",
+          "qualifiers": [
+            "random"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "timeline_move",
+          "target": "holder",
+          "params": {
+            "to": "top"
+          }
+        },
+        {
+          "verb": "timeline_move",
+          "target": "adjacent_allies",
           "params": {
             "to": "top"
           }
@@ -39,6 +192,6 @@
       ]
     }
   ],
-  "notes": "Composite action trigger; other is honest here. Will not activate if another party creature has this trait.",
+  "notes": "Will not activate if another creature in your party also has this trait.",
   "textHash": "b827e138578b"
 }

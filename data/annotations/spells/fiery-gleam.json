@@ -1,7 +1,7 @@
 {
   "id": "spell:fiery-gleam",
   "textHash": "6627a0472bc7",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

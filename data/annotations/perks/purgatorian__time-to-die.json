@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "perk:purgatorian:time-to-die",
   "rules": [
@@ -17,11 +17,8 @@
       ],
       "actions": [
         {
-          "verb": "battle_action",
-          "actor": "allies",
-          "params": {
-            "action": "provoke"
-          }
+          "verb": "provoke",
+          "actor": "allies"
         }
       ]
     }

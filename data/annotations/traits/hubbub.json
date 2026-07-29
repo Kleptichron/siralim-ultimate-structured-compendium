@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "trait:hubbub",
   "rules": [
@@ -13,10 +13,9 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "provoke",
           "actor": "allies",
           "params": {
-            "action": "provoke",
             "which": "the others of that race"
           }
         }

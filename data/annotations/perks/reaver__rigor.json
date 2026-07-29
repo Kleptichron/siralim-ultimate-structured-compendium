@@ -1,7 +1,7 @@
 {
   "id": "perk:reaver:rigor",
   "textHash": "adfbe04e33be",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

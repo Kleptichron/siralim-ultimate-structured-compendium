@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "trait:never-yield",
   "rules": [
@@ -25,11 +25,8 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
-          "actor": "holder",
-          "params": {
-            "action": "defend"
-          }
+          "verb": "defend",
+          "actor": "holder"
         },
         {
           "verb": "other",

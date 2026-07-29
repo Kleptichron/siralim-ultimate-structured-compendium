@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "perk:siegemaster:in-formation",
   "rules": [
@@ -9,10 +9,9 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "defend",
           "target": "allies",
           "params": {
-            "action": "defend",
             "text": "start battles Defending"
           }
         }

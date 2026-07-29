@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "trait:shellshock",
   "rules": [
@@ -17,11 +17,8 @@
           }
         },
         {
-          "verb": "battle_action",
-          "actor": "holder",
-          "params": {
-            "action": "provoke"
-          }
+          "verb": "provoke",
+          "actor": "holder"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "spell:profanity",
   "rules": [
@@ -9,11 +9,8 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
-          "actor": "target",
-          "params": {
-            "action": "provoke"
-          }
+          "verb": "provoke",
+          "actor": "target"
         }
       ]
     }

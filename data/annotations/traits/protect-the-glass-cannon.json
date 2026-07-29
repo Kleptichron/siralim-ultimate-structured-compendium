@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "trait:protect-the-glass-cannon",
   "rules": [
@@ -13,11 +13,8 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
-          "actor": "trigger_subject",
-          "params": {
-            "action": "defend"
-          }
+          "verb": "defend",
+          "actor": "trigger_subject"
         }
       ]
     }

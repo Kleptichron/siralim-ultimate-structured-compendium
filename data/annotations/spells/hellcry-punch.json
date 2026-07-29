@@ -1,7 +1,7 @@
 {
   "id": "spell:hellcry-punch",
   "textHash": "e24d659821eb",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

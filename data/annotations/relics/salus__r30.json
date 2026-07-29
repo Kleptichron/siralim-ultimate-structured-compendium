@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "relic:salus:r30",
   "rules": [
@@ -10,10 +10,9 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "defend",
           "target": "holder",
           "params": {
-            "action": "defend",
             "text": "Defends"
           }
         }

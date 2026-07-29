@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "relic:temptation:r40",
   "rules": [
@@ -13,10 +13,9 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "defend",
           "target": "target",
           "params": {
-            "action": "defend",
             "mode": "remove",
             "text": "removes the target's Defending state"
           }

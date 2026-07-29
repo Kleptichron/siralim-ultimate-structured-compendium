@@ -1,7 +1,7 @@
 {
   "id": "spell:poison-gas",
   "textHash": "1cb70cfa7f70",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

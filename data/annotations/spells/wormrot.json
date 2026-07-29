@@ -1,7 +1,7 @@
 {
   "id": "spell:wormrot",
   "textHash": "2d88fac6f539",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

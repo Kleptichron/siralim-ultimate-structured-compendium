@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "perk:mime:trapped-in-a-box",
   "rules": [
@@ -10,10 +10,9 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "defend",
           "target": "ally",
           "params": {
-            "action": "defend",
             "which": "one of your creatures",
             "text": "Defends"
           }

@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 12;
+export const SCHEMA_VERSION = 13;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -127,8 +127,13 @@ export const ACTION_VERBS = [
   'summon_minion',
   'minion_modifier',
   'timeline_move',
-  'battle_action',   // the creature performs a battle action itself:
-                     //   params.action 'defend' | 'provoke'
+  'defend',          // the creature performs the Defend battle action itself.
+  'provoke',         // …and Provoke. First-class verbs rather than one
+                     //   battle_action carrying params.action: that param was
+                     //   never faceted, so "what provokes?" was unanswerable,
+                     //   and it accumulated compound "defend or provoke"
+                     //   values. params.mode 'remove' still marks the effects
+                     //   that STOP a creature defending or provoking.
   'redirect_target', // genuine targeting redirection (interception, Confused,
                      //   "target chosen at random") — NOT the Provoke action
   'spawn_modifier',  // overworld spawn/encounter rates (params.what names it)

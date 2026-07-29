@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "spell:protect",
   "rules": [
@@ -17,10 +17,9 @@
           ]
         },
         {
-          "verb": "battle_action",
+          "verb": "defend",
           "target": "target",
           "params": {
-            "action": "defend",
             "then": true,
             "text": "Defends"
           }

@@ -1,7 +1,7 @@
 {
   "id": "card:gargoyle:3",
   "textHash": "990315a2f232",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "card-class-spell-dr",
   "rules": [

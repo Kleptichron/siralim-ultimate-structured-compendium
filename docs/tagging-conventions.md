@@ -1,4 +1,12 @@
-# Tagging conventions (schema v12 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier, v11 after_status_effect, v12 after_timeline_move)
+# Tagging conventions (schema v13 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier, v11 after_status_effect, v12 after_timeline_move; 2026-07-29: v13 defend/provoke verbs)
+
+**Never park a searchable fact in `params`.** Nothing facets them, so anything
+that lands there is invisible to search and usually half-rendered on the card.
+Three separate defects came from this and are now validator-rejected: a second
+trigger type in `params.alsoAfter`, a compound `"Attack, Defense or Speed"`
+string in `params.stats`, and `battle_action`'s `params.action` hiding whether
+an effect defends or provokes. If a player might filter by it, it needs an enum
+member and, for a disjunction, one rule or action per value.
 
 **Watching `other`:** `npm run audit` ends with an *other-watch* section grouping
 every `other` use by its params shape. A shape reaching ~8 uses is an enum
@@ -113,11 +121,14 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
     carries the number (rule 6), verb describes the outcome
     (`dodge_modifier` + `params.kind: 'avoid damage'`). Chance DELTAS
     ("10% lower chance to Dodge") stay `dodge_modifier` + magnitude.
-22. **Defend & Provoke** (v9) → verb `battle_action`, `params.action`
-    ('defend' | 'provoke' | 'defend or provoke'); add `params.mode: 'remove'`
-    when an effect *clears* that state. `redirect_target` is now ONLY genuine
-    targeting redirection (interception, Confused, random retargeting) — never
-    the Provoke action.
+22. **Defend & Provoke** (v13) → verbs `defend` and `provoke`. "Defends or
+    provokes" is TWO actions in the rule, never one carrying a compound string:
+    v9's `battle_action` + `params.action` hid which action it was in an
+    unfaceted param, so "what provokes?" had no answer. Add
+    `params.mode: 'remove'` when an effect *clears* that state ("no longer
+    Defending") — distinct from `prevent_action`, which is "cannot Provoke".
+    `redirect_target` is ONLY genuine targeting redirection (interception,
+    Confused, random retargeting) — never the Provoke action.
 23. **Effect-activation & minion events** (v9): "after X effects activate"
     (on-attack effects, Trick Slots, innate traits) → trigger
     `after_effect_activates` + `params.what`; minions arriving or departing →

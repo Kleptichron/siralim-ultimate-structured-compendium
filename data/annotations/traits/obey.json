@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "trait:obey",
   "rules": [
@@ -10,10 +10,9 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "provoke",
           "actor": "allies",
           "params": {
-            "action": "provoke",
             "which": "your creatures of the same class"
           }
         },
@@ -33,10 +32,9 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "provoke",
           "actor": "allies",
           "params": {
-            "action": "provoke",
             "which": "your creatures of the same class"
           }
         },

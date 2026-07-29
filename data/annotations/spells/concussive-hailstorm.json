@@ -1,7 +1,7 @@
 {
   "id": "spell:concussive-hailstorm",
   "textHash": "a3c43178e523",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

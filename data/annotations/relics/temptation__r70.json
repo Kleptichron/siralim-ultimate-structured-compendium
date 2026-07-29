@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "relic:temptation:r70",
   "rules": [
@@ -13,10 +13,9 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "provoke",
           "target": "target",
           "params": {
-            "action": "provoke",
             "mode": "remove",
             "text": "removes the target's Provoking state"
           }

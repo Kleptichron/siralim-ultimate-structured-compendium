@@ -1,7 +1,7 @@
 {
   "id": "perk:gladiator:grip-of-the-gods",
   "textHash": "329df6964640",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "immune-group",
   "rules": [

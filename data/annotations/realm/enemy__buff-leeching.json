@@ -1,7 +1,7 @@
 {
   "id": "realm:enemy:buff-leeching",
   "textHash": "2d65f4b1309d",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "enemies-start-with",
   "rules": [

@@ -1,7 +1,7 @@
 {
   "id": "spell:acid-breath",
   "textHash": "362bf57ad05e",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "spell-afflict",
   "rules": [

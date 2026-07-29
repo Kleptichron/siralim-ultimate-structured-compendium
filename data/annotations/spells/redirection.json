@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "spell:redirection",
   "rules": [
@@ -20,10 +20,9 @@
           }
         },
         {
-          "verb": "battle_action",
+          "verb": "provoke",
           "actor": "target",
           "params": {
-            "action": "provoke",
             "then": true
           }
         }

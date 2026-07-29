@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "spell:villify",
   "rules": [
@@ -9,10 +9,17 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "defend",
           "target": "enemies",
           "params": {
-            "action": "defend or provoke",
+            "mode": "remove",
+            "text": "no longer Defending or Provoking"
+          }
+        },
+        {
+          "verb": "provoke",
+          "target": "enemies",
+          "params": {
             "mode": "remove",
             "text": "no longer Defending or Provoking"
           }

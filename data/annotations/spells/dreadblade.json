@@ -1,7 +1,7 @@
 {
   "id": "spell:dreadblade",
   "textHash": "8a8c78a288a8",
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "machine",
   "machineTemplate": "spell-damage",
   "rules": [

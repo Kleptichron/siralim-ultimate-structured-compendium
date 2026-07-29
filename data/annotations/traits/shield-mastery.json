@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "trait:shield-mastery",
   "rules": [
@@ -31,11 +31,8 @@
       },
       "actions": [
         {
-          "verb": "battle_action",
-          "actor": "holder",
-          "params": {
-            "action": "defend"
-          }
+          "verb": "defend",
+          "actor": "holder"
         },
         {
           "verb": "other",

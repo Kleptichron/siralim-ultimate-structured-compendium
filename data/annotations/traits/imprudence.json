@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 12,
+  "schemaVersion": 13,
   "provenance": "claude",
   "id": "trait:imprudence",
   "rules": [
@@ -19,10 +19,17 @@
       ],
       "actions": [
         {
-          "verb": "battle_action",
+          "verb": "defend",
           "target": "holder",
           "params": {
-            "action": "defend or provoke",
+            "mode": "remove",
+            "text": "stops defending and provoking"
+          }
+        },
+        {
+          "verb": "provoke",
+          "target": "holder",
+          "params": {
             "mode": "remove",
             "text": "stops defending and provoking"
           }
