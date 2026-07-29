@@ -452,7 +452,12 @@ body.building .layout { grid-template-columns: 1fr; }
 .badge.type { color: var(--accent); }
 .badge.untagged { color: var(--debuff); }
 .badge.machine { color: #7aa7d8; }
+/* Values keep the dim tone; the field names sit a step back from them, so the
+   line still scans as content with labels rather than as twice as much text. */
 .meta { font-size: .875rem; color: var(--dim); margin: 3px 0 7px; }
+/* The colon is in the markup, not generated content: it belongs to the text
+   and has to survive a copy-paste. */
+.mk { opacity: .62; }
 .text { margin: 5px 0 9px; }
 mark.buff { background: none; color: var(--buff); font-weight: 600; }
 mark.debuff { background: none; color: var(--debuff); font-weight: 600; }

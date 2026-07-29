@@ -48,19 +48,37 @@ function hl(text, q = '', withStatuses = true) {
   return out + esc(text.slice(at));
 }
 
-const META_LINES = {
-  traits: m => `${m.creature} · ${m.family} · ${m.class}${m.material ? ' · ' + m.material : ''}`,
-  spells: m => `${m.class}${m.charges ? ' · ' + m.charges + ' charges' : ''}`,
-  perks: m => `${m.specialization} · ${m.ranks} rank${m.ranks > 1 ? 's' : ''}${m.anointment ? ' · anointment' : ''}`,
-  relics: m => `${m.relic} · rank ${m.rank} · ${m.statBonus}`,
-  cards: m => `${m.family} · ${m.tierRequired} cards`,
-  buffs: m => `buff${m.defaultDuration ? ' · ' + m.defaultDuration : ''}`,
-  debuffs: m => `debuff${m.defaultDuration ? ' · ' + m.defaultDuration : ''}`,
-  minions: m => `minion · leaves: ${m.chanceToLeave}`,
-  realm: m => `${m.target}${m.hidden ? ' · hidden' : ''}`,
-  nemesis: () => 'nemesis modifier',
-  specs: m => `specialization · ${m.abbreviation}`,
+// The meta line as [label, value] pairs rather than one string: only the VALUES
+// are searchable (the haystack is meta values), so only they may be
+// highlighted — otherwise typing "class" would light up a label on every card
+// without that being why the card matched. A null label prints the value on its
+// own, for the entries that state what a record is rather than name a field.
+// Empty, null and false values drop out, so nothing renders a bare "Rank:".
+const META_FIELDS = {
+  traits: m => [['Creature', m.creature], ['Family', m.family], ['Class', m.class],
+    ['Trait material', m.material]],
+  spells: m => [['Class', m.class], ['Charges', m.charges]],
+  perks: m => [['Specialization', m.specialization], ['Ranks', m.ranks],
+    [null, m.anointment && 'anointment']],
+  relics: m => [['Relic', m.relic], ['Rank', m.rank], ['Stat bonus', m.statBonus]],
+  cards: m => [['Family', m.family], ['Cards needed', m.tierRequired]],
+  buffs: m => [[null, 'buff'], ['Duration', m.defaultDuration]],
+  debuffs: m => [[null, 'debuff'], ['Duration', m.defaultDuration]],
+  minions: m => [[null, 'minion'], ['Chance to leave', m.chanceToLeave]],
+  realm: m => [['Applies to', m.target], [null, m.hidden && 'hidden']],
+  nemesis: () => [[null, 'nemesis modifier']],
+  specs: m => [[null, 'specialization'], ['Abbreviation', m.abbreviation]],
 };
+
+function metaHtml(rec, q) {
+  const fields = META_FIELDS[rec.type]?.(rec.meta ?? {}) ?? [];
+  const parts = fields
+    .filter(([, v]) => v !== undefined && v !== null && v !== '' && v !== false)
+    .map(([label, v]) => (label
+      ? `<span class="mk">${label}:</span> ${hl(String(v), q, false)}`
+      : hl(String(v), q, false)));
+  return parts.join(' · ');
+}
 
 function magText(m) {
   if (!m) return '';
@@ -200,7 +218,7 @@ function ruleHtml(rule, query, mark) {
 }
 
 export function cardHtml(rec, query) {
-  const metaFn = META_LINES[rec.type];
+  const meta = metaHtml(rec, query.q);
   const badges = [`<span class="badge type">${rec.type}</span>`];
   // Coverage is 100%, so this is currently unreachable — kept because a future
   // `npm run import` can add records the corpus has not been tagged for yet,
@@ -234,7 +252,7 @@ export function cardHtml(rec, query) {
   // order nobody can get past.
   return `<div class="card" data-roving role="group" aria-label="${esc(rec.name)}">
     <div class="head"><a class="name" data-rove href="${link}" title="${esc(rec.id)}">${hl(rec.name, query.q, false)}</a>${badges.join('')}${addBtn}</div>
-    ${metaFn ? `<div class="meta">${hl(metaFn(rec.meta ?? {}), query.q, false)}</div>` : ''}
+    ${meta ? `<div class="meta">${meta}</div>` : ''}
     <div class="text">${hl(rec.text, query.q)}</div>
     ${rules}
     ${flags.length ? `<div class="flags">${flags.join(' · ')}</div>` : ''}
