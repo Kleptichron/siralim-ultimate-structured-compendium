@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vicious-retaliation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "holder",
+          "target": "enemy"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "holder"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "holder",
+          "params": {
+            "state": "provoking"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "source": "that attack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "da0a3b8e2e9a"
+}

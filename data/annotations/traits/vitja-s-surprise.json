@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vitja-s-surprise",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder",
+        "params": {
+          "alsoAfter": "being resurrected"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "which": "its first Spell Gem",
+            "times": 3
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ecc718210de3"
+}

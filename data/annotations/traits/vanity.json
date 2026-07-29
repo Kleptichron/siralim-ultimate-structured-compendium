@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vanity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_effect_activates",
+        "subject": "holder",
+        "params": {
+          "what": "gains Spell Gems"
+        }
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "those Spell Gems",
+            "kind": "spell",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "Only affects your other creatures that don't have this trait.",
+  "textHash": "ef18360fd6f9"
+}

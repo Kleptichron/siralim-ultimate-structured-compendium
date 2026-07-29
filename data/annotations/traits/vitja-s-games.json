@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vitja-s-games",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 10
+          },
+          "params": {
+            "which": "random spells",
+            "count": 10
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2fdb8a63c48b"
+}

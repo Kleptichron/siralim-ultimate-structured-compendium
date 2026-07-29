@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vext-s-invocation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "allies",
+        "params": {
+          "direction": "up"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "amplifies": "stat gains"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "3fcd5d81a90b"
+}

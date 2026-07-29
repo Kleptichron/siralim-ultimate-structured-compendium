@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vendetta",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "holder",
+          "magnitude": {
+            "scaleRef": "debuff_count",
+            "per": "debuff it has"
+          },
+          "params": {
+            "what": "its attacks and spell casts"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "21875c9d1c61"
+}

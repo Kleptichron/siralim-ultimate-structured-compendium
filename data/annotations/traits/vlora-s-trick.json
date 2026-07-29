@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vlora-s-trick",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "is moved to the top of the Timeline"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "enemies",
+          "magnitude": {
+            "scaleStat": "highest_stat",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "this creature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1dbdb4ed08fe"
+}

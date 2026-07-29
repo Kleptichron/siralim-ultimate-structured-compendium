@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vext-s-antiquity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_stat_change",
+        "subject": "enemies",
+        "params": {
+          "direction": "down"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "amplifies": "stat losses"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "fc14902afdd2"
+}

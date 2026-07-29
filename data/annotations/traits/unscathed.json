@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:unscathed",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attacked",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "trigger_subject",
+          "statuses": [
+            "Mending"
+          ],
+          "params": {
+            "effect": "heals immediately"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "3118d6c97c4b"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:voodoo",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "down",
+            "scaleRef": "spell_gems",
+            "per": "permanent Nature Spell Gem it has equipped"
+          },
+          "params": {
+            "spellClass": "Nature"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "095cc99c4f5f"
+}

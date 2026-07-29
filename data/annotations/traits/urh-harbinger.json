@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:urh-harbinger",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "stats": [
+            "Attack",
+            "Intelligence",
+            "Defense",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up",
+            "scaleRef": "turns_taken",
+            "per": "turn they've taken this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "089e828b57b6"
+}

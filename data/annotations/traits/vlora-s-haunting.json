@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vlora-s-haunting",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "is moved to the top of the Timeline"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "holder",
+          "target": "allies",
+          "statuses": [
+            "Invisible",
+            "Savage"
+          ],
+          "params": {
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "dd79165d72d8"
+}

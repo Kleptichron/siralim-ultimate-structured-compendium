@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vivid-nightmares",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "enemy",
+        "params": {
+          "status": "Sleeping",
+          "how": "wakes up"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "Maximum Health",
+            "scalePct": 20
+          },
+          "params": {
+            "of": "the enemy"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "63a958d6674b"
+}

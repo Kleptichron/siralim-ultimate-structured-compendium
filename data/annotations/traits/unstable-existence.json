@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:unstable-existence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "any",
+        "params": {
+          "source": "a creature"
+        }
+      },
+      "conditions": [
+        {
+          "type": "health_threshold",
+          "who": "trigger_subject",
+          "params": {
+            "below": "50%",
+            "after": "the damage"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "trigger_subject",
+          "target": "allies",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 100
+          },
+          "params": {
+            "which": "their own allies"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "6faa6fbc9ce5"
+}

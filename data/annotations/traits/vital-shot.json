@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vital-shot",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up",
+            "scaleStat": "missing_health",
+            "per": "1% of health the target is missing"
+          },
+          "params": {
+            "source": "attacks",
+            "of": "the target"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6b5bc7bc8c29"
+}

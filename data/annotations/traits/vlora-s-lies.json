@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vlora-s-lies",
+  "rules": [
+    {
+      "trigger": {
+        "type": "other",
+        "subject": "holder",
+        "params": {
+          "event": "is moved to the top of the Timeline"
+        }
+      },
+      "actions": [
+        {
+          "verb": "summon_minion",
+          "actor": "holder",
+          "target": "allies",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "minion": "random",
+            "others": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "105242ec6924"
+}

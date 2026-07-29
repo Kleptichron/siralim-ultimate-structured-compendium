@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:volley",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Griffon"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "crit_chance_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 20,
+            "direction": "up",
+            "scaleRef": "creatures_in_party",
+            "per": "Griffon fighting on your side"
+          },
+          "params": {
+            "independent": true,
+            "source": "attacks"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "241c91e219f1"
+}

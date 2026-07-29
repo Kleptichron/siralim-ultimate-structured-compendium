@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:velox",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "which": "its first 3 permanent, stat-manipulating Spell Gems",
+            "count": 3,
+            "chanceEach": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1cd7b4466811"
+}

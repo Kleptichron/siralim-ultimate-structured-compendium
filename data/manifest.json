@@ -19782,163 +19782,203 @@
     },
     "trait:unrevealed-secret": {
       "hash": "426fffc8195f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unscathed": {
       "hash": "3118d6c97c4b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unspeakable-frights": {
       "hash": "00de54ec254e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unspeakable-sins": {
       "hash": "327aa537a4a7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:unstable-existence": {
       "hash": "6faa6fbc9ce5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:until-the-end": {
       "hash": "12298c2f6014",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:urdox-harbinger": {
       "hash": "162531a95817",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:urh-harbinger": {
       "hash": "089e828b57b6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:usury": {
       "hash": "5c1ad1287920",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:valiant-heart": {
       "hash": "2faeabe6c57e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vampiric-aura": {
       "hash": "d1cd9d35fb81",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vanity": {
       "hash": "ef18360fd6f9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vehemence": {
       "hash": "6cad12cbf06e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:velox": {
       "hash": "1cd7b4466811",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vendetta": {
       "hash": "21875c9d1c61",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vengeance": {
       "hash": "81abae568b29",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vengeful-rebound": {
       "hash": "a3e8bb4846ea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vex": {
       "hash": "420fdbe4ddeb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vext-s-antiquity": {
       "hash": "fc14902afdd2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vext-s-boldness": {
       "hash": "4ee36a440658",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vext-s-invocation": {
       "hash": "3fcd5d81a90b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vicar-s-blessing": {
       "hash": "23eae9c5060e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vicious-bite": {
       "hash": "8e72edcdae21",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vicious-retaliation": {
       "hash": "da0a3b8e2e9a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vigilance": {
       "hash": "66f7e807f53e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vigor": {
       "hash": "9d5695654d5e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vilestalker": {
       "hash": "27719b72eb01",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:villainy-thrives": {
       "hash": "3701efec78d4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:viper-s-mind": {
       "hash": "c9a0d47f6dd2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:viscous-webs": {
       "hash": "c435484e7849",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vital-shot": {
       "hash": "6b5bc7bc8c29",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vitja-s-games": {
       "hash": "2fdb8a63c48b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vitja-s-revenge": {
       "hash": "7a1f85abf653",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vitja-s-surprise": {
       "hash": "ecc718210de3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vivid-nightmares": {
       "hash": "63a958d6674b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vlora-s-haunting": {
       "hash": "dd79165d72d8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vlora-s-lies": {
       "hash": "105242ec6924",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:vlora-s-trick": {
       "hash": "1dbdb4ed08fe",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:volley": {
       "hash": "241c91e219f1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:voodoo": {
       "hash": "095cc99c4f5f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:wallflower": {
       "hash": "f115847ad42a",

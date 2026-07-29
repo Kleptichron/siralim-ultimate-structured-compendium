@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:vigilance",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "holder",
+          "params": {
+            "effect": "intercepts enemies' attacks on its allies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "66f7e807f53e"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:until-the-end",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies",
+        "params": {
+          "timing": "before",
+          "others": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "which": "one of their spells at random"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "12298c2f6014"
+}
