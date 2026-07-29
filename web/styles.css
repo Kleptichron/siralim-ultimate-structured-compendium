@@ -36,6 +36,15 @@
    close. Fix it once, for anything hidden now or later. */
 [hidden] { display: none !important; }
 
+/* Form controls do not inherit the page font — the UA hands them its own, which
+   is why the search box, all five facet selects and three buttons were quietly
+   rendering in Arial on a page set in system-ui. Fixed once here rather than
+   adding `font: inherit` to each control and missing the next one. Only the
+   family is at stake, so only the family is inherited: the `font` shorthand
+   would drag body's line-height in with it and silently grow the search box by
+   5px and every select by 4. */
+button, input, select, textarea, optgroup { font-family: inherit; }
+
 /* Standard properties (Firefox, Chromium 121+). */
 * { scrollbar-width: thin; scrollbar-color: var(--chip) transparent; }
 /* WebKit / older Chromium. Track stays transparent so the thumb reads as an
@@ -261,7 +270,12 @@ main { padding: 16px 22px; max-width: 1180px; }
   color: var(--dim); margin: 0;
 }
 /* any/all switch — only rendered once a group holds two selected values. */
+/* A real <button> so it can be a tab stop, which means the UA's own button
+   chrome — grey background, its own padding, its own font — has to be cleared
+   first. Everything below styles the segmented pair, not a button. */
 .anyall {
+  appearance: none; background: none; padding: 0; cursor: pointer;
+  font: inherit; color: inherit;
   display: inline-flex; margin-left: auto; border: 1px solid var(--border);
   border-radius: 5px; overflow: hidden; font-size: .65rem; text-transform: uppercase;
   letter-spacing: .05em;
