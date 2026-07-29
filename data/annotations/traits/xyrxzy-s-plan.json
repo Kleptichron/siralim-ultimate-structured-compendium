@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:xyrxzy-s-plan",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "Mind Control",
+            "kind": "spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "activation_modifier",
+          "target": "enemies",
+          "magnitude": {
+            "amountFlat": 1
+          },
+          "params": {
+            "what": "their attacks",
+            "while": "affected by Mind Control"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9c7ca789156a"
+}

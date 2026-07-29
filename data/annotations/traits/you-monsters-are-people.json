@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:you-monsters-are-people",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "statuses": [
+            "Blighted"
+          ],
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up",
+            "scaleRef": "debuff_count",
+            "per": "debuff they have"
+          },
+          "params": {
+            "source": "Blighted"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "ca07f527fa61"
+}

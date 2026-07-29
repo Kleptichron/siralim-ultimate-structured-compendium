@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:zantai-s-boon",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "Mega Magic",
+            "kind": "spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "buff": "random",
+            "count": 3,
+            "spell": "Mega Magic"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "09e5a133b94e"
+}

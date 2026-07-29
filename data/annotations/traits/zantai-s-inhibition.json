@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:zantai-s-inhibition",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "Mega Magic",
+            "kind": "spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "magnitude": {
+            "direction": "down",
+            "scaleRef": "damage_dealt",
+            "scalePct": 25
+          },
+          "params": {
+            "spell": "Mega Magic"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a8f24c7a712e"
+}

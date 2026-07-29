@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wrong-side",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "allies"
+      },
+      "chance": 40,
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "params": {
+            "which": "that debuff"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "random_enemy",
+          "statusKind": "debuff",
+          "params": {
+            "which": "that debuff",
+            "transferred": true
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "d3fa248f2cd9"
+}

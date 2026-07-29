@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:wreck",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "holder",
+          "flow": "dealt",
+          "magnitude": {
+            "scaleStat": "Current Health"
+          },
+          "params": {
+            "source": "attacks",
+            "usesStat": "Current Health",
+            "insteadOf": "Attack"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5b185a4922b1"
+}

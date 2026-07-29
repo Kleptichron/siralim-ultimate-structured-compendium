@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:zantai-s-reign",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "Mega Magic",
+            "kind": "spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "allies",
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "damage_dealt",
+            "scalePct": 15
+          },
+          "params": {
+            "spell": "Mega Magic"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7ba0d7ada411"
+}

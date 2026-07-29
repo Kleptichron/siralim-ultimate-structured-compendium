@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:you-ruined-christmas",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "race": "Devil"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "allies",
+          "params": {
+            "what": "their innate traits",
+            "shared": "with each other"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "768aef269e34"
+}

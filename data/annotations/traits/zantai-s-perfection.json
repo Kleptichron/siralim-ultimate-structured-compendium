@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:zantai-s-perfection",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "holder",
+          "params": {
+            "what": "Mega Magic",
+            "kind": "spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "charge_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 3,
+            "direction": "up"
+          },
+          "params": {
+            "spell": "Mega Magic",
+            "what": "extra Charges"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "9b97296b207b"
+}

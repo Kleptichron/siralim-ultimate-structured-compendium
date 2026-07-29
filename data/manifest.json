@@ -20182,131 +20182,163 @@
     },
     "trait:wrath-of-the-storm": {
       "hash": "f9c4a29c10be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:wrath-of-the-underworld": {
       "hash": "9d7716ee8621",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:wrath-of-the-volcano": {
       "hash": "baee34831dd0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:wreck": {
       "hash": "5b185a4922b1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:wrecking-ball": {
       "hash": "25f179e52803",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:wretchedness": {
       "hash": "394406888654",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:wrong-side": {
       "hash": "d3fa248f2cd9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:xyrxzy-s-control": {
       "hash": "a6d2ec982202",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:xyrxzy-s-plan": {
       "hash": "9c7ca789156a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:xyrxzy-s-subversion": {
       "hash": "35a0a7626e53",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:year-of-the-trollboar": {
       "hash": "8f3ae1991c4a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:yellow-tether": {
       "hash": "aba2f8d2ffa3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:you-monsters-are-people": {
       "hash": "ca07f527fa61",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:you-ruined-christmas": {
       "hash": "768aef269e34",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:yowl": {
       "hash": "a362972a0834",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:yuck": {
       "hash": "78e14b2fed96",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-boon": {
       "hash": "09e5a133b94e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-call": {
       "hash": "978150b383b6",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-cunning": {
       "hash": "6685bb861dd8",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-embrace": {
       "hash": "334668bee400",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-envy": {
       "hash": "abd8706faede",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-havoc": {
       "hash": "98bedb8b60b2",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-inhibition": {
       "hash": "a8f24c7a712e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-perfection": {
       "hash": "9b97296b207b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-reign": {
       "hash": "7ba0d7ada411",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zantai-s-stratagem": {
       "hash": "c665b9041654",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zealot-of-the-forest": {
       "hash": "e16ca487aaea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zenpang-s-boast": {
       "hash": "dd6924435c2a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zenpang-s-exploit": {
       "hash": "2be081ea28de",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zenpang-s-yell": {
       "hash": "c92c46bb06ce",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zerda": {
       "hash": "f3517f55321b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "trait:zero-to-one": {
       "hash": "6e8fedb9a913",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     }
   }
 }

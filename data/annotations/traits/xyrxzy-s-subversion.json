@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:xyrxzy-s-subversion",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_cast",
+        "subject": "holder",
+        "params": {
+          "manual": true
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "amountFlat": 3
+          },
+          "params": {
+            "which": "random enemies' spells",
+            "count": 3
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "35a0a7626e53"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:yuck",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Disarmed"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "dodging"
+          }
+        },
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "dealing critical damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "78e14b2fed96"
+}

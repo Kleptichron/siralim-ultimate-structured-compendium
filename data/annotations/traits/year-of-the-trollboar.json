@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:year-of-the-trollboar",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "actor": "holder",
+          "target": "random_enemy",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 25
+          },
+          "params": {
+            "of": "this creature",
+            "repeats": "once for every 5% health this creature is missing"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8f3ae1991c4a"
+}

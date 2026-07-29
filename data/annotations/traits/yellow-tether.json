@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:yellow-tether",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_critical",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "adjacent_allies",
+          "stats": [
+            "Attack",
+            "Speed"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "holder",
+          "statuses": [
+            "Savage"
+          ],
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    }
+  ],
+  "textHash": "aba2f8d2ffa3"
+}

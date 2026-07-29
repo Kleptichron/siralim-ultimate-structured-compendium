@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:zero-to-one",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "holder",
+          "params": {
+            "action": "casting spells manually"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "holder",
+          "target": "target",
+          "params": {
+            "which": "one of its single-target spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6e8fedb9a913"
+}

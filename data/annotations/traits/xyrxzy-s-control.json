@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 11,
+  "provenance": "claude",
+  "id": "trait:xyrxzy-s-control",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "holder"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "target",
+          "target": "target",
+          "magnitude": {
+            "scaleStat": "Attack"
+          },
+          "params": {
+            "of": "this creature",
+            "effect": "the enemy attacks itself"
+          }
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "stacks": false
+  },
+  "textHash": "a6d2ec982202"
+}
