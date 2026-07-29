@@ -74,7 +74,7 @@ h1 { font-size: 1.15rem; margin: 0; color: var(--accent); white-space: nowrap; }
 .boot-track.indeterminate .boot-bar { width: 35%; animation: bootsweep 1.1s ease-in-out infinite; }
 @keyframes bootsweep { 0% { margin-left: -35%; } 100% { margin-left: 100%; } }
 @media (prefers-reduced-motion: reduce) {
-  aside, .layout { transition: none; }
+  aside, .layout, .facets-inner { transition: none; }
   .facet-group > summary::before { transition: none; }
   .boot-bar { transition: none; }
   .boot-track.indeterminate .boot-bar { animation: none; width: 100%; opacity: .4; }
@@ -136,7 +136,12 @@ aside {
 .facets-inner {
   width: var(--sidebar-w); height: 100%; padding: var(--sidebar-pad);
   overflow-y: auto; overflow-x: hidden;
+  transition: transform .2s ease;
 }
+/* The panel travels off the left edge as the track closes. Clipping alone left
+   it parked in place while the results column advanced over it, which reads as
+   the results covering the sidebar rather than the sidebar leaving. */
+body.nav-closed .facets-inner { transform: translateX(-100%); }
 main { padding: 16px 22px; max-width: 1180px; }
 #resultbar {
   display: flex; align-items: center; justify-content: space-between;
@@ -283,6 +288,9 @@ button.clear:hover { border-color: var(--accent); }
   body.nav-closed aside { display: block; border-right-width: 1px; }
   /* The drawer has its own width, so let the contents fill it. */
   .facets-inner { width: 100%; }
+  /* Here the ASIDE is what slides; the desktop transform would double it up
+     and the contents would swing a second time inside the moving drawer. */
+  body.nav-closed .facets-inner { transform: none; }
   #backdrop {
     position: fixed; inset: var(--header-h) 0 0; z-index: 20;
     background: rgba(0, 0, 0, .55);
