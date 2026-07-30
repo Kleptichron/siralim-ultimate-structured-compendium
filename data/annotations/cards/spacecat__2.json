@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:spacecat:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          },
+          "params": {
+            "what": "potency",
+            "which": "Spell Gems that belong to other classes"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b0c0a955bdd3"
+}

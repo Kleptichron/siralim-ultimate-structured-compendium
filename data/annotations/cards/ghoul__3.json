@@ -1,16 +1,13 @@
 {
-  "id": "card:ghoul:3",
-  "textHash": "241fc80cfb07",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "stat-mod-allies",
+  "provenance": "claude",
+  "id": "card:ghoul:3",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "stat_change",
@@ -25,5 +22,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "241fc80cfb07"
 }

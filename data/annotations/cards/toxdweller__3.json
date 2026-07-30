@@ -10,17 +10,22 @@
       },
       "actions": [
         {
-          "verb": "status_modifier",
+          "verb": "damage_modifier",
           "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up"
+          },
           "statuses": [
             "Bomb"
           ],
           "params": {
-            "effect": "cannot be removed"
+            "source": "their Bomb debuffs"
           }
         }
       ]
     }
   ],
-  "textHash": "181ef2bf52c9"
+  "textHash": "f67e66fbe819"
 }

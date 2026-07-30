@@ -19,15 +19,15 @@
             "Attack"
           ],
           "magnitude": {
-            "amountPct": 15,
+            "amountPct": 50,
             "direction": "up"
           },
           "params": {
-            "property": "Attack added on application"
+            "property": "Attack added when your creatures apply it"
           }
         }
       ]
     }
   ],
-  "textHash": "319fc1078a79"
+  "textHash": "6bac99d61190"
 }

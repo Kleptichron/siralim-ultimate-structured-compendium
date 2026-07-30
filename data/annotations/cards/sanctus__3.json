@@ -12,17 +12,18 @@
           "context": "destroyed"
         }
       },
+      "chance": 5,
       "actions": [
         {
           "verb": "apply_status",
           "target": "trigger_subject",
           "statuses": [
             "Shelled"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
   ],
-  "notes": "Chance is unspecified in the text ('a chance to gain Shelled') — no rule.chance recorded.",
-  "textHash": "15f3737fba06"
+  "textHash": "4b2b2a0de58b"
 }

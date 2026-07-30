@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:mireling:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 2,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "unique class among your creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c6eddb5a874a"
+}

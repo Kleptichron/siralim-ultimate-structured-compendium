@@ -1,16 +1,13 @@
 {
-  "id": "card:hound:1",
-  "textHash": "7e4c0823b3a1",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "card-class-spell-dr",
+  "provenance": "claude",
+  "id": "card:hound:1",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "damage_modifier",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "7e4c0823b3a1"
 }

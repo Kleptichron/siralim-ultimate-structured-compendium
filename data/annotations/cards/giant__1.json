@@ -1,16 +1,13 @@
 {
-  "id": "card:giant:1",
-  "textHash": "5d045baceb8c",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "stat-mod-allies",
+  "provenance": "claude",
+  "id": "card:giant:1",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "stat_change",
@@ -25,5 +22,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "5d045baceb8c"
 }

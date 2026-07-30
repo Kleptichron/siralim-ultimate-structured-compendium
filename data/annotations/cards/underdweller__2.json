@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:underdweller:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Feared"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "Attack"
+          ],
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "down"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3fb5e7408b5b"
+}

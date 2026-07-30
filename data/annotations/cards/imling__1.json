@@ -11,6 +11,7 @@
       "conditions": [
         {
           "type": "action_state",
+          "who": "allies",
           "params": {
             "state": "defending"
           }
@@ -31,5 +32,5 @@
       ]
     }
   ],
-  "textHash": "676c5ac8abbb"
+  "textHash": "e724425e4667"
 }

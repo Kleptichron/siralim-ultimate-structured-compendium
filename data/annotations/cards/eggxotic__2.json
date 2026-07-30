@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:eggxotic:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "chance": 2,
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "params": {
+            "resource": "treasure",
+            "when": "after battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ccc94ee0b09f"
+}

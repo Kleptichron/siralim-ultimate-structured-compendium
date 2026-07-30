@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:denizen:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "enemies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 10,
+            "direction": "up"
+          },
+          "statuses": [
+            "Mania"
+          ],
+          "params": {
+            "source": "their Mania debuffs"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "65fe106133b0"
+}

@@ -29,11 +29,11 @@
             "direction": "down"
           },
           "params": {
-            "property": "break free chance"
+            "property": "chance to break free"
           }
         }
       ]
     }
   ],
-  "textHash": "b9f29f8af721"
+  "textHash": "0fc037d49a9b"
 }

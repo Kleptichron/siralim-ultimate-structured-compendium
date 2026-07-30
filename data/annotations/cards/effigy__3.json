@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:effigy:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "down"
+          },
+          "params": {
+            "source": "indirect damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "6f1c061823cd"
+}

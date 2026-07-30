@@ -15,12 +15,16 @@
           "statuses": [
             "Barrier"
           ],
+          "magnitude": {
+            "amountPct": 15,
+            "direction": "up"
+          },
           "params": {
-            "effect": "cannot be removed"
+            "property": "damage absorbed"
           }
         }
       ]
     }
   ],
-  "textHash": "5bd9bb52ec62"
+  "textHash": "7a1254cd7141"
 }

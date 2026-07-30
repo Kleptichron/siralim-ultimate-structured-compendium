@@ -1,16 +1,13 @@
 {
-  "id": "card:raven:3",
-  "textHash": "92985968822f",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "stat-mod-allies",
+  "provenance": "claude",
+  "id": "card:raven:3",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "stat_change",
@@ -25,5 +22,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "92985968822f"
 }

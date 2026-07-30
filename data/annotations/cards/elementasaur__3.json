@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:elementasaur:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies"
+      },
+      "chance": 3,
+      "actions": [
+        {
+          "verb": "remove_status",
+          "target": "trigger_subject",
+          "statusKind": "debuff",
+          "params": {
+            "each": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5785d899ffb4"
+}

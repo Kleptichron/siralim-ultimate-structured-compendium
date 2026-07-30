@@ -17,11 +17,11 @@
             "Frozen"
           ],
           "params": {
-            "effect": "thaw chance does not increase at end of turn"
+            "effect": "does not gain an increased chance to thaw at the end of their turns"
           }
         }
       ]
     }
   ],
-  "textHash": "53071b10611e"
+  "textHash": "bcdd28f5dd0d"
 }

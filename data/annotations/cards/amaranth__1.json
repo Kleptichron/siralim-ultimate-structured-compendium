@@ -1,16 +1,13 @@
 {
-  "id": "card:amaranth:1",
-  "textHash": "080c185d0f32",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "stat-mod-allies",
+  "provenance": "claude",
+  "id": "card:amaranth:1",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "stat_change",
@@ -25,5 +22,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "080c185d0f32"
 }

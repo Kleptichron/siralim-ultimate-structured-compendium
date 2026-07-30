@@ -11,6 +11,7 @@
       "conditions": [
         {
           "type": "action_state",
+          "who": "allies",
           "params": {
             "state": "provoking"
           }
@@ -31,5 +32,5 @@
       ]
     }
   ],
-  "textHash": "120c977f7237"
+  "textHash": "bd689add5296"
 }

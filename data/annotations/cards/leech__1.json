@@ -13,13 +13,13 @@
           "verb": "healing_modifier",
           "target": "allies",
           "flow": "taken",
+          "statuses": [
+            "Leeching"
+          ],
           "magnitude": {
             "amountPct": 20,
             "direction": "up"
           },
-          "statuses": [
-            "Leeching"
-          ],
           "params": {
             "source": "Leeching"
           }
@@ -27,5 +27,5 @@
       ]
     }
   ],
-  "textHash": "00fadec7e97a"
+  "textHash": "f85a52c42e23"
 }

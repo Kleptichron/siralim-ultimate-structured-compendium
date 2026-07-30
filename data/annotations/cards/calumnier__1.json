@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:calumnier:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 3,
+            "direction": "up"
+          },
+          "params": {
+            "what": "benefit from Personalities",
+            "additive": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7c533f5799d0"
+}

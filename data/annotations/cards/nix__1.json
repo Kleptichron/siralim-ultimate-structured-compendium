@@ -1,16 +1,13 @@
 {
-  "id": "card:nix:1",
-  "textHash": "f3fe25d00d43",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "card-class-attack-dr",
+  "provenance": "claude",
+  "id": "card:nix:1",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "damage_modifier",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "f3fe25d00d43"
 }

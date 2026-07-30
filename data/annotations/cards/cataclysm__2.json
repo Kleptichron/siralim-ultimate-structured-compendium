@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:cataclysm:2",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "noChargeConsumption": true,
+            "what": "Ultimate Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "067f4b3a3761"
+}

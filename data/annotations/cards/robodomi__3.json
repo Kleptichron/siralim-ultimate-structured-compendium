@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:robodomi:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 10,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "allies",
+          "params": {
+            "action": "being killed by instant-kill effects"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4f74e4b29a0a"
+}

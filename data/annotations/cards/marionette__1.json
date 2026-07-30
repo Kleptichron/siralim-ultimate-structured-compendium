@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:marionette:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 2,
+      "actions": [
+        {
+          "verb": "extra_turn",
+          "target": "allies"
+        }
+      ]
+    }
+  ],
+  "textHash": "c24fbf05ff66"
+}

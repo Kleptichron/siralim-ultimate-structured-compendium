@@ -20,11 +20,11 @@
             "direction": "up"
           },
           "params": {
-            "property": "duration (turns)"
+            "property": "duration in turns"
           }
         }
       ]
     }
   ],
-  "textHash": "55c1e51cf9ff"
+  "textHash": "265cefffb410"
 }

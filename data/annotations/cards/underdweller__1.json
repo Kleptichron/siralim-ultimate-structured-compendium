@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:underdweller:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Feared"
+          }
+        }
+      ],
+      "chance": 3,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "taking their turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ae8384d4445c"
+}

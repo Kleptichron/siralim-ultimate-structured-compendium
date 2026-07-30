@@ -5,8 +5,11 @@
   "rules": [
     {
       "trigger": {
-        "type": "after_damaged",
-        "subject": "enemies"
+        "type": "after_status_effect",
+        "subject": "enemies",
+        "params": {
+          "status": "Bleeding"
+        }
       },
       "chance": 10,
       "actions": [
@@ -25,6 +28,5 @@
       ]
     }
   ],
-  "notes": "Source typo: 'have a 10% damage to take' read as 'have a 10% chance to take'.",
-  "textHash": "5df08ec7ef51"
+  "textHash": "08b21b234a76"
 }

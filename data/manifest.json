@@ -97,7 +97,7 @@
     },
     "card:abomination:2": {
       "hash": "06f825cc9cf7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:abomination:3": {
@@ -107,30 +107,33 @@
     },
     "card:alemental:1": {
       "hash": "7959b6b998a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:alemental:2": {
       "hash": "7959b6b998a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:alemental:3": {
       "hash": "7959b6b998a1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:amaranth:1": {
       "hash": "080c185d0f32",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:amaranth:2": {
       "hash": "080c185d0f32",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:amaranth:3": {
       "hash": "080c185d0f32",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:amphisbaena:1": {
       "hash": "8b3ad566812f",
@@ -209,17 +212,17 @@
     },
     "card:arachnalisk:1": {
       "hash": "0fc037d49a9b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:arachnalisk:2": {
       "hash": "1628da1832e9",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:arachnalisk:3": {
       "hash": "0fc037d49a9b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:arbiter:1": {
@@ -249,7 +252,7 @@
     },
     "card:aspect:3": {
       "hash": "903a182dd135",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:asura:1": {
@@ -274,12 +277,12 @@
     },
     "card:automaton:2": {
       "hash": "4cd199eba9ab",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:automaton:3": {
       "hash": "84db5eda4d70",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:banshee:1": {
@@ -329,18 +332,18 @@
     },
     "card:bat:1": {
       "hash": "0d35e307dd6f",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:bat:2": {
       "hash": "0d35e307dd6f",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:bat:3": {
       "hash": "0d35e307dd6f",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:beacon:1": {
       "hash": "8bf23d48e043",
@@ -364,7 +367,7 @@
     },
     "card:brownie:2": {
       "hash": "d4c0271df2f9",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:brownie:3": {
@@ -374,15 +377,18 @@
     },
     "card:calumnier:1": {
       "hash": "7c533f5799d0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:calumnier:2": {
       "hash": "7c533f5799d0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:calumnier:3": {
       "hash": "7c533f5799d0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:carbuncle:1": {
       "hash": "0906a5e46ac1",
@@ -416,30 +422,33 @@
     },
     "card:carver:1": {
       "hash": "bbb4e31d8493",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:carver:2": {
       "hash": "bbb4e31d8493",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:carver:3": {
       "hash": "bbb4e31d8493",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:cataclysm:1": {
       "hash": "067f4b3a3761",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:cataclysm:2": {
       "hash": "067f4b3a3761",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:cataclysm:3": {
       "hash": "067f4b3a3761",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:centaur:1": {
       "hash": "078453e6d2de",
@@ -458,7 +467,7 @@
     },
     "card:cerberus:1": {
       "hash": "03c4cd3dcca7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:cerberus:2": {
@@ -593,7 +602,7 @@
     },
     "card:crusader:1": {
       "hash": "45e8fe2792e2",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:crusader:2": {
@@ -608,30 +617,33 @@
     },
     "card:demigod:1": {
       "hash": "f1785286bd5c",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:demigod:2": {
       "hash": "f1785286bd5c",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:demigod:3": {
       "hash": "f1785286bd5c",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:denizen:1": {
       "hash": "65fe106133b0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:denizen:2": {
       "hash": "65fe106133b0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:denizen:3": {
       "hash": "65fe106133b0",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:devil:1": {
       "hash": "06ec40ecddaf",
@@ -665,7 +677,7 @@
     },
     "card:djinn:1": {
       "hash": "9336946d597a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:djinn:2": {
@@ -725,18 +737,18 @@
     },
     "card:dryad:1": {
       "hash": "ea172b001399",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:dryad:2": {
       "hash": "ea172b001399",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:dryad:3": {
       "hash": "ea172b001399",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:dumpling:1": {
       "hash": "d7d813820983",
@@ -755,15 +767,18 @@
     },
     "card:effigy:1": {
       "hash": "6f1c061823cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:effigy:2": {
       "hash": "6f1c061823cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:effigy:3": {
       "hash": "6f1c061823cd",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:efreet:1": {
       "hash": "938595f71fab",
@@ -797,15 +812,18 @@
     },
     "card:eggxotic:1": {
       "hash": "dbbe85d3d595",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:eggxotic:2": {
       "hash": "ccc94ee0b09f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:eggxotic:3": {
       "hash": "184c6ba2b885",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:electropod:1": {
       "hash": "0cd713a8c017",
@@ -824,15 +842,18 @@
     },
     "card:elementasaur:1": {
       "hash": "5785d899ffb4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:elementasaur:2": {
       "hash": "5785d899ffb4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:elementasaur:3": {
       "hash": "5785d899ffb4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:elf:1": {
       "hash": "278fc70bf355",
@@ -841,7 +862,7 @@
     },
     "card:elf:2": {
       "hash": "3fe6593c83ea",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:elf:3": {
@@ -871,7 +892,7 @@
     },
     "card:fae:2": {
       "hash": "3fe6593c83ea",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:fae:3": {
@@ -941,18 +962,18 @@
     },
     "card:gargoyle:1": {
       "hash": "990315a2f232",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:gargoyle:2": {
       "hash": "990315a2f232",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:gargoyle:3": {
       "hash": "990315a2f232",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:gemling:1": {
       "hash": "b365e37ca5f4",
@@ -971,33 +992,33 @@
     },
     "card:ghoul:1": {
       "hash": "241fc80cfb07",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:ghoul:2": {
       "hash": "241fc80cfb07",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:ghoul:3": {
       "hash": "241fc80cfb07",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:giant:1": {
       "hash": "5d045baceb8c",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:giant:2": {
       "hash": "5d045baceb8c",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:giant:3": {
       "hash": "5d045baceb8c",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:golem:1": {
       "hash": "0cd713a8c017",
@@ -1041,7 +1062,7 @@
     },
     "card:griffon:3": {
       "hash": "57b63f4b6f21",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:grimoire:1": {
@@ -1091,18 +1112,18 @@
     },
     "card:hound:1": {
       "hash": "7e4c0823b3a1",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:hound:2": {
       "hash": "7e4c0823b3a1",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:hound:3": {
       "hash": "7e4c0823b3a1",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:hunter:1": {
       "hash": "177312b6c875",
@@ -1126,7 +1147,7 @@
     },
     "card:imler:2": {
       "hash": "bd689add5296",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:imler:3": {
@@ -1136,17 +1157,17 @@
     },
     "card:imling:1": {
       "hash": "e724425e4667",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:imling:2": {
       "hash": "e724425e4667",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:imling:3": {
       "hash": "e724425e4667",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:imp:1": {
@@ -1161,7 +1182,7 @@
     },
     "card:imp:3": {
       "hash": "45384647077f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:inquisitor:1": {
@@ -1211,17 +1232,17 @@
     },
     "card:leech:1": {
       "hash": "f85a52c42e23",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:leech:2": {
       "hash": "684ab3e898d9",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:leech:3": {
       "hash": "9cd63d911ceb",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:leper:1": {
@@ -1251,20 +1272,23 @@
     },
     "card:lich:3": {
       "hash": "63308b3d9aa7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:lucanian:1": {
       "hash": "6c449abfeb41",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:lucanian:2": {
       "hash": "6c449abfeb41",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:lucanian:3": {
       "hash": "6c449abfeb41",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:luckmantria:1": {
       "hash": "f3666c4ae892",
@@ -1298,30 +1322,33 @@
     },
     "card:manticore:1": {
       "hash": "7b039668755b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:manticore:2": {
       "hash": "7b039668755b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:manticore:3": {
       "hash": "7b039668755b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:marionette:1": {
       "hash": "c24fbf05ff66",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:marionette:2": {
       "hash": "c24fbf05ff66",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:marionette:3": {
       "hash": "c24fbf05ff66",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:masochist:1": {
       "hash": "c7600c6e485c",
@@ -1370,15 +1397,18 @@
     },
     "card:mireling:1": {
       "hash": "c6eddb5a874a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:mireling:2": {
       "hash": "c6eddb5a874a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:mireling:3": {
       "hash": "c6eddb5a874a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:mite:1": {
       "hash": "e1303d06b928",
@@ -1472,27 +1502,27 @@
     },
     "card:nix:1": {
       "hash": "f3fe25d00d43",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:nix:2": {
       "hash": "f3fe25d00d43",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:nix:3": {
       "hash": "f3fe25d00d43",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:occultist:1": {
       "hash": "857607129671",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:occultist:2": {
       "hash": "7b165614a8a7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:occultist:3": {
@@ -1502,17 +1532,17 @@
     },
     "card:ophan:1": {
       "hash": "94c1e6c4c929",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:ophan:2": {
       "hash": "8f8cf239b159",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:ophan:3": {
       "hash": "d983af062845",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:ossein:1": {
@@ -1537,7 +1567,7 @@
     },
     "card:paragon:2": {
       "hash": "265cefffb410",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:paragon:3": {
@@ -1577,32 +1607,32 @@
     },
     "card:pilwiz:1": {
       "hash": "edc5e4a3997b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:pilwiz:2": {
       "hash": "08b21b234a76",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:pilwiz:3": {
       "hash": "d99ce5eb0718",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:pit-worm:1": {
       "hash": "89dd0efd6f5b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:pit-worm:2": {
       "hash": "89dd0efd6f5b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:pit-worm:3": {
       "hash": "89dd0efd6f5b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:pit-wraith:1": {
@@ -1652,18 +1682,18 @@
     },
     "card:raven:1": {
       "hash": "92985968822f",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:raven:2": {
       "hash": "92985968822f",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:raven:3": {
       "hash": "92985968822f",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:reaper:1": {
       "hash": "d4e0890af311",
@@ -1702,7 +1732,7 @@
     },
     "card:rift-dancer:2": {
       "hash": "7ba8a04775bd",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:rift-dancer:3": {
@@ -1712,15 +1742,18 @@
     },
     "card:robodomi:1": {
       "hash": "4f74e4b29a0a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:robodomi:2": {
       "hash": "4f74e4b29a0a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:robodomi:3": {
       "hash": "4f74e4b29a0a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:salamander:1": {
       "hash": "3ec5efb4edee",
@@ -1744,12 +1777,12 @@
     },
     "card:sanctus:2": {
       "hash": "7a1254cd7141",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:sanctus:3": {
       "hash": "4b2b2a0de58b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:satyr:1": {
@@ -1904,12 +1937,12 @@
     },
     "card:smith:1": {
       "hash": "36aac4a99967",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:smith:2": {
       "hash": "f527a03c0096",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:smith:3": {
@@ -1924,7 +1957,7 @@
     },
     "card:smog:2": {
       "hash": "6bac99d61190",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:smog:3": {
@@ -1934,17 +1967,17 @@
     },
     "card:snaptrap:1": {
       "hash": "287d07f3b3bc",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:snaptrap:2": {
       "hash": "287d07f3b3bc",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:snaptrap:3": {
       "hash": "287d07f3b3bc",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:soulflayer:1": {
@@ -1964,15 +1997,18 @@
     },
     "card:spacecat:1": {
       "hash": "b0c0a955bdd3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:spacecat:2": {
       "hash": "b0c0a955bdd3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:spacecat:3": {
       "hash": "b0c0a955bdd3",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:sparktail:1": {
       "hash": "43fd0b46eebd",
@@ -2006,15 +2042,18 @@
     },
     "card:spelljuggler:1": {
       "hash": "3d3d105ff241",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:spelljuggler:2": {
       "hash": "3d3d105ff241",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:spelljuggler:3": {
       "hash": "3d3d105ff241",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:spellmane:1": {
       "hash": "d9472684f1e9",
@@ -2068,7 +2107,7 @@
     },
     "card:stag:2": {
       "hash": "6a470e1551dd",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:stag:3": {
@@ -2078,18 +2117,18 @@
     },
     "card:storm:1": {
       "hash": "d59167f92086",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:storm:2": {
       "hash": "d59167f92086",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:storm:3": {
       "hash": "d59167f92086",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:toxdweller:1": {
       "hash": "f67e66fbe819",
@@ -2103,7 +2142,7 @@
     },
     "card:toxdweller:3": {
       "hash": "f67e66fbe819",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "card:tremor:1": {
@@ -2138,15 +2177,18 @@
     },
     "card:underdweller:1": {
       "hash": "ae8384d4445c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:underdweller:2": {
       "hash": "3fb5e7408b5b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:underdweller:3": {
       "hash": "9fd326cd9fe7",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:unguided:1": {
       "hash": "fea485eab5ac",
@@ -2165,18 +2207,18 @@
     },
     "card:unicorn:1": {
       "hash": "de3322334f5b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:unicorn:2": {
       "hash": "de3322334f5b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:unicorn:3": {
       "hash": "de3322334f5b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:uralos:1": {
       "hash": "c5c6b5dcb52e",
@@ -2225,18 +2267,18 @@
     },
     "card:vortex:1": {
       "hash": "b2fb6491e4b9",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:vortex:2": {
       "hash": "b2fb6491e4b9",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:vortex:3": {
       "hash": "b2fb6491e4b9",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:vulpes:1": {
       "hash": "3512df676b20",
@@ -2285,18 +2327,18 @@
     },
     "card:watcher:1": {
       "hash": "9b61a869201a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:watcher:2": {
       "hash": "9b61a869201a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:watcher:3": {
       "hash": "9b61a869201a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "card:wight:1": {
       "hash": "0c9d00b8eda0",
@@ -2370,7 +2412,7 @@
     },
     "card:yeti:3": {
       "hash": "bcdd28f5dd0d",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "debuff:bleeding": {

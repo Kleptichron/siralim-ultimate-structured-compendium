@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:spelljuggler:1",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 1,
+            "direction": "up",
+            "scaleRef": "spell_gems",
+            "per": "equipped permanent Spell Gem that belongs to another class"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3d3d105ff241"
+}

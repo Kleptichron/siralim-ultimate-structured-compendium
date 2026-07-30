@@ -8,6 +8,15 @@
         "type": "passive",
         "subject": "enemies"
       },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Snared"
+          }
+        }
+      ],
       "actions": [
         {
           "verb": "damage_modifier",
@@ -21,5 +30,5 @@
       ]
     }
   ],
-  "textHash": "1f85840a20a5"
+  "textHash": "1628da1832e9"
 }

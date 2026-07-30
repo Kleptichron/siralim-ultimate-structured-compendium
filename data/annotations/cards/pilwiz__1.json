@@ -13,13 +13,13 @@
           "verb": "damage_modifier",
           "target": "enemies",
           "flow": "taken",
+          "statuses": [
+            "Bleeding"
+          ],
           "magnitude": {
             "amountPct": 15,
             "direction": "up"
           },
-          "statuses": [
-            "Bleeding"
-          ],
           "params": {
             "source": "Bleeding"
           }
@@ -27,5 +27,5 @@
       ]
     }
   ],
-  "textHash": "bc2d076dc942"
+  "textHash": "edc5e4a3997b"
 }

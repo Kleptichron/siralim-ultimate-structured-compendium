@@ -2,11 +2,23 @@
   "schemaVersion": 13,
   "provenance": "claude",
   "id": "card:automaton:3",
-  "rules": [],
-  "notes": "Meta-record: doubles the potency of this card set's tier 1-2 effects; no independent mechanic to model.",
-  "textHash": "8f7acdd91fc0",
-  "amplifies": [
-    "card:automaton:1",
-    "card:automaton:2"
-  ]
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "noChargeConsumption": true,
+            "when": "cast at the start of battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "84db5eda4d70"
 }

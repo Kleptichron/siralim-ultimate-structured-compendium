@@ -20,11 +20,11 @@
             "direction": "up"
           },
           "params": {
-            "amplifies": "stat gains"
+            "amplifies": "stat-boosting effects"
           }
         }
       ]
     }
   ],
-  "textHash": "731f4f674516"
+  "textHash": "89dd0efd6f5b"
 }

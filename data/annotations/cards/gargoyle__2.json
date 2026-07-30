@@ -1,16 +1,13 @@
 {
-  "id": "card:gargoyle:2",
-  "textHash": "990315a2f232",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "card-class-spell-dr",
+  "provenance": "claude",
+  "id": "card:gargoyle:2",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "damage_modifier",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "990315a2f232"
 }

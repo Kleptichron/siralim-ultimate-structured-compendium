@@ -10,21 +10,19 @@
       },
       "actions": [
         {
-          "verb": "stat_change",
+          "verb": "damage_modifier",
           "target": "allies",
-          "stats": [
-            "all"
-          ],
+          "flow": "dealt",
           "magnitude": {
             "amountPct": 15,
             "direction": "up"
           },
           "params": {
-            "amplifies": "stat gains from start-of-battle effects"
+            "source": "start-of-battle effects"
           }
         }
       ]
     }
   ],
-  "textHash": "8aaf63b2e718"
+  "textHash": "4cd199eba9ab"
 }

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "card:alemental:3",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "resource_gain",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "up"
+          },
+          "params": {
+            "resource": "Notoriety",
+            "from": "the Gambling Dwarves"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7959b6b998a1"
+}

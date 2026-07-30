@@ -1,16 +1,13 @@
 {
-  "id": "card:demigod:3",
-  "textHash": "f1785286bd5c",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "card-class-spell-dr",
+  "provenance": "claude",
+  "id": "card:demigod:3",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "damage_modifier",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "f1785286bd5c"
 }
