@@ -109,10 +109,29 @@
           <a href="https://github.com/Kleptichron/siralim-ultimate-structured-compendium">source
           and how the tagging works</a>.
         </p>
+        <p>
+          No cookies, and nothing you search leaves your browser. Visits are
+          counted anonymously and
+          <a href="https://kleptichron.goatcounter.com">the numbers are public</a>.
+        </p>
         <p id="stamp"></p>
       </footer>
     </main>
   </div>
   <script type="module" src="/main.js"></script>
+  <!-- Anonymous page counts. No cookies, no per-visitor rows stored, and the
+       dashboard is public.
+
+       path is pinned to a literal instead of being read from location. The
+       whole search state of this app lives in the fragment (#q=poison&...),
+       so a counter that derived its path the usual way would upload what
+       people typed. Pinned, one visit is one count, and the noscript block's
+       promise that nothing you search is sent anywhere stays true.
+
+       https:, not the snippet's protocol-relative //: this page is also meant
+       to open from the filesystem, where // would resolve to file://. -->
+  <script>window.goatcounter = { path: '/' };</script>
+  <script data-goatcounter="https://kleptichron.goatcounter.com/count"
+          async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
