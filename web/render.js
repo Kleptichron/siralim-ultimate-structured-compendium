@@ -59,8 +59,13 @@ const META_FIELDS = {
     ['Material', m.material]],
   'enemy-traits': m => [[null, 'enemy-only trait'], ['Variant', m.variant]],
   spells: m => [['Class', m.class], ['Charges', m.charges]],
+  // "ascension" must be visible: an ascension perk is absent from the spec's
+  // perk list until the spec is ascended, so a reader comparing the card against
+  // their own perk screen will conclude the data is wrong — that exact confusion
+  // is how this line got here.
   perks: m => [['Specialization', m.specialization ?? 'unknown'], ['Ranks', m.ranks],
-    [null, m.anointment && 'anointment'], [null, m.perRankValues && 'value shown is per rank']],
+    [null, m.anointment && 'anointment'], [null, m.ascension && 'ascension'],
+    [null, m.perRankValues && 'value shown is per rank']],
   relics: m => [['Relic', m.relic], ['God', m.god], ['Rank', m.rank], ['Stat bonus', m.statBonus]],
   cards: m => [['Family', m.family], ['Cards needed', m.tierRequired]],
   buffs: m => [[null, 'buff'], ['Duration', m.defaultDuration]],
