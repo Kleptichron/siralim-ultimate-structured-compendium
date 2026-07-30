@@ -10,15 +10,24 @@
        that is dark from the first paint. -->
   <meta name="theme-color" content="#14161a">
   <!-- This site gets shared by pasting a link into a Discord or a subreddit, so
-       the unfurled card is the first thing most readers see of it. No og:url or
-       og:image on purpose: a URL would bake the repo name in (see
-       vite.config.js) and an image would need a raster file to point at, while
-       title + description already unfurl as a text card everywhere. -->
+       the unfurled card is the first thing most readers see of it.
+       These two are the only absolute URLs in the build: crawlers resolve
+       og:image against nothing, so a relative path silently yields no image at
+       all, and og:url has to agree with it. Everything else stays relative via
+       base: './' (see vite.config.js), so moving to a custom domain means
+       editing these two lines and nothing else.
+       og.png is generated from scripts/og-card.html; regenerate it when the
+       record count in the copy goes stale. -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="SU Structured Compendium">
   <meta property="og:title" content="Siralim Ultimate Structured Compendium">
   <meta property="og:description" content="Search 4,164 Siralim Ultimate effects by what they do, not how they are worded — trigger, condition and action, matched within a single rule.">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:url" content="https://kleptichron.github.io/siralim-ultimate-structured-compendium/">
+  <meta property="og:image" content="https://kleptichron.github.io/siralim-ultimate-structured-compendium/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A result card for the trait A Gift For You, showing its two rules broken into trigger and action chips.">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/styles.css">
   <!-- Parsed only when scripting is off, which is the only time it matters:
        nothing would ever remove #boot, so the page would otherwise sit on
