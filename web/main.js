@@ -211,15 +211,11 @@ async function boot() {
   }
   initHighlight(index.statuses);
   computeFacetOrder();
-  // The header used to carry the tagged count and schema version. Both were for
-  // whoever was building the corpus, not for whoever is looking something up, so
-  // the header now says how current the data is and nothing else.
-  $('#coverage').textContent = '';
-  // How old the data is, in the footer as well as the header, because #coverage
-  // is hidden below 760px and a reader on a phone would otherwise have no way
-  // to tell whether this predates the patch they are asking about. Guarded: a
-  // stale cached index from before build-index stamped `generated` would
-  // otherwise render the words "Invalid Date" at the foot of every page.
+  // How old the data is. The header used to carry a record count and the schema
+  // version too; the count is already on the result bar ("showing 250 of 4,164")
+  // and the schema version was only ever for whoever was building the corpus.
+  // Guarded: a stale cached index from before build-index stamped `generated`
+  // would otherwise render the words "Invalid Date" at the foot of every page.
   const gen = index.generated ? new Date(index.generated) : null;
   const when = gen && !Number.isNaN(gen.getTime())
     ? `Indexed <time datetime="${attr(index.generated)}">${gen.toLocaleDateString(undefined,
@@ -234,8 +230,7 @@ async function boot() {
   // Not named `build` — that is the team-build state this function assigns below.
   const buildId = String(index.gameBuild?.steamBuildId ?? '').replace(/[^0-9]/g, '');
   const gameStamp = buildId ? ` · game build ${buildId}` : '';
-  $('#coverage').textContent = `${index.counts.total} effects`;
-  $('#stamp').innerHTML = `${when} · ${index.counts.total} effects${gameStamp}`;
+  $('#stamp').innerHTML = `${when}${gameStamp}`;
   // Trait lookups for the builder: names are unique corpus-wide, so a
   // type-ahead by name resolves to exactly one trait.
   const traits = index.records.filter(r => r.type === 'traits');

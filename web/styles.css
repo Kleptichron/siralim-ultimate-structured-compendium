@@ -20,6 +20,9 @@
      sidebar stays aligned when the header's type size changes. */
   --header-h: 58px;
   --sidebar-w: 320px;
+  /* Sidebar plus the 1180px main caps at, so the two columns centre as a unit
+     instead of the results trailing off into empty space on a wide monitor. */
+  --layout-max: 1500px;
   --sidebar-pad: 14px;
   /* Without this the browser paints light scrollbars and light dropdown menus
      over a dark page — it has no other way to know the theme. */
@@ -63,7 +66,12 @@ body {
 }
 header {
   display: flex; align-items: center; gap: 16px;
-  height: var(--header-h); padding: 0 18px;
+  height: var(--header-h);
+  padding-block: 0;
+  /* Full-bleed bar, centred contents: the padding absorbs whatever the viewport
+     has spare beyond --layout-max, so the search box and Ko-fi button sit over
+     the columns rather than hugging the window edges. */
+  padding-inline: max(18px, calc((100% - var(--layout-max)) / 2));
   background: var(--panel); border-bottom: 1px solid var(--border);
   position: sticky; top: 0; z-index: 5;
 }
@@ -72,10 +80,8 @@ header {
    nothing here touches its internals. #search stops growing at 560px, which
    leaves slack that would otherwise pool AFTER the last item and float the
    button off the right edge, so the auto margin collects it instead and pins
-   the pair to the corner. Both hide with #coverage on narrow screens, where the
-   header is already down to an icon and a search box. */
-#coverage { margin-left: auto; }
-.kofi { display: flex; align-items: center; flex: none; }
+   the button to the corner. */
+.kofi { display: flex; align-items: center; flex: none; margin-left: auto; }
 /* Ko-fi's own stylesheet sets the label to #fff !important, which on our accent
    is 2.88:1 and fails AA. The accent is unchanged; only the text flips to the
    page background, which reads at about 6.3:1 on the same teal. */
@@ -182,7 +188,8 @@ h1 { font-size: 1.15rem; margin: 0; color: var(--accent); white-space: nowrap; }
 #boot button:hover { border-color: var(--accent); color: var(--accent); }
 body:not(.ready) .layout { display: none; }
 
-.layout { display: grid; grid-template-columns: var(--sidebar-w) 1fr; gap: 0; }
+.layout { display: grid; grid-template-columns: var(--sidebar-w) 1fr; gap: 0;
+  max-width: var(--layout-max); margin-inline: auto; }
 /* Grid items default to min-width:auto, so one nowrap rule chip would widen the
    1fr column past the viewport and scroll the whole page sideways. */
 .layout > * { min-width: 0; }
@@ -247,8 +254,8 @@ footer p { margin: 0 0 6px; }
 footer p:last-child { margin-bottom: 0; }
 footer a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 footer a:hover { text-decoration: none; }
-/* #coverage is hidden below 760px, so on a phone this is the ONLY surviving
-   statement of how old the data is. */
+/* The only statement of how old the data is, so it should not render as a stray
+   separator if the index ever arrives without a timestamp. */
 #stamp:empty { display: none; }
 
 /* Rendered only with scripting off — #boot is hidden in that case (see the
@@ -609,12 +616,10 @@ button.clear:hover { border-color: var(--accent); }
   }
   main { padding: 12px 14px; max-width: none; }
   h1 { font-size: 1rem; }
-  #coverage { display: none; }
   /* The button survives on phones, but the label does not fit next to a search
      box. The text is a bare text node beside the cup image inside .kofitext, so
      there is nothing to hide: zeroing the font drops the words and leaves the
      image, which carries its own !important sizing from Ko-fi's stylesheet. */
-  .kofi { margin-left: auto; }
   .kofi .kofitext { font-size: 0; }
   .kofi .kofiimg { margin-right: 0 !important; }
   .kofi .kofi-button { min-width: 0 !important; padding: 2px 10px !important; }
@@ -631,6 +636,14 @@ button.clear:hover { border-color: var(--accent); }
      that pushed it right on desktop just indents it away from the edge. */
   .bexport { margin-left: 0; flex-wrap: wrap; }
 }
+/* Wide enough for the sidebar and the results at once, so there is nothing for
+   the toggle to reveal. Safe to hide: nav state is never persisted, main.js
+   opens the sidebar on load at this width and reopens it on the breakpoint
+   change, so no one can be left with it collapsed and no way back. */
+@media (min-width: 761px) {
+  #navtoggle { display: none; }
+}
+
 /* Phones proper: give the search box the width it needs. */
 @media (max-width: 460px) {
   h1 { display: none; }
