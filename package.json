@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "extract-game": "node scripts/extract-game-data.js",
     "import": "node scripts/import.js",
     "extract": "node scripts/extract.js",
     "cluster": "node scripts/cluster.js",

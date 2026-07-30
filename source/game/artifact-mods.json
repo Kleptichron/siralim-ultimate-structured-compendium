@@ -1,0 +1,322 @@
+[
+  {
+    "key": "ATTACKDAMAGE",
+    "name": "Attack Damage",
+    "markup": "Creature deals more damage with attacks."
+  },
+  {
+    "key": "SPELLPOTENCY",
+    "name": "Spell Potency",
+    "markup": "Creature's spells are more potent."
+  },
+  {
+    "key": "DAMAGEREDUCTION",
+    "name": "Damage Reduction",
+    "markup": "Creature takes less damage from all sources."
+  },
+  {
+    "key": "DODGECHANCE",
+    "name": "Dodge Chance",
+    "markup": ""
+  },
+  {
+    "key": "CRITICALCHANCE",
+    "name": "Critical Chance",
+    "markup": ""
+  },
+  {
+    "key": "CHAOSSTRENGTH",
+    "name": "Chaos Strength",
+    "markup": ""
+  },
+  {
+    "key": "DEATHSTRENGTH",
+    "name": "Death Strength",
+    "markup": ""
+  },
+  {
+    "key": "LIFESTRENGTH",
+    "name": "Life Strength",
+    "markup": ""
+  },
+  {
+    "key": "NATURESTRENGTH",
+    "name": "Nature Strength",
+    "markup": ""
+  },
+  {
+    "key": "SORCERYSTRENGTH",
+    "name": "Sorcery Strength",
+    "markup": ""
+  },
+  {
+    "key": "SAVAGEONDAMAGE",
+    "name": "Savage On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_SAVAGE} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "BERSERKONDAMAGE",
+    "name": "Berserk On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_BERSERK} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "WARDEDONDAMAGE",
+    "name": "Warded On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_WARD} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "SHELLEDONDAMAGE",
+    "name": "Shelled On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_SHELL} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "INVISIBLEONDAMAGE",
+    "name": "Invisible On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_INVISIBLE} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "MENDINGONDAMAGE",
+    "name": "Mending On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_MEND} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "LEECHINGONDAMAGE",
+    "name": "Leeching On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_LEECH} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "AGILEONDAMAGE",
+    "name": "Agile On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_AGILE} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "IMMUNEONDAMAGE",
+    "name": "Immune On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_IMMUNITY} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "REBIRTHONDAMAGE",
+    "name": "Rebirth On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_REBIRTH} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "TAUNTINGONDAMAGE",
+    "name": "Taunting On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_TAUNT} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "PROTECTEDONDAMAGE",
+    "name": "Protected On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_PROTECT} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "SPLASHINGONDAMAGE",
+    "name": "Splashing On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_SPLASH} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "BARRIERONDAMAGE",
+    "name": "Barrier On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_BARRIER} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "ARCANEONDAMAGE",
+    "name": "Arcane On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_ARCANE} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "REPELLINGONDAMAGE",
+    "name": "Repelling On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_REPELLING} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "DEFENSIVEONDAMAGE",
+    "name": "Defensive On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_DEFENSIVE} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "PROFICIENTONDAMAGE",
+    "name": "Proficient On Damage",
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_PROFICIENT} when it deals damage with attacks or spells."
+  },
+  {
+    "key": "CURSEDONDAMAGE",
+    "name": "Cursed On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_CURSED} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "VULNERABLEONDAMAGE",
+    "name": "Vulnerable On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_VULNERABLE} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "BLINDONDAMAGE",
+    "name": "Blind On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BLIND} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "BURNINGONDAMAGE",
+    "name": "Burning On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BURNED} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "CONFUSEDONDAMAGE",
+    "name": "Confused On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_CONFUSED} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "SNAREDONDAMAGE",
+    "name": "Snared On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_SNARED} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "FROZENONDAMAGE",
+    "name": "Frozen On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_FROZEN} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "POISONEDONDAMAGE",
+    "name": "Poisoned On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_POISON} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "SCORNEDONDAMAGE",
+    "name": "Scorned On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_SCORN} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "SILENCEDONDAMAGE",
+    "name": "Silenced On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_SILENCE} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "SLEEPONDAMAGE",
+    "name": "Sleep On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_SLEEP} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "STONEONDAMAGE",
+    "name": "Stone On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_STONE} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "WEAKONDAMAGE",
+    "name": "Weak On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_WEAK} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "BLEEDINGONDAMAGE",
+    "name": "Bleeding On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BLEED} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "BLIGHTEDONDAMAGE",
+    "name": "Blighted On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BLIGHT} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "DISARMEDONDAMAGE",
+    "name": "Disarmed On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_DISARMED} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "FEAREDONDAMAGE",
+    "name": "Feared On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_FEAR} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "BOMBONDAMAGE",
+    "name": "Bomb On Damage",
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BOMB} when it deals damage to them with attacks or spells."
+  },
+  {
+    "key": "SPELLGEMSLOTS",
+    "name": "Spell Gem Slots",
+    "markup": ""
+  },
+  {
+    "key": "SPEED",
+    "name": "Speed",
+    "markup": "Creature has additional {STAT_speed}."
+  },
+  {
+    "key": "ATTACK",
+    "name": "Attack",
+    "markup": "Creature has additional {STAT_attack}."
+  },
+  {
+    "key": "INTELLIGENCE",
+    "name": "Intelligence",
+    "markup": "Creature has additional {STAT_intelligence}."
+  },
+  {
+    "key": "DEFENSE",
+    "name": "Defense",
+    "markup": "Creature has additional {STAT_defense}."
+  },
+  {
+    "key": "HEALTH",
+    "name": "Health",
+    "markup": "Creature has additional {STAT_health}."
+  },
+  {
+    "key": "HEALTHATTACK",
+    "name": "Health / Attack",
+    "markup": "Creature has additional {STAT_health} and {STAT_attack}."
+  },
+  {
+    "key": "HEALTHINTELLIGENCE",
+    "name": "Health / Intelligence",
+    "markup": "Creature has additional {STAT_health} and {STAT_intelligence}."
+  },
+  {
+    "key": "HEALTHDEFENSE",
+    "name": "Health / Defense",
+    "markup": "Creature has additional {STAT_health} and {STAT_defense}."
+  },
+  {
+    "key": "HEALTHSPEED",
+    "name": "Health / Speed",
+    "markup": "Creature has additional {STAT_health} and {STAT_speed}."
+  },
+  {
+    "key": "ATTACKINTELLIGENCE",
+    "name": "Attack / Intelligence",
+    "markup": "Creature has additional {STAT_attack} and {STAT_intelligence}."
+  },
+  {
+    "key": "ATTACKDEFENSE",
+    "name": "Attack / Defense",
+    "markup": "Creature has additional {STAT_attack} and {STAT_defense}."
+  },
+  {
+    "key": "ATTACKSPEED",
+    "name": "Attack / Speed",
+    "markup": "Creature has additional {STAT_attack} and {STAT_speed}."
+  },
+  {
+    "key": "INTELLIGENCEDEFENSE",
+    "name": "Intelligence / Defense",
+    "markup": "Creature has additional {STAT_intelligence} and {STAT_defense}."
+  },
+  {
+    "key": "INTELLIGENCESPEED",
+    "name": "Intelligence / Speed",
+    "markup": "Creature has additional {STAT_intelligence} and {STAT_speed}."
+  },
+  {
+    "key": "DEFENSESPEED",
+    "name": "Defense / Speed",
+    "markup": "Creature has additional {STAT_defense} and {STAT_speed}."
+  },
+  {
+    "key": "TRAIT",
+    "name": "Trait",
+    "markup": "Creature gains an additional trait."
+  },
+  {
+    "key": "CASTSPELL",
+    "name": "Cast Spell",
+    "markup": ""
+  }
+]

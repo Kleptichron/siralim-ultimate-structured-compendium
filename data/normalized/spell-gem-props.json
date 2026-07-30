@@ -1,0 +1,356 @@
+[
+  {
+    "id": "spellmod:attackafter",
+    "source": "spell-gem-props",
+    "name": "Attackafter",
+    "text": "Creature has a chance to attack a random enemy after it casts the spell.",
+    "textHash": "77ba4d1c5538",
+    "meta": {},
+    "markup": "Creature has a chance to {ACTION_attack} a random enemy after it casts the spell.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:cascading",
+    "source": "spell-gem-props",
+    "name": "Cascading",
+    "text": "The spell's potency is increased by 5% for each charge the Spell Gem is missing.",
+    "textHash": "998d42bc3ecf",
+    "meta": {},
+    "markup": "The spell's potency is increased by 5% for each {STAT_charge} the Spell Gem is missing.",
+    "refs": {
+      "stats": [
+        "charge"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:castonattack",
+    "source": "spell-gem-props",
+    "name": "Castonattack",
+    "text": "Creature has a chance to cast the spell after it attacks.",
+    "textHash": "71346e837c0d",
+    "meta": {},
+    "markup": "Creature has a chance to cast the spell after it {ACTION_attacks}.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:castondefend",
+    "source": "spell-gem-props",
+    "name": "Castondefend",
+    "text": "Creature has a chance to cast the spell after it defends.",
+    "textHash": "ff04fe5f3bd6",
+    "meta": {},
+    "markup": "Creature has a chance to cast the spell after it {ACTION_defends}.",
+    "refs": {
+      "actions": [
+        "defends"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:castonheal",
+    "source": "spell-gem-props",
+    "name": "Castonheal",
+    "text": "Creature has a chance to cast the spell after it heals a creature.",
+    "textHash": "57acafd87031",
+    "meta": {},
+    "markup": "Creature has a chance to cast the spell after it heals a creature."
+  },
+  {
+    "id": "spellmod:castonprovoke",
+    "source": "spell-gem-props",
+    "name": "Castonprovoke",
+    "text": "Creature has a chance to cast the spell after it provokes.",
+    "textHash": "2ab961f07efa",
+    "meta": {},
+    "markup": "Creature has a chance to cast the spell after it {ACTION_provokes}.",
+    "refs": {
+      "actions": [
+        "provokes"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:castsonextraenemy",
+    "source": "spell-gem-props",
+    "name": "Castsonextraenemy",
+    "text": "The spell is cast on an additional creature.",
+    "textHash": "b4fb811665a7",
+    "meta": {},
+    "markup": "The spell is cast on an additional creature."
+  },
+  {
+    "id": "spellmod:caststwice",
+    "source": "spell-gem-props",
+    "name": "Caststwice",
+    "text": "Creature has a chance to cast the spell an additional time.",
+    "textHash": "a469d4f546cf",
+    "meta": {},
+    "markup": "Creature has a chance to cast the spell an additional time."
+  },
+  {
+    "id": "spellmod:defendafter",
+    "source": "spell-gem-props",
+    "name": "Defendafter",
+    "text": "Creature has a chance to defend after it casts the spell.",
+    "textHash": "ae8894084faa",
+    "meta": {},
+    "markup": "Creature has a chance to {ACTION_defend} after it casts the spell.",
+    "refs": {
+      "actions": [
+        "defend"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:defensepenetration",
+    "source": "spell-gem-props",
+    "name": "Defensepenetration",
+    "text": "The spell ignores some of the target's defense when determining the damage dealt.",
+    "textHash": "b9bfb78ad2dd",
+    "meta": {},
+    "markup": "The spell ignores some of the target's {STAT_defense} when determining the damage dealt.",
+    "refs": {
+      "stats": [
+        "defense"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:duration",
+    "source": "spell-gem-props",
+    "name": "Duration",
+    "text": "Increases the duration of buffs granted and debuffs afflicted by the Spell Gem.",
+    "textHash": "05c6bbe25c29",
+    "meta": {},
+    "markup": "Increases the duration of buffs granted and debuffs afflicted by the Spell Gem."
+  },
+  {
+    "id": "spellmod:increaseddamage",
+    "source": "spell-gem-props",
+    "name": "Increaseddamage",
+    "text": "The spell deals additional damage.",
+    "textHash": "1640dc7961be",
+    "meta": {},
+    "markup": "The spell deals additional damage."
+  },
+  {
+    "id": "spellmod:increasedhealing",
+    "source": "spell-gem-props",
+    "name": "Increasedhealing",
+    "text": "The spell heals for a greater amount.",
+    "textHash": "918db64eca25",
+    "meta": {},
+    "markup": "The spell heals for a greater amount."
+  },
+  {
+    "id": "spellmod:magnetic",
+    "source": "spell-gem-props",
+    "name": "Magnetic",
+    "text": "The spell's potency is increased by 15% for each of the same Spell Gem equipped by your party.",
+    "textHash": "1b22d5d82ab9",
+    "meta": {},
+    "markup": "The spell's potency is increased by 15% for each of the same Spell Gem equipped by your party."
+  },
+  {
+    "id": "spellmod:morecharges",
+    "source": "spell-gem-props",
+    "name": "Morecharges",
+    "text": "The Spell Gem has additional charges.",
+    "textHash": "f6450dd83bc7",
+    "meta": {},
+    "markup": "The Spell Gem has additional {STAT_charges}.",
+    "refs": {
+      "stats": [
+        "charges"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:potencyattack",
+    "source": "spell-gem-props",
+    "name": "Potencyattack",
+    "text": "Part of the spell's potency is based on the caster's attack instead of intelligence.",
+    "textHash": "c0d6803d4817",
+    "meta": {},
+    "markup": "Part of the spell's potency is based on the caster's {STAT_attack} instead of {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "attack",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:potencydefense",
+    "source": "spell-gem-props",
+    "name": "Potencydefense",
+    "text": "Part of the spell's potency is based on the caster's defense instead of intelligence.",
+    "textHash": "d7fffa04b2d9",
+    "meta": {},
+    "markup": "Part of the spell's potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "defense",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:potencyhealth",
+    "source": "spell-gem-props",
+    "name": "Potencyhealth",
+    "text": "Part of the spell's potency is based on the caster's Current health instead of intelligence.",
+    "textHash": "34baa199dfab",
+    "meta": {},
+    "markup": "Part of the spell's potency is based on the caster's Current {STAT_health} instead of {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "health",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:potencyspeed",
+    "source": "spell-gem-props",
+    "name": "Potencyspeed",
+    "text": "Part of the spell's potency is based on the caster's speed instead of intelligence.",
+    "textHash": "da5a707bb361",
+    "meta": {},
+    "markup": "Part of the spell's potency is based on the caster's {STAT_speed} instead of {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "intelligence",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:provokeafter",
+    "source": "spell-gem-props",
+    "name": "Provokeafter",
+    "text": "Creature has a chance to provoke after it casts the spell.",
+    "textHash": "1cc2d133d3c1",
+    "meta": {},
+    "markup": "Creature has a chance to {ACTION_provoke} after it casts the spell.",
+    "refs": {
+      "actions": [
+        "provoke"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:shared",
+    "source": "spell-gem-props",
+    "name": "Shared",
+    "text": "At the start of battle, your other creatures gain an Ethereal copy of the Spell Gem, but it has only 1 charge.",
+    "textHash": "db64ef74bb31",
+    "meta": {},
+    "markup": "At the start of battle, your other creatures gain an [temporary]Ethereal copy of the Spell Gem, but it has only 1 {STAT_charge}.",
+    "refs": {
+      "stats": [
+        "charge"
+      ],
+      "markup": [
+        "temporary"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:singular",
+    "source": "spell-gem-props",
+    "name": "Singular",
+    "text": "The spell's potency is increased by 50% for each empty Spell Gem slot the creature has.",
+    "textHash": "f6f7d4868fd1",
+    "meta": {},
+    "markup": "The spell's potency is increased by 50% for each empty Spell Gem slot the creature has."
+  },
+  {
+    "id": "spellmod:statpotency",
+    "source": "spell-gem-props",
+    "name": "Statpotency",
+    "text": "The spell increases and decreases stats by a greater amount.",
+    "textHash": "59b67bc9f4ac",
+    "meta": {},
+    "markup": "The spell increases and decreases stats by a greater amount."
+  },
+  {
+    "id": "spellmod:swapchaos",
+    "source": "spell-gem-props",
+    "name": "Swapchaos",
+    "text": "The Spell Gem's class is changed to Chaos.",
+    "textHash": "298164610153",
+    "meta": {},
+    "markup": "The Spell Gem's class is changed to {CLASS_Chaos}.",
+    "refs": {
+      "classes": [
+        "Chaos"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:swapdeath",
+    "source": "spell-gem-props",
+    "name": "Swapdeath",
+    "text": "The Spell Gem's class is changed to Death.",
+    "textHash": "b070fb11499f",
+    "meta": {},
+    "markup": "The Spell Gem's class is changed to {CLASS_Death}.",
+    "refs": {
+      "classes": [
+        "Death"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:swaplife",
+    "source": "spell-gem-props",
+    "name": "Swaplife",
+    "text": "The Spell Gem's class is changed to Life.",
+    "textHash": "b9f97ba995f6",
+    "meta": {},
+    "markup": "The Spell Gem's class is changed to {CLASS_Life}.",
+    "refs": {
+      "classes": [
+        "Life"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:swapnature",
+    "source": "spell-gem-props",
+    "name": "Swapnature",
+    "text": "The Spell Gem's class is changed to Nature.",
+    "textHash": "d16927878b30",
+    "meta": {},
+    "markup": "The Spell Gem's class is changed to {CLASS_Nature}.",
+    "refs": {
+      "classes": [
+        "Nature"
+      ]
+    }
+  },
+  {
+    "id": "spellmod:swapsorcery",
+    "source": "spell-gem-props",
+    "name": "Swapsorcery",
+    "text": "The Spell Gem's class is changed to Sorcery.",
+    "textHash": "8c64ba6ac635",
+    "meta": {},
+    "markup": "The Spell Gem's class is changed to {CLASS_Sorcery}.",
+    "refs": {
+      "classes": [
+        "Sorcery"
+      ]
+    }
+  }
+]

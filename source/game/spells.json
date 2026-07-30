@@ -1,0 +1,3737 @@
+[
+  {
+    "key": "AFFLICTION",
+    "name": "Affliction",
+    "markup": "Enemies are afflicted with a random debuff."
+  },
+  {
+    "key": "AFTERMATH",
+    "name": "Aftermath",
+    "markup": "Caster {ACTION_attacks} random enemies once for each turn the caster has taken in the current battle. Maximum of 10 attacks."
+  },
+  {
+    "key": "ANGER",
+    "name": "Anger",
+    "markup": "Target creature's {STAT_attack} is set equal to its {STAT_intelligence}."
+  },
+  {
+    "key": "WORDOFCHAOS",
+    "name": "Word of Chaos",
+    "markup": "Target has a 5% chance to be killed for each debuff it has."
+  },
+  {
+    "key": "ANNIHILATE",
+    "name": "Annihilate",
+    "markup": "Enemies take a small amount of damage, or a massive amount of damage if they are afflicted with a debuff."
+  },
+  {
+    "key": "ANTIDOTE",
+    "name": "Antidote",
+    "markup": "The duration of your creatures' debuffs is reduced by 1 turn, and they recover a small amount of {STAT_health} for each debuff."
+  },
+  {
+    "key": "ARCANEENCHANTMENT",
+    "name": "Arcane Enchantment",
+    "markup": "Target gains {CONDNAME_BUFF_WARD} and {CONDNAME_BUFF_PROTECT}."
+  },
+  {
+    "key": "WEB",
+    "name": "Web",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_SNARED}."
+  },
+  {
+    "key": "BLASTARPUNCH",
+    "name": "Blastar Punch",
+    "markup": "Target takes a large amount of damage and is afflicted with {CONDNAME_DEBUFF_SCORN}."
+  },
+  {
+    "key": "WINDENCHANTMENT",
+    "name": "Wind Enchantment",
+    "markup": "Target gains {CONDNAME_BUFF_AGILE}, and a large amount of {STAT_speed}."
+  },
+  {
+    "key": "BLISTERINGRADIANCE",
+    "name": "Blistering Radiance",
+    "markup": "Enemies take a large amount of damage and are afflicted with {CONDNAME_DEBUFF_SCORN}."
+  },
+  {
+    "key": "BLOODSHIELD",
+    "name": "Blood Shield",
+    "markup": "Target takes a large amount of damage and gains 200% of the damage taken as a {CONDNAME_BUFF_BARRIER}."
+  },
+  {
+    "key": "BLUR",
+    "name": "Blur",
+    "markup": "Your creatures gain a moderate amount of {STAT_speed}."
+  },
+  {
+    "key": "BONEARMOR",
+    "name": "Bone Armor",
+    "markup": "Target gains a large amount of {STAT_defense} and {STAT_speed}."
+  },
+  {
+    "key": "BREATHOFLIFE",
+    "name": "Breath of Life",
+    "markup": "Target recovers a massive amount of {STAT_health}, or is resurrected if it's dead."
+  },
+  {
+    "key": "CHAINLIGHTNING",
+    "name": "Chain Lightning",
+    "markup": "Deals a large amount of damage to the target, then bounces to each of the target's allies at random. The damage is reduced by 15% for each bounce."
+  },
+  {
+    "key": "SPREADINGPLAGUE",
+    "name": "Spreading Plague",
+    "markup": "Target's debuffs are removed and given to enemies at random."
+  },
+  {
+    "key": "CHAOSBOLT",
+    "name": "Chaos Bolt",
+    "markup": "Target takes a moderate amount of damage that ignores 50% of its {STAT_defense}."
+  },
+  {
+    "key": "CHAOSCHANNELING",
+    "name": "Chaos Channeling",
+    "markup": "Target is afflicted with 3 random debuffs."
+  },
+  {
+    "key": "CHAOSMASTERY",
+    "name": "Chaos Mastery",
+    "markup": "Your creatures gain a moderate amount of {STAT_attack} and {CONDNAME_BUFF_SAVAGE}."
+  },
+  {
+    "key": "CHAOSSPHERES",
+    "name": "Chaos Spheres",
+    "markup": "Target's Spell Gems are Sealed for the rest of the battle."
+  },
+  {
+    "key": "CHAOSRIFT",
+    "name": "Chaos Rift",
+    "markup": "Your creatures gain a random trait."
+  },
+  {
+    "key": "CHARMOFLIFE",
+    "name": "Charm of Life",
+    "markup": "Your creatures gain a moderate amount of {STAT_attack}, {STAT_speed}, and Maximum {STAT_health}."
+  },
+  {
+    "key": "CLOUDBEAM",
+    "name": "Cloud Beam",
+    "markup": "Random enemies take a small amount of damage continuously. After each enemy takes damage, the spell has a 20% chance to end."
+  },
+  {
+    "key": "CLOUDOFEMBERS",
+    "name": "Cloud of Embers",
+    "markup": "Enemies take a small amount of damage plus 10% for how low they are on the {TIMELINE}."
+  },
+  {
+    "key": "CONFUSION",
+    "name": "Confusion",
+    "markup": "Each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_CONFUSED}."
+  },
+  {
+    "key": "CONSECRATION",
+    "name": "Consecration",
+    "markup": "Enemies take a small amount of damage and the caster recovers a large amount of {STAT_health}."
+  },
+  {
+    "key": "CORPSEEXPLOSION",
+    "name": "Corpse Explosion",
+    "markup": "Enemies take a small amount of damage, increased by the number of dead creatures on the battlefield."
+  },
+  {
+    "key": "CORRUPTION",
+    "name": "Corruption",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_BLIGHT} and {CONDNAME_DEBUFF_CURSED}."
+  },
+  {
+    "key": "COUNTERSPELL",
+    "name": "Counterspell",
+    "markup": "Target takes a small amount of damage. The amount of damage is increased by 20% for each {STAT_charge} this Spell Gem is missing."
+  },
+  {
+    "key": "CRUSHPUNCH",
+    "name": "Crush Punch",
+    "markup": "Target takes a large amount of damage and loses a large amount of {STAT_defense}."
+  },
+  {
+    "key": "CRYSTALSPEARS",
+    "name": "Crystal Spears",
+    "markup": "Target takes a moderate amount of damage, plus additional damage equal to 20% of the caster's Current {STAT_health}."
+  },
+  {
+    "key": "DAMNATION",
+    "name": "Damnation",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_CURSED}."
+  },
+  {
+    "key": "DARKENCHANTMENT",
+    "name": "Dark Enchantment",
+    "markup": "Target gains {CONDNAME_BUFF_ARCANE}."
+  },
+  {
+    "key": "DARKRITUAL",
+    "name": "Dark Ritual",
+    "markup": "Target ally is killed, and the caster gains all its buffs and 100% of its {STAT_attack} and {STAT_speed}."
+  },
+  {
+    "key": "DARKWHISPERS",
+    "name": "Dark Whispers",
+    "markup": "Your creatures gain {CONDNAME_BUFF_ARCANE}."
+  },
+  {
+    "key": "DEATHSIPHON",
+    "name": "Death Siphon",
+    "markup": "Target ally is killed, and the caster gains 50% of its {STAT_attack}, {STAT_intelligence}, {STAT_defense}, {STAT_speed}, and Maximum {STAT_health}."
+  },
+  {
+    "key": "DECAY",
+    "name": "Decay",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_DISARMED}."
+  },
+  {
+    "key": "DEFILE",
+    "name": "Defile",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "DENSEFOG",
+    "name": "Dense Fog",
+    "markup": "Each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_SLEEP}."
+  },
+  {
+    "key": "DETERMINATION",
+    "name": "Determination",
+    "markup": "Your creatures gain a large amount of {STAT_defense} and Maximum {STAT_health}."
+  },
+  {
+    "key": "DEVOUR",
+    "name": "Devour",
+    "markup": "Caster steals a large amount of {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} from the target."
+  },
+  {
+    "key": "WHIRLWIND",
+    "name": "Whirlwind",
+    "markup": "Enemies take a moderate amount of damage that ignores 30% of their {STAT_defense}."
+  },
+  {
+    "key": "DISPEL",
+    "name": "Dispel",
+    "markup": "Target's buffs and debuffs are removed."
+  },
+  {
+    "key": "DIVINITY",
+    "name": "Divinity",
+    "markup": "All creatures are resurrected, recover 100% {STAT_health}, and their debuffs are removed. The {TIMELINE} is shuffled."
+  },
+  {
+    "key": "WILDGROWTH",
+    "name": "Wild Growth",
+    "markup": "Target gains {CONDNAME_BUFF_MEND}, and a large amount of Maximum {STAT_health}."
+  },
+  {
+    "key": "DUSTCLOAK",
+    "name": "Dust Cloak",
+    "markup": "Your creatures gain {CONDNAME_BUFF_INVISIBLE} and are sent to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "EARTHENCHANTMENT",
+    "name": "Earth Enchantment",
+    "markup": "Target gains {CONDNAME_BUFF_TAUNT}, and a large amount of {STAT_defense}."
+  },
+  {
+    "key": "EARTHENEMBRACE",
+    "name": "Earthen Embrace",
+    "markup": "Target recovers a moderate amount of {STAT_health} and gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of the amount healed."
+  },
+  {
+    "key": "EARTHENSPIKE",
+    "name": "Earthen Spike",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is {ACTION_defending}."
+  },
+  {
+    "key": "ELEMENTALBARRIER",
+    "name": "Elemental Barrier",
+    "markup": "Target gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 50% of its {STAT_defense}."
+  },
+  {
+    "key": "ELEMENTALGUARD",
+    "name": "Elemental Guard",
+    "markup": "Your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 20% of their {STAT_defense}."
+  },
+  {
+    "key": "EMPOWER",
+    "name": "Empower",
+    "markup": "Target gains {CONDNAME_BUFF_SAVAGE}."
+  },
+  {
+    "key": "ENFEEBLE",
+    "name": "Enfeeble",
+    "markup": "Target loses a large amount of {STAT_attack}."
+  },
+  {
+    "key": "ENLIGHTENMENT",
+    "name": "Enlightenment",
+    "markup": "Target's {STAT_attack} is added to its {STAT_intelligence}. Then, its {STAT_attack} is set to its minimum value."
+  },
+  {
+    "key": "ENTANGLE",
+    "name": "Entangle",
+    "markup": "Each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_SNARED}."
+  },
+  {
+    "key": "EQUALITY",
+    "name": "Equality",
+    "markup": "Target's stats (other than {STAT_health}) are averaged."
+  },
+  {
+    "key": "EVANGELISM",
+    "name": "Evangelism",
+    "markup": "Target gains {CONDNAME_BUFF_MEND}, {CONDNAME_BUFF_AGILE}, and {CONDNAME_BUFF_WARD}."
+  },
+  {
+    "key": "EXTINGUISH",
+    "name": "Extinguish",
+    "markup": "Kills the target if it has less than 33% {STAT_health}."
+  },
+  {
+    "key": "FINGEROFDEATH",
+    "name": "Finger of Death",
+    "markup": "Target takes a massive amount of damage."
+  },
+  {
+    "key": "FIREBALL",
+    "name": "Fireball",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "WORMROT",
+    "name": "Wormrot",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_WEAK} and {CONDNAME_DEBUFF_VULNERABLE}."
+  },
+  {
+    "key": "FIRESTORM",
+    "name": "Firestorm",
+    "markup": "Enemies take a moderate amount of damage and are afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "FISTOFHEAVENS",
+    "name": "Fist of Heavens",
+    "markup": "Target takes a massive amount of damage."
+  },
+  {
+    "key": "FLAMEENCHANTMENT",
+    "name": "Flame Enchantment",
+    "markup": "Target gains {CONDNAME_BUFF_PROFICIENT}."
+  },
+  {
+    "key": "FLAMELASH",
+    "name": "Flame Lash",
+    "markup": "Your creatures gain {CONDNAME_BUFF_BERSERK} and {CONDNAME_BUFF_SPLASH}."
+  },
+  {
+    "key": "FLAMESTRIKE",
+    "name": "Flamestrike",
+    "markup": "Enemies take a small amount of damage. This spell {ACTION_casts} a number of times equal to the number of enemies that are afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "FLASHFREEZE",
+    "name": "Flash Freeze",
+    "markup": "Each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "FROSTARMOR",
+    "name": "Frost Armor",
+    "markup": "Target gains {CONDNAME_BUFF_SHELL} and 30% {STAT_defense}."
+  },
+  {
+    "key": "FROSTENCHANTMENT",
+    "name": "Frost Enchantment",
+    "markup": "Target gains {CONDNAME_BUFF_PROTECT}, and a large amount of {STAT_intelligence}."
+  },
+  {
+    "key": "FROSTRAMPART",
+    "name": "Frost Rampart",
+    "markup": "Your creatures gain {CONDNAME_BUFF_PROTECT}."
+  },
+  {
+    "key": "FURYSWIPES",
+    "name": "Fury Swipes",
+    "markup": "Target {ACTION_attacks} random enemy creatures 3 times. Each attack deals 25% normal damage."
+  },
+  {
+    "key": "NATURE'SBLESSING",
+    "name": "Nature's Blessing",
+    "markup": "Your creatures' buffs gain 3 turns of duration."
+  },
+  {
+    "key": "GERMINATE",
+    "name": "Germinate",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_SNARED} and {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "GHOUL'SGRIP",
+    "name": "Ghoul's Grip",
+    "markup": "Target takes a large amount of damage and is afflicted with {CONDNAME_DEBUFF_SNARED}."
+  },
+  {
+    "key": "GIANT'SSTRENGTH",
+    "name": "Giant's Strength",
+    "markup": "Target gains a massive amount of {STAT_attack}."
+  },
+  {
+    "key": "GRAFTBONE",
+    "name": "Graft Bone",
+    "markup": "Target creature takes a moderate amount of damage and gains {STAT_defense} equal to 200% of the damage taken."
+  },
+  {
+    "key": "GRAVITY",
+    "name": "Gravity",
+    "markup": "Enemies take a small amount of damage plus 10% for how high they are on the {TIMELINE}."
+  },
+  {
+    "key": "GUARDIANFORCE",
+    "name": "Guardian Force",
+    "markup": "Your creatures {ACTION_defend}."
+  },
+  {
+    "key": "HASTE",
+    "name": "Haste",
+    "markup": "Target gains a massive amount of {STAT_speed}."
+  },
+  {
+    "key": "HEALING",
+    "name": "Healing",
+    "markup": "Target recovers a moderate amount of {STAT_health}."
+  },
+  {
+    "key": "HEAVEN'SFURY",
+    "name": "Heaven's Fury",
+    "markup": "Target loses a large amount of Maximum {STAT_health}."
+  },
+  {
+    "key": "HEAVEN'STHUNDER",
+    "name": "Heaven's Thunder",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "HELLCRYPUNCH",
+    "name": "Hellcry Punch",
+    "markup": "Target takes a large amount of damage and is afflicted with {CONDNAME_DEBUFF_CURSED}."
+  },
+  {
+    "key": "HELLFORGE",
+    "name": "Hell Forge",
+    "markup": "Target gains {CONDNAME_BUFF_TAUNT} and {CONDNAME_BUFF_SPLASH}."
+  },
+  {
+    "key": "NOURISH",
+    "name": "Nourish",
+    "markup": "Your creatures gain {CONDNAME_BUFF_MEND}."
+  },
+  {
+    "key": "HOLYARMOR",
+    "name": "Holy Armor",
+    "markup": "Target gains a {CONDNAME_BUFF_BARRIER} that absorbs a massive amount of damage."
+  },
+  {
+    "key": "HOLYBULWARK",
+    "name": "Holy Bulwark",
+    "markup": "Your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs a moderate amount of damage."
+  },
+  {
+    "key": "HOLYENCHANTMENT",
+    "name": "Holy Enchantment",
+    "markup": "Target recovers a large amount of {STAT_health} and gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to the amount of {STAT_health} recovered."
+  },
+  {
+    "key": "HOLYEXPLOSION",
+    "name": "Holy Explosion",
+    "markup": "Enemies take a moderate amount of damage."
+  },
+  {
+    "key": "HOLYPROTECTION",
+    "name": "Holy Protection",
+    "markup": "Your creatures gain {CONDNAME_BUFF_SHELL}."
+  },
+  {
+    "key": "HOLYSMITE",
+    "name": "Holy Smite",
+    "markup": "Target takes a small amount of damage and the caster recovers a small amount of {STAT_health}."
+  },
+  {
+    "key": "INTIMIDATE",
+    "name": "Intimidate",
+    "markup": "Target loses a large amount of {STAT_attack} and {STAT_defense}."
+  },
+  {
+    "key": "HUMILITY",
+    "name": "Humility",
+    "markup": "Target's stats become equal to its lowest stat."
+  },
+  {
+    "key": "ICEBOLT",
+    "name": "Ice Bolt",
+    "markup": "Target takes a small amount of damage and is afflicted with {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "ICEWOLFBITE",
+    "name": "Icewolf Bite",
+    "markup": "Target takes a moderate amount of damage twice and is afflicted with {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "TRUESIGHT",
+    "name": "Truesight",
+    "markup": "Enemies are no longer {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "IMMOLATIONAURA",
+    "name": "Immolation Aura",
+    "markup": "Your creatures gain {CONDNAME_BUFF_SAVAGE} and {CONDNAME_BUFF_SPLASH}."
+  },
+  {
+    "key": "IMPLOSION",
+    "name": "Implosion",
+    "markup": "Target takes a small amount of damage. This damage is increased by 50% for each buff the target has."
+  },
+  {
+    "key": "INFERNALCHARGE",
+    "name": "Infernal Charge",
+    "markup": "Target {ACTION_attacks} a random enemy for 200% normal damage."
+  },
+  {
+    "key": "INFERNO",
+    "name": "Inferno",
+    "markup": "Extends the duration of the enemies' {CONDNAME_DEBUFF_BURNED} debuff by 1 turn and increases the debuff's potency by 100%."
+  },
+  {
+    "key": "INVISIBILITY",
+    "name": "Invisibility",
+    "markup": "Target gains {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "IRONSKIN",
+    "name": "Iron Skin",
+    "markup": "Target gains a massive amount of {STAT_defense}."
+  },
+  {
+    "key": "JINX",
+    "name": "Jinx",
+    "markup": "Target takes a small amount of damage. This damage is increased by 25% for each debuff the target has."
+  },
+  {
+    "key": "JUDGMENT",
+    "name": "Judgment",
+    "markup": "Enemies are killed if they have less than 33% {STAT_health}."
+  },
+  {
+    "key": "FIERYGLEAM",
+    "name": "Fiery Gleam",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_BURNED} and {CONDNAME_DEBUFF_BLIND}."
+  },
+  {
+    "key": "LIGHTNINGSTRIKE",
+    "name": "Lightning Strike",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is {ACTION_provoking}."
+  },
+  {
+    "key": "LIONHEART",
+    "name": "Lionheart",
+    "markup": "Target gains a large amount of {STAT_attack} and {STAT_defense}."
+  },
+  {
+    "key": "MAGICMISSILE",
+    "name": "Magic Missile",
+    "markup": "Target takes a small amount of damage."
+  },
+  {
+    "key": "MAGICSUPPRESSION",
+    "name": "Magic Suppression",
+    "markup": "Enemies lose a moderate amount of {STAT_intelligence} and are afflicted with {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "MAJORHEALING",
+    "name": "Major Healing",
+    "markup": "Target recovers a large amount of {STAT_health}."
+  },
+  {
+    "key": "MAJORRESURRECTION",
+    "name": "Major Resurrection",
+    "markup": "Target is resurrected with a large amount of {STAT_health}."
+  },
+  {
+    "key": "SPELLLEAK",
+    "name": "Spell Leak",
+    "markup": "Enemies' [temporary] Ethereal Spell Gems are Sealed."
+  },
+  {
+    "key": "MASSDISPEL",
+    "name": "Mass Dispel",
+    "markup": "All the creatures on the battlefield lose their buffs and debuffs."
+  },
+  {
+    "key": "WATERENCHANTMENT",
+    "name": "Water Enchantment",
+    "markup": "Target gains {CONDNAME_BUFF_SPLASH}, and a large amount of {STAT_attack}."
+  },
+  {
+    "key": "WRATHOFNATURE",
+    "name": "Wrath of Nature",
+    "markup": "Your creatures gain a moderate amount of {STAT_attack}."
+  },
+  {
+    "key": "METAMORPHOSIS",
+    "name": "Metamorphosis",
+    "markup": "Target's {STAT_health} is set to a random amount between 1% and 100%."
+  },
+  {
+    "key": "MINDBLAST",
+    "name": "Mind Blast",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "MINDCONTROL",
+    "name": "Mind Control",
+    "markup": "Target {ACTION_attacks} one of its allies."
+  },
+  {
+    "key": "MINDCRUSH",
+    "name": "Mind Crush",
+    "markup": "Target loses a moderate amount of {STAT_intelligence} and is afflicted with {CONDNAME_DEBUFF_SLEEP}."
+  },
+  {
+    "key": "MINDSTORM",
+    "name": "Mind Storm",
+    "markup": "Each enemy takes a small amount of damage and has a 50% chance to be afflicted with {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "MINDTRICKS",
+    "name": "Mind Tricks",
+    "markup": "Target {ACTION_attacks} itself for 50% normal damage."
+  },
+  {
+    "key": "MINORHEALING",
+    "name": "Minor Healing",
+    "markup": "Target recovers a small amount of {STAT_health}."
+  },
+  {
+    "key": "MINORRESURRECTION",
+    "name": "Minor Resurrection",
+    "markup": "Target is resurrected with a small amount of {STAT_health}."
+  },
+  {
+    "key": "MOLTENARMOR",
+    "name": "Molten Armor",
+    "markup": "Target gains {CONDNAME_BUFF_SHELL} and 30% {STAT_attack}."
+  },
+  {
+    "key": "MOLTENWALL",
+    "name": "Molten Wall",
+    "markup": "Your creatures gain a moderate amount of {STAT_attack} and {STAT_defense}."
+  },
+  {
+    "key": "MORPH:CHAOS",
+    "name": "Morph: Chaos",
+    "markup": "Your creatures gain a large amount of {STAT_attack} and their classes become {CLASS_Chaos} until the end of battle."
+  },
+  {
+    "key": "MORPH:DEATH",
+    "name": "Morph: Death",
+    "markup": "Your creatures gain a large amount of {STAT_defense} and their classes become {CLASS_Death} until the end of battle."
+  },
+  {
+    "key": "MORPH:LIFE",
+    "name": "Morph: Life",
+    "markup": "Your creatures gain a large amount of Maximum {STAT_health} and their classes become {CLASS_Life} until the end of battle."
+  },
+  {
+    "key": "MORPH:NATURE",
+    "name": "Morph: Nature",
+    "markup": "Your creatures gain a large amount of {STAT_speed} and their classes become {CLASS_Nature} until the end of battle."
+  },
+  {
+    "key": "MORPH:SORCERY",
+    "name": "Morph: Sorcery",
+    "markup": "Your creatures gain a large amount of {STAT_intelligence} and their classes become {CLASS_Sorcery} until the end of battle."
+  },
+  {
+    "key": "MURDEROFCROWS",
+    "name": "Murder of Crows",
+    "markup": "Random enemies take a moderate amount of damage 3 times, plus 2 more times for each dead creature on the battlefield."
+  },
+  {
+    "key": "MUSTER",
+    "name": "Muster",
+    "markup": "Target gains {CONDNAME_BUFF_LEECH} and {CONDNAME_BUFF_MEND}, and a large amount of {STAT_attack}."
+  },
+  {
+    "key": "WARPREALITY",
+    "name": "Warp Reality",
+    "markup": "Target's {CONDNAME_BUFF_BARRIER} shatters, dealing damage to the target equal to 200% of the {CONDNAME_BUFF_BARRIER}'s strength."
+  },
+  {
+    "key": "NECROMANTICARMOR",
+    "name": "Necromantic Armor",
+    "markup": "Your creatures gain a moderate amount of {STAT_defense} and {STAT_speed}."
+  },
+  {
+    "key": "NECROSIS",
+    "name": "Necrosis",
+    "markup": "Enemies take a moderate amount of damage. 50% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "NIGHTMARE",
+    "name": "Nightmare",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_SLEEP}."
+  },
+  {
+    "key": "NIGHTSWORD",
+    "name": "Night Sword",
+    "markup": "Target takes a moderate amount of damage and the last Spell Gem the target used is Sealed. If no Spell Gem was used, one is chosen at random."
+  },
+  {
+    "key": "NUTRITION",
+    "name": "Nutrition",
+    "markup": "Removes one of the target's debuffs. If a debuff was successfully removed, heal the target for a large amount of {STAT_health}."
+  },
+  {
+    "key": "PANDEMONIUM",
+    "name": "Pandemonium",
+    "markup": "Shuffles the {TIMELINE}."
+  },
+  {
+    "key": "PANICATTACK",
+    "name": "Panic Attack",
+    "markup": "Each of your creatures {ACTION_attack} a random enemy for 50% normal damage."
+  },
+  {
+    "key": "PARASITES",
+    "name": "Parasites",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_BLIGHT} and {CONDNAME_BUFF_LEECH}."
+  },
+  {
+    "key": "PESTILENCE",
+    "name": "Pestilence",
+    "markup": "Enemies spread 1 of their debuffs to all other enemies."
+  },
+  {
+    "key": "PETRIFY",
+    "name": "Petrify",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "PLANETS",
+    "name": "Planets",
+    "markup": "Enemies take a large amount of damage."
+  },
+  {
+    "key": "POISONGAS",
+    "name": "Poison Gas",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "PROTECT",
+    "name": "Protect",
+    "markup": "Target gains {CONDNAME_BUFF_PROTECT} and {CONDNAME_BUFF_WARD}. Then, it {ACTION_defends}."
+  },
+  {
+    "key": "PSIONICBLAST",
+    "name": "Psionic Blast",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_WEAK}."
+  },
+  {
+    "key": "PURGATORY",
+    "name": "Purgatory",
+    "markup": "Target is sent to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "RABIDDEMENTIA",
+    "name": "Rabid Dementia",
+    "markup": "Target {ACTION_attacks} a random enemy for 200% normal damage."
+  },
+  {
+    "key": "RAINOFBLOOD",
+    "name": "Rain of Blood",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "RAPTURE",
+    "name": "Rapture",
+    "markup": "Enemies take a massive amount of damage and are afflicted with {CONDNAME_DEBUFF_WEAK} and {CONDNAME_DEBUFF_VULNERABLE}."
+  },
+  {
+    "key": "RAZE",
+    "name": "Raze",
+    "markup": "Enemies take damage equal to 2 turns of their {CONDNAME_DEBUFF_BURNED} debuff."
+  },
+  {
+    "key": "VILIFY",
+    "name": "Vilify",
+    "markup": "Enemies are no longer {ACTION_defending} or {ACTION_provoking}."
+  },
+  {
+    "key": "REDIRECTION",
+    "name": "Redirection",
+    "markup": "Target gains a moderate amount of {STAT_defense} and it {ACTION_provokes}."
+  },
+  {
+    "key": "REFRESH",
+    "name": "Refresh",
+    "markup": "Target's debuffs are removed."
+  },
+  {
+    "key": "REINCARNATION",
+    "name": "Reincarnation",
+    "markup": "Target is killed, then resurrected with a massive amount of {STAT_health}."
+  },
+  {
+    "key": "REQUIEM",
+    "name": "Requiem",
+    "markup": "Your creatures are resurrected with a moderate amount of {STAT_health}."
+  },
+  {
+    "key": "RESURRECTION",
+    "name": "Resurrection",
+    "markup": "Target is resurrected with a moderate amount of {STAT_health}."
+  },
+  {
+    "key": "RIGHTEOUSSTORM",
+    "name": "Righteous Storm",
+    "markup": "Enemies take a small amount of damage and lose a small amount of {STAT_attack}."
+  },
+  {
+    "key": "SABOTAGE",
+    "name": "Sabotage",
+    "markup": "Target {ACTION_attacks} the caster 3 times for 5% normal damage. These attacks cannot be dodged, and always deal at least 1 damage."
+  },
+  {
+    "key": "SACREDGROUND",
+    "name": "Sacred Ground",
+    "markup": "All creatures are afflicted with {CONDNAME_DEBUFF_SCORN}."
+  },
+  {
+    "key": "SANDSTORM",
+    "name": "Sandstorm",
+    "markup": "Enemies take a moderate amount of damage and are afflicted with {CONDNAME_DEBUFF_BLIND}."
+  },
+  {
+    "key": "SAVAGEROAR",
+    "name": "Savage Roar",
+    "markup": "Your creatures gain a massive amount of {STAT_attack}."
+  },
+  {
+    "key": "SAVAGESPORES",
+    "name": "Savage Spores",
+    "markup": "All the creatures on the battlefield become {CONDNAME_BUFF_BERSERK} and lose 40% {STAT_defense}."
+  },
+  {
+    "key": "SCOURGECHAOS",
+    "name": "Scourge Chaos",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Chaos} creature."
+  },
+  {
+    "key": "SCOURGEDEATH",
+    "name": "Scourge Death",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Death} creature."
+  },
+  {
+    "key": "SCOURGELIFE",
+    "name": "Scourge Life",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Life} creature."
+  },
+  {
+    "key": "SCOURGENATURE",
+    "name": "Scourge Nature",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Nature} creature."
+  },
+  {
+    "key": "SCOURGESORCERY",
+    "name": "Scourge Sorcery",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Sorcery} creature."
+  },
+  {
+    "key": "SERENDIPITY",
+    "name": "Serendipity",
+    "markup": "Your creatures gain {CONDNAME_BUFF_SAVAGE} and {CONDNAME_BUFF_AGILE}."
+  },
+  {
+    "key": "SHADOWINFUSION",
+    "name": "Shadow Infusion",
+    "markup": "Target gains a large amount of {STAT_attack} and {STAT_speed}."
+  },
+  {
+    "key": "SHATTER",
+    "name": "Shatter",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "SHELLBUST",
+    "name": "Shellbust",
+    "markup": "Target loses a moderate amount of {STAT_defense} and takes damage equal to 150% of the amount reduced."
+  },
+  {
+    "key": "SMOKEBOMB",
+    "name": "Smoke Bomb",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_BLIND}."
+  },
+  {
+    "key": "SNOWSTORM",
+    "name": "Snowstorm",
+    "markup": "Enemies take a large amount of damage and have a 50% chance to be afflicted with {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "SOULHARVEST",
+    "name": "Soul Harvest",
+    "markup": "Caster steals a small amount of {STAT_intelligence} from all enemies."
+  },
+  {
+    "key": "SOULSACRIFICE",
+    "name": "Soul Sacrifice",
+    "markup": "Your creatures' {STAT_health} is set to 70%."
+  },
+  {
+    "key": "SPECTRALSWORDS",
+    "name": "Spectral Swords",
+    "markup": "Target takes a moderate amount of damage. The damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "SPELLBLAST",
+    "name": "Spell Blast",
+    "markup": "Target takes a small amount of damage. The amount of damage is increased by 10% for each {STAT_charge} this Spell Gem has."
+  },
+  {
+    "key": "SPELLBREATH",
+    "name": "Spell Breath",
+    "markup": "Enemies take a moderate amount of damage. 50% of the damage is based on the caster's {STAT_attack} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "SPELLFLOW",
+    "name": "Spell Flow",
+    "markup": "Target gains {CONDNAME_BUFF_ARCANE} and {CONDNAME_BUFF_WARD}."
+  },
+  {
+    "key": "SPELLLOCK",
+    "name": "Spell Lock",
+    "markup": "All creatures are afflicted with {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "SPELLSTRIKE",
+    "name": "Spell Strike",
+    "markup": "Target takes a moderate amount of damage. 50% of the damage is based on the caster's {STAT_attack} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "SPELLWARD",
+    "name": "Spell Ward",
+    "markup": "Your creatures gain {CONDNAME_BUFF_WARD}."
+  },
+  {
+    "key": "SPLITPUNCH",
+    "name": "Split Punch",
+    "markup": "Target takes a large amount of damage and is afflicted with {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "STARFIRE",
+    "name": "Starfire",
+    "markup": "Enemies take a moderate amount of damage and are afflicted with either {CONDNAME_DEBUFF_SCORN} or {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "STASISSWORD",
+    "name": "Stasis Sword",
+    "markup": "Target takes a large amount of damage and is afflicted with {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "STONESKIN",
+    "name": "Stone Skin",
+    "markup": "Target gains a massive amount of Maximum {STAT_health}."
+  },
+  {
+    "key": "VOLCANO",
+    "name": "Volcano",
+    "markup": "Enemies take a large amount of damage and are afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "SUDDENDEATH",
+    "name": "Sudden Death",
+    "markup": "Target ally is killed, and enemies take damage equal to 25% of its Current {STAT_health}."
+  },
+  {
+    "key": "SUFFOCATION",
+    "name": "Suffocation",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_SILENCE} and {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "DESPERATION",
+    "name": "Desperation",
+    "markup": "Target gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to its {STAT_defense}, and loses 50% {STAT_defense}."
+  },
+  {
+    "key": "DARKTRANQUILITY",
+    "name": "Dark Tranquility",
+    "markup": "If the target has less than 85% {STAT_health}, its {STAT_health} is inverted."
+  },
+  {
+    "key": "SHADOWCRASH",
+    "name": "Shadow Crash",
+    "markup": "Enemies take damage equal to 10% of the caster's {STAT_intelligence} for each time they've cast a spell in the current battle."
+  },
+  {
+    "key": "LINGERINGINSANITY",
+    "name": "Lingering Insanity",
+    "markup": "Enemies take a small amount of damage. 100% of the damage is based on the enemies' {STAT_intelligence} instead of the caster's."
+  },
+  {
+    "key": "MADNESS",
+    "name": "Madness",
+    "markup": "Target and the caster take a devastating amount of damage."
+  },
+  {
+    "key": "TERROR",
+    "name": "Terror",
+    "markup": "Target loses a large amount of {STAT_defense} and is afflicted with {CONDNAME_DEBUFF_FEAR}."
+  },
+  {
+    "key": "TIMEWALK",
+    "name": "Timewalk",
+    "markup": "Target executes its start-of-turn effects and increases the number of turns it has taken by 1. This spell can only ever target 1 creature and can only be {ACTION_cast} once at a time."
+  },
+  {
+    "key": "TRUELIGHT",
+    "name": "True Light",
+    "markup": "Your creatures gain a large amount of {STAT_defense}, and enemies lose a large amount of {STAT_defense}."
+  },
+  {
+    "key": "TSUNAMI",
+    "name": "Tsunami",
+    "markup": "Enemies take a moderate amount of damage and lose a large amount of {STAT_speed}."
+  },
+  {
+    "key": "UNHOLYAUGMENTATION",
+    "name": "Unholy Augmentation",
+    "markup": "Your creatures gain {CONDNAME_BUFF_REPELLING}."
+  },
+  {
+    "key": "UNHOLYCONFESSIONS",
+    "name": "Unholy Confessions",
+    "markup": "Your creatures gain a moderate amount of {STAT_intelligence}."
+  },
+  {
+    "key": "UNHOLYFRENZY",
+    "name": "Unholy Frenzy",
+    "markup": "Your creatures gain {CONDNAME_BUFF_BERSERK}."
+  },
+  {
+    "key": "VACUUM",
+    "name": "Vacuum",
+    "markup": "Caster gains the target's trait."
+  },
+  {
+    "key": "VAMPIRISM",
+    "name": "Vampirism",
+    "markup": "Your creatures gain {CONDNAME_BUFF_LEECH}."
+  },
+  {
+    "key": "VERTIGO",
+    "name": "Vertigo",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_CONFUSED}."
+  },
+  {
+    "key": "APOCALYPSE",
+    "name": "Apocalypse",
+    "markup": "All creatures take a massive amount of damage."
+  },
+  {
+    "key": "BUTCHER",
+    "name": "Butcher",
+    "markup": "Target takes a devastating amount of damage. In addition, your creatures gain {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} equal to 30% of the damage dealt. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "CHAOSNEXUS",
+    "name": "Chaos Nexus",
+    "markup": "Enemies' classes are changed to match that of the target for the rest of the battle."
+  },
+  {
+    "key": "CONFLAGRATION",
+    "name": "Conflagration",
+    "markup": "Target takes a small amount of damage, and all enemies take damage equal to 35% of the damage the target's {CONDNAME_DEBUFF_BURNED} debuff would deal over its remaining duration."
+  },
+  {
+    "key": "DOUBLEPUNCH",
+    "name": "Double Punch",
+    "markup": "Target takes a small amount of damage twice. 100% of the damage dealt is based on the caster's {STAT_attack} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "EVISCERATE",
+    "name": "Eviscerate",
+    "markup": "Target takes damage. The amount of damage is increased based on how much {STAT_health} the target is missing."
+  },
+  {
+    "key": "FIREWALL",
+    "name": "Firewall",
+    "markup": "Enemies take a moderate amount of damage. Your creatures gain a moderate amount of {STAT_defense}."
+  },
+  {
+    "key": "DEMONICSTRIKE",
+    "name": "Demonic Strike",
+    "markup": "Target takes a moderate amount of damage, plus 50% more damage for each enemy of the same class fighting on the target's side."
+  },
+  {
+    "key": "HEATWAVE",
+    "name": "Heat Wave",
+    "markup": "Enemies take a large amount of damage. In addition, enemies' Maximum {STAT_health} is reduced by the amount of damage dealt. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "IMPALE",
+    "name": "Impale",
+    "markup": "Target takes a large amount of damage, and enemies adjacent to the target take 75% of that damage."
+  },
+  {
+    "key": "KICK",
+    "name": "Kick",
+    "markup": "Target takes a moderate amount of damage, plus 25% more damage for each debuff it has."
+  },
+  {
+    "key": "LACERATE",
+    "name": "Lacerate",
+    "markup": "If the target has {CONDNAME_DEBUFF_BLEED}, it takes a massive amount of damage. Otherwise, deals a moderate amount of damage and afflicts the target with {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "MAGMAORB",
+    "name": "Magma Orb",
+    "markup": "Target takes a moderate amount of damage, and random enemies take a moderate amount of damage for each debuff the target has."
+  },
+  {
+    "key": "MUTILATE",
+    "name": "Mutilate",
+    "markup": "Target takes damage equal to 50% of the caster's Current {STAT_health}."
+  },
+  {
+    "key": "RAVAGE",
+    "name": "Ravage",
+    "markup": "Target takes a moderate amount of damage and loses a moderate amount of {STAT_defense}."
+  },
+  {
+    "key": "REND",
+    "name": "Rend",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "SHIELDBASH",
+    "name": "Shield Bash",
+    "markup": "Target takes a small amount of damage and is afflicted with {CONDNAME_DEBUFF_CONFUSED}. 100% of the damage dealt is based on the caster's {STAT_defense} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "SHIELDSLAM",
+    "name": "Shield Slam",
+    "markup": "Target takes a moderate amount of damage and has a 35% chance to be sent to the bottom of the {TIMELINE}. 100% of the damage is based on the caster's {STAT_defense} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "SUNDER",
+    "name": "Sunder",
+    "markup": "Enemies take a large amount of damage and their {STAT_defense} and {STAT_speed} are set to their minimum values. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "WHIPLASH",
+    "name": "Whiplash",
+    "markup": "Target takes a small amount of damage and is afflicted with {CONDNAME_DEBUFF_BLEED}. 100% of the damage dealt is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "BONEOFFERING",
+    "name": "Bone Offering",
+    "markup": "Target loses a large amount of {STAT_defense}, and your creatures gain 20% of that amount."
+  },
+  {
+    "key": "BONESPEAR",
+    "name": "Bone Spear",
+    "markup": "Target takes a moderate amount of damage. If the amount of damage exceeds 25% of the target's Maximum {STAT_health}, all other enemies take a moderate amount of damage as well."
+  },
+  {
+    "key": "SUMMONCONQUEST",
+    "name": "Summon Conquest",
+    "markup": "Caster gains {CONDNAME_MINION_CONQUEST}."
+  },
+  {
+    "key": "SUMMONDEATH",
+    "name": "Summon Death",
+    "markup": "Caster gains {CONDNAME_MINION_DEATH}."
+  },
+  {
+    "key": "SUMMONFAMINE",
+    "name": "Summon Famine",
+    "markup": "Caster gains {CONDNAME_MINION_FAMINE}."
+  },
+  {
+    "key": "SUMMONWAR",
+    "name": "Summon War",
+    "markup": "Caster gains {CONDNAME_MINION_WAR}."
+  },
+  {
+    "key": "CLAWINGSHADOWS",
+    "name": "Clawing Shadows",
+    "markup": "Target takes a moderate amount of damage. The damage is based on the caster's highest stat instead of {STAT_intelligence}."
+  },
+  {
+    "key": "CORPSESHIELD",
+    "name": "Corpse Shield",
+    "markup": "Your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs a large amount of damage for each of your dead creatures."
+  },
+  {
+    "key": "CRUCIFIXION",
+    "name": "Crucifixion",
+    "markup": "Target takes a large amount of damage, plus 35% more damage for each minion the caster has."
+  },
+  {
+    "key": "DARKSTRIKE",
+    "name": "Dark Strike",
+    "markup": "Target takes a devastating amount of damage, and is afflicted with all debuffs. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "DARKTRANSFORMATION",
+    "name": "Dark Transformation",
+    "markup": "Target gains a moderate amount of {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each minion it has."
+  },
+  {
+    "key": "DEATHBLOSSOM",
+    "name": "Death Blossom",
+    "markup": "Enemies take a small amount of damage 3 times."
+  },
+  {
+    "key": "DEBILITATE",
+    "name": "Debilitate",
+    "markup": "Target loses access to the extra traits it gained during battle."
+  },
+  {
+    "key": "DEFYLIGHT",
+    "name": "Defy Light",
+    "markup": "Enemies' classes are changed to {CLASS_Death}."
+  },
+  {
+    "key": "DESECRATE",
+    "name": "Desecrate",
+    "markup": "Target takes a moderate amount of damage, plus 100% more damage for each enemy of the same race fighting on the target's side."
+  },
+  {
+    "key": "EPIDEMIC",
+    "name": "Epidemic",
+    "markup": "Afflicts all enemies with a copy of all the target's debuffs."
+  },
+  {
+    "key": "FLESHOFFERING",
+    "name": "Flesh Offering",
+    "markup": "Target loses a large amount of Maximum {STAT_health}, and your creatures gain 20% of that amount."
+  },
+  {
+    "key": "GHOSTLYSCIMITAR",
+    "name": "Ghostly Scimitar",
+    "markup": "Target takes a devastating amount of damage which also ignores 80% of the target's {STAT_defense}. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "SPIRITOFFERING",
+    "name": "Spirit Offering",
+    "markup": "Target loses a large amount of {STAT_intelligence}, and your creatures gain 20% of that amount."
+  },
+  {
+    "key": "TIMELYDEMISE",
+    "name": "Timely Demise",
+    "markup": "Enemies take a small amount of damage. The damage is increased based on the duration of the current battle."
+  },
+  {
+    "key": "ANCIENTPRAYER",
+    "name": "Ancient Prayer",
+    "markup": "Your creatures gain copies of all the target's buffs."
+  },
+  {
+    "key": "ASCENSION",
+    "name": "Ascension",
+    "markup": "Caster gains a random trait. This spell cannot be cast manually, but has a 50% chance to cast when the caster {ACTION_defends} or {ACTION_provokes}."
+  },
+  {
+    "key": "CHASTISE",
+    "name": "Chastise",
+    "markup": "Target takes a small amount of damage."
+  },
+  {
+    "key": "COMET",
+    "name": "Comet",
+    "markup": "Enemies take a moderate amount of damage, multiplied by the number of turns the caster has taken in the current battle. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "DIVINEAEGIS",
+    "name": "Divine Aegis",
+    "markup": "Caster gains a {CONDNAME_BUFF_BARRIER} that absorbs a moderate amount of damage."
+  },
+  {
+    "key": "EPIPHANY",
+    "name": "Epiphany",
+    "markup": "Your creatures' races are changed to match that of the caster for the rest of the battle."
+  },
+  {
+    "key": "GLORY",
+    "name": "Glory",
+    "markup": "Each of the caster's other, permanent Spell Gems have a 30% chance to be {ACTION_cast}. Maximum of 3 spells can be {ACTION_cast}."
+  },
+  {
+    "key": "GOODFORTUNE",
+    "name": "Good Fortune",
+    "markup": "Your creatures gain all buffs. This spell does not activate on-buff effects. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "HOLYSTRIKE",
+    "name": "Holy Strike",
+    "markup": "Target takes a devastating amount of damage, and your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of the damage dealt. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "HOLYFIRE",
+    "name": "Holy Fire",
+    "markup": "Enemies take damage equal to 30% of the caster's {CONDNAME_BUFF_BARRIER} strength."
+  },
+  {
+    "key": "HOLYNOVA",
+    "name": "Holy Nova",
+    "markup": "Enemies take a moderate amount of damage, and your creatures recover a moderate amount of {STAT_health}."
+  },
+  {
+    "key": "HOLYSPEAR",
+    "name": "Holy Spear",
+    "markup": "Target takes damage equal to 50% of the caster's {CONDNAME_BUFF_BARRIER} strength."
+  },
+  {
+    "key": "INNERSTRENGTH",
+    "name": "Inner Strength",
+    "markup": "Your creatures gain a massive amount of {STAT_attack}, {STAT_intelligence}, {STAT_speed}, or {STAT_defense}. The stat is chosen at random."
+  },
+  {
+    "key": "LIFELINE",
+    "name": "Lifeline",
+    "markup": "Caster recovers 100% {STAT_health}."
+  },
+  {
+    "key": "CONDEMNLIGHT",
+    "name": "Condemn Light",
+    "markup": "Enemies' classes are changed to {CLASS_Life}."
+  },
+  {
+    "key": "SACRIFICETOTHELIGHT",
+    "name": "Sacrifice to the Light",
+    "markup": "When the caster dies, it resurrects with 100% {STAT_health}. This spell cannot be cast manually."
+  },
+  {
+    "key": "STARPACT",
+    "name": "Star Pact",
+    "markup": "Enemies take a massive amount of damage, plus 10% damage for each buff this creature has."
+  },
+  {
+    "key": "THOUGHTSANDPRAYERS",
+    "name": "Thoughts and Prayers",
+    "markup": "This spell casts three additional times, but doesn't do anything."
+  },
+  {
+    "key": "ZEPHYR",
+    "name": "Zephyr",
+    "markup": "Your creatures recover a moderate amount of {STAT_health}, plus 25% more healing for each {CLASS_Life} creature fighting on your side."
+  },
+  {
+    "key": "AVALANCHE",
+    "name": "Avalanche",
+    "markup": "Enemies take a devastating amount of damage and are sent to the bottom of the {TIMELINE}. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "BOULDER",
+    "name": "Boulder",
+    "markup": "Target takes a massive amount of damage."
+  },
+  {
+    "key": "SOOTHINGBREEZE",
+    "name": "Soothing Breeze",
+    "markup": "Target recovers a massive amount of {STAT_health}."
+  },
+  {
+    "key": "EARTHQUAKE",
+    "name": "Earthquake",
+    "markup": "Enemies take a large amount of damage and their minions are removed."
+  },
+  {
+    "key": "ENTANGLINGARROW",
+    "name": "Entangling Arrow",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_SNARED}. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "FIREARROW",
+    "name": "Fire Arrow",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_BURNED}. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "FROSTARROW",
+    "name": "Frost Arrow",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_FROZEN}. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "GLACIER",
+    "name": "Glacier",
+    "markup": "Target takes a large amount of damage and is afflicted with {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "HOMINGARROW",
+    "name": "Homing Arrow",
+    "markup": "Target takes a moderate amount of damage that ignores 50% of the target's {STAT_defense}. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "LIGHTNINGSTORM",
+    "name": "Lightning Storm",
+    "markup": "Enemies take a massive amount of damage, and the caster is afflicted with {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "METEORSHOWER",
+    "name": "Meteor Shower",
+    "markup": "Enemies take a moderate amount of damage three times."
+  },
+  {
+    "key": "PEACE",
+    "name": "Peace",
+    "markup": "Enemies' {STAT_attack} or {STAT_intelligence} (whichever is highest) is set to its minimum value. Then, afflict each enemy with {CONDNAME_DEBUFF_SCORN} or {CONDNAME_DEBUFF_SILENCE}, depending on whether their {STAT_attack} or {STAT_intelligence} was unaffected. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "POISONARROW",
+    "name": "Poison Arrow",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_POISON}. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "PROFANITY",
+    "name": "Profanity",
+    "markup": "Target {ACTION_provokes}."
+  },
+  {
+    "key": "SEDUCTION",
+    "name": "Seduction",
+    "markup": "Each enemy gives 25% of their {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} to your creatures in the enemies' corresponding positions. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "LYCANTHROPY",
+    "name": "Lycanthropy",
+    "markup": "Caster transforms into a random {CLASS_Nature} creature with 100% {STAT_health}. Then, this Spell Gem is Sealed. This spell cannot be cast manually, but has a 100% chance to cast when this creature takes damage while it is below 25% {STAT_health}."
+  },
+  {
+    "key": "SHOCK",
+    "name": "Shock",
+    "markup": "Enemies take a moderate amount of damage, plus 20% more damage for each debuff they have."
+  },
+  {
+    "key": "SPLITTINGARROW",
+    "name": "Splitting Arrow",
+    "markup": "Enemies take a small amount of damage. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "STAMPEDE",
+    "name": "Stampede",
+    "markup": "Each of your creatures {ACTION_attack} an enemy for 50% normal damage. Each creature targets an enemy in their corresponding position."
+  },
+  {
+    "key": "WINDSHEAR",
+    "name": "Wind Shear",
+    "markup": "Enemies take a small amount of damage, plus 35% more damage for each {CLASS_Nature} creature fighting on your side."
+  },
+  {
+    "key": "BANISH",
+    "name": "Banish",
+    "markup": "Target's minions are removed."
+  },
+  {
+    "key": "ASTRALDIMENSION",
+    "name": "Astral Dimension",
+    "markup": "Your creatures' Spell Gems are unsealed. This Spell Gem cannot be Sealed."
+  },
+  {
+    "key": "BLACKICE",
+    "name": "Black Ice",
+    "markup": "Each enemy has a 50% chance to be afflicted with {CONDNAME_DEBUFF_FROZEN}, and each of your creatures have a 50% chance to gain {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "BRAINFREEZE",
+    "name": "Brain Freeze",
+    "markup": "Enemies' Spell Gems they've cast in the current battle are Sealed."
+  },
+  {
+    "key": "CRYSTALSHIELD",
+    "name": "Crystal Shield",
+    "markup": "Your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of their {STAT_defense}."
+  },
+  {
+    "key": "DRAINLIFE",
+    "name": "Drain Life",
+    "markup": "Target takes a moderate amount of damage, and all your creatures recover {STAT_health} equal to 100% of the damage dealt."
+  },
+  {
+    "key": "DRAINPOWER",
+    "name": "Drain Power",
+    "markup": "Target's Spell Gems lose 1 {STAT_charge}, and the caster's other Spell Gems gain 1 {STAT_charge}."
+  },
+  {
+    "key": "EAGLECLAWS",
+    "name": "Eagle Claws",
+    "markup": "Caster {ACTION_attacks} each enemy 2 times, and your creatures gain 10% {STAT_speed} for each attack. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "ELEMENTALTOME",
+    "name": "Elemental Tome",
+    "markup": "Your creatures each gain a random Spell Gem."
+  },
+  {
+    "key": "ETHEREALKNIVES",
+    "name": "Ethereal Knives",
+    "markup": "Enemies take a moderate amount of damage. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "EXHAUSTION",
+    "name": "Exhaustion",
+    "markup": "Battle fatigue is doubled."
+  },
+  {
+    "key": "FROSTHAMMER",
+    "name": "Frost Hammer",
+    "markup": "Target takes a devastating amount of damage, is afflicted with {CONDNAME_DEBUFF_FROZEN}, and is sent to the bottom of the {TIMELINE}. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "ILLUSION",
+    "name": "Illusion",
+    "markup": "Your creatures gain an {CONDNAME_MINION_ILLUSION}. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "ELEMENTALBARRAGE",
+    "name": "Elemental Barrage",
+    "markup": "The last 3 Spell Gems that were cast by any creature in the current battle are cast again in your favor."
+  },
+  {
+    "key": "UNSTABLEANOMALY",
+    "name": "Unstable Anomaly",
+    "markup": "Enemies take a small amount of damage multiplied by the number of times your creatures have {ACTION_cast} a spell in the current battle. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "MINDEXPLOSION",
+    "name": "Mind Explosion",
+    "markup": "Target takes a moderate amount of damage. 100% of the damage is based on the target's {STAT_intelligence} instead of the caster's {STAT_intelligence}."
+  },
+  {
+    "key": "PERMAFROST",
+    "name": "Permafrost",
+    "markup": "Enemies that are {CONDNAME_DEBUFF_FROZEN} are afflicted with {CONDNAME_DEBUFF_SNARED}."
+  },
+  {
+    "key": "STEELSTORM",
+    "name": "Steel Storm",
+    "markup": "Enemies take a massive amount of damage."
+  },
+  {
+    "key": "VERDANTSPHERES",
+    "name": "Verdant Spheres",
+    "markup": "The caster {ACTION_casts} 3 of the target's Spell Gems in your favor."
+  },
+  {
+    "key": "WORMHOLE",
+    "name": "Wormhole",
+    "markup": "Caster swaps positions with the target on the {TIMELINE}."
+  },
+  {
+    "key": "FLOODOFDARKNESS",
+    "name": "Flood of Darkness",
+    "markup": "Enemies with {CONDNAME_DEBUFF_CURSED} {ACTION_attack} their allies at random."
+  },
+  {
+    "key": "REVERSEPOLARITY",
+    "name": "Reverse Polarity",
+    "markup": "Target's debuffs are converted to random buffs."
+  },
+  {
+    "key": "STELLARFLARE",
+    "name": "Stellar Flare",
+    "markup": "Enemies take a small amount of damage, plus 10% more damage for each time the caster has {ACTION_defended} and {ACTION_provoked} in the current battle."
+  },
+  {
+    "key": "ABUNDANCE",
+    "name": "Abundance",
+    "markup": "Your creatures recover a small amount of {STAT_health} and gain a small amount of {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}."
+  },
+  {
+    "key": "STONEWARD",
+    "name": "Stone Ward",
+    "markup": "Target gains a small amount of {STAT_defense}. Then, it {ACTION_defends} and {ACTION_provokes}."
+  },
+  {
+    "key": "SENSUALCIDER",
+    "name": "Sensual Cider",
+    "markup": "Your creatures recover a large amount of {STAT_health}. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "BANGIN'BOURBON",
+    "name": "Bangin' Bourbon",
+    "markup": "Deals a massive amount of damage to the target, then bounces to each of the target's allies at random. The damage is reduced by 20% for each bounce. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "ARIDALCOHOL",
+    "name": "Arid Alcohol",
+    "markup": "Enemies are afflicted with a random debuff (minimum of 1, maximum of 3) for every 2 debuffs they have. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "POTENTPORTER",
+    "name": "Potent Porter",
+    "markup": "Caster {ACTION_casts} 2 of its permanent Spell Gems. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "SUCCULENTSCOTCH",
+    "name": "Succulent Scotch",
+    "markup": "All the creatures on the battlefield {ACTION_attack} themselves. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "VIVACIOUSVODKA",
+    "name": "Vivacious Vodka",
+    "markup": "One of your creatures is moved to the top of the {TIMELINE}. This spell can only ever target 1 creature and can only be {ACTION_cast} once at a time. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "SECRETSTUFF",
+    "name": "Secret Stuff",
+    "markup": "The enemy with the highest {STAT_attack} {ACTION_attacks} one of its allies for 200% normal damage. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "SPICYSUDS",
+    "name": "Spicy Suds",
+    "markup": "Your creatures with {CONDNAME_BUFF_SPLASH} {ACTION_attack} random enemies. Otherwise, they gain {CONDNAME_BUFF_SPLASH}. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "FERMENTEDHOPS",
+    "name": "Fermented Hops",
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLIGHT} are healed for an amount equal to 35% of their Maximum {STAT_health}. Otherwise, they are afflicted with {CONDNAME_DEBUFF_BLIGHT}. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "GODLYGIN",
+    "name": "Godly Gin",
+    "markup": "Your creatures gain {CONDNAME_BUFF_IMMUNITY}. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "MERRYMALT",
+    "name": "Merry Malt",
+    "markup": "Caster gains a random trait that belongs to its race. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "GOLDENSTOUT",
+    "name": "Golden Stout",
+    "markup": "Caster {ACTION_casts} the Spell Gem in its Artifact's Spell Slot. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "RIOTOUSRUM",
+    "name": "Riotous Rum",
+    "markup": "Enemies take a moderate amount of damage and are afflicted with {CONDNAME_DEBUFF_FEAR}. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "LUSCIOUSLAGER",
+    "name": "Luscious Lager",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_SLEEP} and {CONDNAME_DEBUFF_BLIND}. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "AMBERALE",
+    "name": "Amber Ale",
+    "markup": "Target {ACTION_attacks} a random enemy for 300% normal damage. This spell is a {SPELL_alcohol}."
+  },
+  {
+    "key": "VOIDFLARE",
+    "name": "Void Flare",
+    "markup": "If the target has been resurrected in the current battle, it is killed."
+  },
+  {
+    "key": "LIVINGBOOTS",
+    "name": "Living Boots",
+    "markup": "Your creatures gain a moderate amount of {STAT_speed}, plus 65% more for each turn they've taken in the current battle. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGBOW",
+    "name": "Living Bow",
+    "markup": "Caster {ACTION_casts} 3 random Arrow spells. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGCLOAK",
+    "name": "Living Cloak",
+    "markup": "Caster gains a large amount of {STAT_speed} and {CONDNAME_BUFF_INVISIBLE}. The potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGAXE",
+    "name": "Living Axe",
+    "markup": "Target takes a large amount of damage, plus 25% more damage for each {SPELL_equipment} spell the caster has {ACTION_cast} in the current battle. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGGAUNTLET",
+    "name": "Living Gauntlet",
+    "markup": "Caster gains a massive amount of {STAT_attack} and {CONDNAME_BUFF_SAVAGE}. The potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGSWORD",
+    "name": "Living Sword",
+    "markup": "Target takes a large amount of damage, plus damage equal to 50% of the caster's {STAT_attack}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGMACE",
+    "name": "Living Mace",
+    "markup": "Target takes a devastating amount of damage. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGHEAVYSHIELD",
+    "name": "Living Heavy Shield",
+    "markup": "Caster gains a massive amount of {STAT_defense} and {CONDNAME_BUFF_SHELL}. The potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGHELMET",
+    "name": "Living Helmet",
+    "markup": "Caster gains a massive amount of Maximum {STAT_health} and {CONDNAME_BUFF_PROTECT}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGNECKLACE",
+    "name": "Living Necklace",
+    "markup": "Your creatures' Spell Gems are unsealed and their {CONDNAME_DEBUFF_SILENCE} debuffs are removed. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGRIBBON",
+    "name": "Living Ribbon",
+    "markup": "Your creatures gain {CONDNAME_BUFF_IMMUNITY}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGARMOR",
+    "name": "Living Armor",
+    "markup": "Caster gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of its Maximum {STAT_health}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGRING",
+    "name": "Living Ring",
+    "markup": "Target takes a devastating amount of damage. The damage is based on the caster's lowest stat instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGWIZARDHAT",
+    "name": "Living Wizard Hat",
+    "markup": "Caster's Spell Gems do not consume {STAT_charges} for the rest of the battle. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGSTAFF",
+    "name": "Living Staff",
+    "markup": "Enemies take a moderate amount of damage, plus 20% damage for each permanent Spell Gem the caster has equipped. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGCHAOSLANCE",
+    "name": "Living Chaos Lance",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Chaos} creature. The damage is based on the caster's {STAT_attack} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGDEATHLANCE",
+    "name": "Living Death Lance",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Death} creature. The damage is based on the caster's {STAT_attack} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGNATURELANCE",
+    "name": "Living Nature Lance",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Nature} creature. The damage is based on the caster's {STAT_attack} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGSORCERYLANCE",
+    "name": "Living Sorcery Lance",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Sorcery} creature. The damage is based on the caster's {STAT_attack} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGLIFELANCE",
+    "name": "Living Life Lance",
+    "markup": "Target takes a small amount of damage, or massive damage if the target is a {CLASS_Life} creature. The damage is based on the caster's {STAT_attack} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGCHAOSSHIELD",
+    "name": "Living Chaos Shield",
+    "markup": "Caster's class is changed to {CLASS_Chaos}, it gains {CONDNAME_BUFF_TAUNT}, and it gains a moderate amount of {STAT_defense}. The potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGDEATHSHIELD",
+    "name": "Living Death Shield",
+    "markup": "Caster's class is changed to {CLASS_Death}, it gains {CONDNAME_BUFF_LEECH}, and it gains a moderate amount of {STAT_defense}. The potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGNATURESHIELD",
+    "name": "Living Nature Shield",
+    "markup": "Caster's class is changed to {CLASS_Nature}, it gains {CONDNAME_BUFF_INVISIBLE}, and it gains a moderate amount of {STAT_defense}. The potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGSORCERYSHIELD",
+    "name": "Living Sorcery Shield",
+    "markup": "Caster's class is changed to {CLASS_Sorcery}, it gains {CONDNAME_BUFF_WARD}, and it gains a moderate amount of {STAT_defense}. The potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "LIVINGLIFESHIELD",
+    "name": "Living Life Shield",
+    "markup": "Caster's class is changed to {CLASS_Life}, it gains {CONDNAME_BUFF_PROTECT}, and it gains a moderate amount of {STAT_defense}. The potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}. This spell is an {SPELL_equipment}."
+  },
+  {
+    "key": "BLINDSIDE",
+    "name": "Blindside",
+    "markup": "Target takes a small amount of damage. This damage ignores the target's {STAT_defense}."
+  },
+  {
+    "key": "DARKCRYSTAL",
+    "name": "Dark Crystal",
+    "markup": "Target gains {CONDNAME_BUFF_SHELL} and {CONDNAME_BUFF_ARCANE}."
+  },
+  {
+    "key": "IGNISFATUUS",
+    "name": "Ignis Fatuus",
+    "markup": "Target takes a moderate amount of damage, plus 25% more damage for each [temporary] Ethereal Spell Gem it has."
+  },
+  {
+    "key": "COVENANT",
+    "name": "Covenant",
+    "markup": "Target gains {CONDNAME_BUFF_REBIRTH}."
+  },
+  {
+    "key": "SCHISM",
+    "name": "Schism",
+    "markup": "Enemies take a moderate amount of damage. This spell casts a number of times equal to the number of times your creatures have resurrected in the current battle."
+  },
+  {
+    "key": "HOLYSHOCK",
+    "name": "Holy Shock",
+    "markup": "Target takes a moderate amount of damage. This spell casts a number of times equal to the number of enemy creatures that belong to the target's class."
+  },
+  {
+    "key": "DREADBLADE",
+    "name": "Dreadblade",
+    "markup": "Target takes a large amount of damage and is afflicted with {CONDNAME_DEBUFF_FEAR}."
+  },
+  {
+    "key": "SURRENDERTOMADNESS",
+    "name": "Surrender to Madness",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_CONFUSED} and {CONDNAME_DEBUFF_CURSED}."
+  },
+  {
+    "key": "MINDCRUNCH",
+    "name": "Mind Crunch",
+    "markup": "Target takes damage equal to its {STAT_intelligence} minus its {STAT_attack}."
+  },
+  {
+    "key": "SEISMICCRASH",
+    "name": "Seismic Crash",
+    "markup": "Target takes a moderate amount of damage. If the target has {CONDNAME_DEBUFF_STONE}, it has a 25% chance to be killed."
+  },
+  {
+    "key": "DEATH'SCALL",
+    "name": "Death's Call",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_FEAR}, and all its buffs are removed."
+  },
+  {
+    "key": "CRUSHINGIMPACT",
+    "name": "Crushing Impact",
+    "markup": "Creatures to the left and right of the target {ACTION_attack} the target."
+  },
+  {
+    "key": "IMPENDINGDOOM",
+    "name": "Impending Doom",
+    "markup": "Target has a 5% chance to be killed for each turn it has taken in the current battle."
+  },
+  {
+    "key": "RESONANCE",
+    "name": "Resonance",
+    "markup": "Enemies take a small amount of damage, or a large amount of damage if they are afflicted with {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "GORECLAWS",
+    "name": "Gore Claws",
+    "markup": "Target takes a moderate amount of damage, plus 5% more damage for every 1% {STAT_health} the target is missing."
+  },
+  {
+    "key": "ENGORGE",
+    "name": "Engorge",
+    "markup": "Target gains a massive amount of Maximum {STAT_health} and loses a massive amount of {STAT_defense} and {STAT_speed}."
+  },
+  {
+    "key": "BLOODBURST",
+    "name": "Blood Burst",
+    "markup": "Target takes a moderate amount of damage, plus 2% more damage for every 1% {STAT_health} it has."
+  },
+  {
+    "key": "VITALITYEXPLOSION",
+    "name": "Vitality Explosion",
+    "markup": "Target takes damage equal to the amount of Maximum {STAT_health} it has greater than its base amount."
+  },
+  {
+    "key": "INNERDESTRUCTION",
+    "name": "Inner Destruction",
+    "markup": "Caster takes a moderate amount of damage. This spell cannot be cast manually, and instead has a 20% chance to be cast by enemies at the start of their turns."
+  },
+  {
+    "key": "GIFTOFTHEWILD",
+    "name": "Gift of the Wild",
+    "markup": "Your creatures recover a small amount of {STAT_health} and gain {CONDNAME_BUFF_REPELLING}."
+  },
+  {
+    "key": "CRUELTYOFTHEWILD",
+    "name": "Cruelty of the Wild",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_BLIGHT}. If they are already afflicted with this debuff, they instead recover a moderate amount of {STAT_health}."
+  },
+  {
+    "key": "FIREWORKS",
+    "name": "Fireworks",
+    "markup": "Enemies take a small amount of damage and have a 50% chance to be afflicted with {CONDNAME_DEBUFF_BOMB}."
+  },
+  {
+    "key": "CAMOUFLAGE",
+    "name": "Camouflage",
+    "markup": "Your creatures' classes are changed to match that of the caster."
+  },
+  {
+    "key": "CONSTRICTION",
+    "name": "Constriction",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_WEAK} and {CONDNAME_DEBUFF_SNARED}."
+  },
+  {
+    "key": "DOUBLESTRIKE",
+    "name": "Double Strike",
+    "markup": "Target takes a moderate amount of damage twice. If the caster has {CONDNAME_BUFF_PROFICIENT}, this spell is cast an additional time and then the {CONDNAME_BUFF_PROFICIENT} buff is removed."
+  },
+  {
+    "key": "EVOLUTION",
+    "name": "Evolution",
+    "markup": "Target creature is transformed into a creature that belongs to its same race, and gains a massive amount of {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed}. If the battle is a boss battle, this spell only works on your creatures."
+  },
+  {
+    "key": "WINDCUTTER",
+    "name": "Windcutter",
+    "markup": "Enemies take a moderate amount of damage. This damage ignores the {CONDNAME_BUFF_SHELL} and {CONDNAME_BUFF_BARRIER} buffs."
+  },
+  {
+    "key": "MANGLE",
+    "name": "Mangle",
+    "markup": "Target takes a small amount of damage, plus damage equal to 3 turns of its {CONDNAME_DEBUFF_BLEED} debuff."
+  },
+  {
+    "key": "EXPLOSIVEARROW",
+    "name": "Explosive Arrow",
+    "markup": "Target takes a moderate amount of damage, or a devastating amount if it has a {CONDNAME_DEBUFF_BOMB}. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "SPIRITBREAKER",
+    "name": "Spirit Breaker",
+    "markup": "Target takes a small amount of damage, plus 50% more damage for each turn it has taken in the current battle."
+  },
+  {
+    "key": "SPECTRALCRASH",
+    "name": "Spectral Crash",
+    "markup": "Target takes a moderate amount of damage, plus 100% more damage if the caster has {CONDNAME_BUFF_SAVAGE}."
+  },
+  {
+    "key": "MISERY",
+    "name": "Misery",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_WEAK}, {CONDNAME_DEBUFF_VULNERABLE}, {CONDNAME_DEBUFF_FEAR}, {CONDNAME_DEBUFF_CURSED}, and {CONDNAME_DEBUFF_SCORN}."
+  },
+  {
+    "key": "BENEDICTION",
+    "name": "Benediction",
+    "markup": "Your creatures recover a massive amount of {STAT_health}."
+  },
+  {
+    "key": "FALSEBELIEFS",
+    "name": "False Beliefs",
+    "markup": "Enemies take damage equal to 100% of the {STAT_health} they've recovered in the current battle."
+  },
+  {
+    "key": "COSMICRIPPLE",
+    "name": "Cosmic Ripple",
+    "markup": "Target takes a moderate amount of damage if it is an enemy, or is healed for a moderate amount of {STAT_health} if it is an ally."
+  },
+  {
+    "key": "INSIGHT",
+    "name": "Insight",
+    "markup": "Target gains {CONDNAME_BUFF_ARCANE}. If it already has {CONDNAME_BUFF_ARCANE}, it {ACTION_casts} a permanent Spell Gem."
+  },
+  {
+    "key": "MINDFIZZLE",
+    "name": "Mind Fizzle",
+    "markup": "Enemies lose a large amount of {STAT_intelligence}."
+  },
+  {
+    "key": "REVERBERATE",
+    "name": "Reverberate",
+    "markup": "Enemies that are afflicted with {CONDNAME_DEBUFF_CONFUSED} {ACTION_attack} one of their allies."
+  },
+  {
+    "key": "PSYCHICRAPTURE",
+    "name": "Psychic Rapture",
+    "markup": "Enemies take a small amount of damage, plus 10% more damage for each [temporary] Ethereal Spell Gem the caster has, up to 200% extra damage."
+  },
+  {
+    "key": "CLAYMAN",
+    "name": "Clayman",
+    "markup": "Target gains Maximum {STAT_health} equal to its Current {STAT_health}."
+  },
+  {
+    "key": "CONJOIN",
+    "name": "Conjoin",
+    "markup": "Potency of the target's {CONDNAME_DEBUFF_BOMB} is increased by 80% of the caster's {STAT_speed}."
+  },
+  {
+    "key": "RUPTURE",
+    "name": "Rupture",
+    "markup": "Target takes a small amount of damage. This damage is increased by the percentage of {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} the caster has over those of the target."
+  },
+  {
+    "key": "ACIDBOMB",
+    "name": "Acid Bomb",
+    "markup": "Target takes a small amount of damage. Then, it takes damage equal to the potency of its {CONDNAME_DEBUFF_BOMB} and this debuff is removed."
+  },
+  {
+    "key": "FAILEDEXPERIMENT",
+    "name": "Failed Experiment",
+    "markup": "Enemies take a small amount of damage, or a massive amount if they are afflicted with {CONDNAME_DEBUFF_VULNERABLE}."
+  },
+  {
+    "key": "CANNIBALIZE",
+    "name": "Cannibalize",
+    "markup": "Target takes a small amount of damage, or a devastating amount of damage if the target's race is the same as that of the caster."
+  },
+  {
+    "key": "PRODUCTIVEBELCH",
+    "name": "Productive Belch",
+    "markup": "Target takes a small amount of damage and is afflicted with {CONDNAME_DEBUFF_DISARMED}."
+  },
+  {
+    "key": "ABSOLUTECORRUPTION",
+    "name": "Absolute Corruption",
+    "markup": "Target's buffs are converted to random debuffs."
+  },
+  {
+    "key": "TOXICSHIELD",
+    "name": "Toxic Shield",
+    "markup": "Target gains 20% {STAT_defense} for each debuff it has. Then, the target's debuffs are removed."
+  },
+  {
+    "key": "SOULFIRE",
+    "name": "Soul Fire",
+    "markup": "Enemies take a moderate amount of damage, plus 10% more damage for each buff they have."
+  },
+  {
+    "key": "GALAXY",
+    "name": "Galaxy",
+    "markup": "Enemies take a small amount of damage, plus 10% more damage for each buff each of your creatures have. Then, these buffs are removed."
+  },
+  {
+    "key": "FULMINATION",
+    "name": "Fulmination",
+    "markup": "Target takes a small amount of damage, multiplied by battle fatigue."
+  },
+  {
+    "key": "HOLYBLAST",
+    "name": "Holy Blast",
+    "markup": "Target's {STAT_health} is set to 25%, and it gains a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 200% of its Maximum {STAT_health}."
+  },
+  {
+    "key": "ELEMENTALWRATH",
+    "name": "Elemental Wrath",
+    "markup": "Enemies take a large amount of damage."
+  },
+  {
+    "key": "INNERVATE",
+    "name": "Innervate",
+    "markup": "Target recovers a small amount of {STAT_health}, or a massive amount if it has {CONDNAME_BUFF_MEND}."
+  },
+  {
+    "key": "CYCLONESTRIKE",
+    "name": "Cyclone Strike",
+    "markup": "Target and all enemies take a devastating amount of damage. The damage is split amongst all enemies."
+  },
+  {
+    "key": "TRANSCENDENCE",
+    "name": "Transcendence",
+    "markup": "Target gains a random trait that belongs to a creature from its race."
+  },
+  {
+    "key": "DOWNBURST",
+    "name": "Downburst",
+    "markup": "Target and the creatures adjacent to it take a moderate amount of damage."
+  },
+  {
+    "key": "ADRENALINERUSH",
+    "name": "Adrenaline Rush",
+    "markup": "Caster {ACTION_attacks} random enemies 3 times. Each attack deals 15% normal damage."
+  },
+  {
+    "key": "ATONEMENT",
+    "name": "Atonement",
+    "markup": "Enemies lose a large amount of {STAT_speed} and {STAT_defense}."
+  },
+  {
+    "key": "BLASTWAVE",
+    "name": "Blastwave",
+    "markup": "Enemies take a small amount of damage, or a massive amount if they are afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "CRACKLE",
+    "name": "Crackle",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_CONFUSED}."
+  },
+  {
+    "key": "DIVINATION",
+    "name": "Divination",
+    "markup": "Target's [temporary] Ethereal Spell Gems are Sealed, and this creature gains a small amount of {STAT_intelligence} for each gem that was Sealed."
+  },
+  {
+    "key": "FLOURISH",
+    "name": "Flourish",
+    "markup": "Your creatures are resurrected with a small amount of {STAT_health}."
+  },
+  {
+    "key": "SUMMONANIMATEDGEM",
+    "name": "Summon Animated Gem",
+    "markup": "Caster gains {CONDNAME_MINION_ANIMATEDGEM}."
+  },
+  {
+    "key": "SUMMONANIMATEDWEAPON",
+    "name": "Summon Animated Weapon",
+    "markup": "Caster gains {CONDNAME_MINION_ANIMATEDWEAPON}."
+  },
+  {
+    "key": "SUMMONDIREWOLF",
+    "name": "Summon Dire Wolf",
+    "markup": "Caster gains 1 stack of {CONDNAME_MINION_DIREWOLF}."
+  },
+  {
+    "key": "SUMMONDOPPELGANGER",
+    "name": "Summon Doppelganger",
+    "markup": "Caster gains {CONDNAME_MINION_DOPPELGANGER}."
+  },
+  {
+    "key": "SUMMONUNSTABLEHORROR",
+    "name": "Summon Unstable Horror",
+    "markup": "Caster gains 1 stack of {CONDNAME_MINION_UNSTABLEHORROR}."
+  },
+  {
+    "key": "SUMMONSPIDERLINGS",
+    "name": "Summon Spiderlings",
+    "markup": "Caster gains 2 stacks of {CONDNAME_MINION_SPIDERLING}."
+  },
+  {
+    "key": "SUMMONWRITHELING",
+    "name": "Summon Writheling",
+    "markup": "Caster gains 1 stack of {CONDNAME_MINION_WRITHELING}."
+  },
+  {
+    "key": "SUMMONZOMBIE",
+    "name": "Summon Zombie",
+    "markup": "Caster gains 1 stack of {CONDNAME_MINION_ZOMBIE}."
+  },
+  {
+    "key": "ACIDRAIN",
+    "name": "Acid Rain",
+    "markup": "Enemies take a moderate amount of damage and lose a large amount of {STAT_defense}."
+  },
+  {
+    "key": "SHOOTOUT",
+    "name": "Shootout",
+    "markup": "Target takes a massive amount of damage. This spell has a 100% chance to deal critical damage and regenerates 1 {STAT_charge} after an enemy is killed. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "RAINOFARROWS",
+    "name": "Rain of Arrows",
+    "markup": "Enemies take a small amount of damage and the caster {ACTION_casts} 5 random Arrow spells. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "GEMBOMB",
+    "name": "Gem Bomb",
+    "markup": "One of the caster's [temporary] Ethereal Spell Gems is Sealed. Then, enemies take damage equal to 5% of the caster's highest stat for each {STAT_charge} the Spell Gem has. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "HUNGERINGVOID",
+    "name": "Hungering Void",
+    "markup": "Enemies take a moderate amount of damage, plus 30% for each time this spell has been {ACTION_cast} in the current battle. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "AFTERLIFE",
+    "name": "Afterlife",
+    "markup": "Your creatures' on-resurrect and on-death effects activate. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "BLOODWAVE",
+    "name": "Bloodwave",
+    "markup": "Enemies take damage equal to 50% of the Maximum {STAT_health} the caster gained in the current battle. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "RUNEOFCOR",
+    "name": "Rune of Cor",
+    "markup": "Target takes a large amount of damage, loses a moderate amount of a random stat, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's highest stat."
+  },
+  {
+    "key": "RUNEOFDUN",
+    "name": "Rune of Dun",
+    "markup": "Target takes a large amount of damage, caster gains a random minion, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's highest stat."
+  },
+  {
+    "key": "RUNEOFLUA",
+    "name": "Rune of Lua",
+    "markup": "Target takes a large amount of damage, caster recovers {STAT_health} equal to 50% of the damage dealt, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's highest stat."
+  },
+  {
+    "key": "RUNEOFNAX",
+    "name": "Rune of Nax",
+    "markup": "Target takes a large amount of damage, caster gains a moderate amount of a random stat, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's highest stat."
+  },
+  {
+    "key": "RUNEOFSAH",
+    "name": "Rune of Sah",
+    "markup": "Target takes a large amount of damage and its buffs and minions are removed, caster's debuffs are removed, and the caster's on-attack effects are activated. 100% of this spell's damage is based on the caster's highest stat."
+  },
+  {
+    "key": "MEGAMAGIC",
+    "name": "Mega Magic",
+    "markup": "Enemies take a large amount of damage."
+  },
+  {
+    "key": "COLORWAVECHAOS",
+    "name": "Colorwave (Chaos)",
+    "markup": "Target takes a devastating amount of damage, plus 50% more damage for each Chaos Infusion you have."
+  },
+  {
+    "key": "COLORWAVEDEATH",
+    "name": "Colorwave (Death)",
+    "markup": "Enemies are afflicted with 3 random debuffs, plus 1 random debuff for each Death Infusion you have."
+  },
+  {
+    "key": "COLORWAVELIFE",
+    "name": "Colorwave (Life)",
+    "markup": "Your creatures gain 5 random buffs, plus 1 random buff for each Life Infusion you have."
+  },
+  {
+    "key": "COLORWAVENATURE",
+    "name": "Colorwave (Nature)",
+    "markup": "Your creatures gain a large amount of stats, plus 50% more stats for each Nature Infusion you have."
+  },
+  {
+    "key": "COLORWAVESORCERY",
+    "name": "Colorwave (Sorcery)",
+    "markup": "Your creatures {ACTION_cast} one of their spells, plus 1 additional spell for each Sorcery Infusion you have."
+  },
+  {
+    "key": "AWAKENEDNETHERORBS",
+    "name": "Awakened Nether Orbs",
+    "markup": "One of the five Nether Orbs (chosen randomly) is awakened to cast a powerful spell. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "CHAOSBLADES",
+    "name": "Chaos Blades",
+    "markup": "Target takes a small amount of damage, plus 5% more damage for each time your creatures have {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "BLOWMIND",
+    "name": "Blow Mind",
+    "markup": "Enemies take a small amount of damage, plus 20% more damage for each time enemies have {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "KNIFE'SEDGE",
+    "name": "Knife's Edge",
+    "markup": "Target takes a large amount of damage, plus 5% more damage for every 1% {STAT_health} the caster is missing."
+  },
+  {
+    "key": "BLADESTORM",
+    "name": "Bladestorm",
+    "markup": "Enemies take a moderate amount of damage, plus 1% more damage for every 1% {STAT_health} each enemy is missing."
+  },
+  {
+    "key": "INFERNALCLAW",
+    "name": "Infernal Claw",
+    "markup": "Target takes a small amount of damage and is afflicted with {CONDNAME_DEBUFF_BURNED}, {CONDNAME_DEBUFF_BLEED}, and {CONDNAME_DEBUFF_VULNERABLE}."
+  },
+  {
+    "key": "MEATGRINDER",
+    "name": "Meat Grinder",
+    "markup": "Enemies take damage equal to 30% of the amount of {STAT_attack} they've lost in the current battle."
+  },
+  {
+    "key": "DEMONWRATH",
+    "name": "Demonwrath",
+    "markup": "Target takes a massive amount of damage, minus 30% damage for each turn the caster has taken in the current battle."
+  },
+  {
+    "key": "DEMONCORE",
+    "name": "Demon Core",
+    "markup": "Your creatures gain a large amount of {STAT_attack} and {STAT_intelligence}, and a random {CLASS_Chaos} Spell Gem."
+  },
+  {
+    "key": "SKEWER",
+    "name": "Skewer",
+    "markup": "Enemies take damage equal to 30% of the amount of damage they've taken from {CONDNAME_DEBUFF_BLEED} in the current battle."
+  },
+  {
+    "key": "LASTSTAND",
+    "name": "Last Stand",
+    "markup": "Target {ACTION_attacks} random enemies 3 times for 200% normal damage. Then, it dies."
+  },
+  {
+    "key": "DEATHGRIP",
+    "name": "Death Grip",
+    "markup": "Target takes a large amount of damage and is sent to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "PHANTASM",
+    "name": "Phantasm",
+    "markup": "Target takes damage equal to 10% of the {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} it lost in the current battle."
+  },
+  {
+    "key": "HAUNT",
+    "name": "Haunt",
+    "markup": "Target takes a small amount of damage and is afflicted with {CONDNAME_DEBUFF_FEAR}. If the target is already afflicted with {CONDNAME_DEBUFF_FEAR}, it is sent to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "ZOMBIECLAP",
+    "name": "Zombie Clap",
+    "markup": "Target takes a large amount of damage and the caster gains 3 stacks of {CONDNAME_MINION_ZOMBIE}."
+  },
+  {
+    "key": "PUSPLOSION",
+    "name": "Pusplosion",
+    "markup": "Enemies take a moderate amount of damage, plus 10% more damage for each debuff each enemy has."
+  },
+  {
+    "key": "DARKTHOUGHTS",
+    "name": "Dark Thoughts",
+    "markup": "Your creatures gain a massive amount of {STAT_intelligence} and are afflicted with {CONDNAME_DEBUFF_SCORN}."
+  },
+  {
+    "key": "DARKSUMMONING",
+    "name": "Dark Summoning",
+    "markup": "Your creatures {ACTION_cast} one of their spells that interact with minions."
+  },
+  {
+    "key": "LANDOFTHEDEAD",
+    "name": "Land of the Dead",
+    "markup": "Your creatures gain {CONDNAME_BUFF_REBIRTH} and then they are killed."
+  },
+  {
+    "key": "UNHOLYRAGE",
+    "name": "Unholy Rage",
+    "markup": "Target's {STAT_defense} and {STAT_speed} are added to their {STAT_attack} and {STAT_intelligence}. Then, their {STAT_defense} and {STAT_speed} are set to their minimum values."
+  },
+  {
+    "key": "BLOODMOON",
+    "name": "Blood Moon",
+    "markup": "Target takes damage equal to 30% of the amount of damage it has taken in the current battle."
+  },
+  {
+    "key": "HOLYSHRINE",
+    "name": "Holy Shrine",
+    "markup": "Your creatures gain a random buff."
+  },
+  {
+    "key": "SANCTUARY",
+    "name": "Sanctuary",
+    "markup": "Your creatures gain {CONDNAME_BUFF_SHELL}, {CONDNAME_BUFF_MEND}, and {CONDNAME_BUFF_REPELLING}."
+  },
+  {
+    "key": "DARKSERAPHIM",
+    "name": "Dark Seraphim",
+    "markup": "Target recovers {STAT_health} equal to 100% of its missing {STAT_health} and gains a massive amount of {STAT_attack}, {STAT_intelligence} and {STAT_speed}."
+  },
+  {
+    "key": "JUDGMENTBLADE",
+    "name": "Judgment Blade",
+    "markup": "Target takes a small amount of damage, plus 10% damage for each time it has {ACTION_attacked} or {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "FRACTURE",
+    "name": "Fracture",
+    "markup": "Target's {CONDNAME_BUFF_BARRIER} explodes and is removed, dealing damage to enemies equal to 200% of the strength of the {CONDNAME_BUFF_BARRIER}."
+  },
+  {
+    "key": "STARBLAST",
+    "name": "Star Blast",
+    "markup": "Target takes a small amount of damage, plus 10% damage for each {STAT_charge} this Spell Gem is missing."
+  },
+  {
+    "key": "FORTIFY",
+    "name": "Fortify",
+    "markup": "Your creatures' {CONDNAME_BUFF_BARRIER} buffs are set to their maximum strength. If they don't have a {CONDNAME_BUFF_BARRIER}, they gain {CONDNAME_BUFF_SHELL}."
+  },
+  {
+    "key": "CONVOKETHESPIRITS",
+    "name": "Convoke the Spirits",
+    "markup": "Target takes a large amount of damage. This spell's class is considered to be whatever class the target is weak against."
+  },
+  {
+    "key": "PHOENIXDOWN",
+    "name": "Phoenix Down",
+    "markup": "Your creatures are resurrected with a moderate amount of {STAT_health} and gain a random buff."
+  },
+  {
+    "key": "UTOPIA",
+    "name": "Utopia",
+    "markup": "All creatures recover {STAT_health} equal to 100% of the amount they're missing."
+  },
+  {
+    "key": "FISTOFTORUN",
+    "name": "Fist of Torun",
+    "markup": "Target takes a devastating amount of damage, and your creatures take damage equal to 20% of the damage dealt."
+  },
+  {
+    "key": "ENTANGLINGROOTS",
+    "name": "Entangling Roots",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_SNARED}."
+  },
+  {
+    "key": "TORUNATTUNEMENT",
+    "name": "Torun Attunement",
+    "markup": "Caster gains 1 stack of {CONDNAME_MINION_LITTLETORUN}."
+  },
+  {
+    "key": "PARASITEEVE",
+    "name": "Parasite Eve",
+    "markup": "Enemies take damage equal to 10% of the amount of stats (other than {STAT_health}) they've gained in the current battle."
+  },
+  {
+    "key": "ANGRYORCHARD",
+    "name": "Angry Orchard",
+    "markup": "Enemies take a moderate amount of damage 4 times."
+  },
+  {
+    "key": "POLISH",
+    "name": "Polish",
+    "markup": "One of the target's Spell Gems regenerates 100% of its {STAT_charges}."
+  },
+  {
+    "key": "TORNADO",
+    "name": "Tornado",
+    "markup": "Target takes a large amount of damage, plus 35% damage for each dead creature."
+  },
+  {
+    "key": "EXPEL",
+    "name": "Expel",
+    "markup": "One of the target's Spell Gems loses 100% of its {STAT_charges}, and enemies take damage equal to 7% of the target's {STAT_intelligence} for each {STAT_charge} removed."
+  },
+  {
+    "key": "ENERGIZE",
+    "name": "Energize",
+    "markup": "Target's Spell Gems' {STAT_charges} are set to 35%."
+  },
+  {
+    "key": "REDOUBT",
+    "name": "Redoubt",
+    "markup": "One of the target's Spell Gems loses 100% of its {STAT_charges}, and it gains {STAT_defense} equal to 7% of the caster's {STAT_intelligence} for each {STAT_charge} removed."
+  },
+  {
+    "key": "DISKOFCREATION",
+    "name": "Disk of Creation",
+    "markup": "Target's stat gains and losses (other than {STAT_health}) are removed."
+  },
+  {
+    "key": "OBELISKOFSUMMONING",
+    "name": "Obelisk of Summoning",
+    "markup": "Target's minions gain their maximum amount of stacks."
+  },
+  {
+    "key": "FINALFORM",
+    "name": "Final Form",
+    "markup": "Target gains {CONDNAME_BUFF_REBIRTH}, {CONDNAME_BUFF_PROTECT}, and {CONDNAME_BUFF_BERSERK}."
+  },
+  {
+    "key": "MINDFLAY",
+    "name": "Mind Flay",
+    "markup": "Target takes a small amount of damage, plus 50% more for each creature between it and the caster on the {TIMELINE}."
+  },
+  {
+    "key": "POP",
+    "name": "Pop",
+    "markup": "Random enemies take a moderate amount of damage. The number of enemies that take damage is equal to the number of times this Spell Gem has been {ACTION_cast} in the current battle."
+  },
+  {
+    "key": "MENTALBARRIER",
+    "name": "Mental Barrier",
+    "markup": "Your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs a massive amount of damage."
+  },
+  {
+    "key": "RUBYPOWER",
+    "name": "Ruby Power",
+    "markup": "Caster {ACTION_casts} the Spell Gem in the target's Artifact's Spell Slot. This spell is even more impressive if you manage to read its description ten times fast out loud."
+  },
+  {
+    "key": "SAPPHIREPOWER",
+    "name": "Sapphire Power",
+    "markup": "Target's Artifact's Spell Slot has a 100% chance to activate for the rest of the battle."
+  },
+  {
+    "key": "EMERALDPOWER",
+    "name": "Emerald Power",
+    "markup": "Your creatures gain a copy of the Spell Gem in the target's Artifact's Spell Slot."
+  },
+  {
+    "key": "MINDGAMES",
+    "name": "Mind Games",
+    "markup": "Target heals your creatures for a large amount of {STAT_health} (based on the caster's {STAT_intelligence})."
+  },
+  {
+    "key": "PLAGUE",
+    "name": "Plague",
+    "markup": "Target recovers a small amount of {STAT_health}. This effect repeats for each enemy with {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "PROSPERITY",
+    "name": "Prosperity",
+    "markup": "Target gains 50% Current {STAT_health}. This does not count as a healing effect."
+  },
+  {
+    "key": "ILLFATE",
+    "name": "Ill Fate",
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLIGHT} recover a moderate amount of {STAT_health}."
+  },
+  {
+    "key": "DEPRESSION",
+    "name": "Depression",
+    "markup": "Target is afflicted with a random debuff for each time it has been healed in the current battle."
+  },
+  {
+    "key": "SAINT'STOUCH",
+    "name": "Saint's Touch",
+    "markup": "Target gains a large amount of its highest stat if it's an ally, or loses a large amount of its highest stat if it's an enemy."
+  },
+  {
+    "key": "DEVASTATION",
+    "name": "Devastation",
+    "markup": "Increases the duration of enemies' {CONDNAME_DEBUFF_BURNED} and {CONDNAME_DEBUFF_POISON} debuffs by 3 turns and increases their potency by 50%."
+  },
+  {
+    "key": "FRUSTRATION",
+    "name": "Frustration",
+    "markup": "Target takes a moderate amount of damage, plus 15% more damage for each debuff the caster has."
+  },
+  {
+    "key": "CONTROLLEDBURN",
+    "name": "Controlled Burn",
+    "markup": "Target takes a large amount of damage, plus 5% more damage for each time the caster has {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "KINDLE",
+    "name": "Kindle",
+    "markup": "Target takes a large amount of damage, plus 5% more damage for each time the caster has {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "FLAMEHEART",
+    "name": "Flameheart",
+    "markup": "Your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to the amount of damage they've taken in the current battle."
+  },
+  {
+    "key": "OVERCHARGE",
+    "name": "Overcharge",
+    "markup": "Target takes a devastating amount of damage. Then, this Spell Gem is Sealed."
+  },
+  {
+    "key": "RUIN",
+    "name": "Ruin",
+    "markup": "Target loses a devastating amount of its highest stat. Then, this Spell Gem is Sealed."
+  },
+  {
+    "key": "MIGHTOFTHEJOTUN",
+    "name": "Might of the Jotun",
+    "markup": "Target gains a massive amount of {STAT_attack}. At the start of its next turn, it {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "RUSE",
+    "name": "Ruse",
+    "markup": "At the start of the target's next turn, it {ACTION_casts} its top-most Spell Gem twice."
+  },
+  {
+    "key": "SPIRITBOND",
+    "name": "Spirit Bond",
+    "markup": "Target gains the caster's trait."
+  },
+  {
+    "key": "MUTAGEN",
+    "name": "Mutagen",
+    "markup": "Target is resurrected with a large amount of {STAT_health} and gains a large amount of stats (excluding {STAT_health})."
+  },
+  {
+    "key": "REPLICATE",
+    "name": "Replicate",
+    "markup": "Caster {ACTION_casts} 2 of its other spells."
+  },
+  {
+    "key": "DREAM",
+    "name": "Dream",
+    "markup": "Caster {ACTION_casts} one of its spells from each class."
+  },
+  {
+    "key": "HYPERTROPHY",
+    "name": "Hypertrophy",
+    "markup": "Target gains Maximum {STAT_health} equal to 35% of its other stats. Then, those stats are set to their minimum values."
+  },
+  {
+    "key": "ACIDBREATH",
+    "name": "Acid Breath",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "PUSTULE",
+    "name": "Pustule",
+    "markup": "Target takes a small amount of damage and all other enemies take damage equal to 200% of the damage dealt."
+  },
+  {
+    "key": "MOUTHBREATHE",
+    "name": "Mouthbreathe",
+    "markup": "Caster loses a large amount of {STAT_intelligence} and enemies take damage equal to 200% of this amount."
+  },
+  {
+    "key": "CLOGGEDPORES",
+    "name": "Clogged Pores",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_POISON}, {CONDNAME_DEBUFF_BURNED}, and {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "ULTIMATEODOR",
+    "name": "Ultimate Odor",
+    "markup": "Enemies take a small amount of damage. This damage repeats for each debuff the caster has."
+  },
+  {
+    "key": "LOVELESS",
+    "name": "Loveless",
+    "markup": "Enemies take damage equal to the amount of {STAT_intelligence} the caster has gained in the current battle. Then, its {STAT_intelligence} is set to its minimum value."
+  },
+  {
+    "key": "LASERBEAM",
+    "name": "Laser Beam",
+    "markup": "Target takes a large amount of damage and loses Maximum {STAT_health} equal to 100% of the damage dealt."
+  },
+  {
+    "key": "HOOHAYHELL",
+    "name": "Hoo Hay Hell",
+    "markup": "Random enemies take a large amount of damage continuously. After each enemy takes damage, the spell has a 35% chance to end."
+  },
+  {
+    "key": "HAHOHA",
+    "name": "Ha Ho Ha",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_FEAR}. If the target is already afflicted with {CONDNAME_DEBUFF_FEAR}, it takes a massive amount of damage instead."
+  },
+  {
+    "key": "CALLHELP",
+    "name": "Call Help",
+    "markup": "Your creatures' minions gain 1 stack."
+  },
+  {
+    "key": "BRETHREN",
+    "name": "Brethren",
+    "markup": "Your other creatures that belong to the caster's race {ACTION_attack} a random enemy."
+  },
+  {
+    "key": "AGGRAVATE",
+    "name": "Aggravate",
+    "markup": "Enemies with {CONDNAME_DEBUFF_CURSED} {ACTION_attack} the caster for 25% normal damage."
+  },
+  {
+    "key": "FEIGNDEATH",
+    "name": "Feign Death",
+    "markup": "Caster's on-death effects are activated."
+  },
+  {
+    "key": "REVELATION",
+    "name": "Revelation",
+    "markup": "Caster's on-resurrect effects are activated."
+  },
+  {
+    "key": "STONEWALL",
+    "name": "Stonewall",
+    "markup": "Your {ACTION_defending} creatures gain a massive amount of {STAT_defense}."
+  },
+  {
+    "key": "WARNING",
+    "name": "Warning",
+    "markup": "Your {ACTION_provoking} creatures gain a massive amount of {STAT_defense}."
+  },
+  {
+    "key": "CHAOSORB",
+    "name": "Chaos Orb",
+    "markup": "Enemies take a large amount of damage and their buffs and minions are removed."
+  },
+  {
+    "key": "DEATHORB",
+    "name": "Death Orb",
+    "markup": "Enemies are afflicted with a random debuff and lose a moderate amount of stats."
+  },
+  {
+    "key": "LIFEORB",
+    "name": "Life Orb",
+    "markup": "Your dead creatures are resurrected with a massive amount of {STAT_health}. Your living creatures are healed for a massive amount of {STAT_health}."
+  },
+  {
+    "key": "NATUREORB",
+    "name": "Nature Orb",
+    "markup": "Your creatures gain a random buff and a moderate amount of stats."
+  },
+  {
+    "key": "SORCERYORB",
+    "name": "Sorcery Orb",
+    "markup": "Your creatures {ACTION_cast} a random spell that belongs to their class."
+  },
+  {
+    "key": "INSINCERITY",
+    "name": "Insincerity",
+    "markup": "Target {ACTION_casts} all its buffing spells in your favor."
+  },
+  {
+    "key": "FRIENDLYFIRE",
+    "name": "Friendly Fire",
+    "markup": "Target {ACTION_casts} one of its single-target spells on one of its allies. This spell cannot {ACTION_cast} itself."
+  },
+  {
+    "key": "ARCANEFALLACY",
+    "name": "Arcane Fallacy",
+    "markup": "Target {ACTION_casts} one of its multiple-target spells on its allies."
+  },
+  {
+    "key": "SUBTERFUGE",
+    "name": "Subterfuge",
+    "markup": "Target {ACTION_attacks} itself. Then, it has a 30% chance to attack itself again. This effect can occur multiple times in a row."
+  },
+  {
+    "key": "BRIGHTWAVE",
+    "name": "Brightwave",
+    "markup": "Target {ACTION_casts} all its healing spells in your favor."
+  },
+  {
+    "key": "FRACKINGSTRIKE",
+    "name": "Fracking Strike",
+    "markup": "Target takes a small amount of damage, plus 10% for each {STAT_charge} this Spell Gem is missing."
+  },
+  {
+    "key": "OVERHEAT",
+    "name": "Overheat",
+    "markup": "Enemies take a small amount of damage, plus 10% for each {STAT_charge} this Spell Gem is missing."
+  },
+  {
+    "key": "MEMENTOOFATTACK",
+    "name": "Memento of Attack",
+    "markup": "This spell doesn't do anything when {ACTION_cast}. The caster has 5% more {STAT_attack} for each {STAT_charge} this Spell Gem is missing."
+  },
+  {
+    "key": "MEMENTOOFINTELLIGENCE",
+    "name": "Memento of Intelligence",
+    "markup": "This spell doesn't do anything when {ACTION_cast}. The caster has 5% more {STAT_intelligence} for each {STAT_charge} this Spell Gem is missing."
+  },
+  {
+    "key": "MEMENTOOFDEFENSE",
+    "name": "Memento of Defense",
+    "markup": "This spell doesn't do anything when {ACTION_cast}. The caster has 5% more {STAT_defense} for each {STAT_charge} this Spell Gem is missing."
+  },
+  {
+    "key": "MEMENTOOFSPEED",
+    "name": "Memento of Speed",
+    "markup": "This spell doesn't do anything when {ACTION_cast}. The caster has 5% more {STAT_speed} for each {STAT_charge} this Spell Gem is missing."
+  },
+  {
+    "key": "RIVERAGAINSTTHECURRENT",
+    "name": "River Against the Current",
+    "markup": "Enemies' buffs are removed."
+  },
+  {
+    "key": "FRAGMENTINGARROW",
+    "name": "Fragmenting Arrow",
+    "markup": "Target takes a moderate amount of damage that ignores 30% of the target's {STAT_defense}. If the damage exceeds 100% of the target's Maximum {STAT_health}, all other enemies take this damage as well. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "RECHARGE",
+    "name": "Recharge",
+    "markup": "Caster's Spell Gems gain 3 {STAT_charge}s."
+  },
+  {
+    "key": "DISINTEGRATINGARROW",
+    "name": "Disintegrating Arrow",
+    "markup": "Target takes a moderate amount of damage. If this spell kills the target, it cannot be resurrected for the rest of the battle. 100% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "FALLINGFEATHERS",
+    "name": "Falling Feathers",
+    "markup": "Random enemies take a moderate amount of damage continuously. After each enemy takes damage, the spell has a 25% chance to end."
+  },
+  {
+    "key": "RADIANTSUNFIRE",
+    "name": "Radiant Sunfire",
+    "markup": "Your creatures gain a random buff and enemies are afflicted with a random debuff for each enemy with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "FRAGILEPERFECTION",
+    "name": "Fragile Perfection",
+    "markup": "Caster gains 3 random buffs and is afflicted with 3 random debuffs."
+  },
+  {
+    "key": "SUBMERGE",
+    "name": "Submerge",
+    "markup": "Enemies take a moderate amount of damage, plus 25% damage for each turn they've taken in the current battle."
+  },
+  {
+    "key": "FIREDEVIL'SRAGE",
+    "name": "Firedevil's Rage",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "RESPLENDENCE",
+    "name": "Resplendence",
+    "markup": "Enemies take a small amount of damage, your creatures recover a small amount of {STAT_health}, and your creatures gain a small amount of Maximum {STAT_health}."
+  },
+  {
+    "key": "DEVASTATINGTHROW",
+    "name": "Devastating Throw",
+    "markup": "Target takes a massive amount of damage and has a 50% chance to be sent to the bottom of the {TIMELINE}. 50% of the damage is based on the caster's {STAT_attack} and 50% of the damage is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "ROLLINGMETEOR",
+    "name": "Rolling Meteor",
+    "markup": "Random enemies continuously take damage equal to 20% of this creature's Current {STAT_health}. After each enemy takes damage, the spell has a 25% chance to end."
+  },
+  {
+    "key": "CHERUB'SMISSILE",
+    "name": "Cherub's Missile",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_SLEEP}, and enemies adjacent to the target are afflicted with a random debuff."
+  },
+  {
+    "key": "PROMETHEANBLAZE",
+    "name": "Promethean Blaze",
+    "markup": "Enemies take a moderate amount of damage and are afflicted with {CONDNAME_DEBUFF_BURNED}. Caster gains {STAT_intelligence} equal to 10% of the damage dealt."
+  },
+  {
+    "key": "DYINGWISH",
+    "name": "Dying Wish",
+    "markup": "Target is sent to the top of the {TIMELINE}. The caster is killed."
+  },
+  {
+    "key": "DUEL",
+    "name": "Duel",
+    "markup": "Target and caster {ACTION_provoke} and {ACTION_attack} each other."
+  },
+  {
+    "key": "CURSEOFTHESWARM",
+    "name": "Curse of the Swarm",
+    "markup": "Enemies are afflicted with a random debuff for each different class of creature fighting on your side."
+  },
+  {
+    "key": "UNSTABLESUMMONING",
+    "name": "Unstable Summoning",
+    "markup": "Target gains a random minion."
+  },
+  {
+    "key": "UNRIGHTEOUSFIRE",
+    "name": "Unrighteous Fire",
+    "markup": "Caster's {STAT_health} is set to 1, and enemies take damage equal to 30% of the amount of {STAT_health} removed."
+  },
+  {
+    "key": "BOILINGBLOOD",
+    "name": "Boiling Blood",
+    "markup": "Target takes a large amount of damage and the caster recovers a large amount of {STAT_health}."
+  },
+  {
+    "key": "ELDERDRAGON'SCALL",
+    "name": "Elder Dragon's Call",
+    "markup": "Target takes a large amount of damage, and all other enemies take 30% of this damage."
+  },
+  {
+    "key": "FEELINGLUCKY",
+    "name": "Feeling Lucky",
+    "markup": "Caster {ACTION_casts} one of its other spells. The targets are chosen at complete random."
+  },
+  {
+    "key": "FREEZINGSTING",
+    "name": "Freezing Sting",
+    "markup": "Target takes a moderate amount of damage, loses a moderate amount of {STAT_speed}, and is afflicted with {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "IMPROVISEDRECITATION",
+    "name": "Improvised Recitation",
+    "markup": "Caster {ACTION_casts} 3 of their [temporary] Ethereal Spell Gems."
+  },
+  {
+    "key": "BLANKSLATE",
+    "name": "Blank Slate",
+    "markup": "All creatures lose access to the extra traits they gained during battle."
+  },
+  {
+    "key": "SMOKEBOLT",
+    "name": "Smoke Bolt",
+    "markup": "Target takes a moderate amount of damage and loses a small amount of {STAT_attack}, {STAT_intelligence} and {STAT_defense}."
+  },
+  {
+    "key": "INFERNALPILLARS",
+    "name": "Infernal Pillars",
+    "markup": "Target takes a small amount of damage, or a massive amount of damage if it is afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "SLAUGHTER",
+    "name": "Slaughter",
+    "markup": "Caster kills its allies."
+  },
+  {
+    "key": "CHRYSALIS",
+    "name": "Chrysalis",
+    "markup": "Target gains a massive amount of {STAT_defense} and is sent to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "UNIVERSALRECALL",
+    "name": "Universal Recall",
+    "markup": "The number of turns all creatures have taken in the current battle is set to 0."
+  },
+  {
+    "key": "LUCK'SGAMBIT",
+    "name": "Luck's Gambit",
+    "markup": "All creatures' [temporary] Ethereal Spell Gems are replaced with different ones."
+  },
+  {
+    "key": "FOXFIRE",
+    "name": "Foxfire",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_BURNED}, and all other enemies are afflicted with either {CONDNAME_DEBUFF_BLIND} or {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "MASSTAUNT",
+    "name": "Mass Taunt",
+    "markup": "Your creatures {ACTION_provoke}."
+  },
+  {
+    "key": "FORBIDDENUNITY",
+    "name": "Forbidden Unity",
+    "markup": "Your creatures {ACTION_cast} the Spell Gem in their first slot. Then, those Spell Gems are sealed."
+  },
+  {
+    "key": "SPECTRALRAIN",
+    "name": "Spectral Rain",
+    "markup": "Increases the potency of all creatures' buffs and debuffs by 50%. This spell does not affect {CONDNAME_DEBUFF_INVERTED}."
+  },
+  {
+    "key": "CURSEOFJIMLY",
+    "name": "Curse of Jimly",
+    "markup": "Enemies are afflicted with a random debuff for every 3 stacks of {CONDNAME_MINION_ZOMBIE} the caster has."
+  },
+  {
+    "key": "MASTER'SHAND",
+    "name": "Master's Hand",
+    "markup": "Target takes a small amount of damage, plus 20% more damage for each time the caster has {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "DREAMSTOMP",
+    "name": "Dream Stomp",
+    "markup": "Target takes a small amount of damage, or a massive amount of damage if they are afflicted with {CONDNAME_DEBUFF_SLEEP}."
+  },
+  {
+    "key": "INDISCRIMINATESUMMONING",
+    "name": "Indiscriminate Summoning",
+    "markup": "Your creatures gain a random minion."
+  },
+  {
+    "key": "TOXICFROGMANIA",
+    "name": "Toxic Frogmania",
+    "markup": "Target takes a small amount of damage, or a massive amount of damage if it is afflicted with {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "DEBILITATINGBLAST",
+    "name": "Debilitating Blast",
+    "markup": "Enemies take a small amount of damage for each debuff (up to 3) they have."
+  },
+  {
+    "key": "PHOENIXBURST",
+    "name": "Phoenix Burst",
+    "markup": "Enemies take a small amount of damage, or a massive amount of damage if the caster has at least 1 dead enemy. Then, a random enemy is resurrected with 50% {STAT_health}."
+  },
+  {
+    "key": "INOCULATE",
+    "name": "Inoculate",
+    "markup": "Target is healed for a massive amount of {STAT_health} and is afflicted with {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "UNBOUNDCOMBUSTION",
+    "name": "Unbound Combustion",
+    "markup": "Target takes a small amount of damage. 100% of the damage is based on the caster's Maximum {STAT_health} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "DEEPSUBMERSION",
+    "name": "Deep Submersion",
+    "markup": "Target's lowest stat is set equal to its highest stat. Then, its highest stat is set to its minimum value."
+  },
+  {
+    "key": "SNEAKATTACK",
+    "name": "Sneak Attack",
+    "markup": "Target takes a massive amount of damage the first time this spell is {ACTION_cast} in the current battle. Subsequent casts deal a small amount of damage."
+  },
+  {
+    "key": "RELIGHT",
+    "name": "Relight",
+    "markup": "Caster is killed, and your other creatures gain {CONDNAME_BUFF_REBIRTH}."
+  },
+  {
+    "key": "POWEREDBLAST",
+    "name": "Powered Blast",
+    "markup": "Target takes a small amount of damage, or a massive amount of damage if the target is the same class as the caster."
+  },
+  {
+    "key": "LEADTHECHARGE",
+    "name": "Lead the Charge",
+    "markup": "Target takes a small amount of damage for each creature fighting on your side that belongs to the caster's race. 100% of the damage is based on the caster's highest stat."
+  },
+  {
+    "key": "NINEMETEORS",
+    "name": "Nine Meteors",
+    "markup": "A random enemy takes a small amount of damage. This effect occurs 9 times."
+  },
+  {
+    "key": "PUMPKINKING'SWRATH",
+    "name": "Pumpkin King's Wrath",
+    "markup": "Enemies take a moderate amount of damage 2 times."
+  },
+  {
+    "key": "ERRATIUM",
+    "name": "Erratium",
+    "markup": "Your creatures gain a random trait and are afflicted with {CONDNAME_DEBUFF_DISARMED}."
+  },
+  {
+    "key": "GRAVEYARDSHIFT",
+    "name": "Graveyard Shift",
+    "markup": "Your creatures gain 1 stack of {CONDNAME_MINION_ZOMBIE}."
+  },
+  {
+    "key": "INTERNALCOMBUSTION",
+    "name": "Internal Combustion",
+    "markup": "Target takes a moderate amount of damage. If the target is killed by this spell, all other enemies take 25% of this damage and are afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "FRACTALEXPLOSION",
+    "name": "Fractal Explosion",
+    "markup": "Afflicts 3 random enemies with {CONDNAME_DEBUFF_BOMB}."
+  },
+  {
+    "key": "DESPERATESACRIFICE",
+    "name": "Desperate Sacrifice",
+    "markup": "Your creatures are resurrected with 100% {STAT_health}. Then, this creature is killed."
+  },
+  {
+    "key": "UNSTABLEEQUILIBRIUM",
+    "name": "Unstable Equilibrium",
+    "markup": "Your creatures' Current {STAT_health} is set equal to that of the target."
+  },
+  {
+    "key": "WORDSOFENCOURAGEMENT",
+    "name": "Words of Encouragement",
+    "markup": "Target recovers a small amount of {STAT_health} 3 times."
+  },
+  {
+    "key": "PURELOVE",
+    "name": "Pure Love",
+    "markup": "All creatures gain a massive amount of Maximum {STAT_health}."
+  },
+  {
+    "key": "DOGPILE",
+    "name": "Dogpile",
+    "markup": "Target takes a moderate amount of damage, plus 5% damage for each stack of minions the caster has."
+  },
+  {
+    "key": "PYROBURST",
+    "name": "Pyroburst",
+    "markup": "Target takes a small amount of damage, or a massive amount of damage if they are afflicted with {CONDNAME_DEBUFF_BOMB}."
+  },
+  {
+    "key": "SUPPLICANTSACRIFICE",
+    "name": "Supplicant Sacrifice",
+    "markup": "Caster is killed, and your creatures gain 3 random minions."
+  },
+  {
+    "key": "ARCHANGEL'SBLESSING",
+    "name": "Archangel's Blessing",
+    "markup": "Your creatures recover 30% {STAT_health} and gain a random buff."
+  },
+  {
+    "key": "DEMON'SJUDGMENT",
+    "name": "Demon's Judgment",
+    "markup": "Enemies lose a large amount of a random stat, and your creatures gain a large amount of that stat."
+  },
+  {
+    "key": "KARMICRETRIBUTION",
+    "name": "Karmic Retribution",
+    "markup": "Target takes a small amount of damage. The amount of damage increases by 50% for each time this Spell Gem has been {ACTION_cast} in the current battle."
+  },
+  {
+    "key": "DIVULGINGBARK",
+    "name": "Divulging Bark",
+    "markup": "Your creatures gain 1 stack of {CONDNAME_MINION_DIREWOLF}."
+  },
+  {
+    "key": "HALFWAYTHROUGH",
+    "name": "Halfway Through",
+    "markup": "Target's {STAT_health} is set to 50%."
+  },
+  {
+    "key": "RITUALOFSUMMONING",
+    "name": "Ritual of Summoning",
+    "markup": "Caster is killed, and your creatures' minions gain 3 stacks."
+  },
+  {
+    "key": "SAVINGGRACE",
+    "name": "Saving Grace",
+    "markup": "Caster's debuffs are removed and it gains {CONDNAME_BUFF_SHELL}. This spell cannot be cast manually, but has a 100% chance to cast when this creature takes damage that exceeds 25% of its Maximum {STAT_health}."
+  },
+  {
+    "key": "LUCKOFTHEDRAW",
+    "name": "Luck of the Draw",
+    "markup": "All creatures gain a random buff and a random debuff."
+  },
+  {
+    "key": "PRAISETHESUN",
+    "name": "Praise the Sun",
+    "markup": "All creatures recover a large amount of {STAT_health}."
+  },
+  {
+    "key": "USURY",
+    "name": "Usury",
+    "markup": "Caster gains a small amount of {STAT_attack} for each turn it has taken in the current battle (up to 5 times)."
+  },
+  {
+    "key": "MAELSTROM",
+    "name": "Maelstrom",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_CONFUSED} and {CONDNAME_DEBUFF_FEAR}."
+  },
+  {
+    "key": "HARBINGER'SCURSE",
+    "name": "Harbinger's Curse",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_WEAK} and {CONDNAME_DEBUFF_VULNERABLE}."
+  },
+  {
+    "key": "DIRECTORDERS",
+    "name": "Direct Orders",
+    "markup": "Target takes a moderate amount of damage, plus 20% for each minion the caster has."
+  },
+  {
+    "key": "BLOODSPRAY",
+    "name": "Blood Spray",
+    "markup": "Enemies take a moderate amount of damage, plus 100% more damage for each time they've taken damage from {CONDNAME_DEBUFF_BLEED} in the current battle."
+  },
+  {
+    "key": "CHAOSREIGN",
+    "name": "Chaos Reign",
+    "markup": "Caster {ACTION_casts} one of the target's Spell Gems."
+  },
+  {
+    "key": "CONTAGION",
+    "name": "Contagion",
+    "markup": "Enemies' minions are removed. Enemies are afflicted with a random debuff for each minion removed."
+  },
+  {
+    "key": "DESPERATEBID",
+    "name": "Desperate Bid",
+    "markup": "A random ally and a random enemy are resurrected with a random amount of {STAT_health}."
+  },
+  {
+    "key": "CONDUCTIVECHAINS",
+    "name": "Conductive Chains",
+    "markup": "Deals a moderate amount of damage to the target, then bounces to each of the target's allies at random. The damage is increased by 20% for each bounce."
+  },
+  {
+    "key": "STUNBEAM",
+    "name": "Stun Beam",
+    "markup": "Target is sent to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "HORRIBLEHOWL",
+    "name": "Horrible Howl",
+    "markup": "Your creatures with {CONDNAME_MINION_DIREWOLF} gain 3 stacks of this minion."
+  },
+  {
+    "key": "SOULRAGE",
+    "name": "Soul Rage",
+    "markup": "Your creatures gain {CONDNAME_BUFF_LEECH} and {CONDNAME_BUFF_SPLASH}."
+  },
+  {
+    "key": "MASSMUTILATION",
+    "name": "Mass Mutilation",
+    "markup": "All creatures {ACTION_attack} themselves for 25% normal damage. This spell can only be {ACTION_cast} once at a time."
+  },
+  {
+    "key": "FAEWINDBLADE",
+    "name": "Faewind Blade",
+    "markup": "Target takes a small amount of damage 3 times."
+  },
+  {
+    "key": "SUMMONHORDE",
+    "name": "Summon Horde",
+    "markup": "Your creatures gain a random minion for each creature fighting on your side that belongs to the same class as the caster."
+  },
+  {
+    "key": "STUBBORNWILL",
+    "name": "Stubborn Will",
+    "markup": "Target recovers a small amount of {STAT_health} for each debuff it has (up to 5)."
+  },
+  {
+    "key": "GREATERDISPEL",
+    "name": "Greater Dispel",
+    "markup": "Your creatures' debuffs and enemies' buffs are removed."
+  },
+  {
+    "key": "VOLATILESTRIKE",
+    "name": "Volatile Strike",
+    "markup": "Target takes a moderate amount of damage. This damage is mitigated by the target's lowest stat. 100% of the damage dealt is based on the caster's highest stat instead of {STAT_intelligence}."
+  },
+  {
+    "key": "CROSS-POLLINATION",
+    "name": "Cross-Pollination",
+    "markup": "Your creatures' classes are changed to {CLASS_Nature} and they gain a large amount of the caster's highest stat."
+  },
+  {
+    "key": "PRISMATICCHANNELING",
+    "name": "Prismatic Channeling",
+    "markup": "Enemies take a large amount of damage, plus 20% more damage for each different class of creature fighting on your side."
+  },
+  {
+    "key": "ABSOLUTEFOCUS",
+    "name": "Absolute Focus",
+    "markup": "Target's next attack deals 100% more damage. This effect does not stack."
+  },
+  {
+    "key": "BLINDINGBEAM",
+    "name": "Blinding Beam",
+    "markup": "Enemies take a large amount of damage and are afflicted with {CONDNAME_DEBUFF_BLIND}."
+  },
+  {
+    "key": "SHATTERINGICE",
+    "name": "Shattering Ice",
+    "markup": "Target takes a moderate amount of damage and is afflicted with {CONDNAME_DEBUFF_FROZEN}. All other enemies are afflicted with {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "DISPELLINGDERVISH",
+    "name": "Dispelling Dervish",
+    "markup": "Target takes a moderate amount of damage and its buffs are removed."
+  },
+  {
+    "key": "RESTOREBALANCE",
+    "name": "Restore Balance",
+    "markup": "Enemies' {STAT_health} percentages are averaged."
+  },
+  {
+    "key": "MAGICJELLYBEANS",
+    "name": "Magic Jelly Beans",
+    "markup": "Target takes a moderate amount of damage and is afflicted with a random debuff, or is healed for a moderate amount of {STAT_health} and gains a random buff; depending on if it is an enemy or an ally."
+  },
+  {
+    "key": "FIERYSTEW",
+    "name": "Fiery Stew",
+    "markup": "Target recovers a small amount of {STAT_health} and gains a small amount of {STAT_defense}. Then, a random enemy is afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "CAUTERIZEWOUND",
+    "name": "Cauterize Wound",
+    "markup": "Target recovers a small amount of {STAT_health}, or a massive amount of {STAT_health} if the target is afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "TIMESTOP",
+    "name": "Time Stop",
+    "markup": "Proceed to the next creature's turn on the {TIMELINE}, ignoring all subsequent effects as a result of casting this spell."
+  },
+  {
+    "key": "HERO'SBLESSING",
+    "name": "Hero's Blessing",
+    "markup": "Removes a debuff from your creatures. This spell cannot be cast manually, but has a 35% chance to cast when the caster {ACTION_attacks}."
+  },
+  {
+    "key": "SELFANALYSIS",
+    "name": "Self Analysis",
+    "markup": "Caster gains stats equal to 5% of its allies' stats (other than {STAT_health})."
+  },
+  {
+    "key": "ARBITRATION",
+    "name": "Arbitration",
+    "markup": "Enemies' buffs are removed, and your creatures gain those buffs."
+  },
+  {
+    "key": "ORBITALSTRIKE",
+    "name": "Orbital Strike",
+    "markup": "Target takes a devastating amount of damage and loses a small amount of {STAT_defense}."
+  },
+  {
+    "key": "TRUEMAGIC",
+    "name": "True Magic",
+    "markup": "Enemies take a moderate amount of damage, plus 5% more damage for each {STAT_charge} each of its other Spell Gems are missing."
+  },
+  {
+    "key": "BLITZHOWL",
+    "name": "Blitz Howl",
+    "markup": "Enemies take a moderate amount of damage and have a 10% chance to be afflicted with {CONDNAME_DEBUFF_SILENCE}, {CONDNAME_DEBUFF_BURNED}, and {CONDNAME_DEBUFF_FEAR}. This spell cannot be cast manually, but has a 30% chance to cast at the start of the caster's turn."
+  },
+  {
+    "key": "INFINITEBLADES",
+    "name": "Infinite Blades",
+    "markup": "Enemies take a large amount of damage 5 times. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "TECTONICUPHEAVAL",
+    "name": "Tectonic Upheaval",
+    "markup": "Enemies take a massive amount of damage, lose a massive amount of {STAT_defense} and {STAT_speed}, and are afflicted with {CONDNAME_DEBUFF_SNARED}. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "GRANDEUR",
+    "name": "Grandeur",
+    "markup": "Your creatures gain a massive amount of stats and their Ultimate Spell Gems recover 100% {STAT_charges}. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "TOTALCARNAGE",
+    "name": "Total Carnage",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_BLEED} and this creature {ACTION_attacks} each enemy. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "WORKOFART",
+    "name": "Work of Art",
+    "markup": "Your creatures gain an army of minions. This spell does not activate on-minion effects. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "BALANCEINALLTHINGS",
+    "name": "Balance In All Things",
+    "markup": "Your creatures are healed or resurrected with a devastating amount of {STAT_health}, and enemies take a devastating amount of damage. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "HEATBEAM",
+    "name": "Heat Beam",
+    "markup": "Target is killed. If it cannot be killed, it takes a devastating amount of damage 3 times. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "FAEFIRE",
+    "name": "Fae Fire",
+    "markup": "Enemies lose a devastating amount of all stats, and their buffs and minions are removed. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "QUIETUS",
+    "name": "Quietus",
+    "markup": "The first time this Spell Gem is {ACTION_cast}, your creatures gain a squad of minions. The second time this Spell Gem is {ACTION_cast}, enemies take a massive amount of damage plus 15% more damage for each minion each of your creatures have, and then their minions are removed. Then, this spell is reset. This spell is an {SPELL_ultimate}."
+  },
+  {
+    "key": "VIRUS",
+    "name": "Virus",
+    "markup": "Enemies take damage equal to 2 turns of their {CONDNAME_DEBUFF_POISON} debuff."
+  },
+  {
+    "key": "HERDIMMUNITY",
+    "name": "Herd Immunity",
+    "markup": "Your creatures recover {STAT_health} equal to 100% of the target's {CONDNAME_DEBUFF_POISON} potency."
+  },
+  {
+    "key": "VACCINATION",
+    "name": "Vaccination",
+    "markup": "Your creatures gain their lowest stat equal to 100% of the target's {CONDNAME_DEBUFF_POISON} potency."
+  },
+  {
+    "key": "DISCOMBOBULATE",
+    "name": "Discombobulate",
+    "markup": "Enemies with {CONDNAME_DEBUFF_CONFUSED} either {ACTION_attack} or {ACTION_cast} one of their spells, depending on whether their {STAT_attack} or {STAT_intelligence} is higher."
+  },
+  {
+    "key": "SHORTFUSE",
+    "name": "Short Fuse",
+    "markup": "Enemies take damage equal to 100% of the potency of their {CONDNAME_DEBUFF_BOMB} debuffs."
+  },
+  {
+    "key": "GUNPOWDER",
+    "name": "Gunpowder",
+    "markup": "Potency of enemies' {CONDNAME_DEBUFF_BOMB} debuffs is increased by 30% of the caster's {STAT_speed}."
+  },
+  {
+    "key": "DISSONANCE",
+    "name": "Dissonance",
+    "markup": "Potencies of enemies' {CONDNAME_DEBUFF_BOMB}, {CONDNAME_DEBUFF_POISON}, and {CONDNAME_DEBUFF_BURNED} debuffs are averaged."
+  },
+  {
+    "key": "CURSEOFDOOM",
+    "name": "Curse of Doom",
+    "markup": "Enemies with {CONDNAME_DEBUFF_CURSED} gain a large amount of {STAT_attack} and {STAT_intelligence} and lose a large amount of {STAT_defense} and {STAT_speed}."
+  },
+  {
+    "key": "EVILEYE",
+    "name": "Evil Eye",
+    "markup": "Target takes a small amount of damage, or a massive amount of damage if they are afflicted with {CONDNAME_DEBUFF_CURSED}."
+  },
+  {
+    "key": "WITCHCRAFT",
+    "name": "Witchcraft",
+    "markup": "Enemies with {CONDNAME_DEBUFF_CURSED} {ACTION_cast} one of their single-target damage spells on a random creature."
+  },
+  {
+    "key": "GRANDFIREBALL",
+    "name": "Grand Fireball",
+    "markup": "Target takes a massive amount of damage and is afflicted with {CONDNAME_DEBUFF_BURNED}. Adjacent targets take 35% of this damage and are afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "ENTROPICSWING",
+    "name": "Entropic Swing",
+    "markup": "All creatures' end-of-turn effects are activated and the {TIMELINE} is shuffled. This spell cannot be {ACTION_cast} manually, and has a 5% chance to be {ACTION_cast} at the start of each creature's turn."
+  },
+  {
+    "key": "CYANIDEGAS",
+    "name": "Cyanide Gas",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_POISON} and have a 25% chance to be killed."
+  },
+  {
+    "key": "MEGATSUNAMI",
+    "name": "Mega Tsunami",
+    "markup": "Enemies take a large amount of damage and have a 25% chance to be killed. Otherwise, they are afflicted with {CONDNAME_DEBUFF_CURSED}."
+  },
+  {
+    "key": "EF5TWISTER",
+    "name": "EF5 Twister",
+    "markup": "Enemies take a large amount of damage and have a 50% chance to be afflicted with any of {CONDNAME_DEBUFF_SNARED}, {CONDNAME_DEBUFF_SCORN}, or {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "NAPALM",
+    "name": "Napalm",
+    "markup": "Enemies take a large amount of damage, are afflicted with {CONDNAME_DEBUFF_BURNED} and {CONDNAME_DEBUFF_VULNERABLE}, and lose a large amount of {STAT_defense}."
+  },
+  {
+    "key": "FATE",
+    "name": "Fate",
+    "markup": "Each creature has a 50% chance to be killed."
+  },
+  {
+    "key": "DEMONBREATH",
+    "name": "Demonbreath",
+    "markup": "Enemies take a moderate amount of damage and have a 75% chance to be afflicted with {CONDNAME_DEBUFF_BLIGHT}, a 50% chance to be afflicted with {CONDNAME_DEBUFF_INVERTED}, and a 25% chance to be afflicted with {CONDNAME_DEBUFF_CURSED}."
+  },
+  {
+    "key": "RECKONING",
+    "name": "Reckoning",
+    "markup": "Enemies take a large amount of damage, modified by 1% to 300%, chosen randomly."
+  },
+  {
+    "key": "RAIDEN",
+    "name": "Raiden",
+    "markup": "Random enemies take a large amount of damage continuously and are afflicted with {CONDNAME_DEBUFF_BLIND} and {CONDNAME_DEBUFF_CONFUSED}. After each enemy takes damage, this spell has a 35% chance to end."
+  },
+  {
+    "key": "MAGMASHOWER",
+    "name": "Magma Shower",
+    "markup": "Random enemies take a large amount of damage continuously and are afflicted with {CONDNAME_DEBUFF_BURNED} and {CONDNAME_DEBUFF_VULNERABLE}. After each enemy takes damage, this spell has a 35% chance to end."
+  },
+  {
+    "key": "ICICLERAIN",
+    "name": "Icicle Rain",
+    "markup": "Random enemies take a large amount of damage continuously and are afflicted with {CONDNAME_DEBUFF_FROZEN} and {CONDNAME_DEBUFF_BLEED}. After each enemy takes damage, this spell has a 35% chance to end."
+  },
+  {
+    "key": "HURLINGOFROCKS",
+    "name": "Hurling of Rocks",
+    "markup": "Random enemies take a large amount of damage continuously and are afflicted with {CONDNAME_DEBUFF_CONFUSED} and {CONDNAME_DEBUFF_BLEED}. After each enemy takes damage, this spell has a 35% chance to end."
+  },
+  {
+    "key": "RICHTER10",
+    "name": "Richter 10",
+    "markup": "Random enemies take a massive amount of damage continuously. After each enemy takes damage, this spell has a 50% chance to end."
+  },
+  {
+    "key": "CONCUSSIVEHAILSTORM",
+    "name": "Concussive Hailstorm",
+    "markup": "Enemies take a large amount of damage and are afflicted with {CONDNAME_DEBUFF_CONFUSED} or {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "SHATTEREDRAINBOW",
+    "name": "Shattered Rainbow",
+    "markup": "Enemies take a small, moderate, large, massive, or devastating amount of damage and are afflicted with 1 to 3 random debuffs."
+  },
+  {
+    "key": "CONCOCTION",
+    "name": "Concoction",
+    "markup": "Random enemies take a small amount of damage continuously and are afflicted with a random debuff. After each enemy takes damage, this spell has a 25% chance to end."
+  },
+  {
+    "key": "CONTINUUM",
+    "name": "Continuum",
+    "markup": "{ACTION_casts} a random spell repeatedly. After each cast, this spell has a 25% chance to end."
+  },
+  {
+    "key": "MAGNIFICATION",
+    "name": "Magnification",
+    "markup": "{ACTION_casts} the last single-target spell your creatures {ACTION_cast}. The spell targets all enemies."
+  },
+  {
+    "key": "ICICLESPEAR",
+    "name": "Icicle Spear",
+    "markup": "Target takes 1% to 100% of a large amount of damage 3 times. Each time this spell deals damage, it has a 10% chance to kill the target."
+  },
+  {
+    "key": "SHININGJEWEL",
+    "name": "Shining Jewel",
+    "markup": "Target recovers 100% {STAT_charges}. This spell does not work on {SPELL_ultimate}."
+  },
+  {
+    "key": "DEADLYDUEL",
+    "name": "Deadly Duel",
+    "markup": "Target has a 50% chance to be killed. Otherwise, the caster is killed."
+  },
+  {
+    "key": "FIREBREATH",
+    "name": "Firebreath",
+    "markup": "Target takes a large amount of damage continuously and is afflicted with {CONDNAME_DEBUFF_BURNED}. After the target takes damage, this spell has a 30% chance to end."
+  },
+  {
+    "key": "SPONTANEOUSCOMBUSTION",
+    "name": "Spontaneous Combustion",
+    "markup": "Target has a 35% chance to be killed. If this happens, all other enemies take a massive amount of damage."
+  },
+  {
+    "key": "GENESIS",
+    "name": "Genesis",
+    "markup": "Your allies are killed, and your dead allies are resurrected with 100% {STAT_health} and {STAT_charges}. This spell does not work on {SPELL_ultimate}s."
+  },
+  {
+    "key": "VOODOO",
+    "name": "Voodoo",
+    "markup": "Caster takes a small, moderate, large, massive, or devastating amount of damage. Enemies take this amount of damage as well."
+  },
+  {
+    "key": "DELIRIUM",
+    "name": "Delirium",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_CONFUSED} and {CONDNAME_DEBUFF_BLIND} and gains {CONDNAME_BUFF_BERSERK} and {CONDNAME_BUFF_SAVAGE}."
+  },
+  {
+    "key": "HEMORRHAGE",
+    "name": "Hemorrhage",
+    "markup": "Target takes 100% of its {CONDNAME_DEBUFF_BLEED} damage continously. After the target takes damage, this spell has a 35% chance to end."
+  },
+  {
+    "key": "BOULDERCRUSH",
+    "name": "Boulder Crush",
+    "markup": "Target takes a massive amount of damage and has a 50% chance to be afflicted with each of {CONDNAME_DEBUFF_BLEED}, {CONDNAME_DEBUFF_CONFUSED}, {CONDNAME_DEBUFF_WEAK}, and {CONDNAME_DEBUFF_VULNERABLE}."
+  },
+  {
+    "key": "RIPTIDE",
+    "name": "Riptide",
+    "markup": "Random enemies are moved one place down the {TIMELINE}. After each enemy is moved, this spell has a 10% chance to end."
+  },
+  {
+    "key": "BAZOOKA",
+    "name": "Bazooka",
+    "markup": "Enemies take a large amount of damage. This spell always deals critical damage."
+  },
+  {
+    "key": "SNIPE",
+    "name": "Snipe",
+    "markup": "Target takes a massive amount of damage and has a 30% chance to be killed. This spell always deals critical damage."
+  },
+  {
+    "key": "PUTRESCENTODOR",
+    "name": "Putrescent Odor",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_POISON}, {CONDNAME_DEBUFF_BLIND}, and {CONDNAME_DEBUFF_CONFUSED}."
+  },
+  {
+    "key": "KILLSTREAK",
+    "name": "Kill Streak",
+    "markup": "{ACTION_casts} a random damaging spell for each dead creature on the battlefield."
+  },
+  {
+    "key": "SEARINGFLAMES",
+    "name": "Searing Flames",
+    "markup": "Enemies take a moderate amount of damage, are afflicted with {CONDNAME_DEBUFF_BURNED} and {CONDNAME_DEBUFF_DISARMED}, and their buffs and debuffs are removed."
+  },
+  {
+    "key": "BIGBANG",
+    "name": "Big Bang",
+    "markup": "All creatures take a massive amount of damage, plus 3% more damage for each buff, debuff, and minion each creature has. Then, their buffs, debuffs, and minions are removed."
+  },
+  {
+    "key": "NECROMANCY",
+    "name": "Necromancy",
+    "markup": "Caster gains 1 stack of {CONDNAME_MINION_ZOMBIE} for each buff it has."
+  },
+  {
+    "key": "GRANDEXPLOSION",
+    "name": "Grand Explosion",
+    "markup": "Enemies take a large amount of damage and are afflicted with {CONDNAME_DEBUFF_BOMB}. For each enemy that already has {CONDNAME_DEBUFF_BOMB}, this spell deals 20% more damage."
+  },
+  {
+    "key": "DEATHANDDESTRUCTION",
+    "name": "Death and Destruction",
+    "markup": "{ACTION_casts} a random spell that belongs to the {RACE_Cataclysm} race. This effect has a 50% chance to repeat indefinitely."
+  },
+  {
+    "key": "KILONOVA",
+    "name": "Kilonova",
+    "markup": "Random enemies take a large amount of damage continuously. After each enemy takes damage, the spell has a 25% chance to end."
+  },
+  {
+    "key": "ULTIMUS",
+    "name": "Ultimus",
+    "markup": "Enemies each take a massive amount of damage continuously. After they take damage, this effect has a 50% chance to end, and then it jumps to the next enemy."
+  },
+  {
+    "key": "NUCLEARBLAST",
+    "name": "Nuclear Blast",
+    "markup": "Enemies take a large amount of damage and are afflicted with {CONDNAME_DEBUFF_POISON}, {CONDNAME_DEBUFF_BLIGHT}, and {CONDNAME_DEBUFF_INVERTED}."
+  },
+  {
+    "key": "CLOUDOFANGUISH",
+    "name": "Cloud of Anguish",
+    "markup": "Enemies take a small amount of damage, plus 3% more damage for each debuff each enemy has. Enemies are afflicted with 2 random debuffs."
+  },
+  {
+    "key": "SHRAPNELGRENADE",
+    "name": "Shrapnel Grenade",
+    "markup": "Target takes a massive amount of damage and is afflicted with {CONDNAME_DEBUFF_BLEED}. Each other enemy has a 50% chance to be targeted by this spell as well."
+  },
+  {
+    "key": "CLUSTERBOMB",
+    "name": "Cluster Bomb",
+    "markup": "Random enemies take damage equal to 100% of their {CONDNAME_DEBUFF_BOMB}'s potency. If they do not already have this debuff, they are afflicted with it. After each enemy is affected by this spell, it has a 25% chance to end."
+  },
+  {
+    "key": "UZI",
+    "name": "Uzi",
+    "markup": "Random enemies take a small amount of damage continously. After each enemy takes damage, this spell has a 20% chance to end. This spell always deals critical damage."
+  },
+  {
+    "key": "SHOTGUN",
+    "name": "Shotgun",
+    "markup": "Target takes a large amount of damage continuously. After the target takes damage, this spell has a 50% chance to end. This spell always deals critical damage."
+  },
+  {
+    "key": "CHAINSAW",
+    "name": "Chainsaw",
+    "markup": "Target takes a large amount of damage continuously and is afflicted with {CONDNAME_DEBUFF_BLEED} and {CONDNAME_DEBUFF_VULNERABLE}. After the target takes damage, this spell has a 35% chance to end."
+  },
+  {
+    "key": "MOMENTUM",
+    "name": "Momentum",
+    "markup": "Random enemies take a small amount of damage continuously. After each enemy takes damage, the damage of this spell is increased by 50% and it has a 25% chance to end."
+  },
+  {
+    "key": "HIERARCHY",
+    "name": "Hierarchy",
+    "markup": "All creatures {ACTION_attack} a random creature on the opposite side. Each creature deals 25% more damage for each creature below it on the {TIMELINE}."
+  },
+  {
+    "key": "EUTHANASIA",
+    "name": "Euthanasia",
+    "markup": "A random enemy has a 50% chance to be killed."
+  },
+  {
+    "key": "BLACKMAGIC",
+    "name": "Black Magic",
+    "markup": "Random enemies are afflicted with a random debuff continuously. After each enemy is afflicted with a debuff, this spell has a 50% chance to end."
+  },
+  {
+    "key": "WHITEMAGIC",
+    "name": "White Magic",
+    "markup": "Random allies gain a random buff continuously. After each ally gains a buff, this spell has a 50% chance to end."
+  },
+  {
+    "key": "PLAGUEBEARER",
+    "name": "Plaguebearer",
+    "markup": "Each of the target's debuffs have a 50% chance to spread to its allies."
+  },
+  {
+    "key": "CHARITY",
+    "name": "Charity",
+    "markup": "Each of the target's buffs have a 50% chance to spread to its allies."
+  },
+  {
+    "key": "HOLYWATER",
+    "name": "Holy Water",
+    "markup": "A random debuff is removed from random allies continuously. After each ally loses a debuff, this spell has a 50% chance to end."
+  },
+  {
+    "key": "DARKSKY",
+    "name": "Dark Sky",
+    "markup": "A random buff is removed from random enemies continuously. After each enemy loses a buff, this spell has a 50% chance to end."
+  },
+  {
+    "key": "SILVERLINING",
+    "name": "Silver Lining",
+    "markup": "Your creatures gain a random buff for each dead ally."
+  },
+  {
+    "key": "LAMENTATION",
+    "name": "Lamentation",
+    "markup": "Enemies are afflicted with a random debuff for each dead ally."
+  },
+  {
+    "key": "CRYOFTHEMANDRAKE",
+    "name": "Cry of the Mandrake",
+    "markup": "Enemies each have a 25% chance to be killed."
+  },
+  {
+    "key": "DEEPFREEZE",
+    "name": "Deep Freeze",
+    "markup": "Enemies have a 50% chance to be afflicted with {CONDNAME_DEBUFF_FROZEN}. If this happens, or if they're already {CONDNAME_DEBUFF_FROZEN}, they are afflicted with {CONDNAME_DEBUFF_SNARED}."
+  },
+  {
+    "key": "WATERFALL",
+    "name": "Waterfall",
+    "markup": "Enemies take a moderate amount of damage, plus 15% more damage for each creature above them on the {TIMELINE}."
+  },
+  {
+    "key": "QUICKSAND",
+    "name": "Quicksand",
+    "markup": "Enemies have a 50% chance to be afflicted with {CONDNAME_DEBUFF_SNARED} and to be moved a random number of places down the {TIMELINE}."
+  },
+  {
+    "key": "PARTYINTHEBACK",
+    "name": "Party in the Back",
+    "markup": "A random enemy recovers a large amount of {STAT_health}. This spell cannot be cast manually, but has a 100% chance to be cast after its owner is forcibly moved to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "GIGGLE",
+    "name": "Giggle",
+    "markup": "Target recovers a small amount of {STAT_health} and gains {STAT_intelligence} equal to 100% of the amount healed."
+  },
+  {
+    "key": "MERMAIDSKISS",
+    "name": "Mermaid's Kiss",
+    "markup": "Target recovers a massive amount of {STAT_health} and gains {CONDNAME_BUFF_MEND}."
+  },
+  {
+    "key": "WAVEOFBLISS",
+    "name": "Wave of Bliss",
+    "markup": "Enemies are afflicted with {CONDNAME_DEBUFF_MANIA}. If they already have this debuff, they take damage equal to 100% of its potency instead."
+  },
+  {
+    "key": "CORAY",
+    "name": "Co-Ray",
+    "markup": "Your other creatures {ACTION_cast} one of their damaging Spell Gems."
+  },
+  {
+    "key": "SUPREMACY",
+    "name": "Supremacy",
+    "markup": "Enemies have a 1% chance to be killed for every 1% {STAT_health} they're missing."
+  },
+  {
+    "key": "SNOWBALL",
+    "name": "Snowball",
+    "markup": "Target takes a small amount of damage and is afflicted with {CONDNAME_DEBUFF_FROZEN}. If it already has this debuff, it is moved 1 place down the {TIMELINE}."
+  },
+  {
+    "key": "HUNGER",
+    "name": "Hunger",
+    "markup": "Random enemies take a large amount of damage and the caster gains a {CONDNAME_BUFF_BARRIER} equal to 50% of the damage dealt. After each enemy takes damage, this spell has a 35% chance to end."
+  },
+  {
+    "key": "MYSTERYGEM",
+    "name": "Mystery Gem",
+    "markup": "Target's {STAT_charges} are randomized."
+  },
+  {
+    "key": "GEMCONVERSION",
+    "name": "Gem Conversion",
+    "markup": "Target's {STAT_charges} are redistributed."
+  },
+  {
+    "key": "LUCKYGEM",
+    "name": "Lucky Gem",
+    "markup": "Target recovers 100% {STAT_charges}. Does not affect {SPELL_ultimate}. This spell cannot be cast manually, but has a 20% chance to cast on an ally at the end of its turn."
+  },
+  {
+    "key": "GEMGAMBLE",
+    "name": "Gem Gamble",
+    "markup": "Target's {STAT_charges} are set to either 0% or 100%."
+  },
+  {
+    "key": "EATENALIVE",
+    "name": "Eaten Alive",
+    "markup": "Target has a 35% chance to be killed. If this happens, the caster recovers 100% {STAT_health} and {STAT_charges}."
+  },
+  {
+    "key": "TRADEOFFER",
+    "name": "Trade Offer",
+    "markup": "Target gains this creature's Artifact's Trait."
+  },
+  {
+    "key": "COMPULSION",
+    "name": "Compulsion",
+    "markup": "Target is afflicted with {CONDNAME_DEBUFF_MANIA} and the caster recovers a small amount of {STAT_health}."
+  },
+  {
+    "key": "TREASONOUSMIND",
+    "name": "Treasonous Mind",
+    "markup": "Caster's buffs are removed and this Spell Gem's owner steals 5% of the caster's highest stat. This spell cannot be cast manually, but has a 20% chance to be cast by enemies at the start of their turns."
+  }
+]

@@ -144,7 +144,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "of 5 Stacks",
+    "maxBonus": "of 5 stacks",
     "openingGuess": "after_attack"
   },
   "minion:doppelganger": {
@@ -175,7 +175,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health by an amount equal to 30% of the damage dealt",
+    "maxBonus": "health by an amount equal to 30% of the damage dealt",
     "openingGuess": "after_attack"
   },
   "minion:fire-imps": {
@@ -191,6 +191,27 @@
     "perRank": false,
     "maxBonus": "of 9 stacks",
     "openingGuess": null
+  },
+  "minion:guardian-of-surathli": {
+    "statuses": {
+      "Barrier": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      100,
+      100
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "after_death"
   },
   "minion:illusion": {
     "statuses": {},
@@ -231,15 +252,11 @@
     "openingGuess": "start_of_turn"
   },
   "minion:mammon": {
-    "statuses": {
-      "Shelled": [
-        "gain"
-      ]
-    },
+    "statuses": {},
     "stats": [],
     "allStats": false,
     "percents": [
-      50
+      2
     ],
     "tiers": [],
     "chance": null,
@@ -261,7 +278,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "of 9 Stacks",
+    "maxBonus": "of 9 stacks",
     "openingGuess": "end_of_turn"
   },
   "minion:satanachia": {

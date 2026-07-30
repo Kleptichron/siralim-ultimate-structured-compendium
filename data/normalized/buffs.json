@@ -8,17 +8,41 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_AGILE} have an additional, independent chance to dodge attacks.",
+    "refs": {
+      "statuses": [
+        "Agile"
+      ],
+      "buffs": [
+        "Agile"
+      ]
     }
   },
   {
     "id": "buff:arcane",
     "source": "buffs",
     "name": "Arcane",
-    "text": "When an Arcane creature Casts a spell, the spell does not consume any Charges.",
-    "textHash": "838e31860630",
+    "text": "When an Arcane creature casts a spell, the spell does not consume any charges. Then, this buff is removed.",
+    "textHash": "17500af04a88",
     "meta": {
       "kind": "buff",
       "defaultDuration": "Until creature casts a spell."
+    },
+    "markup": "When an {CONDNAME_BUFF_ARCANE} creature {ACTION_casts} a spell, the spell does not consume any {STAT_charges}. Then, this buff is removed.",
+    "refs": {
+      "statuses": [
+        "Arcane"
+      ],
+      "buffs": [
+        "Arcane"
+      ],
+      "actions": [
+        "casts"
+      ],
+      "stats": [
+        "charges"
+      ]
     }
   },
   {
@@ -30,6 +54,15 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "Until barrier is depleted."
+    },
+    "markup": "{CONDNAME_BUFF_BARRIER} absorbs a certain amount of damage. After the maximum amount of damage is dealt, the buff is removed. {CONDNAME_BUFF_BARRIER} strength cannot exceed 200% of a creature's highest stat when this buff is applied.",
+    "refs": {
+      "statuses": [
+        "Barrier"
+      ],
+      "buffs": [
+        "Barrier"
+      ]
     }
   },
   {
@@ -41,17 +74,38 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_BUFF_BERSERK} creatures deal 50% more damage.",
+    "refs": {
+      "statuses": [
+        "Berserk"
+      ],
+      "buffs": [
+        "Berserk"
+      ]
     }
   },
   {
     "id": "buff:defensive",
     "source": "buffs",
     "name": "Defensive",
-    "text": "Creatures with Defensive automatically Defend at the end of their turn.",
-    "textHash": "6ab30c8b1118",
+    "text": "Creatures with Defensive automatically defend at the end of their turn.",
+    "textHash": "c126f61d6375",
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_DEFENSIVE} automatically {ACTION_defend} at the end of their turn.",
+    "refs": {
+      "statuses": [
+        "Defensive"
+      ],
+      "buffs": [
+        "Defensive"
+      ],
+      "actions": [
+        "defend"
+      ]
     }
   },
   {
@@ -63,6 +117,15 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "1 Turn"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_IMMUNITY} can't be afflicted with debuffs.",
+    "refs": {
+      "statuses": [
+        "Immune"
+      ],
+      "buffs": [
+        "Immune"
+      ]
     }
   },
   {
@@ -74,39 +137,81 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "Until creature takes an action."
+    },
+    "markup": "{CONDNAME_BUFF_INVISIBLE} creatures cannot be manually targeted by enemy attacks or spells. This buff is removed after the creature takes an action.",
+    "refs": {
+      "statuses": [
+        "Invisible"
+      ],
+      "buffs": [
+        "Invisible"
+      ]
     }
   },
   {
     "id": "buff:leeching",
     "source": "buffs",
     "name": "Leeching",
-    "text": "Creatures with Leeching recover Health equal to 25% of the damage they deal.",
-    "textHash": "3ac4c711aacb",
+    "text": "Creatures with Leeching recover health equal to 25% of the damage they deal.",
+    "textHash": "736ffbed1339",
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_LEECH} recover {STAT_health} equal to 25% of the damage they deal.",
+    "refs": {
+      "statuses": [
+        "Leeching"
+      ],
+      "buffs": [
+        "Leeching"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
     "id": "buff:mending",
     "source": "buffs",
     "name": "Mending",
-    "text": "Creatures with Mending recover 30% Health at the start of their turn.",
-    "textHash": "1fae7f451de3",
+    "text": "Creatures with Mending recover 30% health at the start of their turn.",
+    "textHash": "2bc747c88f97",
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_MEND} recover 30% {STAT_health} at the start of their turn.",
+    "refs": {
+      "statuses": [
+        "Mending"
+      ],
+      "buffs": [
+        "Mending"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
     "id": "buff:proficient",
     "source": "buffs",
     "name": "Proficient",
-    "text": "Proficient creatures gain 30% more benefits from their Artifact's Stat Slots, other than Health.",
-    "textHash": "1f941cebd162",
+    "text": "Proficient creatures gain 30% more benefits from their Artifact's Stat Slots.",
+    "textHash": "802dba53e7fe",
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_BUFF_PROFICIENT} creatures gain 30% more benefits from their Artifact's Stat Slots.",
+    "refs": {
+      "statuses": [
+        "Proficient"
+      ],
+      "buffs": [
+        "Proficient"
+      ]
     }
   },
   {
@@ -118,17 +223,38 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_PROTECT} take 50% less damage.",
+    "refs": {
+      "statuses": [
+        "Protected"
+      ],
+      "buffs": [
+        "Protected"
+      ]
     }
   },
   {
     "id": "buff:rebirth",
     "source": "buffs",
     "name": "Rebirth",
-    "text": "Creatures with Rebirth are resurrected with 50% Health when they die.",
-    "textHash": "262a976933a2",
+    "text": "Creatures with Rebirth are resurrected with 50% health when they die.",
+    "textHash": "36010f23a89a",
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_REBIRTH} are resurrected with 50% {STAT_health} when they die.",
+    "refs": {
+      "statuses": [
+        "Rebirth"
+      ],
+      "buffs": [
+        "Rebirth"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
@@ -140,6 +266,15 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_BUFF_REPELLING} creatures have a 50% chance to ignore damage from spells.",
+    "refs": {
+      "statuses": [
+        "Repelling"
+      ],
+      "buffs": [
+        "Repelling"
+      ]
     }
   },
   {
@@ -151,6 +286,15 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_BUFF_SAVAGE} creatures have an additional, independent chance to deal critical damage with attacks.",
+    "refs": {
+      "statuses": [
+        "Savage"
+      ],
+      "buffs": [
+        "Savage"
+      ]
     }
   },
   {
@@ -162,28 +306,61 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": ""
+    },
+    "markup": "{CONDNAME_BUFF_SHELL} negates the next incoming attack or spell.",
+    "refs": {
+      "statuses": [
+        "Shelled"
+      ],
+      "buffs": [
+        "Shelled"
+      ]
     }
   },
   {
     "id": "buff:splashing",
     "source": "buffs",
     "name": "Splashing",
-    "text": "Creatures with Splashing deal 50% of their damage to enemies adjacent to the target they Attack.",
-    "textHash": "5561dd0feebd",
+    "text": "Creatures with Splashing deal 50% of their damage to enemies adjacent to the target they attack.",
+    "textHash": "bd8277d9d6cb",
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_SPLASH} deal 50% of their damage to enemies adjacent to the target they {ACTION_attack}.",
+    "refs": {
+      "statuses": [
+        "Splashing"
+      ],
+      "buffs": [
+        "Splashing"
+      ],
+      "actions": [
+        "attack"
+      ]
     }
   },
   {
     "id": "buff:taunting",
     "source": "buffs",
     "name": "Taunting",
-    "text": "Creatures with Taunting automatically Provoke at the end of their turn.",
-    "textHash": "5b2dd6c882fb",
+    "text": "Creatures with Taunting automatically provoke at the end of their turn.",
+    "textHash": "6383147e63d5",
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_TAUNT} automatically {ACTION_provoke} at the end of their turn.",
+    "refs": {
+      "statuses": [
+        "Taunting"
+      ],
+      "buffs": [
+        "Taunting"
+      ],
+      "actions": [
+        "provoke"
+      ]
     }
   },
   {
@@ -195,6 +372,15 @@
     "meta": {
       "kind": "buff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_BUFF_WARD} cannot lose stats.",
+    "refs": {
+      "statuses": [
+        "Warded"
+      ],
+      "buffs": [
+        "Warded"
+      ]
     }
   }
 ]

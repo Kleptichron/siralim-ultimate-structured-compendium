@@ -51,7 +51,7 @@
   "spell:acid-bomb": {
     "statuses": {
       "Bomb": [
-        "mention"
+        "remove"
       ]
     },
     "stats": [],
@@ -776,7 +776,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health the caster gained in the current battle",
+    "maxBonus": "health the caster gained in the current battle",
     "openingGuess": "passive"
   },
   "spell:blow-mind": {
@@ -880,7 +880,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health, all other enemies take a moderate amount of damage as well",
+    "maxBonus": "health, all other enemies take a moderate amount of damage as well",
     "openingGuess": null
   },
   "spell:boulder": {
@@ -1065,7 +1065,9 @@
     "statuses": {},
     "stats": [],
     "allStats": false,
-    "percents": [],
+    "percents": [
+      15
+    ],
     "tiers": [
       "large"
     ],
@@ -1132,7 +1134,7 @@
     "maxBonus": null,
     "openingGuess": null
   },
-  "spell:chaos-channelling": {
+  "spell:chaos-channeling": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -1256,7 +1258,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "passive"
   },
   "spell:chastise": {
@@ -1274,7 +1276,14 @@
     "openingGuess": null
   },
   "spell:cherub-s-missile": {
-    "statuses": {},
+    "statuses": {
+      "Poisoned": [
+        "afflict"
+      ],
+      "Sleeping": [
+        "afflict"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [],
@@ -1330,7 +1339,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health equal to its Current Health",
+    "maxBonus": "health equal to its Current health",
     "openingGuess": null
   },
   "spell:clogged-pores": {
@@ -1391,8 +1400,12 @@
     "statuses": {},
     "stats": [],
     "allStats": false,
-    "percents": [],
-    "tiers": [],
+    "percents": [
+      10
+    ],
+    "tiers": [
+      "small"
+    ],
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
@@ -2385,7 +2398,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": null
   },
   "spell:debilitate": {
@@ -2724,7 +2737,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "passive"
   },
   "spell:devastating-throw": {
@@ -2845,7 +2858,9 @@
   },
   "spell:disk-of-creation": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Health"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -3456,7 +3471,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health and loses a massive amount of Defense and Speed",
+    "maxBonus": "health and loses a massive amount of defense and speed",
     "openingGuess": null
   },
   "spell:enlightenment": {
@@ -3571,7 +3586,9 @@
   },
   "spell:equality": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Health"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -3656,7 +3673,7 @@
   "spell:evil-eye": {
     "statuses": {
       "Cursed": [
-        "mention"
+        "afflict"
       ]
     },
     "stats": [],
@@ -3911,7 +3928,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "passive"
   },
   "spell:fiery-gleam": {
@@ -4188,7 +4205,23 @@
     "maxBonus": null,
     "openingGuess": "passive"
   },
-  "spell:flame-strike": {
+  "spell:flameheart": {
+    "statuses": {
+      "Barrier": [
+        "gain"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "spell:flamestrike": {
     "statuses": {
       "Burning": [
         "afflict"
@@ -4200,22 +4233,6 @@
     "tiers": [
       "small"
     ],
-    "chance": null,
-    "doesNotStack": false,
-    "perRank": false,
-    "maxBonus": null,
-    "openingGuess": "passive"
-  },
-  "spell:flameheart": {
-    "statuses": {
-      "Barrier": [
-        "gain"
-      ]
-    },
-    "stats": [],
-    "allStats": false,
-    "percents": [],
-    "tiers": [],
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
@@ -4256,7 +4273,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health, and your creatures gain 20% of that amount",
+    "maxBonus": "health, and your creatures gain 20% of that amount",
     "openingGuess": null
   },
   "spell:flood-of-darkness": {
@@ -4303,7 +4320,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "spell:fortify": {
     "statuses": {
@@ -4430,7 +4447,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health, all other enemies take this damage as well",
+    "maxBonus": "health, all other enemies take this damage as well",
     "openingGuess": null
   },
   "spell:freezing-sting": {
@@ -4826,7 +4843,7 @@
     "chance": 30,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "of 3 spells can be Cast",
+    "maxBonus": "of 3 spells can be cast",
     "openingGuess": null
   },
   "spell:godly-gin": {
@@ -4980,8 +4997,12 @@
     "statuses": {},
     "stats": [],
     "allStats": false,
-    "percents": [],
-    "tiers": [],
+    "percents": [
+      10
+    ],
+    "tiers": [
+      "small"
+    ],
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
@@ -5165,7 +5186,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health is reduced by the amount of damage dealt",
+    "maxBonus": "health is reduced by the amount of damage dealt",
     "openingGuess": "passive"
   },
   "spell:heaven-s-fury": {
@@ -5182,7 +5203,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": null
   },
   "spell:heaven-s-thunder": {
@@ -5346,7 +5367,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": null
   },
   "spell:holy-bulwark": {
@@ -5633,9 +5654,10 @@
     "statuses": {},
     "stats": [],
     "allStats": false,
-    "percents": [],
+    "percents": [
+      30
+    ],
     "tiers": [
-      "moderate",
       "moderate"
     ],
     "chance": null,
@@ -5681,7 +5703,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health equal to 35% of its other stats",
+    "maxBonus": "health equal to 35% of its other stats",
     "openingGuess": null
   },
   "spell:ice-bolt": {
@@ -5702,7 +5724,25 @@
     "maxBonus": null,
     "openingGuess": null
   },
-  "spell:iceicle-rain": {
+  "spell:icewolf-bite": {
+    "statuses": {
+      "Frozen": [
+        "afflict"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [],
+    "tiers": [
+      "moderate"
+    ],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "spell:icicle-rain": {
     "statuses": {
       "Bleeding": [
         "afflict"
@@ -5720,24 +5760,6 @@
       "large"
     ],
     "chance": 35,
-    "doesNotStack": false,
-    "perRank": false,
-    "maxBonus": null,
-    "openingGuess": null
-  },
-  "spell:icewolf-bite": {
-    "statuses": {
-      "Frozen": [
-        "afflict"
-      ]
-    },
-    "stats": [],
-    "allStats": false,
-    "percents": [],
-    "tiers": [
-      "large"
-    ],
-    "chance": null,
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
@@ -5761,7 +5783,7 @@
     "maxBonus": null,
     "openingGuess": null
   },
-  "spell:ignus-fatuus": {
+  "spell:ignis-fatuus": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -5862,7 +5884,9 @@
     "statuses": {},
     "stats": [],
     "allStats": false,
-    "percents": [],
+    "percents": [
+      50
+    ],
     "tiers": [
       "small"
     ],
@@ -5901,7 +5925,7 @@
     "stats": [],
     "allStats": false,
     "percents": [
-      100
+      200
     ],
     "tiers": [],
     "chance": null,
@@ -5977,7 +6001,7 @@
     "allStats": false,
     "percents": [],
     "tiers": [
-      "moderate"
+      "large"
     ],
     "chance": null,
     "doesNotStack": false,
@@ -6097,9 +6121,10 @@
     },
     "stats": [],
     "allStats": false,
-    "percents": [],
+    "percents": [
+      25
+    ],
     "tiers": [
-      "moderate",
       "moderate"
     ],
     "chance": null,
@@ -6365,7 +6390,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health equal to 100% of the damage dealt",
+    "maxBonus": "health equal to 100% of the damage dealt",
     "openingGuess": null
   },
   "spell:last-stand": {
@@ -6506,7 +6531,7 @@
       ]
     },
     "stats": [
-      "Current Health",
+      "Maximum Health",
       "Health"
     ],
     "allStats": false,
@@ -6517,7 +6542,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": null,
+    "maxBonus": "health",
     "openingGuess": null
   },
   "spell:living-axe": {
@@ -6612,6 +6637,8 @@
       ]
     },
     "stats": [
+      "Intelligence",
+      "Defense",
       "Speed"
     ],
     "allStats": false,
@@ -6671,7 +6698,9 @@
       ]
     },
     "stats": [
-      "Attack"
+      "Intelligence",
+      "Attack",
+      "Defense"
     ],
     "allStats": false,
     "percents": [],
@@ -6691,6 +6720,7 @@
       ]
     },
     "stats": [
+      "Intelligence",
       "Defense"
     ],
     "allStats": false,
@@ -6722,7 +6752,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health and Protected",
+    "maxBonus": "health and Protected",
     "openingGuess": null
   },
   "spell:living-life-lance": {
@@ -7821,7 +7851,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health and their classes become Life until the end of battle",
+    "maxBonus": "health and their classes become Life until the end of battle",
     "openingGuess": "passive"
   },
   "spell:morph-nature": {
@@ -8202,6 +8232,22 @@
     "maxBonus": null,
     "openingGuess": null
   },
+  "spell:overheat": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [
+      "small"
+    ],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
   "spell:pandemonium": {
     "statuses": {},
     "stats": [],
@@ -8568,7 +8614,7 @@
     "maxBonus": null,
     "openingGuess": null
   },
-  "spell:prismatic-channelling": {
+  "spell:prismatic-channeling": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -8587,8 +8633,7 @@
   "spell:productive-belch": {
     "statuses": {
       "Disarmed": [
-        "afflict",
-        "cond"
+        "afflict"
       ]
     },
     "stats": [],
@@ -8736,7 +8781,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": null
   },
   "spell:purgatory": {
@@ -9016,7 +9061,8 @@
     "stats": [],
     "allStats": false,
     "percents": [
-      1
+      1,
+      300
     ],
     "tiers": [
       "large"
@@ -9187,7 +9233,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "passive"
   },
   "spell:restore-balance": {
@@ -9398,7 +9444,6 @@
   "spell:rune-of-cor": {
     "statuses": {},
     "stats": [
-      "Intelligence",
       "Attack"
     ],
     "allStats": false,
@@ -9406,7 +9451,8 @@
       100
     ],
     "tiers": [
-      "large"
+      "large",
+      "moderate"
     ],
     "chance": null,
     "doesNotStack": false,
@@ -9417,9 +9463,7 @@
   "spell:rune-of-dun": {
     "statuses": {},
     "stats": [
-      "Intelligence",
-      "Attack",
-      "Defense"
+      "Attack"
     ],
     "allStats": false,
     "percents": [
@@ -9437,13 +9481,12 @@
   "spell:rune-of-lua": {
     "statuses": {},
     "stats": [
-      "Current Health",
-      "Intelligence",
       "Attack",
       "Health"
     ],
     "allStats": false,
     "percents": [
+      50,
       100
     ],
     "tiers": [
@@ -9458,16 +9501,15 @@
   "spell:rune-of-nax": {
     "statuses": {},
     "stats": [
-      "Intelligence",
-      "Attack",
-      "Speed"
+      "Attack"
     ],
     "allStats": false,
     "percents": [
       100
     ],
     "tiers": [
-      "large"
+      "large",
+      "moderate"
     ],
     "chance": null,
     "doesNotStack": false,
@@ -9481,7 +9523,9 @@
       "Attack"
     ],
     "allStats": false,
-    "percents": [],
+    "percents": [
+      100
+    ],
     "tiers": [
       "large"
     ],
@@ -9693,7 +9737,7 @@
     "chance": 100,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": null
   },
   "spell:schism": {
@@ -10842,7 +10886,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": null
   },
   "spell:stone-ward": {
@@ -11512,7 +11556,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "spell:unbound-combustion": {
     "statuses": {},
@@ -11531,7 +11575,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health instead of Intelligence",
+    "maxBonus": "health instead of intelligence",
     "openingGuess": null
   },
   "spell:unholy-augmentation": {
@@ -11790,7 +11834,7 @@
     "maxBonus": null,
     "openingGuess": null
   },
-  "spell:villify": {
+  "spell:vilify": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -11830,7 +11874,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health it has greater than its base amount",
+    "maxBonus": "health it has greater than its base amount",
     "openingGuess": null
   },
   "spell:vivacious-vodka": {
@@ -12088,7 +12132,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": null
   },
   "spell:wind-enchantment": {

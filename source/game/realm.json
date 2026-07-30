@@ -1,0 +1,234 @@
+[
+  {
+    "key": "NOSTATGAIN",
+    "markup": "Reduces the amount of stats your creatures gain in battle by a certain amount."
+  },
+  {
+    "key": "ALWAYSCRIT",
+    "markup": "Enemies always deal critical damage with attacks and spells."
+  },
+  {
+    "key": "REFLECT",
+    "markup": "When one of your creatures damages an enemy, some of that damage is reflected back to your creature."
+  },
+  {
+    "key": "EXTRACASTS",
+    "markup": "Enemies cast spells an additional number of times."
+  },
+  {
+    "key": "EXTRAATTACKS",
+    "markup": "Enemies attack an additional number of times."
+  },
+  {
+    "key": "MORENEMESIS",
+    "markup": "More Nemesis Creatures will spawn in this realm."
+  },
+  {
+    "key": "FAMILIES",
+    "markup": "Enemies all belong to the same race of creatures."
+  },
+  {
+    "key": "DAMAGEOVERTIME",
+    "markup": "Your creatures will take damage as a percentage of their Maximum Health at the start of their turns."
+  },
+  {
+    "key": "COPYGEMS",
+    "markup": "Enemies gain a copy of your creatures' Spell Gems at the start of battle."
+  },
+  {
+    "key": "EXTRATRAITS",
+    "markup": "Enemies start battles with an additional number of traits."
+  },
+  {
+    "key": "RACE",
+    "markup": "The realm is inhabited by creatures that belong to the same race."
+  },
+  {
+    "key": "STRONGCLASS_CHAOS",
+    "markup": "Enemies take 50% less damage from creatures that belong to the Chaos class, and deal 50% more damage to them."
+  },
+  {
+    "key": "STRONGCLASS_DEATH",
+    "markup": "Enemies take 50% less damage from creatures that belong to the Death class, and deal 50% more damage to them."
+  },
+  {
+    "key": "STRONGCLASS_LIFE",
+    "markup": "Enemies take 50% less damage from creatures that belong to the Life class, and deal 50% more damage to them."
+  },
+  {
+    "key": "STRONGCLASS_NATURE",
+    "markup": "Enemies take 50% less damage from creatures that belong to the Nature class, and deal 50% more damage to them."
+  },
+  {
+    "key": "STRONGCLASS_SORCERY",
+    "markup": "Enemies take 50% less damage from creatures that belong to the Sorcery class, and deal 50% more damage to them."
+  },
+  {
+    "key": "SPELLSLOTS",
+    "markup": "Enemies have additional Spell Gem slots."
+  },
+  {
+    "key": "IMMUNEATTACKS",
+    "markup": "Your creatures deal less damage with attacks."
+  },
+  {
+    "key": "IMMUNESPELLS",
+    "markup": "Your creatures' spells are less potent."
+  },
+  {
+    "key": "ATTACK",
+    "markup": "Enemies have extra Attack."
+  },
+  {
+    "key": "DEFENSE",
+    "markup": "Enemies have extra Defense."
+  },
+  {
+    "key": "INTELLIGENCE",
+    "markup": "Enemies have extra Intelligence."
+  },
+  {
+    "key": "MAXHP",
+    "markup": "Enemies have extra Health."
+  },
+  {
+    "key": "SPEED",
+    "markup": "Enemies have extra Speed."
+  },
+  {
+    "key": "DEBUFF",
+    "markup": "Your creatures start battles with the specified debuff."
+  },
+  {
+    "key": "BUFF",
+    "markup": "Enemies start battles with the specified buff."
+  },
+  {
+    "key": "DEALEXTRADAMAGE",
+    "markup": "Enemies deal additional damage."
+  },
+  {
+    "key": "TAKELESSDAMAGE",
+    "markup": "Enemies take less damage."
+  },
+  {
+    "key": "RESURRECT",
+    "markup": "The first time each enemy dies in battle, they are resurrected with 25% Health."
+  },
+  {
+    "key": "RESISTDEBUFFS",
+    "markup": "Enemies are resistant to certain debuffs. You can view these adjusted effects in battle by using the Inspect option."
+  },
+  {
+    "key": "NOBUFFS",
+    "markup": "Your creatures can only have a certain amount of buffs at a time. Buffs gained from realm effects do not count against this limit."
+  },
+  {
+    "key": "NODODGE",
+    "markup": "Your creatures have a lower chance to dodge attacks."
+  },
+  {
+    "key": "RESISTDAMAGE",
+    "markup": "Enemies have a chance to ignore incoming damage."
+  },
+  {
+    "key": "NOCRIT",
+    "markup": "Your creatures have a lower chance to deal critical damage."
+  },
+  {
+    "key": "STATSWAP",
+    "markup": "At the start of battle, your creatures' stat values are randomly swapped with each other. For example, a creature's Attack stat might be swapped with its Defense stat."
+  },
+  {
+    "key": "ALWAYSDODGE",
+    "markup": "Enemies have an independent chance to dodge attacks."
+  },
+  {
+    "key": "MINION",
+    "markup": "Enemies start battles with the specified minion."
+  },
+  {
+    "key": "IMMUNEINDIRECTDAMAGE",
+    "markup": "Enemies take less indirect damage, which is damage that is not from an attack or spell."
+  },
+  {
+    "key": "REGEN",
+    "markup": "Enemies recover a certain amount of Health at the start of their turn."
+  },
+  {
+    "key": "LESSATTACK",
+    "markup": "Your creatures have less Attack."
+  },
+  {
+    "key": "LESSINTELLIGENCE",
+    "markup": "Your creatures have less Intelligence."
+  },
+  {
+    "key": "LESSDEFENSE",
+    "markup": "Your creatures have less Defense."
+  },
+  {
+    "key": "LESSSPEED",
+    "markup": "Your creatures have less Speed."
+  },
+  {
+    "key": "DEALLESSDAMAGE",
+    "markup": "Your creatures deal less damage."
+  },
+  {
+    "key": "TAKEMOREDAMAGE",
+    "markup": "Your creatures take more damage."
+  },
+  {
+    "key": "NOHEAL",
+    "markup": "Your creatures receive less healing."
+  },
+  {
+    "key": "REDUCEDCHARGES",
+    "markup": "Your creatures' Spell Gems have fewer Charges."
+  },
+  {
+    "key": "NOTRAITGAIN",
+    "markup": "Your creatures can only have a certain amount of extra traits gained in battle."
+  },
+  {
+    "key": "NODEFENDPROVOKE",
+    "markup": "Your creatures cannot manually Defend or Provoke."
+  },
+  {
+    "key": "SEALAFTERCAST",
+    "markup": "After your creatures cast a spell, that Spell Gem is sealed for the rest of the battle."
+  },
+  {
+    "key": "NOSTATLOSS",
+    "markup": "Enemies lose fewer stats from stat-reducing effects."
+  },
+  {
+    "key": "ENDOFTURN_DEFEND",
+    "markup": "Enemies Defend at the end of their turn."
+  },
+  {
+    "key": "ENDOFTURN_PROVOKE",
+    "markup": "Enemies Provoke at the end of their turn."
+  },
+  {
+    "key": "ENDOFTURN_ATTACK",
+    "markup": "Enemies Attack one of your creatures at the end of their turn."
+  },
+  {
+    "key": "ENDOFTURN_CAST",
+    "markup": "Enemies Cast one of their spells at the end of their turn."
+  },
+  {
+    "key": "FATIGUE",
+    "markup": "Battle fatigue accumulates much faster than normal."
+  },
+  {
+    "key": "BADLUCK",
+    "markup": "Whenever it is one of your creatures' turns, any random effects that activate are re-rolled an additional time."
+  },
+  {
+    "key": "GOODLUCK",
+    "markup": "Whenever it is an enemy's turn, any random effects that fail to activate are re-rolled an additional time."
+  }
+]

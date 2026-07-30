@@ -53,6 +53,48 @@
     "maxBonus": null,
     "openingGuess": "passive"
   },
+  "card:alemental:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "card:alemental:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "card:alemental:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
   "card:amaranth:1": {
     "statuses": {},
     "stats": [
@@ -380,7 +422,11 @@
     "openingGuess": "passive"
   },
   "card:arachnalisk:2": {
-    "statuses": {},
+    "statuses": {
+      "Snared": [
+        "mention"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [
@@ -574,7 +620,7 @@
   "card:automaton:2": {
     "statuses": {},
     "stats": [],
-    "allStats": true,
+    "allStats": false,
     "percents": [
       15
     ],
@@ -587,7 +633,9 @@
   },
   "card:automaton:3": {
     "statuses": {},
-    "stats": [],
+    "stats": [
+      "Charges"
+    ],
     "allStats": false,
     "percents": [],
     "tiers": [],
@@ -595,7 +643,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "card:banshee:1": {
     "statuses": {},
@@ -859,6 +907,48 @@
     "maxBonus": null,
     "openingGuess": "passive"
   },
+  "card:calumnier:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:calumnier:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:calumnier:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
   "card:carbuncle:1": {
     "statuses": {},
     "stats": [],
@@ -953,7 +1043,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "card:carver:2": {
     "statuses": {},
@@ -967,7 +1057,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "card:carver:3": {
     "statuses": {},
@@ -981,7 +1071,55 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
+  },
+  "card:cataclysm:1": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:cataclysm:2": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:cataclysm:3": {
+    "statuses": {},
+    "stats": [
+      "Charges"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
   },
   "card:centaur:1": {
     "statuses": {},
@@ -1428,7 +1566,11 @@
     "openingGuess": null
   },
   "card:crusader:1": {
-    "statuses": {},
+    "statuses": {
+      "Shelled": [
+        "mention"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [
@@ -1505,6 +1647,60 @@
     "allStats": false,
     "percents": [
       15
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:denizen:1": {
+    "statuses": {
+      "Mania": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:denizen:2": {
+    "statuses": {
+      "Mania": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:denizen:3": {
+    "statuses": {
+      "Mania": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
     ],
     "tiers": [],
     "chance": null,
@@ -1861,6 +2057,48 @@
     "maxBonus": null,
     "openingGuess": null
   },
+  "card:effigy:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:effigy:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:effigy:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
   "card:efreet:1": {
     "statuses": {
       "Burning": [
@@ -1957,7 +2195,49 @@
     "maxBonus": null,
     "openingGuess": "passive"
   },
-  "card:electropods:1": {
+  "card:eggxotic:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1
+    ],
+    "tiers": [],
+    "chance": 1,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "card:eggxotic:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "card:eggxotic:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": 3,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": null
+  },
+  "card:electropod:1": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -1971,7 +2251,7 @@
     "maxBonus": null,
     "openingGuess": null
   },
-  "card:electropods:2": {
+  "card:electropod:2": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -1983,7 +2263,7 @@
     "maxBonus": null,
     "openingGuess": null
   },
-  "card:electropods:3": {
+  "card:electropod:3": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -1996,6 +2276,48 @@
     "perRank": false,
     "maxBonus": null,
     "openingGuess": null
+  },
+  "card:elementasaur:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": 3,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:elementasaur:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": 3,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:elementasaur:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": 3,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
   },
   "card:elf:1": {
     "statuses": {},
@@ -2459,7 +2781,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "passive"
   },
   "card:giant:2": {
@@ -2476,7 +2798,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "passive"
   },
   "card:giant:3": {
@@ -2493,7 +2815,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "passive"
   },
   "card:golem:1": {
@@ -2632,7 +2954,7 @@
     "maxBonus": null,
     "openingGuess": null
   },
-  "card:grimore:1": {
+  "card:grimoire:1": {
     "statuses": {
       "Arcane": [
         "mention"
@@ -2650,7 +2972,7 @@
     "maxBonus": null,
     "openingGuess": "passive"
   },
-  "card:grimore:2": {
+  "card:grimoire:2": {
     "statuses": {
       "Arcane": [
         "remove"
@@ -2668,7 +2990,7 @@
     "maxBonus": null,
     "openingGuess": "passive"
   },
-  "card:grimore:3": {
+  "card:grimoire:3": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -3002,7 +3324,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "card:inquisitor:1": {
     "statuses": {},
@@ -3060,7 +3382,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health from stat-boosting effects",
+    "maxBonus": "health from stat-boosting effects",
     "openingGuess": "passive"
   },
   "card:koloss:2": {
@@ -3077,7 +3399,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health from stat-boosting effects",
+    "maxBonus": "health from stat-boosting effects",
     "openingGuess": "passive"
   },
   "card:koloss:3": {
@@ -3094,7 +3416,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health from stat-boosting effects",
+    "maxBonus": "health from stat-boosting effects",
     "openingGuess": "passive"
   },
   "card:kraken:1": {
@@ -3163,7 +3485,9 @@
         "mention"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Health"
+    ],
     "allStats": false,
     "percents": [
       25
@@ -3281,6 +3605,57 @@
     "allStats": false,
     "percents": [
       10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:lucanian:1": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:lucanian:2": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:lucanian:3": {
+    "statuses": {},
+    "stats": [
+      "Intelligence",
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      3
     ],
     "tiers": [],
     "chance": null,
@@ -3413,6 +3788,48 @@
     "maxBonus": null,
     "openingGuess": "passive"
   },
+  "card:marionette:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:marionette:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:marionette:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2
+    ],
+    "tiers": [],
+    "chance": 2,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
   "card:masochist:1": {
     "statuses": {},
     "stats": [],
@@ -3538,6 +3955,48 @@
     "perRank": false,
     "maxBonus": null,
     "openingGuess": null
+  },
+  "card:mireling:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:mireling:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:mireling:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      2
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
   },
   "card:mite:1": {
     "statuses": {},
@@ -3923,7 +4382,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "card:ophan:3": {
     "statuses": {},
@@ -4008,7 +4467,11 @@
     "openingGuess": "passive"
   },
   "card:paragon:2": {
-    "statuses": {},
+    "statuses": {
+      "Silenced": [
+        "mention"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [],
@@ -4122,7 +4585,11 @@
     "openingGuess": "passive"
   },
   "card:pilwiz:1": {
-    "statuses": {},
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [
@@ -4136,21 +4603,29 @@
     "openingGuess": "passive"
   },
   "card:pilwiz:2": {
-    "statuses": {},
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [
       10
     ],
     "tiers": [],
-    "chance": null,
+    "chance": 10,
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
     "openingGuess": "passive"
   },
   "card:pilwiz:3": {
-    "statuses": {},
+    "statuses": {
+      "Bleeding": [
+        "mention"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [],
@@ -4159,7 +4634,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "card:pit-worm:1": {
     "statuses": {},
@@ -4413,7 +4888,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "passive"
   },
   "card:reaper:2": {
     "statuses": {},
@@ -4525,13 +5000,57 @@
         "cond"
       ]
     },
-    "stats": [],
+    "stats": [
+      "Defense"
+    ],
     "allStats": false,
     "percents": [
       30
     ],
     "tiers": [],
     "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:robodomi:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:robodomi:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:robodomi:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": 10,
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
@@ -4606,12 +5125,14 @@
   "card:sanctus:2": {
     "statuses": {
       "Barrier": [
-        "remove"
+        "mention"
       ]
     },
     "stats": [],
     "allStats": false,
-    "percents": [],
+    "percents": [
+      15
+    ],
     "tiers": [],
     "chance": null,
     "doesNotStack": false,
@@ -4630,15 +5151,17 @@
     },
     "stats": [],
     "allStats": false,
-    "percents": [],
+    "percents": [
+      5
+    ],
     "tiers": [],
-    "chance": null,
+    "chance": 5,
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
     "openingGuess": null
   },
-  "card:saytr:1": {
+  "card:satyr:1": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -4652,7 +5175,7 @@
     "maxBonus": null,
     "openingGuess": "start_of_battle"
   },
-  "card:saytr:2": {
+  "card:satyr:2": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -4666,7 +5189,7 @@
     "maxBonus": null,
     "openingGuess": "start_of_battle"
   },
-  "card:saytr:3": {
+  "card:satyr:3": {
     "statuses": {},
     "stats": [],
     "allStats": false,
@@ -5067,7 +5590,11 @@
     "openingGuess": "passive"
   },
   "card:slime:1": {
-    "statuses": {},
+    "statuses": {
+      "Confused": [
+        "mention"
+      ]
+    },
     "stats": [
       "Attack"
     ],
@@ -5187,7 +5714,7 @@
     ],
     "allStats": false,
     "percents": [
-      15
+      50
     ],
     "tiers": [],
     "chance": null,
@@ -5296,6 +5823,48 @@
     "maxBonus": null,
     "openingGuess": null
   },
+  "card:spacecat:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:spacecat:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:spacecat:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      5
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
   "card:sparktail:1": {
     "statuses": {},
     "stats": [],
@@ -5378,6 +5947,48 @@
     "allStats": false,
     "percents": [
       50
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:spelljuggler:1": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:spelljuggler:2": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:spelljuggler:3": {
+    "statuses": {},
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      1
     ],
     "tiers": [],
     "chance": null,
@@ -5645,12 +6256,14 @@
   "card:toxdweller:3": {
     "statuses": {
       "Bomb": [
-        "remove"
+        "mention"
       ]
     },
     "stats": [],
     "allStats": false,
-    "percents": [],
+    "percents": [
+      25
+    ],
     "tiers": [],
     "chance": null,
     "doesNotStack": false,
@@ -5742,6 +6355,64 @@
     "statuses": {},
     "stats": [
       "Speed"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:underdweller:1": {
+    "statuses": {
+      "Feared": [
+        "mention"
+      ]
+    },
+    "stats": [],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": 3,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:underdweller:2": {
+    "statuses": {
+      "Feared": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Attack"
+    ],
+    "allStats": false,
+    "percents": [
+      10
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
+  "card:underdweller:3": {
+    "statuses": {
+      "Feared": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Intelligence"
     ],
     "allStats": false,
     "percents": [
@@ -6381,7 +7052,11 @@
     "openingGuess": null
   },
   "card:yeti:2": {
-    "statuses": {},
+    "statuses": {
+      "Frozen": [
+        "mention"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [

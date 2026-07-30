@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "spell:villify",
+  "id": "spell:vilify",
   "rules": [
     {
       "trigger": {
@@ -28,5 +28,5 @@
     }
   ],
   "notes": "Action-state removal has no verb; other is honest here.",
-  "textHash": "fb8151a7baed"
+  "textHash": "a48e347c0b87"
 }

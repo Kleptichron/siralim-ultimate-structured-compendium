@@ -223,12 +223,17 @@ async function boot() {
     ? `Indexed <time datetime="${attr(index.generated)}">${gen.toLocaleDateString(undefined,
         { year: 'numeric', month: 'long', day: 'numeric' })}</time>`
     : 'Built';
-  // Says when the data was INDEXED, not which game version it describes: the
-  // source data is a community-compiled spreadsheet export whose version banner
-  // is not present in the copy under source/, so the patch it reflects is
-  // genuinely unknown. Claiming one would be worse than admitting it.
+  // Which game build the effect text came from, when it is known. This used to be
+  // genuinely unknowable — the data was a community spreadsheet export with no
+  // version banner — but the text now comes from an install's own string tables,
+  // and a Steam install records its build id, so the honest answer is a fact
+  // rather than an omission.
+  // Digits only: it goes in as HTML, and a build id is never anything else.
+  // Not named `build` — that is the team-build state this function assigns below.
+  const buildId = String(index.gameBuild?.steamBuildId ?? '').replace(/[^0-9]/g, '');
+  const gameStamp = buildId ? ` · game build ${buildId}` : '';
   $('#stamp').innerHTML =
-    `${when} · ${index.counts.total} records · schema v${index.schemaVersion}`;
+    `${when} · ${index.counts.total} records · schema v${index.schemaVersion}${gameStamp}`;
   // Trait lookups for the builder: names are unique corpus-wide, so a
   // type-ahead by name resolves to exactly one trait.
   const traits = index.records.filter(r => r.type === 'traits');

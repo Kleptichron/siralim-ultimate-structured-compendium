@@ -1,0 +1,457 @@
+[
+  {
+    "token": "CONDNAME_DEBUFF_CURSED",
+    "key": "CURSED",
+    "kind": "debuff",
+    "name": "Cursed",
+    "markup": "When creatures with {CONDNAME_DEBUFF_CURSED} deal damage with attacks or spells, they take damage equal to 100% of their target's {STAT_attack}."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_MANIA",
+    "key": "MANIA",
+    "kind": "debuff",
+    "name": "Mania",
+    "markup": "Creatures with {CONDNAME_DEBUFF_MANIA} take damage at the end of their turn equal to 3% of the {STAT_health} all creatures had recovered when this debuff was applied."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_VULNERABLE",
+    "key": "VULNERABLE",
+    "kind": "debuff",
+    "name": "Vulnerable",
+    "markup": "{CONDNAME_DEBUFF_VULNERABLE} creatures take 50% more damage."
+  },
+  {
+    "token": "CONDNAME_BUFF_SAVAGE",
+    "key": "SAVAGE",
+    "kind": "buff",
+    "name": "Savage",
+    "markup": "{CONDNAME_BUFF_SAVAGE} creatures have an additional, independent chance to deal critical damage with attacks."
+  },
+  {
+    "token": "CONDNAME_BUFF_IMMUNITY",
+    "key": "IMMUNITY",
+    "kind": "buff",
+    "name": "Immune",
+    "markup": "Creatures with {CONDNAME_BUFF_IMMUNITY} can't be afflicted with debuffs."
+  },
+  {
+    "token": "CONDNAME_BUFF_REBIRTH",
+    "key": "REBIRTH",
+    "kind": "buff",
+    "name": "Rebirth",
+    "markup": "Creatures with {CONDNAME_BUFF_REBIRTH} are resurrected with 50% {STAT_health} when they die."
+  },
+  {
+    "token": "CONDNAME_BUFF_BERSERK",
+    "key": "BERSERK",
+    "kind": "buff",
+    "name": "Berserk",
+    "markup": "{CONDNAME_BUFF_BERSERK} creatures deal 50% more damage."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_BLIND",
+    "key": "BLIND",
+    "kind": "debuff",
+    "name": "Blind",
+    "markup": "{CONDNAME_DEBUFF_BLIND} creatures cannot choose their targets when {ACTION_attacking} or {ACTION_casting} single-target spells."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_BURNED",
+    "key": "BURNED",
+    "kind": "debuff",
+    "name": "Burning",
+    "markup": "Creatures with {CONDNAME_DEBUFF_BURNED} take damage based on the inflictor's {STAT_intelligence} each turn."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_CONFUSED",
+    "key": "CONFUSED",
+    "kind": "debuff",
+    "name": "Confused",
+    "markup": "{CONDNAME_DEBUFF_CONFUSED} creatures have a 50% chance to {ACTION_attack} or {ACTION_cast} harmful spells on their allies."
+  },
+  {
+    "token": "CONDNAME_BUFF_WARD",
+    "key": "WARD",
+    "kind": "buff",
+    "name": "Warded",
+    "markup": "Creatures with {CONDNAME_BUFF_WARD} cannot lose stats."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_SNARED",
+    "key": "SNARED",
+    "kind": "debuff",
+    "name": "Snared",
+    "markup": "Creatures with {CONDNAME_DEBUFF_SNARED} are stuck at the bottom of the Timeline until they break free. They have a 10% chance to break free at the start of each creature's turn."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_FROZEN",
+    "key": "FROZEN",
+    "kind": "debuff",
+    "name": "Frozen",
+    "markup": "{CONDNAME_DEBUFF_FROZEN} creatures are unable to act until they thaw, and have a 25% chance to thaw at the start of their turn. This chance doubles after each of their turns."
+  },
+  {
+    "token": "CONDNAME_BUFF_SHELL",
+    "key": "SHELL",
+    "kind": "buff",
+    "name": "Shelled",
+    "markup": "{CONDNAME_BUFF_SHELL} negates the next incoming attack or spell."
+  },
+  {
+    "token": "CONDNAME_BUFF_INVISIBLE",
+    "key": "INVISIBLE",
+    "kind": "buff",
+    "name": "Invisible",
+    "markup": "{CONDNAME_BUFF_INVISIBLE} creatures cannot be manually targeted by enemy attacks or spells. This buff is removed after the creature takes an action."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_POISON",
+    "key": "POISON",
+    "kind": "debuff",
+    "name": "Poisoned",
+    "markup": "Creatures with {CONDNAME_DEBUFF_POISON} take damage based on the inflictor's {STAT_attack} each turn."
+  },
+  {
+    "token": "CONDNAME_BUFF_MEND",
+    "key": "MEND",
+    "kind": "buff",
+    "name": "Mending",
+    "markup": "Creatures with {CONDNAME_BUFF_MEND} recover 30% {STAT_health} at the start of their turn."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_SCORN",
+    "key": "SCORN",
+    "kind": "debuff",
+    "name": "Scorned",
+    "markup": "Creatures with {CONDNAME_DEBUFF_SCORN} cannot attack. Overwrites {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_SILENCE",
+    "key": "SILENCE",
+    "kind": "debuff",
+    "name": "Silenced",
+    "markup": "Creatures with {CONDNAME_DEBUFF_SILENCE} cannot cast spells. Overwrites {CONDNAME_DEBUFF_SCORN}."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_SLEEP",
+    "key": "SLEEP",
+    "kind": "debuff",
+    "name": "Sleeping",
+    "markup": "Creatures with {CONDNAME_DEBUFF_SLEEP} cannot act until they either take damage or this debuff wears off."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_STONE",
+    "key": "STONE",
+    "kind": "debuff",
+    "name": "Stone",
+    "markup": "Creatures with {CONDNAME_DEBUFF_STONE} cannot dodge or deal critical damage."
+  },
+  {
+    "token": "CONDNAME_BUFF_LEECH",
+    "key": "LEECH",
+    "kind": "buff",
+    "name": "Leeching",
+    "markup": "Creatures with {CONDNAME_BUFF_LEECH} recover {STAT_health} equal to 25% of the damage they deal."
+  },
+  {
+    "token": "CONDNAME_BUFF_AGILE",
+    "key": "AGILE",
+    "kind": "buff",
+    "name": "Agile",
+    "markup": "Creatures with {CONDNAME_BUFF_AGILE} have an additional, independent chance to dodge attacks."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_WEAK",
+    "key": "WEAK",
+    "kind": "debuff",
+    "name": "Weak",
+    "markup": "{CONDNAME_DEBUFF_WEAK} creatures deal 50% less damage."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_BLEED",
+    "key": "BLEED",
+    "kind": "debuff",
+    "name": "Bleeding",
+    "markup": "Creatures with {CONDNAME_DEBUFF_BLEED} take damage equal to 30% of their Current {STAT_health} at the start of each turn."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_BLIGHT",
+    "key": "BLIGHT",
+    "kind": "debuff",
+    "name": "Blighted",
+    "markup": "Creatures with {CONDNAME_DEBUFF_BLIGHT} cannot be healed and take damage from healing effects equal to 50% of the effect."
+  },
+  {
+    "token": "CONDNAME_BUFF_TAUNT",
+    "key": "TAUNT",
+    "kind": "buff",
+    "name": "Taunting",
+    "markup": "Creatures with {CONDNAME_BUFF_TAUNT} automatically {ACTION_provoke} at the end of their turn."
+  },
+  {
+    "token": "CONDNAME_BUFF_DEFENSIVE",
+    "key": "DEFENSIVE",
+    "kind": "buff",
+    "name": "Defensive",
+    "markup": "Creatures with {CONDNAME_BUFF_DEFENSIVE} automatically {ACTION_defend} at the end of their turn."
+  },
+  {
+    "token": "CONDNAME_BUFF_PROTECT",
+    "key": "PROTECT",
+    "kind": "buff",
+    "name": "Protected",
+    "markup": "Creatures with {CONDNAME_BUFF_PROTECT} take 50% less damage."
+  },
+  {
+    "token": "CONDNAME_BUFF_SPLASH",
+    "key": "SPLASH",
+    "kind": "buff",
+    "name": "Splashing",
+    "markup": "Creatures with {CONDNAME_BUFF_SPLASH} deal 50% of their damage to enemies adjacent to the target they {ACTION_attack}."
+  },
+  {
+    "token": "CONDNAME_BUFF_BARRIER",
+    "key": "BARRIER",
+    "kind": "buff",
+    "name": "Barrier",
+    "markup": "{CONDNAME_BUFF_BARRIER} absorbs a certain amount of damage. After the maximum amount of damage is dealt, the buff is removed. {CONDNAME_BUFF_BARRIER} strength cannot exceed 200% of a creature's highest stat when this buff is applied."
+  },
+  {
+    "token": "CONDNAME_BUFF_ARCANE",
+    "key": "ARCANE",
+    "kind": "buff",
+    "name": "Arcane",
+    "markup": "When an {CONDNAME_BUFF_ARCANE} creature {ACTION_casts} a spell, the spell does not consume any {STAT_charges}. Then, this buff is removed."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_FEAR",
+    "key": "FEAR",
+    "kind": "debuff",
+    "name": "Feared",
+    "markup": "{CONDNAME_DEBUFF_FEAR} creatures cannot gain stats."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_DISARMED",
+    "key": "DISARMED",
+    "kind": "debuff",
+    "name": "Disarmed",
+    "markup": "{CONDNAME_DEBUFF_DISARMED} creatures lose the benefits from their equipped Artifact, other than {STAT_health}."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_INVERTED",
+    "key": "INVERTED",
+    "kind": "debuff",
+    "name": "Inverted",
+    "markup": "{CONDNAME_DEBUFF_INVERTED} creatures heal enemies instead of damaging them with attacks and spells, and damage allies instead of healing them. This debuff is removed after enough damage or healing has been done to offset its potency."
+  },
+  {
+    "token": "CONDNAME_BUFF_REPELLING",
+    "key": "REPELLING",
+    "kind": "buff",
+    "name": "Repelling",
+    "markup": "{CONDNAME_BUFF_REPELLING} creatures have a 50% chance to ignore damage from spells."
+  },
+  {
+    "token": "CONDNAME_BUFF_PROFICIENT",
+    "key": "PROFICIENT",
+    "kind": "buff",
+    "name": "Proficient",
+    "markup": "{CONDNAME_BUFF_PROFICIENT} creatures gain 30% more benefits from their Artifact's Stat Slots."
+  },
+  {
+    "token": "CONDNAME_DEBUFF_BOMB",
+    "key": "BOMB",
+    "kind": "debuff",
+    "name": "Bomb",
+    "markup": "At the start of a creature's turn, its {CONDNAME_DEBUFF_BOMB} detonates, dealing damage to the creature equal to 80% of the afflictor's {STAT_speed}. Then, this debuff is removed."
+  },
+  {
+    "token": "CONDNAME_MINION_ANIMATEDGEM",
+    "key": "ANIMATEDGEM",
+    "kind": "minion",
+    "name": "Animated Gem",
+    "markup": "After the {CONDNAME_MINION_ANIMATEDGEM}'s master manually {ACTION_casts} a spell, this minion {ACTION_casts} one of its master's Spell Gems as well, chosen randomly."
+  },
+  {
+    "token": "CONDNAME_MINION_ANIMATEDWEAPON",
+    "key": "ANIMATEDWEAPON",
+    "kind": "minion",
+    "name": "Animated Weapon",
+    "markup": "When the {CONDNAME_MINION_ANIMATEDWEAPON}'s master {ACTION_attacks}, it deals additional damage equal to the highest total stat from all of its Artifact's Stat Slots."
+  },
+  {
+    "token": "CONDNAME_MINION_CONQUEST",
+    "key": "CONQUEST",
+    "kind": "minion",
+    "name": "Conquest",
+    "markup": "After {CONDNAME_MINION_CONQUEST}'s master manually {ACTION_casts} a spell, it grants all your creatures a random buff."
+  },
+  {
+    "token": "CONDNAME_MINION_DEATH",
+    "key": "DEATH",
+    "kind": "minion",
+    "name": "Death",
+    "markup": "At the start of {CONDNAME_MINION_DEATH}'s master's turn, it has a chance to kill the enemy with the lowest {STAT_health}. The chance is increased based on how low the enemy's {STAT_health} is."
+  },
+  {
+    "token": "CONDNAME_MINION_FAMINE",
+    "key": "FAMINE",
+    "kind": "minion",
+    "name": "Famine",
+    "markup": "After {CONDNAME_MINION_FAMINE}'s master {ACTION_attacks}, it decreases the target's Maximum {STAT_health} by an amount equal to 30% of the damage dealt."
+  },
+  {
+    "token": "CONDNAME_MINION_WAR",
+    "key": "WAR",
+    "kind": "minion",
+    "name": "War",
+    "markup": "After {CONDNAME_MINION_WAR}'s master is damaged, it deals damage to the enemy equal to 50% of the damage taken."
+  },
+  {
+    "token": "CONDNAME_MINION_GUARDIANOFSURATHLI",
+    "key": "GUARDIANOFSURATHLI",
+    "kind": "minion",
+    "name": "Guardian of Surathli",
+    "markup": "After the {CONDNAME_MINION_GUARDIANOFSURATHLI}'s master is killed, it is resurrected with 100% {STAT_health} and receives a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of its Health. Then, this minion disappears."
+  },
+  {
+    "token": "CONDNAME_MINION_ILLUSION",
+    "key": "ILLUSION",
+    "kind": "minion",
+    "name": "Illusion",
+    "markup": "This {CONDNAME_MINION_ILLUSION}'s master's post-action effects (on-attack, on-cast, and so on) activate 2 additional times."
+  },
+  {
+    "token": "CONDNAME_MINION_LITTLETORUN",
+    "key": "LITTLETORUN",
+    "kind": "minion",
+    "name": "Torun Junior",
+    "markup": "{CONDNAME_MINION_LITTLETORUN} SHOOTS LASERS AND !@#$."
+  },
+  {
+    "token": "CONDNAME_MINION_UNSTABLEHORROR",
+    "key": "UNSTABLEHORROR",
+    "kind": "minion",
+    "name": "Unstable Horror",
+    "markup": "This minion's master has 5% more stats for each {CONDNAME_MINION_UNSTABLEHORROR} it has. After this minion's master {ACTION_defends} or {ACTION_provokes}, it deals damage to all enemies equal to 10% of its master's highest stat for each stack of {CONDNAME_MINION_UNSTABLEHORROR} it has. Maximum of 9 stacks."
+  },
+  {
+    "token": "CONDNAME_MINION_SPIDERLING",
+    "key": "SPIDERLING",
+    "kind": "minion",
+    "name": "Spiderlings",
+    "markup": "After this minion's master takes damage from an enemy, each of its {CONDNAME_MINION_SPIDERLING} explode, dealing damage to the enemy equal to 50% of the master's Current {STAT_health}. Maximum of 9 stacks."
+  },
+  {
+    "token": "CONDNAME_MINION_WRITHELING",
+    "key": "WRITHELING",
+    "kind": "minion",
+    "name": "Writhelings",
+    "markup": "After this minion's master takes damage from an attack or spell, each {CONDNAME_MINION_WRITHELING} afflicts a random enemy with a random debuff. Maximum of 5 stacks."
+  },
+  {
+    "token": "CONDNAME_MINION_ZOMBIE",
+    "key": "ZOMBIE",
+    "kind": "minion",
+    "name": "Zombies",
+    "markup": "At the start of this minion's master's turn, each {CONDNAME_MINION_ZOMBIE} deals damage to a random enemy equal to 50% of its {STAT_attack}. Maximum of 9 stacks."
+  },
+  {
+    "token": "CONDNAME_MINION_DIREWOLF",
+    "key": "DIREWOLF",
+    "kind": "minion",
+    "name": "Dire Wolves",
+    "markup": "After this minion's master attacks, each {CONDNAME_MINION_DIREWOLF} deals damage to the target equal to 30% of its {STAT_speed}. Maximum of 5 stacks."
+  },
+  {
+    "token": "CONDNAME_MINION_DOPPELGANGER",
+    "key": "DOPPELGANGER",
+    "kind": "minion",
+    "name": "Doppelganger",
+    "markup": "The {CONDNAME_MINION_DOPPELGANGER}'s master has a 25% chance to take an extra turn."
+  },
+  {
+    "token": "CONDNAME_MINION_AMALGAMATION",
+    "key": "AMALGAMATION",
+    "kind": "minion",
+    "name": "Amalgamation",
+    "markup": "After the {CONDNAME_MINION_AMALGAMATION}'s master deals damage with an attack or spell, this minion deals damage to a random enemy equal to 5% of its master's highest stat multiplied by the number of minions it has."
+  },
+  {
+    "token": "CONDNAME_MINION_MICROBOT",
+    "key": "MICROBOT",
+    "kind": "minion",
+    "name": "Microbots",
+    "markup": "At the end of this minion's master's turn, each {CONDNAME_MINION_MICROBOT} deals damage to a random enemy equal to 50% of its {STAT_intelligence}. Maximum of 9 stacks."
+  },
+  {
+    "token": "CONDNAME_MINION_MAMMON",
+    "key": "MAMMON",
+    "kind": "minion",
+    "name": "Mammon",
+    "markup": "When {CONDNAME_MINION_MAMMON}'s master takes damage, the damage is reduced by 2% for each stack of each Lesser Demon it has. This minion is a Greater Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_LEVIATHAN",
+    "key": "LEVIATHAN",
+    "kind": "minion",
+    "name": "Leviathan",
+    "markup": "When {CONDNAME_MINION_LEVIATHAN}'s master kills an enemy, it gains 5 stacks of each Lesser Demon. This minion is a Greater Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_BEELZEBUB",
+    "key": "BEELZEBUB",
+    "kind": "minion",
+    "name": "Beelzebub",
+    "markup": "When {CONDNAME_MINION_BEELZEBUB}'s master kills an enemy, it gains a random Greater Demon. This minion is a Greater Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_BELPHEGOR",
+    "key": "BELPHEGOR",
+    "kind": "minion",
+    "name": "Belphegor",
+    "markup": "When {CONDNAME_MINION_BELPHEGOR}'s master {ACTION_casts} a single-target spell, it targets all the creatures fighting on the target's side. This minion is a Greater Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_ASMODEUS",
+    "key": "ASMODEUS",
+    "kind": "minion",
+    "name": "Asmodeus",
+    "markup": "When {CONDNAME_MINION_ASMODEUS}' master {ACTION_attacks}, it always deals critical damage, cannot be dodged, and damages all other enemies for 50% less damage. This minion is a Greater Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_SATANACHIA",
+    "key": "SATANACHIA",
+    "kind": "minion",
+    "name": "Satanachia",
+    "markup": "At the end of {CONDNAME_MINION_SATANACHIA}'s master's turn, it {ACTION_casts} the last 3 spells creatures {ACTION_cast} in the current battle. This minion is a Greater Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_LUCIFER",
+    "key": "LUCIFER",
+    "kind": "minion",
+    "name": "Lucifer",
+    "markup": "At the start of {CONDNAME_MINION_LUCIFER}'s master's turn, it {ACTION_attacks} random enemies 3 times. This minion is a Greater Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_BRIMFIEND",
+    "key": "BRIMFIEND",
+    "kind": "minion",
+    "name": "Brim Fiends",
+    "markup": "When this minion's master {ACTION_attacks}, it sacrifices each {CONDNAME_MINION_BRIMFIEND} to increase its damage by 50% per stack. Maximum of 9 stacks. This minion is a Lesser Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_FIREIMP",
+    "key": "FIREIMP",
+    "kind": "minion",
+    "name": "Fire Imps",
+    "markup": "When this minion's master {ACTION_casts} a spell, it sacrifices each {CONDNAME_MINION_FIREIMP} to increase its potency by 30% per stack. Maximum of 9 stacks. This minion is a Lesser Demon."
+  },
+  {
+    "token": "CONDNAME_MINION_CHAOSSATYR",
+    "key": "CHAOSSATYR",
+    "kind": "minion",
+    "name": "Chaos Satyrs",
+    "markup": "After this minion's master {ACTION_defends} or {ACTION_provokes}, it sacrifices each {CONDNAME_MINION_CHAOSSATYR} to deal damage to enemies equal to 15% of its highest stat per stack. Maximum of 9 stacks. This minion is a Lesser Demon."
+  }
+]

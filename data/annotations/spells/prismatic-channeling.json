@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "spell:flame-strike",
+  "id": "spell:prismatic-channeling",
   "rules": [
     {
       "trigger": {
@@ -12,17 +12,15 @@
           "verb": "deal_damage",
           "target": "enemies",
           "magnitude": {
-            "tier": "small"
+            "tier": "large"
           },
-          "statuses": [
-            "Burning"
-          ],
           "params": {
-            "casts": "once per enemy afflicted with Burning"
+            "bonusPct": 20,
+            "per": "different class fighting on your side"
           }
         }
       ]
     }
   ],
-  "textHash": "9be39e1f49f7"
+  "textHash": "9c060efe76df"
 }

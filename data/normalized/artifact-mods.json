@@ -1,0 +1,969 @@
+[
+  {
+    "id": "artmod:agile-on-damage",
+    "source": "artifact-mods",
+    "name": "Agile On Damage",
+    "text": "Creature has a chance to gain Agile when it deals damage with attacks or spells.",
+    "textHash": "12158e76d928",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_AGILE} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Agile"
+      ],
+      "buffs": [
+        "Agile"
+      ]
+    }
+  },
+  {
+    "id": "artmod:arcane-on-damage",
+    "source": "artifact-mods",
+    "name": "Arcane On Damage",
+    "text": "Creature has a chance to gain Arcane when it deals damage with attacks or spells.",
+    "textHash": "045d241bd660",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_ARCANE} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Arcane"
+      ],
+      "buffs": [
+        "Arcane"
+      ]
+    }
+  },
+  {
+    "id": "artmod:attack",
+    "source": "artifact-mods",
+    "name": "Attack",
+    "text": "Creature has additional attack.",
+    "textHash": "3eb482c2479e",
+    "meta": {},
+    "markup": "Creature has additional {STAT_attack}.",
+    "refs": {
+      "stats": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "artmod:attack-damage",
+    "source": "artifact-mods",
+    "name": "Attack Damage",
+    "text": "Creature deals more damage with attacks.",
+    "textHash": "a11957bb5254",
+    "meta": {},
+    "markup": "Creature deals more damage with attacks."
+  },
+  {
+    "id": "artmod:attack-defense",
+    "source": "artifact-mods",
+    "name": "Attack / Defense",
+    "text": "Creature has additional attack and defense.",
+    "textHash": "72f535cc206c",
+    "meta": {},
+    "markup": "Creature has additional {STAT_attack} and {STAT_defense}.",
+    "refs": {
+      "stats": [
+        "attack",
+        "defense"
+      ]
+    }
+  },
+  {
+    "id": "artmod:attack-intelligence",
+    "source": "artifact-mods",
+    "name": "Attack / Intelligence",
+    "text": "Creature has additional attack and intelligence.",
+    "textHash": "08522619d03b",
+    "meta": {},
+    "markup": "Creature has additional {STAT_attack} and {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "attack",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "artmod:attack-speed",
+    "source": "artifact-mods",
+    "name": "Attack / Speed",
+    "text": "Creature has additional attack and speed.",
+    "textHash": "30ebd747578d",
+    "meta": {},
+    "markup": "Creature has additional {STAT_attack} and {STAT_speed}.",
+    "refs": {
+      "stats": [
+        "attack",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "artmod:barrier-on-damage",
+    "source": "artifact-mods",
+    "name": "Barrier On Damage",
+    "text": "Creature has a chance to gain Barrier when it deals damage with attacks or spells.",
+    "textHash": "4799e59cbd55",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_BARRIER} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Barrier"
+      ],
+      "buffs": [
+        "Barrier"
+      ]
+    }
+  },
+  {
+    "id": "artmod:berserk-on-damage",
+    "source": "artifact-mods",
+    "name": "Berserk On Damage",
+    "text": "Creature has a chance to gain Berserk when it deals damage with attacks or spells.",
+    "textHash": "cc2e89830cf8",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_BERSERK} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Berserk"
+      ],
+      "buffs": [
+        "Berserk"
+      ]
+    }
+  },
+  {
+    "id": "artmod:bleeding-on-damage",
+    "source": "artifact-mods",
+    "name": "Bleeding On Damage",
+    "text": "Creature has a chance to afflict enemies with Bleeding when it deals damage to them with attacks or spells.",
+    "textHash": "7f82672bc308",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BLEED} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Bleeding"
+      ],
+      "debuffs": [
+        "Bleeding"
+      ]
+    }
+  },
+  {
+    "id": "artmod:blighted-on-damage",
+    "source": "artifact-mods",
+    "name": "Blighted On Damage",
+    "text": "Creature has a chance to afflict enemies with Blighted when it deals damage to them with attacks or spells.",
+    "textHash": "93801624c03f",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BLIGHT} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Blighted"
+      ],
+      "debuffs": [
+        "Blighted"
+      ]
+    }
+  },
+  {
+    "id": "artmod:blind-on-damage",
+    "source": "artifact-mods",
+    "name": "Blind On Damage",
+    "text": "Creature has a chance to afflict enemies with Blind when it deals damage to them with attacks or spells.",
+    "textHash": "5637a9c9a039",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BLIND} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Blind"
+      ],
+      "debuffs": [
+        "Blind"
+      ]
+    }
+  },
+  {
+    "id": "artmod:bomb-on-damage",
+    "source": "artifact-mods",
+    "name": "Bomb On Damage",
+    "text": "Creature has a chance to afflict enemies with Bomb when it deals damage to them with attacks or spells.",
+    "textHash": "0b57f66633e8",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BOMB} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Bomb"
+      ],
+      "debuffs": [
+        "Bomb"
+      ]
+    }
+  },
+  {
+    "id": "artmod:burning-on-damage",
+    "source": "artifact-mods",
+    "name": "Burning On Damage",
+    "text": "Creature has a chance to afflict enemies with Burning when it deals damage to them with attacks or spells.",
+    "textHash": "3eaf6e664140",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_BURNED} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Burning"
+      ],
+      "debuffs": [
+        "Burning"
+      ]
+    }
+  },
+  {
+    "id": "artmod:cast-spell",
+    "source": "artifact-mods",
+    "name": "Cast Spell",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:chaos-strength",
+    "source": "artifact-mods",
+    "name": "Chaos Strength",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:confused-on-damage",
+    "source": "artifact-mods",
+    "name": "Confused On Damage",
+    "text": "Creature has a chance to afflict enemies with Confused when it deals damage to them with attacks or spells.",
+    "textHash": "cfe157375929",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_CONFUSED} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Confused"
+      ],
+      "debuffs": [
+        "Confused"
+      ]
+    }
+  },
+  {
+    "id": "artmod:critical-chance",
+    "source": "artifact-mods",
+    "name": "Critical Chance",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:cursed-on-damage",
+    "source": "artifact-mods",
+    "name": "Cursed On Damage",
+    "text": "Creature has a chance to afflict enemies with Cursed when it deals damage to them with attacks or spells.",
+    "textHash": "f84f18cb4211",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_CURSED} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Cursed"
+      ],
+      "debuffs": [
+        "Cursed"
+      ]
+    }
+  },
+  {
+    "id": "artmod:damage-reduction",
+    "source": "artifact-mods",
+    "name": "Damage Reduction",
+    "text": "Creature takes less damage from all sources.",
+    "textHash": "c6b7adba34c8",
+    "meta": {},
+    "markup": "Creature takes less damage from all sources."
+  },
+  {
+    "id": "artmod:death-strength",
+    "source": "artifact-mods",
+    "name": "Death Strength",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:defense",
+    "source": "artifact-mods",
+    "name": "Defense",
+    "text": "Creature has additional defense.",
+    "textHash": "08b984eade87",
+    "meta": {},
+    "markup": "Creature has additional {STAT_defense}.",
+    "refs": {
+      "stats": [
+        "defense"
+      ]
+    }
+  },
+  {
+    "id": "artmod:defense-speed",
+    "source": "artifact-mods",
+    "name": "Defense / Speed",
+    "text": "Creature has additional defense and speed.",
+    "textHash": "9014f0aee51b",
+    "meta": {},
+    "markup": "Creature has additional {STAT_defense} and {STAT_speed}.",
+    "refs": {
+      "stats": [
+        "defense",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "artmod:defensive-on-damage",
+    "source": "artifact-mods",
+    "name": "Defensive On Damage",
+    "text": "Creature has a chance to gain Defensive when it deals damage with attacks or spells.",
+    "textHash": "4d214830e055",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_DEFENSIVE} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Defensive"
+      ],
+      "buffs": [
+        "Defensive"
+      ]
+    }
+  },
+  {
+    "id": "artmod:disarmed-on-damage",
+    "source": "artifact-mods",
+    "name": "Disarmed On Damage",
+    "text": "Creature has a chance to afflict enemies with Disarmed when it deals damage to them with attacks or spells.",
+    "textHash": "3d25abb3ff73",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_DISARMED} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Disarmed"
+      ],
+      "debuffs": [
+        "Disarmed"
+      ]
+    }
+  },
+  {
+    "id": "artmod:dodge-chance",
+    "source": "artifact-mods",
+    "name": "Dodge Chance",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:feared-on-damage",
+    "source": "artifact-mods",
+    "name": "Feared On Damage",
+    "text": "Creature has a chance to afflict enemies with Feared when it deals damage to them with attacks or spells.",
+    "textHash": "d97f14bbff2c",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_FEAR} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Feared"
+      ],
+      "debuffs": [
+        "Feared"
+      ]
+    }
+  },
+  {
+    "id": "artmod:frozen-on-damage",
+    "source": "artifact-mods",
+    "name": "Frozen On Damage",
+    "text": "Creature has a chance to afflict enemies with Frozen when it deals damage to them with attacks or spells.",
+    "textHash": "4fea4ef458f9",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_FROZEN} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Frozen"
+      ],
+      "debuffs": [
+        "Frozen"
+      ]
+    }
+  },
+  {
+    "id": "artmod:health",
+    "source": "artifact-mods",
+    "name": "Health",
+    "text": "Creature has additional health.",
+    "textHash": "ad58254a30f3",
+    "meta": {},
+    "markup": "Creature has additional {STAT_health}.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "artmod:health-attack",
+    "source": "artifact-mods",
+    "name": "Health / Attack",
+    "text": "Creature has additional health and attack.",
+    "textHash": "921aff671078",
+    "meta": {},
+    "markup": "Creature has additional {STAT_health} and {STAT_attack}.",
+    "refs": {
+      "stats": [
+        "attack",
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "artmod:health-defense",
+    "source": "artifact-mods",
+    "name": "Health / Defense",
+    "text": "Creature has additional health and defense.",
+    "textHash": "17870dfb26ff",
+    "meta": {},
+    "markup": "Creature has additional {STAT_health} and {STAT_defense}.",
+    "refs": {
+      "stats": [
+        "defense",
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "artmod:health-intelligence",
+    "source": "artifact-mods",
+    "name": "Health / Intelligence",
+    "text": "Creature has additional health and intelligence.",
+    "textHash": "d0d36a75f19a",
+    "meta": {},
+    "markup": "Creature has additional {STAT_health} and {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "health",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "artmod:health-speed",
+    "source": "artifact-mods",
+    "name": "Health / Speed",
+    "text": "Creature has additional health and speed.",
+    "textHash": "bff093e30b4e",
+    "meta": {},
+    "markup": "Creature has additional {STAT_health} and {STAT_speed}.",
+    "refs": {
+      "stats": [
+        "health",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "artmod:immune-on-damage",
+    "source": "artifact-mods",
+    "name": "Immune On Damage",
+    "text": "Creature has a chance to gain Immune when it deals damage with attacks or spells.",
+    "textHash": "2194296fe333",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_IMMUNITY} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Immune"
+      ],
+      "buffs": [
+        "Immune"
+      ]
+    }
+  },
+  {
+    "id": "artmod:intelligence",
+    "source": "artifact-mods",
+    "name": "Intelligence",
+    "text": "Creature has additional intelligence.",
+    "textHash": "7fb66739ba6e",
+    "meta": {},
+    "markup": "Creature has additional {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "artmod:intelligence-defense",
+    "source": "artifact-mods",
+    "name": "Intelligence / Defense",
+    "text": "Creature has additional intelligence and defense.",
+    "textHash": "d0a164f7c42b",
+    "meta": {},
+    "markup": "Creature has additional {STAT_intelligence} and {STAT_defense}.",
+    "refs": {
+      "stats": [
+        "defense",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "artmod:intelligence-speed",
+    "source": "artifact-mods",
+    "name": "Intelligence / Speed",
+    "text": "Creature has additional intelligence and speed.",
+    "textHash": "c292e4afed9e",
+    "meta": {},
+    "markup": "Creature has additional {STAT_intelligence} and {STAT_speed}.",
+    "refs": {
+      "stats": [
+        "intelligence",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "artmod:invisible-on-damage",
+    "source": "artifact-mods",
+    "name": "Invisible On Damage",
+    "text": "Creature has a chance to gain Invisible when it deals damage with attacks or spells.",
+    "textHash": "ca19871196a9",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_INVISIBLE} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Invisible"
+      ],
+      "buffs": [
+        "Invisible"
+      ]
+    }
+  },
+  {
+    "id": "artmod:leeching-on-damage",
+    "source": "artifact-mods",
+    "name": "Leeching On Damage",
+    "text": "Creature has a chance to gain Leeching when it deals damage with attacks or spells.",
+    "textHash": "ee66bd8233d8",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_LEECH} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Leeching"
+      ],
+      "buffs": [
+        "Leeching"
+      ]
+    }
+  },
+  {
+    "id": "artmod:life-strength",
+    "source": "artifact-mods",
+    "name": "Life Strength",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:mending-on-damage",
+    "source": "artifact-mods",
+    "name": "Mending On Damage",
+    "text": "Creature has a chance to gain Mending when it deals damage with attacks or spells.",
+    "textHash": "07915c6c534b",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_MEND} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Mending"
+      ],
+      "buffs": [
+        "Mending"
+      ]
+    }
+  },
+  {
+    "id": "artmod:nature-strength",
+    "source": "artifact-mods",
+    "name": "Nature Strength",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:poisoned-on-damage",
+    "source": "artifact-mods",
+    "name": "Poisoned On Damage",
+    "text": "Creature has a chance to afflict enemies with Poisoned when it deals damage to them with attacks or spells.",
+    "textHash": "cf5239b0c967",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_POISON} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Poisoned"
+      ],
+      "debuffs": [
+        "Poisoned"
+      ]
+    }
+  },
+  {
+    "id": "artmod:proficient-on-damage",
+    "source": "artifact-mods",
+    "name": "Proficient On Damage",
+    "text": "Creature has a chance to gain Proficient when it deals damage with attacks or spells.",
+    "textHash": "49b98092f69e",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_PROFICIENT} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Proficient"
+      ],
+      "buffs": [
+        "Proficient"
+      ]
+    }
+  },
+  {
+    "id": "artmod:protected-on-damage",
+    "source": "artifact-mods",
+    "name": "Protected On Damage",
+    "text": "Creature has a chance to gain Protected when it deals damage with attacks or spells.",
+    "textHash": "2772b581cfa5",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_PROTECT} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Protected"
+      ],
+      "buffs": [
+        "Protected"
+      ]
+    }
+  },
+  {
+    "id": "artmod:rebirth-on-damage",
+    "source": "artifact-mods",
+    "name": "Rebirth On Damage",
+    "text": "Creature has a chance to gain Rebirth when it deals damage with attacks or spells.",
+    "textHash": "5ed20da1c960",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_REBIRTH} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Rebirth"
+      ],
+      "buffs": [
+        "Rebirth"
+      ]
+    }
+  },
+  {
+    "id": "artmod:repelling-on-damage",
+    "source": "artifact-mods",
+    "name": "Repelling On Damage",
+    "text": "Creature has a chance to gain Repelling when it deals damage with attacks or spells.",
+    "textHash": "60a6222f3714",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_REPELLING} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Repelling"
+      ],
+      "buffs": [
+        "Repelling"
+      ]
+    }
+  },
+  {
+    "id": "artmod:savage-on-damage",
+    "source": "artifact-mods",
+    "name": "Savage On Damage",
+    "text": "Creature has a chance to gain Savage when it deals damage with attacks or spells.",
+    "textHash": "4897daaf62db",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_SAVAGE} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Savage"
+      ],
+      "buffs": [
+        "Savage"
+      ]
+    }
+  },
+  {
+    "id": "artmod:scorned-on-damage",
+    "source": "artifact-mods",
+    "name": "Scorned On Damage",
+    "text": "Creature has a chance to afflict enemies with Scorned when it deals damage to them with attacks or spells.",
+    "textHash": "f27202295d81",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_SCORN} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Scorned"
+      ],
+      "debuffs": [
+        "Scorned"
+      ]
+    }
+  },
+  {
+    "id": "artmod:shelled-on-damage",
+    "source": "artifact-mods",
+    "name": "Shelled On Damage",
+    "text": "Creature has a chance to gain Shelled when it deals damage with attacks or spells.",
+    "textHash": "bcd831e4651c",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_SHELL} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Shelled"
+      ],
+      "buffs": [
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "artmod:silenced-on-damage",
+    "source": "artifact-mods",
+    "name": "Silenced On Damage",
+    "text": "Creature has a chance to afflict enemies with Silenced when it deals damage to them with attacks or spells.",
+    "textHash": "af65d8b44e7c",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_SILENCE} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Silenced"
+      ],
+      "debuffs": [
+        "Silenced"
+      ]
+    }
+  },
+  {
+    "id": "artmod:sleep-on-damage",
+    "source": "artifact-mods",
+    "name": "Sleep On Damage",
+    "text": "Creature has a chance to afflict enemies with Sleeping when it deals damage to them with attacks or spells.",
+    "textHash": "04a2997b25cc",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_SLEEP} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Sleeping"
+      ],
+      "debuffs": [
+        "Sleeping"
+      ]
+    }
+  },
+  {
+    "id": "artmod:snared-on-damage",
+    "source": "artifact-mods",
+    "name": "Snared On Damage",
+    "text": "Creature has a chance to afflict enemies with Snared when it deals damage to them with attacks or spells.",
+    "textHash": "641a0d4a398d",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_SNARED} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Snared"
+      ],
+      "debuffs": [
+        "Snared"
+      ]
+    }
+  },
+  {
+    "id": "artmod:sorcery-strength",
+    "source": "artifact-mods",
+    "name": "Sorcery Strength",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:speed",
+    "source": "artifact-mods",
+    "name": "Speed",
+    "text": "Creature has additional speed.",
+    "textHash": "19d11b300cf2",
+    "meta": {},
+    "markup": "Creature has additional {STAT_speed}.",
+    "refs": {
+      "stats": [
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "artmod:spell-gem-slots",
+    "source": "artifact-mods",
+    "name": "Spell Gem Slots",
+    "text": "",
+    "textHash": "da39a3ee5e6b",
+    "meta": {
+      "noText": true
+    },
+    "markup": ""
+  },
+  {
+    "id": "artmod:spell-potency",
+    "source": "artifact-mods",
+    "name": "Spell Potency",
+    "text": "Creature's spells are more potent.",
+    "textHash": "94eb6fb43c07",
+    "meta": {},
+    "markup": "Creature's spells are more potent."
+  },
+  {
+    "id": "artmod:splashing-on-damage",
+    "source": "artifact-mods",
+    "name": "Splashing On Damage",
+    "text": "Creature has a chance to gain Splashing when it deals damage with attacks or spells.",
+    "textHash": "daab752a8ddf",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_SPLASH} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Splashing"
+      ],
+      "buffs": [
+        "Splashing"
+      ]
+    }
+  },
+  {
+    "id": "artmod:stone-on-damage",
+    "source": "artifact-mods",
+    "name": "Stone On Damage",
+    "text": "Creature has a chance to afflict enemies with Stone when it deals damage to them with attacks or spells.",
+    "textHash": "3f1867a196e0",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_STONE} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Stone"
+      ],
+      "debuffs": [
+        "Stone"
+      ]
+    }
+  },
+  {
+    "id": "artmod:taunting-on-damage",
+    "source": "artifact-mods",
+    "name": "Taunting On Damage",
+    "text": "Creature has a chance to gain Taunting when it deals damage with attacks or spells.",
+    "textHash": "e52c559df61c",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_TAUNT} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Taunting"
+      ],
+      "buffs": [
+        "Taunting"
+      ]
+    }
+  },
+  {
+    "id": "artmod:trait",
+    "source": "artifact-mods",
+    "name": "Trait",
+    "text": "Creature gains an additional trait.",
+    "textHash": "ac9e04aa362a",
+    "meta": {},
+    "markup": "Creature gains an additional trait."
+  },
+  {
+    "id": "artmod:vulnerable-on-damage",
+    "source": "artifact-mods",
+    "name": "Vulnerable On Damage",
+    "text": "Creature has a chance to afflict enemies with Vulnerable when it deals damage to them with attacks or spells.",
+    "textHash": "6e2fe8f65107",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_VULNERABLE} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Vulnerable"
+      ],
+      "debuffs": [
+        "Vulnerable"
+      ]
+    }
+  },
+  {
+    "id": "artmod:warded-on-damage",
+    "source": "artifact-mods",
+    "name": "Warded On Damage",
+    "text": "Creature has a chance to gain Warded when it deals damage with attacks or spells.",
+    "textHash": "2299122186d5",
+    "meta": {},
+    "markup": "Creature has a chance to gain {CONDNAME_BUFF_WARD} when it deals damage with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Warded"
+      ],
+      "buffs": [
+        "Warded"
+      ]
+    }
+  },
+  {
+    "id": "artmod:weak-on-damage",
+    "source": "artifact-mods",
+    "name": "Weak On Damage",
+    "text": "Creature has a chance to afflict enemies with Weak when it deals damage to them with attacks or spells.",
+    "textHash": "7555537be2f9",
+    "meta": {},
+    "markup": "Creature has a chance to afflict enemies with {CONDNAME_DEBUFF_WEAK} when it deals damage to them with attacks or spells.",
+    "refs": {
+      "statuses": [
+        "Weak"
+      ],
+      "debuffs": [
+        "Weak"
+      ]
+    }
+  }
+]

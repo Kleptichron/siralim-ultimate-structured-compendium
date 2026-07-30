@@ -653,7 +653,11 @@
     "openingGuess": "passive"
   },
   "realm:player:debuff-scorn": {
-    "statuses": {},
+    "statuses": {
+      "Scorned": [
+        "gain"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [],

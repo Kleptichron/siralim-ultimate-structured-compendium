@@ -2598,7 +2598,7 @@
     "chance": null,
     "doesNotStack": true,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "start_of_battle"
   },
   "trait:bottom-feeder": {
@@ -3547,7 +3547,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "after_attack"
   },
   "trait:chaos-transformation": {
     "statuses": {},
@@ -4031,6 +4031,9 @@
   },
   "trait:cloud-connected": {
     "statuses": {
+      "Immune": [
+        "mention"
+      ],
       "Repelling": [
         "mention"
       ]
@@ -4349,7 +4352,7 @@
     "percents": [],
     "tiers": [],
     "chance": null,
-    "doesNotStack": false,
+    "doesNotStack": true,
     "perRank": false,
     "maxBonus": null,
     "openingGuess": null
@@ -5164,7 +5167,8 @@
     ],
     "allStats": false,
     "percents": [
-      30
+      20,
+      10
     ],
     "tiers": [],
     "chance": null,
@@ -6938,7 +6942,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health is set to 50%",
+    "maxBonus": "health is set to 50%",
     "openingGuess": "start_of_battle"
   },
   "trait:elimination-process": {
@@ -11115,7 +11119,7 @@
     "chance": null,
     "doesNotStack": true,
     "perRank": false,
-    "maxBonus": "Health, reduce this damage by 50%",
+    "maxBonus": "health, reduce this damage by 50%",
     "openingGuess": null
   },
   "trait:ianne-s-quirk": {
@@ -12795,7 +12799,7 @@
     "chance": null,
     "doesNotStack": true,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "start_of_turn"
   },
   "trait:live-to-labor": {
@@ -13023,7 +13027,7 @@
     "chance": null,
     "doesNotStack": true,
     "perRank": false,
-    "maxBonus": "Health from stat-increasing effects",
+    "maxBonus": "health from stat-increasing effects",
     "openingGuess": "passive"
   },
   "trait:love-thyself": {
@@ -13273,7 +13277,8 @@
   "trait:malady": {
     "statuses": {
       "Poisoned": [
-        "mention"
+        "mention",
+        "cond"
       ]
     },
     "stats": [],
@@ -14671,7 +14676,7 @@
     "chance": null,
     "doesNotStack": true,
     "perRank": false,
-    "maxBonus": "Health for each Koloss fighting on your side",
+    "maxBonus": "health for each Koloss fighting on your side",
     "openingGuess": null
   },
   "trait:master-of-krakens": {
@@ -18135,7 +18140,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Charge the Spell Gem has",
+    "maxBonus": "charge the Spell Gem has",
     "openingGuess": "after_cast"
   },
   "trait:pandemonium-mania": {
@@ -18448,8 +18453,7 @@
     "allStats": false,
     "percents": [
       40,
-      10,
-      90
+      10
     ],
     "tiers": [],
     "chance": null,
@@ -18850,7 +18854,7 @@
     "percents": [],
     "tiers": [],
     "chance": null,
-    "doesNotStack": false,
+    "doesNotStack": true,
     "perRank": false,
     "maxBonus": null,
     "openingGuess": null
@@ -18982,9 +18986,7 @@
   },
   "trait:power-in-balance": {
     "statuses": {},
-    "stats": [
-      "Health"
-    ],
+    "stats": [],
     "allStats": true,
     "percents": [
       10
@@ -20850,7 +20852,12 @@
     "openingGuess": null
   },
   "trait:robotic-armor": {
-    "statuses": {},
+    "statuses": {
+      "Immune": [
+        "afflict",
+        "gain"
+      ]
+    },
     "stats": [],
     "allStats": false,
     "percents": [
@@ -21370,7 +21377,7 @@
     "maxBonus": null,
     "openingGuess": "after_afflicted"
   },
-  "trait:scoundrel-strike": {
+  "trait:scoundrel-s-strike": {
     "statuses": {
       "Poisoned": [
         "afflict",
@@ -26387,7 +26394,7 @@
     "chance": null,
     "doesNotStack": true,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "after_damaged"
   },
   "trait:vlora-s-haunting": {

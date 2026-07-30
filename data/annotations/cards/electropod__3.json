@@ -1,27 +1,24 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "card:electropods:2",
+  "id": "card:electropod:3",
   "rules": [
     {
       "trigger": {
         "type": "non_combat"
       },
+      "chance": 15,
       "actions": [
         {
           "verb": "resource_gain",
-          "magnitude": {
-            "amountFlat": 15,
-            "direction": "up"
-          },
           "params": {
             "resource": "Essence",
             "from": "battles",
-            "base": true
+            "effect": "double gain"
           }
         }
       ]
     }
   ],
-  "textHash": "de3458557693"
+  "textHash": "f1355f145595"
 }

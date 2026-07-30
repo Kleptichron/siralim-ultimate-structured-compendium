@@ -7,106 +7,233 @@
     "textHash": "76f8754a0b17",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "After the {CONDNAME_MINION_AMALGAMATION}'s master deals damage with an attack or spell, this minion deals damage to a random enemy equal to 5% of its master's highest stat multiplied by the number of minions it has.",
+    "refs": {
+      "statuses": [
+        "Amalgamation"
+      ],
+      "minions": [
+        "Amalgamation"
+      ]
     }
   },
   {
     "id": "minion:animated-gem",
     "source": "minions",
     "name": "Animated Gem",
-    "text": "After the Animated Gem's master manually Casts a spell, this minion Casts one of its master's Spell Gems as well, chosen randomly.",
-    "textHash": "c42d8fba2a2a",
+    "text": "After the Animated Gem's master manually casts a spell, this minion casts one of its master's Spell Gems as well, chosen randomly.",
+    "textHash": "b05189fae1c6",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "After the {CONDNAME_MINION_ANIMATEDGEM}'s master manually {ACTION_casts} a spell, this minion {ACTION_casts} one of its master's Spell Gems as well, chosen randomly.",
+    "refs": {
+      "statuses": [
+        "Animated Gem"
+      ],
+      "minions": [
+        "Animated Gem"
+      ],
+      "actions": [
+        "casts"
+      ]
     }
   },
   {
     "id": "minion:animated-weapon",
     "source": "minions",
     "name": "Animated Weapon",
-    "text": "When the Animated Weapon's master Attacks, it deals additional damage equal to the highest total stat from all of its Artifact's Stat Slots.",
-    "textHash": "931b755d3f90",
+    "text": "When the Animated Weapon's master attacks, it deals additional damage equal to the highest total stat from all of its Artifact's Stat Slots.",
+    "textHash": "0330b3619f6c",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "When the {CONDNAME_MINION_ANIMATEDWEAPON}'s master {ACTION_attacks}, it deals additional damage equal to the highest total stat from all of its Artifact's Stat Slots.",
+    "refs": {
+      "statuses": [
+        "Animated Weapon"
+      ],
+      "minions": [
+        "Animated Weapon"
+      ],
+      "actions": [
+        "attacks"
+      ]
     }
   },
   {
     "id": "minion:asmodeus",
     "source": "minions",
     "name": "Asmodeus",
-    "text": "When Asmodeus's master Attacks, it always deals critical damage, cannot be dodged, and damages all other enemies for 50% less damage. This minion is a Greater Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "3fb13458cf9b",
+    "text": "When Asmodeus' master attacks, it always deals critical damage, cannot be dodged, and damages all other enemies for 50% less damage. This minion is a Greater Demon.",
+    "textHash": "93ee9c57fb2d",
     "meta": {
       "chanceToLeave": "35%"
+    },
+    "markup": "When {CONDNAME_MINION_ASMODEUS}' master {ACTION_attacks}, it always deals critical damage, cannot be dodged, and damages all other enemies for 50% less damage. This minion is a Greater Demon.",
+    "refs": {
+      "statuses": [
+        "Asmodeus"
+      ],
+      "minions": [
+        "Asmodeus"
+      ],
+      "actions": [
+        "attacks"
+      ]
     }
   },
   {
     "id": "minion:beelzebub",
     "source": "minions",
     "name": "Beelzebub",
-    "text": "When Beelzebub's master kills an enemy, it gains a random Greater Demon. This minion is a Greater Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "039f370122ff",
+    "text": "When Beelzebub's master kills an enemy, it gains a random Greater Demon. This minion is a Greater Demon.",
+    "textHash": "9812e06ef75d",
     "meta": {
       "chanceToLeave": "35%"
+    },
+    "markup": "When {CONDNAME_MINION_BEELZEBUB}'s master kills an enemy, it gains a random Greater Demon. This minion is a Greater Demon.",
+    "refs": {
+      "statuses": [
+        "Beelzebub"
+      ],
+      "minions": [
+        "Beelzebub"
+      ]
     }
   },
   {
     "id": "minion:belphegor",
     "source": "minions",
     "name": "Belphegor",
-    "text": "When Belphegor's master Casts a single-target spell, it targets all the creatures fighting on the target's side. This minion is a Greater Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "bf521d104638",
+    "text": "When Belphegor's master casts a single-target spell, it targets all the creatures fighting on the target's side. This minion is a Greater Demon.",
+    "textHash": "4e3a3d2c35ed",
     "meta": {
       "chanceToLeave": "35%"
+    },
+    "markup": "When {CONDNAME_MINION_BELPHEGOR}'s master {ACTION_casts} a single-target spell, it targets all the creatures fighting on the target's side. This minion is a Greater Demon.",
+    "refs": {
+      "statuses": [
+        "Belphegor"
+      ],
+      "minions": [
+        "Belphegor"
+      ],
+      "actions": [
+        "casts"
+      ]
     }
   },
   {
     "id": "minion:brim-fiends",
     "source": "minions",
     "name": "Brim Fiends",
-    "text": "When this minion's master Attacks, it sacrifices each Brim Fiends to increase its damage by 50% per stack. Maximum of 9 stacks. This minion is a Lesser Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "144ec903fdd9",
+    "text": "When this minion's master attacks, it sacrifices each Brim Fiends to increase its damage by 50% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+    "textHash": "2118f2c1cd4f",
     "meta": {
       "chanceToLeave": "5%"
+    },
+    "markup": "When this minion's master {ACTION_attacks}, it sacrifices each {CONDNAME_MINION_BRIMFIEND} to increase its damage by 50% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ],
+      "statuses": [
+        "Brim Fiends"
+      ],
+      "minions": [
+        "Brim Fiends"
+      ]
     }
   },
   {
     "id": "minion:chaos-satyrs",
     "source": "minions",
     "name": "Chaos Satyrs",
-    "text": "After this minion's master Defends or Provokes, it sacrifices each Chaos Satyrs to deal damage equal to 15% of its highest stat per stack. Maximum of 9 stacks. This minion is a Lesser Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "a154f55f4d76",
+    "text": "After this minion's master defends or provokes, it sacrifices each Chaos Satyrs to deal damage to enemies equal to 15% of its highest stat per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+    "textHash": "f326f4608c60",
     "meta": {
       "chanceToLeave": "5%"
+    },
+    "markup": "After this minion's master {ACTION_defends} or {ACTION_provokes}, it sacrifices each {CONDNAME_MINION_CHAOSSATYR} to deal damage to enemies equal to 15% of its highest stat per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+    "refs": {
+      "actions": [
+        "defends",
+        "provokes"
+      ],
+      "statuses": [
+        "Chaos Satyrs"
+      ],
+      "minions": [
+        "Chaos Satyrs"
+      ]
     }
   },
   {
     "id": "minion:conquest",
     "source": "minions",
     "name": "Conquest",
-    "text": "After Conquest's master manually Casts a spell, it grants all your creatures a random buff.",
-    "textHash": "9e1d1fb67b0d",
+    "text": "After Conquest's master manually casts a spell, it grants all your creatures a random buff.",
+    "textHash": "2a5f870cf39c",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "After {CONDNAME_MINION_CONQUEST}'s master manually {ACTION_casts} a spell, it grants all your creatures a random buff.",
+    "refs": {
+      "statuses": [
+        "Conquest"
+      ],
+      "minions": [
+        "Conquest"
+      ],
+      "actions": [
+        "casts"
+      ]
     }
   },
   {
     "id": "minion:death",
     "source": "minions",
     "name": "Death",
-    "text": "At the start of Death's master's turn, it has a chance to kill the enemy with the lowest Health. The chance is increased based on how low the enemy's Health is.",
-    "textHash": "2f64291e4421",
+    "text": "At the start of Death's master's turn, it has a chance to kill the enemy with the lowest health. The chance is increased based on how low the enemy's health is.",
+    "textHash": "9946690014fd",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "At the start of {CONDNAME_MINION_DEATH}'s master's turn, it has a chance to kill the enemy with the lowest {STAT_health}. The chance is increased based on how low the enemy's {STAT_health} is.",
+    "refs": {
+      "statuses": [
+        "Death"
+      ],
+      "minions": [
+        "Death"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
     "id": "minion:dire-wolves",
     "source": "minions",
     "name": "Dire Wolves",
-    "text": "After this minion's master attacks, each Dire Wolves deals damage to the target equal to 30% of its Speed. Maximum of 5 Stacks.",
-    "textHash": "ef78631b0114",
+    "text": "After this minion's master attacks, each Dire Wolves deals damage to the target equal to 30% of its speed. Maximum of 5 stacks.",
+    "textHash": "17b6e1b977a4",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "After this minion's master attacks, each {CONDNAME_MINION_DIREWOLF} deals damage to the target equal to 30% of its {STAT_speed}. Maximum of 5 stacks.",
+    "refs": {
+      "statuses": [
+        "Dire Wolves"
+      ],
+      "minions": [
+        "Dire Wolves"
+      ],
+      "stats": [
+        "speed"
+      ]
     }
   },
   {
@@ -117,26 +244,88 @@
     "textHash": "8c194870de79",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "The {CONDNAME_MINION_DOPPELGANGER}'s master has a 25% chance to take an extra turn.",
+    "refs": {
+      "statuses": [
+        "Doppelganger"
+      ],
+      "minions": [
+        "Doppelganger"
+      ]
     }
   },
   {
     "id": "minion:famine",
     "source": "minions",
     "name": "Famine",
-    "text": "After Famine's master Attacks, it decreases the target's Maximum Health by an amount equal to 30% of the damage dealt.",
-    "textHash": "6823a8972b38",
+    "text": "After Famine's master attacks, it decreases the target's Maximum health by an amount equal to 30% of the damage dealt.",
+    "textHash": "75be317febc8",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "After {CONDNAME_MINION_FAMINE}'s master {ACTION_attacks}, it decreases the target's Maximum {STAT_health} by an amount equal to 30% of the damage dealt.",
+    "refs": {
+      "statuses": [
+        "Famine"
+      ],
+      "minions": [
+        "Famine"
+      ],
+      "actions": [
+        "attacks"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
     "id": "minion:fire-imps",
     "source": "minions",
     "name": "Fire Imps",
-    "text": "When this minion's master Casts a spell, it sacrifices each Fire Imps to increase its potency by 30% per stack. Maximum of 9 stacks. This minion is a Lesser Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "d418b12986ff",
+    "text": "When this minion's master casts a spell, it sacrifices each Fire Imps to increase its potency by 30% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+    "textHash": "7ba536449922",
     "meta": {
       "chanceToLeave": "5%"
+    },
+    "markup": "When this minion's master {ACTION_casts} a spell, it sacrifices each {CONDNAME_MINION_FIREIMP} to increase its potency by 30% per stack. Maximum of 9 stacks. This minion is a Lesser Demon.",
+    "refs": {
+      "actions": [
+        "casts"
+      ],
+      "statuses": [
+        "Fire Imps"
+      ],
+      "minions": [
+        "Fire Imps"
+      ]
+    }
+  },
+  {
+    "id": "minion:guardian-of-surathli",
+    "source": "minions",
+    "name": "Guardian of Surathli",
+    "text": "After the Guardian of Surathli's master is killed, it is resurrected with 100% health and receives a Barrier that absorbs damage equal to 100% of its Health. Then, this minion disappears.",
+    "textHash": "28162fe6fd1b",
+    "meta": {
+      "chanceToLeave": null
+    },
+    "markup": "After the {CONDNAME_MINION_GUARDIANOFSURATHLI}'s master is killed, it is resurrected with 100% {STAT_health} and receives a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of its Health. Then, this minion disappears.",
+    "refs": {
+      "statuses": [
+        "Barrier",
+        "Guardian of Surathli"
+      ],
+      "minions": [
+        "Guardian of Surathli"
+      ],
+      "stats": [
+        "health"
+      ],
+      "buffs": [
+        "Barrier"
+      ]
     }
   },
   {
@@ -147,86 +336,184 @@
     "textHash": "b79212a0250b",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "This {CONDNAME_MINION_ILLUSION}'s master's post-action effects (on-attack, on-cast, and so on) activate 2 additional times.",
+    "refs": {
+      "statuses": [
+        "Illusion"
+      ],
+      "minions": [
+        "Illusion"
+      ]
     }
   },
   {
     "id": "minion:leviathan",
     "source": "minions",
     "name": "Leviathan",
-    "text": "When Leviathan's master kills an enemy, it gains 5 stacks of each Lesser Demon. This minion is a Greater Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "c0a7a1042dee",
+    "text": "When Leviathan's master kills an enemy, it gains 5 stacks of each Lesser Demon. This minion is a Greater Demon.",
+    "textHash": "4050787dcc49",
     "meta": {
       "chanceToLeave": "35%"
+    },
+    "markup": "When {CONDNAME_MINION_LEVIATHAN}'s master kills an enemy, it gains 5 stacks of each Lesser Demon. This minion is a Greater Demon.",
+    "refs": {
+      "statuses": [
+        "Leviathan"
+      ],
+      "minions": [
+        "Leviathan"
+      ]
     }
   },
   {
     "id": "minion:lucifer",
     "source": "minions",
     "name": "Lucifer",
-    "text": "At the start of Lucifer's master's turn, it Attacks random enemies 3 times. This minion is a Greater Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "caa24e0f2b91",
+    "text": "At the start of Lucifer's master's turn, it attacks random enemies 3 times. This minion is a Greater Demon.",
+    "textHash": "5d76045231d7",
     "meta": {
       "chanceToLeave": "35%"
+    },
+    "markup": "At the start of {CONDNAME_MINION_LUCIFER}'s master's turn, it {ACTION_attacks} random enemies 3 times. This minion is a Greater Demon.",
+    "refs": {
+      "statuses": [
+        "Lucifer"
+      ],
+      "minions": [
+        "Lucifer"
+      ],
+      "actions": [
+        "attacks"
+      ]
     }
   },
   {
     "id": "minion:mammon",
     "source": "minions",
     "name": "Mammon",
-    "text": "When Mammon's master takes damage, the damage is reduced by 50% and it gains Shelled. This minion is a Greater Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "1c6fc315f2d4",
+    "text": "When Mammon's master takes damage, the damage is reduced by 2% for each stack of each Lesser Demon it has. This minion is a Greater Demon.",
+    "textHash": "756c5821155a",
     "meta": {
       "chanceToLeave": "35%"
+    },
+    "markup": "When {CONDNAME_MINION_MAMMON}'s master takes damage, the damage is reduced by 2% for each stack of each Lesser Demon it has. This minion is a Greater Demon.",
+    "refs": {
+      "statuses": [
+        "Mammon"
+      ],
+      "minions": [
+        "Mammon"
+      ]
     }
   },
   {
     "id": "minion:microbots",
     "source": "minions",
     "name": "Microbots",
-    "text": "At the end of this minion's master's turn, each Microbots deals damage to a random enemy equal to 50% of its Intelligence. Maximum of 9 Stacks.",
-    "textHash": "0480f8492559",
+    "text": "At the end of this minion's master's turn, each Microbots deals damage to a random enemy equal to 50% of its intelligence. Maximum of 9 stacks.",
+    "textHash": "96ce0a85572d",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "At the end of this minion's master's turn, each {CONDNAME_MINION_MICROBOT} deals damage to a random enemy equal to 50% of its {STAT_intelligence}. Maximum of 9 stacks.",
+    "refs": {
+      "statuses": [
+        "Microbots"
+      ],
+      "minions": [
+        "Microbots"
+      ],
+      "stats": [
+        "intelligence"
+      ]
     }
   },
   {
     "id": "minion:satanachia",
     "source": "minions",
     "name": "Satanachia",
-    "text": "At the end of Satanachia's master's turn, it Casts the last 3 spells creatures Cast in the current battle. This minion is a Greater Demon. Demons are never granted by effects that generate random minions.",
-    "textHash": "0b9df479e367",
+    "text": "At the end of Satanachia's master's turn, it casts the last 3 spells creatures cast in the current battle. This minion is a Greater Demon.",
+    "textHash": "e27ab5d62803",
     "meta": {
       "chanceToLeave": "35%"
+    },
+    "markup": "At the end of {CONDNAME_MINION_SATANACHIA}'s master's turn, it {ACTION_casts} the last 3 spells creatures {ACTION_cast} in the current battle. This minion is a Greater Demon.",
+    "refs": {
+      "statuses": [
+        "Satanachia"
+      ],
+      "minions": [
+        "Satanachia"
+      ],
+      "actions": [
+        "cast",
+        "casts"
+      ]
     }
   },
   {
     "id": "minion:spiderlings",
     "source": "minions",
     "name": "Spiderlings",
-    "text": "After this minion's master takes damage from an enemy, each of its Spiderlings explode, dealing damage to the enemy equal to 50% of the master's Current Health. Maximum of 9 stacks.",
-    "textHash": "ce131b81f27f",
+    "text": "After this minion's master takes damage from an enemy, each of its Spiderlings explode, dealing damage to the enemy equal to 50% of the master's Current health. Maximum of 9 stacks.",
+    "textHash": "8b39be3f2073",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "After this minion's master takes damage from an enemy, each of its {CONDNAME_MINION_SPIDERLING} explode, dealing damage to the enemy equal to 50% of the master's Current {STAT_health}. Maximum of 9 stacks.",
+    "refs": {
+      "statuses": [
+        "Spiderlings"
+      ],
+      "minions": [
+        "Spiderlings"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
     "id": "minion:torun-junior",
     "source": "minions",
     "name": "Torun Junior",
-    "text": "Torun Junior SHOOTS LASERS AND !@#$.",
-    "textHash": "0ac866d2c7ab",
+    "text": "Torun Junior SHOOTS LASERS AND!@#$.",
+    "textHash": "5726e4f5b206",
     "meta": {
       "chanceToLeave": "0%"
+    },
+    "markup": "{CONDNAME_MINION_LITTLETORUN} SHOOTS LASERS AND !@#$.",
+    "refs": {
+      "statuses": [
+        "Torun Junior"
+      ],
+      "minions": [
+        "Torun Junior"
+      ]
     }
   },
   {
     "id": "minion:unstable-horror",
     "source": "minions",
     "name": "Unstable Horror",
-    "text": "This minion's master has 5% more stats for each Unstable Horror it has. After this minion's master Defends or Provokes, it deals damage to all enemies equal to 10% of its master's highest stat for each stack of Unstable Horror it has. Maximum of 9 stacks.",
-    "textHash": "a7327f1557a8",
+    "text": "This minion's master has 5% more stats for each Unstable Horror it has. After this minion's master defends or provokes, it deals damage to all enemies equal to 10% of its master's highest stat for each stack of Unstable Horror it has. Maximum of 9 stacks.",
+    "textHash": "e21424db2647",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "This minion's master has 5% more stats for each {CONDNAME_MINION_UNSTABLEHORROR} it has. After this minion's master {ACTION_defends} or {ACTION_provokes}, it deals damage to all enemies equal to 10% of its master's highest stat for each stack of {CONDNAME_MINION_UNSTABLEHORROR} it has. Maximum of 9 stacks.",
+    "refs": {
+      "statuses": [
+        "Unstable Horror"
+      ],
+      "minions": [
+        "Unstable Horror"
+      ],
+      "actions": [
+        "defends",
+        "provokes"
+      ]
     }
   },
   {
@@ -237,6 +524,15 @@
     "textHash": "13657a1c77e7",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "After {CONDNAME_MINION_WAR}'s master is damaged, it deals damage to the enemy equal to 50% of the damage taken.",
+    "refs": {
+      "statuses": [
+        "War"
+      ],
+      "minions": [
+        "War"
+      ]
     }
   },
   {
@@ -247,16 +543,37 @@
     "textHash": "fe0b92d0a87e",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "After this minion's master takes damage from an attack or spell, each {CONDNAME_MINION_WRITHELING} afflicts a random enemy with a random debuff. Maximum of 5 stacks.",
+    "refs": {
+      "statuses": [
+        "Writhelings"
+      ],
+      "minions": [
+        "Writhelings"
+      ]
     }
   },
   {
     "id": "minion:zombies",
     "source": "minions",
     "name": "Zombies",
-    "text": "At the start of this minion's master's turn, each Zombies deals damage to a random enemy equal to 50% of its Attack. Maximum of 9 stacks.",
-    "textHash": "c3c42f725a39",
+    "text": "At the start of this minion's master's turn, each Zombies deals damage to a random enemy equal to 50% of its attack. Maximum of 9 stacks.",
+    "textHash": "3b4431815813",
     "meta": {
       "chanceToLeave": "25%"
+    },
+    "markup": "At the start of this minion's master's turn, each {CONDNAME_MINION_ZOMBIE} deals damage to a random enemy equal to 50% of its {STAT_attack}. Maximum of 9 stacks.",
+    "refs": {
+      "statuses": [
+        "Zombies"
+      ],
+      "minions": [
+        "Zombies"
+      ],
+      "stats": [
+        "attack"
+      ]
     }
   }
 ]

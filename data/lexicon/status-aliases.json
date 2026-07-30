@@ -1,12 +1,4 @@
 {
-  "Stoned": "Stone",
-  "Fear": "Feared",
-  "shelled": "Shelled",
-  "silenced": "Silenced",
-  "bleeding": "Bleeding",
-  "confused": "Confused",
-  "Frzoen": "Frozen",
   "Poison": "Poisoned",
-  "Scorn": "Scorned",
-  "Immunity": "Immune"
+  "Scorn": "Scorned"
 }

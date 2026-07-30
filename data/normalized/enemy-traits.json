@@ -1,0 +1,5867 @@
+[
+  {
+    "id": "etrait:acclimation",
+    "source": "enemy-traits",
+    "name": "Acclimation",
+    "text": "Your creatures take 25% less damage from spells for each turn they've taken in the current battle. This trait does not stack.",
+    "textHash": "c13278607f2a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ACCLIMATION"
+    },
+    "markup": "Your creatures take 25% less damage from spells for each turn they've taken in the current battle. This trait does not stack."
+  },
+  {
+    "id": "etrait:anathema",
+    "source": "enemy-traits",
+    "name": "Anathema",
+    "text": "After an enemy is killed, this creature gains Rebirth.",
+    "textHash": "2bd0eac5e570",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ANATHEMA"
+    },
+    "markup": "After an enemy is killed, this creature gains {CONDNAME_BUFF_REBIRTH}.",
+    "refs": {
+      "statuses": [
+        "Rebirth"
+      ],
+      "buffs": [
+        "Rebirth"
+      ]
+    }
+  },
+  {
+    "id": "etrait:angry-army-1",
+    "source": "enemy-traits",
+    "name": "Angry Army (1)",
+    "text": "Your creatures take two turns at a time.",
+    "textHash": "139d35e6f1ad",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ANGRYARMY",
+      "variant": 1
+    },
+    "markup": "Your creatures take two turns at a time."
+  },
+  {
+    "id": "etrait:angry-army-2",
+    "source": "enemy-traits",
+    "name": "Angry Army (2)",
+    "text": "Your creatures take two turns at a time.",
+    "textHash": "139d35e6f1ad",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ANGRYARMY1",
+      "variant": 2
+    },
+    "markup": "Your creatures take two turns at a time."
+  },
+  {
+    "id": "etrait:angry-army-3",
+    "source": "enemy-traits",
+    "name": "Angry Army (3)",
+    "text": "Your creatures take two turns at a time. Your creatures attack and cast spells 5 additional times.",
+    "textHash": "b2f78bed37cf",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ANGRYARMY2",
+      "variant": 3
+    },
+    "markup": "Your creatures take two turns at a time. Your creatures {ACTION_attack} and {ACTION_cast} spells 5 additional times.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:angry-army-4",
+    "source": "enemy-traits",
+    "name": "Angry Army (4)",
+    "text": "Your creatures take two turns at a time. Your creatures attack and cast spells 5 additional times. At the start of your creatures' turns, they gain a random minion.",
+    "textHash": "306bff8ac114",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ANGRYARMY3",
+      "variant": 4
+    },
+    "markup": "Your creatures take two turns at a time. Your creatures {ACTION_attack} and {ACTION_cast} spells 5 additional times. At the start of your creatures' turns, they gain a random minion.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:apnea-1",
+    "source": "enemy-traits",
+    "name": "Apnea (1)",
+    "text": "After your creatures attack, this creature attacks the enemy as well. When your creatures cast a spell, this creature casts that spell as well.",
+    "textHash": "ececa1844859",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "APNEA1",
+      "variant": 1
+    },
+    "markup": "After your creatures {ACTION_attack}, this creature {ACTION_attacks} the enemy as well. When your creatures {ACTION_cast} a spell, this creature {ACTION_casts} that spell as well.",
+    "refs": {
+      "actions": [
+        "attack",
+        "attacks",
+        "cast",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:apnea-2",
+    "source": "enemy-traits",
+    "name": "Apnea (2)",
+    "text": "After your creatures attack, this creature attacks the enemy 2 times as well. When your creatures cast a spell, this creature casts that spell 2 times as well.",
+    "textHash": "6690a0bc600b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "APNEA2",
+      "variant": 2
+    },
+    "markup": "After your creatures {ACTION_attack}, this creature {ACTION_attacks} the enemy 2 times as well. When your creatures {ACTION_cast} a spell, this creature {ACTION_casts} that spell 2 times as well.",
+    "refs": {
+      "actions": [
+        "attack",
+        "attacks",
+        "cast",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:apnea-3",
+    "source": "enemy-traits",
+    "name": "Apnea (3)",
+    "text": "After your creatures attack, this creature attacks the enemy 3 times as well. When your creatures cast a spell, this creature casts that spell 3 times as well.",
+    "textHash": "51f3ba3d93d8",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "APNEA3",
+      "variant": 3
+    },
+    "markup": "After your creatures {ACTION_attack}, this creature {ACTION_attacks} the enemy 3 times as well. When your creatures {ACTION_cast} a spell, this creature {ACTION_casts} that spell 3 times as well.",
+    "refs": {
+      "actions": [
+        "attack",
+        "attacks",
+        "cast",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:ascension-1",
+    "source": "enemy-traits",
+    "name": "Ascension (1)",
+    "text": "The end is here.",
+    "textHash": "012e9274ee3f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ASCENSION1",
+      "variant": 1
+    },
+    "markup": "The end is here."
+  },
+  {
+    "id": "etrait:ascension-2",
+    "source": "enemy-traits",
+    "name": "Ascension (2)",
+    "text": "The end is here.",
+    "textHash": "012e9274ee3f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ASCENSION",
+      "variant": 2
+    },
+    "markup": "The end is here."
+  },
+  {
+    "id": "etrait:assassin-s-specialty",
+    "source": "enemy-traits",
+    "name": "Assassin's Specialty",
+    "text": "After your creatures gain Invisible, they lose all their debuffs.",
+    "textHash": "62c2fa443615",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ASSASSIN'SSPECIALTY"
+    },
+    "markup": "After your creatures gain {CONDNAME_BUFF_INVISIBLE}, they lose all their debuffs.",
+    "refs": {
+      "statuses": [
+        "Invisible"
+      ],
+      "buffs": [
+        "Invisible"
+      ]
+    }
+  },
+  {
+    "id": "etrait:azurecrest",
+    "source": "enemy-traits",
+    "name": "Azurecrest",
+    "text": "Your creatures with Shelled have a 25% chance to avoid incoming damage. This trait does not stack.",
+    "textHash": "89602174c357",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "AZURECREST"
+    },
+    "markup": "Your creatures with {CONDNAME_BUFF_SHELL} have a 25% chance to avoid incoming damage. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Shelled"
+      ],
+      "buffs": [
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:before-i-fall",
+    "source": "enemy-traits",
+    "name": "Before I Fall",
+    "text": "This creature cannot die unless Galena has only 1 health.",
+    "textHash": "b5b1a063f9f3",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BEFOREIFALL"
+    },
+    "markup": "This creature cannot die unless Galena has only 1 {STAT_health}.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:belittler",
+    "source": "enemy-traits",
+    "name": "Belittler",
+    "text": "Your creatures deal 35% more damage to enemies in non-boss battles. This trait does not stack. (REMOVED)",
+    "textHash": "a9e0ad2c21fe",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BELITTLER"
+    },
+    "markup": "Your creatures deal 35% more damage to enemies in non-boss battles. This trait does not stack. (REMOVED)"
+  },
+  {
+    "id": "etrait:berserker-s-lust",
+    "source": "enemy-traits",
+    "name": "Berserker's Lust",
+    "text": "Your Berserk creatures attack 1 additional time. This trait does not stack.",
+    "textHash": "8b6ecc6872ef",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BERSERKER'SLUST"
+    },
+    "markup": "Your {CONDNAME_BUFF_BERSERK} creatures attack 1 additional time. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Berserk"
+      ],
+      "buffs": [
+        "Berserk"
+      ]
+    }
+  },
+  {
+    "id": "etrait:betrayer-1",
+    "source": "enemy-traits",
+    "name": "Betrayer (1)",
+    "text": "At the start of this creature's turn, it afflicts 3 enemies with Bomb.",
+    "textHash": "d97ab86db551",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BETRAYER1",
+      "variant": 1
+    },
+    "markup": "At the start of this creature's turn, it afflicts 3 enemies with {CONDNAME_DEBUFF_BOMB}.",
+    "refs": {
+      "statuses": [
+        "Bomb"
+      ],
+      "debuffs": [
+        "Bomb"
+      ]
+    }
+  },
+  {
+    "id": "etrait:betrayer-2",
+    "source": "enemy-traits",
+    "name": "Betrayer (2)",
+    "text": "At the start of this creature's turn, it afflicts all enemies with Bomb.",
+    "textHash": "1686110fb163",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BETRAYER",
+      "variant": 2
+    },
+    "markup": "At the start of this creature's turn, it afflicts all enemies with {CONDNAME_DEBUFF_BOMB}.",
+    "refs": {
+      "statuses": [
+        "Bomb"
+      ],
+      "debuffs": [
+        "Bomb"
+      ]
+    }
+  },
+  {
+    "id": "etrait:betrayer-of-the-code",
+    "source": "enemy-traits",
+    "name": "Betrayer of the Code",
+    "text": "When one of your creatures casts a single-target spell on an enemy, they have a 30% chance to cast a random Scourge spell on the enemy as well.",
+    "textHash": "e49d9a9d752e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BETRAYEROFTHECODE"
+    },
+    "markup": "When one of your creatures {ACTION_casts} a single-target spell on an enemy, they have a 30% chance to {ACTION_cast} a random Scourge spell on the enemy as well.",
+    "refs": {
+      "actions": [
+        "cast",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:better-to-receive",
+    "source": "enemy-traits",
+    "name": "Better to Receive",
+    "text": "This creatures starts battles with additional health equal to 100% of all the enemies' Maximum health.",
+    "textHash": "b3510999347f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BETTERTORECEIVE"
+    },
+    "markup": "This creatures starts battles with additional {STAT_health} equal to 100% of all the enemies' Maximum {STAT_health}.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:birth-of-salvation",
+    "source": "enemy-traits",
+    "name": "Birth of Salvation",
+    "text": "Your creatures with Barrier deal additional damage equal to 40% of the Barrier's strength. This trait does not stack.",
+    "textHash": "7a965c2dad5c",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BIRTHOFSALVATION"
+    },
+    "markup": "Your creatures with {CONDNAME_BUFF_BARRIER} deal additional damage equal to 40% of the {CONDNAME_BUFF_BARRIER}'s strength. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Barrier"
+      ],
+      "buffs": [
+        "Barrier"
+      ]
+    }
+  },
+  {
+    "id": "etrait:black-moon",
+    "source": "enemy-traits",
+    "name": "Black Moon",
+    "text": "Your creatures with Savage cannot be Dodged.",
+    "textHash": "ae9ecd5efff5",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BLACKMOON"
+    },
+    "markup": "Your creatures with {CONDNAME_BUFF_SAVAGE} cannot be Dodged.",
+    "refs": {
+      "statuses": [
+        "Savage"
+      ],
+      "buffs": [
+        "Savage"
+      ]
+    }
+  },
+  {
+    "id": "etrait:black-plague",
+    "source": "enemy-traits",
+    "name": "Black Plague",
+    "text": "Enemies with Poisoned are afflicted with a random debuff at the start of their turn. This trait does not stack.",
+    "textHash": "258e17a0ca7d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BLACKPLAGUE"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_POISON} are afflicted with a random debuff at the start of their turn. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Poisoned"
+      ],
+      "debuffs": [
+        "Poisoned"
+      ]
+    }
+  },
+  {
+    "id": "etrait:blackspur",
+    "source": "enemy-traits",
+    "name": "Blackspur",
+    "text": "Your creatures' Boots artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "e6332e855968",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BLACKSPUR"
+    },
+    "markup": "Your creatures' Boots artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:blessed-with-a-curse",
+    "source": "enemy-traits",
+    "name": "Blessed With a Curse",
+    "text": "This creature always has Blighted, and is immune to damaging attacks and spells.",
+    "textHash": "f893b2970161",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BLESSEDWITHACURSE1"
+    },
+    "markup": "This creature always has {CONDNAME_DEBUFF_BLIGHT}, and is immune to damaging attacks and spells.",
+    "refs": {
+      "statuses": [
+        "Blighted"
+      ],
+      "debuffs": [
+        "Blighted"
+      ]
+    }
+  },
+  {
+    "id": "etrait:blink-of-an-eye-1",
+    "source": "enemy-traits",
+    "name": "Blink of an Eye (1)",
+    "text": "This creature takes 5% less damage for each time it took damage in the current battle. Maximum of 95% damage reduction.",
+    "textHash": "2316625015c2",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BLINKOFANEYE1",
+      "variant": 1
+    },
+    "markup": "This creature takes 5% less damage for each time it took damage in the current battle. Maximum of 95% damage reduction."
+  },
+  {
+    "id": "etrait:blink-of-an-eye-2",
+    "source": "enemy-traits",
+    "name": "Blink of an Eye (2)",
+    "text": "Your creatures take 10% less damage for each time they took damage in the current battle. Maximum of 95% damage reduction.",
+    "textHash": "3539ea5e3a71",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BLINKOFANEYE2",
+      "variant": 2
+    },
+    "markup": "Your creatures take 10% less damage for each time they took damage in the current battle. Maximum of 95% damage reduction."
+  },
+  {
+    "id": "etrait:blink-of-an-eye-3",
+    "source": "enemy-traits",
+    "name": "Blink of an Eye (3)",
+    "text": "Your creatures take 10% less damage for each time they took damage in the current battle. Maximum of 95% damage reduction. After this creature takes damage from an attack or spell, it gains Shelled.",
+    "textHash": "1bbc89332ce8",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BLINKOFANEYE3",
+      "variant": 3
+    },
+    "markup": "Your creatures take 10% less damage for each time they took damage in the current battle. Maximum of 95% damage reduction. After this creature takes damage from an attack or spell, it gains {CONDNAME_BUFF_SHELL}.",
+    "refs": {
+      "statuses": [
+        "Shelled"
+      ],
+      "buffs": [
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:blurred-thoughts",
+    "source": "enemy-traits",
+    "name": "Blurred Thoughts",
+    "text": "Your creatures with Multi Cast deal damage with spells as if they have 40% more intelligence. This trait does not stack.",
+    "textHash": "97c28f874a2d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BLURREDTHOUGHTS"
+    },
+    "markup": "Your creatures with Multi[battle_cast] Cast deal damage with spells as if they have 40% more {STAT_intelligence}. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "etrait:body-of-althea",
+    "source": "enemy-traits",
+    "name": "Body of Althea",
+    "text": "Enemies always have Blighted. Enemies cannot be immune to Blighted. The body grants Current health to all other body parts.",
+    "textHash": "e77aa69b5a04",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFALTHEA"
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_BLIGHT}. Enemies cannot be immune to {CONDNAME_DEBUFF_BLIGHT}. The body grants Current {STAT_health} to all other body parts.",
+    "refs": {
+      "statuses": [
+        "Blighted"
+      ],
+      "debuffs": [
+        "Blighted"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:body-of-hydranox",
+    "source": "enemy-traits",
+    "name": "Body of Hydranox",
+    "text": "The body grants each head a random buff and removes a random debuff.",
+    "textHash": "feada5ed5f55",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFHYDRANOX"
+    },
+    "markup": "The body grants each head a random buff and removes a random debuff."
+  },
+  {
+    "id": "etrait:body-of-impington",
+    "source": "enemy-traits",
+    "name": "Body of Impington",
+    "text": "The body grants Current health to all other body parts.",
+    "textHash": "7eed493d2a24",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFIMPINGTON"
+    },
+    "markup": "The body grants Current {STAT_health} to all other body parts.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:body-of-jotun",
+    "source": "enemy-traits",
+    "name": "Body of Jotun",
+    "text": "Immune to damage. Your best bet is to survive the onslaught until Jotun becomes bored and goes away.",
+    "textHash": "8d9b60dcab70",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFJOTUN"
+    },
+    "markup": "Immune to damage. Your best bet is to survive the onslaught until Jotun becomes bored and goes away."
+  },
+  {
+    "id": "etrait:body-of-loid",
+    "source": "enemy-traits",
+    "name": "Body of Loid",
+    "text": "The body deals damage to enemies based on the number of debuffs they have. After the body takes damage, it damages the enemy equal to 30% of the body's highest stat.",
+    "textHash": "bdbf80b0df22",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFLOID"
+    },
+    "markup": "The body deals damage to enemies based on the number of debuffs they have. After the body takes damage, it damages the enemy equal to 30% of the body's highest stat."
+  },
+  {
+    "id": "etrait:body-of-lost-construct",
+    "source": "enemy-traits",
+    "name": "Body of Lost Construct",
+    "text": "The body increases the speed of all the body parts. It also gives minions to all the body parts.",
+    "textHash": "957e5a144412",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFLOSTCONSTRUCT"
+    },
+    "markup": "The body increases the {STAT_speed} of all the body parts. It also gives minions to all the body parts.",
+    "refs": {
+      "stats": [
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "etrait:body-of-mindwurm",
+    "source": "enemy-traits",
+    "name": "Body of Mindwurm",
+    "text": "The body increases all the body parts' stats.",
+    "textHash": "6852654b8aa4",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFMINDWURM"
+    },
+    "markup": "The body increases all the body parts' stats."
+  },
+  {
+    "id": "etrait:body-of-nebodar",
+    "source": "enemy-traits",
+    "name": "Body of Nebodar",
+    "text": "The body greatly increases the defense of all the body parts.",
+    "textHash": "85d8b1ef6972",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFNEBODAR"
+    },
+    "markup": "The body greatly increases the {STAT_defense} of all the body parts.",
+    "refs": {
+      "stats": [
+        "defense"
+      ]
+    }
+  },
+  {
+    "id": "etrait:body-of-the-ancestor",
+    "source": "enemy-traits",
+    "name": "Body of The Ancestor",
+    "text": "The body increases the other body parts' attack and intelligence.",
+    "textHash": "5387baeefc6c",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BODYOFTHEANCESTOR"
+    },
+    "markup": "The body increases the other body parts' {STAT_attack} and {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "attack",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "etrait:boneyard-1",
+    "source": "enemy-traits",
+    "name": "Boneyard (1)",
+    "text": "At the start of this creature's turn, it kills enemies that are below 35% health. This creature starts battles at the bottom of the Timeline.",
+    "textHash": "e7ba74d67254",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BONEYARD3",
+      "variant": 1
+    },
+    "markup": "At the start of this creature's turn, it kills enemies that are below 35% {STAT_health}. This creature starts battles at the bottom of the {TIMELINE}.",
+    "refs": {
+      "stats": [
+        "health"
+      ],
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:boneyard-2",
+    "source": "enemy-traits",
+    "name": "Boneyard (2)",
+    "text": "At the start of this creature's turn, it kills enemies that are below 20% health. This creature starts battles at the bottom of the Timeline.",
+    "textHash": "a5efded49d17",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BONEYARD2",
+      "variant": 2
+    },
+    "markup": "At the start of this creature's turn, it kills enemies that are below 20% {STAT_health}. This creature starts battles at the bottom of the {TIMELINE}.",
+    "refs": {
+      "stats": [
+        "health"
+      ],
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:boneyard-3",
+    "source": "enemy-traits",
+    "name": "Boneyard (3)",
+    "text": "At the start of this creature's turn, it kills enemies that are below 5% health. This creature starts battles at the bottom of the Timeline.",
+    "textHash": "f5f9d7f4a1c9",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BONEYARD1",
+      "variant": 3
+    },
+    "markup": "At the start of this creature's turn, it kills enemies that are below 5% {STAT_health}. This creature starts battles at the bottom of the {TIMELINE}.",
+    "refs": {
+      "stats": [
+        "health"
+      ],
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:boneyard-and-sacrilege",
+    "source": "enemy-traits",
+    "name": "Boneyard and Sacrilege",
+    "text": "Judgment and Mercy will set your creatures up for swift and merciless deaths.",
+    "textHash": "7fb6b40c9223",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BONEYARDANDSACRILEGE"
+    },
+    "markup": "Judgment and Mercy will set your creatures up for swift and merciless deaths."
+  },
+  {
+    "id": "etrait:boon-of-the-hee-hoo-hay-ho",
+    "source": "enemy-traits",
+    "name": "Boon of the Hee Hoo Hay Ho",
+    "text": "Hoo ho ha!",
+    "textHash": "722910362348",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BOONOFTHEHEEHOOHAYHO"
+    },
+    "markup": "Hoo ho ha!"
+  },
+  {
+    "id": "etrait:born-of-illusion",
+    "source": "enemy-traits",
+    "name": "Born of Illusion",
+    "text": "Your creatures' class-based Shield artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "6c724d6e34b4",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BORNOFILLUSION"
+    },
+    "markup": "Your creatures' class-based Shield artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:bouquet-1",
+    "source": "enemy-traits",
+    "name": "Bouquet (1)",
+    "text": "At the end of this creature's turn, it grants 3 allies a Barrier. At the start of this creature's turn, it shatters your creatures' Barrier buffs, dealing damage to enemies equal to 300% of the Barrier's absorption.",
+    "textHash": "0b00a444c9a5",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BOUQUET1",
+      "variant": 1
+    },
+    "markup": "At the end of this creature's turn, it grants 3 allies a {CONDNAME_BUFF_BARRIER}. At the start of this creature's turn, it shatters your creatures' {CONDNAME_BUFF_BARRIER} buffs, dealing damage to enemies equal to 300% of the {CONDNAME_BUFF_BARRIER}'s absorption.",
+    "refs": {
+      "statuses": [
+        "Barrier"
+      ],
+      "buffs": [
+        "Barrier"
+      ]
+    }
+  },
+  {
+    "id": "etrait:bouquet-2",
+    "source": "enemy-traits",
+    "name": "Bouquet (2)",
+    "text": "At the end of this creature's turn, it grants your creatures a Barrier. At the start of this creature's turn, it shatters your creatures' Barrier buffs, dealing damage to enemies equal to 300% of the Barrier's absorption.",
+    "textHash": "aba83e136823",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BOUQUET2",
+      "variant": 2
+    },
+    "markup": "At the end of this creature's turn, it grants your creatures a {CONDNAME_BUFF_BARRIER}. At the start of this creature's turn, it shatters your creatures' {CONDNAME_BUFF_BARRIER} buffs, dealing damage to enemies equal to 300% of the {CONDNAME_BUFF_BARRIER}'s absorption.",
+    "refs": {
+      "statuses": [
+        "Barrier"
+      ],
+      "buffs": [
+        "Barrier"
+      ]
+    }
+  },
+  {
+    "id": "etrait:bouquet-3",
+    "source": "enemy-traits",
+    "name": "Bouquet (3)",
+    "text": "At the end of this creature's turn, it grants your creatures a Barrier and Shelled. At the start of this creature's turn, it shatters your creatures' Barrier buffs, dealing damage to enemies equal to 300% of the Barrier's absorption.",
+    "textHash": "873a5f336cf8",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BOUQUET3",
+      "variant": 3
+    },
+    "markup": "At the end of this creature's turn, it grants your creatures a {CONDNAME_BUFF_BARRIER} and {CONDNAME_BUFF_SHELL}. At the start of this creature's turn, it shatters your creatures' {CONDNAME_BUFF_BARRIER} buffs, dealing damage to enemies equal to 300% of the {CONDNAME_BUFF_BARRIER}'s absorption.",
+    "refs": {
+      "statuses": [
+        "Barrier",
+        "Shelled"
+      ],
+      "buffs": [
+        "Barrier",
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:brain-of-misery",
+    "source": "enemy-traits",
+    "name": "Brain of Misery",
+    "text": "After your creatures cast a spell, they gain 15% of their highest stat, excluding health.",
+    "textHash": "7cb53552604d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BRAINOFMISERY"
+    },
+    "markup": "After your creatures {ACTION_cast} a spell, they gain 15% of their highest stat, excluding {STAT_health}.",
+    "refs": {
+      "actions": [
+        "cast"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:breathe-underwater",
+    "source": "enemy-traits",
+    "name": "Breathe Underwater",
+    "text": "When one of your creatures summons a creature, that creature has a 50% chance to start at the top of the Timeline. This trait does not stack.",
+    "textHash": "5042021b9e6e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BREATHEUNDERWATER"
+    },
+    "markup": "When one of your creatures summons a creature, that creature has a 50% chance to start at the top of the {TIMELINE}. This trait does not stack.",
+    "refs": {
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:broken-promise",
+    "source": "enemy-traits",
+    "name": "Broken Promise",
+    "text": "Enemies with Blighted cannot gain buffs.",
+    "textHash": "b1ed00400f01",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "BROKENPROMISE"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLIGHT} cannot gain buffs.",
+    "refs": {
+      "statuses": [
+        "Blighted"
+      ],
+      "debuffs": [
+        "Blighted"
+      ]
+    }
+  },
+  {
+    "id": "etrait:cannon-of-impington",
+    "source": "enemy-traits",
+    "name": "Cannon of Impington",
+    "text": "This cannon fires lasers at enemies.",
+    "textHash": "9f1103f6bee3",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CANNONOFIMPINGTON"
+    },
+    "markup": "This cannon fires lasers at enemies."
+  },
+  {
+    "id": "etrait:cesspool-1",
+    "source": "enemy-traits",
+    "name": "Cesspool (1)",
+    "text": "Enemies always have Poisoned. At the start of this creature's turn, the potency of the enemies' Poisoned debuff increases by 50%.",
+    "textHash": "8b6a0e7d02e1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CESSPOOL1",
+      "variant": 1
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_POISON}. At the start of this creature's turn, the potency of the enemies' {CONDNAME_DEBUFF_POISON} debuff increases by 50%.",
+    "refs": {
+      "statuses": [
+        "Poisoned"
+      ],
+      "debuffs": [
+        "Poisoned"
+      ]
+    }
+  },
+  {
+    "id": "etrait:cesspool-2",
+    "source": "enemy-traits",
+    "name": "Cesspool (2)",
+    "text": "Enemies always have Poisoned and Burning. At the start of this creature's turn, the potency of the enemies' Poisoned and Burning debuffs increases by 50%.",
+    "textHash": "7626b229ea12",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CESSPOOL2",
+      "variant": 2
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_BURNED}. At the start of this creature's turn, the potency of the enemies' {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_BURNED} debuffs increases by 50%.",
+    "refs": {
+      "statuses": [
+        "Burning",
+        "Poisoned"
+      ],
+      "debuffs": [
+        "Burning",
+        "Poisoned"
+      ]
+    }
+  },
+  {
+    "id": "etrait:cesspool-3",
+    "source": "enemy-traits",
+    "name": "Cesspool (3)",
+    "text": "Enemies always have Poisoned, Burning, and Bleeding. At the start of this creature's turn, the potency of the enemies' Poisoned and Burning debuffs increases by 50%.",
+    "textHash": "44a194a80829",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CESSPOOL3",
+      "variant": 3
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_POISON}, {CONDNAME_DEBUFF_BURNED}, and {CONDNAME_DEBUFF_BLEED}. At the start of this creature's turn, the potency of the enemies' {CONDNAME_DEBUFF_POISON} and {CONDNAME_DEBUFF_BURNED} debuffs increases by 50%.",
+    "refs": {
+      "statuses": [
+        "Bleeding",
+        "Burning",
+        "Poisoned"
+      ],
+      "debuffs": [
+        "Bleeding",
+        "Burning",
+        "Poisoned"
+      ]
+    }
+  },
+  {
+    "id": "etrait:claw-of-nebodar",
+    "source": "enemy-traits",
+    "name": "Claw of Nebodar",
+    "text": "This claw attacks enemies and deals additional damage based on the potency of their Burning debuffs.",
+    "textHash": "e3919c4da757",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CLAWOFNEBODAR"
+    },
+    "markup": "This claw {ACTION_attacks} enemies and deals additional damage based on the potency of their {CONDNAME_DEBUFF_BURNED} debuffs.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ],
+      "statuses": [
+        "Burning"
+      ],
+      "debuffs": [
+        "Burning"
+      ]
+    }
+  },
+  {
+    "id": "etrait:cloak-of-shadows",
+    "source": "enemy-traits",
+    "name": "Cloak of Shadows",
+    "text": "At the start of battle and at the start of this creature's turn, your creatures gain Invisible. While your creatures are Invisible, they are immune to damage.",
+    "textHash": "9b1ee1d2d7a1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CLOAKOFSHADOWS"
+    },
+    "markup": "At the start of battle and at the start of this creature's turn, your creatures gain {CONDNAME_BUFF_INVISIBLE}. While your creatures are {CONDNAME_BUFF_INVISIBLE}, they are immune to damage.",
+    "refs": {
+      "statuses": [
+        "Invisible"
+      ],
+      "buffs": [
+        "Invisible"
+      ]
+    }
+  },
+  {
+    "id": "etrait:coercion-1",
+    "source": "enemy-traits",
+    "name": "Coercion (1)",
+    "text": "At the start of this creature's turn, it forces an enemy to attack one of its allies. At the end of its turn, it forces an ally to cast a spell.",
+    "textHash": "141e4511e802",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "COERCION1",
+      "variant": 1
+    },
+    "markup": "At the start of this creature's turn, it forces an enemy to {ACTION_attack} one of its allies. At the end of its turn, it forces an ally to {ACTION_cast} a spell.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:coercion-2",
+    "source": "enemy-traits",
+    "name": "Coercion (2)",
+    "text": "At the start of this creature's turn, it forces an enemy to attack one of its allies 2 times. At the end of its turn, it forces an ally to cast a spell 2 times.",
+    "textHash": "3c0f52261c48",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "COERCION2",
+      "variant": 2
+    },
+    "markup": "At the start of this creature's turn, it forces an enemy to {ACTION_attack} one of its allies 2 times. At the end of its turn, it forces an ally to {ACTION_cast} a spell 2 times.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:coercion-3",
+    "source": "enemy-traits",
+    "name": "Coercion (3)",
+    "text": "At the start of this creature's turn, it forces an enemy to attack one of its allies 3 times. At the end of its turn, it forces an ally to cast a spell 3 times.",
+    "textHash": "0f1708b36b8e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "COERCION3",
+      "variant": 3
+    },
+    "markup": "At the start of this creature's turn, it forces an enemy to {ACTION_attack} one of its allies 3 times. At the end of its turn, it forces an ally to {ACTION_cast} a spell 3 times.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:collapsed-dream",
+    "source": "enemy-traits",
+    "name": "Collapsed Dream",
+    "text": "Enemies gain 50% less benefit from stat-boosting effects.",
+    "textHash": "7cf5aa967e6e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "COLLAPSEDDREAM"
+    },
+    "markup": "Enemies gain 50% less benefit from stat-boosting effects."
+  },
+  {
+    "id": "etrait:colorwave",
+    "source": "enemy-traits",
+    "name": "Colorwave",
+    "text": "After your creatures take damage, their class is changed to whatever class is strong against the creature that afflicted the damage.",
+    "textHash": "c409a058558d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "COLORWAVE"
+    },
+    "markup": "After your creatures take damage, their class is changed to whatever class is strong against the creature that afflicted the damage."
+  },
+  {
+    "id": "etrait:cornered-1",
+    "source": "enemy-traits",
+    "name": "Cornered (1)",
+    "text": "At the start of battle, this creature afflicts enemies with Bleeding.",
+    "textHash": "9fb8c6d6a6b8",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CORNERED",
+      "variant": 1
+    },
+    "markup": "At the start of battle, this creature afflicts enemies with {CONDNAME_DEBUFF_BLEED}.",
+    "refs": {
+      "statuses": [
+        "Bleeding"
+      ],
+      "debuffs": [
+        "Bleeding"
+      ]
+    }
+  },
+  {
+    "id": "etrait:cornered-2",
+    "source": "enemy-traits",
+    "name": "Cornered (2)",
+    "text": "Enemies always have Bleeding. After an enemy takes damage from this debuff, all other enemies take the same amount of damage.",
+    "textHash": "04e04fe0439b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CORNERED1",
+      "variant": 2
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_BLEED}. After an enemy takes damage from this debuff, all other enemies take the same amount of damage.",
+    "refs": {
+      "statuses": [
+        "Bleeding"
+      ],
+      "debuffs": [
+        "Bleeding"
+      ]
+    }
+  },
+  {
+    "id": "etrait:cornered-3",
+    "source": "enemy-traits",
+    "name": "Cornered (3)",
+    "text": "Enemies always have Bleeding. After an enemy takes damage from this debuff, all other enemies take the same amount of damage. Enemies' Bleeding damage is based on its highest stat instead of health.",
+    "textHash": "9698fe5afc27",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CORNERED2",
+      "variant": 3
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_BLEED}. After an enemy takes damage from this debuff, all other enemies take the same amount of damage. Enemies' {CONDNAME_DEBUFF_BLEED} damage is based on its highest stat instead of {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Bleeding"
+      ],
+      "debuffs": [
+        "Bleeding"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:cornered-4",
+    "source": "enemy-traits",
+    "name": "Cornered (4)",
+    "text": "Enemies always have Bleeding. After an enemy takes damage from this debuff, all other enemies take the same amount of damage. Enemies' Bleeding damage is based on its highest stat instead of health. Enemies take damage from Bleeding 1 additional time.",
+    "textHash": "0c6d213d6c11",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CORNERED3",
+      "variant": 4
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_BLEED}. After an enemy takes damage from this debuff, all other enemies take the same amount of damage. Enemies' {CONDNAME_DEBUFF_BLEED} damage is based on its highest stat instead of {STAT_health}. Enemies take damage from {CONDNAME_DEBUFF_BLEED} 1 additional time.",
+    "refs": {
+      "statuses": [
+        "Bleeding"
+      ],
+      "debuffs": [
+        "Bleeding"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:corrupted-god",
+    "source": "enemy-traits",
+    "name": "Corrupted God",
+    "text": "This god has betrayed you!",
+    "textHash": "0616a435befa",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CORRUPTEDGOD"
+    },
+    "markup": "This god has betrayed you!"
+  },
+  {
+    "id": "etrait:cosmic-discharge",
+    "source": "enemy-traits",
+    "name": "Cosmic Discharge",
+    "text": "After your creatures' Warded buff wears off, they cast all their permanent spells. This trait does not stack.",
+    "textHash": "dd0bbe458ee5",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "COSMICDISCHARGE"
+    },
+    "markup": "After your creatures' {CONDNAME_BUFF_WARD} buff wears off, they {ACTION_cast} all their permanent spells. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Warded"
+      ],
+      "buffs": [
+        "Warded"
+      ],
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:crucifixion-1",
+    "source": "enemy-traits",
+    "name": "Crucifixion (1)",
+    "text": "Enemies deal 50% less damage, and do not have access to their traits or artifacts.",
+    "textHash": "918d5168e629",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CRUCIFIXION1",
+      "variant": 1
+    },
+    "markup": "Enemies deal 50% less damage, and do not have access to their traits or artifacts."
+  },
+  {
+    "id": "etrait:crucifixion-2",
+    "source": "enemy-traits",
+    "name": "Crucifixion (2)",
+    "text": "This being is more powerful than any human, creature, or god.",
+    "textHash": "d39c1186f371",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CRUCIFIXION",
+      "variant": 2
+    },
+    "markup": "This being is more powerful than any human, creature, or god."
+  },
+  {
+    "id": "etrait:crucify-me",
+    "source": "enemy-traits",
+    "name": "Crucify Me",
+    "text": "This being is more powerful than any human, creature, or god.",
+    "textHash": "d39c1186f371",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CRUCIFYME1"
+    },
+    "markup": "This being is more powerful than any human, creature, or god."
+  },
+  {
+    "id": "etrait:curse-of-the-barrens-1",
+    "source": "enemy-traits",
+    "name": "Curse of the Barrens (1)",
+    "text": "Enemies always have Cursed. At the start of each enemy's turn, they attack this creature. After this creature takes damage, it recovers 15% health.",
+    "textHash": "5f304e5eb05a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CURSEOFTHEBARRENS",
+      "variant": 1
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_CURSED}. At the start of each enemy's turn, they {ACTION_attack} this creature. After this creature takes damage, it recovers 15% {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Cursed"
+      ],
+      "debuffs": [
+        "Cursed"
+      ],
+      "actions": [
+        "attack"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:curse-of-the-barrens-2",
+    "source": "enemy-traits",
+    "name": "Curse of the Barrens (2)",
+    "text": "Enemies always have Cursed. At the start of each enemy's turn, they attack this creature. After this creature takes damage, it recovers 15% health.",
+    "textHash": "5f304e5eb05a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CURSEOFTHEBARRENS1",
+      "variant": 2
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_CURSED}. At the start of each enemy's turn, they {ACTION_attack} this creature. After this creature takes damage, it recovers 15% {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Cursed"
+      ],
+      "debuffs": [
+        "Cursed"
+      ],
+      "actions": [
+        "attack"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:curse-of-the-barrens-3",
+    "source": "enemy-traits",
+    "name": "Curse of the Barrens (3)",
+    "text": "Enemies always have Cursed. At the start of each enemy's turn, they attack one of their allies. After this creature takes damage, it recovers 15% health.",
+    "textHash": "c54531451a17",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CURSEOFTHEBARRENS2",
+      "variant": 3
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_CURSED}. At the start of each enemy's turn, they {ACTION_attack} one of their allies. After this creature takes damage, it recovers 15% {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Cursed"
+      ],
+      "debuffs": [
+        "Cursed"
+      ],
+      "actions": [
+        "attack"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:curse-of-the-barrens-4",
+    "source": "enemy-traits",
+    "name": "Curse of the Barrens (4)",
+    "text": "Enemies always have Cursed. At the start of each enemy's turn, they attack 3 of their allies. After this creature takes damage, it recovers 15% health.",
+    "textHash": "8c94e4d71a17",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CURSEOFTHEBARRENS3",
+      "variant": 4
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_CURSED}. At the start of each enemy's turn, they {ACTION_attack} 3 of their allies. After this creature takes damage, it recovers 15% {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Cursed"
+      ],
+      "debuffs": [
+        "Cursed"
+      ],
+      "actions": [
+        "attack"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:curse-of-the-deep",
+    "source": "enemy-traits",
+    "name": "Curse of the Deep",
+    "text": "Your creatures always have Blighted. Your creatures are immune to all damage except for damage taken from Blighted.",
+    "textHash": "8be37897a611",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CURSEOFTHEDEEP"
+    },
+    "markup": "Your creatures always have {CONDNAME_DEBUFF_BLIGHT}. Your creatures are immune to all damage except for damage taken from {CONDNAME_DEBUFF_BLIGHT}.",
+    "refs": {
+      "statuses": [
+        "Blighted"
+      ],
+      "debuffs": [
+        "Blighted"
+      ]
+    }
+  },
+  {
+    "id": "etrait:cycle-of-death",
+    "source": "enemy-traits",
+    "name": "Cycle of Death",
+    "text": "Your creatures can take damage up to 1% of their Maximum health at a time.",
+    "textHash": "e6a2795f7d27",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "CYCLEOFDEATH"
+    },
+    "markup": "Your creatures can take damage up to 1% of their Maximum {STAT_health} at a time.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:damaged-pride",
+    "source": "enemy-traits",
+    "name": "Damaged Pride",
+    "text": "Enemies with Blind have a 20% chance to lose their turn. This trait does not stack.",
+    "textHash": "39aaf20464bd",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DAMAGEDPRIDE"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLIND} have a 20% chance to lose their turn. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Blind"
+      ],
+      "debuffs": [
+        "Blind"
+      ]
+    }
+  },
+  {
+    "id": "etrait:damaos-dishonesty",
+    "source": "enemy-traits",
+    "name": "Damaos' Dishonesty",
+    "text": "After an enemy dies, this creature deals damage to all other enemies equal to 15% of the dead creature's Maximum health.",
+    "textHash": "037bcb31e1a7",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DAMAOS'DISHONESTY"
+    },
+    "markup": "After an enemy dies, this creature deals damage to all other enemies equal to 15% of the dead creature's Maximum {STAT_health}.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:damaos-subversion",
+    "source": "enemy-traits",
+    "name": "Damaos' Subversion",
+    "text": "After this creature manually casts a single-target spell on an enemy, it attacks 3 random enemies. These attacks deal 50% normal damage.",
+    "textHash": "3b297d3e8b24",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DAMAOS'SUBVERSION"
+    },
+    "markup": "After this creature manually {ACTION_casts} a single-target spell on an enemy, it {ACTION_attacks} 3 random enemies. These attacks deal 50% normal damage.",
+    "refs": {
+      "actions": [
+        "attacks",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:damaos-treason",
+    "source": "enemy-traits",
+    "name": "Damaos' Treason",
+    "text": "After this creature attacks, it casts a random Sword spell on the target.",
+    "textHash": "41216b1bc158",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DAMAOS'TREASON"
+    },
+    "markup": "After this creature {ACTION_attacks}, it {ACTION_casts} a random Sword spell on the target.",
+    "refs": {
+      "actions": [
+        "attacks",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:damnation-s-edge",
+    "source": "enemy-traits",
+    "name": "Damnation's Edge",
+    "text": "After your creatures kill X more enemies, this creature permanently gains 1 base stat, chosen randomly.",
+    "textHash": "3bc92cfb737a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DAMNATION'SEDGE"
+    },
+    "markup": "After your creatures kill {X} more enemies, this creature permanently gains 1 base stat, chosen randomly.",
+    "refs": {
+      "other": [
+        "X"
+      ]
+    }
+  },
+  {
+    "id": "etrait:dark-clarity-1",
+    "source": "enemy-traits",
+    "name": "Dark Clarity (1)",
+    "text": "This creature can only take damage, lose stats, or be afflicted with debuffs while its allies are all dead.",
+    "textHash": "9f8c1fcaef93",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DARKCLARITY1",
+      "variant": 1
+    },
+    "markup": "This creature can only take damage, lose stats, or be afflicted with debuffs while its allies are all dead."
+  },
+  {
+    "id": "etrait:dark-clarity-2",
+    "source": "enemy-traits",
+    "name": "Dark Clarity (2)",
+    "text": "This creature can only take damage, lose stats, or be afflicted with debuffs while its allies are all dead. At the end of this creature's turn, it resurrects 3 allies.",
+    "textHash": "14c80d32c7aa",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DARKCLARITY2",
+      "variant": 2
+    },
+    "markup": "This creature can only take damage, lose stats, or be afflicted with debuffs while its allies are all dead. At the end of this creature's turn, it resurrects 3 allies."
+  },
+  {
+    "id": "etrait:dark-clarity-3",
+    "source": "enemy-traits",
+    "name": "Dark Clarity (3)",
+    "text": "This creature can only take damage, lose stats, or be afflicted with debuffs while its allies are all dead. At the end of this creature's turn, it resurrects its allies.",
+    "textHash": "97b6d0df42bb",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DARKCLARITY3",
+      "variant": 3
+    },
+    "markup": "This creature can only take damage, lose stats, or be afflicted with debuffs while its allies are all dead. At the end of this creature's turn, it resurrects its allies."
+  },
+  {
+    "id": "etrait:dark-moon",
+    "source": "enemy-traits",
+    "name": "Dark Moon",
+    "text": "Your creatures' Necklace artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "3f24f8ece05e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DARKMOON"
+    },
+    "markup": "Your creatures' Necklace artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:daybreaker",
+    "source": "enemy-traits",
+    "name": "Daybreaker",
+    "text": "This creature has access to your temporary summoned creatures' Spell Gems and innate traits.",
+    "textHash": "97a726ee6877",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DAYBREAKER"
+    },
+    "markup": "This creature has access to your temporary summoned creatures' Spell Gems and innate traits."
+  },
+  {
+    "id": "etrait:death-s-edge",
+    "source": "enemy-traits",
+    "name": "Death's Edge",
+    "text": "After your creatures kill X more enemies, this creature permanently gains 1 base stat, chosen randomly.",
+    "textHash": "3bc92cfb737a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DEATH'SEDGE"
+    },
+    "markup": "After your creatures kill {X} more enemies, this creature permanently gains 1 base stat, chosen randomly.",
+    "refs": {
+      "other": [
+        "X"
+      ]
+    }
+  },
+  {
+    "id": "etrait:deceiver-1",
+    "source": "enemy-traits",
+    "name": "Deceiver (1)",
+    "text": "This creature takes 95% less damage, cannot lose stats, and is immune to debuffs. This creature's attacks damage all enemies. In addition, when this creature's allies are killed, it takes damage equal to 15% of its Maximum health.",
+    "textHash": "e0532136626e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DECEIVER1",
+      "variant": 1
+    },
+    "markup": "This creature takes 95% less damage, cannot lose stats, and is immune to debuffs. This creature's attacks damage all enemies. In addition, when this creature's allies are killed, it takes damage equal to 15% of its Maximum {STAT_health}.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:deceiver-2",
+    "source": "enemy-traits",
+    "name": "Deceiver (2)",
+    "text": "This creature takes 95% less damage, cannot lose stats, and is immune to debuffs. This creature's attacks damage all enemies. In addition, your creatures cannot lose stats and are immune to debuffs.",
+    "textHash": "304fc9bdb395",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DECEIVER",
+      "variant": 2
+    },
+    "markup": "This creature takes 95% less damage, cannot lose stats, and is immune to debuffs. This creature's attacks damage all enemies. In addition, your creatures cannot lose stats and are immune to debuffs."
+  },
+  {
+    "id": "etrait:delusion",
+    "source": "enemy-traits",
+    "name": "Delusion",
+    "text": "After one of your creatures summons a creature, the summoned creature Casts one of its spells. This trait does not stack.",
+    "textHash": "67f7c93e6ab3",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DELUSION"
+    },
+    "markup": "After one of your creatures summons a creature, the summoned creature [battle_cast] Casts one of its spells. This trait does not stack."
+  },
+  {
+    "id": "etrait:die-die-die",
+    "source": "enemy-traits",
+    "name": "Die, Die, Die!",
+    "text": "Your creatures attack and cast spells 5 additional times. This trait overrides effects that would change the amount of times they can attack or cast spells.",
+    "textHash": "290f3ed7a339",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DIE,DIE,DIE!"
+    },
+    "markup": "Your creatures {ACTION_attack} and {ACTION_cast} spells 5 additional times. This trait overrides effects that would change the amount of times they can {ACTION_attack} or {ACTION_cast} spells.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:die-struggling",
+    "source": "enemy-traits",
+    "name": "Die Struggling",
+    "text": "Enemies with Vulnerable have a 15% chance to be killed at the start of their turn. This trait does not stack.",
+    "textHash": "2927dd7474b1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DIESTRUGGLING"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_VULNERABLE} have a 15% chance to be killed at the start of their turn. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Vulnerable"
+      ],
+      "debuffs": [
+        "Vulnerable"
+      ]
+    }
+  },
+  {
+    "id": "etrait:disarmed-descent",
+    "source": "enemy-traits",
+    "name": "Disarmed Descent",
+    "text": "Enemies with Stone now take full damage from sources other than attacks and spells.",
+    "textHash": "1016bce76c75",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DISARMEDDESCENT"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_STONE} now take full damage from sources other than attacks and spells.",
+    "refs": {
+      "statuses": [
+        "Stone"
+      ],
+      "debuffs": [
+        "Stone"
+      ]
+    }
+  },
+  {
+    "id": "etrait:dragon-s-end",
+    "source": "enemy-traits",
+    "name": "Dragon's End",
+    "text": "Your creatures' Lance artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "cb186f10e367",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DRAGON'SEND"
+    },
+    "markup": "Your creatures' Lance artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:duskshroud",
+    "source": "enemy-traits",
+    "name": "Duskshroud",
+    "text": "Your creatures' Cloak artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "1605c60a5407",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "DUSKSHROUD"
+    },
+    "markup": "Your creatures' Cloak artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:eager-recruit",
+    "source": "enemy-traits",
+    "name": "Eager Recruit",
+    "text": "After one of your creatures summons a creature, the summoned creature Attacks 2 random enemies. This trait does not stack.",
+    "textHash": "e21ba6b9e1b3",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "EAGERRECRUIT"
+    },
+    "markup": "After one of your creatures summons a creature, the summoned creature [battle_attack] Attacks 2 random enemies. This trait does not stack."
+  },
+  {
+    "id": "etrait:ebb-and-flow",
+    "source": "enemy-traits",
+    "name": "Ebb and Flow",
+    "text": "Your creatures with Agile have a 35% chance to be sent to the top of the Timeline when they dodge an attack. This trait does not stack.",
+    "textHash": "6032bea514c4",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "EBBANDFLOW"
+    },
+    "markup": "Your creatures with {CONDNAME_BUFF_AGILE} have a 35% chance to be sent to the top of the {TIMELINE} when they dodge an attack. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Agile"
+      ],
+      "buffs": [
+        "Agile"
+      ],
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:empty-thoughts",
+    "source": "enemy-traits",
+    "name": "Empty Thoughts",
+    "text": "Your creatures with Arcane take 1% less damage for every charge their Spell Gems are missing, up to a maximum of 50% damage reduction. This trait does not stack.",
+    "textHash": "868bd0014c28",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "EMPTYTHOUGHTS"
+    },
+    "markup": "Your creatures with {CONDNAME_BUFF_ARCANE} take 1% less damage for every {STAT_charge} their Spell Gems are missing, up to a maximum of 50% damage reduction. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Arcane"
+      ],
+      "buffs": [
+        "Arcane"
+      ],
+      "stats": [
+        "charge"
+      ]
+    }
+  },
+  {
+    "id": "etrait:enchanted-arrows",
+    "source": "enemy-traits",
+    "name": "Enchanted Arrows",
+    "text": "At the start and end of each creature's turn, this god casts a random Arrow spell.",
+    "textHash": "8fe356a482fe",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ENCHANTEDARROWS"
+    },
+    "markup": "At the start and end of each creature's turn, this god {ACTION_casts} a random Arrow spell.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:end-of-the-world",
+    "source": "enemy-traits",
+    "name": "End of the World",
+    "text": "At the start of this creature's turn, it kills the enemy's left-most living creature. Enemies cannot be resurrected.",
+    "textHash": "d0cddcf9e606",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ENDOFTHEWORLD"
+    },
+    "markup": "At the start of this creature's turn, it kills the enemy's left-most living creature. Enemies cannot be resurrected."
+  },
+  {
+    "id": "etrait:endless-onslaught",
+    "source": "enemy-traits",
+    "name": "Endless Onslaught",
+    "text": "After your creatures attack or are attacked, they gain 20% Current and Maximum health. Your creatures attack 3 additional times. Your creatures are immune to Scorned.",
+    "textHash": "c39475c686a2",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ENDLESSONSLAUGHT"
+    },
+    "markup": "After your creatures {ACTION_attack} or are {ACTION_attacked}, they gain 20% Current and Maximum {STAT_health}. Your creatures {ACTION_attack} 3 additional times. Your creatures are immune to {CONDNAME_DEBUFF_SCORN}.",
+    "refs": {
+      "actions": [
+        "attack",
+        "attacked"
+      ],
+      "stats": [
+        "health"
+      ],
+      "statuses": [
+        "Scorned"
+      ],
+      "debuffs": [
+        "Scorned"
+      ]
+    }
+  },
+  {
+    "id": "etrait:eternal-peace",
+    "source": "enemy-traits",
+    "name": "Eternal Peace",
+    "text": "Your creatures always defend. After your creatures take damage, they reflect 100% of the damage back to the enemy.",
+    "textHash": "520cec8ac081",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ETERNALPEACE"
+    },
+    "markup": "Your creatures always {ACTION_defend}. After your creatures take damage, they reflect 100% of the damage back to the enemy.",
+    "refs": {
+      "actions": [
+        "defend"
+      ]
+    }
+  },
+  {
+    "id": "etrait:evil-eye-1",
+    "source": "enemy-traits",
+    "name": "Evil Eye (1)",
+    "text": "At the end of this creature's turn, it locks on to an enemy creature. At the start of its turn, it deals damage equal to 10000% of its attack to the creature it locked on to, or 100% if the creature is defending.",
+    "textHash": "552dcc48fa6a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "EVILEYE",
+      "variant": 1
+    },
+    "markup": "At the end of this creature's turn, it locks on to an enemy creature. At the start of its turn, it deals damage equal to 10000% of its {STAT_attack} to the creature it locked on to, or 100% if the creature is {ACTION_defending}.",
+    "refs": {
+      "stats": [
+        "attack"
+      ],
+      "actions": [
+        "defending"
+      ]
+    }
+  },
+  {
+    "id": "etrait:evil-eye-2",
+    "source": "enemy-traits",
+    "name": "Evil Eye (2)",
+    "text": "At the end of this creature's turn, it locks on to two enemy creatures. At the start of its turn, it deals damage equal to 10000% of its attack to the creatures it locked on to, or 300% if the creature is defending.",
+    "textHash": "9cb780c7f3a1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "EVILEYE2",
+      "variant": 2
+    },
+    "markup": "At the end of this creature's turn, it locks on to two enemy creatures. At the start of its turn, it deals damage equal to 10000% of its {STAT_attack} to the creatures it locked on to, or 300% if the creature is {ACTION_defending}.",
+    "refs": {
+      "stats": [
+        "attack"
+      ],
+      "actions": [
+        "defending"
+      ]
+    }
+  },
+  {
+    "id": "etrait:evil-eye-3",
+    "source": "enemy-traits",
+    "name": "Evil Eye (3)",
+    "text": "At the end of this creature's turn, it locks on to an enemy creature. At the start of its turn, it deals damage equal to 10000% of its attack to the creature it locked on to, or 300% if the creature is defending.",
+    "textHash": "1d4c1de5c62e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "EVILEYE1",
+      "variant": 3
+    },
+    "markup": "At the end of this creature's turn, it locks on to an enemy creature. At the start of its turn, it deals damage equal to 10000% of its {STAT_attack} to the creature it locked on to, or 300% if the creature is {ACTION_defending}.",
+    "refs": {
+      "stats": [
+        "attack"
+      ],
+      "actions": [
+        "defending"
+      ]
+    }
+  },
+  {
+    "id": "etrait:evil-eye-4",
+    "source": "enemy-traits",
+    "name": "Evil Eye (4)",
+    "text": "At the end of this creature's turn, it locks on to two enemy creatures. At the start of its turn, it deals damage equal to 10000% of its attack to the creatures it locked on to.",
+    "textHash": "70e1b88b42ec",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "EVILEYE3",
+      "variant": 4
+    },
+    "markup": "At the end of this creature's turn, it locks on to two enemy creatures. At the start of its turn, it deals damage equal to 10000% of its {STAT_attack} to the creatures it locked on to.",
+    "refs": {
+      "stats": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:facade-of-time",
+    "source": "enemy-traits",
+    "name": "Facade of Time",
+    "text": "Your enemies will eventually die of old age.",
+    "textHash": "2f93a64dfede",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "FACADEOFTIME"
+    },
+    "markup": "Your enemies will eventually die of old age."
+  },
+  {
+    "id": "etrait:flamebinder",
+    "source": "enemy-traits",
+    "name": "Flamebinder",
+    "text": "Enemies with Burning deal 40% less damage. This trait does not stack.",
+    "textHash": "1703e7bd428c",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "FLAMEBINDER"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_BURNED} deal 40% less damage. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Burning"
+      ],
+      "debuffs": [
+        "Burning"
+      ]
+    }
+  },
+  {
+    "id": "etrait:flurrywing",
+    "source": "enemy-traits",
+    "name": "Flurrywing",
+    "text": "Your creatures with Multistrike deal damage with Attacks as if they have 40% more attack. This trait does not stack.",
+    "textHash": "8e3df42613a7",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "FLURRYWING"
+    },
+    "markup": "Your creatures with Multistrike deal damage with [battle_attack] Attacks as if they have 40% more {STAT_attack}. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:fragile-immortality-1",
+    "source": "enemy-traits",
+    "name": "Fragile Immortality (1)",
+    "text": "Your creatures can only take damage equal to 10% of their Maximum health at a time. In addition, this creature can only take damage equal to 3% of its Maximum health at a time.",
+    "textHash": "045e65b9e45b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "FRAGILEIMMORTALITY",
+      "variant": 1
+    },
+    "markup": "Your creatures can only take damage equal to 10% of their Maximum {STAT_health} at a time. In addition, this creature can only take damage equal to 3% of its Maximum {STAT_health} at a time.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:fragile-immortality-2",
+    "source": "enemy-traits",
+    "name": "Fragile Immortality (2)",
+    "text": "Your creatures can only take damage equal to 15% (5% if it's this creature) of their Maximum health at a time.",
+    "textHash": "b2fdff568723",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "FRAGILEIMMORTALITY1",
+      "variant": 2
+    },
+    "markup": "Your creatures can only take damage equal to 15% (5% if it's this creature) of their Maximum {STAT_health} at a time.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:fragile-immortality-3",
+    "source": "enemy-traits",
+    "name": "Fragile Immortality (3)",
+    "text": "Your creatures can only take damage equal to 10% (5% if it's this creature) of their Maximum health at a time. Your creatures deal 10% more damage for each time they've been damaged in the current battle.",
+    "textHash": "66c1cd5a701b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "FRAGILEIMMORTALITY2",
+      "variant": 3
+    },
+    "markup": "Your creatures can only take damage equal to 10% (5% if it's this creature) of their Maximum {STAT_health} at a time. Your creatures deal 10% more damage for each time they've been damaged in the current battle.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:fragile-immortality-4",
+    "source": "enemy-traits",
+    "name": "Fragile Immortality (4)",
+    "text": "Your creatures can only take damage equal to 5% of their Maximum health at a time. Your creatures deal 20% more damage for each time they've been damaged in the current battle.",
+    "textHash": "2f9e0df334ed",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "FRAGILEIMMORTALITY3",
+      "variant": 4
+    },
+    "markup": "Your creatures can only take damage equal to 5% of their Maximum {STAT_health} at a time. Your creatures deal 20% more damage for each time they've been damaged in the current battle.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:frostcrack",
+    "source": "enemy-traits",
+    "name": "Frostcrack",
+    "text": "Frozen enemies take 50% more damage. This trait does not stack.",
+    "textHash": "bb05bd722d5b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "FROSTCRACK"
+    },
+    "markup": "{CONDNAME_DEBUFF_FROZEN} enemies take 50% more damage. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Frozen"
+      ],
+      "debuffs": [
+        "Frozen"
+      ]
+    }
+  },
+  {
+    "id": "etrait:gambler-s-fallacy",
+    "source": "enemy-traits",
+    "name": "Gambler's Fallacy",
+    "text": "At the end of each enemy's turn, they have a 50% chance to be killed. At the end of each of your creatures' turns, they resurrect a random ally with 100% health.",
+    "textHash": "8369048a09d6",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GAMBLER'SFALLACY"
+    },
+    "markup": "At the end of each enemy's turn, they have a 50% chance to be killed. At the end of each of your creatures' turns, they resurrect a random ally with 100% {STAT_health}.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:gempocalypse",
+    "source": "enemy-traits",
+    "name": "Gempocalypse",
+    "text": "At the end of each enemy's turn, they take damage equal to 300% of their lowest stat.",
+    "textHash": "e00d94e057cc",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GEMPOCALYPSE"
+    },
+    "markup": "At the end of each enemy's turn, they take damage equal to 300% of their lowest stat."
+  },
+  {
+    "id": "etrait:gemsplosion-1",
+    "source": "enemy-traits",
+    "name": "Gemsplosion (1)",
+    "text": "After one of your creatures is killed, they cast 5 random spells. In addition, this creature is immune to damage while its allies are alive.",
+    "textHash": "1edcfc9c4ff7",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GEMSPLOSION",
+      "variant": 1
+    },
+    "markup": "After one of your creatures is killed, they {ACTION_cast} 5 random spells. In addition, this creature is immune to damage while its allies are alive.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:gemsplosion-2",
+    "source": "enemy-traits",
+    "name": "Gemsplosion (2)",
+    "text": "After one of your creatures is killed, they cast 5 random spells. This creature is immune to damage while its allies are alive.",
+    "textHash": "52b18662b50e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GEMSPLOSION1",
+      "variant": 2
+    },
+    "markup": "After one of your creatures is killed, they {ACTION_cast} 5 random spells. This creature is immune to damage while its allies are alive.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:gemsplosion-3",
+    "source": "enemy-traits",
+    "name": "Gemsplosion (3)",
+    "text": "After one of your creatures is killed, they cast 5 powerful spells. This creature is immune to damage while its allies are alive.",
+    "textHash": "5c14a69da378",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GEMSPLOSION2",
+      "variant": 3
+    },
+    "markup": "After one of your creatures is killed, they {ACTION_cast} 5 powerful spells. This creature is immune to damage while its allies are alive.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:gemsplosion-4",
+    "source": "enemy-traits",
+    "name": "Gemsplosion (4)",
+    "text": "After one of your creatures is killed, they cast 10 powerful spells. This creature is immune to damage while its allies are alive.",
+    "textHash": "fb2f88726420",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GEMSPLOSION3",
+      "variant": 4
+    },
+    "markup": "After one of your creatures is killed, they {ACTION_cast} 10 powerful spells. This creature is immune to damage while its allies are alive.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:get-ed",
+    "source": "enemy-traits",
+    "name": "GET !@#$ED",
+    "text": "THIS GOD BEATS THE!@#$ING!@#$ OUT OF EVERYONE.",
+    "textHash": "6177f45d50e1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GET!@#$ED"
+    },
+    "markup": "THIS GOD BEATS THE !@#$ING !@#$ OUT OF EVERYONE."
+  },
+  {
+    "id": "etrait:gift-of-mercy",
+    "source": "enemy-traits",
+    "name": "Gift of Mercy",
+    "text": "At the start of battle, your creatures' traits are ignored.",
+    "textHash": "48c0ddafe7da",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GIFTOFMERCY"
+    },
+    "markup": "At the start of battle, your creatures' traits are ignored."
+  },
+  {
+    "id": "etrait:gigaslash",
+    "source": "enemy-traits",
+    "name": "Gigaslash",
+    "text": "After this creature takes damage, it attacks 3 random enemies.",
+    "textHash": "635bd0cc32c9",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GIGASLASH"
+    },
+    "markup": "After this creature takes damage, it {ACTION_attacks} 3 random enemies.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:god-of-dreams",
+    "source": "enemy-traits",
+    "name": "God of Dreams",
+    "text": "This is an extremely overpowered trait.",
+    "textHash": "ff3c0b22d704",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GODOFDREAMS"
+    },
+    "markup": "This is an extremely overpowered trait."
+  },
+  {
+    "id": "etrait:god-of-nightmares",
+    "source": "enemy-traits",
+    "name": "God of Nightmares",
+    "text": "The Ultimate Nether Orb has been awakened!",
+    "textHash": "edee8debc85e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GODOFNIGHTMARES"
+    },
+    "markup": "The Ultimate Nether Orb has been awakened!"
+  },
+  {
+    "id": "etrait:godlessness",
+    "source": "enemy-traits",
+    "name": "Godlessness",
+    "text": "Enemies with Scorned cannot be healed.",
+    "textHash": "7f6a6a0c8e87",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GODLESSNESS"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_SCORN} cannot be healed.",
+    "refs": {
+      "statuses": [
+        "Scorned"
+      ],
+      "debuffs": [
+        "Scorned"
+      ]
+    }
+  },
+  {
+    "id": "etrait:godspawn-unity",
+    "source": "enemy-traits",
+    "name": "Godspawn Unity",
+    "text": "Your creatures have 5% more attack, intelligence, defense, and speed for each Godspawn creature fighting on your side. This trait does not stack.",
+    "textHash": "5624dab6ae7b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GODSPAWNUNITY"
+    },
+    "markup": "Your creatures have 5% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each {RACE_Godspawn} creature fighting on your side. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "attack",
+        "defense",
+        "intelligence",
+        "speed"
+      ],
+      "families": [
+        "Godspawn"
+      ]
+    }
+  },
+  {
+    "id": "etrait:guardian-of-the-forest",
+    "source": "enemy-traits",
+    "name": "Guardian of the Forest",
+    "text": "Your creatures take 120% less damage, minus 1% for each time they've attacked or cast a spell in the current battle.",
+    "textHash": "e03f357b79c5",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GUARDIANOFTHEFOREST"
+    },
+    "markup": "Your creatures take 120% less damage, minus 1% for each time they've {ACTION_attacked} or {ACTION_cast} a spell in the current battle.",
+    "refs": {
+      "actions": [
+        "attacked",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:guardian-s-oath",
+    "source": "enemy-traits",
+    "name": "Guardian's Oath",
+    "text": "Your creatures with Taunting deal 30% more damage and take 30% less damage. This trait does not stack.",
+    "textHash": "ffb95c1c99ae",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GUARDIAN'SOATH"
+    },
+    "markup": "Your creatures with {CONDNAME_BUFF_TAUNT} deal 30% more damage and take 30% less damage. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Taunting"
+      ],
+      "buffs": [
+        "Taunting"
+      ]
+    }
+  },
+  {
+    "id": "etrait:guided-by-darkness",
+    "source": "enemy-traits",
+    "name": "Guided by Darkness",
+    "text": "At the start of every other one of this god's turns, all enemies are killed.",
+    "textHash": "4574f1f6e22a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GUIDEDBYDARKNESS"
+    },
+    "markup": "At the start of every other one of this god's turns, all enemies are killed."
+  },
+  {
+    "id": "etrait:gutwretch",
+    "source": "enemy-traits",
+    "name": "Gutwretch",
+    "text": "Enemies with Bleeding have a 10% chance to be killed when they take damage from this debuff. This trait does not stack.",
+    "textHash": "5eb9aec0ab66",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "GUTWRETCH"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLEED} have a 10% chance to be killed when they take damage from this debuff. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Bleeding"
+      ],
+      "debuffs": [
+        "Bleeding"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hand-of-althea",
+    "source": "enemy-traits",
+    "name": "Hand of Althea",
+    "text": "This hand casts healing spells on enemies.",
+    "textHash": "5689424d2960",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HANDOFALTHEA"
+    },
+    "markup": "This hand {ACTION_casts} healing spells on enemies.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hand-of-caliban",
+    "source": "enemy-traits",
+    "name": "Hand of Caliban",
+    "text": "This hand attacks enemies.",
+    "textHash": "4088b0645690",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HANDOFCALIBAN"
+    },
+    "markup": "This hand {ACTION_attacks} enemies.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hand-of-impington",
+    "source": "enemy-traits",
+    "name": "Hand of Impington",
+    "text": "This hand sends the top-most enemy on the Timeline to the bottom.",
+    "textHash": "15f72bcb9168",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HANDOFIMPINGTON"
+    },
+    "markup": "This hand sends the top-most enemy on the {TIMELINE} to the bottom.",
+    "refs": {
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hand-of-jotun",
+    "source": "enemy-traits",
+    "name": "Hand of Jotun",
+    "text": "Immune to damage. Your best bet is to survive the onslaught until Jotun becomes bored and goes away.",
+    "textHash": "8d9b60dcab70",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HANDOFJOTUN"
+    },
+    "markup": "Immune to damage. Your best bet is to survive the onslaught until Jotun becomes bored and goes away."
+  },
+  {
+    "id": "etrait:hand-of-loid",
+    "source": "enemy-traits",
+    "name": "Hand of Loid",
+    "text": "This hand attacks enemies. After this hand takes damage, its boils burst, damaging the enemy equal to 30% of this hand's highest stat.",
+    "textHash": "1afcb504bb5a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HANDOFLOID"
+    },
+    "markup": "This hand {ACTION_attacks} enemies. After this hand takes damage, its boils burst, damaging the enemy equal to 30% of this hand's highest stat.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hand-of-lost-construct",
+    "source": "enemy-traits",
+    "name": "Hand of Lost Construct",
+    "text": "This hand increases the attack of all the body parts. It also attacks enemies.",
+    "textHash": "4f5b60965271",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HANDOFLOSTCONSTRUCT"
+    },
+    "markup": "This hand increases the {STAT_attack} of all the body parts. It also {ACTION_attacks} enemies.",
+    "refs": {
+      "stats": [
+        "attack"
+      ],
+      "actions": [
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hand-of-misery",
+    "source": "enemy-traits",
+    "name": "Hand of Misery",
+    "text": "After your creatures manually cast a single-target spell on an enemy, they also attack it.",
+    "textHash": "92b7c11f9255",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HANDOFMISERY"
+    },
+    "markup": "After your creatures manually {ACTION_cast} a single-target spell on an enemy, they also attack it.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hand-of-the-ancestor",
+    "source": "enemy-traits",
+    "name": "Hand of The Ancestor",
+    "text": "This hand deals damage to enemies, and significantly more damage if they're not provoking.",
+    "textHash": "fd75096bbb6f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HANDOFTHEANCESTOR"
+    },
+    "markup": "This hand deals damage to enemies, and significantly more damage if they're not {ACTION_provoking}.",
+    "refs": {
+      "actions": [
+        "provoking"
+      ]
+    }
+  },
+  {
+    "id": "etrait:happy-hour-1",
+    "source": "enemy-traits",
+    "name": "Happy Hour (1)",
+    "text": "This creature has access to all Booze Spells.",
+    "textHash": "04b2e6adb1de",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HAPPYHOUR1",
+      "variant": 1
+    },
+    "markup": "This creature has access to all {SPELL_alcohol}s.",
+    "refs": {
+      "spells": [
+        "Booze Spell"
+      ]
+    }
+  },
+  {
+    "id": "etrait:happy-hour-2",
+    "source": "enemy-traits",
+    "name": "Happy Hour (2)",
+    "text": "Your creatures have access to all Booze Spells.",
+    "textHash": "6537f9160169",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HAPPYHOUR2",
+      "variant": 2
+    },
+    "markup": "Your creatures have access to all {SPELL_alcohol}s.",
+    "refs": {
+      "spells": [
+        "Booze Spell"
+      ]
+    }
+  },
+  {
+    "id": "etrait:happy-hour-3",
+    "source": "enemy-traits",
+    "name": "Happy Hour (3)",
+    "text": "Your creatures have access to all Booze Spells and they have double the normal chance for them to be cast.",
+    "textHash": "f8d64d1f1a33",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HAPPYHOUR3",
+      "variant": 3
+    },
+    "markup": "Your creatures have access to all {SPELL_alcohol}s and they have double the normal chance for them to be {ACTION_cast}.",
+    "refs": {
+      "spells": [
+        "Booze Spell"
+      ],
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hatewreathe",
+    "source": "enemy-traits",
+    "name": "Hatewreathe",
+    "text": "Your creatures' Axe artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "e26d414aa690",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HATEWREATHE"
+    },
+    "markup": "Your creatures' Axe artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:hawkgrip",
+    "source": "enemy-traits",
+    "name": "Hawkgrip",
+    "text": "Your creatures' Gloves artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "6cd8de0b1f8b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HAWKGRIP"
+    },
+    "markup": "Your creatures' Gloves artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:head-of-althea",
+    "source": "enemy-traits",
+    "name": "Head of Althea",
+    "text": "The head grants all body parts Shelled.",
+    "textHash": "1c55ab34bc52",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFALTHEA"
+    },
+    "markup": "The head grants all body parts {CONDNAME_BUFF_SHELL}.",
+    "refs": {
+      "statuses": [
+        "Shelled"
+      ],
+      "buffs": [
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:head-of-caliban",
+    "source": "enemy-traits",
+    "name": "Head of Caliban",
+    "text": "The head provokes enemies.",
+    "textHash": "951dae428a9b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFCALIBAN"
+    },
+    "markup": "The head {ACTION_provokes} enemies.",
+    "refs": {
+      "actions": [
+        "provokes"
+      ]
+    }
+  },
+  {
+    "id": "etrait:head-of-hydranox",
+    "source": "enemy-traits",
+    "name": "Head of Hydranox",
+    "text": "This head grants its other heads 20% attack and intelligence.",
+    "textHash": "8831ebdf6d04",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFHYDRANOX"
+    },
+    "markup": "This head grants its other heads 20% {STAT_attack} and {STAT_intelligence}.",
+    "refs": {
+      "stats": [
+        "attack",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "etrait:head-of-impington",
+    "source": "enemy-traits",
+    "name": "Head of Impington",
+    "text": "The head kills enemies instantly.",
+    "textHash": "2a128780e677",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFIMPINGTON"
+    },
+    "markup": "The head kills enemies instantly."
+  },
+  {
+    "id": "etrait:head-of-jotun",
+    "source": "enemy-traits",
+    "name": "Head of Jotun",
+    "text": "Immune to damage. Your best bet is to survive the onslaught until Jotun becomes bored and goes away.",
+    "textHash": "8d9b60dcab70",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFJOTUN"
+    },
+    "markup": "Immune to damage. Your best bet is to survive the onslaught until Jotun becomes bored and goes away."
+  },
+  {
+    "id": "etrait:head-of-loid",
+    "source": "enemy-traits",
+    "name": "Head of Loid",
+    "text": "The head grants Current health and resurrects Loid's body parts.",
+    "textHash": "7cc2cf33ffed",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFLOID"
+    },
+    "markup": "The head grants Current {STAT_health} and resurrects Loid's body parts.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:head-of-lost-construct",
+    "source": "enemy-traits",
+    "name": "Head of Lost Construct",
+    "text": "The head increases the defense of all the body parts. It also deals damage to enemies based on its stats gained.",
+    "textHash": "566c30c12367",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFLOSTCONSTRUCT"
+    },
+    "markup": "The head increases the {STAT_defense} of all the body parts. It also deals damage to enemies based on its stats gained.",
+    "refs": {
+      "stats": [
+        "defense"
+      ]
+    }
+  },
+  {
+    "id": "etrait:head-of-mindwurm",
+    "source": "enemy-traits",
+    "name": "Head of Mindwurm",
+    "text": "The head attacks enemies.",
+    "textHash": "9c3330726be1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFMINDWURM"
+    },
+    "markup": "The head {ACTION_attacks} enemies.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:head-of-nebodar",
+    "source": "enemy-traits",
+    "name": "Head of Nebodar",
+    "text": "The head ensures that enemies always have Burning, and it increases the potency of this debuff. In addition, enemies cannot circumvent damage from Burning.",
+    "textHash": "cbd01f6a9e38",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFNEBODAR"
+    },
+    "markup": "The head ensures that enemies always have {CONDNAME_DEBUFF_BURNED}, and it increases the potency of this debuff. In addition, enemies cannot circumvent damage from {CONDNAME_DEBUFF_BURNED}.",
+    "refs": {
+      "statuses": [
+        "Burning"
+      ],
+      "debuffs": [
+        "Burning"
+      ]
+    }
+  },
+  {
+    "id": "etrait:head-of-the-ancestor",
+    "source": "enemy-traits",
+    "name": "Head of The Ancestor",
+    "text": "The head kills enemies who aren't defending.",
+    "textHash": "18d7d16ede33",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEADOFTHEANCESTOR"
+    },
+    "markup": "The head kills enemies who aren't {ACTION_defending}.",
+    "refs": {
+      "actions": [
+        "defending"
+      ]
+    }
+  },
+  {
+    "id": "etrait:heart-of-caliban",
+    "source": "enemy-traits",
+    "name": "Heart of Caliban",
+    "text": "The heart defends itself. It can only be damaged after the other body parts have been weakened.",
+    "textHash": "9ca6e1a2bd18",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEARTOFCALIBAN"
+    },
+    "markup": "The heart {ACTION_defends} itself. It can only be damaged after the other body parts have been weakened.",
+    "refs": {
+      "actions": [
+        "defends"
+      ]
+    }
+  },
+  {
+    "id": "etrait:heart-of-misery",
+    "source": "enemy-traits",
+    "name": "Heart of Misery",
+    "text": "After your creatures cast a spell, they recover 15% health.",
+    "textHash": "6fb46647a8cb",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEARTOFMISERY"
+    },
+    "markup": "After your creatures {ACTION_cast} a spell, they recover 15% {STAT_health}.",
+    "refs": {
+      "actions": [
+        "cast"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hearty",
+    "source": "enemy-traits",
+    "name": "Hearty",
+    "text": "This creature has 1000% more health. In addition, each time this creature takes damage, it permanently gains 5% damage reduction for the rest of battle with a maximum of 95%.",
+    "textHash": "148de27834cd",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEARTY"
+    },
+    "markup": "This creature has 1000% more {STAT_health}. In addition, each time this creature takes damage, it permanently gains 5% damage reduction for the rest of battle with a maximum of 95%.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:heaven-s-heaviest",
+    "source": "enemy-traits",
+    "name": "Heaven's Heaviest",
+    "text": "Your creatures' Mace artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "e76cf26740a1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEAVEN'SHEAVIEST"
+    },
+    "markup": "Your creatures' Mace artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:hebron-s-artifice",
+    "source": "enemy-traits",
+    "name": "Hebron's Artifice",
+    "text": "After this creature is attacked, it afflicts the enemy with Bomb.",
+    "textHash": "757d5f5abbe5",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEBRON'SARTIFICE"
+    },
+    "markup": "After this creature is {ACTION_attacked}, it afflicts the enemy with {CONDNAME_DEBUFF_BOMB}.",
+    "refs": {
+      "actions": [
+        "attacked"
+      ],
+      "statuses": [
+        "Bomb"
+      ],
+      "debuffs": [
+        "Bomb"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hebron-s-deceit",
+    "source": "enemy-traits",
+    "name": "Hebron's Deceit",
+    "text": "At the start of battle, this creature afflicts 3 random enemies with Bomb.",
+    "textHash": "e386a3fb4496",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEBRON'SDECEIT"
+    },
+    "markup": "At the start of battle, this creature afflicts 3 random enemies with {CONDNAME_DEBUFF_BOMB}.",
+    "refs": {
+      "statuses": [
+        "Bomb"
+      ],
+      "debuffs": [
+        "Bomb"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hebron-s-hypocrisy",
+    "source": "enemy-traits",
+    "name": "Hebron's Hypocrisy",
+    "text": "After this creature attacks, the target's Bomb is detonated.",
+    "textHash": "6196d87f9844",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEBRON'SHYPOCRISY"
+    },
+    "markup": "After this creature {ACTION_attacks}, the target's {CONDNAME_DEBUFF_BOMB} is detonated.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ],
+      "statuses": [
+        "Bomb"
+      ],
+      "debuffs": [
+        "Bomb"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hebron-s-trickery",
+    "source": "enemy-traits",
+    "name": "Hebron's Trickery",
+    "text": "After an enemy manually casts a spell, this creature afflicts it with Bomb.",
+    "textHash": "c4fa7b0f055e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HEBRON'STRICKERY"
+    },
+    "markup": "After an enemy manually {ACTION_casts} a spell, this creature afflicts it with {CONDNAME_DEBUFF_BOMB}.",
+    "refs": {
+      "actions": [
+        "casts"
+      ],
+      "statuses": [
+        "Bomb"
+      ],
+      "debuffs": [
+        "Bomb"
+      ]
+    }
+  },
+  {
+    "id": "etrait:hornet-s-embrace",
+    "source": "enemy-traits",
+    "name": "Hornet's Embrace",
+    "text": "Your creatures' Sword artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "dfc1961deeda",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HORNET'SEMBRACE"
+    },
+    "markup": "Your creatures' Sword artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:howling-bellows",
+    "source": "enemy-traits",
+    "name": "Howling Bellows",
+    "text": "Your creatures' Helmet artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "8ee059039ec2",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "HOWLINGBELLOWS"
+    },
+    "markup": "Your creatures' Helmet artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:illusory-veil",
+    "source": "enemy-traits",
+    "name": "Illusory Veil",
+    "text": "After an enemy attacks, your creatures attack. After an enemy casts a spell, your creatures cast that spell.",
+    "textHash": "f75849814c0b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ILLUSORYVEIL"
+    },
+    "markup": "After an enemy {ACTION_attacks}, your creatures {ACTION_attack}. After an enemy {ACTION_casts} a spell, your creatures {ACTION_cast} that spell.",
+    "refs": {
+      "actions": [
+        "attack",
+        "attacks",
+        "cast",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:immortality",
+    "source": "enemy-traits",
+    "name": "IMMORTALITY",
+    "text": "This creature is immune to damage and debuffs, except from that of Vertraag.",
+    "textHash": "163e7d966b28",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "IMMORTALITY"
+    },
+    "markup": "This creature is immune to damage and debuffs, except from that of {GODTI_VOID}.",
+    "refs": {
+      "other": [
+        "Vertraag"
+      ]
+    }
+  },
+  {
+    "id": "etrait:inherit-the-earth-1",
+    "source": "enemy-traits",
+    "name": "Inherit the Earth (1)",
+    "text": "All creatures always have Scorned. This debuff switches back and forth with Silenced at the start of this creature's turn.",
+    "textHash": "903555b27b46",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "INHERITTHEEARTH1",
+      "variant": 1
+    },
+    "markup": "All creatures always have {CONDNAME_DEBUFF_SCORN}. This debuff switches back and forth with {CONDNAME_DEBUFF_SILENCE} at the start of this creature's turn.",
+    "refs": {
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ]
+    }
+  },
+  {
+    "id": "etrait:inherit-the-earth-2",
+    "source": "enemy-traits",
+    "name": "Inherit the Earth (2)",
+    "text": "Enemies always have Scorned. This debuff switches back and forth with Silenced at the start of this creature's turn.",
+    "textHash": "2a2ad11a7f5e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "INHERITTHEEARTH2",
+      "variant": 2
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_SCORN}. This debuff switches back and forth with {CONDNAME_DEBUFF_SILENCE} at the start of this creature's turn.",
+    "refs": {
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ]
+    }
+  },
+  {
+    "id": "etrait:inherit-the-earth-3",
+    "source": "enemy-traits",
+    "name": "Inherit the Earth (3)",
+    "text": "Enemies always have Scorned. This debuff switches back and forth with Silenced at the start of this creature's turn. Enemies can only attack and cast spells 1 time per turn.",
+    "textHash": "10d6b1f3e0f0",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "INHERITTHEEARTH3",
+      "variant": 3
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_SCORN}. This debuff switches back and forth with {CONDNAME_DEBUFF_SILENCE} at the start of this creature's turn. Enemies can only {ACTION_attack} and {ACTION_cast} spells 1 time per turn.",
+    "refs": {
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ],
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:inner-demons",
+    "source": "enemy-traits",
+    "name": "Inner Demons",
+    "text": "It is time to fight off your impending corruption by facing your inner demons.",
+    "textHash": "b1814ade75aa",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "INNERDEMONS"
+    },
+    "markup": "It is time to fight off your impending corruption by facing your inner demons."
+  },
+  {
+    "id": "etrait:insomnia",
+    "source": "enemy-traits",
+    "name": "Insomnia",
+    "text": "Enemies with Sleeping take damage at the start of their turn equal to 75% of their intelligence. This trait does not stack.",
+    "textHash": "dd20d5f54a65",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "INSOMNIA"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_SLEEP} take damage at the start of their turn equal to 75% of their {STAT_intelligence}. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Sleeping"
+      ],
+      "debuffs": [
+        "Sleeping"
+      ],
+      "stats": [
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "etrait:itherian-unity",
+    "source": "enemy-traits",
+    "name": "Itherian Unity",
+    "text": "Your creatures have 5% more attack, intelligence, defense, and speed for each Itherian creature fighting on your side. This trait does not stack.",
+    "textHash": "7a4be66cfbd1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ITHERIANUNITY"
+    },
+    "markup": "Your creatures have 5% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each Itherian creature fighting on your side. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "attack",
+        "defense",
+        "intelligence",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "etrait:leap-of-faith",
+    "source": "enemy-traits",
+    "name": "Leap of Faith",
+    "text": "This creature's attacks deal additional damage equal to 50% of all the healing the target has received in the current battle.",
+    "textHash": "aa9ad93342a6",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LEAPOFFAITH"
+    },
+    "markup": "This creature's {ACTION_attacks} deal additional damage equal to 50% of all the healing the target has received in the current battle.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:lifeblood-1",
+    "source": "enemy-traits",
+    "name": "Lifeblood (1)",
+    "text": "This creature has additional stats equal to 25% of your other creatures' stats.",
+    "textHash": "57897b614e4b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LIFEBLOOD",
+      "variant": 1
+    },
+    "markup": "This creature has additional stats equal to 25% of your other creatures' stats."
+  },
+  {
+    "id": "etrait:lifeblood-2",
+    "source": "enemy-traits",
+    "name": "Lifeblood (2)",
+    "text": "This creature has additional stats equal to 50% of your other creatures' stats.",
+    "textHash": "d280a2d5bca7",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LIFEBLOOD1",
+      "variant": 2
+    },
+    "markup": "This creature has additional stats equal to 50% of your other creatures' stats."
+  },
+  {
+    "id": "etrait:lifeblood-3",
+    "source": "enemy-traits",
+    "name": "Lifeblood (3)",
+    "text": "This creature has additional stats equal to 50% of all other creatures' stats.",
+    "textHash": "b0260a518bb0",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LIFEBLOOD2",
+      "variant": 3
+    },
+    "markup": "This creature has additional stats equal to 50% of all other creatures' stats."
+  },
+  {
+    "id": "etrait:lifeblood-4",
+    "source": "enemy-traits",
+    "name": "Lifeblood (4)",
+    "text": "This creature has additional stats equal to 100% of all other creatures' stats.",
+    "textHash": "fe87ae954c0b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LIFEBLOOD3",
+      "variant": 4
+    },
+    "markup": "This creature has additional stats equal to 100% of all other creatures' stats."
+  },
+  {
+    "id": "etrait:lightbringer",
+    "source": "enemy-traits",
+    "name": "Lightbringer",
+    "text": "At the start of battle, your creatures gain Barrier, Shelled, Rebirth, and Invisible. Your creatures always have all other buffs.",
+    "textHash": "23f6c74a3230",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LIGHTBRINGER"
+    },
+    "markup": "At the start of battle, your creatures gain {CONDNAME_BUFF_BARRIER}, {CONDNAME_BUFF_SHELL}, {CONDNAME_BUFF_REBIRTH}, and {CONDNAME_BUFF_INVISIBLE}. Your creatures always have all other buffs.",
+    "refs": {
+      "statuses": [
+        "Barrier",
+        "Invisible",
+        "Rebirth",
+        "Shelled"
+      ],
+      "buffs": [
+        "Barrier",
+        "Invisible",
+        "Rebirth",
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:limitless-knowledge",
+    "source": "enemy-traits",
+    "name": "Limitless Knowledge",
+    "text": "Your creatures' Staff artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "96a062b3c14e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LIMITLESSKNOWLEDGE"
+    },
+    "markup": "Your creatures' Staff artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:limitless-lunacy",
+    "source": "enemy-traits",
+    "name": "Limitless Lunacy",
+    "text": "Enemies with Cursed take damage at the start of their turn equal to 20% of their attack. This trait does not stack.",
+    "textHash": "ee7ed9d47e87",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LIMITLESSLUNACY"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_CURSED} take damage at the start of their turn equal to 20% of their {STAT_attack}. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Cursed"
+      ],
+      "debuffs": [
+        "Cursed"
+      ],
+      "stats": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:loif-en-t-fair",
+    "source": "enemy-traits",
+    "name": "Loif En't Fair",
+    "text": "Your creatures are immune to damage. All your enemies can do is try to survive the onslaught until your creatures are too tired to fight anymore.",
+    "textHash": "4a7f8c7e7ce9",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LOIFEN'TFAIR"
+    },
+    "markup": "Your creatures are immune to damage. All your enemies can do is try to survive the onslaught until your creatures are too tired to fight anymore."
+  },
+  {
+    "id": "etrait:lotus-courage",
+    "source": "enemy-traits",
+    "name": "Lotus Courage",
+    "text": "The potency of your creatures' Mending buffs increases by 50% each turn they have been active. This trait does not stack.",
+    "textHash": "52209b9ca93e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "LOTUSCOURAGE"
+    },
+    "markup": "The potency of your creatures' {CONDNAME_BUFF_MEND} buffs increases by 50% each turn they have been active. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Mending"
+      ],
+      "buffs": [
+        "Mending"
+      ]
+    }
+  },
+  {
+    "id": "etrait:master-of-elementasaurs",
+    "source": "enemy-traits",
+    "name": "Master of Elementasaurs",
+    "text": "If all the creatures in your party are Elementasaurs, they are resistant to debuffs and at the start of battle, they share the debuffs referenced in their traits with each other. This trait does not stack.",
+    "textHash": "ebb89e97db70",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MASTER_ELEMENTASAUR"
+    },
+    "markup": "If all the creatures in your party are {RACE_Elementasaur}s, they are resistant to debuffs and at the start of battle, they share the debuffs referenced in their traits with each other. This trait does not stack.",
+    "refs": {
+      "families": [
+        "Elementasaur"
+      ]
+    }
+  },
+  {
+    "id": "etrait:master-of-marionettes",
+    "source": "enemy-traits",
+    "name": "Master of Marionettes",
+    "text": "After your Marionette creatures perform an action, the enemy in their corresponding position performs the same action and is afflicted with a random debuff. This trait does not stack.",
+    "textHash": "03e8434a2d79",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MASTER_MARIONETTE"
+    },
+    "markup": "After your {RACE_Marionette} creatures perform an action, the enemy in their corresponding position performs the same action and is afflicted with a random debuff. This trait does not stack.",
+    "refs": {
+      "families": [
+        "Marionette"
+      ]
+    }
+  },
+  {
+    "id": "etrait:master-of-mirelings",
+    "source": "enemy-traits",
+    "name": "Master of Mirelings",
+    "text": "Enemies have 5% less stats (other than health) for each unique class among your creatures. If all 5 classes are present, your Mireling traits act as if there is 1 additional class. This trait does not stack.",
+    "textHash": "aa1ef7b0f9fc",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MASTER_MIRELING"
+    },
+    "markup": "Enemies have 5% less stats (other than {STAT_health}) for each unique class among your creatures. If all 5 classes are present, your {RACE_Mireling} traits act as if there is 1 additional class. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "health"
+      ],
+      "families": [
+        "Mireling"
+      ]
+    }
+  },
+  {
+    "id": "etrait:maximum-hydration",
+    "source": "enemy-traits",
+    "name": "Maximum Hydration",
+    "text": "At the start of battle, this creature gains 10 random traits.",
+    "textHash": "169add4b0a07",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MAXIMUMHYDRATION"
+    },
+    "markup": "At the start of battle, this creature gains 10 random traits."
+  },
+  {
+    "id": "etrait:memories-in-tears",
+    "source": "enemy-traits",
+    "name": "Memories in Tears",
+    "text": "Your creatures' Ring artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "43da7a011b5f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MEMORIESINTEARS"
+    },
+    "markup": "Your creatures' Ring artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:menagerie",
+    "source": "enemy-traits",
+    "name": "Menagerie",
+    "text": "Your creatures always have an army of minions. At the start of your creatures' turns, they cast Crucifixion on each enemy.",
+    "textHash": "3d144a13f793",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MENAGERIE"
+    },
+    "markup": "Your creatures always have an army of minions. At the start of your creatures' turns, they {ACTION_cast} Crucifixion on each enemy.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:mindbane",
+    "source": "enemy-traits",
+    "name": "Mindbane",
+    "text": "After your creatures with Leeching attack, they steal 15% of the target's intelligence. This trait does not stack",
+    "textHash": "3250a8e91981",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MINDBANE"
+    },
+    "markup": "After your creatures with {CONDNAME_BUFF_LEECH} {ACTION_attack}, they steal 15% of the target's {STAT_intelligence}. This trait does not stack",
+    "refs": {
+      "statuses": [
+        "Leeching"
+      ],
+      "buffs": [
+        "Leeching"
+      ],
+      "actions": [
+        "attack"
+      ],
+      "stats": [
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "etrait:mirror-blades-1",
+    "source": "enemy-traits",
+    "name": "Mirror Blades (1)",
+    "text": "After this creature takes damage from an enemy's attack or spell, all other creatures with this trait attack the enemy who afflicted that damage.",
+    "textHash": "659067585111",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MIRRORBLADES1",
+      "variant": 1
+    },
+    "markup": "After this creature takes damage from an enemy's attack or spell, all other creatures with this trait {ACTION_attack} the enemy who afflicted that damage.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:mirror-blades-2",
+    "source": "enemy-traits",
+    "name": "Mirror Blades (2)",
+    "text": "After this creature takes damage from an enemy's attack or spell, all other creatures with this trait attack the enemy who afflicted that damage. This attack always deals critical damage and cannot be dodged.",
+    "textHash": "e0bd367858a1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MIRRORBLADES2",
+      "variant": 2
+    },
+    "markup": "After this creature takes damage from an enemy's attack or spell, all other creatures with this trait {ACTION_attack} the enemy who afflicted that damage. This attack always deals critical damage and cannot be dodged.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:mirror-blades-3",
+    "source": "enemy-traits",
+    "name": "Mirror Blades (3)",
+    "text": "After this creature takes damage from an enemy's attack or spell, all other creatures with this trait attack the enemy who afflicted that damage 3 times. These attacks always deal critical damage and cannot be dodged.",
+    "textHash": "77d7d9649d09",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MIRRORBLADES3",
+      "variant": 3
+    },
+    "markup": "After this creature takes damage from an enemy's attack or spell, all other creatures with this trait {ACTION_attack} the enemy who afflicted that damage 3 times. These attacks always deal critical damage and cannot be dodged.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:modern-misery",
+    "source": "enemy-traits",
+    "name": "Modern Misery",
+    "text": "After your creatures attack, they deal 100% of this damage to all other enemies. Your creatures attack 2 additional times.",
+    "textHash": "cea8e45b7fd7",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MODERNMISERY"
+    },
+    "markup": "After your creatures {ACTION_attack}, they deal 100% of this damage to all other enemies. Your creatures {ACTION_attack} 2 additional times.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:multiply",
+    "source": "enemy-traits",
+    "name": "Multiply",
+    "text": "After this creature is damaged by an attack or spell, it summons a copy of itself.",
+    "textHash": "8c8322cfd84c",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "MULTIPLY"
+    },
+    "markup": "After this creature is damaged by an attack or spell, it summons a copy of itself."
+  },
+  {
+    "id": "etrait:nasty-surprise",
+    "source": "enemy-traits",
+    "name": "Nasty Surprise!",
+    "text": "Enemies start the battle with 3 random debuffs, and always start at the bottom of the Timeline.",
+    "textHash": "c5cbe098311c",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "NASTYSURPRISE!"
+    },
+    "markup": "Enemies start the battle with 3 random debuffs, and always start at the bottom of the {TIMELINE}.",
+    "refs": {
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:nether-orb",
+    "source": "enemy-traits",
+    "name": "Nether Orb",
+    "text": "This Nether Orb has taken on a life of its own!",
+    "textHash": "7ee8e5bfac67",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "NETHERORB"
+    },
+    "markup": "This Nether Orb has taken on a life of its own!"
+  },
+  {
+    "id": "etrait:night-terrors-1",
+    "source": "enemy-traits",
+    "name": "Night Terrors (1)",
+    "text": "After your creatures take damage, they become Invisible and gain Shelled.",
+    "textHash": "37445cf08049",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "NIGHTTERRORS1",
+      "variant": 1
+    },
+    "markup": "After your creatures take damage, they become {CONDNAME_BUFF_INVISIBLE} and gain {CONDNAME_BUFF_SHELL}.",
+    "refs": {
+      "statuses": [
+        "Invisible",
+        "Shelled"
+      ],
+      "buffs": [
+        "Invisible",
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:night-terrors-2",
+    "source": "enemy-traits",
+    "name": "Night Terrors (2)",
+    "text": "After your creatures take damage, they become Invisible and gain Shelled, Mending, and Repelling.",
+    "textHash": "404f52062785",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "NIGHTTERRORS2",
+      "variant": 2
+    },
+    "markup": "After your creatures take damage, they become {CONDNAME_BUFF_INVISIBLE} and gain {CONDNAME_BUFF_SHELL}, {CONDNAME_BUFF_MEND}, and {CONDNAME_BUFF_REPELLING}.",
+    "refs": {
+      "statuses": [
+        "Invisible",
+        "Mending",
+        "Repelling",
+        "Shelled"
+      ],
+      "buffs": [
+        "Invisible",
+        "Mending",
+        "Repelling",
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:night-terrors-3",
+    "source": "enemy-traits",
+    "name": "Night Terrors (3)",
+    "text": "After your creatures take damage, they become Invisible and gain Shelled, Mending, Repelling, and a Barrier that absorbs damage equal to 30% of their defense.",
+    "textHash": "dd3fc25bbcca",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "NIGHTTERRORS3",
+      "variant": 3
+    },
+    "markup": "After your creatures take damage, they become {CONDNAME_BUFF_INVISIBLE} and gain {CONDNAME_BUFF_SHELL}, {CONDNAME_BUFF_MEND}, {CONDNAME_BUFF_REPELLING}, and a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 30% of their {STAT_defense}.",
+    "refs": {
+      "statuses": [
+        "Barrier",
+        "Invisible",
+        "Mending",
+        "Repelling",
+        "Shelled"
+      ],
+      "buffs": [
+        "Barrier",
+        "Invisible",
+        "Mending",
+        "Repelling",
+        "Shelled"
+      ],
+      "stats": [
+        "defense"
+      ]
+    }
+  },
+  {
+    "id": "etrait:nighttaker",
+    "source": "enemy-traits",
+    "name": "Nighttaker",
+    "text": "Your creatures' attacks afflict their targets with a random debuff. This trait does not stack.",
+    "textHash": "dda2aba2d989",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "NIGHTTAKER"
+    },
+    "markup": "Your creatures' {ACTION_attacks} afflict their targets with a random debuff. This trait does not stack.",
+    "refs": {
+      "actions": [
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:one-track-mind-1",
+    "source": "enemy-traits",
+    "name": "One-Track Mind (1)",
+    "text": "After an enemy takes an action, they must take that same action for the rest of the battle.",
+    "textHash": "771bd7ec3052",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ONE-TRACKMIND",
+      "variant": 1
+    },
+    "markup": "After an enemy takes an action, they must take that same action for the rest of the battle."
+  },
+  {
+    "id": "etrait:one-track-mind-2",
+    "source": "enemy-traits",
+    "name": "One-Track Mind (2)",
+    "text": "After an enemy takes an action, they must take that same action for the rest of the battle.",
+    "textHash": "771bd7ec3052",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ONE-TRACKMIND1",
+      "variant": 2
+    },
+    "markup": "After an enemy takes an action, they must take that same action for the rest of the battle."
+  },
+  {
+    "id": "etrait:one-track-mind-3",
+    "source": "enemy-traits",
+    "name": "One-Track Mind (3)",
+    "text": "After an enemy takes an action, they must take that same action for the rest of the battle. Enemies can attack a maximum of 1 time per turn.",
+    "textHash": "e057504765fb",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ONE-TRACKMIND2",
+      "variant": 3
+    },
+    "markup": "After an enemy takes an action, they must take that same action for the rest of the battle. Enemies can {ACTION_attack} a maximum of 1 time per turn.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:one-track-mind-4",
+    "source": "enemy-traits",
+    "name": "One-Track Mind (4)",
+    "text": "After an enemy takes an action, they must take that same action for the rest of the battle. Enemies can attack and cast a maximum of 1 time per turn.",
+    "textHash": "dedea5eb9f7d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ONE-TRACKMIND3",
+      "variant": 4
+    },
+    "markup": "After an enemy takes an action, they must take that same action for the rest of the battle. Enemies can {ACTION_attack} and {ACTION_cast} a maximum of 1 time per turn.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:orbs-of-caliban",
+    "source": "enemy-traits",
+    "name": "Orbs of Caliban",
+    "text": "The orbs cast powerful spells.",
+    "textHash": "bf66649fc4be",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ORBSOFCALIBAN"
+    },
+    "markup": "The orbs {ACTION_cast} powerful spells.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:orbs-of-mindwurm",
+    "source": "enemy-traits",
+    "name": "Orbs of Mindwurm",
+    "text": "These orbs cast spells on enemies.",
+    "textHash": "54ff05ccd3fc",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ORBSOFMINDWURM"
+    },
+    "markup": "These orbs {ACTION_cast} spells on enemies.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:overwhelming-odds",
+    "source": "enemy-traits",
+    "name": "Overwhelming Odds",
+    "text": "When an enemy with Weak deals damage, they have a 30% chance to deal 0 damage. This trait does not stack.",
+    "textHash": "5f6efc75fadc",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "OVERWHELMINGODDS"
+    },
+    "markup": "When an enemy with {CONDNAME_DEBUFF_WEAK} deals damage, they have a 30% chance to deal 0 damage. This trait does not stack.",
+    "refs": {
+      "statuses": [
+        "Weak"
+      ],
+      "debuffs": [
+        "Weak"
+      ]
+    }
+  },
+  {
+    "id": "etrait:pact-of-the-gods",
+    "source": "enemy-traits",
+    "name": "Pact of the Gods",
+    "text": "Your Avatar's Mana cannot fall below 50%.",
+    "textHash": "1be70d2b3cd4",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PACTOFTHEGODS"
+    },
+    "markup": "Your Avatar's Mana cannot fall below 50%."
+  },
+  {
+    "id": "etrait:pandemonium-unfairness",
+    "source": "enemy-traits",
+    "name": "Pandemonium Unfairness",
+    "text": "At the end of this creature's turn, it casts all of its permanent Spell Gems, then replaces them with new ones. This creature cannot die unless both the Pandemonium King and Queen are at 1 health.",
+    "textHash": "b5761dd60df3",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PANDEMONIUMUNFAIRNESS"
+    },
+    "markup": "At the end of this creature's turn, it {ACTION_casts} all of its permanent Spell Gems, then replaces them with new ones. This creature cannot die unless both the Pandemonium King and Queen are at 1 {STAT_health}.",
+    "refs": {
+      "actions": [
+        "casts"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:panic-visions",
+    "source": "enemy-traits",
+    "name": "Panic Visions",
+    "text": "Enemies with Snared cannot gain buffs.",
+    "textHash": "114fa5882540",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PANICVISIONS"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_SNARED} cannot gain buffs.",
+    "refs": {
+      "statuses": [
+        "Snared"
+      ],
+      "debuffs": [
+        "Snared"
+      ]
+    }
+  },
+  {
+    "id": "etrait:peace-be-upon-you-1",
+    "source": "enemy-traits",
+    "name": "Peace Be Upon You (1)",
+    "text": "Your creatures are immune to damage that doesn't come from attacks or spells. After your creatures are damaged, the enemy takes damage equal to 30% of the damage dealt. Your creatures always defend. This trait persists even after this creature is dead.",
+    "textHash": "1bfa67196257",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PEACEBEUPONYOU",
+      "variant": 1
+    },
+    "markup": "Your creatures are immune to damage that doesn't come from attacks or spells. After your creatures are damaged, the enemy takes damage equal to 30% of the damage dealt. Your creatures always {ACTION_defend}. This trait persists even after this creature is dead.",
+    "refs": {
+      "actions": [
+        "defend"
+      ]
+    }
+  },
+  {
+    "id": "etrait:peace-be-upon-you-2",
+    "source": "enemy-traits",
+    "name": "Peace Be Upon You (2)",
+    "text": "Your creatures are immune to damage that doesn't come from attacks or spells. After your creatures are damaged, the enemy takes damage equal to 30% of the damage dealt. Your creatures always defend. This trait persists even after this creature is dead.",
+    "textHash": "1bfa67196257",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PEACEBEUPONYOU1",
+      "variant": 2
+    },
+    "markup": "Your creatures are immune to damage that doesn't come from attacks or spells. After your creatures are damaged, the enemy takes damage equal to 30% of the damage dealt. Your creatures always {ACTION_defend}. This trait persists even after this creature is dead.",
+    "refs": {
+      "actions": [
+        "defend"
+      ]
+    }
+  },
+  {
+    "id": "etrait:peace-be-upon-you-3",
+    "source": "enemy-traits",
+    "name": "Peace Be Upon You (3)",
+    "text": "Your creatures are immune to damage that doesn't come from attacks or spells. After your creatures are damaged, the enemy takes damage equal to 30% of the damage dealt. This trait persists even after this creature is dead.",
+    "textHash": "8b2313f6ce16",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PEACEBEUPONYOU2",
+      "variant": 3
+    },
+    "markup": "Your creatures are immune to damage that doesn't come from attacks or spells. After your creatures are damaged, the enemy takes damage equal to 30% of the damage dealt. This trait persists even after this creature is dead."
+  },
+  {
+    "id": "etrait:peace-be-upon-you-4",
+    "source": "enemy-traits",
+    "name": "Peace Be Upon You (4)",
+    "text": "Your creatures are immune to damage that doesn't come from attacks or spells. After your creatures are damaged, the enemy takes damage equal to 30% of the damage dealt. Your creatures always deal critical damage. This trait persists even after this creature is dead.",
+    "textHash": "f894b3d25149",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PEACEBEUPONYOU3",
+      "variant": 4
+    },
+    "markup": "Your creatures are immune to damage that doesn't come from attacks or spells. After your creatures are damaged, the enemy takes damage equal to 30% of the damage dealt. Your creatures always deal critical damage. This trait persists even after this creature is dead."
+  },
+  {
+    "id": "etrait:plaguewrath",
+    "source": "enemy-traits",
+    "name": "Plaguewrath",
+    "text": "After your creatures with Splashing afflict an enemy with a debuff, adjacent enemies are also affected by the debuff.",
+    "textHash": "3100b873bdc0",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PLAGUEWRATH"
+    },
+    "markup": "After your creatures with {CONDNAME_BUFF_SPLASH} afflict an enemy with a debuff, adjacent enemies are also affected by the debuff.",
+    "refs": {
+      "statuses": [
+        "Splashing"
+      ],
+      "buffs": [
+        "Splashing"
+      ]
+    }
+  },
+  {
+    "id": "etrait:poison-bath",
+    "source": "enemy-traits",
+    "name": "Poison Bath",
+    "text": "Enemies always have Poisoned. At the start of this creature's turn, the potency of the enemies' Poisoned debuff increases by 100%.",
+    "textHash": "8994101080a8",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "POISONBATH"
+    },
+    "markup": "Enemies always have {CONDNAME_DEBUFF_POISON}. At the start of this creature's turn, the potency of the enemies' {CONDNAME_DEBUFF_POISON} debuff increases by 100%.",
+    "refs": {
+      "statuses": [
+        "Poisoned"
+      ],
+      "debuffs": [
+        "Poisoned"
+      ]
+    }
+  },
+  {
+    "id": "etrait:power-incarnate",
+    "source": "enemy-traits",
+    "name": "Power Incarnate",
+    "text": "At the start of your creatures' turns, they gain stats equal to 30% of each enemy's highest stat.",
+    "textHash": "e200a4c0caaa",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "POWERINCARNATE"
+    },
+    "markup": "At the start of your creatures' turns, they gain stats equal to 30% of each enemy's highest stat."
+  },
+  {
+    "id": "etrait:prestidigitation",
+    "source": "enemy-traits",
+    "name": "Prestidigitation",
+    "text": "At the start of battle and after your creatures take damage, they gain Invisible and Shelled. Enemies' Spell Gems consume all their charges after they're cast.",
+    "textHash": "35e73a6bc034",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PRESTIDIGITATION"
+    },
+    "markup": "At the start of battle and after your creatures take damage, they gain {CONDNAME_BUFF_INVISIBLE} and {CONDNAME_BUFF_SHELL}. Enemies' Spell Gems consume all their {STAT_charges} after they're {ACTION_cast}.",
+    "refs": {
+      "statuses": [
+        "Invisible",
+        "Shelled"
+      ],
+      "buffs": [
+        "Invisible",
+        "Shelled"
+      ],
+      "stats": [
+        "charges"
+      ],
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:protective-wing-1",
+    "source": "enemy-traits",
+    "name": "Protective Wing (1)",
+    "text": "At the start of battle and at the start of your creatures' turns, they gain a Barrier that absorbs damage equal to 100% of their Maximum health.",
+    "textHash": "05c5234b21ef",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PROTECTIVEWING",
+      "variant": 1
+    },
+    "markup": "At the start of battle and at the start of your creatures' turns, they gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of their Maximum {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Barrier"
+      ],
+      "buffs": [
+        "Barrier"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:protective-wing-2",
+    "source": "enemy-traits",
+    "name": "Protective Wing (2)",
+    "text": "At the start of battle and at the start of your creatures' turns, they gain a Barrier that absorbs damage equal to 100% of their Maximum health.",
+    "textHash": "05c5234b21ef",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PROTECTIVEWING1",
+      "variant": 2
+    },
+    "markup": "At the start of battle and at the start of your creatures' turns, they gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of their Maximum {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Barrier"
+      ],
+      "buffs": [
+        "Barrier"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:protective-wing-3",
+    "source": "enemy-traits",
+    "name": "Protective Wing (3)",
+    "text": "At the start of battle and at the start of your creatures' turns, they gain a Barrier that absorbs damage equal to 100% of their Maximum health. After your creatures' Barrier buffs are destroyed, they gain Shelled.",
+    "textHash": "c059343c2ddc",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PROTECTIVEWING2",
+      "variant": 3
+    },
+    "markup": "At the start of battle and at the start of your creatures' turns, they gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of their Maximum {STAT_health}. After your creatures' {CONDNAME_BUFF_BARRIER} buffs are destroyed, they gain {CONDNAME_BUFF_SHELL}.",
+    "refs": {
+      "statuses": [
+        "Barrier",
+        "Shelled"
+      ],
+      "buffs": [
+        "Barrier",
+        "Shelled"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:protective-wing-4",
+    "source": "enemy-traits",
+    "name": "Protective Wing (4)",
+    "text": "At the start of battle and at the start of your creatures' turns, they gain a Barrier that absorbs damage equal to 100% of their Maximum health. After your creatures' Barrier buffs are destroyed, they gain Shelled. Your creatures always have Mending and Leeching.",
+    "textHash": "ab0a4a39425d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PROTECTIVEWING3",
+      "variant": 4
+    },
+    "markup": "At the start of battle and at the start of your creatures' turns, they gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of their Maximum {STAT_health}. After your creatures' {CONDNAME_BUFF_BARRIER} buffs are destroyed, they gain {CONDNAME_BUFF_SHELL}. Your creatures always have {CONDNAME_BUFF_MEND} and {CONDNAME_BUFF_LEECH}.",
+    "refs": {
+      "statuses": [
+        "Barrier",
+        "Leeching",
+        "Mending",
+        "Shelled"
+      ],
+      "buffs": [
+        "Barrier",
+        "Leeching",
+        "Mending",
+        "Shelled"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:pumpkin-pie-haircutted-freak-1",
+    "source": "enemy-traits",
+    "name": "Pumpkin Pie Haircutted Freak (1)",
+    "text": "After an enemy attacks, they are afflicted with Scorned. After an enemy casts a spell, they are afflicted with Silenced. After this creature afflicts an enemy with either of these debuffs, it gains 5% stats.",
+    "textHash": "c7d9610a77d9",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PUMPKINPIEHAIRCUTTEDFREAK",
+      "variant": 1
+    },
+    "markup": "After an enemy {ACTION_attacks}, they are afflicted with {CONDNAME_DEBUFF_SCORN}. After an enemy {ACTION_casts} a spell, they are afflicted with {CONDNAME_DEBUFF_SILENCE}. After this creature afflicts an enemy with either of these debuffs, it gains 5% stats.",
+    "refs": {
+      "actions": [
+        "attacks",
+        "casts"
+      ],
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ]
+    }
+  },
+  {
+    "id": "etrait:pumpkin-pie-haircutted-freak-2",
+    "source": "enemy-traits",
+    "name": "Pumpkin Pie Haircutted Freak (2)",
+    "text": "After an enemy attacks, they are afflicted with Scorned. After an enemy casts a spell, they are afflicted with Silenced.",
+    "textHash": "8dd28405c4a6",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PUMPKINPIEHAIRCUTTEDFREAK1",
+      "variant": 2
+    },
+    "markup": "After an enemy {ACTION_attacks}, they are afflicted with {CONDNAME_DEBUFF_SCORN}. After an enemy {ACTION_casts} a spell, they are afflicted with {CONDNAME_DEBUFF_SILENCE}.",
+    "refs": {
+      "actions": [
+        "attacks",
+        "casts"
+      ],
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ]
+    }
+  },
+  {
+    "id": "etrait:pumpkin-pie-haircutted-freak-3",
+    "source": "enemy-traits",
+    "name": "Pumpkin Pie Haircutted Freak (3)",
+    "text": "After an enemy attacks, they are afflicted with Scorned and lose 35% attack. After an enemy casts a spell, they are afflicted with Silenced and lose 35% intelligence.",
+    "textHash": "2eae8b1f3338",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PUMPKINPIEHAIRCUTTEDFREAK2",
+      "variant": 3
+    },
+    "markup": "After an enemy {ACTION_attacks}, they are afflicted with {CONDNAME_DEBUFF_SCORN} and lose 35% {STAT_attack}. After an enemy {ACTION_casts} a spell, they are afflicted with {CONDNAME_DEBUFF_SILENCE} and lose 35% {STAT_intelligence}.",
+    "refs": {
+      "actions": [
+        "attacks",
+        "casts"
+      ],
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ],
+      "stats": [
+        "attack",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "etrait:pumpkin-pie-haircutted-freak-4",
+    "source": "enemy-traits",
+    "name": "Pumpkin Pie Haircutted Freak (4)",
+    "text": "After an enemy attacks, they are afflicted with Scorned and lose 35% attack. After an enemy casts a spell, they are afflicted with Silenced and lose 35% intelligence. Enemies can have both Scorned and Silenced at the same time.",
+    "textHash": "88755fac3978",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "PUMPKINPIEHAIRCUTTEDFREAK3",
+      "variant": 4
+    },
+    "markup": "After an enemy {ACTION_attacks}, they are afflicted with {CONDNAME_DEBUFF_SCORN} and lose 35% {STAT_attack}. After an enemy {ACTION_casts} a spell, they are afflicted with {CONDNAME_DEBUFF_SILENCE} and lose 35% {STAT_intelligence}. Enemies can have both {CONDNAME_DEBUFF_SCORN} and {CONDNAME_DEBUFF_SILENCE} at the same time.",
+    "refs": {
+      "actions": [
+        "attacks",
+        "casts"
+      ],
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ],
+      "stats": [
+        "attack",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "etrait:questions-unanswered",
+    "source": "enemy-traits",
+    "name": "Questions Unanswered",
+    "text": "Enemies' Confused debuffs last forever.",
+    "textHash": "107feacd1438",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "QUESTIONSUNANSWERED"
+    },
+    "markup": "Enemies' {CONDNAME_DEBUFF_CONFUSED} debuffs last forever.",
+    "refs": {
+      "statuses": [
+        "Confused"
+      ],
+      "debuffs": [
+        "Confused"
+      ]
+    }
+  },
+  {
+    "id": "etrait:rainbow-shield-1",
+    "source": "enemy-traits",
+    "name": "Rainbow Shield (1)",
+    "text": "Your creatures only take damage from one class at a time. At the start of this creature's turn, the class changes.",
+    "textHash": "984a1c5f6b01",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RAINBOWSHIELD1",
+      "variant": 1
+    },
+    "markup": "Your creatures only take damage from one class at a time. At the start of this creature's turn, the class changes."
+  },
+  {
+    "id": "etrait:rainbow-shield-2",
+    "source": "enemy-traits",
+    "name": "Rainbow Shield (2)",
+    "text": "Your creatures only take damage from one class at a time and are immune to debuffs. At the start of this creature's turn, the class changes.",
+    "textHash": "bf995c18282e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RAINBOWSHIELD2",
+      "variant": 2
+    },
+    "markup": "Your creatures only take damage from one class at a time and are immune to debuffs. At the start of this creature's turn, the class changes."
+  },
+  {
+    "id": "etrait:rainbow-shield-3",
+    "source": "enemy-traits",
+    "name": "Rainbow Shield (3)",
+    "text": "Your creatures only take damage from one class at a time, are immune to debuffs, and are immune to indirect damage. At the start of this creature's turn, the class changes.",
+    "textHash": "3d6bf88b5832",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RAINBOWSHIELD3",
+      "variant": 3
+    },
+    "markup": "Your creatures only take damage from one class at a time, are immune to debuffs, and are immune to indirect damage. At the start of this creature's turn, the class changes."
+  },
+  {
+    "id": "etrait:ravenous-1",
+    "source": "enemy-traits",
+    "name": "Ravenous (1)",
+    "text": "After an enemy is killed, this creature gains 25% of their stats and recovers 35% health.",
+    "textHash": "0a77c968a223",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RAVENOUS",
+      "variant": 1
+    },
+    "markup": "After an enemy is killed, this creature gains 25% of their stats and recovers 35% {STAT_health}.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:ravenous-2",
+    "source": "enemy-traits",
+    "name": "Ravenous (2)",
+    "text": "After a creature is killed, this creature gains 50% of their stats.",
+    "textHash": "832cdf867ff1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RAVENOUS1",
+      "variant": 2
+    },
+    "markup": "After a creature is killed, this creature gains 50% of their stats."
+  },
+  {
+    "id": "etrait:ravenous-3",
+    "source": "enemy-traits",
+    "name": "Ravenous (3)",
+    "text": "After a creature is killed, this creature gains 50% of their stats. This creature is immune to damage while its allies are alive.",
+    "textHash": "e3e92e78c92d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RAVENOUS2",
+      "variant": 3
+    },
+    "markup": "After a creature is killed, this creature gains 50% of their stats. This creature is immune to damage while its allies are alive."
+  },
+  {
+    "id": "etrait:ravenous-4",
+    "source": "enemy-traits",
+    "name": "Ravenous (4)",
+    "text": "After a creature is killed, this creature gains 100% of their stats. This creature is immune to damage while its allies are alive.",
+    "textHash": "ec351172bc3b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RAVENOUS3",
+      "variant": 4
+    },
+    "markup": "After a creature is killed, this creature gains 100% of their stats. This creature is immune to damage while its allies are alive."
+  },
+  {
+    "id": "etrait:reap-destruction",
+    "source": "enemy-traits",
+    "name": "Reap Destruction",
+    "text": "This creature deals 5% more damage for each buff it has received in the current battle.",
+    "textHash": "3a1b3cfc31d1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "REAPDESTRUCTION"
+    },
+    "markup": "This creature deals 5% more damage for each buff it has received in the current battle."
+  },
+  {
+    "id": "etrait:reckoning",
+    "source": "enemy-traits",
+    "name": "Reckoning",
+    "text": "Enemies deal 100% less damage, but deal 1% more damage for each buff they have.",
+    "textHash": "153415c40310",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RECKONING"
+    },
+    "markup": "Enemies deal 100% less damage, but deal 1% more damage for each buff they have."
+  },
+  {
+    "id": "etrait:reflection",
+    "source": "enemy-traits",
+    "name": "Reflection",
+    "text": "When an enemy attacks or casts a spell on one of your creatures, would afflict them with a debuff, or would reduce their stats, they have a 50% chance to perform these actions on themselves instead.",
+    "textHash": "8f6d216069de",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "REFLECTION"
+    },
+    "markup": "When an enemy {ACTION_attacks} or {ACTION_casts} a spell on one of your creatures, would afflict them with a debuff, or would reduce their stats, they have a 50% chance to perform these actions on themselves instead.",
+    "refs": {
+      "actions": [
+        "attacks",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:rite-of-passage-1",
+    "source": "enemy-traits",
+    "name": "Rite of Passage (1)",
+    "text": "At the start of this creature's turn, it steals 5% attack, intelligence, defense, and speed from each enemy.",
+    "textHash": "0f307c5e678e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RITEOFPASSAGE1",
+      "variant": 1
+    },
+    "markup": "At the start of this creature's turn, it steals 5% {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} from each enemy.",
+    "refs": {
+      "stats": [
+        "attack",
+        "defense",
+        "intelligence",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "etrait:rite-of-passage-2",
+    "source": "enemy-traits",
+    "name": "Rite of Passage (2)",
+    "text": "At the start of this creature's turn, it steals 10% attack, intelligence, defense, and speed from each enemy. It shares 50% of these stats with its allies.",
+    "textHash": "37b65cb9510e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RITEOFPASSAGE2",
+      "variant": 2
+    },
+    "markup": "At the start of this creature's turn, it steals 10% {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} from each enemy. It shares 50% of these stats with its allies.",
+    "refs": {
+      "stats": [
+        "attack",
+        "defense",
+        "intelligence",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "etrait:rite-of-passage-3",
+    "source": "enemy-traits",
+    "name": "Rite of Passage (3)",
+    "text": "At the start of this creature's turn, it steals 20% attack, intelligence, defense, and speed from each enemy. It shares 50% of these stats with its allies.",
+    "textHash": "4530c53c9023",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RITEOFPASSAGE3",
+      "variant": 3
+    },
+    "markup": "At the start of this creature's turn, it steals 20% {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} from each enemy. It shares 50% of these stats with its allies.",
+    "refs": {
+      "stats": [
+        "attack",
+        "defense",
+        "intelligence",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "etrait:run-mother-er-run",
+    "source": "enemy-traits",
+    "name": "RUN MOTHER!@#$ER, RUN",
+    "text": "SAY HELLO TO MY LITTLE FRIENDS,!@#$FACE.",
+    "textHash": "d4916fb0ca87",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "RUNMOTHER!@#$ER,RUN"
+    },
+    "markup": "SAY HELLO TO MY LITTLE FRIENDS, !@#$FACE."
+  },
+  {
+    "id": "etrait:sacrilege-1",
+    "source": "enemy-traits",
+    "name": "Sacrilege (1)",
+    "text": "At the start of this creature's turn, it sets all enemies' health to 5%. This creature starts battles at the top of the Timeline.",
+    "textHash": "fb3f805966b4",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SACRILEGE3",
+      "variant": 1
+    },
+    "markup": "At the start of this creature's turn, it sets all enemies' {STAT_health} to 5%. This creature starts battles at the top of the {TIMELINE}.",
+    "refs": {
+      "stats": [
+        "health"
+      ],
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sacrilege-2",
+    "source": "enemy-traits",
+    "name": "Sacrilege (2)",
+    "text": "At the start of this creature's turn, it sets all enemies' health to 10%. This creature starts battles at the top of the Timeline.",
+    "textHash": "17a15836ea1d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SACRILEGE2",
+      "variant": 2
+    },
+    "markup": "At the start of this creature's turn, it sets all enemies' {STAT_health} to 10%. This creature starts battles at the top of the {TIMELINE}.",
+    "refs": {
+      "stats": [
+        "health"
+      ],
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sacrilege-3",
+    "source": "enemy-traits",
+    "name": "Sacrilege (3)",
+    "text": "At the start of this creature's turn, it sets all enemies' health to 20%. This creature starts battles at the top of the Timeline.",
+    "textHash": "3b41f80aee45",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SACRILEGE1",
+      "variant": 3
+    },
+    "markup": "At the start of this creature's turn, it sets all enemies' {STAT_health} to 20%. This creature starts battles at the top of the {TIMELINE}.",
+    "refs": {
+      "stats": [
+        "health"
+      ],
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:saddle-of-mindwurm",
+    "source": "enemy-traits",
+    "name": "Saddle of Mindwurm",
+    "text": "The saddle grants protective buffs to all the body parts.",
+    "textHash": "f28fc99e54d8",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SADDLEOFMINDWURM"
+    },
+    "markup": "The saddle grants protective buffs to all the body parts."
+  },
+  {
+    "id": "etrait:scared-less",
+    "source": "enemy-traits",
+    "name": "Scared !@#$less",
+    "text": "Enemies can't manually attack or cast spells.",
+    "textHash": "1d84b424eddf",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SCARED!@#$LESS"
+    },
+    "markup": "Enemies can't manually {ACTION_attack} or {ACTION_cast} spells.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:serenade-of-guilt",
+    "source": "enemy-traits",
+    "name": "Serenade of Guilt",
+    "text": "Your creatures' class-specific traits act as if your party contains 2 more creatures that belong to that class. This trait does not stack.",
+    "textHash": "00eb678aa8aa",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SERENADEOFGUILT"
+    },
+    "markup": "Your creatures' class-specific traits act as if your party contains 2 more creatures that belong to that class. This trait does not stack."
+  },
+  {
+    "id": "etrait:serpent-noose",
+    "source": "enemy-traits",
+    "name": "Serpent Noose",
+    "text": "ibbon artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "9f5ac3063acc",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SERPENTNOOSE"
+    },
+    "markup": "ibbon artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:shackler-s-revenge-1",
+    "source": "enemy-traits",
+    "name": "Shackler's Revenge (1)",
+    "text": "This creature is immune to damage from attacks and spells. In addition, this creature is resistant to debuffs.",
+    "textHash": "8876f4d616c2",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHACKLER'SREVENGE1",
+      "variant": 1
+    },
+    "markup": "This creature is immune to damage from attacks and spells. In addition, this creature is resistant to debuffs."
+  },
+  {
+    "id": "etrait:shackler-s-revenge-2",
+    "source": "enemy-traits",
+    "name": "Shackler's Revenge (2)",
+    "text": "Your creatures are immune to damage from attacks and spells. In addition, your creatures are resistant to debuffs.",
+    "textHash": "2c9dc91a11af",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHACKLER'SREVENGE2",
+      "variant": 2
+    },
+    "markup": "Your creatures are immune to damage from attacks and spells. In addition, your creatures are resistant to debuffs."
+  },
+  {
+    "id": "etrait:shackler-s-revenge-3",
+    "source": "enemy-traits",
+    "name": "Shackler's Revenge (3)",
+    "text": "Your creatures are immune to damage from attacks and spells. In addition, your creatures are resistant to debuffs. At the start of this creature's turn, it removes a random debuff from its allies.",
+    "textHash": "f4c8d46afd6f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHACKLER'SREVENGE3",
+      "variant": 3
+    },
+    "markup": "Your creatures are immune to damage from attacks and spells. In addition, your creatures are resistant to debuffs. At the start of this creature's turn, it removes a random debuff from its allies."
+  },
+  {
+    "id": "etrait:shadows-converge-1",
+    "source": "enemy-traits",
+    "name": "Shadows Converge (1)",
+    "text": "After your other creatures deal damage during their turn, this creature deals the same amount of damage to a random enemy.",
+    "textHash": "cfd6afa76262",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHADOWSCONVERGE",
+      "variant": 1
+    },
+    "markup": "After your other creatures deal damage during their turn, this creature deals the same amount of damage to a random enemy."
+  },
+  {
+    "id": "etrait:shadows-converge-2",
+    "source": "enemy-traits",
+    "name": "Shadows Converge (2)",
+    "text": "After your creatures take damage during their turn, this creature deals the same amount of damage to a random enemy.",
+    "textHash": "bb93b02cf742",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHADOWSCONVERGE1",
+      "variant": 2
+    },
+    "markup": "After your creatures take damage during their turn, this creature deals the same amount of damage to a random enemy."
+  },
+  {
+    "id": "etrait:shadows-converge-3",
+    "source": "enemy-traits",
+    "name": "Shadows Converge (3)",
+    "text": "After your creatures take damage during their turn, this creature deals the same amount of damage to a random enemy. After your creatures attack, they deal 100% of this damage to all other enemies.",
+    "textHash": "7ec23b06223b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHADOWSCONVERGE2",
+      "variant": 3
+    },
+    "markup": "After your creatures take damage during their turn, this creature deals the same amount of damage to a random enemy. After your creatures {ACTION_attack}, they deal 100% of this damage to all other enemies.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shadows-converge-4",
+    "source": "enemy-traits",
+    "name": "Shadows Converge (4)",
+    "text": "After your creatures take damage during their turn, this creature deals the same amount of damage to a random enemy. After your creatures attack, they deal 100% of this damage to all other enemies.",
+    "textHash": "7ec23b06223b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHADOWSCONVERGE3",
+      "variant": 4
+    },
+    "markup": "After your creatures take damage during their turn, this creature deals the same amount of damage to a random enemy. After your creatures {ACTION_attack}, they deal 100% of this damage to all other enemies.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shadowstep-1",
+    "source": "enemy-traits",
+    "name": "Shadowstep (1)",
+    "text": "At the end of each enemy's turn, this creature is moved to the top of the Timeline.",
+    "textHash": "e4653d538be1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHADOWSTEP",
+      "variant": 1
+    },
+    "markup": "At the end of each enemy's turn, this creature is moved to the top of the {TIMELINE}.",
+    "refs": {
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shadowstep-2",
+    "source": "enemy-traits",
+    "name": "Shadowstep (2)",
+    "text": "At the end of each enemy's turn, this creature is moved to the top of the Timeline.",
+    "textHash": "e4653d538be1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHADOWSTEP1",
+      "variant": 2
+    },
+    "markup": "At the end of each enemy's turn, this creature is moved to the top of the {TIMELINE}.",
+    "refs": {
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shadowstep-3",
+    "source": "enemy-traits",
+    "name": "Shadowstep (3)",
+    "text": "At the end of each enemy's turn, this creature is moved to the top of the Timeline. After this creature is moved to the top of the Timeline, enemies take damage equal to 15% of its highest stat.",
+    "textHash": "a2c83fd69651",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHADOWSTEP2",
+      "variant": 3
+    },
+    "markup": "At the end of each enemy's turn, this creature is moved to the top of the {TIMELINE}. After this creature is moved to the top of the {TIMELINE}, enemies take damage equal to 15% of its highest stat.",
+    "refs": {
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shadowstep-4",
+    "source": "enemy-traits",
+    "name": "Shadowstep (4)",
+    "text": "At the end of each enemy's turn, this creature is moved to the top of the Timeline. After this creature is moved to the top of the Timeline, enemies take damage equal to 25% of its highest stat and one of your other creatures is moved to the top of the Timeline as well.",
+    "textHash": "bb7bdeed42a9",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHADOWSTEP3",
+      "variant": 4
+    },
+    "markup": "At the end of each enemy's turn, this creature is moved to the top of the {TIMELINE}. After this creature is moved to the top of the {TIMELINE}, enemies take damage equal to 25% of its highest stat and one of your other creatures is moved to the top of the {TIMELINE} as well.",
+    "refs": {
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shoulder-of-althea",
+    "source": "enemy-traits",
+    "name": "Shoulder of Althea",
+    "text": "This shoulder casts healing spells on enemies.",
+    "textHash": "87b94792e2af",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHOULDEROFALTHEA"
+    },
+    "markup": "This shoulder {ACTION_casts} healing spells on enemies.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shoulder-of-impington",
+    "source": "enemy-traits",
+    "name": "Shoulder of Impington",
+    "text": "This shoulder casts spells on enemies.",
+    "textHash": "f14191a06119",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHOULDEROFIMPINGTON"
+    },
+    "markup": "This shoulder {ACTION_casts} spells on enemies.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shoulder-of-jotun",
+    "source": "enemy-traits",
+    "name": "Shoulder of Jotun",
+    "text": "Immune to damage. Your best bet is to survive the onslaught until Jotun becomes bored and goes away.",
+    "textHash": "8d9b60dcab70",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHOULDEROFJOTUN"
+    },
+    "markup": "Immune to damage. Your best bet is to survive the onslaught until Jotun becomes bored and goes away."
+  },
+  {
+    "id": "etrait:shoulder-of-loid",
+    "source": "enemy-traits",
+    "name": "Shoulder of Loid",
+    "text": "This shoulder afflicts enemies with a random debuff.",
+    "textHash": "08005714db9c",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHOULDEROFLOID"
+    },
+    "markup": "This shoulder afflicts enemies with a random debuff."
+  },
+  {
+    "id": "etrait:shoulder-of-lost-construct",
+    "source": "enemy-traits",
+    "name": "Shoulder of Lost Construct",
+    "text": "This shoulder increases the intelligence of all the body parts. It also casts spells on enemies.",
+    "textHash": "058940e67aa7",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHOULDEROFLOSTCONSTRUCT"
+    },
+    "markup": "This shoulder increases the {STAT_intelligence} of all the body parts. It also {ACTION_casts} spells on enemies.",
+    "refs": {
+      "stats": [
+        "intelligence"
+      ],
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:shoulder-of-the-ancestor",
+    "source": "enemy-traits",
+    "name": "Shoulder of The Ancestor",
+    "text": "This shoulder casts spells on enemies.",
+    "textHash": "f14191a06119",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SHOULDEROFTHEANCESTOR"
+    },
+    "markup": "This shoulder {ACTION_casts} spells on enemies.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-aquarius",
+    "source": "enemy-traits",
+    "name": "Sign of Aquarius",
+    "text": "Your creatures' healing Spell Gems have 100% more charges. This trait does not stack.",
+    "textHash": "42085c41458e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFAQUARIUS"
+    },
+    "markup": "Your creatures' healing Spell Gems have 100% more {STAT_charges}. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "charges"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-aries",
+    "source": "enemy-traits",
+    "name": "Sign of Aries",
+    "text": "This creature has a 50% chance to start battles at the top of the Timeline. Otherwise, it casts its first Spell Gem at the start of battle.",
+    "textHash": "3b2ccb33b136",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFARIES"
+    },
+    "markup": "This creature has a 50% chance to start battles at the top of the {TIMELINE}. Otherwise, it casts its first Spell Gem at the start of battle.",
+    "refs": {
+      "keywords": [
+        "Timeline"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-cancer",
+    "source": "enemy-traits",
+    "name": "Sign of Cancer",
+    "text": "Your creatures' stat-increasing Spell Gems have 100% more charges. This trait does not stack.",
+    "textHash": "429d08e1b8ed",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFCANCER"
+    },
+    "markup": "Your creatures' stat-increasing Spell Gems have 100% more {STAT_charges}. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "charges"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-capricorn",
+    "source": "enemy-traits",
+    "name": "Sign of Capricorn",
+    "text": "At the end of your creatures' turns, they have a 10% chance to take another turn. This trait does not stack.",
+    "textHash": "ae47728d1e80",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFCAPRICORN"
+    },
+    "markup": "At the end of your creatures' turns, they have a 10% chance to take another turn. This trait does not stack."
+  },
+  {
+    "id": "etrait:sign-of-gemini",
+    "source": "enemy-traits",
+    "name": "Sign of Gemini",
+    "text": "After this creature casts a spell, it also casts your sixth creature's first Spell Gem. This trait does not activate if this creature is your sixth creature.",
+    "textHash": "ea0b2b2b9ca1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFGEMINI"
+    },
+    "markup": "After this creature {ACTION_casts} a spell, it also casts your sixth creature's first Spell Gem. This trait does not activate if this creature is your sixth creature.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-leo",
+    "source": "enemy-traits",
+    "name": "Sign of Leo",
+    "text": "When this creature attacks, it consumes 1 charge from all its permanent Spell Gems and deals 25% more damage for each charge consumed.",
+    "textHash": "bbc80cc47c43",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFLEO"
+    },
+    "markup": "When this creature attacks, it consumes 1 {STAT_charge} from all its permanent Spell Gems and deals 25% more damage for each {STAT_charge} consumed.",
+    "refs": {
+      "stats": [
+        "charge"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-libra",
+    "source": "enemy-traits",
+    "name": "Sign of Libra",
+    "text": "Your creatures' buff Spell Gems have 100% more charges. This trait does not stack.",
+    "textHash": "8e4a5966c364",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFLIBRA"
+    },
+    "markup": "Your creatures' buff Spell Gems have 100% more {STAT_charges}. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "charges"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-pisces",
+    "source": "enemy-traits",
+    "name": "Sign of Pisces",
+    "text": "Your creatures' spells are 30% more potent for each time they've been cast in the current battle. This trait does not stack.",
+    "textHash": "9de0e494ae6f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFPISCES"
+    },
+    "markup": "Your creatures' spells are 30% more potent for each time they've been {ACTION_cast} in the current battle. This trait does not stack.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-sagittarius",
+    "source": "enemy-traits",
+    "name": "Sign of Sagittarius",
+    "text": "Your creatures' Spell Gems with the 'Generous' property have 50% more charges. This trait does not stack.",
+    "textHash": "cd0c5115a1e7",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFSAGITTARIUS"
+    },
+    "markup": "Your creatures' Spell Gems with the 'Generous' property have 50% more {STAT_charges}. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "charges"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-scorpio",
+    "source": "enemy-traits",
+    "name": "Sign of Scorpio",
+    "text": "Your creatures' stat-reducing Spell Gems have 100% more charges. This trait does not stack.",
+    "textHash": "90f16b991fac",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFSCORPIO"
+    },
+    "markup": "Your creatures' stat-reducing Spell Gems have 100% more {STAT_charges}. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "charges"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-taurus",
+    "source": "enemy-traits",
+    "name": "Sign of Taurus",
+    "text": "This creature's Spell Gems do not consume charges when they are cast automatically.",
+    "textHash": "1c4f03eb04ed",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFTAURUS"
+    },
+    "markup": "This creature's Spell Gems do not consume {STAT_charges} when they are cast automatically.",
+    "refs": {
+      "stats": [
+        "charges"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sign-of-virgo",
+    "source": "enemy-traits",
+    "name": "Sign of Virgo",
+    "text": "Your creatures' debuff Spell Gems have 100% more charges. This trait does not stack.",
+    "textHash": "d2330ac2f196",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIGNOFVIRGO"
+    },
+    "markup": "Your creatures' debuff Spell Gems have 100% more {STAT_charges}. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "charges"
+      ]
+    }
+  },
+  {
+    "id": "etrait:singular-unity",
+    "source": "enemy-traits",
+    "name": "Singular Unity",
+    "text": "Your creatures have 5% more attack, intelligence, defense, and speed for each Singular creature fighting on your side. This trait does not stack.",
+    "textHash": "93e3d8c39243",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SINGULARUNITY"
+    },
+    "markup": "Your creatures have 5% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each Singular creature fighting on your side. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "attack",
+        "defense",
+        "intelligence",
+        "speed"
+      ]
+    }
+  },
+  {
+    "id": "etrait:siralim-s-ascendance",
+    "source": "enemy-traits",
+    "name": "Siralim's Ascendance",
+    "text": "At the start of battle, this creature gains a random Avatar trait.",
+    "textHash": "ca721215a94d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIRALIM'SASCENDANCE"
+    },
+    "markup": "At the start of battle, this creature gains a random {RACE_Avatar} trait.",
+    "refs": {
+      "families": [
+        "Avatar"
+      ]
+    }
+  },
+  {
+    "id": "etrait:siralim-s-attunement",
+    "source": "enemy-traits",
+    "name": "Siralim's Attunement",
+    "text": "After this creature attacks, it has a 10% chance to cast a random Ultimate spell. This trait can only activate once per turn.",
+    "textHash": "990fc24bcbaf",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIRALIM'SATTUNEMENT"
+    },
+    "markup": "After this creature {ACTION_attacks}, it has a 10% chance to {ACTION_cast} a random Ultimate spell. This trait can only activate once per turn.",
+    "refs": {
+      "actions": [
+        "attacks",
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:siralim-s-prayer",
+    "source": "enemy-traits",
+    "name": "Siralim's Prayer",
+    "text": "At the start of battle, this creature casts a random Ultimate spell.",
+    "textHash": "faca1db63add",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SIRALIM'SPRAYER"
+    },
+    "markup": "At the start of battle, this creature {ACTION_casts} a random Ultimate spell.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:slice-n-dice-1",
+    "source": "enemy-traits",
+    "name": "Slice 'n Dice (1)",
+    "text": "At the start and end of each enemy's turn, this creature attacks 2 times. This creature deals 25% more damage for each time it attacked in the current battle.",
+    "textHash": "cf72148fd0c5",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SLICE'NDICE2",
+      "variant": 1
+    },
+    "markup": "At the start and end of each enemy's turn, this creature {ACTION_attacks} 2 times. This creature deals 25% more damage for each time it {ACTION_attacked} in the current battle.",
+    "refs": {
+      "actions": [
+        "attacked",
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:slice-n-dice-2",
+    "source": "enemy-traits",
+    "name": "Slice 'n Dice (2)",
+    "text": "At the start and end of each enemy's turn, this creature attacks. This creature deals 25% more damage for each time it attacked in the current battle.",
+    "textHash": "1699a9c9b438",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SLICE'NDICE1",
+      "variant": 2
+    },
+    "markup": "At the start and end of each enemy's turn, this creature {ACTION_attacks}. This creature deals 25% more damage for each time it {ACTION_attacked} in the current battle.",
+    "refs": {
+      "actions": [
+        "attacked",
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:slice-n-dice-3",
+    "source": "enemy-traits",
+    "name": "Slice 'n Dice (3)",
+    "text": "At the start and end of each enemy's turn, this creature attacks 3 times. This creature deals 25% more damage for each time it attacked in the current battle.",
+    "textHash": "2e8b79be2b8d",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SLICE'NDICE3",
+      "variant": 3
+    },
+    "markup": "At the start and end of each enemy's turn, this creature {ACTION_attacks} 3 times. This creature deals 25% more damage for each time it {ACTION_attacked} in the current battle.",
+    "refs": {
+      "actions": [
+        "attacked",
+        "attacks"
+      ]
+    }
+  },
+  {
+    "id": "etrait:sorcerous-statue",
+    "source": "enemy-traits",
+    "name": "Sorcerous Statue",
+    "text": "While this creature is above 50% health, it has Protected and Warded. While this creature is below 50% health, it has Splashing and Stone.",
+    "textHash": "6d820e2832b2",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SORCEROUSSTATUE"
+    },
+    "markup": "While this creature is above 50% {STAT_health}, it has {CONDNAME_BUFF_PROTECT} and {CONDNAME_BUFF_WARD}. While this creature is below 50% {STAT_health}, it has {CONDNAME_BUFF_SPLASH} and {CONDNAME_DEBUFF_STONE}.",
+    "refs": {
+      "stats": [
+        "health"
+      ],
+      "statuses": [
+        "Protected",
+        "Splashing",
+        "Stone",
+        "Warded"
+      ],
+      "buffs": [
+        "Protected",
+        "Splashing",
+        "Warded"
+      ],
+      "debuffs": [
+        "Stone"
+      ]
+    }
+  },
+  {
+    "id": "etrait:soul-eater",
+    "source": "enemy-traits",
+    "name": "Soul Eater",
+    "text": "After this creature kills an enemy, it extracts a Core from it. This trait only works if the enemy could have been extracted anyway.",
+    "textHash": "d3ef1f503b32",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SOULEATER"
+    },
+    "markup": "After this creature kills an enemy, it extracts a Core from it. This trait only works if the enemy could have been extracted anyway."
+  },
+  {
+    "id": "etrait:sparring-partner",
+    "source": "enemy-traits",
+    "name": "Sparring Partner",
+    "text": "Enemies cannot cast spells. In addition, your creatures can only take damage while they're afflicted with at least 5 debuffs.",
+    "textHash": "2925b3e89297",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SPARRINGPARTNER"
+    },
+    "markup": "Enemies cannot {ACTION_cast} spells. In addition, your creatures can only take damage while they're afflicted with at least 5 debuffs.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:spellpocalypse",
+    "source": "enemy-traits",
+    "name": "Spellpocalypse",
+    "text": "At the start of your creatures' turns, they cast 3 random, beneficial spells on themselves. At the start of the enemies' turns, they cast 3 random, harmful spells on themselves.",
+    "textHash": "d7ea1c302320",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SPELLPOCALYPSE"
+    },
+    "markup": "At the start of your creatures' turns, they {ACTION_cast} 3 random, beneficial spells on themselves. At the start of the enemies' turns, they {ACTION_cast} 3 random, harmful spells on themselves.",
+    "refs": {
+      "actions": [
+        "cast"
+      ]
+    }
+  },
+  {
+    "id": "etrait:steel-protection",
+    "source": "enemy-traits",
+    "name": "Steel Protection",
+    "text": "Your creatures' Armor artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "96e88463d1e1",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "STEELPROTECTION"
+    },
+    "markup": "Your creatures' Armor artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:stolen-by-damnation-s-edge",
+    "source": "enemy-traits",
+    "name": "Stolen by Damnation's Edge",
+    "text": "This creature's innate trait has been stolen by your Animatus!",
+    "textHash": "479008e47e07",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "STOLENBYDAMNATION'SEDGE"
+    },
+    "markup": "This creature's innate trait has been stolen by your Animatus!"
+  },
+  {
+    "id": "etrait:stoneplate",
+    "source": "enemy-traits",
+    "name": "Stoneplate",
+    "text": "Your creatures' Heavy Shield artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "56717ca57520",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "STONEPLATE"
+    },
+    "markup": "Your creatures' Heavy Shield artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:sucked-dry",
+    "source": "enemy-traits",
+    "name": "Sucked Dry",
+    "text": "Enemies are afflicted with a random debuff at the start and end of their turns. Enemies cannot be resistant to debuffs.",
+    "textHash": "89f7016ba3d5",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SUCKEDDRY"
+    },
+    "markup": "Enemies are afflicted with a random debuff at the start and end of their turns. Enemies cannot be resistant to debuffs."
+  },
+  {
+    "id": "etrait:syndrome",
+    "source": "enemy-traits",
+    "name": "Syndrome",
+    "text": "This creature takes 5% less damage for each debuff it has received in the current battle.",
+    "textHash": "a083929e3251",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "SYNDROME"
+    },
+    "markup": "This creature takes 5% less damage for each debuff it has received in the current battle."
+  },
+  {
+    "id": "etrait:tail-of-mindwurm",
+    "source": "enemy-traits",
+    "name": "Tail of Mindwurm",
+    "text": "The tail provokes enemies.",
+    "textHash": "50ee2a05fca4",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TAILOFMINDWURM"
+    },
+    "markup": "The tail {ACTION_provokes} enemies.",
+    "refs": {
+      "actions": [
+        "provokes"
+      ]
+    }
+  },
+  {
+    "id": "etrait:tantalizing-temptation-1",
+    "source": "enemy-traits",
+    "name": "Tantalizing Temptation (1)",
+    "text": "At the end of each enemy's turn, this creature forces them to attack one of their allies for 200% normal damage.",
+    "textHash": "d94198d12da3",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TANTALIZINGTEMPTATION",
+      "variant": 1
+    },
+    "markup": "At the end of each enemy's turn, this creature forces them to {ACTION_attack} one of their allies for 200% normal damage.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:tantalizing-temptation-2",
+    "source": "enemy-traits",
+    "name": "Tantalizing Temptation (2)",
+    "text": "At the start of each enemy's turn, this creature forces them to attack one of their allies.",
+    "textHash": "b488a305207a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TANTALIZINGTEMPTATION1",
+      "variant": 2
+    },
+    "markup": "At the start of each enemy's turn, this creature forces them to {ACTION_attack} one of their allies.",
+    "refs": {
+      "actions": [
+        "attack"
+      ]
+    }
+  },
+  {
+    "id": "etrait:tantalizing-temptation-3",
+    "source": "enemy-traits",
+    "name": "Tantalizing Temptation (3)",
+    "text": "At the start of each enemy's turn, this creature forces them to deal damage to one of their allies equal to 50% of their highest stat.",
+    "textHash": "cbba90243dbf",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TANTALIZINGTEMPTATION2",
+      "variant": 3
+    },
+    "markup": "At the start of each enemy's turn, this creature forces them to deal damage to one of their allies equal to 50% of their highest stat."
+  },
+  {
+    "id": "etrait:tantalizing-temptation-4",
+    "source": "enemy-traits",
+    "name": "Tantalizing Temptation (4)",
+    "text": "At the start of each enemy's turn, this creature forces them to deal damage to one of their allies equal to 100% of their highest stat.",
+    "textHash": "7f86b1885ce9",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TANTALIZINGTEMPTATION3",
+      "variant": 4
+    },
+    "markup": "At the start of each enemy's turn, this creature forces them to deal damage to one of their allies equal to 100% of their highest stat."
+  },
+  {
+    "id": "etrait:the-ultimate-strategy",
+    "source": "enemy-traits",
+    "name": "The Ultimate Strategy",
+    "text": "This creature always has certain Nether Boss traits.",
+    "textHash": "490d7cd4c45c",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "THEULTIMATESTRATEGY"
+    },
+    "markup": "This creature always has certain Nether Boss traits."
+  },
+  {
+    "id": "etrait:the-wishing-stick",
+    "source": "enemy-traits",
+    "name": "The Wishing Stick",
+    "text": "At the start of this creature's turn, it casts a random spell that belongs to its class.",
+    "textHash": "06fb23558ead",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "THEWISHINGSTICK"
+    },
+    "markup": "At the start of this creature's turn, it casts a random spell that belongs to its class."
+  },
+  {
+    "id": "etrait:things-betwixt",
+    "source": "enemy-traits",
+    "name": "Things Betwixt",
+    "text": "Your creatures' Bow artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "38747f45bd80",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "THINGSBETWIXT"
+    },
+    "markup": "Your creatures' Bow artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:thunder-god-s-wrath",
+    "source": "enemy-traits",
+    "name": "Thunder God's Wrath",
+    "text": "This creature's Lightning Strike deals additional damage equal to 75% of its intelligence. At the end of each provoking enemy's turn, this creature casts Lightning Strike on all provoking enemies. This trait does not stack.",
+    "textHash": "fa41f030ad00",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "THUNDERGODSWRATH"
+    },
+    "markup": "This creature's Lightning Strike deals additional damage equal to 75% of its {STAT_intelligence}. At the end of each {ACTION_provoking} enemy's turn, this creature {ACTION_casts} Lightning Strike on all {ACTION_provoking} enemies. This trait does not stack.",
+    "refs": {
+      "stats": [
+        "intelligence"
+      ],
+      "actions": [
+        "casts",
+        "provoking"
+      ]
+    }
+  },
+  {
+    "id": "etrait:tongue-wrapper",
+    "source": "enemy-traits",
+    "name": "Tongue Wrapper",
+    "text": "Enemies with Silenced cannot gain stats.",
+    "textHash": "41fe44594b8a",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TONGUEWRAPPER"
+    },
+    "markup": "Enemies with {CONDNAME_DEBUFF_SILENCE} cannot gain stats.",
+    "refs": {
+      "statuses": [
+        "Silenced"
+      ],
+      "debuffs": [
+        "Silenced"
+      ]
+    }
+  },
+  {
+    "id": "etrait:torn-asunder-1",
+    "source": "enemy-traits",
+    "name": "Torn Asunder (1)",
+    "text": "When this creature is killed, Scylla gains 100% of its intelligence and defense, and gains Repelling for the rest of the battle.",
+    "textHash": "ca80f2d1ce92",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TORNASUNDER1",
+      "variant": 1
+    },
+    "markup": "When this creature is killed, Scylla gains 100% of its {STAT_intelligence} and {STAT_defense}, and gains {CONDNAME_BUFF_REPELLING} for the rest of the battle.",
+    "refs": {
+      "stats": [
+        "defense",
+        "intelligence"
+      ],
+      "statuses": [
+        "Repelling"
+      ],
+      "buffs": [
+        "Repelling"
+      ]
+    }
+  },
+  {
+    "id": "etrait:torn-asunder-2",
+    "source": "enemy-traits",
+    "name": "Torn Asunder (2)",
+    "text": "After this creature is killed, your creatures gains 100% of its intelligence and defense, and gain Repelling for the rest of the battle.",
+    "textHash": "50f48c414c40",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TORNASUNDER",
+      "variant": 2
+    },
+    "markup": "After this creature is killed, your creatures gains 100% of its {STAT_intelligence} and {STAT_defense}, and gain {CONDNAME_BUFF_REPELLING} for the rest of the battle.",
+    "refs": {
+      "stats": [
+        "defense",
+        "intelligence"
+      ],
+      "statuses": [
+        "Repelling"
+      ],
+      "buffs": [
+        "Repelling"
+      ]
+    }
+  },
+  {
+    "id": "etrait:torn-betwixt-1",
+    "source": "enemy-traits",
+    "name": "Torn Betwixt (1)",
+    "text": "After this creature is killed, its partner gains 200% of its stats.",
+    "textHash": "6c66ba22a19e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TORNBETWIXT1",
+      "variant": 1
+    },
+    "markup": "After this creature is killed, its partner gains 200% of its stats."
+  },
+  {
+    "id": "etrait:torn-betwixt-2",
+    "source": "enemy-traits",
+    "name": "Torn Betwixt (2)",
+    "text": "After this creature is killed, its partner gains 300% of its stats. In addition, while this creature's partner is dead, it deals 200% more damage.",
+    "textHash": "e64b517ae3e6",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TORNBETWIXT2",
+      "variant": 2
+    },
+    "markup": "After this creature is killed, its partner gains 300% of its stats. In addition, while this creature's partner is dead, it deals 200% more damage."
+  },
+  {
+    "id": "etrait:torn-betwixt-3",
+    "source": "enemy-traits",
+    "name": "Torn Betwixt (3)",
+    "text": "After this creature is killed, its partner gains 500% of its stats. In addition, while this creature's partner is dead, it deals 200% more damage and takes 80% less damage.",
+    "textHash": "afd4185fcf6f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TORNBETWIXT3",
+      "variant": 3
+    },
+    "markup": "After this creature is killed, its partner gains 500% of its stats. In addition, while this creature's partner is dead, it deals 200% more damage and takes 80% less damage."
+  },
+  {
+    "id": "etrait:torn-betwixt-and-asunder",
+    "source": "enemy-traits",
+    "name": "Torn Betwixt and Asunder",
+    "text": "Killing either Scylla or Charybdis empowers the other. Who will you defeat first?",
+    "textHash": "68c20d9f1f54",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TORNBETWIXTANDASUNDER"
+    },
+    "markup": "Killing either Scylla or Charybdis empowers the other. Who will you defeat first?"
+  },
+  {
+    "id": "etrait:torun-s-ed-up-blessing",
+    "source": "enemy-traits",
+    "name": "Torun's !@#$ed Up Blessing",
+    "text": "Your creatures always have Torun Junior.",
+    "textHash": "b78a87c240fa",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TORUN'S!@#$EDUPBLESSING"
+    },
+    "markup": "Your creatures always have {CONDNAME_MINION_LITTLETORUN}.",
+    "refs": {
+      "statuses": [
+        "Torun Junior"
+      ],
+      "minions": [
+        "Torun Junior"
+      ]
+    }
+  },
+  {
+    "id": "etrait:total-nightmare",
+    "source": "enemy-traits",
+    "name": "Total Nightmare",
+    "text": "At the start of enemies' turns, they attack themselves or cast a damaging spell on themselves depending on if their attack or intelligence is higher.",
+    "textHash": "c38f44f83baa",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TOTALNIGHTMARE"
+    },
+    "markup": "At the start of enemies' turns, they {ACTION_attack} themselves or {ACTION_cast} a damaging spell on themselves depending on if their {STAT_attack} or {STAT_intelligence} is higher.",
+    "refs": {
+      "actions": [
+        "attack",
+        "cast"
+      ],
+      "stats": [
+        "attack",
+        "intelligence"
+      ]
+    }
+  },
+  {
+    "id": "etrait:trait-disabled",
+    "source": "enemy-traits",
+    "name": "Trait Disabled",
+    "text": "This creature's trait has been disabled.",
+    "textHash": "63b9294b172e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TRAITDISABLED"
+    },
+    "markup": "This creature's trait has been disabled."
+  },
+  {
+    "id": "etrait:trick-of-the-mind",
+    "source": "enemy-traits",
+    "name": "Trick of the Mind",
+    "text": "Your creatures' Wizard Hat artifacts are 50% more powerful. This trait does not stack.",
+    "textHash": "2d348816a779",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TRICKOFTHEMIND"
+    },
+    "markup": "Your creatures' Wizard Hat artifacts are 50% more powerful. This trait does not stack."
+  },
+  {
+    "id": "etrait:two-wishes",
+    "source": "enemy-traits",
+    "name": "Two Wishes",
+    "text": "This creature can extract 2 Cores at a time.",
+    "textHash": "eea23fc6f328",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "TWOWISHES"
+    },
+    "markup": "This creature can extract 2 Cores at a time."
+  },
+  {
+    "id": "etrait:ultima",
+    "source": "enemy-traits",
+    "name": "Ultima",
+    "text": "At the start of this creature's turn, it casts Planets.",
+    "textHash": "4e76cd9a4d24",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ULTIMA"
+    },
+    "markup": "At the start of this creature's turn, it casts Planets."
+  },
+  {
+    "id": "etrait:ultimate-ember",
+    "source": "enemy-traits",
+    "name": "Ultimate Ember",
+    "text": "After this god is killed, it resurrects with 100% health. In addition, this god deals 25% more damage and takes 10% less damage for each time it has resurrected. This trait activates a maximum of 5 times per battle.",
+    "textHash": "96b5310ec51f",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "ULTIMATEEMBER"
+    },
+    "markup": "After this god is killed, it resurrects with 100% {STAT_health}. In addition, this god deals 25% more damage and takes 10% less damage for each time it has resurrected. This trait activates a maximum of 5 times per battle.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:undead-army",
+    "source": "enemy-traits",
+    "name": "Undead Army",
+    "text": "When an enemy dies, another one will be summoned in its place. Defeat enough enemies to stop the onslaught!",
+    "textHash": "364e6e540d8e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "UNDEADARMY"
+    },
+    "markup": "When an enemy dies, another one will be summoned in its place. Defeat enough enemies to stop the onslaught!"
+  },
+  {
+    "id": "etrait:undying-1",
+    "source": "enemy-traits",
+    "name": "Undying (1)",
+    "text": "After your creatures take damage, they gain Shelled. This creature intercepts all damage dealt to its allies. This creature starts battles with Rebirth.",
+    "textHash": "1c2455c838a7",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "UNDYING2",
+      "variant": 1
+    },
+    "markup": "After your creatures take damage, they gain {CONDNAME_BUFF_SHELL}. This creature intercepts all damage dealt to its allies. This creature starts battles with {CONDNAME_BUFF_REBIRTH}.",
+    "refs": {
+      "statuses": [
+        "Rebirth",
+        "Shelled"
+      ],
+      "buffs": [
+        "Rebirth",
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:undying-2",
+    "source": "enemy-traits",
+    "name": "Undying (2)",
+    "text": "After this creature takes damage, it gains Shelled. This creature intercepts all damage dealt to its allies.",
+    "textHash": "3656b65a7af5",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "UNDYING1",
+      "variant": 2
+    },
+    "markup": "After this creature takes damage, it gains {CONDNAME_BUFF_SHELL}. This creature intercepts all damage dealt to its allies.",
+    "refs": {
+      "statuses": [
+        "Shelled"
+      ],
+      "buffs": [
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:undying-3",
+    "source": "enemy-traits",
+    "name": "Undying (3)",
+    "text": "After your creatures take damage, they gain Shelled. This creature intercepts all damage dealt to its allies. Your creatures start battles with Rebirth.",
+    "textHash": "df112c540c00",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "UNDYING3",
+      "variant": 3
+    },
+    "markup": "After your creatures take damage, they gain {CONDNAME_BUFF_SHELL}. This creature intercepts all damage dealt to its allies. Your creatures start battles with {CONDNAME_BUFF_REBIRTH}.",
+    "refs": {
+      "statuses": [
+        "Rebirth",
+        "Shelled"
+      ],
+      "buffs": [
+        "Rebirth",
+        "Shelled"
+      ]
+    }
+  },
+  {
+    "id": "etrait:unholy-communion",
+    "source": "enemy-traits",
+    "name": "Unholy Communion",
+    "text": "Your creatures have a 100% greater chance to extract Cores from enemies. This trait does not stack.",
+    "textHash": "59f6b3132450",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "UNHOLYCOMMUNION"
+    },
+    "markup": "Your creatures have a 100% greater chance to extract Cores from enemies. This trait does not stack."
+  },
+  {
+    "id": "etrait:unjustified-expectations-1",
+    "source": "enemy-traits",
+    "name": "Unjustified Expectations (1)",
+    "text": "At the start of this creature's turn, it transforms into a different type of Slime. Each type of Slime is immune to damage from attacks, spells, or both.",
+    "textHash": "2d13620d59f3",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "UNJUSTIFIEDEXPECTATIONS1",
+      "variant": 1
+    },
+    "markup": "At the start of this creature's turn, it transforms into a different type of {RACE_Slime}. Each type of {RACE_Slime} is immune to damage from attacks, spells, or both.",
+    "refs": {
+      "families": [
+        "Slime"
+      ]
+    }
+  },
+  {
+    "id": "etrait:unjustified-expectations-2",
+    "source": "enemy-traits",
+    "name": "Unjustified Expectations (2)",
+    "text": "At the start of this creature's turn, it transforms into a different type of Slime. Each type of Slime is immune to damage from attacks, spells, or both. This creature is immune to indirect damage.",
+    "textHash": "a7adb98da139",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "UNJUSTIFIEDEXPECTATIONS3",
+      "variant": 2
+    },
+    "markup": "At the start of this creature's turn, it transforms into a different type of {RACE_Slime}. Each type of {RACE_Slime} is immune to damage from attacks, spells, or both. This creature is immune to indirect damage.",
+    "refs": {
+      "families": [
+        "Slime"
+      ]
+    }
+  },
+  {
+    "id": "etrait:unstable-destiny",
+    "source": "enemy-traits",
+    "name": "Unstable Destiny",
+    "text": "After your creatures' Protected buff is removed, they gain a Barrier that absorbs damage equal to 50% of their Maximum health.",
+    "textHash": "bdf5aa9e81a9",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "UNSTABLEDESTINY"
+    },
+    "markup": "After your creatures' {CONDNAME_BUFF_PROTECT} buff is removed, they gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 50% of their Maximum {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Barrier",
+        "Protected"
+      ],
+      "buffs": [
+        "Barrier",
+        "Protected"
+      ],
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:use-your-illusion",
+    "source": "enemy-traits",
+    "name": "Use Your Illusion",
+    "text": "After an enemy manually casts a spell, each of your creatures cast that spell as well. After an enemy attacks, each of your creatures attack a random enemy as well.",
+    "textHash": "d105f2b8c764",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "USEYOURILLUSION"
+    },
+    "markup": "After an enemy manually {ACTION_casts} a spell, each of your creatures {ACTION_cast} that spell as well. After an enemy {ACTION_attacks}, each of your creatures {ACTION_attack} a random enemy as well.",
+    "refs": {
+      "actions": [
+        "attack",
+        "attacks",
+        "cast",
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:very-hearty",
+    "source": "enemy-traits",
+    "name": "Very Hearty",
+    "text": "This creature has 2000% more health. In addition, each time this creature takes damage, it permanently gains 5% damage reduction for the rest of battle with a maximum of 95%.",
+    "textHash": "df55fa700ab2",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "VERYHEARTY"
+    },
+    "markup": "This creature has 2000% more {STAT_health}. In addition, each time this creature takes damage, it permanently gains 5% damage reduction for the rest of battle with a maximum of 95%.",
+    "refs": {
+      "stats": [
+        "health"
+      ]
+    }
+  },
+  {
+    "id": "etrait:vext-s-grace",
+    "source": "enemy-traits",
+    "name": "Vext's Grace",
+    "text": "Increases your creatures' minimum stat limits by 50%. This trait does not stack.",
+    "textHash": "cc2e0356e79b",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "VEXT'SGRACE"
+    },
+    "markup": "Increases your creatures' minimum stat limits by 50%. This trait does not stack."
+  },
+  {
+    "id": "etrait:waking-the-fallen-1",
+    "source": "enemy-traits",
+    "name": "Waking the Fallen (1)",
+    "text": "At the start of battle, this creature and its allies gain an army of minions. At the start of this creature's turn, it casts Rapture.",
+    "textHash": "b778254afbf2",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WAKINGTHEFALLEN2",
+      "variant": 1
+    },
+    "markup": "At the start of battle, this creature and its allies gain an army of minions. At the start of this creature's turn, it {ACTION_casts} Rapture.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:waking-the-fallen-2",
+    "source": "enemy-traits",
+    "name": "Waking the Fallen (2)",
+    "text": "At the start of battle, this creature and its allies gain Conquest, Death, Famine, and War. At the start of this creature's turn, it casts Rapture.",
+    "textHash": "850d8ed53a85",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WAKINGTHEFALLEN1",
+      "variant": 2
+    },
+    "markup": "At the start of battle, this creature and its allies gain {CONDNAME_MINION_CONQUEST}, {CONDNAME_MINION_DEATH}, {CONDNAME_MINION_FAMINE}, and {CONDNAME_MINION_WAR}. At the start of this creature's turn, it {ACTION_casts} Rapture.",
+    "refs": {
+      "statuses": [
+        "Conquest",
+        "Death",
+        "Famine",
+        "War"
+      ],
+      "minions": [
+        "Conquest",
+        "Death",
+        "Famine",
+        "War"
+      ],
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:waking-the-fallen-3",
+    "source": "enemy-traits",
+    "name": "Waking the Fallen (3)",
+    "text": "This creature and its allies always have an army of minions. At the start of this creature's turn, it casts Rapture.",
+    "textHash": "aa5a2bd0c9b9",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WAKINGTHEFALLEN3",
+      "variant": 3
+    },
+    "markup": "This creature and its allies always have an army of minions. At the start of this creature's turn, it {ACTION_casts} Rapture.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  },
+  {
+    "id": "etrait:whirlstorm",
+    "source": "enemy-traits",
+    "name": "Whirlstorm",
+    "text": "After this creature kills a creature, the excess damage is dealt to all enemies.",
+    "textHash": "33174c274d4e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WHIRLSTORM"
+    },
+    "markup": "After this creature kills a creature, the excess damage is dealt to all enemies."
+  },
+  {
+    "id": "etrait:who-am-i",
+    "source": "enemy-traits",
+    "name": "Who Am I?",
+    "text": "After this creature is killed, it transforms into one of the enemy creatures.",
+    "textHash": "0ebc05ea8949",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WHOAMI?"
+    },
+    "markup": "After this creature is killed, it transforms into one of the enemy creatures."
+  },
+  {
+    "id": "etrait:who-am-i-none-of-your-business-1",
+    "source": "enemy-traits",
+    "name": "Who Am I? None Of Your Business (1)",
+    "text": "After this creature is killed, it transforms into one of the enemy creatures.",
+    "textHash": "0ebc05ea8949",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WHOAMI?NONEOFYOURBUSINESS1",
+      "variant": 1
+    },
+    "markup": "After this creature is killed, it transforms into one of the enemy creatures."
+  },
+  {
+    "id": "etrait:who-am-i-none-of-your-business-2",
+    "source": "enemy-traits",
+    "name": "Who Am I? None Of Your Business (2)",
+    "text": "After this creature is killed, it transforms into one of the enemy creatures and gains a random trait that belongs to that creature's race.",
+    "textHash": "ac4559218f2e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WHOAMI?NONEOFYOURBUSINESS2",
+      "variant": 2
+    },
+    "markup": "After this creature is killed, it transforms into one of the enemy creatures and gains a random trait that belongs to that creature's race."
+  },
+  {
+    "id": "etrait:who-am-i-none-of-your-business-3",
+    "source": "enemy-traits",
+    "name": "Who Am I? None Of Your Business (3)",
+    "text": "After this creature is killed, it transforms into one of the enemy creatures and gains a random trait that belongs to that creature's race.",
+    "textHash": "ac4559218f2e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WHOAMI?NONEOFYOURBUSINESS3",
+      "variant": 3
+    },
+    "markup": "After this creature is killed, it transforms into one of the enemy creatures and gains a random trait that belongs to that creature's race."
+  },
+  {
+    "id": "etrait:wind-aegis",
+    "source": "enemy-traits",
+    "name": "Wind Aegis",
+    "text": "Your creatures are immune to damage that doesn't come from attacks or spells. Your creatures can only take damage from one class at a time. This class changes at the start of this god's turn.",
+    "textHash": "337e60bd1f19",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WINDAEGIS"
+    },
+    "markup": "Your creatures are immune to damage that doesn't come from attacks or spells. Your creatures can only take damage from one class at a time. This class changes at the start of this god's turn."
+  },
+  {
+    "id": "etrait:wing-of-nebodar",
+    "source": "enemy-traits",
+    "name": "Wing of Nebodar",
+    "text": "This wing casts a powerful spell.",
+    "textHash": "169c82d3328e",
+    "meta": {
+      "enemyOnly": true,
+      "gameKey": "WINGOFNEBODAR"
+    },
+    "markup": "This wing {ACTION_casts} a powerful spell.",
+    "refs": {
+      "actions": [
+        "casts"
+      ]
+    }
+  }
+]

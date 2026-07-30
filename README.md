@@ -1,8 +1,10 @@
 # Siralim Ultimate Structured Compendium
 
-Every effect in Siralim Ultimate — 4,068 traits, spells, relics, perks, cards,
-minions, statuses and realm properties — parsed out of prose into a structured
-rule model, behind a faceted search that runs entirely in your browser.
+Every effect in Siralim Ultimate — 5,215 traits, spells, relics, perks, cards,
+blessings, artifact and spell-gem properties, minions, statuses and realm
+properties — read from the game's own string tables and parsed out of prose into
+a structured rule model, behind a faceted search that runs entirely in your
+browser.
 
 **[Open the compendium →](https://kleptichron.github.io/siralim-ultimate-structured-compendium/)**
 
@@ -32,9 +34,29 @@ build can be pasted to someone else. Result sets export as Markdown, CSV or JSON
 
 ## Status
 
-Tagging is **complete** — all 4,068 records across all eleven sources, at schema
-v13. Health of the enums, which is the honest measure of whether the model fits
-the corpus:
+4,068 records carry an annotation at schema v13, of 5,215 in the corpus. The gap
+is the backlog from switching onto the game's own strings (see
+[Data provenance](#data-provenance)), and it is tracked, not estimated:
+
+| | records | |
+|---|---|---|
+| current | 3,732 | annotated against the text they still have |
+| `stale` | 336 | annotated, but the text changed under them — re-review queued |
+| `todo` | 1,147 | mostly sources the corpus did not previously cover at all |
+
+`npm run validate` lists both, and reports drift on a record that is *not* marked
+stale as a hard error — an untracked change is a bug, a tracked one is a queue.
+
+**A stale annotation is withheld from the index rather than shipped.** Its rules
+were written against different wording and can contradict the text now displayed
+— `Bonding` read "the same class" where the game says "a different class" — and a
+rule that disagrees with its own record is worse than no rule, because nothing on
+screen reveals it. Those records ship as searchable text with a `text changed`
+badge, and keep the facets that come from their metadata rather than their rules
+(family, slot eligibility), so filtering still finds them.
+
+Health of the enums, which is the honest measure of whether the model fits the
+corpus:
 
 | | share of annotated records |
 |---|---|
@@ -57,6 +79,15 @@ npm run build-index   # data/annotations -> web/public/index.json
 npm run dev           # http://localhost:5173
 ```
 
+`source/game/` is committed, so none of that needs the game installed. Refreshing
+it after a patch does:
+
+```bash
+npm run extract-game -- "C:/Program Files (x86)/Steam/steamapps/common/Siralim Ultimate"
+npm run import -- --dry-run   # what the patch changed, before it rewrites anything
+npm run import
+```
+
 `npm test` builds the index, validates the whole corpus, then runs the
 regression suites (~30s — two of them sweep every trigger × verb and verb ×
 target combination through the real filter code in both match modes).
@@ -64,9 +95,12 @@ target combination through the real filter code in both match modes).
 ## The pipeline
 
 ```
-source/*.csv                     community-compiled effect data, unmodified
-  │  npm run import              parse, assign stable ids, hash each text,
-  ▼                              build lexicons, flag drift as stale
+<game install>/localization/     the game's own string tables, 16 languages
+  │  npm run extract-game        English gameplay strings, markup intact
+  ▼                              (manual: needs the game; never runs in CI)
+source/game/*.json  +  source/*.csv        text & names    +    metadata
+  │  npm run import              join by name, resolve markup to display text,
+  ▼                              extract refs, hash, flag real drift as stale
 data/normalized/*.json
   │  npm run extract             deterministic machine drafts + evidence
   ▼
@@ -91,33 +125,69 @@ re-check instead of quietly wrong answers.
 
 ## Data provenance
 
-The effect data in `source/` was **not** exported from the game, and it is worth
-being precise about that, because a reference tool that is wrong about where its
-facts came from is worse than no tool.
+Two sources, with a deliberate split of authority between them.
 
-It is community-compiled. `traits.csv` and `relics.csv` match the column layout
-of the community-maintained *Siralim Ultimate Compendium* spreadsheet, whose
-published exports carry a version banner and a maintainer contact in row 1.
-`perks.csv` and `specializations.csv` come from a different source again — they
-are the only two files using `snake_case` headers rather than Title Case. The
-transcription typos the lexicon has to alias around (`Frzoen` for Frozen,
-`Beserk` for Berserk, `Poison` for Poisoned) are human ones, which is the
-clearest single sign these are transcriptions rather than a machine export.
+**Effect text and names come from the game.** Siralim Ultimate ships its own
+localization tables — `<install>/localization/*.csv`, one row per string, one
+column per language. `npm run extract-game` reads the English column of the
+gameplay tables and vendors the result into `source/game/`, which is committed;
+nothing downstream reads the install, so a clean checkout builds the same site
+without the game present. `source/game/meta.json` records the Steam build id the
+data came from, so **which patch this describes is no longer unrecorded**.
 
-**Which game version this describes is unrecorded.** The copy here has no
-version banner, so the site states only when the data was indexed, not which
-patch it reflects. It is a snapshot of a spreadsheet that was itself maintained
-by hand: treat it as approximately current, and verify anything load-bearing in
-game rather than in here.
+Those strings carry semantic markup the display text throws away:
+
+```
+game    After this creature {ACTION_attacks}, it afflicts the target with {CONDNAME_DEBUFF_BURNED}.
+shown   After this creature attacks, it afflicts the target with Burning.
+```
+
+Every status, stat, class, family and battle action is typed at the position it
+occurs, and the three `CONDNAME` namespaces (`BUFF_`/`DEBUFF_`/`MINION_`) separate
+things the rendered sentence spells identically. That is ground truth: each
+record keeps a `refs` block derived from it, and `validate` checks annotations
+against those refs instead of guessing whether a capitalised word is a status.
+Switching to it retired eight of the ten entries in `status-aliases.json` —
+`Frzoen`, `shelled`, `Immunity` and the rest were transcription artefacts that
+cannot occur in the game's own strings.
+
+**Relationships and metadata come from the community CSVs**, because the game's
+string tables do not contain them: which creature a trait comes from, which
+specialization owns a perk, a spell's charge cost, a relic's stat bonus, the level
+each relic rank unlocks at. That data lives in compiled code — `data.win` has no
+`CODE` chunk, so the game is YYC-compiled and its tables are native machine code,
+not extractable. `source/*.csv` remains authoritative for all of it, joined to the
+game rows by name. Where only one side has a row, `npm run import` says so rather
+than dropping it.
+
+One deliberate exception runs the other way: **perk text** keeps the community
+transcription where one exists. The game's perk strings are templates —
+`<5>% of your creatures' chance to dodge attacks` — where `<5>` is the value *per
+rank* that the game multiplies at display time. A static page cannot render that,
+and the transcription already spells it out ("5% … per rank. Maximum Bonus: 100%").
+The game's markup still supplies the `refs`.
+
+Switching the corpus over found real errors in the transcriptions, which is the
+point of having done it: **Bonding** said "the same class" where the game says "a
+different class"; **Bad Trip** named the wrong spell entirely (Cyanide Gas for
+Delirium); five spell names were misspelled (`Iceicle Rain`, `Villify`); and
+several effects were missing a whole sentence. 336 records changed in ways the
+markup does not account for and are queued for re-review; 859 changed only in
+typing or punctuation and kept their annotations.
+
+Verify anything load-bearing in game rather than in here — this is a reading of
+the game's strings, not of its code, and the numbers in an effect's text are not
+always the whole rule.
 
 ## Layout
 
 | path | |
 |---|---|
-| `source/` | community-compiled effect data, eleven CSVs, untouched |
-| `data/normalized/` | parsed records: stable id, name, text, textHash, meta |
+| `source/game/` | the game's English gameplay strings, markup intact, vendored |
+| `source/` | community-compiled metadata, eleven CSVs, untouched |
+| `data/normalized/` | parsed records: id, name, text, textHash, meta, markup, refs |
 | `data/annotations/` | the rule model, one JSON per record |
-| `data/lexicon/` | statuses, classes, families, stats, and aliases for source typos |
+| `data/lexicon/` | statuses, classes, families, stats, status display names, aliases |
 | `data/manifest.json` | id → hash, status, provenance |
 | `scripts/` | pipeline, `lib/schema.js` (enums + validator), migrations, tests |
 | `web/` | the Vite app — vanilla JS, no framework |
@@ -147,13 +217,15 @@ so the tool can answer questions about the game. If you want the game — and yo
 should, this tool is no substitute — it's
 [on Steam](https://store.steampowered.com/app/1289810/Siralim_Ultimate/).
 
-The effect data under `source/` was transcribed and compiled by Siralim players,
-not by this project. That work is the reason any of this is possible, and the
-credit for it belongs to them. See [Data provenance](#data-provenance) for what
-is and isn't known about which compilations these files came from.
+`source/game/` holds Thylacine Studios' own English effect strings, read from an
+installed copy's localization tables. The metadata under `source/*.csv` was
+transcribed and compiled by Siralim players, not by this project; that work is
+still the reason the relational side of this is possible, and the credit for it
+belongs to them. See [Data provenance](#data-provenance) for which side supplies
+what.
 
 The code, the rule model and the annotations are MIT-licensed ([LICENSE](LICENSE)).
 That license covers this project's own work only. It does not extend to the game
-content under `source/`, to the effect text carried through into
-`data/normalized/` and the built index, or to any upstream compilation those
+content under `source/game/` and `source/`, to the effect text carried through
+into `data/normalized/` and the built index, or to any upstream compilation those
 files were derived from.

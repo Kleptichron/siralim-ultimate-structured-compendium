@@ -2,144 +2,170 @@
   {
     "name": "Agile",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_AGILE"
   },
   {
     "name": "Arcane",
     "kind": "buff",
-    "defaultDuration": "Until creature casts a spell."
+    "defaultDuration": "Until creature casts a spell.",
+    "token": "CONDNAME_BUFF_ARCANE"
   },
   {
     "name": "Barrier",
     "kind": "buff",
-    "defaultDuration": "Until barrier is depleted."
+    "defaultDuration": "Until barrier is depleted.",
+    "token": "CONDNAME_BUFF_BARRIER"
   },
   {
     "name": "Berserk",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_BERSERK"
   },
   {
     "name": "Bleeding",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_BLEED"
   },
   {
     "name": "Blighted",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_BLIGHT"
   },
   {
     "name": "Blind",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_BLIND"
   },
   {
     "name": "Bomb",
     "kind": "debuff",
-    "defaultDuration": ""
+    "defaultDuration": "",
+    "token": "CONDNAME_DEBUFF_BOMB"
   },
   {
     "name": "Burning",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_BURNED"
   },
   {
     "name": "Confused",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_CONFUSED"
   },
   {
     "name": "Cursed",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_CURSED"
   },
   {
     "name": "Defensive",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_DEFENSIVE"
   },
   {
     "name": "Disarmed",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_DISARMED"
   },
   {
     "name": "Feared",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_FEAR"
   },
   {
     "name": "Frozen",
     "kind": "debuff",
-    "defaultDuration": ""
+    "defaultDuration": "",
+    "token": "CONDNAME_DEBUFF_FROZEN"
   },
   {
     "name": "Immune",
     "kind": "buff",
-    "defaultDuration": "1 Turn"
+    "defaultDuration": "1 Turn",
+    "token": "CONDNAME_BUFF_IMMUNITY"
   },
   {
     "name": "Inverted",
     "kind": "debuff",
-    "defaultDuration": ""
+    "defaultDuration": "",
+    "token": "CONDNAME_DEBUFF_INVERTED"
   },
   {
     "name": "Invisible",
     "kind": "buff",
-    "defaultDuration": "Until creature takes an action."
+    "defaultDuration": "Until creature takes an action.",
+    "token": "CONDNAME_BUFF_INVISIBLE"
   },
   {
     "name": "Leeching",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_LEECH"
   },
   {
     "name": "Mania",
     "kind": "debuff",
     "defaultDuration": "",
-    "note": "Unique debuff (Denizen family, Nature spells Compulsion/Wave of Bliss); absent from debuffs.csv",
-    "extra": true
+    "token": "CONDNAME_DEBUFF_MANIA"
   },
   {
     "name": "Mending",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_MEND"
   },
   {
     "name": "Poisoned",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_POISON"
   },
   {
     "name": "Proficient",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_PROFICIENT"
   },
   {
     "name": "Protected",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_PROTECT"
   },
   {
     "name": "Rebirth",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_REBIRTH"
   },
   {
     "name": "Repelling",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_REPELLING"
   },
   {
     "name": "Savage",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_SAVAGE"
   },
   {
     "name": "Scorned",
     "kind": "debuff",
-    "defaultDuration": "1 Turn"
+    "defaultDuration": "1 Turn",
+    "token": "CONDNAME_DEBUFF_SCORN"
   },
   {
     "name": "Secret Stuff",
@@ -151,51 +177,61 @@
   {
     "name": "Shelled",
     "kind": "buff",
-    "defaultDuration": ""
+    "defaultDuration": "",
+    "token": "CONDNAME_BUFF_SHELL"
   },
   {
     "name": "Silenced",
     "kind": "debuff",
-    "defaultDuration": "1 Turn"
+    "defaultDuration": "1 Turn",
+    "token": "CONDNAME_DEBUFF_SILENCE"
   },
   {
     "name": "Sleeping",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_SLEEP"
   },
   {
     "name": "Snared",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_SNARED"
   },
   {
     "name": "Splashing",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_SPLASH"
   },
   {
     "name": "Stone",
     "kind": "debuff",
-    "defaultDuration": "1 Turn"
+    "defaultDuration": "1 Turn",
+    "token": "CONDNAME_DEBUFF_STONE"
   },
   {
     "name": "Taunting",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_TAUNT"
   },
   {
     "name": "Vulnerable",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_VULNERABLE"
   },
   {
     "name": "Warded",
     "kind": "buff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_BUFF_WARD"
   },
   {
     "name": "Weak",
     "kind": "debuff",
-    "defaultDuration": "3 Turns"
+    "defaultDuration": "3 Turns",
+    "token": "CONDNAME_DEBUFF_WEAK"
   }
 ]

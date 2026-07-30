@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "spell:ignus-fatuus",
+  "id": "spell:flamestrike",
   "rules": [
     {
       "trigger": {
@@ -10,18 +10,19 @@
       "actions": [
         {
           "verb": "deal_damage",
-          "target": "target",
+          "target": "enemies",
           "magnitude": {
-            "tier": "moderate",
-            "scaleRef": "spell_gems"
+            "tier": "small"
           },
+          "statuses": [
+            "Burning"
+          ],
           "params": {
-            "bonusPct": 25,
-            "per": "Ethereal Spell Gem it has"
+            "casts": "once per enemy afflicted with Burning"
           }
         }
       ]
     }
   ],
-  "textHash": "ea5a6a9f8cdf"
+  "textHash": "e037490e6e10"
 }

@@ -30,6 +30,8 @@ export function textHash(s) {
 // id prefix -> directory under data/normalized|evidence|annotations|overrides
 export const SOURCE_DIRS = {
   trait: 'traits',
+  etrait: 'enemy-traits',   // enemy-only boss / False God traits: no creature,
+                            //   no material, cannot occupy a build slot
   spell: 'spells',
   perk: 'perks',
   relic: 'relics',
@@ -40,6 +42,9 @@ export const SOURCE_DIRS = {
   nemesis: 'nemesis',
   realm: 'realm',
   spec: 'specs',
+  artmod: 'artifact-mods',
+  spellmod: 'spell-gem-props',
+  blessing: 'blessings',
 };
 
 // IDs contain ':' which Windows filenames cannot; join id tail with '__'.

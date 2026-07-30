@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "perk:siegemaster:purge",
+  "id": "perk:siegemaster:shrug-off",
   "rules": [
     {
       "trigger": {
@@ -33,5 +33,5 @@
       ]
     }
   ],
-  "textHash": "831c6c91d9aa"
+  "textHash": "f0d0edfa73b0"
 }
