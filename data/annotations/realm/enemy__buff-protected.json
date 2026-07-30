@@ -1,25 +1,24 @@
 {
-  "id": "realm:enemy:buff-protected",
-  "textHash": "749d17abed78",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "enemies-start-with",
+  "provenance": "claude",
+  "id": "realm:enemy:buff-protected",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
         "subject": "enemies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
           "target": "enemies",
           "statuses": [
             "Protected"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
-  ]
+  ],
+  "textHash": "749d17abed78"
 }

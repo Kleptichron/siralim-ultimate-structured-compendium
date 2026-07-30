@@ -17,16 +17,16 @@
             "amountPct": 50,
             "direction": "up",
             "scaleRef": "minion_count",
-            "per": "Brim Fiends stack sacrificed"
+            "per": "Brim Fiends stack sacrificed",
+            "cap": 9
           },
           "params": {
-            "sacrifices": "each stack",
-            "maxStacks": 9
+            "sacrifices": "each stack"
           }
         }
       ]
     }
   ],
   "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
-  "textHash": "144ec903fdd9"
+  "textHash": "2118f2c1cd4f"
 }

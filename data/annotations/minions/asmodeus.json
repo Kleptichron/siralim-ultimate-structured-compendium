@@ -13,28 +13,32 @@
           "verb": "crit_chance_modifier",
           "target": "owner",
           "params": {
-            "kind": "always critical",
-            "source": "attacks"
+            "always": true,
+            "appliesTo": "this attack"
           }
         },
         {
           "verb": "prevent_action",
           "target": "enemies",
           "params": {
-            "action": "dodging this attack"
+            "action": "dodge this attack"
           }
         },
         {
           "verb": "deal_damage",
+          "actor": "owner",
           "target": "enemies",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "down"
+          },
           "params": {
-            "others": true,
-            "damagePct": 50
+            "others": true
           }
         }
       ]
     }
   ],
   "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
-  "textHash": "3fb13458cf9b"
+  "textHash": "93ee9c57fb2d"
 }

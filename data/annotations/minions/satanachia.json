@@ -11,17 +11,17 @@
       "actions": [
         {
           "verb": "cast",
-          "actor": "holder",
+          "actor": "owner",
           "magnitude": {
             "amountFlat": 3
           },
           "params": {
-            "spells": "the last 3 spells cast in the current battle"
+            "spells": "the last 3 spells creatures cast in the current battle"
           }
         }
       ]
     }
   ],
   "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
-  "textHash": "0b9df479e367"
+  "textHash": "e27ab5d62803"
 }

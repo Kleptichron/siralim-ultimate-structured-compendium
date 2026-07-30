@@ -18,12 +18,31 @@
             "per": "turn the bearer has taken this battle"
           },
           "params": {
-            "additional": true,
-            "includesRelic": true
+            "additional": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "relic"
+      },
+      "actions": [
+        {
+          "verb": "attack",
+          "actor": "relic",
+          "magnitude": {
+            "amountFlat": 1,
+            "scaleRef": "turns_taken",
+            "per": "turn the bearer has taken this battle"
+          },
+          "params": {
+            "additional": true
           }
         }
       ]
     }
   ],
-  "textHash": "6f6b1ec8f2ad"
+  "textHash": "b577895def3e"
 }

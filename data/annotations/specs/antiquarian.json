@@ -1,8 +1,8 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "spec:inquisitor",
+  "id": "spec:antiquarian",
   "rules": [],
   "notes": "Specialization lore text; mechanics live in the perk records.",
-  "textHash": "3a0bfe938398"
+  "textHash": "5fb9e116f47f"
 }

@@ -1,16 +1,13 @@
 {
-  "id": "relic:prime-and-ventus:r50",
-  "textHash": "de8d08572ec5",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "start-battle-gain",
+  "provenance": "claude",
+  "id": "relic:prime-and-ventus:r50",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
         "subject": "holder"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -21,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "de8d08572ec5"
 }

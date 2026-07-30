@@ -1,25 +1,24 @@
 {
-  "id": "realm:enemy:buff-mending",
-  "textHash": "2c633859ae45",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "enemies-start-with",
+  "provenance": "claude",
+  "id": "realm:enemy:buff-mending",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
         "subject": "enemies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
           "target": "enemies",
           "statuses": [
             "Mending"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
-  ]
+  ],
+  "textHash": "2c633859ae45"
 }

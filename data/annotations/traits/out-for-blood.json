@@ -14,11 +14,11 @@
           "verb": "cast",
           "actor": "holder",
           "params": {
-            "spell": "Kill Streak"
+            "spell": "Killstreak"
           }
         }
       ]
     }
   ],
-  "textHash": "4fe52c0b5073"
+  "textHash": "cee76f46d144"
 }

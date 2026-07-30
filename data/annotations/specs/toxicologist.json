@@ -3,9 +3,9 @@
   "provenance": "claude",
   "id": "spec:toxicologist",
   "rules": [],
+  "notes": "Specialization lore text; mechanics live in the perk records.",
   "waivedStatuses": [
     "Poisoned"
   ],
-  "notes": "Specialization lore text; mechanics live in the perk records.",
-  "textHash": "2da32e7f1d2b"
+  "textHash": "27024ca73588"
 }

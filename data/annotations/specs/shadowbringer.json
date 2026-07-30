@@ -3,9 +3,9 @@
   "provenance": "claude",
   "id": "spec:shadowbringer",
   "rules": [],
+  "notes": "Specialization lore text; mechanics live in the perk records.",
   "waivedStatuses": [
     "Blighted"
   ],
-  "notes": "Specialization lore text; mechanics live in the perk records.",
-  "textHash": "548c55f49db5"
+  "textHash": "cbda8683652c"
 }

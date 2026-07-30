@@ -15,12 +15,12 @@
           "target": "holder",
           "params": {
             "equipment": "artifact",
-            "property": "♦ Spell Slot",
-            "kind": "independent activation chance"
+            "property": "Spell Slot",
+            "effect": "independent chance to activate"
           }
         }
       ]
     }
   ],
-  "textHash": "b2e32fd39b62"
+  "textHash": "b80828630a31"
 }

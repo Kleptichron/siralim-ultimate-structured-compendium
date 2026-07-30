@@ -16,17 +16,17 @@
             "amountPct": 30,
             "direction": "up",
             "scaleRef": "minion_count",
-            "per": "Fire Imps stack sacrificed"
+            "per": "Fire Imps stack sacrificed",
+            "cap": 9
           },
           "params": {
             "what": "potency",
-            "sacrifices": "each stack",
-            "maxStacks": 9
+            "sacrifices": "each stack"
           }
         }
       ]
     }
   ],
   "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
-  "textHash": "d418b12986ff"
+  "textHash": "7ba536449922"
 }

@@ -17,12 +17,11 @@
             "amountPct": 3,
             "direction": "down",
             "scaleRef": "other",
-            "per": "bearer or relic Attack this battle",
-            "cap": 90
+            "per": "attack the bearer or this relic has made this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "a62e710ab197"
+  "textHash": "7b6b8f363407"
 }

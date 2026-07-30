@@ -15,8 +15,7 @@
             "all"
           ],
           "params": {
-            "effect": "stats averaged",
-            "except": "Health"
+            "effect": "stats are averaged"
           }
         },
         {
@@ -30,9 +29,6 @@
             "direction": "up",
             "scaleRef": "other",
             "per": "unique class among your creatures"
-          },
-          "params": {
-            "except": "Health"
           }
         }
       ]
@@ -53,5 +49,5 @@
       ]
     }
   ],
-  "textHash": "30dd0af5d886"
+  "textHash": "7d232f158ad3"
 }

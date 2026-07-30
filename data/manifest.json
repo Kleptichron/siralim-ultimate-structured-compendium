@@ -7,7 +7,7 @@
     },
     "buff:arcane": {
       "hash": "17500af04a88",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "buff:barrier": {
@@ -47,7 +47,7 @@
     },
     "buff:proficient": {
       "hash": "802dba53e7fe",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "buff:protected": {
@@ -2390,7 +2390,7 @@
     },
     "debuff:bomb": {
       "hash": "399169e2349b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "debuff:burning": {
@@ -2430,7 +2430,8 @@
     },
     "debuff:mania": {
       "hash": "285757c6769a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "debuff:poisoned": {
       "hash": "26f7d30d40e8",
@@ -2489,27 +2490,27 @@
     },
     "minion:asmodeus": {
       "hash": "93ee9c57fb2d",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:beelzebub": {
       "hash": "9812e06ef75d",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:belphegor": {
       "hash": "4e3a3d2c35ed",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:brim-fiends": {
       "hash": "2118f2c1cd4f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:chaos-satyrs": {
       "hash": "f326f4608c60",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:conquest": {
@@ -2539,12 +2540,13 @@
     },
     "minion:fire-imps": {
       "hash": "7ba536449922",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:guardian-of-surathli": {
       "hash": "28162fe6fd1b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "minion:illusion": {
       "hash": "b79212a0250b",
@@ -2553,17 +2555,17 @@
     },
     "minion:leviathan": {
       "hash": "4050787dcc49",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:lucifer": {
       "hash": "5d76045231d7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:mammon": {
       "hash": "756c5821155a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:microbots": {
@@ -2573,7 +2575,7 @@
     },
     "minion:satanachia": {
       "hash": "e27ab5d62803",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "minion:spiderlings": {
@@ -5955,33 +5957,33 @@
     },
     "realm:enemy:buff-beserk": {
       "hash": "04db6034bda4",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:buff-leeching": {
       "hash": "2d65f4b1309d",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:buff-mending": {
       "hash": "2c633859ae45",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:buff-proficient": {
       "hash": "469065f32e8b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:buff-protected": {
       "hash": "749d17abed78",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:buff-savage": {
       "hash": "7064901979d1",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "realm:enemy:cast-additional-times-x": {
       "hash": "346860c6e148",
@@ -6430,8 +6432,8 @@
     },
     "relic:arbiter:r10": {
       "hash": "b3e8628794b1",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:arbiter:r100": {
       "hash": "194c0434cb0a",
@@ -6510,8 +6512,8 @@
     },
     "relic:asskicker:r60": {
       "hash": "766e2f7799d9",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:asskicker:r70": {
       "hash": "4304ca9be531",
@@ -6660,7 +6662,7 @@
     },
     "relic:brambleskin:r60": {
       "hash": "2db93ed77f75",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:brambleskin:r70": {
@@ -6765,7 +6767,7 @@
     },
     "relic:fable:r70": {
       "hash": "258dcfa43c96",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:fable:r80": {
@@ -6830,8 +6832,8 @@
     },
     "relic:ferro:r10": {
       "hash": "d6ecc6a2deda",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:ferro:r100": {
       "hash": "d91334de7c8c",
@@ -6860,8 +6862,8 @@
     },
     "relic:ferro:r60": {
       "hash": "99bd71b3b1c6",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:ferro:r70": {
       "hash": "882028b49828",
@@ -6875,7 +6877,7 @@
     },
     "relic:ferro:r90": {
       "hash": "b80828630a31",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:fleshripper:r10": {
@@ -7000,8 +7002,8 @@
     },
     "relic:lamora:r40": {
       "hash": "aadb0ca79d77",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:lamora:r50": {
       "hash": "eb78c2f7eb71",
@@ -7075,12 +7077,12 @@
     },
     "relic:materium:r90": {
       "hash": "b75a749d5daa",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r10": {
       "hash": "4e687552a90c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:moonfire-and-sunfury:r100": {
@@ -7165,7 +7167,7 @@
     },
     "relic:mutatias:r70": {
       "hash": "6e995731ec88",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:mutatias:r80": {
@@ -7210,8 +7212,8 @@
     },
     "relic:petra-and-aes:r60": {
       "hash": "b3b4531e93db",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:petra-and-aes:r70": {
       "hash": "95be96b05967",
@@ -7230,8 +7232,8 @@
     },
     "relic:prime-and-ventus:r10": {
       "hash": "c5c700be7e64",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:prime-and-ventus:r100": {
       "hash": "46b00dbadcff",
@@ -7255,8 +7257,8 @@
     },
     "relic:prime-and-ventus:r50": {
       "hash": "de8d08572ec5",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:prime-and-ventus:r60": {
       "hash": "e248765ffd6f",
@@ -7320,7 +7322,7 @@
     },
     "relic:ribcracker:r80": {
       "hash": "c24119993d18",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:ribcracker:r90": {
@@ -7360,7 +7362,7 @@
     },
     "relic:ripplevein:r60": {
       "hash": "daa7811ae3cb",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:ripplevein:r70": {
@@ -7410,8 +7412,8 @@
     },
     "relic:rosenthorne:r60": {
       "hash": "623a157db2d2",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:rosenthorne:r70": {
       "hash": "7aa5044c5c90",
@@ -7430,8 +7432,8 @@
     },
     "relic:salus:r10": {
       "hash": "377a584e4cde",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:salus:r100": {
       "hash": "9e69817a88c3",
@@ -7450,7 +7452,7 @@
     },
     "relic:salus:r40": {
       "hash": "b4d90ed022ac",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:salus:r50": {
@@ -7615,7 +7617,7 @@
     },
     "relic:thousand-needles:r70": {
       "hash": "b577895def3e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:thousand-needles:r80": {
@@ -7720,7 +7722,7 @@
     },
     "relic:vitreous:r80": {
       "hash": "7b6b8f363407",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "relic:vitreous:r90": {
@@ -7865,8 +7867,8 @@
     },
     "relic:wintermaul:r70": {
       "hash": "92969022c97f",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "relic:wintermaul:r80": {
       "hash": "183e203311f9",
@@ -7885,16 +7887,17 @@
     },
     "spec:antiquarian": {
       "hash": "5fb9e116f47f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:astrologer": {
       "hash": "5a429a75255c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:bloodmage": {
       "hash": "87123d8b1e25",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:brewmaster": {
@@ -7919,32 +7922,32 @@
     },
     "spec:demonologist": {
       "hash": "71bc97502ecc",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:deprived": {
       "hash": "b43c3f56a01d",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:doombringer": {
       "hash": "ce33026d44fe",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:dreamshade": {
       "hash": "920d03fe078f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:druid": {
       "hash": "385fe41f9674",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:engineer": {
       "hash": "a9484d0c2f0d",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:evoker": {
@@ -7954,22 +7957,22 @@
     },
     "spec:fanatic": {
       "hash": "e3693f213227",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:gladiator": {
       "hash": "958334dd8a49",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:graveborn": {
       "hash": "a39ca5b77d02",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:grovetender": {
       "hash": "b5af8623b3c5",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:hell-knight": {
@@ -7979,20 +7982,22 @@
     },
     "spec:inquisitor": {
       "hash": "3a0bfe938398",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:mermaid": {
       "hash": "15caae3b29cb",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:mesmerist": {
       "hash": "999951e34417",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spec:mime": {
       "hash": "0ae03643661e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:monk": {
@@ -8007,17 +8012,17 @@
     },
     "spec:paladin": {
       "hash": "539adb08fdc8",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:pariah": {
       "hash": "f498e7cab8ae",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:purgatorian": {
       "hash": "0dd9d4dad409",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:pyromancer": {
@@ -8027,27 +8032,27 @@
     },
     "spec:reaver": {
       "hash": "ec7d87620ba4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:royal": {
       "hash": "f6932e1b0e92",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:rune-knight": {
       "hash": "ea620fe14888",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:shadowbringer": {
       "hash": "cbda8683652c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:siegemaster": {
       "hash": "680528449bee",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:sorcerer": {
@@ -8057,22 +8062,22 @@
     },
     "spec:spellweaver": {
       "hash": "f8db0e163747",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:toxicologist": {
       "hash": "27024ca73588",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:tribalist": {
       "hash": "ddd0342c86d5",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:trickster": {
       "hash": "78295c6ae72f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:warden": {
@@ -8082,7 +8087,7 @@
     },
     "spec:windrunner": {
       "hash": "cbe8da9f0c47",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spec:witch-doctor": {
@@ -12106,7 +12111,7 @@
     },
     "trait:another-man-s-trash": {
       "hash": "12b4b4cbe177",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:ante": {
@@ -12296,7 +12301,7 @@
     },
     "trait:bad-trip": {
       "hash": "2d2387de365f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:baffle": {
@@ -12596,7 +12601,7 @@
     },
     "trait:bonding": {
       "hash": "c2b6c7a68746",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:bonecraft": {
@@ -12806,7 +12811,7 @@
     },
     "trait:call-of-the-grave": {
       "hash": "57f2710a9ea7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:call-of-the-harvest": {
@@ -12941,7 +12946,7 @@
     },
     "trait:chaos-through-creation": {
       "hash": "490ed98d940a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:chaos-transformation": {
@@ -13201,7 +13206,7 @@
     },
     "trait:condiments": {
       "hash": "3a0ef2a78a1f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:conductivity": {
@@ -13461,7 +13466,7 @@
     },
     "trait:cut-the-cheese": {
       "hash": "e672f9f7f658",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:cycle-of-life": {
@@ -14356,7 +14361,7 @@
     },
     "trait:extradimensional-shield": {
       "hash": "ab556931bdec",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:eye-of-the-storm": {
@@ -16136,7 +16141,7 @@
     },
     "trait:mass-mutation": {
       "hash": "722c95fdcc6f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:mass-pandemic": {
@@ -17576,7 +17581,7 @@
     },
     "trait:out-for-blood": {
       "hash": "cee76f46d144",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:outcast-no-longer": {
@@ -17796,7 +17801,7 @@
     },
     "trait:perfect-imperfection": {
       "hash": "57419ca1b5f1",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:perfect-replica": {
@@ -17916,7 +17921,7 @@
     },
     "trait:pleasant-disease": {
       "hash": "d24c1e9e4438",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:plunder": {
@@ -17961,7 +17966,7 @@
     },
     "trait:power-in-balance": {
       "hash": "7d232f158ad3",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:power-trip": {
@@ -17991,7 +17996,7 @@
     },
     "trait:preacher-of-stone": {
       "hash": "77fa86c76184",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:prejudice": {
@@ -18211,7 +18216,7 @@
     },
     "trait:rain-of-magic": {
       "hash": "8f0c72ec01a2",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:rainbow-palate": {
@@ -18311,7 +18316,7 @@
     },
     "trait:reactor-shield": {
       "hash": "d766071f054d",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:reclusive-glutton": {
@@ -18596,7 +18601,7 @@
     },
     "trait:round-of-applause": {
       "hash": "e3d48d60db80",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:royal-authority": {
@@ -19051,7 +19056,7 @@
     },
     "trait:sluuurp": {
       "hash": "badcb12b3f41",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "trait:smack-around": {

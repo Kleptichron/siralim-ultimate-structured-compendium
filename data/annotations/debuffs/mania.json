@@ -1,11 +1,11 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "debuff:bomb",
+  "id": "debuff:mania",
   "rules": [
     {
       "trigger": {
-        "type": "start_of_turn",
+        "type": "end_of_turn",
         "subject": "any"
       },
       "conditions": [
@@ -13,28 +13,25 @@
           "type": "has_status",
           "who": "trigger_subject",
           "params": {
-            "status": "Bomb"
+            "status": "Mania"
           }
         }
       ],
       "actions": [
         {
-          "verb": "detonate",
+          "verb": "deal_damage",
           "target": "trigger_subject",
-          "statuses": [
-            "Bomb"
-          ],
           "magnitude": {
-            "scaleStat": "Speed",
-            "scalePct": 80
+            "amountPct": 3,
+            "scaleRef": "healing_received"
           },
           "params": {
-            "of": "the afflictor",
-            "then": "this debuff is removed"
+            "of": "the health all creatures had recovered when this debuff was applied"
           }
         }
       ]
     }
   ],
-  "textHash": "399169e2349b"
+  "notes": "Scales off a snapshot taken when the debuff lands, not off healing after it.",
+  "textHash": "285757c6769a"
 }

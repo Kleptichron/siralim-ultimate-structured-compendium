@@ -1,16 +1,13 @@
 {
-  "id": "relic:ferro:r60",
-  "textHash": "99bd71b3b1c6",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "immune-group",
+  "provenance": "claude",
+  "id": "relic:ferro:r60",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "holder"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "prevent_status",
@@ -21,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "99bd71b3b1c6"
 }

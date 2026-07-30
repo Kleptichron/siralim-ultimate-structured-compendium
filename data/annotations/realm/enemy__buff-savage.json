@@ -1,25 +1,24 @@
 {
-  "id": "realm:enemy:buff-savage",
-  "textHash": "7064901979d1",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "enemies-start-with",
+  "provenance": "claude",
+  "id": "realm:enemy:buff-savage",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
         "subject": "enemies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
           "target": "enemies",
           "statuses": [
             "Savage"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
-  ]
+  ],
+  "textHash": "7064901979d1"
 }

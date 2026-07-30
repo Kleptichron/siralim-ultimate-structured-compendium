@@ -39,6 +39,9 @@
       ]
     }
   ],
+  "flags": {
+    "stacks": false
+  },
   "notes": "Minion-effect events have no trigger; other is honest here.",
-  "textHash": "56801d7c3926"
+  "textHash": "d24c1e9e4438"
 }

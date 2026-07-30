@@ -1,16 +1,13 @@
 {
-  "id": "relic:arbiter:r10",
-  "textHash": "b3e8628794b1",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "start-battle-gain",
+  "provenance": "claude",
+  "id": "relic:arbiter:r10",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
         "subject": "holder"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -21,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "b3e8628794b1"
 }

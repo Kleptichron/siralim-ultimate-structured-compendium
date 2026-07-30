@@ -27,7 +27,8 @@
         "type": "after_cast",
         "subject": "enemy",
         "params": {
-          "spellType": "healing"
+          "spellType": "healing",
+          "except": "Words of Encouragement"
         }
       },
       "conditions": [
@@ -51,5 +52,5 @@
       ]
     }
   ],
-  "textHash": "8b207fc5309a"
+  "textHash": "e3d48d60db80"
 }

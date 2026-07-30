@@ -1,8 +1,12 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "spec:inquisitor",
+  "id": "spec:mesmerist",
   "rules": [],
   "notes": "Specialization lore text; mechanics live in the perk records.",
-  "textHash": "3a0bfe938398"
+  "waivedStatuses": [
+    "Blind",
+    "Sleeping"
+  ],
+  "textHash": "999951e34417"
 }

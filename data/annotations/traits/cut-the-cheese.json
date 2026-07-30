@@ -17,11 +17,12 @@
           "target": "trigger_subject",
           "magnitude": {
             "scaleStat": "other",
-            "scalePct": 30
+            "scalePct": 20
           },
           "params": {
             "of": "the difference between its lowest and highest stats",
-            "additional": true
+            "additional": true,
+            "inBossBattles": "10%"
           }
         }
       ]
@@ -30,5 +31,5 @@
   "flags": {
     "stacks": false
   },
-  "textHash": "ff790811d4e6"
+  "textHash": "e672f9f7f658"
 }

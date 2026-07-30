@@ -3,9 +3,9 @@
   "provenance": "claude",
   "id": "spec:deprived",
   "rules": [],
+  "notes": "Specialization lore text; mechanics live in the perk records.",
   "waivedStatuses": [
     "Cursed"
   ],
-  "notes": "Specialization lore text; mechanics live in the perk records.",
-  "textHash": "8d63e23788a1"
+  "textHash": "b43c3f56a01d"
 }

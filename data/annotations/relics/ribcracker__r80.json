@@ -17,12 +17,11 @@
             "amountPct": 3,
             "direction": "down",
             "scaleRef": "other",
-            "per": "bearer or relic Cast this battle",
-            "cap": 90
+            "per": "spell the bearer or this relic has cast this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "ca9466db9ced"
+  "textHash": "c24119993d18"
 }

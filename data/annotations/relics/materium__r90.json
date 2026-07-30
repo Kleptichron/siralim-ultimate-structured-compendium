@@ -14,12 +14,12 @@
           "verb": "cast",
           "actor": "relic",
           "params": {
-            "spells": "each of the bearer's non-Ethereal spells not of its class",
+            "spells": "each of the bearer's permanent spells that do not belong to its class",
             "chanceEach": true
           }
         }
       ]
     }
   ],
-  "textHash": "a59a40d9043b"
+  "textHash": "b75a749d5daa"
 }

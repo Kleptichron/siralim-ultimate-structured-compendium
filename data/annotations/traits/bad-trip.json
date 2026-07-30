@@ -15,13 +15,13 @@
         {
           "verb": "cast",
           "actor": "holder",
-          "target": "attacker",
+          "target": "enemy",
           "params": {
-            "spell": "Cyanide Gas"
+            "spell": "Delirium"
           }
         }
       ]
     }
   ],
-  "textHash": "1e156d6b4015"
+  "textHash": "2d2387de365f"
 }

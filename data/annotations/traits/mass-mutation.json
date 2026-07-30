@@ -13,8 +13,8 @@
           "verb": "copy",
           "target": "allies",
           "params": {
-            "what": "the holder's Fused trait (or innate trait if this IS the Fused trait)",
-            "to": "one creature of each other class"
+            "what": "the holder's Fused trait, or its innate trait if this is the Fused trait",
+            "to": "one creature of each class on your team"
           }
         }
       ]
@@ -23,5 +23,5 @@
   "flags": {
     "stacks": false
   },
-  "textHash": "89fc16355cc5"
+  "textHash": "722c95fdcc6f"
 }

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "minion:guardian-of-surathli",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "owner"
+      },
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "owner",
+          "magnitude": {
+            "amountPct": 100
+          },
+          "params": {
+            "at": "full health"
+          }
+        },
+        {
+          "verb": "apply_status",
+          "target": "owner",
+          "statuses": [
+            "Barrier"
+          ],
+          "statusKind": "buff",
+          "magnitude": {
+            "scaleStat": "Health",
+            "scalePct": 100
+          },
+          "params": {
+            "then": "this minion disappears"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "28162fe6fd1b"
+}

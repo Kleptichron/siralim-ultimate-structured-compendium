@@ -14,19 +14,19 @@
           "target": "holder",
           "params": {
             "action": "being killed by instant-death effects",
-            "battles": "normal"
+            "battles": "non-boss"
           }
         },
         {
           "verb": "limit_modifier",
           "target": "holder",
           "params": {
-            "what": "damage taken per hit",
-            "max": "60% of Maximum Health"
+            "what": "damage taken",
+            "max": "60% of its Maximum Health"
           }
         }
       ]
     }
   ],
-  "textHash": "7ae290954516"
+  "textHash": "d766071f054d"
 }

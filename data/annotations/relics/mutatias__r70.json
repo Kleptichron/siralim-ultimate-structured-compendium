@@ -17,12 +17,11 @@
             "amountPct": 10,
             "direction": "down",
             "scaleRef": "turns_taken",
-            "per": "turn taken this battle",
-            "cap": 90
+            "per": "turn it has taken this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "a66b45b53fdf"
+  "textHash": "6e995731ec88"
 }

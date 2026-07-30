@@ -12,17 +12,14 @@
         {
           "verb": "apply_status",
           "actor": "holder",
-          "target": "enemy",
+          "target": "target",
           "statusKind": "debuff",
           "qualifiers": [
             "random"
-          ],
-          "params": {
-            "debuff": "random"
-          }
+          ]
         }
       ]
     }
   ],
-  "textHash": "572c5788a8d6"
+  "textHash": "badcb12b3f41"
 }

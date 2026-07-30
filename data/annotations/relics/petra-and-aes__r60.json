@@ -1,16 +1,13 @@
 {
-  "id": "relic:petra-and-aes:r60",
-  "textHash": "b3b4531e93db",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "immune-group",
+  "provenance": "claude",
+  "id": "relic:petra-and-aes:r60",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "holder"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "prevent_status",
@@ -21,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "b3b4531e93db"
 }

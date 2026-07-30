@@ -3,9 +3,9 @@
   "provenance": "claude",
   "id": "spec:dreamshade",
   "rules": [],
+  "notes": "Specialization lore text; mechanics live in the perk records.",
   "waivedStatuses": [
     "Inverted"
   ],
-  "notes": "Specialization lore text; mechanics live in the perk records.",
-  "textHash": "5e465a23552e"
+  "textHash": "920d03fe078f"
 }

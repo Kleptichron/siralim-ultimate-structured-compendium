@@ -17,12 +17,11 @@
             "amountPct": 3,
             "direction": "down",
             "scaleRef": "other",
-            "per": "on-defend/on-provoke effect activation",
-            "cap": 90
+            "per": "on-defend or on-provoke effect activation"
           }
         }
       ]
     }
   ],
-  "textHash": "b151ac5e8d3d"
+  "textHash": "258dcfa43c96"
 }

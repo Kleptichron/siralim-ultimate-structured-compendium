@@ -28,8 +28,7 @@
             "amountPct": 10,
             "direction": "down",
             "scaleRef": "turns_taken",
-            "per": "turn taken this battle",
-            "cap": 90
+            "per": "turn taken this battle"
           }
         }
       ]
@@ -52,5 +51,5 @@
   "flags": {
     "stacks": false
   },
-  "textHash": "70377968badd"
+  "textHash": "57419ca1b5f1"
 }

@@ -11,15 +11,16 @@
       "actions": [
         {
           "verb": "deal_damage",
-          "target": "enemy",
+          "actor": "owner",
+          "target": "enemies",
           "magnitude": {
             "scaleStat": "highest_stat",
             "scalePct": 15,
-            "per": "stack sacrificed"
+            "per": "stack sacrificed",
+            "cap": 9
           },
           "params": {
-            "sacrifices": "each stack",
-            "maxStacks": 9
+            "sacrifices": "each stack"
           }
         }
       ]
@@ -32,20 +33,21 @@
       "actions": [
         {
           "verb": "deal_damage",
-          "target": "enemy",
+          "actor": "owner",
+          "target": "enemies",
           "magnitude": {
             "scaleStat": "highest_stat",
             "scalePct": 15,
-            "per": "stack sacrificed"
+            "per": "stack sacrificed",
+            "cap": 9
           },
           "params": {
-            "sacrifices": "each stack",
-            "maxStacks": 9
+            "sacrifices": "each stack"
           }
         }
       ]
     }
   ],
   "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
-  "textHash": "a154f55f4d76"
+  "textHash": "f326f4608c60"
 }

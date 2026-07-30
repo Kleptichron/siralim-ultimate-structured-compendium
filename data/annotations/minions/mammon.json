@@ -14,23 +14,18 @@
           "target": "owner",
           "flow": "taken",
           "magnitude": {
-            "amountPct": 50,
-            "direction": "down"
+            "amountPct": 2,
+            "direction": "down",
+            "scaleRef": "minion_count",
+            "per": "stack of each Lesser Demon the master has"
           },
           "params": {
             "appliesTo": "that damage"
           }
-        },
-        {
-          "verb": "apply_status",
-          "target": "owner",
-          "statuses": [
-            "Shelled"
-          ]
         }
       ]
     }
   ],
   "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
-  "textHash": "1c6fc315f2d4"
+  "textHash": "756c5821155a"
 }

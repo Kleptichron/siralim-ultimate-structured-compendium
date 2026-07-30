@@ -16,13 +16,12 @@
           "magnitude": {
             "amountPct": 3,
             "direction": "down",
-            "scaleRef": "other",
-            "per": "time damaged this battle",
-            "cap": 90
+            "scaleRef": "damage_taken",
+            "per": "time it has been damaged this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "80d09cc12ea1"
+  "textHash": "2db93ed77f75"
 }

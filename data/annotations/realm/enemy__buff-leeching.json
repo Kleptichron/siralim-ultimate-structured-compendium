@@ -1,25 +1,24 @@
 {
-  "id": "realm:enemy:buff-leeching",
-  "textHash": "2d65f4b1309d",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "enemies-start-with",
+  "provenance": "claude",
+  "id": "realm:enemy:buff-leeching",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
         "subject": "enemies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
           "target": "enemies",
           "statuses": [
             "Leeching"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
-  ]
+  ],
+  "textHash": "2d65f4b1309d"
 }

@@ -22,11 +22,12 @@
           "verb": "spell_modifier",
           "target": "trigger_subject",
           "params": {
-            "noChargeConsumption": true
+            "noChargeConsumption": true,
+            "then": "this buff is removed"
           }
         }
       ]
     }
   ],
-  "textHash": "838e31860630"
+  "textHash": "17500af04a88"
 }

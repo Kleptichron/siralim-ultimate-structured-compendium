@@ -27,11 +27,12 @@
           "verb": "prevent_action",
           "target": "holder",
           "params": {
-            "action": "manually attacking, casting, defending, or provoking"
+            "action": "manually attacking, casting, defending, or provoking",
+            "unless": "it is an enemy"
           }
         }
       ]
     }
   ],
-  "textHash": "0d1dff99fd05"
+  "textHash": "12b4b4cbe177"
 }

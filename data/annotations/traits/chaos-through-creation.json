@@ -13,11 +13,11 @@
           "verb": "cast",
           "actor": "holder",
           "params": {
-            "spell": "Living Lance matching the target's class"
+            "spell": "a Living Lance spell matching the target's class"
           }
         }
       ]
     }
   ],
-  "textHash": "6ef0f99eb2f1"
+  "textHash": "490ed98d940a"
 }

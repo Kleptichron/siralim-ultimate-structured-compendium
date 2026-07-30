@@ -27,12 +27,11 @@
           },
           "params": {
             "equipment": "artifact",
-            "property": "Stat Slots",
-            "except": "Health"
+            "property": "Stat Slots"
           }
         }
       ]
     }
   ],
-  "textHash": "1f941cebd162"
+  "textHash": "802dba53e7fe"
 }

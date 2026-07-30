@@ -16,12 +16,12 @@
           "verb": "spell_modifier",
           "target": "owner",
           "params": {
-            "effect": "targets all creatures on the target's side"
+            "effect": "targets all creatures fighting on the target's side"
           }
         }
       ]
     }
   ],
   "notes": "Greater/Lesser Demon boilerplate: never granted by effects that generate random minions.",
-  "textHash": "bf521d104638"
+  "textHash": "4e3a3d2c35ed"
 }

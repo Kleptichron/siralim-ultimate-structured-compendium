@@ -8,24 +8,26 @@
         "type": "passive",
         "subject": "holder"
       },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "who": "holder",
+          "params": {
+            "what": "debuffs",
+            "lessThan": 5
+          }
+        }
+      ],
       "actions": [
         {
           "verb": "prevent_action",
           "target": "holder",
           "params": {
-            "action": "being killed by instant-death effects",
-            "battles": "normal"
-          }
-        },
-        {
-          "verb": "kill",
-          "target": "enemy",
-          "params": {
-            "effect": "the instant-death effect is reflected back"
+            "action": "being killed by instant-death effects"
           }
         }
       ]
     }
   ],
-  "textHash": "2fc2916f188e"
+  "textHash": "ab556931bdec"
 }

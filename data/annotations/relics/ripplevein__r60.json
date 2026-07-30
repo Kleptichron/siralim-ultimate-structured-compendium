@@ -17,12 +17,11 @@
             "amountPct": 3,
             "direction": "down",
             "scaleRef": "minion_count",
-            "per": "minion stack",
-            "cap": 90
+            "per": "minion stack it has"
           }
         }
       ]
     }
   ],
-  "textHash": "aa9176ddc3f9"
+  "textHash": "daa7811ae3cb"
 }

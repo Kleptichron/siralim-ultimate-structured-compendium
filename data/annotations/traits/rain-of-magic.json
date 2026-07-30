@@ -19,7 +19,7 @@
             "per": "unique class among your creatures"
           },
           "params": {
-            "what": "'Cascading' spells",
+            "what": "spells with the \"Cascading\" property",
             "effect": "additional maximum charges",
             "except": "Ultimate Spells"
           }
@@ -27,5 +27,5 @@
       ]
     }
   ],
-  "textHash": "b75f465d00d2"
+  "textHash": "8f0c72ec01a2"
 }
