@@ -10,11 +10,17 @@
   chips are the only fine detail.
 
   Regenerate after editing (the record count in the copy goes stale when the
-  corpus grows):
+  corpus grows). The page argument has to be an absolute file:// URL —
+  Chrome parses a bare relative path as a hostname and renders its own DNS
+  error page into your PNG, quite happily and with exit status 0:
 
     chrome --headless=new --disable-gpu --hide-scrollbars \
       --force-device-scale-factor=1 --window-size=1200,630 \
-      --screenshot=web/public/og.png scripts/og-card.html
+      --screenshot=web/public/og.png \
+      "file:///C:/full/path/to/repo/scripts/og-card.html"
+
+  On Windows keep the drive letter: a Git Bash $PWD expands to /c/... which
+  Chrome cannot resolve either.
 -->
 <html lang="en">
 <head>

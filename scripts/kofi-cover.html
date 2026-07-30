@@ -1,0 +1,72 @@
+<!doctype html>
+<!--
+  Cover image for the Ko-fi page (ko-fi.com/kleptichron). Sibling of
+  og-card.html and deliberately the same design: someone who taps the Ko-fi
+  button in the site header should land somewhere that looks like where they
+  came from.
+
+  1200x400 because Ko-fi crops to 3:1, not the 1200x630 the link preview uses,
+  so this is a re-layout rather than a crop of og.png.
+
+  Everything sits in the top 300px. Ko-fi overlays the profile picture on the
+  bottom-left of the cover, so that corner is left empty on purpose.
+
+  Render (the PNG is not committed; the site never serves it and Ko-fi hosts
+  it once uploaded). Same absolute-file:// caveat as og-card.html:
+
+    chrome --headless=new --disable-gpu --hide-scrollbars \
+      --force-device-scale-factor=1 --window-size=1200,400 \
+      --screenshot=kofi-cover.png \
+      "file:///C:/full/path/to/repo/scripts/kofi-cover.html"
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --bg: #14161a; --panel2: #22262f; --text: #d8dce5; --dim: #8a91a0;
+    --accent: #35a7ad; --debuff: #d95f5f; --chip: #2a2f3a;
+    --chip-hit: #0d3034; --border: #30343e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1200px; height: 400px; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.5 ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+    padding: 46px 56px;
+    border-left: 10px solid var(--accent);
+  }
+  h1 { font-size: 46px; line-height: 1.1; letter-spacing: -0.4px; color: var(--accent); font-weight: 700; }
+  .sub { font-size: 23px; color: var(--text); margin-top: 14px; }
+  .sub b { color: var(--accent); font-weight: 600; }
+
+  .rule {
+    display: inline-flex; align-items: center; gap: 11px;
+    margin-top: 30px;
+    background: var(--chip-hit);
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    padding: 12px 15px;
+  }
+  .kw { font-size: 14px; font-weight: 700; letter-spacing: 1px; color: var(--dim); }
+  .chip {
+    font-size: 18px; font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+    background: var(--panel2); border: 1px solid var(--accent);
+    color: var(--accent); border-radius: 6px; padding: 5px 11px;
+  }
+  .chip.status { border-color: var(--debuff); color: var(--debuff); }
+</style>
+</head>
+<body>
+  <h1>SU Structured Compendium</h1>
+  <p class="sub">Search 4,164 Siralim Ultimate effects by <b>what they actually do</b>.</p>
+  <div class="rule">
+    <span class="kw">WHEN</span>
+    <span class="chip">after_attack: holder</span>
+    <span class="kw">DO</span>
+    <span class="chip">apply_status &rarr; target</span>
+    <span class="chip status">Bomb</span>
+  </div>
+</body>
+</html>
