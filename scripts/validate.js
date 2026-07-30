@@ -4,11 +4,25 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { loadLexicon } from './lib/lexicon.js';
 import { termRegex, templateKey } from './lib/normalize.js';
 import { SOURCE_DIRS } from './lib/ids.js';
-import { validateAnnotation, crossCheckStatuses } from './lib/schema.js';
+import { validateAnnotation, crossCheckStatuses, crossCheckRefs } from './lib/schema.js';
 
 const lex = loadLexicon();
 const errors = [];
 const warnings = [];
+
+// Records the manifest marks `stale` have a known-out-of-date annotation: the
+// source text changed under it and it is queued for re-review. Their findings are
+// reported as warnings so the tracked backlog does not hide genuine breakage —
+// drift on a record NOT marked stale is still a hard error, which is the case
+// that means something is actually wrong.
+const manifest = JSON.parse(readFileSync('data/manifest.json', 'utf8')).records;
+const isStale = id => manifest[id]?.status === 'stale';
+const staleFindings = [];
+const report = (id, msgs) => {
+  if (!msgs.length) return;
+  if (isStale(id)) staleFindings.push(...msgs);
+  else errors.push(...msgs);
+};
 
 // --- load normalized ---
 const byId = new Map();
@@ -47,20 +61,24 @@ for (const [id, { ann, path }] of overrides) {
 for (const [id, { ann, path }] of annotations) {
   const record = byId.get(id);
   if (!record) { errors.push(`${path}: orphan annotation — id not in normalized data`); continue; }
-  errors.push(...validateAnnotation(ann, record, lex, byId));
-  errors.push(...crossCheckStatuses(ann, record, lex));
+  const found = [
+    ...validateAnnotation(ann, record, lex, byId),
+    // Where the game's markup is available it is the better evidence; the prose
+    // check still covers community-only sources (realm properties, nemesis).
+    ...(record.refs ? crossCheckRefs(ann, record, lex) : crossCheckStatuses(ann, record, lex)),
+  ];
   if (ann.textHash !== record.textHash) {
-    errors.push(`${id}: annotation textHash ${ann.textHash} != current ${record.textHash} (text drifted — retag)`);
+    found.push(`${id}: annotation textHash ${ann.textHash} != current ${record.textHash} (text drifted — retag)`);
   }
   // "does not stack" boilerplate must round-trip through flags.stacks
   const saysNoStack = /does not stack/i.test(record.text);
   const flagged = ann.flags?.stacks === false;
-  if (saysNoStack && !flagged) errors.push(`${id}: text says "does not stack" but flags.stacks is not false`);
-  if (!saysNoStack && flagged) errors.push(`${id}: flags.stacks=false but text has no "does not stack"`);
+  if (saysNoStack && !flagged) found.push(`${id}: text says "does not stack" but flags.stacks is not false`);
+  if (!saysNoStack && flagged) found.push(`${id}: flags.stacks=false but text has no "does not stack"`);
+  report(id, found);
 }
 
 // --- coverage ---
-const manifest = JSON.parse(readFileSync('data/manifest.json', 'utf8')).records;
 const counts = {};
 for (const [id, m] of Object.entries(manifest)) {
   const src = byId.get(id)?.source ?? '?';
@@ -92,7 +110,10 @@ for (const r of byId.values()) {
   clusters.get(key).push(r.id);
 }
 for (const [key, ids] of clusters) {
-  const tagged = ids.filter(id => annotations.has(id));
+  // An annotation queued for re-review no longer describes its record's text, so
+  // comparing its skeleton against a current one reports a disagreement that is
+  // really just the pending backlog.
+  const tagged = ids.filter(id => annotations.has(id) && !isStale(id));
   if (tagged.length < 2) continue;
   const sigs = new Map();
   for (const id of tagged) {
@@ -102,6 +123,29 @@ for (const [key, ids] of clusters) {
   }
   if (sigs.size > 1) {
     errors.push(`cluster inconsistency (${[...sigs.values()].map(g => g.join('|')).join('  vs  ')}) for shape: ${key.slice(0, 80)}`);
+  }
+}
+
+// --- lexicon upkeep (warnings) ---
+// The alias table exists to absorb transcription variants of a status name. Now
+// that effect text comes from the game, most of those variants cannot occur, and
+// an alias matching nothing is dead weight that quietly widens the status
+// matcher. Eight of the original ten were dropped this way.
+for (const alias of Object.keys(lex.statusAliases)) {
+  const re = termRegex(alias);
+  if (![...byId.values()].some(r => re.test(r.text))) {
+    warnings.push(`status alias "${alias}" matches no record text — safe to drop from status-aliases.json`);
+  }
+}
+// A status the game never types anywhere is either retired or only reachable
+// through an effect that names it in prose; either way it is worth knowing.
+{
+  const typed = new Set();
+  for (const r of byId.values()) for (const s of r.refs?.statuses ?? []) typed.add(s);
+  for (const s of lex.statuses) {
+    if (!typed.has(s.name) && !s.extra) {
+      warnings.push(`status "${s.name}" is in the lexicon but the game's markup never types it`);
+    }
   }
 }
 
@@ -127,6 +171,13 @@ console.log('coverage:');
 for (const [src, c] of Object.entries(counts).sort()) {
   const done = (c.machine ?? 0) + (c.tagged ?? 0);
   console.log(`  ${src.padEnd(8)} ${String(done).padStart(5)}/${String(c.total).padStart(5)} done  (todo ${c.todo ?? 0}, machine ${c.machine ?? 0}, tagged ${c.tagged ?? 0}, stale ${c.stale ?? 0})`);
+}
+if (staleFindings.length) {
+  const staleCount = Object.values(manifest).filter(m => m.status === 'stale').length;
+  console.log(`\n${staleCount} record(s) are queued for re-review after a source-text change;`
+    + ` their annotations produced ${staleFindings.length} finding(s), e.g.:`);
+  for (const s of staleFindings.slice(0, 8)) console.log(`  STALE ${s}`);
+  if (staleFindings.length > 8) console.log(`  … ${staleFindings.length - 8} more (run npm run audit for the list)`);
 }
 if (warnings.length) {
   console.log(`\n${warnings.length} warning(s):`);

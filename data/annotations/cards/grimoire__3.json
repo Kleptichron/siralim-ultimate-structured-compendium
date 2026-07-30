@@ -1,12 +1,12 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "card:grimore:3",
+  "id": "card:grimoire:3",
   "rules": [],
   "notes": "Meta-record: amplifies this card set's tier 1-2 effects; no independent mechanic to model.",
   "textHash": "c16c7b42b356",
   "amplifies": [
-    "card:grimore:1",
-    "card:grimore:2"
+    "card:grimoire:1",
+    "card:grimoire:2"
   ]
 }

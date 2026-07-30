@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "card:saytr:1",
+  "id": "card:satyr:1",
   "rules": [
     {
       "trigger": {
@@ -20,5 +20,5 @@
       ]
     }
   ],
-  "textHash": "f7e40e200822"
+  "textHash": "eced1179f983"
 }

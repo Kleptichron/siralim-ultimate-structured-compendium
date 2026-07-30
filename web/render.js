@@ -58,9 +58,14 @@ const META_FIELDS = {
   traits: m => [['Creature', m.creature], ['Family', m.family], ['Class', m.class],
     ['Material', m.material]],
   spells: m => [['Class', m.class], ['Charges', m.charges]],
-  perks: m => [['Specialization', m.specialization], ['Ranks', m.ranks],
-    [null, m.anointment && 'anointment']],
-  relics: m => [['Relic', m.relic], ['Rank', m.rank], ['Stat bonus', m.statBonus]],
+  // "ascension" must be visible: an ascension perk is absent from the spec's
+  // perk list until the spec is ascended, so a reader comparing the card against
+  // their own perk screen will conclude the data is wrong — that exact confusion
+  // is how this line got here.
+  perks: m => [['Specialization', m.specialization ?? 'unknown'], ['Ranks', m.ranks],
+    [null, m.anointment && 'anointment'], [null, m.ascension && 'ascension'],
+    [null, m.perRankValues && 'value shown is per rank']],
+  relics: m => [['Relic', m.relic], ['God', m.god], ['Rank', m.rank], ['Stat bonus', m.statBonus]],
   cards: m => [['Family', m.family], ['Cards needed', m.tierRequired]],
   buffs: m => [[null, 'buff'], ['Duration', m.defaultDuration]],
   debuffs: m => [[null, 'debuff'], ['Duration', m.defaultDuration]],
@@ -220,10 +225,14 @@ function ruleHtml(rule, query, mark) {
 export function cardHtml(rec, query) {
   const meta = metaHtml(rec, query.q);
   const badges = [`<span class="badge type">${rec.type}</span>`];
-  // Coverage is 100%, so this is currently unreachable — kept because a future
-  // `npm run import` can add records the corpus has not been tagged for yet,
-  // and a card with no rules needs to say why rather than look broken.
-  if (!rec.rules) badges.push('<span class="badge untagged">untagged</span>');
+  // Two different reasons a card can carry no rules, and they are not the same
+  // promise to the reader. `stale` means it HAD an annotation and the source text
+  // changed underneath it, so the old rules were withheld rather than shown
+  // contradicting the text; the effect text on the card is still current.
+  if (rec.status === 'stale') {
+    badges.push('<span class="badge untagged" title="The game\'s text for this effect changed;'
+      + ' its old rules were withheld pending re-review. The text shown is current.">text changed</span>');
+  } else if (!rec.rules) badges.push('<span class="badge untagged">untagged</span>');
   else if (rec.provenance === 'machine') badges.push('<span class="badge machine">machine</span>');
   // With 2+ rules it's not obvious WHICH one answered the query — say so.
   const multi = (rec.rules ?? []).length > 1;

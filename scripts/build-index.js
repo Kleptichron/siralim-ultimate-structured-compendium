@@ -230,36 +230,50 @@ const manifest = JSON.parse(readFileSync('data/manifest.json', 'utf8')).records;
 const records = [];
 for (const src of Object.values(SOURCE_DIRS)) {
   for (const r of JSON.parse(readFileSync(`data/normalized/${src}.json`, 'utf8'))) {
-    const ann = anns.get(r.id);
+    const status = manifest[r.id]?.status ?? 'todo';
+    // A `stale` annotation was written against text the source has since changed.
+    // Its rules are not merely incomplete, they can contradict the text now shown
+    // — trait:bonding read "the same class" where the game says "a different
+    // class" — and a rule that disagrees with its own record is worse than no rule
+    // at all, because the reader has no way to see it. So the annotation is
+    // withheld from the index until it is re-reviewed, and the record ships as
+    // searchable text with an honest badge instead of a wrong answer.
+    const ann = status === 'stale' ? null : anns.get(r.id);
     const entry = {
       id: r.id,
       type: src,
       name: r.name,
       text: r.text,
       meta: r.meta,
-      status: manifest[r.id]?.status ?? 'todo',
+      status,
     };
     if (src === 'traits') entry.slots = traitSlots(r.id, r.meta);
     if (ann) {
       entry.provenance = ann.provenance;
       entry.matchBags = (ann.rules ?? []).flatMap((rule, i) => deriveRuleBags(rule, i));
       entry.facets = unionFacets(entry.matchBags, ann);
-      // Whose effect this IS — distinct from raceInteractions, which is about
-      // rules that CHECK a race. Same vocabulary, opposite direction.
-      if (r.meta?.family) entry.facets.families = [r.meta.family];
-      // Where a trait can be equipped, from the slots derived above. Innate and
-      // fusion collapse to one value: they are the same predicate, and two
-      // facet values that can never disagree are noise in a list you scan.
-      // Nether is left out entirely — it accepts every trait, so offering it
-      // would be a filter that cannot filter.
-      if (entry.slots) {
-        entry.facets.equip = EQUIP_FROM_SLOT
-          .filter(([slot]) => entry.slots.includes(slot)).map(([, value]) => value);
-      }
       entry.rules = ann.rules;
       if (ann.flags) entry.flags = ann.flags;
       if (ann.notes) entry.notes = ann.notes;
       if (ann.amplifies) entry.amplifies = ann.amplifies;
+    }
+    // Record-level facets: these come from the record's own metadata, not from
+    // its rules, so they hold whether or not it has an annotation. They used to
+    // sit inside the branch above, which was invisible while coverage was 100%
+    // and became wrong the moment it wasn't — an untagged trait still has a known
+    // family and a known slot, and filtering on either must still find it.
+    //
+    // Whose effect this IS — distinct from raceInteractions, which is about rules
+    // that CHECK a race. Same vocabulary, opposite direction.
+    if (r.meta?.family) (entry.facets ??= {}).families = [r.meta.family];
+    // Where a trait can be equipped, from the slots derived above. Innate and
+    // fusion collapse to one value: they are the same predicate, and two facet
+    // values that can never disagree are noise in a list you scan. Nether is left
+    // out entirely — it accepts every trait, so offering it would be a filter
+    // that cannot filter.
+    if (entry.slots) {
+      (entry.facets ??= {}).equip = EQUIP_FROM_SLOT
+        .filter(([slot]) => entry.slots.includes(slot)).map(([, value]) => value);
     }
     records.push(entry);
   }
@@ -285,9 +299,17 @@ for (const src of Object.values(SOURCE_DIRS)) {
   }
 }
 
+// Which game build the effect text was read from, so the footer can state it
+// instead of only saying when the index was built.
+const gameBuild = existsSync('source/game/meta.json')
+  ? (({ steamBuildId, depotUpdated, extractedOn }) => ({ steamBuildId, depotUpdated, extractedOn }))(
+      JSON.parse(readFileSync('source/game/meta.json', 'utf8')))
+  : null;
+
 const index = {
   generated: new Date().toISOString(),
   schemaVersion: SCHEMA_VERSION,
+  ...(gameBuild?.steamBuildId && { gameBuild }),
   statuses: lex.statuses.map(s => ({ name: s.name, kind: s.kind })),
   // Groups whose values have an inherent order the app should display them in,
   // rather than the by-frequency default. Shipped so the scale lives only in

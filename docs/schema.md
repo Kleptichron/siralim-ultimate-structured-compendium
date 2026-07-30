@@ -39,6 +39,34 @@ Two shapes the validator rejects outright, both learned the hard way:
 - **A second trigger hidden in params** — `trigger.params.alsoAfter`. "Defends or
   provokes" is two trigger types, so it is two rules.
 
+## Record shape
+
+Records are built by `npm run import` and are what annotations attach to.
+
+```jsonc
+{
+  "id": "trait:flesh-rot",
+  "name": "Flesh Rot",
+  "text": "After an enemy is afflicted with either Weak or Vulnerable, …",
+  "textHash": "…",
+  "meta": { "class": "Death", "family": "Abomination", … },  // from source/*.csv
+  "markup": "After an enemy is afflicted with either {CONDNAME_DEBUFF_WEAK} …",
+  "refs": {                   // what the game's markup asserts about this string
+    "statuses": ["Vulnerable", "Weak"],
+    "debuffs":  ["Vulnerable", "Weak"],   // buffs/debuffs/minions kept apart
+    "families": [], "classes": [], "stats": [], "actions": ["afflicted"],
+    "markup": []              // semantic bracket tags: slot_spell, temporary, …
+  }
+}
+```
+
+`refs` is the game's own typing of the sentence, not a re-parse of it, so it is
+the evidence `validate` prefers: `crossCheckRefs` requires every status an
+annotation claims to be one the game types here, and every buff or debuff the game
+types to be claimed or explicitly waived. Records with no `refs` (the
+community-only sources — realm properties, nemesis modifiers) fall back to the
+older prose check.
+
 ## Annotation shape
 
 ```jsonc
@@ -121,12 +149,19 @@ Authoritative lists in [scripts/lib/schema.js](../scripts/lib/schema.js):
 - **Damage tier words** (spells use these, not numbers):
   `magnitude.tier` ∈ small / moderate / large / massive / devastating.
 - **Buff vs debuff** is derived from the status lexicon — one verb, `apply_status`.
-- **Status aliases** — the source text uses variants ("Stoned" for Stone, "Fear"
-  for Feared) and contains outright typos ("Frzoen").
-  [status-aliases.json](../data/lexicon/status-aliases.json) maps them;
-  annotations always use canonical names, and the validator accepts an alias as
-  text evidence.
-- **Extra statuses** absent from buffs/debuffs.csv (Mania, Secret Stuff) live in
+- **Status aliases** — a leftover from when effect text was hand-transcribed and
+  spelled a status several ways. Now that the text comes from the game, only
+  `Poison`→`Poisoned` and `Scorn`→`Scorned` still occur;
+  [status-aliases.json](../data/lexicon/status-aliases.json) maps those, and
+  `validate` warns about any entry that has stopped matching anything.
+  Annotations always use canonical names.
+- **Status display names** — the game's internal key is not the shown name
+  (`DEBUFF_BURNED` → "Burning", `BUFF_WARD` → "Warded"), and only compiled code
+  holds the mapping, so it is curated in
+  [status-names.json](../data/lexicon/status-names.json). Every value is checked
+  against the strings the game ships; an unlisted token fails the extract.
+- **Extra statuses** the game's status table does not carry (Secret Stuff, a
+  Witch Doctor perk buff) live in
   [extra-statuses.json](../data/lexicon/extra-statuses.json).
 - **noText realm properties** (39 self-descriptive names) are tagged from the
   name; the validator uses the name as the evidence haystack.
@@ -177,7 +212,10 @@ the biggest cluster in the audit and should **not** be extracted.
 ## Pipeline
 
 ```
-npm run import       # CSV -> data/normalized + lexicons + manifest drift detection
+npm run extract-game # game localization -> source/game/*.json (manual; needs the game)
+npm run import       # game + CSV -> data/normalized + lexicons + manifest drift
+                     #   --dry-run  report the drift without writing anything
+                     #   --verbose  print before/after for each changed text
 npm run extract      # -> data/evidence + machine-draft annotations
 npm run cluster      # -> data/evidence/clusters.json (consistency groups)
 npm run absorb       # data/batches/*.json -> per-record annotations (all-or-nothing)
@@ -198,11 +236,17 @@ bad batch got committed that way once. Redirect and tail instead.
 
 - Enum conformance across all searchable fields, plus lexicon conformance for the
   conventional `params` keys.
-- **Status evidence, both ways**: every status an annotation claims must appear in
-  the text (via canonical name or alias), and every status in the text must be
-  either referenced or explicitly in `waivedStatuses`.
+- **Status evidence, both ways**: every status an annotation claims must be one the
+  game's markup types in that record, and every buff or debuff the markup types
+  must be either referenced or explicitly in `waivedStatuses`. Records with no
+  markup (the community-only sources) use the older prose match, which accepts a
+  canonical name or an alias. Families are checked the same way.
+- Unresolved markup — a token the extractor could not map would silently become a
+  missing ref, so it is an error.
 - `textHash` freshness — annotations written against text that has since changed
-  are stale, not silently wrong.
+  are stale, not silently wrong. A record the manifest already marks `stale` reports
+  its findings as such; drift on a record that is *not* marked stale is a hard
+  error, because that is the case that means something is actually wrong.
 - "does not stack" ⇔ `flags.stacks: false`.
 - Cluster consistency: identical template shapes must get identical rule
   skeletons.

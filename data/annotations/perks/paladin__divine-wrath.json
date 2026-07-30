@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "perk:paladin:wrath",
+  "id": "perk:paladin:divine-wrath",
   "rules": [
     {
       "trigger": {

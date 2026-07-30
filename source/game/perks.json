@@ -1,0 +1,3307 @@
+[
+  {
+    "key": "CELERITY",
+    "name": "Celerity",
+    "markup": "After your creatures dodge, they {ACTION_attack} the enemy."
+  },
+  {
+    "key": "SERENITY",
+    "name": "Serenity",
+    "markup": "<5>% of your creatures' chance to dodge attacks is applied to spells as well. This perk ignores independent chances to dodge attacks granted by other effects."
+  },
+  {
+    "key": "SPIRITUALATTUNEMENT",
+    "name": "Spiritual Attunement",
+    "markup": "When your creatures take indirect damage, they have a <1>% chance to prevent that damage."
+  },
+  {
+    "key": "PRESSUREPOINT",
+    "name": "Pressure Point",
+    "markup": "Increases your creatures' damage dealt with [nature_monk_kaze] Celerity by <2>%."
+  },
+  {
+    "key": "PROTECTIVEWINDS",
+    "name": "Protective Winds",
+    "markup": "Your creatures have an independent <3>% chance to dodge attacks."
+  },
+  {
+    "key": "DAMPENHARM",
+    "name": "Dampen Harm",
+    "markup": "When your creatures would receive fatal damage, they have a chance to prevent that damage equal to their chance to dodge."
+  },
+  {
+    "key": "FORTIFIEDSPIRIT",
+    "name": "Fortified Spirit",
+    "markup": "After your creatures dodge, they gain <1>% {STAT_defense} for each time they've {ACTION_attacked} with [nature_monk_kaze] Celerity in the current battle."
+  },
+  {
+    "key": "BLURREDSTRIKES",
+    "name": "Blurred Strikes",
+    "markup": "After your creatures {ACTION_attack} with [nature_monk_kaze] Celerity, they have a <2.5>% chance to {ACTION_attack} an additional time. This effect can occur repeatedly until it fails."
+  },
+  {
+    "key": "RIDETHEWIND",
+    "name": "Ride the Wind",
+    "markup": "While your creatures are {ACTION_defending}, they receive a bonus to their {STAT_speed} instead of {STAT_defense}."
+  },
+  {
+    "key": "VITALSTRIKE",
+    "name": "Vital Strike",
+    "markup": "When your creatures {ACTION_attack}, with [nature_monk_kaze]Celerity, they have a <2>% chance to deal 100% more damage."
+  },
+  {
+    "key": "EXTENDEDREACH",
+    "name": "Extended Reach",
+    "markup": "After your creatures {ACTION_attack} with [nature_monk_kaze]Celerity, they have a <1>% chance to move to the top of the {TIMELINE}."
+  },
+  {
+    "key": "FAKEOUT",
+    "name": "Fake Out",
+    "markup": "After an enemy dodges your creatures' attacks, your creatures have a <3>% chance to {ACTION_attack} again."
+  },
+  {
+    "key": "THYLACINESFURY",
+    "name": "Thylacine's Fury",
+    "markup": "Your creatures deal additional damage equal to 50% of the amount of {STAT_speed} they have greater than their target."
+  },
+  {
+    "key": "CROSSWINDS",
+    "name": "Crosswinds",
+    "markup": "Your creatures deal additional damage equal to <1>% of their {STAT_speed}."
+  },
+  {
+    "key": "GOODKARMA",
+    "name": "Good Karma",
+    "markup": "Your creatures always have {CONDNAME_BUFF_AGILE}, and their {CONDNAME_BUFF_AGILE} buff has a <5>% greater chance to activate. {CONDDESC_BUFF_AGILE}"
+  },
+  {
+    "key": "GRIMKEEPER",
+    "name": "Grimkeeper",
+    "markup": "Your Animatus' buffs and minions persist through death."
+  },
+  {
+    "key": "GRAYMATTER",
+    "name": "Gray Matter",
+    "markup": "Your Animatus gains <1> Spell Slot(s)."
+  },
+  {
+    "key": "ENDOWMENT",
+    "name": "Endowment",
+    "markup": "At the start of battle, your Animatus fuses with a copy of the second creature in your party. In addition, its race changes to that creature's race."
+  },
+  {
+    "key": "DESENSITIZATION",
+    "name": "Desensitization",
+    "markup": "Your Animatus is immune to debuffs in non-boss battles, and resistant to debuffs in boss battles."
+  },
+  {
+    "key": "THRIVEONDEATH",
+    "name": "Thrive On Death",
+    "markup": "After your creatures are killed, your Animatus gains <1>% of their stats."
+  },
+  {
+    "key": "DEATHANDDECAY",
+    "name": "Death and Decay",
+    "markup": "After an enemy is killed, your Animatus casts Corpse Explosion. This spell deals 50% more damage for each dead enemy."
+  },
+  {
+    "key": "DAMNATIONSEDGE",
+    "name": "Damnation's Edge",
+    "markup": "At the start of battle, your Animatus gains a copy of your fifth creature's innate trait."
+  },
+  {
+    "key": "MOLECULARBETRAYAL",
+    "name": "Molecular Betrayal",
+    "markup": "At the start of battle, your Animatus gains <1>% of your third creature's stats."
+  },
+  {
+    "key": "FORGEDBYPAIN",
+    "name": "Forged by Pain",
+    "markup": "Your Animatus splits the damage it takes with your sixth creature."
+  },
+  {
+    "key": "COGMIND",
+    "name": "Cogmind",
+    "markup": "At the start of battle, your Animatus gains copies of your fourth creature's first 5 Spell Gems."
+  },
+  {
+    "key": "ANGUISHTHROUGHAWARENESS",
+    "name": "Anguish Through Awareness",
+    "markup": "Your Animatus starts battles with <1> random buffs."
+  },
+  {
+    "key": "DANCINGBLADE",
+    "name": "Dancing Blade",
+    "markup": "Your Animatus always has {CONDNAME_MINION_ANIMATEDWEAPON}. {CONDDESC_MINION_ANIMATEDWEAPON}"
+  },
+  {
+    "key": "FORBIDDENMAGIC",
+    "name": "Forbidden Magic",
+    "markup": "The first time your Animatus is killed in battle, it resurrects with 100% {STAT_health}."
+  },
+  {
+    "key": "DARKANIMA",
+    "name": "Dark Anima",
+    "markup": "Your Animatus always has {CONDNAME_MINION_ANIMATEDGEM}. {CONDDESC_MINION_ANIMATEDGEM}"
+  },
+  {
+    "key": "MASTERPIECE",
+    "name": "Masterpiece",
+    "markup": "After your creatures gain a buff, your Animatus gains that buff as well."
+  },
+  {
+    "key": "TOOLSOFTHETRADE",
+    "name": "Tools of the Trade",
+    "markup": "Your artifacts' [slot_trick] Trick Slots are <1>% more powerful."
+  },
+  {
+    "key": "HIDDENHAND",
+    "name": "Hidden Hand",
+    "markup": "Your artifacts' [slot_spell] Spell Slots have a <2>% additional chance to be cast."
+  },
+  {
+    "key": "SPONTANEITY",
+    "name": "Spontaneity",
+    "markup": "At random times during your creatures' turns, they have a chance to {ACTION_cast} one of their [temporary] Ethereal Spell Gems."
+  },
+  {
+    "key": "SLEIGHTOFHAND",
+    "name": "Sleight of Hand",
+    "markup": "Whenever it is one of your creatures' turns, any random effects that fail to occur are re-rolled an additional time."
+  },
+  {
+    "key": "EVENTHEODDS",
+    "name": "Even the Odds",
+    "markup": "At the start of battle, you have a <2>% chance to instantly kill a random enemy."
+  },
+  {
+    "key": "PILFER",
+    "name": "Pilfer",
+    "markup": "At the start of battle, your creatures steal <1> random Spell Gem(s) from a random enemy."
+  },
+  {
+    "key": "FEINT",
+    "name": "Feint",
+    "markup": "After your creatures dodge, they have a <4>% chance to afflict the enemy with {CONDNAME_DEBUFF_DISARMED}. {CONDDESC_DEBUFF_DISARMED}"
+  },
+  {
+    "key": "NIGHTSTALKER",
+    "name": "Nightstalker",
+    "markup": "At the start of battle, the first <1> creature(s) in your party gain {CONDNAME_BUFF_INVISIBLE}. {CONDDESC_BUFF_INVISIBLE}"
+  },
+  {
+    "key": "STRATAGEM",
+    "name": "Stratagem",
+    "markup": "Your creatures deal <2>% more damage while they're {CONDNAME_BUFF_INVISIBLE}. {CONDDESC_BUFF_INVISIBLE}"
+  },
+  {
+    "key": "BAFFLEMENT",
+    "name": "Bafflement",
+    "markup": "At the start of battle, <1> enemy(s) are afflicted with {CONDNAME_DEBUFF_CONFUSED}. {CONDDESC_DEBUFF_CONFUSED}"
+  },
+  {
+    "key": "WHETBONE",
+    "name": "Whetbone",
+    "markup": "Your creatures always have {CONDNAME_BUFF_PROFICIENT}. {CONDDESC_BUFF_PROFICIENT}"
+  },
+  {
+    "key": "REBOUND",
+    "name": "Rebound",
+    "markup": "When your creatures {ACTION_attack}, and their attack would fail to deal critical damage, the critical chance is re-rolled one additional time."
+  },
+  {
+    "key": "PREY",
+    "name": "Prey",
+    "markup": "When your creatures {ACTION_attack} while the target is afflicted with {CONDNAME_DEBUFF_DISARMED}, the target's Artifact's [slot_stat] Stat Slots are applied to your creature for all effects that relate to that attack. {CONDDESC_DEBUFF_DISARMED}"
+  },
+  {
+    "key": "SUBTERFUGE",
+    "name": "Subterfuge",
+    "markup": "Your creatures' attacks ignore <2>% of the target's {STAT_defense}."
+  },
+  {
+    "key": "INTENTTOKILL",
+    "name": "Intent to Kill",
+    "markup": "When an enemy would dodge your creatures' attacks, the dodge chance is re-rolled an additional time."
+  },
+  {
+    "key": "ENDURINGRAGE",
+    "name": "Enduring Rage",
+    "markup": "Your creatures {ACTION_attack} 1 additional time."
+  },
+  {
+    "key": "MASSACRE",
+    "name": "Massacre",
+    "markup": "Your creatures' {CONDNAME_BUFF_SPLASH} buffs now deal damage to all enemies. {CONDDESC_BUFF_SPLASH}"
+  },
+  {
+    "key": "RECKLESSABANDON",
+    "name": "Reckless Abandon",
+    "markup": "Your creatures' {CONDNAME_BUFF_SAVAGE} buff now causes them to have a 100% chance to deal critical damage. {CONDDESC_BUFF_SAVAGE}"
+  },
+  {
+    "key": "DEATHSENTENCE",
+    "name": "Death Sentence",
+    "markup": "Your creatures' critical attacks deal <2>% more damage."
+  },
+  {
+    "key": "MAGMADIVER",
+    "name": "Magma Diver",
+    "markup": "Your creatures always have {CONDNAME_BUFF_SPLASH} and {CONDNAME_BUFF_SAVAGE}. {CONDDESC_BUFF_SPLASH} {CONDDESC_BUFF_SAVAGE}"
+  },
+  {
+    "key": "EXECUTIONER",
+    "name": "Executioner",
+    "markup": "Your creatures deal <1>% more damage with attacks."
+  },
+  {
+    "key": "INNERFOCUS",
+    "name": "Inner Focus",
+    "markup": "When your creatures cast a spell, <1>% of their {STAT_attack} is added to their {STAT_intelligence} to determine the amount of damage dealt."
+  },
+  {
+    "key": "TOUCHOFCHAOS",
+    "name": "Touch of Chaos",
+    "markup": "After your creatures {ACTION_attack}, they have a <1>% chance to afflict the target with a random debuff."
+  },
+  {
+    "key": "KINDLING",
+    "name": "Kindling",
+    "markup": "At the start of battle, the first creature in your party casts Firestorm."
+  },
+  {
+    "key": "PYROMANIA",
+    "name": "Pyromania",
+    "markup": "After your creatures attack, they have a <1>% chance to cast Flamestrike."
+  },
+  {
+    "key": "BLAZINGSOUL",
+    "name": "Blazing Soul",
+    "markup": "When your creatures afflict enemies with {CONDNAME_DEBUFF_BURNED}, their {STAT_attack} is used to determine the potency of this debuff if it is higher than their {STAT_intelligence}. {CONDDESC_DEBUFF_BURNED}"
+  },
+  {
+    "key": "DREADNAUGHT",
+    "name": "Dreadnaught",
+    "markup": "Your creatures' attacks cannot be dodged."
+  },
+  {
+    "key": "INDOMITABLE",
+    "name": "Indomitable",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_SCORN}. {CONDDESC_DEBUFF_SCORN}"
+  },
+  {
+    "key": "BOLSTER",
+    "name": "Bolster",
+    "markup": "Your creatures take 1% less damage from attacks and spells for every 1% of {STAT_health} they're missing."
+  },
+  {
+    "key": "DEADLYCALM",
+    "name": "Deadly Calm",
+    "markup": "Enemies cannot {ACTION_provoke}."
+  },
+  {
+    "key": "RELENTLESS",
+    "name": "Relentless",
+    "markup": "After your creatures {ACTION_attack}, and the attack fails to deal critical damage, their chance to deal critical damage with attacks is doubled on their next turn. This effect stacks multiple times in a row until the creature deals critical damage with attacks."
+  },
+  {
+    "key": "MERCURIAL",
+    "name": "Mercurial",
+    "markup": "After your creatures are {ACTION_attacked}, and they fail to dodge the attack, their chance to dodge attacks is doubled the next time they're {ACTION_attacked}. This effect stacks multiple times in a row until they successfully dodge an attack."
+  },
+  {
+    "key": "SKIRMISH",
+    "name": "Skirmish",
+    "markup": "Your creatures have a <1>% chance to {ACTION_attack} an additional time. This effect can occur repeatedly until it fails."
+  },
+  {
+    "key": "BLITZKRIEG",
+    "name": "Blitzkrieg",
+    "markup": "Your creatures' attacks that happen simultaneously to the same target deal <1>% more damage than the last."
+  },
+  {
+    "key": "RIGOR",
+    "name": "Rigor",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_SNARED}, {CONDNAME_DEBUFF_FROZEN}, and {CONDNAME_DEBUFF_SLEEP}."
+  },
+  {
+    "key": "SUREFOOTED",
+    "name": "Sure-footed",
+    "markup": "Enemies cannot move your creatures down the {TIMELINE}."
+  },
+  {
+    "key": "REIGNOFCHAOS",
+    "name": "Reign of Chaos",
+    "markup": "Your creatures have <1>% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each battle you've won in the current realm."
+  },
+  {
+    "key": "ONSLAUGHT",
+    "name": "Onslaught",
+    "markup": "Your creatures deal 5% more damage and take 5% less damage for each battle you've won in the current realm. If you're not in a realm, this perk acts as if you've won 8 battles."
+  },
+  {
+    "key": "PROLIFERATION",
+    "name": "Proliferation",
+    "markup": "Your creatures deal 30% more damage for each turn they've taken in battle."
+  },
+  {
+    "key": "REVERBERATION",
+    "name": "Reverberation",
+    "markup": "Your creatures {ACTION_attack} and {ACTION_cast} an additional time for every 2 turns they've taken in battle."
+  },
+  {
+    "key": "CONTROLLEDANGER",
+    "name": "Controlled Anger",
+    "markup": "After your creatures take 2 turns, they become immune to debuffs for the rest of the battle."
+  },
+  {
+    "key": "MENTALCLARITY",
+    "name": "Mental Clarity",
+    "markup": "After your creatures take 3 turns, they can {ACTION_cast} spells without consuming any {STAT_charges} for the rest of the battle."
+  },
+  {
+    "key": "STIMULATION",
+    "name": "Stimulation",
+    "markup": "Your creatures no longer take extra damage from battle fatigue."
+  },
+  {
+    "key": "SAP",
+    "name": "Sap",
+    "markup": "Enemies take <5>% more damage from battle fatigue."
+  },
+  {
+    "key": "REDEYEFIGHT",
+    "name": "Red-eye Fight",
+    "markup": "Battle fatigue starts to accumulate <1> turn(s) sooner."
+  },
+  {
+    "key": "RAPIDEXHAUSTION",
+    "name": "Rapid Exhaustion",
+    "markup": "Battle fatigue accumulates <2>% faster."
+  },
+  {
+    "key": "CENSURE",
+    "name": "Censure",
+    "markup": "Your creatures deal additional damage equal to <2>% of the healing they've received in the current battle."
+  },
+  {
+    "key": "FLAGELLATION",
+    "name": "Flagellation",
+    "markup": "Your creatures' healing effects deal damage when applied to enemies."
+  },
+  {
+    "key": "MIRACLE",
+    "name": "Miracle",
+    "markup": "After your creatures are resurrected, they deal damage to all enemies equal to <1.5>% of their Maximum {STAT_health}."
+  },
+  {
+    "key": "LAYTOREST",
+    "name": "Lay to Rest",
+    "markup": "Enemies can only resurrect once per battle."
+  },
+  {
+    "key": "DIVINESTRENGTH",
+    "name": "Divine Strength",
+    "markup": "After your creatures are healed, they gain {STAT_attack} and {STAT_intelligence} equal to <1>% of the amount of healing received."
+  },
+  {
+    "key": "SHININGFORCE",
+    "name": "Shining Force",
+    "markup": "At the start of battle, your creatures gain {CONDNAME_BUFF_REBIRTH}. {CONDDESC_BUFF_REBIRTH}"
+  },
+  {
+    "key": "CONTRITION",
+    "name": "Contrition",
+    "markup": "After an enemy attacks, they have a <4>% chance to be afflicted with {CONDNAME_DEBUFF_SCORN}. {CONDDESC_DEBUFF_SCORN}"
+  },
+  {
+    "key": "JUDGMENT",
+    "name": "Judgment",
+    "markup": "After an enemy {ACTION_casts} a spell, they have <4>% chance to be afflicted with {CONDNAME_DEBUFF_SILENCE}. {CONDDESC_DEBUFF_SILENCE}"
+  },
+  {
+    "key": "BEGRUDGE",
+    "name": "Begrudge",
+    "markup": "After an enemy {ACTION_casts} a spell, that Spell Gem is Sealed."
+  },
+  {
+    "key": "HERESY",
+    "name": "Heresy",
+    "markup": "When your creatures deal damage with an attack or spell, they deal 30% more damage for each debuff and Sealed Spell Gem the enemy has."
+  },
+  {
+    "key": "DEFYEVIL",
+    "name": "Defy Evil",
+    "markup": "Your creatures' damage from attacks and spells ignores <2.5>% of the enemies' {STAT_defense}."
+  },
+  {
+    "key": "ADMONISH",
+    "name": "Admonish",
+    "markup": "At the start of battle, enemy {CLASS_Sorcery} creatures are afflicted with {CONDNAME_DEBUFF_SILENCE} and lose 30% {STAT_intelligence}. {CONDDESC_DEBUFF_SILENCE}"
+  },
+  {
+    "key": "BERATE",
+    "name": "Berate",
+    "markup": "At the start of battle, enemy {CLASS_Life} creatures are afflicted with {CONDNAME_DEBUFF_BLIGHT} and lose 30% Maximum {STAT_health}. {CONDDESC_DEBUFF_BLIGHT}"
+  },
+  {
+    "key": "CASTIGATE",
+    "name": "Castigate",
+    "markup": "At the start of battle, enemy {CLASS_Chaos} creatures are afflicted with {CONDNAME_DEBUFF_SCORN} and lose 30% {STAT_attack}. {CONDDESC_DEBUFF_SCORN}"
+  },
+  {
+    "key": "REBUKE",
+    "name": "Rebuke",
+    "markup": "At the start of battle, enemy {CLASS_Nature} creatures are afflicted with {CONDNAME_DEBUFF_FEAR} and lose 30% {STAT_speed}. {CONDDESC_DEBUFF_FEAR}"
+  },
+  {
+    "key": "CONDEMN",
+    "name": "Condemn",
+    "markup": "At the start of battle, enemy {CLASS_Death} creatures are afflicted with {CONDNAME_DEBUFF_VULNERABLE} and lose 30% {STAT_defense}. {CONDDESC_DEBUFF_VULNERABLE}"
+  },
+  {
+    "key": "APOTHEOSIS",
+    "name": "Apotheosis",
+    "markup": "After your creatures are healed, they have a <2>% chance to gain a random buff."
+  },
+  {
+    "key": "GUARDIANANGEL",
+    "name": "Guardian Angel",
+    "markup": "You have a <1>% chance to negate enemy attacks and spells."
+  },
+  {
+    "key": "INNERLIGHT",
+    "name": "Inner Light",
+    "markup": "Your creatures take <1>% less damage from all sources."
+  },
+  {
+    "key": "OVERHEAL",
+    "name": "Overheal",
+    "markup": "Your creatures can trigger healing effects even while they're at full {STAT_health}."
+  },
+  {
+    "key": "LUMINESCE",
+    "name": "Luminesce",
+    "markup": "After your creatures are healed, and the amount healed exceeds the creature's Maximum {STAT_health}, store the extra healing as a {CONDNAME_BUFF_BARRIER}. {CONDDESC_BUFF_BARRIER}"
+  },
+  {
+    "key": "GREATERHEALING",
+    "name": "Greater Healing",
+    "markup": "Your creatures' healing effects are <4>% more powerful. Your creatures gain <4>% more benefit from healing effects."
+  },
+  {
+    "key": "RADIANCE",
+    "name": "Radiance",
+    "markup": "Increases the potency of your creatures' effects that increase their stats by <2>%."
+  },
+  {
+    "key": "HOLYMIGHT",
+    "name": "Holy Might",
+    "markup": "Your creatures deal <1>% more damage for each buff they have."
+  },
+  {
+    "key": "LENIENCE",
+    "name": "Lenience",
+    "markup": "Your creatures take <1>% less damage for each buff they have."
+  },
+  {
+    "key": "CONSECRATEDGROUND",
+    "name": "Consecrated Ground",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_BLIGHT}. {CONDDESC_DEBUFF_BLIGHT}"
+  },
+  {
+    "key": "PREMONITION",
+    "name": "Premonition",
+    "markup": "While your creatures have a {CONDNAME_BUFF_BARRIER}, they take <1>% less damage from all sources. {CONDDESC_BUFF_BARRIER}"
+  },
+  {
+    "key": "GUIDINGLIGHT",
+    "name": "Guiding Light",
+    "markup": "At the start of battle, your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to <1>% of their Maximum {STAT_health}. {CONDDESC_BUFF_BARRIER}"
+  },
+  {
+    "key": "STRENGTHOFSOUL",
+    "name": "Strength of Soul",
+    "markup": "Your creatures deal additional damage equal to <1>% of their {CONDNAME_BUFF_BARRIER} strength. {CONDDESC_BUFF_BARRIER}"
+  },
+  {
+    "key": "SAVINGGRACE",
+    "name": "Saving Grace",
+    "markup": "After your creatures are resurrected, they gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to <2>% of their Maximum {STAT_health}. {CONDDESC_BUFF_BARRIER}"
+  },
+  {
+    "key": "REVELATION",
+    "name": "Revelation",
+    "markup": "At the end of your creatures' turns, your dead creatures have a <1.5>% chance to be resurrected with 50% {STAT_health}."
+  },
+  {
+    "key": "LANGUISH",
+    "name": "Languish",
+    "markup": "Increases the potency of your creatures' effects that decrease enemies' stats by <2>%."
+  },
+  {
+    "key": "TRAGEDY",
+    "name": "Tragedy",
+    "markup": "Decreases the potency of enemies' effects that increase their stats by <2>%."
+  },
+  {
+    "key": "ANEMIA",
+    "name": "Anemia",
+    "markup": "Enemies' {CONDNAME_DEBUFF_WEAK} debuffs are <5>% more effective. {CONDDESC_DEBUFF_WEAK}"
+  },
+  {
+    "key": "TENDERNESS",
+    "name": "Tenderness",
+    "markup": "Enemies' {CONDNAME_DEBUFF_VULNERABLE} debuffs are <5>% more effective. {CONDDESC_DEBUFF_VULNERABLE}"
+  },
+  {
+    "key": "HORRORSHOW",
+    "name": "Horror Show",
+    "markup": "Enemies with {CONDNAME_DEBUFF_FEAR} have a <1>% chance to lose their turns. {CONDDESC_DEBUFF_FEAR}"
+  },
+  {
+    "key": "INFIRMITY",
+    "name": "Infirmity",
+    "markup": "At the start of battle, enemies are afflicted with <1> random debuff(s)."
+  },
+  {
+    "key": "UNHOLYNIGHT",
+    "name": "Unholy Night",
+    "markup": "After your creatures afflict enemies with a debuff, they deal damage to them equal to 80% of their lowest stat."
+  },
+  {
+    "key": "CURSEOFIMPOTENCE",
+    "name": "Curse of Impotence",
+    "markup": "Enemies have <1>% less {STAT_attack}."
+  },
+  {
+    "key": "CURSEOFVULNERABILITY",
+    "name": "Curse of Vulnerability",
+    "markup": "Enemies have <1>% less {STAT_defense}."
+  },
+  {
+    "key": "CURSEOFFUTILITY",
+    "name": "Curse of Futility",
+    "markup": "Enemies have <1>% less {STAT_intelligence}."
+  },
+  {
+    "key": "CURSEOFLETHARGY",
+    "name": "Curse of Lethargy",
+    "markup": "Enemies have <1>% less {STAT_speed}."
+  },
+  {
+    "key": "CURSEOFFRAGILITY",
+    "name": "Curse of Fragility",
+    "markup": "Enemies have <1>% less Maximum {STAT_health}."
+  },
+  {
+    "key": "WANE",
+    "name": "Wane",
+    "markup": "At the start of battle, enemies lose <1>% Health."
+  },
+  {
+    "key": "NIGHTTAKER",
+    "name": "Nighttaker",
+    "markup": "Enemies deal 5% less damage for each debuff they have."
+  },
+  {
+    "key": "DAYBREAKER",
+    "name": "Daybreaker",
+    "markup": "Enemies take 10% more damage for each debuff they have."
+  },
+  {
+    "key": "LINGERINGSICKNESS",
+    "name": "Lingering Sickness",
+    "markup": "Enemies' debuffs last forever."
+  },
+  {
+    "key": "HOPELESSNESS",
+    "name": "Hopelessness",
+    "markup": "Enemies' buffs last for only 1 turn and their minions have double the chance to leave battle."
+  },
+  {
+    "key": "IMPIETY",
+    "name": "Impiety",
+    "markup": "Your creatures ignore enemies' {CONDNAME_BUFF_SHELL} and {CONDNAME_BUFF_BARRIER} buffs. {CONDDESC_BUFF_SHELL} {CONDDESC_BUFF_BARRIER}"
+  },
+  {
+    "key": "LIGHTSAUGMENTATION",
+    "name": "Light's Augmentation",
+    "markup": "Your creatures have <3>% more {STAT_defense} while they're {ACTION_provoking}."
+  },
+  {
+    "key": "MIRACULOUSRECOVERY",
+    "name": "Miraculous Recovery",
+    "markup": "After your creatures {ACTION_provoke}, they recover <2>% {STAT_health}."
+  },
+  {
+    "key": "PERSEVERANCE",
+    "name": "Perseverance",
+    "markup": "Your creatures take <2.5>% less damage while they're {ACTION_provoking}."
+  },
+  {
+    "key": "UNBOUND",
+    "name": "Unbound",
+    "markup": "After your creatures {ACTION_provoke}, they {ACTION_defend}."
+  },
+  {
+    "key": "RETRIBUTION",
+    "name": "Retribution",
+    "markup": "After your creatures take damage from an attack or spell, they deal damage to the enemy equal to <1>% of the damage taken. This damage cannot exceed 300% of your creature's Maximum {STAT_health}."
+  },
+  {
+    "key": "ZEAL",
+    "name": "Zeal",
+    "markup": "When your creatures deal damage with [life_paladin_retribution]Retribution while they're {ACTION_provoking}, the amount of damage is increased by <2>%."
+  },
+  {
+    "key": "DIVINEWRATH",
+    "name": "Divine Wrath",
+    "markup": "When your creatures deal damage with [life_paladin_retribution]Retribution while they're {ACTION_defending}, the amount of damage is increased by <2>%."
+  },
+  {
+    "key": "ARTOFWAR",
+    "name": "Art of War",
+    "markup": "When your creatures deal damage with [life_paladin_retribution]Retribution, <1>% of their highest stat is added to the amount of damage dealt."
+  },
+  {
+    "key": "HANDOFLIGHT",
+    "name": "Hand of Light",
+    "markup": "After your creatures deal damage with [life_paladin_retribution]Retribution, they recover {STAT_health} equal to <2>% of the damage dealt."
+  },
+  {
+    "key": "GLORY",
+    "name": "Glory",
+    "markup": "After your creatures deal damage with [life_paladin_retribution]Retribution, their lowest stat is increased by <1>% of the amount of damage dealt."
+  },
+  {
+    "key": "EXECUTIONSENTENCE",
+    "name": "Execution Sentence",
+    "markup": "After your creatures are killed, they deal damage to all enemies equal to 100% of the amount of damage they dealt with [life_paladin_retribution]Retribution in the current battle."
+  },
+  {
+    "key": "CRUSADE",
+    "name": "Crusade",
+    "markup": "Your creatures deal additional damage equal to <2>% of the amount of damage they've dealt with [life_paladin_retribution] Retribution in the current battle."
+  },
+  {
+    "key": "DIVINEINTERVENTION",
+    "name": "Divine Intervention",
+    "markup": "The first time your creatures would take fatal damage in battle, their {STAT_health} is instead set to 1."
+  },
+  {
+    "key": "SERAPHIM",
+    "name": "Seraphim",
+    "markup": "At the start of battle, <1>% of your creatures' {STAT_defense} is added to their {STAT_health}."
+  },
+  {
+    "key": "RECKONING",
+    "name": "Reckoning",
+    "markup": "After your creatures {ACTION_provoke}, they {ACTION_attack} a random enemy."
+  },
+  {
+    "key": "CORNERED",
+    "name": "Cornered",
+    "markup": "Your creatures deal <1>% more damage for each creature missing from your group."
+  },
+  {
+    "key": "SOLESURVIVOR",
+    "name": "Sole Survivor",
+    "markup": "Your creatures take <1>% less damage for each creature missing from your group."
+  },
+  {
+    "key": "BROOD",
+    "name": "Brood",
+    "markup": "Your creatures start battles with <1>% more Maximum {STAT_health} for each creature missing from your group."
+  },
+  {
+    "key": "LONEWOLF",
+    "name": "Lone Wolf",
+    "markup": "Your creatures have <1>% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each creature missing from your group."
+  },
+  {
+    "key": "SOVEREIGNTY",
+    "name": "Sovereignty",
+    "markup": "Your creatures have 1 additional Spell Gem slot for each creature missing from your group."
+  },
+  {
+    "key": "RECLUSIVEREMEDY",
+    "name": "Reclusive Remedy",
+    "markup": "If you have at least 5 creatures missing from your group, your creatures are resistant to debuffs."
+  },
+  {
+    "key": "GUERILLATACTICS",
+    "name": "Guerilla Tactics",
+    "markup": "At the start of battle, your creatures have a 10% chance to move to the top of the {TIMELINE} for each creature missing from your group."
+  },
+  {
+    "key": "ANCESTRY",
+    "name": "Ancestry",
+    "markup": "At the start of battle, if you have at least 5 creatures missing from your group, your creatures gain <1> random trait(s) that belong to their race."
+  },
+  {
+    "key": "COMPANION",
+    "name": "Companion",
+    "markup": "You can have <1> additional creature(s) in your group without it counting against other {SPEC_DRUID} perks."
+  },
+  {
+    "key": "DISENGAGEMENT",
+    "name": "Disengagement",
+    "markup": "Your creatures have an independent 10% chance to dodge attacks for each creature missing from your group."
+  },
+  {
+    "key": "KILLERINSTINCT",
+    "name": "Killer Instinct",
+    "markup": "Your creatures have an independent 10% chance to deal critical damage with attacks for each creature missing from your group."
+  },
+  {
+    "key": "PACKOFONE",
+    "name": "Pack of One",
+    "markup": "Your creatures have a 10% chance to {ACTION_attack} an additional time for each creature missing from your group. This effect can occur repeatedly until it fails."
+  },
+  {
+    "key": "APTITUDE",
+    "name": "Aptitude",
+    "markup": "Your creatures have a 10% chance to {ACTION_cast} spells an additional time for each creature missing from your group. This effect can occur repeatedly until it fails."
+  },
+  {
+    "key": "ADAPTATION",
+    "name": "Adaptation",
+    "markup": "At the start of battle, your creatures gain a random buff for each creature missing from your group."
+  },
+  {
+    "key": "FAMILIARITY",
+    "name": "Familiarity",
+    "markup": "Your creatures take <2>% less damage from creatures that belong to their own class."
+  },
+  {
+    "key": "COGENCE",
+    "name": "Cogence",
+    "markup": "Your creatures deal <2>% more damage to creatures that belong to their own class."
+  },
+  {
+    "key": "FORESTPACT",
+    "name": "Forest Pact",
+    "markup": "Traits, spells, and other effects that are affected by the number of a certain creature race or class act as if you have <1> more of those creatures in your group."
+  },
+  {
+    "key": "HYBRIDIZATION",
+    "name": "Hybridization",
+    "markup": "Your creatures have <1>% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each creature that belongs to the same race fighting on your side."
+  },
+  {
+    "key": "PUREBRED",
+    "name": "Purebred",
+    "markup": "Your creatures have <1>% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each creature that belongs to the same class fighting on your side."
+  },
+  {
+    "key": "FLUSTER",
+    "name": "Fluster",
+    "markup": "Your creatures have an independent 5% chance to dodge attacks for each creature that belongs to the same race fighting on your side."
+  },
+  {
+    "key": "OVERWHELM",
+    "name": "Overwhelm",
+    "markup": "Your creatures have an independent 5% chance to deal critical damage with attacks for each creature that belongs to the same race fighting on your side."
+  },
+  {
+    "key": "SYNERGY",
+    "name": "Union",
+    "markup": "Your creatures grant <1>% of their highest stat to your other creatures that belong to the same race."
+  },
+  {
+    "key": "TIESTHATBIND",
+    "name": "Ties That Bind",
+    "markup": "Your creatures deal additional damage with attacks and spells equal to <1>% of your other creatures' highest stats that belong to the same race."
+  },
+  {
+    "key": "HARBINGER",
+    "name": "Harbinger",
+    "markup": "Your creatures' Spell Gems with any \"Cast On...\" property have a <1>% greater chance to activate for each creature that belongs to its race fighting on your side."
+  },
+  {
+    "key": "BATTALION",
+    "name": "Battalion",
+    "markup": "At the start of battle, your creatures gain a random buff for each creature that belongs to the same race fighting on your side. Maximum of 6 buffs."
+  },
+  {
+    "key": "TRANSFORMATION",
+    "name": "Transformation",
+    "markup": "At the start of battle, your creatures cast their \"Morph\" spells if they have one of these spells in their top-most Spell Gem slot."
+  },
+  {
+    "key": "WEAREPACK",
+    "name": "We Are Pack",
+    "markup": "At the start of battle, if you have at least 4 creatures that belong to the same race fighting on your side, the remaining creatures' races are changed to that race as well. This effect does not change a creature's race if it is an [nature_imler] Imler."
+  },
+  {
+    "key": "FEIGNDEATH",
+    "name": "Feign Death",
+    "markup": "After your creatures are killed, they have a <1>% chance (up to 50%) to resurrect with 50% {STAT_health} for each creature that belongs to the same race fighting on your side."
+  },
+  {
+    "key": "SURVIVALINSTINCTS",
+    "name": "Survival Instincts",
+    "markup": "Your creatures take <1>% less damage and deal <1>% more damage for each dead creature that belongs to the same race fighting on your side."
+  },
+  {
+    "key": "SPELLOFROOTS",
+    "name": "Spell of Roots",
+    "markup": "At the end of an enemy's first turn, they are afflicted with {CONDNAME_DEBUFF_SNARED}. {CONDDESC_DEBUFF_SNARED}"
+  },
+  {
+    "key": "SPELLOFSLUMBER",
+    "name": "Spell of Slumber",
+    "markup": "At the end of an enemy's second turn, they are afflicted with {CONDNAME_DEBUFF_SLEEP}. {CONDDESC_DEBUFF_SLEEP}"
+  },
+  {
+    "key": "SPELLOFFROST",
+    "name": "Spell of Frost",
+    "markup": "At the end of an enemy's third turn, they are afflicted with {CONDNAME_DEBUFF_FROZEN}. {CONDDESC_DEBUFF_FROZEN}"
+  },
+  {
+    "key": "CALCIFY",
+    "name": "Calcify",
+    "markup": "After an enemy takes damage from a spell, they have a <5>% chance to be afflicted with {CONDNAME_DEBUFF_STONE}. {CONDDESC_DEBUFF_STONE}"
+  },
+  {
+    "key": "PERPLEX",
+    "name": "Perplex",
+    "markup": "After an enemy takes damage, they have a <1>% chance to be afflicted with {CONDNAME_DEBUFF_CONFUSED}. {CONDDESC_DEBUFF_CONFUSED}"
+  },
+  {
+    "key": "FLABBERGAST",
+    "name": "Flabbergast",
+    "markup": "After your creatures deal damage with attacks or spells to the next enemy below them on the {TIMELINE}, that enemy has a <1>% chance to be sent to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "GRAVITYSVOID",
+    "name": "Gravity's Void",
+    "markup": "When your creatures damage an enemy, they deal <1>% more damage for each other creature between the two creatures on the {TIMELINE}."
+  },
+  {
+    "key": "FADE",
+    "name": "Fade",
+    "markup": "After your creatures take damage from an attack or spell, they gain {CONDNAME_BUFF_INVISIBLE}. {CONDDESC_BUFF_INVISIBLE}"
+  },
+  {
+    "key": "MENTALFORTITUDE",
+    "name": "Mental Fortitude",
+    "markup": "At the start of battle, your creatures gain {CONDNAME_BUFF_SHELL}. {CONDDESC_BUFF_SHELL}"
+  },
+  {
+    "key": "SLIPSTREAM",
+    "name": "Slipstream",
+    "markup": "After the order of the {TIMELINE} is determined at the start of battle, your creatures are moved up the {TIMELINE} <1> position(s) higher."
+  },
+  {
+    "key": "COMFORTABLEPROXIMITY",
+    "name": "Comfortable Proximity",
+    "markup": "When your creatures take damage from an enemy, they take <1>% less damage for each creature between the two creatures on the {TIMELINE}."
+  },
+  {
+    "key": "UNITY",
+    "name": "Unity",
+    "markup": "When your creatures deal damage, they deal <2.5>% more damage for each consecutive ally that is adjacent to them on the {TIMELINE}."
+  },
+  {
+    "key": "SINGE",
+    "name": "Singe",
+    "markup": "After an enemy {ACTION_attacks}, they have a <4>% chance to be afflicted with {CONDNAME_DEBUFF_SCORN}. {CONDDESC_DEBUFF_SCORN}"
+  },
+  {
+    "key": "PSYCHICSCREAM",
+    "name": "Psychic Scream",
+    "markup": "After an enemy {ACTION_casts} a spell, they have a <4>% chance to be afflicted with {CONDNAME_DEBUFF_SILENCE}. {CONDDESC_DEBUFF_SILENCE}"
+  },
+  {
+    "key": "RUIN",
+    "name": "Ruin",
+    "markup": "Your creatures deal 2% more damage and take 1.5% less damage for each debuff each enemy has."
+  },
+  {
+    "key": "WILDMAGIC",
+    "name": "Wild Magic",
+    "markup": "At the start of battle, your creatures gain <1> [temporary] Ethereal Spell Gem(s) that belongs to their class."
+  },
+  {
+    "key": "TEMPORALCONCENTRATION",
+    "name": "Temporal Concentration",
+    "markup": "Your creatures' [temporary] Ethereal Spell Gems do not consume {STAT_charges} when used."
+  },
+  {
+    "key": "APEX",
+    "name": "Apex",
+    "markup": "Your creatures deal <1>% more damage for each [temporary] Ethereal Spell Gem they have equipped."
+  },
+  {
+    "key": "SHIMMER",
+    "name": "Shimmer",
+    "markup": "Your creatures take <1>% less damage for each [temporary]Ethereal Spell Gem they have equipped."
+  },
+  {
+    "key": "QUICKDRAW",
+    "name": "Quickdraw",
+    "markup": "After your creatures gain [temporary]Ethereal Spell Gems, they have a <5>% chance to cast them. Only gems that are acquired after start-of-battle effects can be cast in this manner."
+  },
+  {
+    "key": "HANDOFTHEMAGI",
+    "name": "Hand of the Magi",
+    "markup": "Your creatures' [temporary] Ethereal Spell Gems have <2>% more potency."
+  },
+  {
+    "key": "BATTLEMAGE",
+    "name": "Battle Mage",
+    "markup": "After your creatures {ACTION_attack}, they have a <2>% chance to cast one of their [temporary] Ethereal Spell Gems."
+  },
+  {
+    "key": "UNSHACKLED",
+    "name": "Unshackled",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_SILENCE}. {CONDDESC_DEBUFF_SILENCE}"
+  },
+  {
+    "key": "SPELLSLINGER",
+    "name": "Spellslinger",
+    "markup": "Your creatures' [temporary] Ethereal Spell Gems cast 1 additional time."
+  },
+  {
+    "key": "INCANTATION",
+    "name": "Incantation",
+    "markup": "After your creatures {ACTION_defend} or {ACTION_provoke}, they cast one of their [temporary]Ethereal Spell Gems."
+  },
+  {
+    "key": "PRISM",
+    "name": "Prism",
+    "markup": "After your creatures cast an [temporary]Ethereal Spell Gem, they gain a random buff."
+  },
+  {
+    "key": "MYSTIFY",
+    "name": "Mystify",
+    "markup": "After your creatures cast an [temporary]Ethereal Spell Gem, <1> enemy(s) are afflicted with a random debuff."
+  },
+  {
+    "key": "SPELLWEAVER",
+    "name": "Flow of Magic",
+    "markup": "After your creatures manually cast an [temporary] Ethereal Spell Gem, they gain 50% {STAT_intelligence}."
+  },
+  {
+    "key": "FAMILIAR",
+    "name": "Familiar",
+    "markup": "After your creatures cast an [temporary] Ethereal Spell Gem, they have a <2>% chance to summon an {CONDNAME_MINION_ANIMATEDGEM}. {CONDDESC_MINION_ANIMATEDGEM}"
+  },
+  {
+    "key": "INVOKE",
+    "name": "Invoke",
+    "markup": "At the start of your creatures' turns, they gain an [temporary] Ethereal Spell Gem."
+  },
+  {
+    "key": "MIRRORIMAGE",
+    "name": "Mirror Image",
+    "markup": "Your creatures have a <1>% chance to {ACTION_cast} spells an additional time. This effect can occur repeatedly until it fails."
+  },
+  {
+    "key": "BURST",
+    "name": "Burst",
+    "markup": "Your creatures' spells that are {ACTION_cast} in the same turn deal <1>% more damage than the last."
+  },
+  {
+    "key": "ECHO",
+    "name": "Echo",
+    "markup": "Your creatures {ACTION_cast} spells 1 additional time."
+  },
+  {
+    "key": "EFFICIENCY",
+    "name": "Efficiency",
+    "markup": "Your creatures' extra casts no longer consume additional {STAT_charges}."
+  },
+  {
+    "key": "SPELLPOWER",
+    "name": "Spell Power",
+    "markup": "Your creatures' spells deal <1>% more damage."
+  },
+  {
+    "key": "SPELLMENDING",
+    "name": "Spell Mending",
+    "markup": "Your creatures' spells heal <1>% more {STAT_health}."
+  },
+  {
+    "key": "SPELLCORRUPTION",
+    "name": "Spell Corruption",
+    "markup": "Your creatures' spells affect stats <1>% more."
+  },
+  {
+    "key": "OUTSPOKEN",
+    "name": "Outspoken",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_SILENCE}. {CONDDESC_DEBUFF_SILENCE}"
+  },
+  {
+    "key": "CHAOSMASTERY",
+    "name": "Chaos Mastery",
+    "markup": "Your creatures can equip {CLASS_Chaos} Spell Gems, regardless of their class."
+  },
+  {
+    "key": "DEATHMASTERY",
+    "name": "Death Mastery",
+    "markup": "Your creatures can equip {CLASS_Death} Spell Gems, regardless of their class."
+  },
+  {
+    "key": "LIFEMASTERY",
+    "name": "Life Mastery",
+    "markup": "Your creatures can equip {CLASS_Life} Spell Gems, regardless of their class."
+  },
+  {
+    "key": "NATUREMASTERY",
+    "name": "Nature Mastery",
+    "markup": "Your creatures can equip {CLASS_Nature} Spell Gems, regardless of their class."
+  },
+  {
+    "key": "SORCERYMASTERY",
+    "name": "Sorcery Mastery",
+    "markup": "Your creatures can equip {CLASS_Sorcery} Spell Gems, regardless of their class."
+  },
+  {
+    "key": "ARCANEPOWER",
+    "name": "Arcane Power",
+    "markup": "Your creatures deal <2>% more damage for each permanent Spell Gem they have that does not belong to their own class."
+  },
+  {
+    "key": "ARCANEFORTITUDE",
+    "name": "Arcane Fortitude",
+    "markup": "Your creatures take <2>% less damage for each permanent Spell Gem they have that does not belong to their own class."
+  },
+  {
+    "key": "EXPANDEDMIND",
+    "name": "Expanded Mind",
+    "markup": "Your creatures can equip <1> additional Spell Gem(s)."
+  },
+  {
+    "key": "SUPERCHARGED",
+    "name": "Supercharged",
+    "markup": "Your creatures' spells have <1> additional {STAT_charges}."
+  },
+  {
+    "key": "CRUELCREATION",
+    "name": "Cruel Creation",
+    "markup": "Your creatures start battles with <1> {CONDNAME_MINION_UNSTABLEHORROR}. {CONDDESC_MINION_UNSTABLEHORROR}"
+  },
+  {
+    "key": "CORPSEEATER",
+    "name": "Corpse Eater",
+    "markup": "Your creatures start battles with <1> {CONDNAME_MINION_WRITHELING}. {CONDDESC_MINION_WRITHELING}"
+  },
+  {
+    "key": "ANIMATEDDEAD",
+    "name": "Animated Dead",
+    "markup": "Your creatures start battles with <1> {CONDNAME_MINION_ZOMBIE}. {CONDDESC_MINION_ZOMBIE}"
+  },
+  {
+    "key": "ARMYOFTHEDAMNED",
+    "name": "Army of the Damned",
+    "markup": "At the start of your creatures' turns, their minions gain 1 additional stack."
+  },
+  {
+    "key": "MIDNIGHTBARGAIN",
+    "name": "Midnight Bargain",
+    "markup": "Your creatures' minions are <2>% less likely to go away."
+  },
+  {
+    "key": "SERVITUDE",
+    "name": "Servitude",
+    "markup": "Your creatures deal <1>% more damage for each different minion they have."
+  },
+  {
+    "key": "MEATSHIELD",
+    "name": "Meat Shield",
+    "markup": "Your creatures take <1>% less damage for each different minion they have."
+  },
+  {
+    "key": "DEADLYVITALITY",
+    "name": "Deadly Vitality",
+    "markup": "After your creatures gain a minion or a minion stack, they recover {STAT_health} equal to <1>% of their Maximum {STAT_health}."
+  },
+  {
+    "key": "CONQUESTSTRIUMPH",
+    "name": "Conquest's Triumph",
+    "markup": "After your creatures {ACTION_cast} a spell, they summon {CONDNAME_MINION_CONQUEST}. {CONDDESC_MINION_CONQUEST}"
+  },
+  {
+    "key": "FAMINESTHIRST",
+    "name": "Famine's Thirst",
+    "markup": "After your creatures {ACTION_attack}, they summon {CONDNAME_MINION_FAMINE}. {CONDDESC_MINION_FAMINE}"
+  },
+  {
+    "key": "WARSVICTORY",
+    "name": "War's Victory",
+    "markup": "After your creatures are damaged by an attack or spell, they summon {CONDNAME_MINION_WAR}. {CONDDESC_MINION_WAR}"
+  },
+  {
+    "key": "DEATHSCLAIM",
+    "name": "Death's Claim",
+    "markup": "At the end of your creatures' turns, they summon {CONDNAME_MINION_DEATH}. {CONDDESC_MINION_DEATH}"
+  },
+  {
+    "key": "FOURHORSEMEN",
+    "name": "Four Horsemen",
+    "markup": "If your creatures have {CONDNAME_MINION_CONQUEST}, {CONDNAME_MINION_FAMINE}, {CONDNAME_MINION_DEATH}, and {CONDNAME_MINION_WAR}, they {ACTION_cast} Apocalypse at the start of their turns. Your creatures are healed by this spell."
+  },
+  {
+    "key": "GRAVEWALKER",
+    "name": "Gravewalker",
+    "markup": "After your creatures are killed, they have a <1>% chance to be resurrected with 50% {STAT_health} for each different minion they had before they died."
+  },
+  {
+    "key": "UNDYINGLOYALTY",
+    "name": "Undying Loyalty",
+    "markup": "Your creatures' minions persist beyond their master's death."
+  },
+  {
+    "key": "MASOCHISTICTENDENCIES",
+    "name": "Masochistic Tendencies",
+    "markup": "Your creatures' spells no longer consume {STAT_charges}. Before your creatures {ACTION_cast} a spell, they deal damage to themselves equal to 25% of their Maximum {STAT_health}."
+  },
+  {
+    "key": "BLOODCLOT",
+    "name": "Blood Clot",
+    "markup": "After your creatures take damage, they gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to <2>% of the amount of damage taken."
+  },
+  {
+    "key": "HEMOSTASIS",
+    "name": "Hemostasis",
+    "markup": "Your creatures can take damage a maximum of 1 time during their turn."
+  },
+  {
+    "key": "VORACITY",
+    "name": "Voracity",
+    "markup": "Your creatures deal additional damage with attacks and spells equal to <2>% of their Current {STAT_health}."
+  },
+  {
+    "key": "DEATHRATTLE",
+    "name": "Deathrattle",
+    "markup": "Your creatures' stats are no longer reset after they're killed."
+  },
+  {
+    "key": "BLOODRAGE",
+    "name": "Bloodrage",
+    "markup": "Your creatures' damage with attacks is based on 50% of their Maximum {STAT_health} instead of their {STAT_attack}."
+  },
+  {
+    "key": "BLOODTHIRST",
+    "name": "Bloodthirst",
+    "markup": "The potency of your creatures' spells is based on 50% of their Maximum {STAT_health} instead of their {STAT_intelligence}."
+  },
+  {
+    "key": "ENDLESSSLAUGHTER",
+    "name": "Endless Slaughter",
+    "markup": "Your creatures {ACTION_attack} and {ACTION_cast} spells 1 additional time for every 20% {STAT_health} they're missing."
+  },
+  {
+    "key": "SACRIFICE",
+    "name": "Sacrifice",
+    "markup": "At the start of battle, your creatures' {STAT_health} is set to 50% and they gain <1> random buff(s)."
+  },
+  {
+    "key": "MARCHTOWARDDEATH",
+    "name": "March Toward Death",
+    "markup": "Your creatures deal additional damage with attacks and spells equal to 50% of the {STAT_health} they're missing."
+  },
+  {
+    "key": "TRANSFUSION",
+    "name": "Transfusion",
+    "markup": "After one of your creatures takes damage and is not killed, one of your other creatures gains Maximum {STAT_health} equal to 25% of the damage taken."
+  },
+  {
+    "key": "BLEEDOUT",
+    "name": "Bleed Out",
+    "markup": "The first time your creatures are killed in battle, they are resurrected with 100% {STAT_health}, and then they take damage equal to 50% of their Maximum {STAT_health}."
+  },
+  {
+    "key": "BLOODCAKEDBLADE",
+    "name": "Blood-caked Blade",
+    "markup": "Your creatures deal additional damage equal to <1>% of the total damage they took in the current battle."
+  },
+  {
+    "key": "SANGUINEFORTITUDE",
+    "name": "Sanguine Fortitude",
+    "markup": "Your creatures take less damage equal to <1>% of the total amount of damage they took in the current battle."
+  },
+  {
+    "key": "RELISHINBLOOD",
+    "name": "Relish In Blood",
+    "markup": "Your creatures have additional {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} equal to <1>% of their missing {STAT_health}."
+  },
+  {
+    "key": "BLOODYMASSACRE",
+    "name": "Bloody Massacre",
+    "markup": "Enemies always have {CONDNAME_DEBUFF_BLEED}. After an enemy takes damage from {CONDNAME_DEBUFF_BLEED}, your creatures recover {STAT_health} equal to <3>% of the damage taken. {CONDDESC_DEBUFF_BLEED}"
+  },
+  {
+    "key": "FIRESTARTER",
+    "name": "Firestarter",
+    "markup": "Enemies always have {CONDNAME_DEBUFF_BURNED}. {CONDDESC_DEBUFF_BURNED}"
+  },
+  {
+    "key": "LIVINGFLAME",
+    "name": "Living Flame",
+    "markup": "Your creatures always have {CONDNAME_DEBUFF_BURNED}. Instead of taking damage from this debuff, they are healed by it."
+  },
+  {
+    "key": "CAUTERIZE",
+    "name": "Cauterize",
+    "markup": "After your creatures are damaged or healed by {CONDNAME_DEBUFF_BURNED}, they gain {CONDNAME_BUFF_SHELL}. Your creatures' {CONDNAME_BUFF_SHELL} ignores the {CONDNAME_DEBUFF_BURNED} debuff. {CONDDESC_BUFF_SHELL}"
+  },
+  {
+    "key": "PYROBLAST",
+    "name": "Pyroblast",
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BURNED}, each of your creatures have a <2>% chance to {ACTION_cast} a Scourge spell on an enemy. The type of Scourge spell is based on the enemy's class."
+  },
+  {
+    "key": "KINDLETHEFLAME",
+    "name": "Kindle the Flame",
+    "markup": "Your creatures' spells that interact with {CONDNAME_DEBUFF_BURNED} do not consume {STAT_charges}."
+  },
+  {
+    "key": "IMMOLATION",
+    "name": "Immolation",
+    "markup": "Your creatures' spells that interact with {CONDNAME_DEBUFF_BURNED} have <5>% more potency."
+  },
+  {
+    "key": "HOTSTREAK",
+    "name": "Hot Streak",
+    "markup": "After your creatures are damaged or healed by {CONDNAME_DEBUFF_BURNED}, the potency of all creatures' {CONDNAME_DEBUFF_BURNED} debuffs increases by <2>%."
+  },
+  {
+    "key": "COMBUSTION",
+    "name": "Combustion",
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BURNED}, they have a <1>% chance to be sent to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "BURNTHEIRCORPSES",
+    "name": "Burn Their Corpses",
+    "markup": "If an enemy dies while it is afflicted with {CONDNAME_DEBUFF_BURNED}, it cannot be resurrected."
+  },
+  {
+    "key": "BURNOUT",
+    "name": "Burn Out",
+    "markup": "Your creatures deal additional damage equal to <1>% of the potency of their {CONDNAME_DEBUFF_BURNED} debuff."
+  },
+  {
+    "key": "FROMASHES",
+    "name": "From Ashes",
+    "markup": "After your creatures with {CONDNAME_DEBUFF_BURNED} are killed, they have a <1>% chance to be resurrected with 50% {STAT_health}."
+  },
+  {
+    "key": "CONFLAGRATION",
+    "name": "Conflagration",
+    "markup": "After your creatures are damaged or healed by {CONDNAME_DEBUFF_BURNED}, a random enemy takes damage equal to <5>% of this amount as well."
+  },
+  {
+    "key": "ROARINGBLAZE",
+    "name": "Roaring Blaze",
+    "markup": "After an enemy with {CONDNAME_DEBUFF_BURNED} is killed, enemies take damage equal to <5>% of the potency of that creature's {CONDNAME_DEBUFF_BURNED} debuff."
+  },
+  {
+    "key": "FLASHOVER",
+    "name": "Flashover",
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BURNED}, they are afflicted with {CONDNAME_DEBUFF_BOMB}. {CONDDESC_DEBUFF_BOMB}"
+  },
+  {
+    "key": "BACKDRAFT",
+    "name": "Backdraft",
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BURNED}, they are afflicted with either {CONDNAME_DEBUFF_SCORN} or {CONDNAME_DEBUFF_SILENCE}. {CONDDESC_DEBUFF_SCORN} {CONDDESC_DEBUFF_SILENCE}"
+  },
+  {
+    "key": "SOLARECLIPSE",
+    "name": "Solar Eclipse",
+    "markup": "Your <1> creature(s) with the highest {STAT_attack} always {ACTION_attack} at the end of their turn."
+  },
+  {
+    "key": "LUNARECLIPSE",
+    "name": "Lunar Eclipse",
+    "markup": "Your <1> creature(s) with the highest {STAT_intelligence} always {ACTION_cast} their top-most Spell Gem that has at least 1 {STAT_charge} and isn't Sealed at the end of their turn."
+  },
+  {
+    "key": "STELLARBLESSING",
+    "name": "Stellar Blessing",
+    "markup": "Your <1> creature(s) with the highest {STAT_intelligence} don't consume {STAT_charges} when they {ACTION_cast} spells."
+  },
+  {
+    "key": "NEWMOON",
+    "name": "New Moon",
+    "markup": "If your creatures have at least 5 buffs when they are killed, they are resurrected with 25% {STAT_health}. The number of buffs required for this perk to activate increases by 1 each time it activates."
+  },
+  {
+    "key": "CUSP",
+    "name": "Cusp",
+    "markup": "If your creatures have at least 3 debuffs, they {ACTION_defend} at the end of their turn."
+  },
+  {
+    "key": "SYNASTRY",
+    "name": "Synastry",
+    "markup": "Your creature with the highest {STAT_defense} always {ACTION_provokes} at the end of its turn."
+  },
+  {
+    "key": "TRANSIT",
+    "name": "Transit",
+    "markup": "Your creature with the highest {STAT_speed} always {ACTION_attacks} enemies that deal damage to it."
+  },
+  {
+    "key": "ASCENDANT",
+    "name": "Ascendant",
+    "markup": "Your creature with the highest Maximum {STAT_health} starts battles at the top of the {TIMELINE}."
+  },
+  {
+    "key": "DYINGSTARS",
+    "name": "Dying Stars",
+    "markup": "If you have at least 3 dead creatures, your other creatures have a <1>% chance to resurrect one of them with 50% {STAT_health} after they deal damage with an attack or spell."
+  },
+  {
+    "key": "EQUINOX",
+    "name": "Equinox",
+    "markup": "If your creatures have at least 3 buffs, they gain a random minion at the start of their turn."
+  },
+  {
+    "key": "FIXEDSIGNS",
+    "name": "Fixed Signs",
+    "markup": "If your creatures have less than 80% {STAT_health}, they heal themselves for <1>% of their Maximum {STAT_health} at the start of their turn."
+  },
+  {
+    "key": "MERCURYRETROGRADE",
+    "name": "Mercury Retrograde",
+    "markup": "If your creatures have at least 3 debuffs, they are resistant to debuffs."
+  },
+  {
+    "key": "SUMMERSOLSTICE",
+    "name": "Summer Solstice",
+    "markup": "Your creatures at the top half of the {TIMELINE} gain <1>% {STAT_attack} at the start of each creature's turn."
+  },
+  {
+    "key": "WINTERSOLSTICE",
+    "name": "Winter Solstice",
+    "markup": "Your creatures at the bottom half of the {TIMELINE} gain <1>% {STAT_defense} at the start of each creature's turn."
+  },
+  {
+    "key": "STARSALIGN",
+    "name": "Stars Align",
+    "markup": "If your creatures have at least 7 different minions, their attacks instantly kill enemies in non-boss battles, and deal 100% more damage in boss battles."
+  },
+  {
+    "key": "COR",
+    "name": "Rune of Cor",
+    "markup": "At the start of battle, your {CLASS_Chaos} creatures gain Rune of Cor."
+  },
+  {
+    "key": "DUN",
+    "name": "Rune of Dun",
+    "markup": "At the start of battle, your {CLASS_Death} creatures gain Rune of Dun."
+  },
+  {
+    "key": "LUA",
+    "name": "Rune of Lua",
+    "markup": "At the start of battle, your {CLASS_Life} creatures gain Rune of Lua."
+  },
+  {
+    "key": "NAX",
+    "name": "Rune of Nax",
+    "markup": "At the start of battle, your {CLASS_Nature} creatures gain Rune of Nax."
+  },
+  {
+    "key": "SAH",
+    "name": "Rune of Sah",
+    "markup": "At the start of battle, your {CLASS_Sorcery} creatures gain Rune of Sah."
+  },
+  {
+    "key": "AGGRESSION",
+    "name": "Aggression",
+    "markup": "Your creatures deal <1>% more damage with attacks for each time your creatures {ACTION_cast} Rune of Cor in the current battle."
+  },
+  {
+    "key": "EMBIGGEN",
+    "name": "Embiggen",
+    "markup": "Your creatures deal <1>% more damage with spells for each time your creatures {ACTION_cast} Rune of Sah in the current battle."
+  },
+  {
+    "key": "DESTINY",
+    "name": "Destiny",
+    "markup": "Your creatures have an independent <1>% chance to dodge and deal critical damage for each time your creatures {ACTION_cast} Rune of Nax in the current battle."
+  },
+  {
+    "key": "AEGIS",
+    "name": "Aegis",
+    "markup": "Your creatures take <1>% less damage for each time your creatures {ACTION_cast} Rune of Lua in the current battle."
+  },
+  {
+    "key": "CRESCENDO",
+    "name": "Crescendo",
+    "markup": "Your creatures gain and reduce stats <1>% more for each time your creatures {ACTION_cast} Rune of Dun in the current battle."
+  },
+  {
+    "key": "EMPOWERMENT",
+    "name": "Empowerment",
+    "markup": "Your creatures {ACTION_cast} their Rune spells <1> additional time(s)."
+  },
+  {
+    "key": "COVENANT",
+    "name": "Covenant",
+    "markup": "If your creatures have {ACTION_cast} each Rune spell at least once in the current battle, they activate your creatures' on-attack effects 1 additional time."
+  },
+  {
+    "key": "UNDERMINE",
+    "name": "Undermine",
+    "markup": "Your creatures' Rune spells afflict enemies with a debuff which differs based on which spell it is."
+  },
+  {
+    "key": "DISCHARGE",
+    "name": "Discharge",
+    "markup": "Your creatures' Rune spells have a <1>% chance to target all enemies for each time your creatures {ACTION_cast} a Rune spell in the current battle."
+  },
+  {
+    "key": "DIABOLISM",
+    "name": "Diabolism",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_SILENCE} and their Rune Spell Gems cannot be Sealed. {CONDDESC_DEBUFF_SILENCE}"
+  },
+  {
+    "key": "RUSE",
+    "name": "Ruse",
+    "markup": "Your creatures' Rune spells are granted powerful properties at the start of battle."
+  },
+  {
+    "key": "INSPIRIT",
+    "name": "Inspirit",
+    "markup": "Your creatures' Rune spells grant them a buff which differs based on which spell it is."
+  },
+  {
+    "key": "FROMTHEGRAVE",
+    "name": "From the Grave",
+    "markup": "Your dead creatures {ACTION_attack} a random enemy for <10>% additional damage every 3 turns."
+  },
+  {
+    "key": "PSYCHICSUICIDE",
+    "name": "Psychic Suicide",
+    "markup": "Your dead creatures {ACTION_cast} one of their spells with <10>% more potency every 5 turns."
+  },
+  {
+    "key": "TRAUMA",
+    "name": "Trauma",
+    "markup": "Your creatures deal <3>% more damage for each dead creature on your side."
+  },
+  {
+    "key": "MASOCHISM",
+    "name": "Masochism",
+    "markup": "Your creatures take <3>% less damage for each dead creature fighting on your side."
+  },
+  {
+    "key": "MADNESS",
+    "name": "Madness",
+    "markup": "Your creatures {ACTION_attack} 1 additional time for each dead creature on your side."
+  },
+  {
+    "key": "MEDIUM",
+    "name": "Medium",
+    "markup": "Your creatures {ACTION_cast} spells 1 additional time for each dead creature on your side."
+  },
+  {
+    "key": "LASTWORD",
+    "name": "Last Word",
+    "markup": "After your creatures {ACTION_provoke}, they give your creatures <3>% of their stats and are killed."
+  },
+  {
+    "key": "DARKCOVENANT",
+    "name": "Dark Covenant",
+    "markup": "Your dead creatures have <5>% more stats."
+  },
+  {
+    "key": "NEVERFORGOTTEN",
+    "name": "Never Forgotten",
+    "markup": "Your creatures' stat changes persist through death."
+  },
+  {
+    "key": "DESTINYBOND",
+    "name": "Destiny Bond",
+    "markup": "Your creatures' buffs and minions persist through death."
+  },
+  {
+    "key": "DESIGNATEDSURVIVOR",
+    "name": "Designated Survivor",
+    "markup": "If you only have 1 living creature, it has a <5>% chance to avoid damage."
+  },
+  {
+    "key": "INTANGIBILITY",
+    "name": "Intangibility",
+    "markup": "At the start of each enemy's turn, they have a <1>% chance to be sent to the bottom of the {TIMELINE} for each dead creature on your side."
+  },
+  {
+    "key": "LIFEAFTERDEATH",
+    "name": "Life After Death",
+    "markup": "Your creatures' traits are active even while they're dead. This perk does not affect traits that cause creatures to intercept or take damage in place of their allies."
+  },
+  {
+    "key": "ETERNALDAMNATION",
+    "name": "Eternal Damnation",
+    "markup": "Your creatures deal <1>% more damage for each time your creatures have been killed in the current battle."
+  },
+  {
+    "key": "MISERY",
+    "name": "Misery",
+    "markup": "After your creatures are killed, one of your other creatures casts Murder of Crows."
+  },
+  {
+    "key": "ULTIMA",
+    "name": "Ultima",
+    "markup": "All {RACE_Avatar}s' {SPELL_ultimate} Gems have <1> additional {STAT_charges}."
+  },
+  {
+    "key": "PACTOFTHEGODS",
+    "name": "Pact of the Gods",
+    "markup": "At the start of battle, your {RACE_Avatar}s' {SPELL_ultimate} Gems gain the \"Generous\" property."
+  },
+  {
+    "key": "ARMYOFGODS",
+    "name": "Army of Gods",
+    "markup": "You can have <1> additional {RACE_Avatar} creature(s) in your party."
+  },
+  {
+    "key": "UNSTOPPABLEFORCE",
+    "name": "Unstoppable Force",
+    "markup": "{SPELL_ultimate} Gems cannot be Sealed."
+  },
+  {
+    "key": "MULTITHEISM",
+    "name": "Multitheism",
+    "markup": "At the start of battle, your {RACE_Godspawn} creatures gain their respective {RACE_Avatar}'s trait."
+  },
+  {
+    "key": "OTHERWORLDLY",
+    "name": "Otherworldly",
+    "markup": "Your {RACE_Avatar}s are resistant to debuffs."
+  },
+  {
+    "key": "MARTYR",
+    "name": "Martyr",
+    "markup": "After your {RACE_Godspawn} are killed, they are resurrected with 50% {STAT_health} and transform into their respective {RACE_Avatar}."
+  },
+  {
+    "key": "PROPHECY",
+    "name": "Prophecy",
+    "markup": "After your {RACE_Godspawn} {ACTION_attack}, they have a <1>% chance to {ACTION_cast} their respective {RACE_Avatar}'s {SPELL_ultimate}."
+  },
+  {
+    "key": "DEIFIEDARMAMENTS",
+    "name": "Deified Armaments",
+    "markup": "Your creatures' {SPELL_ultimate} Gems have <10>% more potency."
+  },
+  {
+    "key": "NIRVANA",
+    "name": "Nirvana",
+    "markup": "At the start of battle, your {RACE_Avatar}s gain <1> random {SPELL_ultimate} Gem(s)."
+  },
+  {
+    "key": "TRANSCENDENCE",
+    "name": "Transcendence",
+    "markup": "After your {RACE_Godspawn} {ACTION_cast} a spell, they have a <1>% chance to {ACTION_cast} their respective {RACE_Avatar}'s {SPELL_ultimate}."
+  },
+  {
+    "key": "APOSTLE",
+    "name": "Apostle",
+    "markup": "After your {RACE_Avatar}s {ACTION_attack}, your {RACE_Godspawn} have a <1>% chance to {ACTION_attack} a random enemy."
+  },
+  {
+    "key": "SYNCRETISM",
+    "name": "Syncretism",
+    "markup": "After your {RACE_Avatar}s {ACTION_cast} a spell, your {RACE_Godspawn} have a <1>% chance to {ACTION_cast} that spell as well."
+  },
+  {
+    "key": "CANONIZATION",
+    "name": "Canonization",
+    "markup": "After your {RACE_Avatar}s are killed, they give <10>% of their stats to your {RACE_Godspawn}."
+  },
+  {
+    "key": "UNDYINGEXALTATION",
+    "name": "Undying Exaltation",
+    "markup": "After your {RACE_Avatar}s have been dead for 7 turns, they are resurrected with 50% {STAT_health}."
+  },
+  {
+    "key": "PHOTOSYNTHESIS",
+    "name": "Photosynthesis",
+    "markup": "Your Herbling has 3% more stats (other than {STAT_health}) for each time it has received healing, gained stats, received buffs or minions, or has been resurrected in battle. Every 15% stats earned through this perk causes the Herbling to evolve to a higher Tier at the start of its turn."
+  },
+  {
+    "key": "SYNTHETICRESIN",
+    "name": "Synthetic Resin",
+    "markup": "Your Herbling {ACTION_casts} 1 additional time for each Tier it has."
+  },
+  {
+    "key": "BIODEGRADATION",
+    "name": "Biodegradation",
+    "markup": "Your Herbling {ACTION_attacks} 1 additional time for each Tier it has."
+  },
+  {
+    "key": "CULTIVATION",
+    "name": "Cultivation",
+    "markup": "At the start of your Herbling's turn, it gains <1>% of each stat for each Tier it has."
+  },
+  {
+    "key": "STRANGLER",
+    "name": "Strangler",
+    "markup": "At the start of your Herbling's turn, enemies lose stats equal to <1>% of your Herbling's stats for each Tier it has."
+  },
+  {
+    "key": "PARASITICFERTILIZATION",
+    "name": "Parasitic Fertilization",
+    "markup": "At the start of your Herbling's turn, it {ACTION_casts} Germinate. This spell affects a number of enemies equal to its Tier."
+  },
+  {
+    "key": "ANGRYORCHARD",
+    "name": "Angry Orchard",
+    "markup": "At the start of your Herbling's turn, it {ACTION_casts} Cruelty of the Wild. This spell has 20% more potency for each of your Herbling's Tiers."
+  },
+  {
+    "key": "RAPIDTRANSFORMATION",
+    "name": "Rapid Transformation",
+    "markup": "Your Herbling deals 25% more damage and takes 15% less damage for each Tier it has."
+  },
+  {
+    "key": "ACCLIMATIZATION",
+    "name": "Acclimatization",
+    "markup": "After one of your creatures is afflicted with a debuff, your Herbling {ACTION_casts} Nutrition on it. This perk can activate once per turn."
+  },
+  {
+    "key": "NATURESWRATH",
+    "name": "Nature's Wrath",
+    "markup": "Your Herbling always has an additional buff for each Tier it has: {CONDNAME_BUFF_AGILE}, {CONDNAME_BUFF_SAVAGE}, {CONDNAME_BUFF_LEECH}, {CONDNAME_BUFF_SPLASH}, {CONDNAME_BUFF_BERSERK}, and {CONDNAME_BUFF_ARCANE}."
+  },
+  {
+    "key": "DEFENSINS",
+    "name": "Defensins",
+    "markup": "Your Herbling is resistant to debuffs. Your Herbling is unable to be afflicted with debuffs while it is at Tier 3 or higher."
+  },
+  {
+    "key": "SYMBIOSIS",
+    "name": "Symbiosis",
+    "markup": "At the end of your creatures' turns, your Herbling gains 1 stack of {CONDNAME_MINION_SPIDERLING}. {CONDDESC_MINION_SPIDERLING}"
+  },
+  {
+    "key": "DEEPROOTS",
+    "name": "Deep Roots",
+    "markup": "If your Herbling is the first creature in your party, it {ACTION_provokes} at the end of its turn. If your Herbling is the sixth creature in your party, it {ACTION_defends} at the end of its turn."
+  },
+  {
+    "key": "FLOURISH",
+    "name": "Offense Mechanism",
+    "markup": "After your Herbling {ACTION_attacks}, it {ACTION_casts} Shellbust on the target."
+  },
+  {
+    "key": "ETERNALBLOSSOM",
+    "name": "Eternal Blossom",
+    "markup": "At the end of your Herbling's turn, it {ACTION_casts} Wild Growth. This spell affects a number of allies equal to its Tier."
+  },
+  {
+    "key": "CHAOSINFUSION",
+    "name": "Chaos Infusion",
+    "markup": "After your creatures manually {ACTION_cast} a {CLASS_Chaos} spell, you gain 1 [infusion_chaos]Chaos Infusion. When any of your creatures manually {ACTION_cast} a spell, they decrease the enemies' stats by 1% for each [infusion_chaos]Chaos Infusion you have."
+  },
+  {
+    "key": "DEATHINFUSION",
+    "name": "Death Infusion",
+    "markup": "After your creatures manually {ACTION_cast} a {CLASS_Death} spell, you gain 1 [infusion_death]Death Infusion. After any of your creatures manually {ACTION_cast} a spell, they afflict enemies with 1 random debuff as long as you have at least 1 [infusion_death]Death Infusion, plus 1 additional random debuff for every 3 [infusion_death]Death Infusions you have beyond that."
+  },
+  {
+    "key": "LIFEINFUSION",
+    "name": "Life Infusion",
+    "markup": "After your creatures manually {ACTION_cast} a {CLASS_Life} spell, you gain 1 [infusion_life]Life Infusion. After any of your creatures manually {ACTION_cast} a spell, they heal your creatures for 10% of their {STAT_health} for each [infusion_life]Life Infusion you have, and gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to the amount of {STAT_health} recovered."
+  },
+  {
+    "key": "NATUREINFUSION",
+    "name": "Nature Infusion",
+    "markup": "After your creatures manually {ACTION_cast} a {CLASS_Nature} spell, you gain 1 [infusion_nature]Nature Infusion. After any of your creatures manually {ACTION_cast} a spell, their stats are increased by 3% for each [infusion_nature]Nature Infusion you have."
+  },
+  {
+    "key": "SORCERYINFUSION",
+    "name": "Sorcery Infusion",
+    "markup": "After your creatures manually {ACTION_cast} a {CLASS_Sorcery} spell, you gain 1 [infusion_sorcery]Sorcery Infusion. When any of your creatures manually {ACTION_cast} a spell, your creatures gain 1 random buff as long as you have at least 1 [infusion_sorcery]Sorcery Infusion, plus 1 additional random buff for every 3 [infusion_sorcery]Sorcery Infusions you have beyond that."
+  },
+  {
+    "key": "ULTIMATEMANIFESTATION",
+    "name": "Ultimate Manifestation",
+    "markup": "While you have at least 1 stack of each Infusion, your creatures can {ACTION_cast} Colorwave. After your creatures {ACTION_cast} Colorwave, you lose 1 of each Infusion."
+  },
+  {
+    "key": "ELEMENTALEMPOWERMENT",
+    "name": "Elemental Empowerment",
+    "markup": "Your creatures' spells are <10>% more potent for each time your creatures have {ACTION_cast} Colorwave in the current battle."
+  },
+  {
+    "key": "CHRONOSHIFT",
+    "name": "Chrono Shift",
+    "markup": "After your creatures manually {ACTION_cast} a spell, they also {ACTION_cast} the Spell Gem below it."
+  },
+  {
+    "key": "TEMPORALANOMALY",
+    "name": "Temporal Anomaly",
+    "markup": "After your creatures manually {ACTION_cast} a spell, they also {ACTION_cast} the Spell Gem above it."
+  },
+  {
+    "key": "ETERNALECHO",
+    "name": "Eternal Echo",
+    "markup": "Your creatures {ACTION_cast} spells <1> additional time(s)."
+  },
+  {
+    "key": "CHROMATICLAYERING",
+    "name": "Chromatic Layering",
+    "markup": "You start battles with <1> Infusion(s), up to 1 per class."
+  },
+  {
+    "key": "ATTUNEMENT",
+    "name": "Attunement",
+    "markup": "Your creatures have <5>% more {STAT_attack}, {STAT_intelligence}, {STAT_defense}, and {STAT_speed} for each [infusion_chaos]Chaos, [infusion_sorcery]Sorcery, [infusion_death]Death, or [infusion_nature]Nature Infusion you have. Your creatures take <1>% less damage for each [infusion_life]Life Infusion you have."
+  },
+  {
+    "key": "INFINITY",
+    "name": "Infinity",
+    "markup": "After your creatures have collectively {ACTION_cast} Colorwave at least 5 times, they can continue to {ACTION_cast} it for the rest of the battle and it consumes no Infusions."
+  },
+  {
+    "key": "INSPIRITEDGEMS",
+    "name": "Inspirited Gems",
+    "markup": "Your creatures' \"Cast On...\" properties have a <1>% additional chance to activate."
+  },
+  {
+    "key": "PRISMATICBARRIER",
+    "name": "Prismatic Barrier",
+    "markup": "While you have at least 1 Infusion that matches your creatures' classes, those creatures are resistant to debuffs."
+  },
+  {
+    "key": "BLINDFURY",
+    "name": "Blind Fury",
+    "markup": "Your creatures' on-attack and on-cast effects trigger <1> additional time(s) after they {ACTION_attack} or {ACTION_cast} a spell."
+  },
+  {
+    "key": "ERUPTION",
+    "name": "Eruption",
+    "markup": "After your creatures' on-attack effects activate, their on-resurrect effects activate as well."
+  },
+  {
+    "key": "UNLEASHEDPOWER",
+    "name": "Unleashed Power",
+    "markup": "Your creatures' on-defend and on-provoke effects trigger <1> additional time(s) after they {ACTION_defend} or {ACTION_provoke}."
+  },
+  {
+    "key": "AVERSION",
+    "name": "Aversion",
+    "markup": "After your creatures' on-defend effects activate, their on-provoke effects activate as well."
+  },
+  {
+    "key": "DEFIANCE",
+    "name": "Defiance",
+    "markup": "Your creatures' on-heal, on-death, and on-resurrect effects trigger <1> additional time(s) after they are healed, killed, or resurrected."
+  },
+  {
+    "key": "ANGERMANAGEMENT",
+    "name": "Anger Management",
+    "markup": "After your creatures' on-heal effects activate, their on-death effects activate as well."
+  },
+  {
+    "key": "OBSCURATION",
+    "name": "Obscuration",
+    "markup": "Your creatures' on-critical and on-dodge effects trigger <1> additional time(s) after they deal critical damage or dodge."
+  },
+  {
+    "key": "MOMENTUM",
+    "name": "Momentum",
+    "markup": "Your creatures have a <5>% chance to double the value of all their actions (damage, healing, stat gains, etc)."
+  },
+  {
+    "key": "DETAINMENT",
+    "name": "Detainment",
+    "markup": "Your creatures take 5% less damage for each time their on-defend and on-provoke effects activated in the current battle."
+  },
+  {
+    "key": "SIEGEBREAKER",
+    "name": "Siegebreaker",
+    "markup": "Your creatures deal 10% more damage for each time their on-attack effects activated in the current battle."
+  },
+  {
+    "key": "SOULRENDING",
+    "name": "Soul Rending",
+    "markup": "When your creatures are killed, they have a 5% chance (up to 50%) to be resurrected with 50% {STAT_health} for each time their on-heal, on-death, and on-resurrect effects activated in the current battle."
+  },
+  {
+    "key": "DEROGATION",
+    "name": "Domination",
+    "markup": "Your creatures have a 3% chance to avoid damage (up to 50%) for each time their on-buff, on-debuff, and on-minion effects activated in the current battle."
+  },
+  {
+    "key": "UNBOUNDHATRED",
+    "name": "Unbound Hatred",
+    "markup": "Your creatures' on-buff, on-debuff, and on-minion effects trigger <1> additional time(s) after they gain a buff, debuff, or minion."
+  },
+  {
+    "key": "RECKLESSNESS",
+    "name": "Recklessness",
+    "markup": "Your creatures have an independent 5% chance to deal critical damage and dodge attacks for each time their on-critical and on-dodge effects activated in the current battle."
+  },
+  {
+    "key": "OUTBURST",
+    "name": "Outburst",
+    "markup": "Your creatures have 1% more stats (other than {STAT_health}) for each time their on-action effects activated in the current battle."
+  },
+  {
+    "key": "PREPARATION",
+    "name": "Preparation",
+    "markup": "At the start of battle, your creatures gain {CONDNAME_BUFF_INVISIBLE} and {CONDNAME_BUFF_PROFICIENT}. {CONDDESC_BUFF_INVISIBLE} {CONDDESC_BUFF_PROFICIENT}"
+  },
+  {
+    "key": "PREDATOR",
+    "name": "Predator",
+    "markup": "After your creatures {ACTION_attack}, they gain {CONDNAME_BUFF_SPLASH} and {CONDNAME_BUFF_SAVAGE}. {CONDDESC_BUFF_SPLASH} {CONDDESC_BUFF_SAVAGE}"
+  },
+  {
+    "key": "AWARENESS",
+    "name": "Awareness",
+    "markup": "After your creatures {ACTION_defend}, they gain {CONDNAME_BUFF_DEFENSIVE} and {CONDNAME_BUFF_REBIRTH}. {CONDDESC_BUFF_DEFENSIVE} {CONDDESC_BUFF_REBIRTH}"
+  },
+  {
+    "key": "SURVIVALOFTHEFITTEST",
+    "name": "Survival of the Fittest",
+    "markup": "After your creatures gain a buff and they already have at least 7 other buffs, they gain {CONDNAME_BUFF_IMMUNITY}. {CONDDESC_BUFF_IMMUNITY}"
+  },
+  {
+    "key": "ALPHA",
+    "name": "Alpha",
+    "markup": "After your creatures {ACTION_provoke}, they gain {CONDNAME_BUFF_TAUNT} and {CONDNAME_BUFF_PROTECT}. {CONDDESC_BUFF_TAUNT} {CONDDESC_BUFF_PROTECT}"
+  },
+  {
+    "key": "BRISTLE",
+    "name": "Bristle",
+    "markup": "After your creatures take damage from a spell, they gain {CONDNAME_BUFF_REPELLING} and {CONDNAME_BUFF_SHELL}. {CONDDESC_BUFF_REPELLING} {CONDDESC_BUFF_SHELL}"
+  },
+  {
+    "key": "LUSTER",
+    "name": "Luster",
+    "markup": "After your creatures take damage from an attack, they gain {CONDNAME_BUFF_AGILE} and {CONDNAME_BUFF_MEND}. {CONDDESC_BUFF_AGILE} {CONDDESC_BUFF_MEND}"
+  },
+  {
+    "key": "PRIMALVENGEANCE",
+    "name": "Primal Vengeance",
+    "markup": "After one of your creatures is killed, all your creatures gain {CONDNAME_BUFF_BERSERK} and {CONDNAME_BUFF_LEECH}. {CONDDESC_BUFF_BERSERK} {CONDDESC_BUFF_LEECH}"
+  },
+  {
+    "key": "CONVOCATION",
+    "name": "Convocation",
+    "markup": "After your creatures {ACTION_cast} a spell, they gain {CONDNAME_BUFF_ARCANE}. {CONDDESC_BUFF_ARCANE}"
+  },
+  {
+    "key": "GROVEWARD",
+    "name": "Grove Ward",
+    "markup": "After your creatures lose stats, they gain {CONDNAME_BUFF_WARD}. {CONDDESC_BUFF_WARD}"
+  },
+  {
+    "key": "GRACEFULSPIRIT",
+    "name": "Graceful Spirit",
+    "markup": "At the start of your creatures' turns, they gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to <1>% of their Maximum {STAT_health}. {CONDDESC_BUFF_BARRIER}"
+  },
+  {
+    "key": "NATURESBOON",
+    "name": "Nature's Boon",
+    "markup": "Your creatures have <1>% more stats (other than {STAT_health}) for each buff they have."
+  },
+  {
+    "key": "SPIRITSHIELD",
+    "name": "Spirit Shield",
+    "markup": "Your creatures deal <2>% more damage and take <1>% less damage for each buff they have."
+  },
+  {
+    "key": "EARTHENFRENZY",
+    "name": "Earthen Frenzy",
+    "markup": "After your creatures gain a buff, they have a <2>% chance to {ACTION_attack} random enemy."
+  },
+  {
+    "key": "OVERRUN",
+    "name": "Overrun",
+    "markup": "After your creatures gain a buff, they recover <3>% {STAT_health}."
+  },
+  {
+    "key": "MOMENTOFCLARITY",
+    "name": "Moment of Clarity",
+    "markup": "After your creatures gain a buff, they have a <2>% chance to {ACTION_cast} one of their spells."
+  },
+  {
+    "key": "SOULOFTHEFOREST",
+    "name": "Soul of the Forest",
+    "markup": "After your creatures gain a buff, they gain <2>% of a random stat."
+  },
+  {
+    "key": "ETERNALGUARDIAN",
+    "name": "Eternal Guardian",
+    "markup": "Your creatures' buffs persist through death."
+  },
+  {
+    "key": "UNFURLINGNIGHTMARE",
+    "name": "Unfurling Nightmare",
+    "markup": "At the start of battle, enemies are afflicted with {CONDNAME_DEBUFF_INVERTED}. The potency of this debuff is equal to <1>% of their highest stat. {CONDDESC_DEBUFF_INVERTED}"
+  },
+  {
+    "key": "ANTITHESIS",
+    "name": "Antithesis",
+    "markup": "After your creatures {ACTION_attack}, they afflict the enemy with {CONDNAME_DEBUFF_INVERTED}. The potency of this debuff is equal to <10>% of the damage they caused. {CONDDESC_DEBUFF_INVERTED}"
+  },
+  {
+    "key": "CONTRARIAN",
+    "name": "Contrarian",
+    "markup": "When an enemy with {CONDNAME_DEBUFF_INVERTED} gains a buff, they have a 50% chance to gain a random debuff instead."
+  },
+  {
+    "key": "ANTIPODE",
+    "name": "Antipode",
+    "markup": "When an enemy with {CONDNAME_DEBUFF_INVERTED} gains stats, they have a 50% chance to lose stats instead."
+  },
+  {
+    "key": "DAMNEDVISIONS",
+    "name": "Damned Visions",
+    "markup": "After your creatures {ACTION_cast} a spell, they afflict a random enemy with {CONDNAME_DEBUFF_INVERTED}. The potency of this debuff is equal to 10% of the caster's highest stat. {CONDDESC_DEBUFF_INVERTED}"
+  },
+  {
+    "key": "DELUSIONOFGRANDEUR",
+    "name": "Delusion of Grandeur",
+    "markup": "Your creatures deal additional damage with attacks and spells equal to <1>% of the enemy's {CONDNAME_DEBUFF_INVERTED} potency."
+  },
+  {
+    "key": "LATECONFESSIONS",
+    "name": "Late Confessions",
+    "markup": "When the enemies' {CONDNAME_DEBUFF_INVERTED} debuff activates, there is a <5>% chance that its potency will not be decreased."
+  },
+  {
+    "key": "PARADOX",
+    "name": "Paradox",
+    "markup": "Your creatures can trigger healing effects even while they're at full {STAT_health}."
+  },
+  {
+    "key": "LOSINGTOUCH",
+    "name": "Losing Touch",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_BLIGHT}. {CONDDESC_DEBUFF_BLIGHT}"
+  },
+  {
+    "key": "QUESTIONEVERYTHING",
+    "name": "Question Everything",
+    "markup": "When your creatures deal damage to each other, they are healed instead of taking damage."
+  },
+  {
+    "key": "HALLUCINATION",
+    "name": "Hallucination",
+    "markup": "When your creatures reduce each other's stats, they gain those stats instead."
+  },
+  {
+    "key": "COUNTERINTUITIVE",
+    "name": "Counterintuitive",
+    "markup": "When your creatures afflict each other with a debuff, they gain a random buff instead."
+  },
+  {
+    "key": "EDGEOFREALITY",
+    "name": "Edge of Reality",
+    "markup": "After an enemy is killed, the potency of their {CONDNAME_DEBUFF_INVERTED} debuff is added to the potency of all other enemies' {CONDNAME_DEBUFF_INVERTED} debuffs."
+  },
+  {
+    "key": "LOSTINTHEECHO",
+    "name": "Lost in the Echo",
+    "markup": "After an enemy is killed, all other enemies take damage equal to <10>% of the potency of their {CONDNAME_DEBUFF_INVERTED} debuff."
+  },
+  {
+    "key": "ETERNALDREAM",
+    "name": "Eternal Dream",
+    "markup": "Enemies cannot be immune to {CONDNAME_DEBUFF_INVERTED}."
+  },
+  {
+    "key": "JINX",
+    "name": "Jinx",
+    "markup": "Enemies always have {CONDNAME_DEBUFF_CURSED}. {CONDDESC_DEBUFF_CURSED}"
+  },
+  {
+    "key": "HEDGEMAGIC",
+    "name": "Hedge Magic",
+    "markup": "Enemies take <10>% more damage from their allies."
+  },
+  {
+    "key": "MASSHYSTERIA",
+    "name": "Mass Hysteria",
+    "markup": "After an enemy takes damage from an ally, they are afflicted with {CONDNAME_DEBUFF_BLIND} and {CONDNAME_DEBUFF_CONFUSED}. {CONDDESC_DEBUFF_BLIND} {CONDDESC_DEBUFF_CONFUSED}"
+  },
+  {
+    "key": "TRANCE",
+    "name": "Trance",
+    "markup": "After your creatures {ACTION_attack}, they have a <5>% chance to {ACTION_cast} Mind Control on the target."
+  },
+  {
+    "key": "BADMEDICINE",
+    "name": "Bad Medicine",
+    "markup": "At the start of battle, your creatures gain Secret Stuff."
+  },
+  {
+    "key": "INITIATIONRITE",
+    "name": "Initiation Rite",
+    "markup": "When an enemy {ACTION_attacks} one of its allies, its highest stat is used to determine the damage dealt."
+  },
+  {
+    "key": "VOODOO",
+    "name": "Voodoo",
+    "markup": "When an enemy {ACTION_casts} a spell on one of its allies, its highest stat is used to determine the potency of the spell."
+  },
+  {
+    "key": "HEX",
+    "name": "Hex",
+    "markup": "Enemies with {CONDNAME_DEBUFF_CONFUSED} have a <5>% chance to lower their allies' stats instead of increasing them. {CONDDESC_DEBUFF_CONFUSED}"
+  },
+  {
+    "key": "MUMBOJUMBO",
+    "name": "Mumbo Jumbo",
+    "markup": "Enemies with {CONDNAME_DEBUFF_CONFUSED} have a <5>% chance to afflict allies with a debuff instead of a buff. {CONDDESC_DEBUFF_CONFUSED}"
+  },
+  {
+    "key": "MALEDICT",
+    "name": "Maledict",
+    "markup": "Enemies take additional damage equal to <5>% of the damage they've taken from their allies in the current battle."
+  },
+  {
+    "key": "VISIONQUEST",
+    "name": "Vision Quest",
+    "markup": "At the start of battle, your creatures gain {CONDNAME_MINION_DOPPELGANGER}. {CONDDESC_MINION_DOPPELGANGER}"
+  },
+  {
+    "key": "BLINDEYE",
+    "name": "Blind Eye",
+    "markup": "Enemies cannot dodge attacks from their allies."
+  },
+  {
+    "key": "BACKBITE",
+    "name": "Backbite",
+    "markup": "Enemies have a 100% greater chance to deal critical damage to their allies."
+  },
+  {
+    "key": "TERRORIZE",
+    "name": "Terrorize",
+    "markup": "After an enemy {ACTION_attacks} one of its allies, it afflicts the target with a random debuff."
+  },
+  {
+    "key": "BEWITCH",
+    "name": "Bewitch",
+    "markup": "After an enemy {ACTION_attacks} one of its allies, your creatures gain a random buff."
+  },
+  {
+    "key": "ARMORSHRED",
+    "name": "Armor Shred",
+    "markup": "Your creatures' attacks and spells ignore <1>% of the enemies' {STAT_defense}."
+  },
+  {
+    "key": "BARRICADE",
+    "name": "Barricade",
+    "markup": "While your creatures are {ACTION_defending}, the creatures adjacent to them take 50% less damage."
+  },
+  {
+    "key": "DEFENSIVESTANCE",
+    "name": "Defensive Stance",
+    "markup": "Your creatures take 5% less damage for each time they've {ACTION_defended} in the current battle."
+  },
+  {
+    "key": "EXPLOSIVEARMOR",
+    "name": "Explosive Armor",
+    "markup": "After your creatures {ACTION_defend}, they gain 10% {STAT_defense} and a {CONDNAME_BUFF_BARRIER} that absorbs the same amount of {STAT_defense}. If the creature already has a {CONDNAME_BUFF_BARRIER}, it explodes, dealing damage to enemies equal to 50% of the {CONDNAME_BUFF_BARRIER} strength. {CONDDESC_BUFF_BARRIER}"
+  },
+  {
+    "key": "INFORMATION",
+    "name": "In Formation",
+    "markup": "Your creatures start battles {ACTION_defending}."
+  },
+  {
+    "key": "LASTSTAND",
+    "name": "Last Stand",
+    "markup": "When your creatures take damage that exceeds 100% of their Maximum {STAT_health}, they have a 50% chance to be left with 1 {STAT_health}."
+  },
+  {
+    "key": "LUCIDITY",
+    "name": "Lucidity",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_CONFUSED}. {CONDDESC_DEBUFF_CONFUSED}"
+  },
+  {
+    "key": "NOWEAKLINKS",
+    "name": "No Weak Links",
+    "markup": "At the start of battle, your creatures gain {STAT_defense} equal to 50% of their highest stat."
+  },
+  {
+    "key": "SHIELDGUARD",
+    "name": "Shield Guard",
+    "markup": "Your creatures gain 100% more benefit from their Artifacts' Stat Slots that increase {STAT_defense}."
+  },
+  {
+    "key": "SHRUGOFF",
+    "name": "Shrug Off",
+    "markup": "After your creatures {ACTION_defend}, their debuffs are removed and they gain a random buff for each debuff removed."
+  },
+  {
+    "key": "THEBESTOFFENSE",
+    "name": "The Best Offense",
+    "markup": "Your creatures deal additional damage with attacks and spells equal to <3>% of their {STAT_defense}."
+  },
+  {
+    "key": "TITANICRAGE",
+    "name": "Titanic Rage",
+    "markup": "Your creatures deal 150% more damage to enemies that are {ACTION_defending} or {ACTION_provoking}."
+  },
+  {
+    "key": "THORNS",
+    "name": "Thorns",
+    "markup": "After your creatures take damage from an attack or spell, they deal damage to enemies equal to 15% of their {STAT_defense}."
+  },
+  {
+    "key": "RESTUP",
+    "name": "Rest Up",
+    "markup": "After your creatures {ACTION_defend}, their Spell Gems gain 1 {STAT_charge}."
+  },
+  {
+    "key": "WARMACHINE",
+    "name": "War Machine",
+    "markup": "After your creatures {ACTION_provoke}, they {ACTION_defend}."
+  },
+  {
+    "key": "FURTHERBEYOND",
+    "name": "Further Beyond",
+    "markup": "Increases your creatures' maximum stat limits before they are subjected to diminishing returns by <10>%."
+  },
+  {
+    "key": "ACCUMULATION",
+    "name": "Accumulation",
+    "markup": "At the start of your creatures' turns, they gain <1>% {STAT_speed}, plus additional {STAT_speed} equal to 5% of the amount of {STAT_speed} they've gained in the current battle."
+  },
+  {
+    "key": "DERIVATION",
+    "name": "Derivation",
+    "markup": "After your creatures gain stats other than {STAT_speed}, they gain {STAT_speed} equal to <3>% of the amount gained."
+  },
+  {
+    "key": "RETENTION",
+    "name": "Retention",
+    "markup": "Your creatures' stats are no longer reset after they're killed."
+  },
+  {
+    "key": "INERTIA",
+    "name": "Inertia",
+    "markup": "Your creatures cannot lose stats."
+  },
+  {
+    "key": "PROPULSION",
+    "name": "Propulsion",
+    "markup": "Your creatures take <1>% less damage for every 100% {STAT_speed} they have greater than their base {STAT_speed}."
+  },
+  {
+    "key": "VELOCITY",
+    "name": "Velocity",
+    "markup": "Your creatures' attacks and spells deal <3>% of their damage using {STAT_speed} instead of {STAT_attack} or {STAT_intelligence}."
+  },
+  {
+    "key": "SIDESTEP",
+    "name": "Sidestep",
+    "markup": "If your creatures' {STAT_speed} is greater than 200% of their base {STAT_speed}, they are resistant to debuffs."
+  },
+  {
+    "key": "BORNAGAIN",
+    "name": "Born Again",
+    "markup": "After your creatures are killed from start-of-battle effects, they are resurrected with 50% {STAT_health}."
+  },
+  {
+    "key": "FIRSTSERVED",
+    "name": "First Served",
+    "markup": "After the order of the {TIMELINE} is determined at the start of battle, your creatures are moved up the {TIMELINE} <1> position(s) higher."
+  },
+  {
+    "key": "QUICKHANDS",
+    "name": "Quick Hands",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_DISARMED}. {CONDDESC_DEBUFF_DISARMED}"
+  },
+  {
+    "key": "AEROFORGED",
+    "name": "Aeroforged",
+    "markup": "Your creatures gain <3>% more benefit from their Artifacts' Stat Slots (other than {STAT_health})."
+  },
+  {
+    "key": "PRIMORDIAL",
+    "name": "Primordial",
+    "markup": "Your creatures' Nether Stones are <5>% more powerful. This perk does not affect a Nether Stone's traits, spells, or any [slot_trick] Trick Slots that increase a creature's maximum number of Spell Gem slots."
+  },
+  {
+    "key": "SINGLETON",
+    "name": "Singleton",
+    "markup": "Enemies can only {ACTION_attack} and {ACTION_cast} spells once at a time."
+  },
+  {
+    "key": "TRUEENDING",
+    "name": "True Ending",
+    "markup": "Effects that activate when creatures die are ignored. This perk does not affect the [perks_bornagain] Born Again perk. This perk does not work in boss battles."
+  },
+  {
+    "key": "ROYALTY",
+    "name": "Master of All",
+    "markup": "You can equip 10 additional Anointments."
+  },
+  {
+    "key": "JUGGERNAUT",
+    "name": "Juggernaut",
+    "markup": "Your creatures deal 5% more damage for each time their on-action effects activated in the current battle."
+  },
+  {
+    "key": "LUCIDDREAMS",
+    "name": "Lucid Dreams",
+    "markup": "Enemies' {CONDNAME_DEBUFF_INVERTED} debuffs lose 50% less potency when they activate."
+  },
+  {
+    "key": "FINALSTAND",
+    "name": "Final Stand",
+    "markup": "If you only have 1 living creature, your dead creatures count as missing creatures."
+  },
+  {
+    "key": "OVERLOAD",
+    "name": "Overload",
+    "markup": "After your creatures manually {ACTION_cast} a spell, each of their other Spell Gems that belong to a different class have a 50% chance to be {ACTION_cast} as well. Maximum of 1 spell per class."
+  },
+  {
+    "key": "GODFORGED",
+    "name": "Godforged",
+    "markup": "Your {RACE_Avatar}s have 50% more benefit from the Godforge."
+  },
+  {
+    "key": "NUTRITION",
+    "name": "Fertility",
+    "markup": "Your Herbling evolves 50% faster."
+  },
+  {
+    "key": "HELLION",
+    "name": "Hellion",
+    "markup": "Your creatures deal 5% more damage with attacks for each time they've {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "JUDGMENTDAY",
+    "name": "Judgment Day",
+    "markup": "Your creatures deal 150% more damage and take 65% less damage as a result of their class strength."
+  },
+  {
+    "key": "WINDWALKER",
+    "name": "Windwalker",
+    "markup": "Your creatures have a 5% chance (up to 80%) to avoid damage for each time all your creatures dodged in the current battle."
+  },
+  {
+    "key": "AMALGAMATION",
+    "name": "Amalgamation",
+    "markup": "Your creatures start battles with {CONDNAME_MINION_AMALGAMATION}. {CONDDESC_MINION_AMALGAMATION}"
+  },
+  {
+    "key": "DIVINETOLL",
+    "name": "Divine Toll",
+    "markup": "After your creatures deal damage with [life_paladin_retribution]Retribution, they {ACTION_cast} Holy Smite on the enemy as well."
+  },
+  {
+    "key": "TIMETODIE",
+    "name": "Time to Die",
+    "markup": "At the start of battle, your creatures {ACTION_provoke} if their top-most Spell Gem slot is empty."
+  },
+  {
+    "key": "EMPOWERINGFLAMES",
+    "name": "Empowering Flames",
+    "markup": "After your creatures are healed by [pyromancer_livingflame] Living Flame, they gain {STAT_attack} and {STAT_intelligence} equal to 100% of the amount of healing received."
+  },
+  {
+    "key": "UNCONTROLLABLEANGER",
+    "name": "Uncontrollable Anger",
+    "markup": "If your creatures have taken at least 2 turns, they {ACTION_attack} a random enemy at the start of their turn."
+  },
+  {
+    "key": "HIGHBORN",
+    "name": "Highborn",
+    "markup": "You can equip 3 additional Anointments, or 5 if you've ascended all other specializations (excluding Challenge Specializations)."
+  },
+  {
+    "key": "RUNICEMPOWERMENT",
+    "name": "Runic Might",
+    "markup": "Your creatures' Rune spells have 10% more potency for each {STAT_charge} they're missing."
+  },
+  {
+    "key": "FURIOUSPROTECTOR",
+    "name": "Furious Protector",
+    "markup": "Your creatures always deal critical damage and never dodge."
+  },
+  {
+    "key": "UNDERTOW",
+    "name": "Undertow",
+    "markup": "At the start of each enemy's turn, there is a 10% chance that your [sorc_sorcerer_spellofroots] Spell of Roots, [sorc_sorcerer_spellofslumber] Spell of Slumber, and [sorc_sorcerer_deepfreeze] Spell of Frost perks will activate. This chance is increased by an additional 10% each turn. After this perk activates, the chance is set back to 10%."
+  },
+  {
+    "key": "SPECTRALAFFINITY",
+    "name": "Spectral Affinity",
+    "markup": "After you gain an Infusion, you also gain whatever Infusion you have the least amount of."
+  },
+  {
+    "key": "GONEBUTNOTFORGOTTEN",
+    "name": "Gone But Not Forgotten",
+    "markup": "Traits, spells, and other effects that are affected by the number of a certain creature race or class now work with dead creatures as well."
+  },
+  {
+    "key": "IMMACULATERECOVERY",
+    "name": "Immaculate Recovery",
+    "markup": "After your creatures take damage from an attack or spell, they gain {CONDNAME_BUFF_INVISIBLE} and {CONDNAME_BUFF_SHELL}."
+  },
+  {
+    "key": "UNENDINGBOON",
+    "name": "Unending Boon",
+    "markup": "Your creatures' buffs last forever. In addition, when one of your creature's buffs would be forcefully removed (for example, if your creature with {CONDNAME_BUFF_INVISIBLE} makes an action), they have a 50% chance to retain that buff and trigger their on-buff effects."
+  },
+  {
+    "key": "ZOOM",
+    "name": "Zoom",
+    "markup": "Your creatures always dodge."
+  },
+  {
+    "key": "CURSEDOMEN",
+    "name": "Cursed Omen",
+    "markup": "Enemies {ACTION_attack} and {ACTION_cast} spells on their allies 1 additional time."
+  },
+  {
+    "key": "LIVETOSERVE",
+    "name": "Live to Serve",
+    "markup": "After your Animatus is resurrected, your other creatures are resurrected with 100% {STAT_health}."
+  },
+  {
+    "key": "PROTOSTAR",
+    "name": "Protostar",
+    "markup": "If your creatures have been killed at least 1 time in the current battle, they deal 90% more damage and take 60% less damage."
+  },
+  {
+    "key": "BLOODOFFERING",
+    "name": "Blood Offering",
+    "markup": "At the start of battle, your creatures grant each other Maximum {STAT_health} equal to 10% of their Maximum {STAT_health}."
+  },
+  {
+    "key": "EMBRACETHEARCANE",
+    "name": "Embrace the Arcane",
+    "markup": "Your creatures' spells that are {ACTION_cast} automatically have a 10% chance to be treated as manual casts."
+  },
+  {
+    "key": "DEATHSDUE",
+    "name": "Death's Due",
+    "markup": "Your creatures deal additional damage with attacks and spells equal to the amount of their highest stat they have greater than the target's highest stat."
+  },
+  {
+    "key": "HOLYBURST",
+    "name": "Holy Burst",
+    "markup": "At the end of your creatures' turns, they {ACTION_cast} Holy Fire if they have {CONDNAME_BUFF_BARRIER}."
+  },
+  {
+    "key": "DIAGNOSIS",
+    "name": "Diagnosis",
+    "markup": "Your creatures always have {CONDNAME_DEBUFF_POISON}. Your creatures can take a maximum of 50% of their Current {STAT_health} as damage from {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "PROGNOSIS",
+    "name": "Prognosis",
+    "markup": "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, one of your other creatures is healed for the same amount."
+  },
+  {
+    "key": "CHRONICILLNESS",
+    "name": "Chronic Illness",
+    "markup": "Your creatures take damage from {CONDNAME_DEBUFF_POISON} <1> additional time(s)."
+  },
+  {
+    "key": "SUDDENEXPOSURE",
+    "name": "Sudden Exposure",
+    "markup": "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, a random enemy takes this damage as well."
+  },
+  {
+    "key": "BIOASSAY",
+    "name": "Bioassay",
+    "markup": "Your creatures' spells that interact with {CONDNAME_DEBUFF_POISON} do not consume {STAT_charges}."
+  },
+  {
+    "key": "CONFOUNDINGFACTORS",
+    "name": "Confounding Factors",
+    "markup": "Your creatures' spells that interact with {CONDNAME_DEBUFF_POISON} have <20>% more potency."
+  },
+  {
+    "key": "CARCINOGEN",
+    "name": "Carcinogen",
+    "markup": "Enemies always have {CONDNAME_DEBUFF_POISON}. {CONDDESC_DEBUFF_POISON}"
+  },
+  {
+    "key": "TERATOGEN",
+    "name": "Teratogen",
+    "markup": "After a creature takes damage from {CONDNAME_DEBUFF_POISON}, the potency of all enemies' {CONDNAME_DEBUFF_POISON} debuffs is increased by <5>%."
+  },
+  {
+    "key": "NEUROTOXICITY",
+    "name": "Neurotoxicity",
+    "markup": "Enemies take 1% more damage from attacks and spells for each time each enemy has taken damage from {CONDNAME_DEBUFF_POISON} in the current battle."
+  },
+  {
+    "key": "INOCULATE",
+    "name": "Inoculate",
+    "markup": "Your creatures take 10% less damage from attacks and spells for each time they've taken damage from {CONDNAME_DEBUFF_POISON} in the current battle."
+  },
+  {
+    "key": "BREATHOFDEATH",
+    "name": "Breath of Death",
+    "markup": "If an enemy dies while it is afflicted with {CONDNAME_DEBUFF_POISON}, all other enemies take damage equal to 50% of the potency of this debuff."
+  },
+  {
+    "key": "ADDICTIVEEFFECT",
+    "name": "Addictive Effect",
+    "markup": "Your creatures deal additional damage with attacks and spells equal to <4>% of the potency of their {CONDNAME_DEBUFF_POISON} debuff."
+  },
+  {
+    "key": "SIDEEFFECTS",
+    "name": "Side Effects",
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_POISON}, they are afflicted with a random debuff."
+  },
+  {
+    "key": "PLAGUEOFTOADS",
+    "name": "Plague of Toads",
+    "markup": "After your creatures {ACTION_attack}, they have a 20% chance to {ACTION_cast} Toxic Frogmania."
+  },
+  {
+    "key": "DISPERSINGPLAGUE",
+    "name": "Dispersing Plague",
+    "markup": "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, they have a 20% chance to {ACTION_cast} Virus."
+  },
+  {
+    "key": "TOXICABSORPTION",
+    "name": "Toxic Absorption",
+    "markup": "After your creatures take damage from {CONDNAME_DEBUFF_POISON}, they gain stats (other than {STAT_health}) equal to 50% of the damage received."
+  },
+  {
+    "key": "PRESSURE",
+    "name": "Pressure",
+    "markup": "The first time an enemy {ACTION_attacks} each turn, one of your creatures {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "IMITATION",
+    "name": "Imitation",
+    "markup": "The first time an enemy {ACTION_casts} a spell each turn, one of your creatures {ACTION_casts} that spell as well."
+  },
+  {
+    "key": "FINGERPAINTING",
+    "name": "Finger Painting",
+    "markup": "When an enemy gains a buff, one of your creatures gains that buff as well."
+  },
+  {
+    "key": "PULLTHEROPE",
+    "name": "Pull the Rope",
+    "markup": "When an enemy afflicts your creatures with a debuff, a random enemy is afflicted with that debuff as well."
+  },
+  {
+    "key": "THELEAN",
+    "name": "The Lean",
+    "markup": "Your creatures deal 5% more damage with attacks and spells for each time an enemy has {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "STATIONARYWALK",
+    "name": "Stationary Walk",
+    "markup": "Your creatures take 5% less damage for each time an enemy has {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "STILLNESSANDSILENCE",
+    "name": "Stillness and Silence",
+    "markup": "Enemies always have {CONDNAME_DEBUFF_CURSED}. {CONDDESC_DEBUFF_CURSED}"
+  },
+  {
+    "key": "BEWILDERMENT",
+    "name": "Bewilderment",
+    "markup": "After an enemy {ACTION_attacks}, it has a 25% chance to be afflicted with {CONDNAME_DEBUFF_BLIND}. {CONDDESC_DEBUFF_BLIND}"
+  },
+  {
+    "key": "MOCK",
+    "name": "Mock",
+    "markup": "After an enemy casts a spell, it has a 25% chance to be afflicted with {CONDNAME_DEBUFF_CONFUSED}. {CONDDESC_DEBUFF_CONFUSED}"
+  },
+  {
+    "key": "IMMOBILITY",
+    "name": "Immobility",
+    "markup": "At the start of your creatures' turns, they have a 10% chance to {ACTION_cast} Aggravate."
+  },
+  {
+    "key": "TRAPPEDINABOX",
+    "name": "Trapped In a Box",
+    "markup": "After an enemy {ACTION_defends}, one of your creatures {ACTION_defends} as well."
+  },
+  {
+    "key": "GESTICULATION",
+    "name": "Gesticulation",
+    "markup": "After an enemy {ACTION_provokes}, one of your creatures {ACTION_provokes} as well."
+  },
+  {
+    "key": "CLIC",
+    "name": "Clic",
+    "markup": "The first time your creatures {ACTION_attack} each turn, the target has a 15% chance to {ACTION_attack} itself as well."
+  },
+  {
+    "key": "CIRCUSWALK",
+    "name": "Circus Walk",
+    "markup": "The first time your creatures {ACTION_attack} each turn, your other creatures have a 15% chance to {ACTION_attack} the enemy as well."
+  },
+  {
+    "key": "FOLLOWTHELEADER",
+    "name": "Follow the Leader",
+    "markup": "The first time your creatures {ACTION_cast} a spell each turn, your other creatures have a 15% chance to {ACTION_cast} that spell as well."
+  },
+  {
+    "key": "FIDELITY",
+    "name": "Fidelity",
+    "markup": "The chance for your {SPEC_MIME} perks to activate is doubled."
+  },
+  {
+    "key": "SHADOWSICKNESS",
+    "name": "Shadow Sickness",
+    "markup": "Enemies always have {CONDNAME_DEBUFF_BLIGHT}. {CONDDESC_DEBUFF_BLIGHT}"
+  },
+  {
+    "key": "DOOMSDAY",
+    "name": "Doomsday",
+    "markup": "After your creatures cause an enemy to take damage from {CONDNAME_DEBUFF_BLIGHT}, they have a 15% chance to {ACTION_cast} Ill Fate."
+  },
+  {
+    "key": "TOUCHOFDARKNESS",
+    "name": "Touch of Darkness",
+    "markup": "After your creatures damage an enemy, the enemy is healed for 20% of the damage dealt."
+  },
+  {
+    "key": "FALLFROMGRACE",
+    "name": "Fall From Grace",
+    "markup": "Enemies receive 5% more healing for each time they've been damaged by {CONDNAME_DEBUFF_BLIGHT} in the current battle."
+  },
+  {
+    "key": "ARROGANCEISCONFIDENCE",
+    "name": "Arrogance Is Confidence",
+    "markup": "Your creatures with {CONDNAME_DEBUFF_BLIGHT} ignore the effects of this debuff and deal 50% more damage."
+  },
+  {
+    "key": "SHADOWMENDING",
+    "name": "Shadow Mending",
+    "markup": "Your creatures always have {CONDNAME_BUFF_LEECH} and {CONDNAME_BUFF_MEND}. {CONDDESC_BUFF_LEECH} {CONDDESC_BUFF_MEND}"
+  },
+  {
+    "key": "LEECHES",
+    "name": "Leeches",
+    "markup": "After an enemy {ACTION_attacks}, it gains {CONDNAME_BUFF_LEECH}. {CONDDESC_BUFF_LEECH}"
+  },
+  {
+    "key": "SELFFULFILLINGPROPHECY",
+    "name": "Self-fulfilling Prophecy",
+    "markup": "After an enemy {ACTION_casts} a spell, it gains {CONDNAME_BUFF_MEND}. {CONDDESC_BUFF_MEND}"
+  },
+  {
+    "key": "DARKSOULS",
+    "name": "Dark Souls",
+    "markup": "After your creatures {ACTION_attack}, they {ACTION_cast} Minor Healing, Healing, or Major Healing on the target."
+  },
+  {
+    "key": "ASCENTOFTHEDAMNED",
+    "name": "Ascent of the Damned",
+    "markup": "After your creatures {ACTION_attack}, they {ACTION_cast} Minor Healing, Healing, or Major Healing on themselves."
+  },
+  {
+    "key": "PHANTOMPAIN",
+    "name": "Phantom Pain",
+    "markup": "At the start of each enemy's turn, they have a 25% chance to {ACTION_cast} Minor Healing on themselves."
+  },
+  {
+    "key": "DYSTOPIA",
+    "name": "Dystopia",
+    "markup": "After an enemy {ACTION_casts} a healing spell, each of your creatures have a 5% chance to {ACTION_cast} Shadow Crash."
+  },
+  {
+    "key": "DEADDIVINITY",
+    "name": "Dead Divinity",
+    "markup": "Enemies' healing spells have 50% more potency."
+  },
+  {
+    "key": "WORLDBREAKER",
+    "name": "Worldbreaker",
+    "markup": "Enemies take 100% more damage from {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "HARROW",
+    "name": "Harrow",
+    "markup": "Enemies gain 50% less benefit from stat-boosting effects."
+  },
+  {
+    "key": "ENDWALKER",
+    "name": "Endwalker",
+    "markup": "If an enemy dies while it is afflicted with {CONDNAME_DEBUFF_BLIGHT}, it cannot be resurrected."
+  },
+  {
+    "key": "SOMNUS",
+    "name": "Somnus",
+    "markup": "The first 3 times your creatures die, they are resurrected with 25%, 50%, and 100% {STAT_health}. Your creatures cannot be resurrected by any other means. Your creatures' on-resurrect effects can activate only once at a time. This perk is always active while your specialization is {SPEC_GRAVEBORN}, even if you haven't allocated any Perk Points to it."
+  },
+  {
+    "key": "JAWSTHATBITE",
+    "name": "Jaws That Bite",
+    "markup": "The first 3 times your creatures are resurrected, they gain 25%, 50%, and 100% {STAT_attack}."
+  },
+  {
+    "key": "CLAWSTHATCAST",
+    "name": "Claws That Cast",
+    "markup": "The first 3 times your creatures are resurrected, they gain 25%, 50%, and 100% {STAT_intelligence}."
+  },
+  {
+    "key": "CARAPACETHATPROTECTS",
+    "name": "Carapace That Protects",
+    "markup": "The first 3 times your creatures are resurrected, they gain 25%, 50%, and 100% {STAT_defense}."
+  },
+  {
+    "key": "LEGSTHATCARRY",
+    "name": "Legs That Carry",
+    "markup": "The first 3 times your creatures are resurrected, they gain 25%, 50%, and 100% {STAT_speed}."
+  },
+  {
+    "key": "HEARTTHATTHRIVES",
+    "name": "Heart That Thrives",
+    "markup": "The first 3 times your creatures are resurrected, they gain 25%, 50%, and 100% Maximum {STAT_health}."
+  },
+  {
+    "key": "ETERNALLEGACY",
+    "name": "Eternal Legacy",
+    "markup": "The first 3 times your creatures are resurrected, they gain a random trait that belongs to their race."
+  },
+  {
+    "key": "MORTALVESSEL",
+    "name": "Mortal Vessel",
+    "markup": "Your creatures deal 50% more damage with attacks and spells for each time they've been resurrected in the current battle."
+  },
+  {
+    "key": "DREADCOVENANT",
+    "name": "Dread Covenant",
+    "markup": "Your creatures take 25% less damage for each time they've been resurrected in the current battle."
+  },
+  {
+    "key": "DEATHSBANE",
+    "name": "Death's Bane",
+    "markup": "The first 3 times your creatures are resurrected, they {ACTION_attack} random enemies 1, 2, and 3 times."
+  },
+  {
+    "key": "DEATHSECHO",
+    "name": "Death's Echo",
+    "markup": "The first 3 times your creatures are resurrected, they {ACTION_cast} their spells at random 1, 2, and 3 times."
+  },
+  {
+    "key": "UNNATURALCAUSES",
+    "name": "Unnatural Causes",
+    "markup": "Your creatures that have been resurrected at least 1 time are resistant to debuffs. Your creatures that have been resurrected at least 3 times always have {CONDNAME_BUFF_IMMUNITY}. {CONDDESC_BUFF_IMMUNITY}"
+  },
+  {
+    "key": "PASTLIFEREGRESSION",
+    "name": "Past Life Regression",
+    "markup": "Your creatures' stat changes persist through death."
+  },
+  {
+    "key": "VISITORSFROMBEFORE",
+    "name": "Visitors From Before",
+    "markup": "Your creatures' buffs and minions persist through death."
+  },
+  {
+    "key": "GRAVEBORNBARGAIN",
+    "name": "Graveborn Bargain",
+    "markup": "The first 3 times your creatures are resurrected, they gain 1, 2, and 3 random buffs."
+  },
+  {
+    "key": "FROMBEYONDTHEGRAVE",
+    "name": "From Beyond the Grave",
+    "markup": "If your creatures have been resurrected at least 3 times in battle, their traits are active even while they're dead. This perk does not affect traits that cause creatures to intercept or take damage in place of their allies."
+  },
+  {
+    "key": "RENOUNCETHELIGHT",
+    "name": "Renounce the Light",
+    "markup": "Your creatures cannot gain buffs or minions that are unrelated to this specialization. Your Greater Demons are not removed on death. This perk is always active while your specialization is {SPEC_DEMONOLOGIST}, even if you haven't allocated any Perk Points to it."
+  },
+  {
+    "key": "BRIMFIENDS",
+    "name": "Brim Fiends",
+    "markup": "At the start of your creatures' turns, they gain 1 stack of {CONDNAME_MINION_BRIMFIEND}. {CONDDESC_MINION_BRIMFIEND}"
+  },
+  {
+    "key": "FIREIMPS",
+    "name": "Fire Imps",
+    "markup": "At the start of your creatures' turns, they gain 1 stack of {CONDNAME_MINION_FIREIMP}. {CONDDESC_MINION_FIREIMP}"
+  },
+  {
+    "key": "CHAOSSATYRS",
+    "name": "Chaos Satyrs",
+    "markup": "At the start of your creatures' turns, they gain 1 stack of {CONDNAME_MINION_CHAOSSATYR}. {CONDDESC_MINION_CHAOSSATYR}"
+  },
+  {
+    "key": "SUMMONASMODEUS",
+    "name": "Summon Asmodeus",
+    "markup": "At the start of battle, your {CLASS_Chaos} creatures gain {CONDNAME_MINION_ASMODEUS}. {CONDDESC_MINION_ASMODEUS}"
+  },
+  {
+    "key": "SUMMONBEELZEBUB",
+    "name": "Summon Beelzebub",
+    "markup": "At the start of battle, your {CLASS_Death} creatures gain {CONDNAME_MINION_BEELZEBUB}. {CONDDESC_MINION_BEELZEBUB}"
+  },
+  {
+    "key": "SUMMONMAMMON",
+    "name": "Summon Mammon",
+    "markup": "At the start of battle, your {CLASS_Life} creatures gain {CONDNAME_MINION_MAMMON}. {CONDDESC_MINION_MAMMON}"
+  },
+  {
+    "key": "SUMMONLEVIATHAN",
+    "name": "Summon Leviathan",
+    "markup": "At the start of battle, your {CLASS_Nature} creatures gain {CONDNAME_MINION_LEVIATHAN}. {CONDDESC_MINION_LEVIATHAN}"
+  },
+  {
+    "key": "SUMMONBELPHEGOR",
+    "name": "Summon Belphegor",
+    "markup": "At the start of battle, your {CLASS_Sorcery} creatures gain {CONDNAME_MINION_BELPHEGOR}. {CONDDESC_MINION_BELPHEGOR}"
+  },
+  {
+    "key": "SUMMONSATANACHIA",
+    "name": "Summon Satanachia",
+    "markup": "At the start of battle, if your creatures collectively have {CONDNAME_MINION_ASMODEUS}, {CONDNAME_MINION_BEELZEBUB}, {CONDNAME_MINION_MAMMON}, {CONDNAME_MINION_LEVIATHAN}, and {CONDNAME_MINION_BELPHEGOR}, they gain {CONDNAME_MINION_SATANACHIA}. {CONDDESC_MINION_SATANACHIA}"
+  },
+  {
+    "key": "INNERDEMONS",
+    "name": "Inner Demons",
+    "markup": "After any number of stacks of your creatures' Lesser Demons go away, they gain 15% stats."
+  },
+  {
+    "key": "FINALSUMMONING",
+    "name": "Final Summoning",
+    "markup": "After your creatures' Greater Demons go away, they {ACTION_cast} a powerful spell depending on which Greater Demon went away."
+  },
+  {
+    "key": "REAWAKENING",
+    "name": "Reawakening",
+    "markup": "After your creatures sacrifice a Lesser Demon, each stack has a 35% chance to resurrect."
+  },
+  {
+    "key": "VOIDSHIFT",
+    "name": "Void Shift",
+    "markup": "When your creatures' Greater Demons would go away, they move to a different creature fighting on your side instead."
+  },
+  {
+    "key": "DRAINEDESSENCE",
+    "name": "Drained Essence",
+    "markup": "Your creatures deal 3% more damage for each time all your creatures' minions went away in the current battle."
+  },
+  {
+    "key": "SOULSHIELD",
+    "name": "Soul Shield",
+    "markup": "Your creatures take 3% less damage for each time all your creatures' minions went away in the current battle."
+  },
+  {
+    "key": "DEMONICPACT",
+    "name": "Demonic Pact",
+    "markup": "Your creatures have 10% more stats (excluding Health) for each different Greater Demon your creatures have."
+  },
+  {
+    "key": "DEMONICCONSUMPTION",
+    "name": "Demonic Consumption",
+    "markup": "After any number of stacks of your creatures' Lesser or Greater Demons go away, they recover 100% {STAT_health}."
+  },
+  {
+    "key": "SUMMONLUCIFER",
+    "name": "Summon Lucifer",
+    "markup": "At the start of battle, if your creatures collectively have {CONDNAME_MINION_ASMODEUS}, {CONDNAME_MINION_BEELZEBUB}, {CONDNAME_MINION_MAMMON}, {CONDNAME_MINION_LEVIATHAN}, and {CONDNAME_MINION_BELPHEGOR}, your creatures gain {CONDNAME_MINION_LUCIFER}. {CONDDESC_MINION_LUCIFER}"
+  },
+  {
+    "key": "PRIMEDANDREADY",
+    "name": "Primed and Ready",
+    "markup": "At the start of battle, enemies are afflicted with {CONDNAME_DEBUFF_BOMB}. {CONDDESC_DEBUFF_BOMB}"
+  },
+  {
+    "key": "RENEWABLEARMAMENTS",
+    "name": "Renewable Armaments",
+    "markup": "After an enemy's {CONDNAME_DEBUFF_BOMB} detonates, it has a 35% chance to be afflicted with {CONDNAME_DEBUFF_BOMB} again."
+  },
+  {
+    "key": "EXTRUSION",
+    "name": "Extrusion",
+    "markup": "Enemies' {CONDNAME_DEBUFF_BOMB} debuffs deal 50% more damage for each time they've been damaged by this debuff in the current battle."
+  },
+  {
+    "key": "DIMENSIONSTABILITY",
+    "name": "Dimensional Stability",
+    "markup": "Enemies' {CONDNAME_DEBUFF_BOMB} debuffs detonate <1> additional time."
+  },
+  {
+    "key": "DISMANTLEMENT",
+    "name": "Dismantlement",
+    "markup": "Enemies deal 5% less damage for each time they've been damaged by {CONDNAME_DEBUFF_BOMB} in the current battle."
+  },
+  {
+    "key": "PINPOINT",
+    "name": "Pinpoint",
+    "markup": "Your creatures deal <5>% more damage to enemies with {CONDNAME_DEBUFF_BOMB}."
+  },
+  {
+    "key": "ANNEALMENT",
+    "name": "Annealment",
+    "markup": "Enemies take 35% more indirect damage."
+  },
+  {
+    "key": "DRONEBAIT",
+    "name": "Drone Bait",
+    "markup": "After an enemy's {CONDNAME_DEBUFF_BOMB} debuff detonates, one of your creatures gains <1> stack(s) of {CONDNAME_MINION_MICROBOT}. {CONDDESC_MINION_MICROBOT}"
+  },
+  {
+    "key": "PROTOTYPE",
+    "name": "Prototype",
+    "markup": "The potency of enemies' {CONDNAME_DEBUFF_BOMB} debuffs that are applied after start-of-battle effects is based on your creatures' highest stats (other than {STAT_health}) instead of {STAT_speed}."
+  },
+  {
+    "key": "LIGHTTHEFUSE",
+    "name": "Light the Fuse",
+    "markup": "After your creatures {ACTION_attack}, they {ACTION_cast} Pyroburst on the target."
+  },
+  {
+    "key": "ENERGYEFFICIENCY",
+    "name": "Energy Efficient",
+    "markup": "Your creatures' spells that interact with {CONDNAME_DEBUFF_BOMB} do not consume {STAT_charges}."
+  },
+  {
+    "key": "LOCKEDANDLOADED",
+    "name": "Locked and Loaded",
+    "markup": "At the start of your creatures' turns, they have a 20% chance to {ACTION_cast} Explosive Arrow on a random enemy."
+  },
+  {
+    "key": "IMPACTRESISTANCE",
+    "name": "Impact Resistance",
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BOMB}, your creatures gain a {CONDNAME_BUFF_BARRIER} that absorbs damage equal to 100% of the damage dealt."
+  },
+  {
+    "key": "GRANDFINALE",
+    "name": "Grand Finale",
+    "markup": "After your creatures are killed, they {ACTION_cast} Corpse Explosion."
+  },
+  {
+    "key": "HEATDISTORTION",
+    "name": "Heat Distortion",
+    "markup": "Enemies with {CONDNAME_DEBUFF_BOMB} have 20% less stats (excluding {STAT_health})."
+  },
+  {
+    "key": "CHAINREACTION",
+    "name": "Chain Reaction",
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BOMB}, all other enemies take this damage as well."
+  },
+  {
+    "key": "INTROVERSION",
+    "name": "Introversion",
+    "markup": "You can only use 3 creatures at a time. Your {SPEC_DRUID} anointments are ignored. This perk is always active while your specialization is {SPEC_PARIAH}, even if you haven't allocated any Perk Points to it."
+  },
+  {
+    "key": "LIFELONGRESPITE",
+    "name": "Lifelong Respite",
+    "markup": "You have a 25% increased chance to find Nether Stones. This perk is always active, even if your specialization is not {SPEC_PARIAH}."
+  },
+  {
+    "key": "TOTALDEPRIVATION",
+    "name": "Total Deprivation",
+    "markup": "Your creatures' Fused traits are ignored. You cannot use Avatar creatures. Your creatures' Relic effects are ignored. This perk is always active while your specialization is {SPEC_DEPRIVED}, even if you haven't allocated any Perk Points to it."
+  },
+  {
+    "key": "SIMPLELIFE",
+    "name": "Simple Life",
+    "markup": "You have a 100% increased chance to find Skins. This perk is always active, even if your specialization is not {SPEC_DEPRIVED}."
+  },
+  {
+    "key": "ELBOWGREASE",
+    "name": "Elbow Grease",
+    "markup": "Your creatures gain 50% more benefit from their Artifact's [slot_stat] Stat Slots."
+  },
+  {
+    "key": "BLACKSMITHSBOON",
+    "name": "Blacksmith's Boon",
+    "markup": "Your creatures' [slot_trick] Trick Slots that apply buffs and debuffs have a 35% greater chance to activate."
+  },
+  {
+    "key": "DOUBLETIME",
+    "name": "Double Time",
+    "markup": "Your creatures' [slot_trick] Trick Slots that apply buffs and debuffs affect 1 additional creature."
+  },
+  {
+    "key": "GRIPOFTHEGODS",
+    "name": "Grip of the Gods",
+    "markup": "Your creatures are immune to {CONDNAME_DEBUFF_DISARMED}. {CONDDESC_DEBUFF_DISARMED}"
+  },
+  {
+    "key": "NETHERIMBUEMENT",
+    "name": "Nether Imbuement",
+    "markup": "Your creatures' Nether Stones are <5>% more powerful. This perk does not affect a Nether Stone's traits, spells, or any [slot_trick] Trick Slots that increase a creature's maximum number of Spell Gem slots."
+  },
+  {
+    "key": "ITSCALLEDALANCE",
+    "name": "It's Called a Lance",
+    "markup": "After your creatures manually {ACTION_cast} an {SPELL_equipment}, they {ACTION_cast} a Living Lance spell. The type of Living Lance spell is based on the caster's class."
+  },
+  {
+    "key": "ACCLIMATEDARMAMENTS",
+    "name": "Acclimated Armaments",
+    "markup": "Your creatures' {SPELL_equipment}s are 5% more potent for each time they've {ACTION_cast} an {SPELL_equipment} in the current battle."
+  },
+  {
+    "key": "WARPAINT",
+    "name": "War Paint",
+    "markup": "Your creatures have 10% more stats (other than {STAT_health}) for each permanent {SPELL_equipment} they have equipped."
+  },
+  {
+    "key": "TURNTHETABLES",
+    "name": "Turn the Tables",
+    "markup": "After your creatures manually {ACTION_cast} an {SPELL_equipment}, they {ACTION_attack} a random enemy for 50% more damage."
+  },
+  {
+    "key": "FRENZY",
+    "name": "Frenzy",
+    "markup": "Your creatures deal 15% more damage with attacks and spells for each debuff they afflicted from all your Artifacts' [slot_trick] Trick Slots."
+  },
+  {
+    "key": "TAKINGMEASURE",
+    "name": "Taking Measure",
+    "markup": "Your creatures take 10% less damage for each buff they gained from all your Artifacts' [slot_trick] Trick Slots."
+  },
+  {
+    "key": "REPRIMAND",
+    "name": "Reprimand",
+    "markup": "After your creatures {ACTION_provoke}, their [temporary] Ethereal Spell Gems are transformed into random {SPELL_equipment}s."
+  },
+  {
+    "key": "IMPENDINGVICTORY",
+    "name": "Impending Victory",
+    "markup": "50% of the potency of your creatures' {SPELL_equipment}s is based on their highest stat instead of {STAT_intelligence}."
+  },
+  {
+    "key": "CROWDFAVORITE",
+    "name": "Crowd Favorite",
+    "markup": "After your creatures' [slot_trick] Trick Slots activate, they gain a random {SPELL_equipment}."
+  },
+  {
+    "key": "HELPINGHAND",
+    "name": "Helping Hand",
+    "markup": "After your creatures' [slot_trick] Trick Slots activate, they resurrect an ally with 50% {STAT_health}. If none of your creatures are dead, they heal an ally for 50% {STAT_health} instead."
+  },
+  {
+    "key": "KILLINGMACHINE",
+    "name": "Killing Machine",
+    "markup": "At the end of your creatures' turns, each of their {SPELL_equipment}s have a 5% chance to be {ACTION_cast}."
+  },
+  {
+    "key": "ONTHEHOUSE",
+    "name": "On the House",
+    "markup": "Your creatures' {SPELL_alcohol}s do not consume {STAT_charges}."
+  },
+  {
+    "key": "TOPSHELF",
+    "name": "Top Shelf",
+    "markup": "Your creatures' {SPELL_alcohol}s have a 100% increased chance to be {ACTION_cast}."
+  },
+  {
+    "key": "INEBRIATION",
+    "name": "Inebriation",
+    "markup": "Enemies have a 5% chance (up to 80%) to deal no damage for each time they've been affected by a {SPELL_alcohol} in the current battle."
+  },
+  {
+    "key": "NUMBTHEPAIN",
+    "name": "Numb the Pain",
+    "markup": "Your creatures have a 5% chance (up to 80%) to avoid damage for each time they've been affected by a {SPELL_alcohol} in the current battle."
+  },
+  {
+    "key": "SPEEDRAIL",
+    "name": "Speed Rail",
+    "markup": "Your creatures {ACTION_cast} 1 additional time (up to 3) for every 5 {SPELL_alcohol}s they've {ACTION_cast} in the current battle."
+  },
+  {
+    "key": "CHASER",
+    "name": "Chaser",
+    "markup": "After your creatures manually {ACTION_cast} a {SPELL_alcohol}, they have a 50% chance to {ACTION_cast} a random spell. Otherwise, they {ACTION_attack} a random enemy."
+  },
+  {
+    "key": "EXPERIMENTALCOCKTAIL",
+    "name": "Experimental Cocktail",
+    "markup": "At the start of battle, your creatures gain all {SPELL_alcohol}s that belong to their class."
+  },
+  {
+    "key": "AUTOGRAT",
+    "name": "Autograt",
+    "markup": "After start-of-battle effects are determined, your creatures' [temporary] Ethereal {SPELL_alcohol}s gain the 'Chance to Attack', 'Chance to Defend', and 'Chance to Provoke' properties."
+  },
+  {
+    "key": "STRAIGHTUP",
+    "name": "Straight Up",
+    "markup": "Creatures' {SPELL_alcohol}s cannot be Sealed."
+  },
+  {
+    "key": "MUDDLE",
+    "name": "Muddle",
+    "markup": "Your creatures {ACTION_attack} 1 additional time (up to 3) for every 5 {SPELL_alcohol}s they've {ACTION_cast} in the current battle."
+  },
+  {
+    "key": "DOUBLEENTENDRE",
+    "name": "Double Entendre",
+    "markup": "Your creatures' {SPELL_alcohol}s also have a chance to be {ACTION_cast} at the start of the equipped creatures' turns."
+  },
+  {
+    "key": "BREWMASTERSHANDSHAKE",
+    "name": "Brewmaster's Handshake",
+    "markup": "Your creatures can {ACTION_cast} {SPELL_alcohol}s manually."
+  },
+  {
+    "key": "LIQUIDCOURAGE",
+    "name": "Liquid Courage",
+    "markup": "Your creatures deal 3% more damage for each time they've {ACTION_cast} an {SPELL_alcohol} in the current battle."
+  },
+  {
+    "key": "HIGHBALL",
+    "name": "Highball",
+    "markup": "Your creatures' {SPELL_alcohol}s count 50% less against their per-turn Casting limit."
+  },
+  {
+    "key": "NIGHTCAP",
+    "name": "Nightcap",
+    "markup": "Enemies cannot be resurrected if they have been affected by {SPELL_alcohol}s at least 3 times in the current battle."
+  },
+  {
+    "key": "DRUNKENCAMARADERIE",
+    "name": "Drunken Camaraderie",
+    "markup": "Enemies take a moderate amount of damage and your creatures are healed for a moderate amount when they are affected by your creatures' {SPELL_alcohol}s."
+  },
+  {
+    "key": "ESCAMOTAGE",
+    "name": "Escamotage",
+    "markup": "When your creatures' {CONDNAME_BUFF_SHELL} or {CONDNAME_BUFF_ARCANE} buffs would be removed, they have an 80% chance for it to persist."
+  },
+  {
+    "key": "FRACTIONATION",
+    "name": "Fractionation",
+    "markup": "After an enemy loses {CONDNAME_DEBUFF_BLIND} or {CONDNAME_DEBUFF_SLEEP}, they have an 80% chance to be afflicted with these debuffs again."
+  },
+  {
+    "key": "SCAPEGOAT",
+    "name": "Scapegoat",
+    "markup": "After one of your creatures loses a debuff, a random enemy is afflicted with that debuff."
+  },
+  {
+    "key": "ANAGNORISIS",
+    "name": "Anagnorisis",
+    "markup": "After one of your creatures removes a buff from an enemy, the enemy takes damage equal to 50% of the creature's {STAT_intelligence}. This effect can only happen once per creature each turn."
+  },
+  {
+    "key": "ONEIROPHRENIA",
+    "name": "Oneirophrenia",
+    "markup": "Enemies who are resistant to {CONDNAME_DEBUFF_SLEEP} have a 50% chance to lose their turns."
+  },
+  {
+    "key": "CONFIDENTFACADE",
+    "name": "Confident Facade",
+    "markup": "Your creatures with {CONDNAME_BUFF_ARCANE} {ACTION_cast} spells as if they have 100% more {STAT_intelligence}, but take damage as if they have 0 {STAT_defense}."
+  },
+  {
+    "key": "DISPLACEMENT",
+    "name": "Displacement",
+    "markup": "Your creatures' {CONDNAME_BUFF_SHELL} buffs can now prevent indirect damage."
+  },
+  {
+    "key": "DREAMEATER",
+    "name": "Dream Eater",
+    "markup": "Your creatures have an independent 100% chance to deal critical damage to enemies with {CONDNAME_DEBUFF_SLEEP}."
+  },
+  {
+    "key": "SENSORYDEPRIVATION",
+    "name": "Sensory Deprivation",
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLIND} can only {ACTION_cast} single-target spells manually in non-boss battles, and have a 20% chance for their spells to fizzle in boss battles."
+  },
+  {
+    "key": "TRAUMATISM",
+    "name": "Traumatism",
+    "markup": "After your creatures are killed, one of your other creatures casts the top-most Dark Crystal Spell Gem they have equipped."
+  },
+  {
+    "key": "GESTALTINTELLIGENCE",
+    "name": "Gestalt Intelligence",
+    "markup": "At the start of battle, your creatures gain Dark Crystal. In addition, your creatures' Dark Crystal now targets all allies with matching Trick Slots on their Artifacts."
+  },
+  {
+    "key": "PSYCHOMETRY",
+    "name": "Psychometry",
+    "markup": "At the start of battle, your creatures gain the buffs from their Artifacts' Trick Slots, and they have a 50% chance to afflict enemies in their corresponding position with the debuffs from their Artifact's Trick Slots."
+  },
+  {
+    "key": "SUPERSTITION",
+    "name": "Superstition",
+    "markup": "Your creatures are immune to the debuffs in their Artifact's first Trick Slot."
+  },
+  {
+    "key": "PUSILLANIMITY",
+    "name": "Pusillanimity",
+    "markup": "After your creatures {ACTION_attack} an enemy that is {ACTION_defending} or if the enemy dodges, they {ACTION_cast} one of their spells that interacts with debuffs on the enemy. This perk can only activate once per creature per turn."
+  },
+  {
+    "key": "BEYONDTHEVEIL",
+    "name": "Beyond The Veil",
+    "markup": "Enemies cannot gain buffs if they have 10 or more buffs, minus 1 buff for each time they've lost a buff. In addition, enemies act as if they have 1 additional buff for each time this effect has activated."
+  },
+  {
+    "key": "ALVEARY",
+    "name": "Alveary",
+    "markup": "Your creatures with {CONDNAME_BUFF_ARCANE} cannot have their Spell Gems sealed. In addition, after your creatures with {CONDNAME_BUFF_SHELL} are targeted by an enemy's spell, they gain a copy of that Spell Gem."
+  },
+  {
+    "key": "REFRACTIVESHELL",
+    "name": "Refractive Shell",
+    "markup": "Your {RACE_Guardian} and adjacent allies are immune to debuffs in non-boss battles, and resistant to debuffs in boss battles."
+  },
+  {
+    "key": "MERMAIDSEMBRACE",
+    "name": "Mermaid's Embrace",
+    "markup": "Your {RACE_Guardian} and adjacent allies grant 50% more healing from all sources."
+  },
+  {
+    "key": "IMPENETRABLESHELL",
+    "name": "Impenetrable Shell",
+    "markup": "Your {RACE_Guardian} always has {CONDNAME_BUFF_DEFENSIVE}. In addition, it has additional {STAT_defense} equal to 10% of the healing it has received in the current battle."
+  },
+  {
+    "key": "PEARLKEEPER",
+    "name": "Pearl Keeper",
+    "markup": "Your {RACE_Guardian} always has {CONDNAME_BUFF_TAUNT} and intercepts attacks and single-target spells on adjacent allies."
+  },
+  {
+    "key": "SLAMSHUT",
+    "name": "Slam Shut",
+    "markup": "The first time your {RACE_Guardian} or adjacent allies are killed, they are resurrected with 50% {STAT_health} and your {RACE_Guardian} {ACTION_casts} Chrysalis on them."
+  },
+  {
+    "key": "HIGHTIDE",
+    "name": "High Tide",
+    "markup": "All creatures can trigger healing effects even while they're at full {STAT_health}."
+  },
+  {
+    "key": "LOWTIDE",
+    "name": "Low Tide",
+    "markup": "After your creatures reach the bottom of the {TIMELINE}, they gain 30% {STAT_defense}. This effect can only happen to each creature once per turn."
+  },
+  {
+    "key": "RISINGTIDERAISESALLBOATS",
+    "name": "Rising Tide Raises All Boats",
+    "markup": "All creatures receive additional healing equal to 30% of the damage your {RACE_Guardian} has taken."
+  },
+  {
+    "key": "SOHAPPYICOULDDIE",
+    "name": "So Happy I Could Die",
+    "markup": "Enemies have reduced stats (other than {STAT_health}) equal to 30% of the amount of healing they've received."
+  },
+  {
+    "key": "TASTEFORTREASURE",
+    "name": "Taste For Treasure",
+    "markup": "Your {RACE_Guardian} can equip 5 additional Spell Gems."
+  },
+  {
+    "key": "WELCOMEGIFT",
+    "name": "Welcome Gift",
+    "markup": "At the start of your creatures' first turns, they {ACTION_cast} Words of Encouragement on themselves."
+  },
+  {
+    "key": "KILLEMWITHKINDNESS",
+    "name": "Kill 'Em With Kindness",
+    "markup": "Enemies always have {CONDNAME_DEBUFF_MANIA}. The potency of this debuff is refreshed at the end of each enemy's turn."
+  },
+  {
+    "key": "HUMSOFENCOURAGEMENT",
+    "name": "Hums Of Encouragement",
+    "markup": "After your creatures reach the bottom of the {TIMELINE}, your {RACE_Guardian} {ACTION_casts} Words of Encouragement on them."
+  },
+  {
+    "key": "HAPPYASACLAM",
+    "name": "Happy As A Clam",
+    "markup": "Your creatures take 5% less damage for each time they've been healed."
+  },
+  {
+    "key": "BOUNTIFULSEAS",
+    "name": "Bountiful Seas",
+    "markup": "All creatures ignore the effects of {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "JUBILATION",
+    "name": "Jubilation",
+    "markup": "At the start of each creature's turn, if your {RACE_Guardian} has at least 500% of the {STAT_defense} it started the battle with, all creatures {ACTION_cast} Words of Encouragement on your {RACE_Guardian} and they take damage equal to 100% of their {CONDNAME_DEBUFF_MANIA} debuff's potency. This effect can only happen once per battle."
+  },
+  {
+    "key": "PRIMEVALSPELLBLADE",
+    "name": "Primeval Spellblade",
+    "markup": "Your creatures' Relics' attacks cannot be dodged and deal 100% more damage."
+  },
+  {
+    "key": "EPIGRAPHY",
+    "name": "Epigraphy",
+    "markup": "Enemies killed by your creatures' Relics cannot be resurrected."
+  },
+  {
+    "key": "TIMEWORNATTUNEMENT",
+    "name": "Timeworn Attunement",
+    "markup": "Your creatures' Relics' spells have 100% more potency."
+  },
+  {
+    "key": "BYGONEENHANCEMENT",
+    "name": "Bygone Enhancement",
+    "markup": "Your creatures gain 100% more stats from their Relics."
+  },
+  {
+    "key": "ARCHAICWARSPEAR",
+    "name": "Archaic Warspear",
+    "markup": "Your creatures' Relics' attacks and spells ignore 25% of enemies' {STAT_defense}."
+  },
+  {
+    "key": "FOSSILIZEDSHIELD",
+    "name": "Fossilized Shield",
+    "markup": "Your creatures take 5% less damage for each time their Relic has {ACTION_attacked} or {ACTION_cast}."
+  },
+  {
+    "key": "PRIMORDIALCURSE",
+    "name": "Primordial Curse",
+    "markup": "Debuffs inflicted by your creatures' Relics last forever. In addition, after your Relics afflict an enemy with a debuff, they afflict all other enemies with the debuff as well."
+  },
+  {
+    "key": "FORSAKENWONDER",
+    "name": "Forsaken Wonder",
+    "markup": "Buffs granted by your creatures' Relics last forever. In addition, after your Relics give one of your creatures a buff, they grant all your other creatures that buff as well."
+  },
+  {
+    "key": "ABANDONEDALTAR",
+    "name": "Abandoned Altar",
+    "markup": "Your creatures' Relics gain 100% more benefit from Reliquary Upgrades."
+  },
+  {
+    "key": "IDOLATRY",
+    "name": "Idolatry",
+    "markup": "At the start of battle, your creatures gain their Relic's corresponding {SPELL_ultimate} Gem."
+  },
+  {
+    "key": "DERELICTBLOCKADE",
+    "name": "Derelict Blockade",
+    "markup": "Your creatures have a 1% chance (up to 35%) to avoid debuffs for every 3 ranks their Relics have. If your creatures' Relics are Rank 150 or more, they are resistant to debuffs."
+  },
+  {
+    "key": "CORRUPTEDWARHAMMER",
+    "name": "Corrupted Warhammer",
+    "markup": "Your creatures deal 1% more damage for each rank their Relics have."
+  },
+  {
+    "key": "ANCIENTSYNCHRONICITY",
+    "name": "Ancient Synchronicity",
+    "markup": "Your {RACE_Avatar}s and {RACE_Godspawn} benefit from the following perks when their corresponding Relic is equipped: Archaic Warspear, Forsaken Wonder, Timeworn Attunement, Primeval Spellblade, Primordial Curse."
+  },
+  {
+    "key": "LASTOFTHEANCIENTS",
+    "name": "Last of the Ancients",
+    "markup": "At the start of battle, if only one of your creatures has a Relic equipped, your other creatures equip a copy of that Relic as well."
+  },
+  {
+    "key": "DIVINEDUALWIELD",
+    "name": "Divine Dualwield",
+    "markup": "Your {RACE_Avatar} and {RACE_Godspawn} creatures gain the perks of their corresponding Relic even if it is not equipped."
+  },
+  {
+    "key": "FORGOTTENBLESSING",
+    "name": "Forgotten Blessing",
+    "markup": "Your creatures' Relics act as if they have 100 more ranks. This does not unlock additional Relic perks."
+  }
+]

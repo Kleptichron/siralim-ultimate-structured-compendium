@@ -1,0 +1,3257 @@
+[
+  {
+    "key": "ENT1",
+    "familyKey": "ENT",
+    "family": "Ent",
+    "tier": 1,
+    "markup": "Your creatures recover 20% more {STAT_health} from {CONDNAME_BUFF_MEND}."
+  },
+  {
+    "key": "ENT2",
+    "familyKey": "ENT",
+    "family": "Ent",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_MEND} take 10% less damage."
+  },
+  {
+    "key": "ENT3",
+    "familyKey": "ENT",
+    "family": "Ent",
+    "tier": 3,
+    "markup": "Your creatures' {CONDNAME_BUFF_MEND} buffs last forever."
+  },
+  {
+    "key": "PARAGON1",
+    "familyKey": "PARAGON",
+    "family": "Paragon",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SILENCE} deal 15% less damage."
+  },
+  {
+    "key": "PARAGON2",
+    "familyKey": "PARAGON",
+    "family": "Paragon",
+    "tier": 2,
+    "markup": "Increases the duration of enemies' {CONDNAME_DEBUFF_SILENCE} debuff by 1 turn."
+  },
+  {
+    "key": "PARAGON3",
+    "familyKey": "PARAGON",
+    "family": "Paragon",
+    "tier": 3,
+    "markup": "After an enemy is afflicted with {CONDNAME_DEBUFF_SILENCE}, one of its Spell Gems is Sealed."
+  },
+  {
+    "key": "REAPER1",
+    "familyKey": "REAPER",
+    "family": "Reaper",
+    "tier": 1,
+    "markup": "Your creatures have a 10% greater chance to deal critical damage."
+  },
+  {
+    "key": "REAPER2",
+    "familyKey": "REAPER",
+    "family": "Reaper",
+    "tier": 2,
+    "markup": "Your creatures deal 25% more critical damage."
+  },
+  {
+    "key": "REAPER3",
+    "familyKey": "REAPER",
+    "family": "Reaper",
+    "tier": 3,
+    "markup": "Your creatures have a minimum 10% chance to deal critical damage."
+  },
+  {
+    "key": "HARPY1",
+    "familyKey": "HARPY",
+    "family": "Harpy",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLIND} deal 10% less damage."
+  },
+  {
+    "key": "HARPY2",
+    "familyKey": "HARPY",
+    "family": "Harpy",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLIND} take 10% more damage."
+  },
+  {
+    "key": "HARPY3",
+    "familyKey": "HARPY",
+    "family": "Harpy",
+    "tier": 3,
+    "markup": "Enemies' {CONDNAME_DEBUFF_BLIND} debuff lasts forever."
+  },
+  {
+    "key": "IMP1",
+    "familyKey": "IMP",
+    "family": "Imp",
+    "tier": 1,
+    "markup": "Your creatures' {CLASS_Nature} spells deal 10% more damage."
+  },
+  {
+    "key": "IMP2",
+    "familyKey": "IMP",
+    "family": "Imp",
+    "tier": 2,
+    "markup": "Your creatures' damaging {CLASS_Nature} spells ignore 10% of their enemies' {STAT_defense}."
+  },
+  {
+    "key": "IMP3",
+    "familyKey": "IMP",
+    "family": "Imp",
+    "tier": 3,
+    "markup": "Your creatures' {CLASS_Nature} spells have 10% additional {STAT_charges}."
+  },
+  {
+    "key": "SIREN1",
+    "familyKey": "SIREN",
+    "family": "Siren",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SLEEP} have a 25% chance to not wake up after they take damage from attacks."
+  },
+  {
+    "key": "SIREN2",
+    "familyKey": "SIREN",
+    "family": "Siren",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SLEEP} have a 25% chance to not wake up after they take damage from spells."
+  },
+  {
+    "key": "SIREN3",
+    "familyKey": "SIREN",
+    "family": "Siren",
+    "tier": 3,
+    "markup": "Enemies' {CONDNAME_DEBUFF_SLEEP} debuff lasts forever."
+  },
+  {
+    "key": "MINOTAUR1",
+    "familyKey": "MINOTAUR",
+    "family": "Minotaur",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_BRIMSTONE} from battles."
+  },
+  {
+    "key": "MINOTAUR2",
+    "familyKey": "MINOTAUR",
+    "family": "Minotaur",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_BRIMSTONE} gained from battles by 15."
+  },
+  {
+    "key": "MINOTAUR3",
+    "familyKey": "MINOTAUR",
+    "family": "Minotaur",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_BRIMSTONE} from battles."
+  },
+  {
+    "key": "SHAPESHIFTER1",
+    "familyKey": "SHAPESHIFTER",
+    "family": "Shapeshifter",
+    "tier": 1,
+    "markup": "Your creatures deal 10% more damage to creatures that are weak against their class."
+  },
+  {
+    "key": "SHAPESHIFTER2",
+    "familyKey": "SHAPESHIFTER",
+    "family": "Shapeshifter",
+    "tier": 2,
+    "markup": "Your creatures take 10% less damage from creatures that are strong against their class."
+  },
+  {
+    "key": "SHAPESHIFTER3",
+    "familyKey": "SHAPESHIFTER",
+    "family": "Shapeshifter",
+    "tier": 3,
+    "markup": "Doubles the potency of these effects."
+  },
+  {
+    "key": "MUMMY1",
+    "familyKey": "MUMMY",
+    "family": "Mummy",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_CURSED} take 10% more damage from this debuff."
+  },
+  {
+    "key": "MUMMY2",
+    "familyKey": "MUMMY",
+    "family": "Mummy",
+    "tier": 2,
+    "markup": "When enemies take damage from {CONDNAME_DEBUFF_CURSED}, there is a 20% chance this damage will be doubled."
+  },
+  {
+    "key": "MUMMY3",
+    "familyKey": "MUMMY",
+    "family": "Mummy",
+    "tier": 3,
+    "markup": "Doubles the potency of these effects."
+  },
+  {
+    "key": "CLUTCHER1",
+    "familyKey": "CLUTCHER",
+    "family": "Clutcher",
+    "tier": 1,
+    "markup": "Your creatures have a 5% greater chance to Dodge attacks."
+  },
+  {
+    "key": "CLUTCHER2",
+    "familyKey": "CLUTCHER",
+    "family": "Clutcher",
+    "tier": 2,
+    "markup": "Your creatures have an independent 5% chance to Dodge attacks."
+  },
+  {
+    "key": "CLUTCHER3",
+    "familyKey": "CLUTCHER",
+    "family": "Clutcher",
+    "tier": 3,
+    "markup": "When your creatures fail to Dodge attacks, they take 5% less damage."
+  },
+  {
+    "key": "PHOENIX1",
+    "familyKey": "PHOENIX",
+    "family": "Phoenix",
+    "tier": 1,
+    "markup": "When your creatures are resurrected, they recover 10% more {STAT_health}."
+  },
+  {
+    "key": "PHOENIX2",
+    "familyKey": "PHOENIX",
+    "family": "Phoenix",
+    "tier": 2,
+    "markup": "When your creatures are resurrected, they recover 10% more {STAT_health}."
+  },
+  {
+    "key": "PHOENIX3",
+    "familyKey": "PHOENIX",
+    "family": "Phoenix",
+    "tier": 3,
+    "markup": "Your creatures can now be resurrected a maximum of 15 times per battle."
+  },
+  {
+    "key": "MIMIC1",
+    "familyKey": "MIMIC",
+    "family": "Mimic",
+    "tier": 1,
+    "markup": "Mimics drop 100% more loot."
+  },
+  {
+    "key": "MIMIC2",
+    "familyKey": "MIMIC",
+    "family": "Mimic",
+    "tier": 2,
+    "markup": "When you fight a Mimic, it has a 25% chance to start the battle with 1 {STAT_health}."
+  },
+  {
+    "key": "MIMIC3",
+    "familyKey": "MIMIC",
+    "family": "Mimic",
+    "tier": 3,
+    "markup": "After you defeat a Mimic, there is a 5% chance that a Treasure Golem will spawn."
+  },
+  {
+    "key": "DJINN1",
+    "familyKey": "DJINN",
+    "family": "Djinn",
+    "tier": 1,
+    "markup": "Your creatures' Spell Gems have 10% more {STAT_charges}."
+  },
+  {
+    "key": "DJINN2",
+    "familyKey": "DJINN",
+    "family": "Djinn",
+    "tier": 2,
+    "markup": "Your creatures' Spell Gems have 1 additional {STAT_charge}."
+  },
+  {
+    "key": "DJINN3",
+    "familyKey": "DJINN",
+    "family": "Djinn",
+    "tier": 3,
+    "markup": "Your creatures' Ultimate Spell Gems have 1 additional {STAT_charge}."
+  },
+  {
+    "key": "TROLL1",
+    "familyKey": "TROLL",
+    "family": "Troll",
+    "tier": 1,
+    "markup": "Your creatures have 10% more {STAT_speed} while they're {ACTION_provoking}."
+  },
+  {
+    "key": "TROLL2",
+    "familyKey": "TROLL",
+    "family": "Troll",
+    "tier": 2,
+    "markup": "Your creatures have 10% more {STAT_speed} while they're {ACTION_provoking}."
+  },
+  {
+    "key": "TROLL3",
+    "familyKey": "TROLL",
+    "family": "Troll",
+    "tier": 3,
+    "markup": "Your creatures have 10% more {STAT_speed} while they're {ACTION_provoking}."
+  },
+  {
+    "key": "CARVER1",
+    "familyKey": "CARVER",
+    "family": "Carver",
+    "tier": 1,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Chaos} creatures."
+  },
+  {
+    "key": "CARVER2",
+    "familyKey": "CARVER",
+    "family": "Carver",
+    "tier": 2,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Chaos} creatures."
+  },
+  {
+    "key": "CARVER3",
+    "familyKey": "CARVER",
+    "family": "Carver",
+    "tier": 3,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Chaos} creatures."
+  },
+  {
+    "key": "DRYAD1",
+    "familyKey": "DRYAD",
+    "family": "Dryad",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Nature} creatures."
+  },
+  {
+    "key": "DRYAD2",
+    "familyKey": "DRYAD",
+    "family": "Dryad",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Nature} creatures."
+  },
+  {
+    "key": "DRYAD3",
+    "familyKey": "DRYAD",
+    "family": "Dryad",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Nature} creatures."
+  },
+  {
+    "key": "RAVEN1",
+    "familyKey": "RAVEN",
+    "family": "Raven",
+    "tier": 1,
+    "markup": "Your creatures have 5% more {STAT_intelligence}."
+  },
+  {
+    "key": "RAVEN2",
+    "familyKey": "RAVEN",
+    "family": "Raven",
+    "tier": 2,
+    "markup": "Your creatures have 5% more {STAT_intelligence}."
+  },
+  {
+    "key": "RAVEN3",
+    "familyKey": "RAVEN",
+    "family": "Raven",
+    "tier": 3,
+    "markup": "Your creatures have 5% more {STAT_intelligence}."
+  },
+  {
+    "key": "AMARANTH1",
+    "familyKey": "AMARANTH",
+    "family": "Amaranth",
+    "tier": 1,
+    "markup": "Your creatures have 5% more {STAT_defense}."
+  },
+  {
+    "key": "AMARANTH2",
+    "familyKey": "AMARANTH",
+    "family": "Amaranth",
+    "tier": 2,
+    "markup": "Your creatures have 5% more {STAT_defense}."
+  },
+  {
+    "key": "AMARANTH3",
+    "familyKey": "AMARANTH",
+    "family": "Amaranth",
+    "tier": 3,
+    "markup": "Your creatures have 5% more {STAT_defense}."
+  },
+  {
+    "key": "ASPECT1",
+    "familyKey": "ASPECT",
+    "family": "Aspect",
+    "tier": 1,
+    "markup": "Your creatures with {CONDNAME_BUFF_AGILE} have a 5% greater chance to Dodge attacks."
+  },
+  {
+    "key": "ASPECT2",
+    "familyKey": "ASPECT",
+    "family": "Aspect",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_AGILE} take 10% less damage."
+  },
+  {
+    "key": "ASPECT3",
+    "familyKey": "ASPECT",
+    "family": "Aspect",
+    "tier": 3,
+    "markup": "Your creatures' {CONDNAME_BUFF_AGILE} buff lasts forever."
+  },
+  {
+    "key": "BAT1",
+    "familyKey": "BAT",
+    "family": "Bat",
+    "tier": 1,
+    "markup": "Your creatures have 5% more {STAT_attack}."
+  },
+  {
+    "key": "BAT2",
+    "familyKey": "BAT",
+    "family": "Bat",
+    "tier": 2,
+    "markup": "Your creatures have 5% more {STAT_attack}."
+  },
+  {
+    "key": "BAT3",
+    "familyKey": "BAT",
+    "family": "Bat",
+    "tier": 3,
+    "markup": "Your creatures have 5% more {STAT_attack}."
+  },
+  {
+    "key": "EFREET1",
+    "familyKey": "EFREET",
+    "family": "Efreet",
+    "tier": 1,
+    "markup": "Enemies take 15% more damage from {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "EFREET2",
+    "familyKey": "EFREET",
+    "family": "Efreet",
+    "tier": 2,
+    "markup": "Increases the amount of {STAT_intelligence} added to the {CONDNAME_DEBUFF_BURNED} debuffs your creatures apply by 50%."
+  },
+  {
+    "key": "EFREET3",
+    "familyKey": "EFREET",
+    "family": "Efreet",
+    "tier": 3,
+    "markup": "Enemies' {CONDNAME_DEBUFF_BURNED} debuff lasts forever."
+  },
+  {
+    "key": "LICH1",
+    "familyKey": "LICH",
+    "family": "Lich",
+    "tier": 1,
+    "markup": "Your creatures' {CLASS_Death} spells deal 10% more damage."
+  },
+  {
+    "key": "LICH2",
+    "familyKey": "LICH",
+    "family": "Lich",
+    "tier": 2,
+    "markup": "Your creatures' damaging {CLASS_Death} spells ignore 10% of the enemies' {STAT_defense}."
+  },
+  {
+    "key": "LICH3",
+    "familyKey": "LICH",
+    "family": "Lich",
+    "tier": 3,
+    "markup": "Your creatures' damaging {CLASS_Death} spells have 10% additional {STAT_charges}."
+  },
+  {
+    "key": "ANGEL1",
+    "familyKey": "ANGEL",
+    "family": "Angel",
+    "tier": 1,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Life} creatures."
+  },
+  {
+    "key": "ANGEL2",
+    "familyKey": "ANGEL",
+    "family": "Angel",
+    "tier": 2,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Life} creatures."
+  },
+  {
+    "key": "ANGEL3",
+    "familyKey": "ANGEL",
+    "family": "Angel",
+    "tier": 3,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Life} creatures."
+  },
+  {
+    "key": "OCCULTIST1",
+    "familyKey": "OCCULTIST",
+    "family": "Occultist",
+    "tier": 1,
+    "markup": "Your creatures' {CLASS_Sorcery} spells deal 10% more damage."
+  },
+  {
+    "key": "OCCULTIST2",
+    "familyKey": "OCCULTIST",
+    "family": "Occultist",
+    "tier": 2,
+    "markup": "Your creatures' damaging {CLASS_Sorcery} spells ignore 10% of their enemies' {STAT_defense}."
+  },
+  {
+    "key": "OCCULTIST3",
+    "familyKey": "OCCULTIST",
+    "family": "Occultist",
+    "tier": 3,
+    "markup": "Your creatures' {CLASS_Sorcery} spells have 10% additional {STAT_charges}."
+  },
+  {
+    "key": "DRAGON1",
+    "familyKey": "DRAGON",
+    "family": "Dragon",
+    "tier": 1,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Sorcery} creatures."
+  },
+  {
+    "key": "DRAGON2",
+    "familyKey": "DRAGON",
+    "family": "Dragon",
+    "tier": 2,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Sorcery} creatures."
+  },
+  {
+    "key": "DRAGON3",
+    "familyKey": "DRAGON",
+    "family": "Dragon",
+    "tier": 3,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Sorcery} creatures."
+  },
+  {
+    "key": "GOLEM1",
+    "familyKey": "GOLEM",
+    "family": "Golem",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_ESSENCE} from battles."
+  },
+  {
+    "key": "GOLEM2",
+    "familyKey": "GOLEM",
+    "family": "Golem",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_ESSENCE} gained from battles by 15."
+  },
+  {
+    "key": "GOLEM3",
+    "familyKey": "GOLEM",
+    "family": "Golem",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_ESSENCE} from battles."
+  },
+  {
+    "key": "DEVIL1",
+    "familyKey": "DEVIL",
+    "family": "Devil",
+    "tier": 1,
+    "markup": "Your creatures deal 5% more damage."
+  },
+  {
+    "key": "DEVIL2",
+    "familyKey": "DEVIL",
+    "family": "Devil",
+    "tier": 2,
+    "markup": "Your creatures deal 5% more damage."
+  },
+  {
+    "key": "DEVIL3",
+    "familyKey": "DEVIL",
+    "family": "Devil",
+    "tier": 3,
+    "markup": "Your creatures deal 5% more damage."
+  },
+  {
+    "key": "BROWNIE1",
+    "familyKey": "BROWNIE",
+    "family": "Brownie",
+    "tier": 1,
+    "markup": "Your creatures' {CONDNAME_BUFF_SPLASH} buff deals 10% more damage to adjacent creatures."
+  },
+  {
+    "key": "BROWNIE2",
+    "familyKey": "BROWNIE",
+    "family": "Brownie",
+    "tier": 2,
+    "markup": "Your creatures' {CONDNAME_BUFF_SPLASH} buff deals its damage to 1 additional enemy."
+  },
+  {
+    "key": "BROWNIE3",
+    "familyKey": "BROWNIE",
+    "family": "Brownie",
+    "tier": 3,
+    "markup": "Your creatures' {CONDNAME_BUFF_SPLASH} buff has a 10% chance to activate twice."
+  },
+  {
+    "key": "WYVERN1",
+    "familyKey": "WYVERN",
+    "family": "Wyvern",
+    "tier": 1,
+    "markup": "Your creatures take 5% less damage from spells."
+  },
+  {
+    "key": "WYVERN2",
+    "familyKey": "WYVERN",
+    "family": "Wyvern",
+    "tier": 2,
+    "markup": "Your creatures take 5% less damage from spells."
+  },
+  {
+    "key": "WYVERN3",
+    "familyKey": "WYVERN",
+    "family": "Wyvern",
+    "tier": 3,
+    "markup": "Your creatures take 5% less damage from spells."
+  },
+  {
+    "key": "SLIME1",
+    "familyKey": "SLIME",
+    "family": "Slime",
+    "tier": 1,
+    "markup": "Enemies that are {CONDNAME_DEBUFF_CONFUSED} have a 10% greater chance to {ACTION_attack} their allies."
+  },
+  {
+    "key": "SLIME2",
+    "familyKey": "SLIME",
+    "family": "Slime",
+    "tier": 2,
+    "markup": "Enemies that are {CONDNAME_DEBUFF_CONFUSED} have a 10% greater chance to {ACTION_cast} harmful spells on their allies."
+  },
+  {
+    "key": "SLIME3",
+    "familyKey": "SLIME",
+    "family": "Slime",
+    "tier": 3,
+    "markup": "After an enemy's {CONDNAME_DEBUFF_CONFUSED} debuff activates, the duration of this debuff increases by 1."
+  },
+  {
+    "key": "UNICORN1",
+    "familyKey": "UNICORN",
+    "family": "Unicorn",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures."
+  },
+  {
+    "key": "UNICORN2",
+    "familyKey": "UNICORN",
+    "family": "Unicorn",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures."
+  },
+  {
+    "key": "UNICORN3",
+    "familyKey": "UNICORN",
+    "family": "Unicorn",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Life} creatures."
+  },
+  {
+    "key": "DOOMFORTRESS1",
+    "familyKey": "DOOMFORTRESS",
+    "family": "Doom Fortress",
+    "tier": 1,
+    "markup": "Your creatures take 10% less damage while they're {ACTION_provoking}."
+  },
+  {
+    "key": "DOOMFORTRESS2",
+    "familyKey": "DOOMFORTRESS",
+    "family": "Doom Fortress",
+    "tier": 2,
+    "markup": "Your creatures take 10% less damage while they're {ACTION_provoking}."
+  },
+  {
+    "key": "DOOMFORTRESS3",
+    "familyKey": "DOOMFORTRESS",
+    "family": "Doom Fortress",
+    "tier": 3,
+    "markup": "Your creatures take 10% less damage while they're {ACTION_provoking}."
+  },
+  {
+    "key": "SMOG1",
+    "familyKey": "SMOG",
+    "family": "Smog",
+    "tier": 1,
+    "markup": "Enemies take 15% more damage from {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "SMOG2",
+    "familyKey": "SMOG",
+    "family": "Smog",
+    "tier": 2,
+    "markup": "Increases the amount of {STAT_attack} added to the {CONDNAME_DEBUFF_POISON} debuffs your creatures apply by 50%."
+  },
+  {
+    "key": "SMOG3",
+    "familyKey": "SMOG",
+    "family": "Smog",
+    "tier": 3,
+    "markup": "Enemies' {CONDNAME_DEBUFF_POISON} debuff lasts forever."
+  },
+  {
+    "key": "STORM1",
+    "familyKey": "STORM",
+    "family": "Storm",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from {CLASS_Nature} spells."
+  },
+  {
+    "key": "STORM2",
+    "familyKey": "STORM",
+    "family": "Storm",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from {CLASS_Nature} spells."
+  },
+  {
+    "key": "STORM3",
+    "familyKey": "STORM",
+    "family": "Storm",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from {CLASS_Nature} spells."
+  },
+  {
+    "key": "PHASEWARRIOR1",
+    "familyKey": "PHASEWARRIOR",
+    "family": "Phase Warrior",
+    "tier": 1,
+    "markup": "You gain 5% more resources from resource nodes in realms."
+  },
+  {
+    "key": "PHASEWARRIOR2",
+    "familyKey": "PHASEWARRIOR",
+    "family": "Phase Warrior",
+    "tier": 2,
+    "markup": "You gain 5% more resources from resource nodes in realms."
+  },
+  {
+    "key": "PHASEWARRIOR3",
+    "familyKey": "PHASEWARRIOR",
+    "family": "Phase Warrior",
+    "tier": 3,
+    "markup": "You gain 5% more resources from resource nodes in realms."
+  },
+  {
+    "key": "PILWIZ1",
+    "familyKey": "PILWIZ",
+    "family": "Pilwiz",
+    "tier": 1,
+    "markup": "Enemies take 15% more damage from {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "PILWIZ2",
+    "familyKey": "PILWIZ",
+    "family": "Pilwiz",
+    "tier": 2,
+    "markup": "Enemies have a 10% chance to take double damage from {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "PILWIZ3",
+    "familyKey": "PILWIZ",
+    "family": "Pilwiz",
+    "tier": 3,
+    "markup": "Enemies' {CONDNAME_DEBUFF_BLEED} debuff lasts forever."
+  },
+  {
+    "key": "GHOUL1",
+    "familyKey": "GHOUL",
+    "family": "Ghoul",
+    "tier": 1,
+    "markup": "Your creatures have 5% more {STAT_speed}."
+  },
+  {
+    "key": "GHOUL2",
+    "familyKey": "GHOUL",
+    "family": "Ghoul",
+    "tier": 2,
+    "markup": "Your creatures have 5% more {STAT_speed}."
+  },
+  {
+    "key": "GHOUL3",
+    "familyKey": "GHOUL",
+    "family": "Ghoul",
+    "tier": 3,
+    "markup": "Your creatures have 5% more {STAT_speed}."
+  },
+  {
+    "key": "MITE1",
+    "familyKey": "MITE",
+    "family": "Mite",
+    "tier": 1,
+    "markup": "Your creatures gain 10% more {STAT_speed} from stat-boosting effects."
+  },
+  {
+    "key": "MITE2",
+    "familyKey": "MITE",
+    "family": "Mite",
+    "tier": 2,
+    "markup": "Your creatures gain 10% more {STAT_speed} from stat-boosting effects."
+  },
+  {
+    "key": "MITE3",
+    "familyKey": "MITE",
+    "family": "Mite",
+    "tier": 3,
+    "markup": "Your creatures gain 10% more {STAT_speed} from stat-boosting effects."
+  },
+  {
+    "key": "DOOMGUARD1",
+    "familyKey": "DOOMGUARD",
+    "family": "Doomguard",
+    "tier": 1,
+    "markup": "Your creatures with {CONDNAME_BUFF_TAUNT} take 15% less damage."
+  },
+  {
+    "key": "DOOMGUARD2",
+    "familyKey": "DOOMGUARD",
+    "family": "Doomguard",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_TAUNT} have 15% more {STAT_speed}."
+  },
+  {
+    "key": "DOOMGUARD3",
+    "familyKey": "DOOMGUARD",
+    "family": "Doomguard",
+    "tier": 3,
+    "markup": "Your creatures with {CONDNAME_BUFF_TAUNT} have a 15% chance for effects that occur after they {ACTION_provoke} to occur an additional time."
+  },
+  {
+    "key": "GARGOYLE1",
+    "familyKey": "GARGOYLE",
+    "family": "Gargoyle",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from {CLASS_Chaos} spells."
+  },
+  {
+    "key": "GARGOYLE2",
+    "familyKey": "GARGOYLE",
+    "family": "Gargoyle",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from {CLASS_Chaos} spells."
+  },
+  {
+    "key": "GARGOYLE3",
+    "familyKey": "GARGOYLE",
+    "family": "Gargoyle",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from {CLASS_Chaos} spells."
+  },
+  {
+    "key": "CARNAGE1",
+    "familyKey": "CARNAGE",
+    "family": "Carnage",
+    "tier": 1,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Death} creatures."
+  },
+  {
+    "key": "CARNAGE2",
+    "familyKey": "CARNAGE",
+    "family": "Carnage",
+    "tier": 2,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Death} creatures."
+  },
+  {
+    "key": "CARNAGE3",
+    "familyKey": "CARNAGE",
+    "family": "Carnage",
+    "tier": 3,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Death} creatures."
+  },
+  {
+    "key": "BANSHEE1",
+    "familyKey": "BANSHEE",
+    "family": "Banshee",
+    "tier": 1,
+    "markup": "Your creatures' Spell Gems have 1 additional {STAT_charge}."
+  },
+  {
+    "key": "BANSHEE2",
+    "familyKey": "BANSHEE",
+    "family": "Banshee",
+    "tier": 2,
+    "markup": "Your creatures' Spell Gems have 1 additional {STAT_charge}."
+  },
+  {
+    "key": "BANSHEE3",
+    "familyKey": "BANSHEE",
+    "family": "Banshee",
+    "tier": 3,
+    "markup": "Your creatures' Spell Gems have 1 additional {STAT_charge}."
+  },
+  {
+    "key": "PITWORM1",
+    "familyKey": "PITWORM",
+    "family": "Pit Worm",
+    "tier": 1,
+    "markup": "Your creatures gain 10% more {STAT_defense} from stat-boosting effects."
+  },
+  {
+    "key": "PITWORM2",
+    "familyKey": "PITWORM",
+    "family": "Pit Worm",
+    "tier": 2,
+    "markup": "Your creatures gain 10% more {STAT_defense} from stat-boosting effects."
+  },
+  {
+    "key": "PITWORM3",
+    "familyKey": "PITWORM",
+    "family": "Pit Worm",
+    "tier": 3,
+    "markup": "Your creatures gain 10% more {STAT_defense} from stat-boosting effects."
+  },
+  {
+    "key": "SPIRIT1",
+    "familyKey": "SPIRIT",
+    "family": "Spirit",
+    "tier": 1,
+    "markup": "Your creatures' healing effects are 10% more potent."
+  },
+  {
+    "key": "SPIRIT2",
+    "familyKey": "SPIRIT",
+    "family": "Spirit",
+    "tier": 2,
+    "markup": "Your creatures receive 10% more healing."
+  },
+  {
+    "key": "SPIRIT3",
+    "familyKey": "SPIRIT",
+    "family": "Spirit",
+    "tier": 3,
+    "markup": "Your creatures' healing effects have a 25% chance to ignore {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "PITWRAITH1",
+    "familyKey": "PITWRAITH",
+    "family": "Pit Wraith",
+    "tier": 1,
+    "markup": "Your creatures gain 5% more experience points from battles."
+  },
+  {
+    "key": "PITWRAITH2",
+    "familyKey": "PITWRAITH",
+    "family": "Pit Wraith",
+    "tier": 2,
+    "markup": "Your creatures gain 5% more experience points from battles."
+  },
+  {
+    "key": "PITWRAITH3",
+    "familyKey": "PITWRAITH",
+    "family": "Pit Wraith",
+    "tier": 3,
+    "markup": "Your creatures gain 5% more experience points from battles."
+  },
+  {
+    "key": "FIEND1",
+    "familyKey": "FIEND",
+    "family": "Fiend",
+    "tier": 1,
+    "markup": "Increases the amount of damage your creatures deal while they're {CONDNAME_BUFF_BERSERK} by 15%."
+  },
+  {
+    "key": "FIEND2",
+    "familyKey": "FIEND",
+    "family": "Fiend",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_BERSERK} have a 10% chance to attack an additional time."
+  },
+  {
+    "key": "FIEND3",
+    "familyKey": "FIEND",
+    "family": "Fiend",
+    "tier": 3,
+    "markup": "Your creatures with {CONDNAME_BUFF_BERSERK} have a 15% greater chance to deal critical damage."
+  },
+  {
+    "key": "SMITH1",
+    "familyKey": "SMITH",
+    "family": "Smith",
+    "tier": 1,
+    "markup": "Your Artifacts' Stat Slots are 5% more powerful."
+  },
+  {
+    "key": "SMITH2",
+    "familyKey": "SMITH",
+    "family": "Smith",
+    "tier": 2,
+    "markup": "Your Artifacts' Trick Slots have a 10% greater chance to activate."
+  },
+  {
+    "key": "SMITH3",
+    "familyKey": "SMITH",
+    "family": "Smith",
+    "tier": 3,
+    "markup": "Your Artifacts' Spell Slots have a 10% greater chance to activate."
+  },
+  {
+    "key": "HOUND1",
+    "familyKey": "HOUND",
+    "family": "Hound",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from {CLASS_Death} spells."
+  },
+  {
+    "key": "HOUND2",
+    "familyKey": "HOUND",
+    "family": "Hound",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from {CLASS_Death} spells."
+  },
+  {
+    "key": "HOUND3",
+    "familyKey": "HOUND",
+    "family": "Hound",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from {CLASS_Death} spells."
+  },
+  {
+    "key": "DEMIGOD1",
+    "familyKey": "DEMIGOD",
+    "family": "Demigod",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from {CLASS_Life} spells."
+  },
+  {
+    "key": "DEMIGOD2",
+    "familyKey": "DEMIGOD",
+    "family": "Demigod",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from {CLASS_Life} spells."
+  },
+  {
+    "key": "DEMIGOD3",
+    "familyKey": "DEMIGOD",
+    "family": "Demigod",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from {CLASS_Life} spells."
+  },
+  {
+    "key": "HUNTER1",
+    "familyKey": "HUNTER",
+    "family": "Hunter",
+    "tier": 1,
+    "markup": "Your creatures gain 10% more {STAT_attack} from stat-boosting effects."
+  },
+  {
+    "key": "HUNTER2",
+    "familyKey": "HUNTER",
+    "family": "Hunter",
+    "tier": 2,
+    "markup": "Your creatures gain 10% more {STAT_attack} from stat-boosting effects."
+  },
+  {
+    "key": "HUNTER3",
+    "familyKey": "HUNTER",
+    "family": "Hunter",
+    "tier": 3,
+    "markup": "Your creatures gain 10% more {STAT_attack} from stat-boosting effects."
+  },
+  {
+    "key": "DIABOLICHORDE1",
+    "familyKey": "DIABOLICHORDE",
+    "family": "Diabolic Horde",
+    "tier": 1,
+    "markup": "Your creatures have a 5% chance to {ACTION_attack} an additional time."
+  },
+  {
+    "key": "DIABOLICHORDE2",
+    "familyKey": "DIABOLICHORDE",
+    "family": "Diabolic Horde",
+    "tier": 2,
+    "markup": "Your creatures have a 5% chance to {ACTION_cast} spells an additional time."
+  },
+  {
+    "key": "DIABOLICHORDE3",
+    "familyKey": "DIABOLICHORDE",
+    "family": "Diabolic Horde",
+    "tier": 3,
+    "markup": "Doubles the chance for these effects to occur."
+  },
+  {
+    "key": "SKELETON1",
+    "familyKey": "SKELETON",
+    "family": "Skeleton",
+    "tier": 1,
+    "markup": "Your creatures deal 5% more damage with attacks."
+  },
+  {
+    "key": "SKELETON2",
+    "familyKey": "SKELETON",
+    "family": "Skeleton",
+    "tier": 2,
+    "markup": "Your creatures deal 5% more damage with attacks."
+  },
+  {
+    "key": "SKELETON3",
+    "familyKey": "SKELETON",
+    "family": "Skeleton",
+    "tier": 3,
+    "markup": "Your creatures deal 5% more damage with attacks."
+  },
+  {
+    "key": "PRIEST1",
+    "familyKey": "PRIEST",
+    "family": "Priest",
+    "tier": 1,
+    "markup": "Your creatures have 10% more {STAT_speed} while they're {ACTION_defending}."
+  },
+  {
+    "key": "PRIEST2",
+    "familyKey": "PRIEST",
+    "family": "Priest",
+    "tier": 2,
+    "markup": "Your creatures have 10% more {STAT_speed} while they're {ACTION_defending}."
+  },
+  {
+    "key": "PRIEST3",
+    "familyKey": "PRIEST",
+    "family": "Priest",
+    "tier": 3,
+    "markup": "Your creatures have 10% more {STAT_speed} while they're {ACTION_defending}."
+  },
+  {
+    "key": "FORSAKEN1",
+    "familyKey": "FORSAKEN",
+    "family": "Forsaken",
+    "tier": 1,
+    "markup": "Your creatures have 1 more base {STAT_defense}."
+  },
+  {
+    "key": "FORSAKEN2",
+    "familyKey": "FORSAKEN",
+    "family": "Forsaken",
+    "tier": 2,
+    "markup": "Your creatures have 1 more base {STAT_defense}."
+  },
+  {
+    "key": "FORSAKEN3",
+    "familyKey": "FORSAKEN",
+    "family": "Forsaken",
+    "tier": 3,
+    "markup": "Your creatures have 1 more base {STAT_defense}."
+  },
+  {
+    "key": "IMLER1",
+    "familyKey": "IMLER",
+    "family": "Imler",
+    "tier": 1,
+    "markup": "Your creatures have 10% more {STAT_defense} while they're {ACTION_provoking}."
+  },
+  {
+    "key": "IMLER2",
+    "familyKey": "IMLER",
+    "family": "Imler",
+    "tier": 2,
+    "markup": "Your creatures have 10% more {STAT_defense} while they're {ACTION_provoking}."
+  },
+  {
+    "key": "IMLER3",
+    "familyKey": "IMLER",
+    "family": "Imler",
+    "tier": 3,
+    "markup": "Your creatures have 10% more {STAT_defense} while they're {ACTION_provoking}."
+  },
+  {
+    "key": "IMLING1",
+    "familyKey": "IMLING",
+    "family": "Imling",
+    "tier": 1,
+    "markup": "Your creatures have 10% more {STAT_defense} while they're {ACTION_defending}."
+  },
+  {
+    "key": "IMLING2",
+    "familyKey": "IMLING",
+    "family": "Imling",
+    "tier": 2,
+    "markup": "Your creatures have 10% more {STAT_defense} while they're {ACTION_defending}."
+  },
+  {
+    "key": "IMLING3",
+    "familyKey": "IMLING",
+    "family": "Imling",
+    "tier": 3,
+    "markup": "Your creatures have 10% more {STAT_defense} while they're {ACTION_defending}."
+  },
+  {
+    "key": "GIANT1",
+    "familyKey": "GIANT",
+    "family": "Giant",
+    "tier": 1,
+    "markup": "Your creatures have 5% more Maximum {STAT_health}."
+  },
+  {
+    "key": "GIANT2",
+    "familyKey": "GIANT",
+    "family": "Giant",
+    "tier": 2,
+    "markup": "Your creatures have 5% more Maximum {STAT_health}."
+  },
+  {
+    "key": "GIANT3",
+    "familyKey": "GIANT",
+    "family": "Giant",
+    "tier": 3,
+    "markup": "Your creatures have 5% more Maximum {STAT_health}."
+  },
+  {
+    "key": "WOLPERTINGER1",
+    "familyKey": "WOLPERTINGER",
+    "family": "Wolpertinger",
+    "tier": 1,
+    "markup": "Your creatures have a 5% chance to {ACTION_attack} an additional time."
+  },
+  {
+    "key": "WOLPERTINGER2",
+    "familyKey": "WOLPERTINGER",
+    "family": "Wolpertinger",
+    "tier": 2,
+    "markup": "Your creatures have a 5% chance to {ACTION_cast} spells an additional time."
+  },
+  {
+    "key": "WOLPERTINGER3",
+    "familyKey": "WOLPERTINGER",
+    "family": "Wolpertinger",
+    "tier": 3,
+    "markup": "Doubles the chance for these effects to occur."
+  },
+  {
+    "key": "DUMPLING1",
+    "familyKey": "DUMPLING",
+    "family": "Dumpling",
+    "tier": 1,
+    "markup": "Increases the chance for Dumplings to spawn by 50%."
+  },
+  {
+    "key": "DUMPLING2",
+    "familyKey": "DUMPLING",
+    "family": "Dumpling",
+    "tier": 2,
+    "markup": "Increases the chance for Dumplings to spawn by 50%."
+  },
+  {
+    "key": "DUMPLING3",
+    "familyKey": "DUMPLING",
+    "family": "Dumpling",
+    "tier": 3,
+    "markup": "Increases the chance for Dumplings to spawn by 50%."
+  },
+  {
+    "key": "APIS1",
+    "familyKey": "APIS",
+    "family": "Apis",
+    "tier": 1,
+    "markup": "Your creatures with {CONDNAME_BUFF_PROTECT} take 10% less damage."
+  },
+  {
+    "key": "APIS2",
+    "familyKey": "APIS",
+    "family": "Apis",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_PROTECT} take 10% less damage."
+  },
+  {
+    "key": "APIS3",
+    "familyKey": "APIS",
+    "family": "Apis",
+    "tier": 3,
+    "markup": "Your creatures with {CONDNAME_BUFF_PROTECT} have a 5% chance to avoid damage from attacks and spells."
+  },
+  {
+    "key": "RIFTDANCER1",
+    "familyKey": "RIFTDANCER",
+    "family": "Rift Dancer",
+    "tier": 1,
+    "markup": "Your creatures with {CONDNAME_BUFF_WARD} gain 20% more stats."
+  },
+  {
+    "key": "RIFTDANCER2",
+    "familyKey": "RIFTDANCER",
+    "family": "Rift Dancer",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_WARD} have a 25% chance to resist debuffs."
+  },
+  {
+    "key": "RIFTDANCER3",
+    "familyKey": "RIFTDANCER",
+    "family": "Rift Dancer",
+    "tier": 3,
+    "markup": "Your creatures with {CONDNAME_BUFF_WARD} have 30% more {STAT_defense}."
+  },
+  {
+    "key": "LEPER1",
+    "familyKey": "LEPER",
+    "family": "Leper",
+    "tier": 1,
+    "markup": "Enemies deal 15% less damage from their {CONDNAME_DEBUFF_WEAK} debuffs."
+  },
+  {
+    "key": "LEPER2",
+    "familyKey": "LEPER",
+    "family": "Leper",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_WEAK} have a 50% lower chance to deal critical damage."
+  },
+  {
+    "key": "LEPER3",
+    "familyKey": "LEPER",
+    "family": "Leper",
+    "tier": 3,
+    "markup": "Enemies' {CONDNAME_DEBUFF_WEAK} debuffs last forever."
+  },
+  {
+    "key": "CRUSADER1",
+    "familyKey": "CRUSADER",
+    "family": "Crusader",
+    "tier": 1,
+    "markup": "Your creatures' {CONDNAME_BUFF_SHELL} buffs have a 10% chance to persist after taking damage."
+  },
+  {
+    "key": "CRUSADER2",
+    "familyKey": "CRUSADER",
+    "family": "Crusader",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_SHELL} have a 5% chance to avoid damage."
+  },
+  {
+    "key": "CRUSADER3",
+    "familyKey": "CRUSADER",
+    "family": "Crusader",
+    "tier": 3,
+    "markup": "Doubles the chance for these effects to occur."
+  },
+  {
+    "key": "GRIFFON1",
+    "familyKey": "GRIFFON",
+    "family": "Griffon",
+    "tier": 1,
+    "markup": "You gain 15% more resources from battles."
+  },
+  {
+    "key": "GRIFFON2",
+    "familyKey": "GRIFFON",
+    "family": "Griffon",
+    "tier": 2,
+    "markup": "You gain 10 more resources from battles."
+  },
+  {
+    "key": "GRIFFON3",
+    "familyKey": "GRIFFON",
+    "family": "Griffon",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double resources from battles."
+  },
+  {
+    "key": "OPHAN1",
+    "familyKey": "OPHAN",
+    "family": "Ophan",
+    "tier": 1,
+    "markup": "Your creatures' {CLASS_Life} spells deal 10% more damage."
+  },
+  {
+    "key": "OPHAN2",
+    "familyKey": "OPHAN",
+    "family": "Ophan",
+    "tier": 2,
+    "markup": "Your creatures' damaging {CLASS_Life} spells ignore 10% of their enemies' {STAT_defense}."
+  },
+  {
+    "key": "OPHAN3",
+    "familyKey": "OPHAN",
+    "family": "Ophan",
+    "tier": 3,
+    "markup": "Your creatures' {CLASS_Life} spells have 10% additional {STAT_charges}."
+  },
+  {
+    "key": "SIN1",
+    "familyKey": "SIN",
+    "family": "Sin",
+    "tier": 1,
+    "markup": "Your creatures have 1 more base {STAT_intelligence}."
+  },
+  {
+    "key": "SIN2",
+    "familyKey": "SIN",
+    "family": "Sin",
+    "tier": 2,
+    "markup": "Your creatures have 1 more base {STAT_intelligence}."
+  },
+  {
+    "key": "SIN3",
+    "familyKey": "SIN",
+    "family": "Sin",
+    "tier": 3,
+    "markup": "Your creatures have 1 more base {STAT_intelligence}."
+  },
+  {
+    "key": "SANCTUS1",
+    "familyKey": "SANCTUS",
+    "family": "Sanctus",
+    "tier": 1,
+    "markup": "Your creatures' {CONDNAME_BUFF_BARRIER} buffs absorb 15% more damage."
+  },
+  {
+    "key": "SANCTUS2",
+    "familyKey": "SANCTUS",
+    "family": "Sanctus",
+    "tier": 2,
+    "markup": "Your creatures' {CONDNAME_BUFF_BARRIER} buffs absorb 15% more damage."
+  },
+  {
+    "key": "SANCTUS3",
+    "familyKey": "SANCTUS",
+    "family": "Sanctus",
+    "tier": 3,
+    "markup": "After your creatures' {CONDNAME_BUFF_BARRIER} buffs are destroyed, they have a 5% chance to gain {CONDNAME_BUFF_SHELL}."
+  },
+  {
+    "key": "REVENANT1",
+    "familyKey": "REVENANT",
+    "family": "Revenant",
+    "tier": 1,
+    "markup": "Your creatures take 2% less damage for each debuff they have."
+  },
+  {
+    "key": "REVENANT2",
+    "familyKey": "REVENANT",
+    "family": "Revenant",
+    "tier": 2,
+    "markup": "Your creatures deal 2% more damage for each debuff they have."
+  },
+  {
+    "key": "REVENANT3",
+    "familyKey": "REVENANT",
+    "family": "Revenant",
+    "tier": 3,
+    "markup": "These bonuses apply to buffs as well."
+  },
+  {
+    "key": "SPHINX1",
+    "familyKey": "SPHINX",
+    "family": "Sphinx",
+    "tier": 1,
+    "markup": "Enemies have 5% less {STAT_attack}."
+  },
+  {
+    "key": "SPHINX2",
+    "familyKey": "SPHINX",
+    "family": "Sphinx",
+    "tier": 2,
+    "markup": "Enemies gain 25% less {STAT_attack}."
+  },
+  {
+    "key": "SPHINX3",
+    "familyKey": "SPHINX",
+    "family": "Sphinx",
+    "tier": 3,
+    "markup": "Enemies have 50% less benefit from their Artifacts' Stat Slots that boost their {STAT_attack}."
+  },
+  {
+    "key": "SERAPH1",
+    "familyKey": "SERAPH",
+    "family": "Seraph",
+    "tier": 1,
+    "markup": "Your creatures take 5% less damage from attacks."
+  },
+  {
+    "key": "SERAPH2",
+    "familyKey": "SERAPH",
+    "family": "Seraph",
+    "tier": 2,
+    "markup": "Your creatures take 5% less damage from attacks."
+  },
+  {
+    "key": "SERAPH3",
+    "familyKey": "SERAPH",
+    "family": "Seraph",
+    "tier": 3,
+    "markup": "Your creatures take 5% less damage from attacks."
+  },
+  {
+    "key": "VALKYRIE1",
+    "familyKey": "VALKYRIE",
+    "family": "Valkyrie",
+    "tier": 1,
+    "markup": "Enemies have a 10% lower chance to deal critical damage."
+  },
+  {
+    "key": "VALKYRIE2",
+    "familyKey": "VALKYRIE",
+    "family": "Valkyrie",
+    "tier": 2,
+    "markup": "Enemies deal 30% less critical damage."
+  },
+  {
+    "key": "VALKYRIE3",
+    "familyKey": "VALKYRIE",
+    "family": "Valkyrie",
+    "tier": 3,
+    "markup": "Enemies have a 75% maximum chance to deal critical damage."
+  },
+  {
+    "key": "APOCALYPSE1",
+    "familyKey": "APOCALYPSE",
+    "family": "Apocalypse",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SCORN} deal 10% less damage."
+  },
+  {
+    "key": "APOCALYPSE2",
+    "familyKey": "APOCALYPSE",
+    "family": "Apocalypse",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SCORN} take 10% more damage."
+  },
+  {
+    "key": "APOCALYPSE3",
+    "familyKey": "APOCALYPSE",
+    "family": "Apocalypse",
+    "tier": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SCORN} have a 5% chance for their spells to fizzle."
+  },
+  {
+    "key": "SPECTRE1",
+    "familyKey": "SPECTRE",
+    "family": "Spectre",
+    "tier": 1,
+    "markup": "Enemies have 5% less {STAT_defense}."
+  },
+  {
+    "key": "SPECTRE2",
+    "familyKey": "SPECTRE",
+    "family": "Spectre",
+    "tier": 2,
+    "markup": "Enemies gain 25% less {STAT_defense}."
+  },
+  {
+    "key": "SPECTRE3",
+    "familyKey": "SPECTRE",
+    "family": "Spectre",
+    "tier": 3,
+    "markup": "Enemies have 50% less benefit from their Artifacts' Stat Slots that boost their {STAT_defense}."
+  },
+  {
+    "key": "GRIMOIRE1",
+    "familyKey": "GRIMOIRE",
+    "family": "Grimoire",
+    "tier": 1,
+    "markup": "Your creatures' {CONDNAME_BUFF_ARCANE} buffs have a 5% chance to grant the Spell Gem an extra {STAT_charge} when it activates."
+  },
+  {
+    "key": "GRIMOIRE2",
+    "familyKey": "GRIMOIRE",
+    "family": "Grimoire",
+    "tier": 2,
+    "markup": "Your creatures' {CONDNAME_BUFF_ARCANE} buffs have a 10% chance to not be removed after they cast a spell."
+  },
+  {
+    "key": "GRIMOIRE3",
+    "familyKey": "GRIMOIRE",
+    "family": "Grimoire",
+    "tier": 3,
+    "markup": "Doubles the chance for these effects to occur."
+  },
+  {
+    "key": "CERBERUS1",
+    "familyKey": "CERBERUS",
+    "family": "Cerberus",
+    "tier": 1,
+    "markup": "Your creatures' {CLASS_Chaos} spells deal 10% more damage."
+  },
+  {
+    "key": "CERBERUS2",
+    "familyKey": "CERBERUS",
+    "family": "Cerberus",
+    "tier": 2,
+    "markup": "Your creatures' damaging {CLASS_Chaos} spells ignore 10% of their enemies' {STAT_defense}."
+  },
+  {
+    "key": "CERBERUS3",
+    "familyKey": "CERBERUS",
+    "family": "Cerberus",
+    "tier": 3,
+    "markup": "Your creatures' {CLASS_Chaos} spells have 10% additional {STAT_charges}."
+  },
+  {
+    "key": "ASURA1",
+    "familyKey": "ASURA",
+    "family": "Asura",
+    "tier": 1,
+    "markup": "Your creatures with {CONDNAME_BUFF_SAVAGE} have a 10% greater chance to deal critical damage."
+  },
+  {
+    "key": "ASURA2",
+    "familyKey": "ASURA",
+    "family": "Asura",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_SAVAGE} deal 30% more critical damage."
+  },
+  {
+    "key": "ASURA3",
+    "familyKey": "ASURA",
+    "family": "Asura",
+    "tier": 3,
+    "markup": "Your creatures' {CONDNAME_BUFF_SAVAGE} buff lasts forever."
+  },
+  {
+    "key": "YETI1",
+    "familyKey": "YETI",
+    "family": "Yeti",
+    "tier": 1,
+    "markup": "{CONDNAME_DEBUFF_FROZEN} enemies have a 5% lower base chance to thaw."
+  },
+  {
+    "key": "YETI2",
+    "familyKey": "YETI",
+    "family": "Yeti",
+    "tier": 2,
+    "markup": "Decreases {CONDNAME_DEBUFF_FROZEN} enemies' chance to thaw each turn by 10%."
+  },
+  {
+    "key": "YETI3",
+    "familyKey": "YETI",
+    "family": "Yeti",
+    "tier": 3,
+    "markup": "Enemies' {CONDNAME_DEBUFF_FROZEN} debuffs have a 50% chance to not gain an increased chance to thaw at the end of their turns."
+  },
+  {
+    "key": "WATCHER1",
+    "familyKey": "WATCHER",
+    "family": "Watcher",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Sorcery} creatures."
+  },
+  {
+    "key": "WATCHER2",
+    "familyKey": "WATCHER",
+    "family": "Watcher",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Sorcery} creatures."
+  },
+  {
+    "key": "WATCHER3",
+    "familyKey": "WATCHER",
+    "family": "Watcher",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Sorcery} creatures."
+  },
+  {
+    "key": "MANTICORE1",
+    "familyKey": "MANTICORE",
+    "family": "Manticore",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Chaos} creatures."
+  },
+  {
+    "key": "MANTICORE2",
+    "familyKey": "MANTICORE",
+    "family": "Manticore",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Chaos} creatures."
+  },
+  {
+    "key": "MANTICORE3",
+    "familyKey": "MANTICORE",
+    "family": "Manticore",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Chaos} creatures."
+  },
+  {
+    "key": "GORGON1",
+    "familyKey": "GORGON",
+    "family": "Gorgon",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_STONE} take 10% more damage from attacks and spells."
+  },
+  {
+    "key": "GORGON2",
+    "familyKey": "GORGON",
+    "family": "Gorgon",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_STONE} take 10% more damage from non-attack and non-spell damage."
+  },
+  {
+    "key": "GORGON3",
+    "familyKey": "GORGON",
+    "family": "Gorgon",
+    "tier": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_STONE} receive 25% less stat gains."
+  },
+  {
+    "key": "WIGHT1",
+    "familyKey": "WIGHT",
+    "family": "Wight",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_GRANITE} from battles."
+  },
+  {
+    "key": "WIGHT2",
+    "familyKey": "WIGHT",
+    "family": "Wight",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_GRANITE} gained from battles by 15."
+  },
+  {
+    "key": "WIGHT3",
+    "familyKey": "WIGHT",
+    "family": "Wight",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_GRANITE} from battles."
+  },
+  {
+    "key": "SHADE1",
+    "familyKey": "SHADE",
+    "family": "Shade",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage while they're {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "SHADE2",
+    "familyKey": "SHADE",
+    "family": "Shade",
+    "tier": 2,
+    "markup": "Your creatures have a 10% chance to not lose their {CONDNAME_BUFF_INVISIBLE} buff after they {ACTION_attack} or {ACTION_cast} spells."
+  },
+  {
+    "key": "SHADE3",
+    "familyKey": "SHADE",
+    "family": "Shade",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage while they're {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "MASOCHIST1",
+    "familyKey": "MASOCHIST",
+    "family": "Masochist",
+    "tier": 1,
+    "markup": "Your creatures take 3% less damage."
+  },
+  {
+    "key": "MASOCHIST2",
+    "familyKey": "MASOCHIST",
+    "family": "Masochist",
+    "tier": 2,
+    "markup": "Your creatures take 3% less damage."
+  },
+  {
+    "key": "MASOCHIST3",
+    "familyKey": "MASOCHIST",
+    "family": "Masochist",
+    "tier": 3,
+    "markup": "Your creatures take 3% less damage."
+  },
+  {
+    "key": "TREMOR1",
+    "familyKey": "TREMOR",
+    "family": "Tremor",
+    "tier": 1,
+    "markup": "Enemies have 5% less {STAT_intelligence}."
+  },
+  {
+    "key": "TREMOR2",
+    "familyKey": "TREMOR",
+    "family": "Tremor",
+    "tier": 2,
+    "markup": "Enemies gain 25% less {STAT_intelligence}."
+  },
+  {
+    "key": "TREMOR3",
+    "familyKey": "TREMOR",
+    "family": "Tremor",
+    "tier": 3,
+    "markup": "Enemies have 50% less benefit from their Artifacts' Stat Slots that boost their {STAT_intelligence}."
+  },
+  {
+    "key": "ARACHNALISK1",
+    "familyKey": "ARACHNALISK",
+    "family": "Arachnalisk",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SNARED} have a 10% lower chance to break free."
+  },
+  {
+    "key": "ARACHNALISK2",
+    "familyKey": "ARACHNALISK",
+    "family": "Arachnalisk",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SNARED} deal 20% less damage."
+  },
+  {
+    "key": "ARACHNALISK3",
+    "familyKey": "ARACHNALISK",
+    "family": "Arachnalisk",
+    "tier": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_SNARED} have a 10% lower chance to break free."
+  },
+  {
+    "key": "FAMILIAR1",
+    "familyKey": "FAMILIAR",
+    "family": "Familiar",
+    "tier": 1,
+    "markup": "Your creatures deal 5% more damage with spells."
+  },
+  {
+    "key": "FAMILIAR2",
+    "familyKey": "FAMILIAR",
+    "family": "Familiar",
+    "tier": 2,
+    "markup": "Your creatures deal 5% more damage with spells."
+  },
+  {
+    "key": "FAMILIAR3",
+    "familyKey": "FAMILIAR",
+    "family": "Familiar",
+    "tier": 3,
+    "markup": "Your creatures deal 5% more damage with spells."
+  },
+  {
+    "key": "GARGANTUAN1",
+    "familyKey": "GARGANTUAN",
+    "family": "Gargantuan",
+    "tier": 1,
+    "markup": "Enemies have a 5% lower chance to Dodge attacks."
+  },
+  {
+    "key": "GARGANTUAN2",
+    "familyKey": "GARGANTUAN",
+    "family": "Gargantuan",
+    "tier": 2,
+    "markup": "Enemies have a 5% lower chance to Dodge attacks."
+  },
+  {
+    "key": "GARGANTUAN3",
+    "familyKey": "GARGANTUAN",
+    "family": "Gargantuan",
+    "tier": 3,
+    "markup": "Enemies have a 5% lower chance to Dodge attacks."
+  },
+  {
+    "key": "VORTEX1",
+    "familyKey": "VORTEX",
+    "family": "Vortex",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from {CLASS_Sorcery} spells."
+  },
+  {
+    "key": "VORTEX2",
+    "familyKey": "VORTEX",
+    "family": "Vortex",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from {CLASS_Sorcery} spells."
+  },
+  {
+    "key": "VORTEX3",
+    "familyKey": "VORTEX",
+    "family": "Vortex",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from {CLASS_Sorcery} spells."
+  },
+  {
+    "key": "WASPID1",
+    "familyKey": "WASPID",
+    "family": "Waspid",
+    "tier": 1,
+    "markup": "Enemies have 5% less {STAT_speed}."
+  },
+  {
+    "key": "WASPID2",
+    "familyKey": "WASPID",
+    "family": "Waspid",
+    "tier": 2,
+    "markup": "Enemies gain 25% less {STAT_speed}."
+  },
+  {
+    "key": "WASPID3",
+    "familyKey": "WASPID",
+    "family": "Waspid",
+    "tier": 3,
+    "markup": "Enemies have 50% less benefit from their Artifacts' Stat Slots that boost their {STAT_speed}."
+  },
+  {
+    "key": "BARD1",
+    "familyKey": "BARD",
+    "family": "Bard",
+    "tier": 1,
+    "markup": "Your creatures take 5% less damage from attacks."
+  },
+  {
+    "key": "BARD2",
+    "familyKey": "BARD",
+    "family": "Bard",
+    "tier": 2,
+    "markup": "Your creatures take 5% less damage from attacks."
+  },
+  {
+    "key": "BARD3",
+    "familyKey": "BARD",
+    "family": "Bard",
+    "tier": 3,
+    "markup": "Your creatures take 5% less damage from attacks."
+  },
+  {
+    "key": "CENTAUR1",
+    "familyKey": "CENTAUR",
+    "family": "Centaur",
+    "tier": 1,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Nature} creatures."
+  },
+  {
+    "key": "CENTAUR2",
+    "familyKey": "CENTAUR",
+    "family": "Centaur",
+    "tier": 2,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Nature} creatures."
+  },
+  {
+    "key": "CENTAUR3",
+    "familyKey": "CENTAUR",
+    "family": "Centaur",
+    "tier": 3,
+    "markup": "Your creatures deal 10% more damage to {CLASS_Nature} creatures."
+  },
+  {
+    "key": "ELF1",
+    "familyKey": "ELF",
+    "family": "Elf",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_CRYSTAL} from battles."
+  },
+  {
+    "key": "ELF2",
+    "familyKey": "ELF",
+    "family": "Elf",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_CRYSTAL} gained from battles by 15."
+  },
+  {
+    "key": "ELF3",
+    "familyKey": "ELF",
+    "family": "Elf",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_CRYSTAL} from battles."
+  },
+  {
+    "key": "ABOMINATION1",
+    "familyKey": "ABOMINATION",
+    "family": "Abomination",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_VULNERABLE} take 15% more damage."
+  },
+  {
+    "key": "ABOMINATION2",
+    "familyKey": "ABOMINATION",
+    "family": "Abomination",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_VULNERABLE} have a 10% lower chance to Dodge."
+  },
+  {
+    "key": "ABOMINATION3",
+    "familyKey": "ABOMINATION",
+    "family": "Abomination",
+    "tier": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_VULNERABLE} gain 35% less healing from all sources."
+  },
+  {
+    "key": "NIX1",
+    "familyKey": "NIX",
+    "family": "Nix",
+    "tier": 1,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Death} creatures."
+  },
+  {
+    "key": "NIX2",
+    "familyKey": "NIX",
+    "family": "Nix",
+    "tier": 2,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Death} creatures."
+  },
+  {
+    "key": "NIX3",
+    "familyKey": "NIX",
+    "family": "Nix",
+    "tier": 3,
+    "markup": "Your creatures take 15% less damage from attacks from {CLASS_Death} creatures."
+  },
+  {
+    "key": "PLAGUEDOCTOR1",
+    "familyKey": "PLAGUEDOCTOR",
+    "family": "Plague Doctor",
+    "tier": 1,
+    "markup": "Your creatures take 25% less damage from {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "PLAGUEDOCTOR2",
+    "familyKey": "PLAGUEDOCTOR",
+    "family": "Plague Doctor",
+    "tier": 2,
+    "markup": "Your creatures take 25% less damage from {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "PLAGUEDOCTOR3",
+    "familyKey": "PLAGUEDOCTOR",
+    "family": "Plague Doctor",
+    "tier": 3,
+    "markup": "Your creatures take 25% less damage from {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "VULPES1",
+    "familyKey": "VULPES",
+    "family": "Vulpes",
+    "tier": 1,
+    "markup": "Enemies' Spell Gems have 10% fewer {STAT_charges}."
+  },
+  {
+    "key": "VULPES2",
+    "familyKey": "VULPES",
+    "family": "Vulpes",
+    "tier": 2,
+    "markup": "Enemies' Spell Gems have 10% fewer {STAT_charges}."
+  },
+  {
+    "key": "VULPES3",
+    "familyKey": "VULPES",
+    "family": "Vulpes",
+    "tier": 3,
+    "markup": "Enemies' Spell Gems have 10% fewer {STAT_charges}."
+  },
+  {
+    "key": "STAG1",
+    "familyKey": "STAG",
+    "family": "Stag",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_POWER} from battles."
+  },
+  {
+    "key": "STAG2",
+    "familyKey": "STAG",
+    "family": "Stag",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_POWER} gained from battles by 15."
+  },
+  {
+    "key": "STAG3",
+    "familyKey": "STAG",
+    "family": "Stag",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_POWER} from battles."
+  },
+  {
+    "key": "BASILISK1",
+    "familyKey": "BASILISK",
+    "family": "Basilisk",
+    "tier": 1,
+    "markup": "Enemies take 3% more damage."
+  },
+  {
+    "key": "BASILISK2",
+    "familyKey": "BASILISK",
+    "family": "Basilisk",
+    "tier": 2,
+    "markup": "Enemies take 3% more damage."
+  },
+  {
+    "key": "BASILISK3",
+    "familyKey": "BASILISK",
+    "family": "Basilisk",
+    "tier": 3,
+    "markup": "Enemies take 3% more damage."
+  },
+  {
+    "key": "SALAMANDER1",
+    "familyKey": "SALAMANDER",
+    "family": "Salamander",
+    "tier": 1,
+    "markup": "Your creatures gain 10% more {STAT_intelligence} from stat-boosting effects."
+  },
+  {
+    "key": "SALAMANDER2",
+    "familyKey": "SALAMANDER",
+    "family": "Salamander",
+    "tier": 2,
+    "markup": "Your creatures gain 10% more {STAT_intelligence} from stat-boosting effects."
+  },
+  {
+    "key": "SALAMANDER3",
+    "familyKey": "SALAMANDER",
+    "family": "Salamander",
+    "tier": 3,
+    "markup": "Your creatures gain 10% more {STAT_intelligence} from stat-boosting effects."
+  },
+  {
+    "key": "ALEMENTAL1",
+    "familyKey": "ALEMENTAL",
+    "family": "Alemental",
+    "tier": 1,
+    "markup": "You gain 5% more Notoriety from the Gambling Dwarves."
+  },
+  {
+    "key": "ALEMENTAL2",
+    "familyKey": "ALEMENTAL",
+    "family": "Alemental",
+    "tier": 2,
+    "markup": "You gain 5% more Notoriety from the Gambling Dwarves."
+  },
+  {
+    "key": "ALEMENTAL3",
+    "familyKey": "ALEMENTAL",
+    "family": "Alemental",
+    "tier": 3,
+    "markup": "You gain 5% more Notoriety from the Gambling Dwarves."
+  },
+  {
+    "key": "CONSTRUCT1",
+    "familyKey": "CONSTRUCT",
+    "family": "Construct",
+    "tier": 1,
+    "markup": "You gain 5% more Glory from the Arena."
+  },
+  {
+    "key": "CONSTRUCT2",
+    "familyKey": "CONSTRUCT",
+    "family": "Construct",
+    "tier": 2,
+    "markup": "You gain 5% more Glory from the Arena."
+  },
+  {
+    "key": "CONSTRUCT3",
+    "familyKey": "CONSTRUCT",
+    "family": "Construct",
+    "tier": 3,
+    "markup": "You gain 5% more Glory from the Arena."
+  },
+  {
+    "key": "AMPHISBAENA1",
+    "familyKey": "AMPHISBAENA",
+    "family": "Amphisbaena",
+    "tier": 1,
+    "markup": "When your creatures with {CONDNAME_BUFF_REBIRTH} are resurrected, they recover an additional 15% {STAT_health}."
+  },
+  {
+    "key": "AMPHISBAENA2",
+    "familyKey": "AMPHISBAENA",
+    "family": "Amphisbaena",
+    "tier": 2,
+    "markup": "Your creatures with {CONDNAME_BUFF_REBIRTH} receive 10% more healing."
+  },
+  {
+    "key": "AMPHISBAENA3",
+    "familyKey": "AMPHISBAENA",
+    "family": "Amphisbaena",
+    "tier": 3,
+    "markup": "Your creatures' {CONDNAME_BUFF_REBIRTH} buff lasts forever."
+  },
+  {
+    "key": "AUTOMATON1",
+    "familyKey": "AUTOMATON",
+    "family": "Automaton",
+    "tier": 1,
+    "markup": "Your creatures deal 15% more damage with start-of-battle effects."
+  },
+  {
+    "key": "AUTOMATON2",
+    "familyKey": "AUTOMATON",
+    "family": "Automaton",
+    "tier": 2,
+    "markup": "Your creatures deal 15% more damage with start-of-battle effects."
+  },
+  {
+    "key": "AUTOMATON3",
+    "familyKey": "AUTOMATON",
+    "family": "Automaton",
+    "tier": 3,
+    "markup": "Your creatures' Spell Gems don't lose {STAT_charges} when they're {ACTION_cast} at the start of battle."
+  },
+  {
+    "key": "COCKATRICE1",
+    "familyKey": "COCKATRICE",
+    "family": "Cockatrice",
+    "tier": 1,
+    "markup": "Your creatures have 1 more base {STAT_attack}."
+  },
+  {
+    "key": "COCKATRICE2",
+    "familyKey": "COCKATRICE",
+    "family": "Cockatrice",
+    "tier": 2,
+    "markup": "Your creatures have 1 more base {STAT_attack}."
+  },
+  {
+    "key": "COCKATRICE3",
+    "familyKey": "COCKATRICE",
+    "family": "Cockatrice",
+    "tier": 3,
+    "markup": "Your creatures have 1 more base {STAT_attack}."
+  },
+  {
+    "key": "SEASHAMBLER1",
+    "familyKey": "SEASHAMBLER",
+    "family": "Sea Shambler",
+    "tier": 1,
+    "markup": "Enemies take 20% more damage from {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "SEASHAMBLER2",
+    "familyKey": "SEASHAMBLER",
+    "family": "Sea Shambler",
+    "tier": 2,
+    "markup": "Enemies receive 20% more healing while they're afflicted with {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "SEASHAMBLER3",
+    "familyKey": "SEASHAMBLER",
+    "family": "Sea Shambler",
+    "tier": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_BLIGHT} have a 25% chance to resist buffs."
+  },
+  {
+    "key": "SPARKTAIL1",
+    "familyKey": "SPARKTAIL",
+    "family": "Sparktail",
+    "tier": 1,
+    "markup": "Your creatures deal 10% more damage while it is not their turn."
+  },
+  {
+    "key": "SPARKTAIL2",
+    "familyKey": "SPARKTAIL",
+    "family": "Sparktail",
+    "tier": 2,
+    "markup": "Your creatures deal 10% more damage while it is not their turn."
+  },
+  {
+    "key": "SPARKTAIL3",
+    "familyKey": "SPARKTAIL",
+    "family": "Sparktail",
+    "tier": 3,
+    "markup": "Your creatures deal 10% more damage while it is not their turn."
+  },
+  {
+    "key": "SNAPTRAP1",
+    "familyKey": "SNAPTRAP",
+    "family": "Snaptrap",
+    "tier": 1,
+    "markup": "Enemies have a 1% chance to start battles at the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "SNAPTRAP2",
+    "familyKey": "SNAPTRAP",
+    "family": "Snaptrap",
+    "tier": 2,
+    "markup": "Enemies have a 1% chance to start battles at the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "SNAPTRAP3",
+    "familyKey": "SNAPTRAP",
+    "family": "Snaptrap",
+    "tier": 3,
+    "markup": "Enemies have a 1% chance to start battles at the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "SHADOW1",
+    "familyKey": "SHADOW",
+    "family": "Shadow",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_FEAR} take 10% more damage."
+  },
+  {
+    "key": "SHADOW2",
+    "familyKey": "SHADOW",
+    "family": "Shadow",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_FEAR} have 15% less {STAT_speed}."
+  },
+  {
+    "key": "SHADOW3",
+    "familyKey": "SHADOW",
+    "family": "Shadow",
+    "tier": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_FEAR} have 15% less {STAT_defense}."
+  },
+  {
+    "key": "VOIDLORD1",
+    "familyKey": "VOIDLORD",
+    "family": "Voidlord",
+    "tier": 1,
+    "markup": "Your {CONDNAME_BUFF_REPELLING} creatures take 5% less damage from spells."
+  },
+  {
+    "key": "VOIDLORD2",
+    "familyKey": "VOIDLORD",
+    "family": "Voidlord",
+    "tier": 2,
+    "markup": "Your {CONDNAME_BUFF_REPELLING} creatures take 5% less damage from attacks."
+  },
+  {
+    "key": "VOIDLORD3",
+    "familyKey": "VOIDLORD",
+    "family": "Voidlord",
+    "tier": 3,
+    "markup": "Your creatures' {CONDNAME_BUFF_REPELLING} buff now lasts forever."
+  },
+  {
+    "key": "WISP1",
+    "familyKey": "WISP",
+    "family": "Wisp",
+    "tier": 1,
+    "markup": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "WISP2",
+    "familyKey": "WISP",
+    "family": "Wisp",
+    "tier": 2,
+    "markup": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "WISP3",
+    "familyKey": "WISP",
+    "family": "Wisp",
+    "tier": 3,
+    "markup": "Your creatures have a 5% chance to resist effects that cause them to fall to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "LEECH1",
+    "familyKey": "LEECH",
+    "family": "Leech",
+    "tier": 1,
+    "markup": "Your creatures recover 20% more {STAT_health} from {CONDNAME_BUFF_LEECH}."
+  },
+  {
+    "key": "LEECH2",
+    "familyKey": "LEECH",
+    "family": "Leech",
+    "tier": 2,
+    "markup": "When your creatures recover {STAT_health} from {CONDNAME_BUFF_LEECH}, the amount of healing has a 25% chance to be doubled."
+  },
+  {
+    "key": "LEECH3",
+    "familyKey": "LEECH",
+    "family": "Leech",
+    "tier": 3,
+    "markup": "Your creatures' {CONDNAME_BUFF_LEECH} buff lasts forever."
+  },
+  {
+    "key": "HEMOMANCER1",
+    "familyKey": "HEMOMANCER",
+    "family": "Hemomancer",
+    "tier": 1,
+    "markup": "Your creatures gain 5% more stats from stat-boosting effects."
+  },
+  {
+    "key": "HEMOMANCER2",
+    "familyKey": "HEMOMANCER",
+    "family": "Hemomancer",
+    "tier": 2,
+    "markup": "Enemies lose 5% more stats from stat-reducing effects."
+  },
+  {
+    "key": "HEMOMANCER3",
+    "familyKey": "HEMOMANCER",
+    "family": "Hemomancer",
+    "tier": 3,
+    "markup": "Doubles the potency of these effects."
+  },
+  {
+    "key": "OSSEIN1",
+    "familyKey": "OSSEIN",
+    "family": "Ossein",
+    "tier": 1,
+    "markup": "Enemies resurrect with 5% less {STAT_health}."
+  },
+  {
+    "key": "OSSEIN2",
+    "familyKey": "OSSEIN",
+    "family": "Ossein",
+    "tier": 2,
+    "markup": "Enemies resurrect with 5% less {STAT_health}."
+  },
+  {
+    "key": "OSSEIN3",
+    "familyKey": "OSSEIN",
+    "family": "Ossein",
+    "tier": 3,
+    "markup": "Enemies resurrect with 5% less {STAT_health}."
+  },
+  {
+    "key": "EFT1",
+    "familyKey": "EFT",
+    "family": "Eft",
+    "tier": 1,
+    "markup": "Your creatures have 1 more base {STAT_speed}."
+  },
+  {
+    "key": "EFT2",
+    "familyKey": "EFT",
+    "family": "Eft",
+    "tier": 2,
+    "markup": "Your creatures have 1 more base {STAT_speed}."
+  },
+  {
+    "key": "EFT3",
+    "familyKey": "EFT",
+    "family": "Eft",
+    "tier": 3,
+    "markup": "Your creatures have 1 more base {STAT_speed}."
+  },
+  {
+    "key": "INQUISITOR1",
+    "familyKey": "INQUISITOR",
+    "family": "Inquisitor",
+    "tier": 1,
+    "markup": "Your creatures' minions have a 5% lower chance to go away."
+  },
+  {
+    "key": "INQUISITOR2",
+    "familyKey": "INQUISITOR",
+    "family": "Inquisitor",
+    "tier": 2,
+    "markup": "Your creatures' minions have a 5% lower chance to go away."
+  },
+  {
+    "key": "INQUISITOR3",
+    "familyKey": "INQUISITOR",
+    "family": "Inquisitor",
+    "tier": 3,
+    "markup": "Your creatures' minions have a 5% lower chance to go away."
+  },
+  {
+    "key": "SATYR1",
+    "familyKey": "SATYR",
+    "family": "Satyr",
+    "tier": 1,
+    "markup": "At the start of battle, enemies' Spell Gems each have a 3% chance to be Sealed."
+  },
+  {
+    "key": "SATYR2",
+    "familyKey": "SATYR",
+    "family": "Satyr",
+    "tier": 2,
+    "markup": "At the start of battle, enemies' Spell Gems each have a 3% chance to be Sealed."
+  },
+  {
+    "key": "SATYR3",
+    "familyKey": "SATYR",
+    "family": "Satyr",
+    "tier": 3,
+    "markup": "At the start of battle, enemies' Spell Gems each have a 3% chance to be Sealed."
+  },
+  {
+    "key": "KOLOSS1",
+    "familyKey": "KOLOSS",
+    "family": "Koloss",
+    "tier": 1,
+    "markup": "Your creatures gain 10% more Maximum {STAT_health} from stat-boosting effects."
+  },
+  {
+    "key": "KOLOSS2",
+    "familyKey": "KOLOSS",
+    "family": "Koloss",
+    "tier": 2,
+    "markup": "Your creatures gain 10% more Maximum {STAT_health} from stat-boosting effects."
+  },
+  {
+    "key": "KOLOSS3",
+    "familyKey": "KOLOSS",
+    "family": "Koloss",
+    "tier": 3,
+    "markup": "Your creatures gain 10% more Maximum {STAT_health} from stat-boosting effects."
+  },
+  {
+    "key": "SOULFLAYER1",
+    "familyKey": "SOULFLAYER",
+    "family": "Soulflayer",
+    "tier": 1,
+    "markup": "You have a 5% chance to gain double resources from breakable objects."
+  },
+  {
+    "key": "SOULFLAYER2",
+    "familyKey": "SOULFLAYER",
+    "family": "Soulflayer",
+    "tier": 2,
+    "markup": "You have a 5% chance to gain double resources from breakable objects."
+  },
+  {
+    "key": "SOULFLAYER3",
+    "familyKey": "SOULFLAYER",
+    "family": "Soulflayer",
+    "tier": 3,
+    "markup": "You have a 5% chance to gain double resources from breakable objects."
+  },
+  {
+    "key": "UNGUIDED1",
+    "familyKey": "UNGUIDED",
+    "family": "Unguided",
+    "tier": 1,
+    "markup": "Your creatures have 1 more base {STAT_health}."
+  },
+  {
+    "key": "UNGUIDED2",
+    "familyKey": "UNGUIDED",
+    "family": "Unguided",
+    "tier": 2,
+    "markup": "Your creatures have 1 more base {STAT_health}."
+  },
+  {
+    "key": "UNGUIDED3",
+    "familyKey": "UNGUIDED",
+    "family": "Unguided",
+    "tier": 3,
+    "markup": "Your creatures have 1 more base {STAT_health}."
+  },
+  {
+    "key": "CONCOCTION1",
+    "familyKey": "CONCOCTION",
+    "family": "Concoction",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_DISARMED} have a 10% lower chance to Dodge."
+  },
+  {
+    "key": "CONCOCTION2",
+    "familyKey": "CONCOCTION",
+    "family": "Concoction",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_DISARMED} have a 15% lower chance to deal critical damage."
+  },
+  {
+    "key": "CONCOCTION3",
+    "familyKey": "CONCOCTION",
+    "family": "Concoction",
+    "tier": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_DISARMED} take 5% more damage."
+  },
+  {
+    "key": "MANIAC1",
+    "familyKey": "MANIAC",
+    "family": "Maniac",
+    "tier": 1,
+    "markup": "Your creatures deal 35% more damage while they're dead."
+  },
+  {
+    "key": "MANIAC2",
+    "familyKey": "MANIAC",
+    "family": "Maniac",
+    "tier": 2,
+    "markup": "Your creatures deal 35% more damage while they're dead."
+  },
+  {
+    "key": "MANIAC3",
+    "familyKey": "MANIAC",
+    "family": "Maniac",
+    "tier": 3,
+    "markup": "Your creatures deal 35% more damage while they're dead."
+  },
+  {
+    "key": "TOXDWELLER1",
+    "familyKey": "TOXDWELLER",
+    "family": "Toxdweller",
+    "tier": 1,
+    "markup": "Enemies take 25% more damage from their {CONDNAME_DEBUFF_BOMB} debuffs."
+  },
+  {
+    "key": "TOXDWELLER2",
+    "familyKey": "TOXDWELLER",
+    "family": "Toxdweller",
+    "tier": 2,
+    "markup": "Increases the amount of {STAT_speed} added to the {CONDNAME_DEBUFF_BOMB} debuffs your creatures apply by 25%."
+  },
+  {
+    "key": "TOXDWELLER3",
+    "familyKey": "TOXDWELLER",
+    "family": "Toxdweller",
+    "tier": 3,
+    "markup": "Enemies take 25% more damage from their {CONDNAME_DEBUFF_BOMB} debuffs."
+  },
+  {
+    "key": "CARBUNCLE1",
+    "familyKey": "CARBUNCLE",
+    "family": "Carbuncle",
+    "tier": 1,
+    "markup": "Your creatures deal 1% more damage for each spell they've cast."
+  },
+  {
+    "key": "CARBUNCLE2",
+    "familyKey": "CARBUNCLE",
+    "family": "Carbuncle",
+    "tier": 2,
+    "markup": "Your creatures take 1% less damage for each spell they've cast."
+  },
+  {
+    "key": "CARBUNCLE3",
+    "familyKey": "CARBUNCLE",
+    "family": "Carbuncle",
+    "tier": 3,
+    "markup": "Doubles the potency of these effects."
+  },
+  {
+    "key": "GEMLING1",
+    "familyKey": "GEMLING",
+    "family": "Gemling",
+    "tier": 1,
+    "markup": "Your creatures' Ethereal Spell Gems heal 15% more."
+  },
+  {
+    "key": "GEMLING2",
+    "familyKey": "GEMLING",
+    "family": "Gemling",
+    "tier": 2,
+    "markup": "Your creatures' Ethereal Spell Gems increase/decrease stats 15% more."
+  },
+  {
+    "key": "GEMLING3",
+    "familyKey": "GEMLING",
+    "family": "Gemling",
+    "tier": 3,
+    "markup": "Your creatures' Ethereal Spell Gems deal 15% more damage."
+  },
+  {
+    "key": "CRUNCHER1",
+    "familyKey": "CRUNCHER",
+    "family": "Cruncher",
+    "tier": 1,
+    "markup": "Your creatures deal 3% more damage to enemies for each Sealed Spell Gem the enemy has."
+  },
+  {
+    "key": "CRUNCHER2",
+    "familyKey": "CRUNCHER",
+    "family": "Cruncher",
+    "tier": 2,
+    "markup": "Your creatures take 3% less damage for each Sealed Spell Gem the enemy has."
+  },
+  {
+    "key": "CRUNCHER3",
+    "familyKey": "CRUNCHER",
+    "family": "Cruncher",
+    "tier": 3,
+    "markup": "Doubles the potency of these effects."
+  },
+  {
+    "key": "NIHILIST1",
+    "familyKey": "NIHILIST",
+    "family": "Nihilist",
+    "tier": 1,
+    "markup": "Your creatures' Spell Gems have a 5% chance to not consume {STAT_charges}."
+  },
+  {
+    "key": "NIHILIST2",
+    "familyKey": "NIHILIST",
+    "family": "Nihilist",
+    "tier": 2,
+    "markup": "Your creatures' Spell Gems have a 5% chance to not consume {STAT_charges}."
+  },
+  {
+    "key": "NIHILIST3",
+    "familyKey": "NIHILIST",
+    "family": "Nihilist",
+    "tier": 3,
+    "markup": "Your creatures' Spell Gems have a 5% chance to not consume {STAT_charges}."
+  },
+  {
+    "key": "ELECTROPOD1",
+    "familyKey": "ELECTROPOD",
+    "family": "Electropod",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_ESSENCE} from battles."
+  },
+  {
+    "key": "ELECTROPOD2",
+    "familyKey": "ELECTROPOD",
+    "family": "Electropod",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_ESSENCE} gained from battles by 15."
+  },
+  {
+    "key": "ELECTROPOD3",
+    "familyKey": "ELECTROPOD",
+    "family": "Electropod",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_ESSENCE} from battles."
+  },
+  {
+    "key": "CHERUB1",
+    "familyKey": "CHERUB",
+    "family": "Cherub",
+    "tier": 1,
+    "markup": "Your creatures take 0.5% less damage from attacks for each buff they have."
+  },
+  {
+    "key": "CHERUB2",
+    "familyKey": "CHERUB",
+    "family": "Cherub",
+    "tier": 2,
+    "markup": "Your creatures take 0.5% less damage from spells for each buff they have."
+  },
+  {
+    "key": "CHERUB3",
+    "familyKey": "CHERUB",
+    "family": "Cherub",
+    "tier": 3,
+    "markup": "Your creatures take 0.5% less indirect damage for each buff they have."
+  },
+  {
+    "key": "MODRON1",
+    "familyKey": "MODRON",
+    "family": "Modron",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_POWER} from battles."
+  },
+  {
+    "key": "MODRON2",
+    "familyKey": "MODRON",
+    "family": "Modron",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_POWER} gained from battles by 15."
+  },
+  {
+    "key": "MODRON3",
+    "familyKey": "MODRON",
+    "family": "Modron",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_POWER} from battles."
+  },
+  {
+    "key": "CLOCKWORK1",
+    "familyKey": "CLOCKWORK",
+    "family": "Clockwork",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_GRANITE} from battles."
+  },
+  {
+    "key": "CLOCKWORK2",
+    "familyKey": "CLOCKWORK",
+    "family": "Clockwork",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_GRANITE} gained from battles by 15."
+  },
+  {
+    "key": "CLOCKWORK3",
+    "familyKey": "CLOCKWORK",
+    "family": "Clockwork",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_GRANITE} from battles."
+  },
+  {
+    "key": "ARBITER1",
+    "familyKey": "ARBITER",
+    "family": "Arbiter",
+    "tier": 1,
+    "markup": "Your creatures have a 3% chance to ignore incoming debuffs."
+  },
+  {
+    "key": "ARBITER2",
+    "familyKey": "ARBITER",
+    "family": "Arbiter",
+    "tier": 2,
+    "markup": "Your creatures have a 3% chance to ignore incoming debuffs."
+  },
+  {
+    "key": "ARBITER3",
+    "familyKey": "ARBITER",
+    "family": "Arbiter",
+    "tier": 3,
+    "markup": "Your creatures have a 3% chance to ignore incoming debuffs."
+  },
+  {
+    "key": "LUCKMANTRIA1",
+    "familyKey": "LUCKMANTRIA",
+    "family": "Luckmantria",
+    "tier": 1,
+    "markup": "Riddle Dwarves have a 10% greater chance to spawn in Realms."
+  },
+  {
+    "key": "LUCKMANTRIA2",
+    "familyKey": "LUCKMANTRIA",
+    "family": "Luckmantria",
+    "tier": 2,
+    "markup": "Riddle Dwarves have a 10% greater chance to spawn in Realms."
+  },
+  {
+    "key": "LUCKMANTRIA3",
+    "familyKey": "LUCKMANTRIA",
+    "family": "Luckmantria",
+    "tier": 3,
+    "markup": "Riddle Dwarves reward 1 additional ticket."
+  },
+  {
+    "key": "URALOS1",
+    "familyKey": "URALOS",
+    "family": "Uralos",
+    "tier": 1,
+    "markup": "Your creatures' Relics modify stats 5% more."
+  },
+  {
+    "key": "URALOS2",
+    "familyKey": "URALOS",
+    "family": "Uralos",
+    "tier": 2,
+    "markup": "Your creatures' Relics modify stats 5% more."
+  },
+  {
+    "key": "URALOS3",
+    "familyKey": "URALOS",
+    "family": "Uralos",
+    "tier": 3,
+    "markup": "Your creatures' Relics modify stats 5% more."
+  },
+  {
+    "key": "CHIMERA1",
+    "familyKey": "CHIMERA",
+    "family": "Chimera",
+    "tier": 1,
+    "markup": "Your creatures' Nether Stones are 5% more powerful."
+  },
+  {
+    "key": "CHIMERA2",
+    "familyKey": "CHIMERA",
+    "family": "Chimera",
+    "tier": 2,
+    "markup": "Your creatures' Nether Stones are 5% more powerful."
+  },
+  {
+    "key": "CHIMERA3",
+    "familyKey": "CHIMERA",
+    "family": "Chimera",
+    "tier": 3,
+    "markup": "Your creatures' Nether Stones are 5% more powerful."
+  },
+  {
+    "key": "ANIMATION1",
+    "familyKey": "ANIMATION",
+    "family": "Animation",
+    "tier": 1,
+    "markup": "Your creatures recover 50% more {STAT_health} from enemies' {CONDNAME_DEBUFF_INVERTED} debuff."
+  },
+  {
+    "key": "ANIMATION2",
+    "familyKey": "ANIMATION",
+    "family": "Animation",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_INVERTED} take 10% more damage."
+  },
+  {
+    "key": "ANIMATION3",
+    "familyKey": "ANIMATION",
+    "family": "Animation",
+    "tier": 3,
+    "markup": "Enemies take 20% more damage from their {CONDNAME_DEBUFF_INVERTED} debuffs."
+  },
+  {
+    "key": "FAE1",
+    "familyKey": "FAE",
+    "family": "Fae",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_CRYSTAL} from battles."
+  },
+  {
+    "key": "FAE2",
+    "familyKey": "FAE",
+    "family": "Fae",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_CRYSTAL} gained from battles by 15."
+  },
+  {
+    "key": "FAE3",
+    "familyKey": "FAE",
+    "family": "Fae",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_CRYSTAL} from battles."
+  },
+  {
+    "key": "SPELLMANE1",
+    "familyKey": "SPELLMANE",
+    "family": "Spellmane",
+    "tier": 1,
+    "markup": "Your creatures' [temporary] Ethereal Spell Gems deal 10% more damage."
+  },
+  {
+    "key": "SPELLMANE2",
+    "familyKey": "SPELLMANE",
+    "family": "Spellmane",
+    "tier": 2,
+    "markup": "Your creatures' [temporary] Ethereal Spell Gems grant 10% more healing."
+  },
+  {
+    "key": "SPELLMANE3",
+    "familyKey": "SPELLMANE",
+    "family": "Spellmane",
+    "tier": 3,
+    "markup": "Your creatures' [temporary] Ethereal Spell Gems grant 10% more stats."
+  },
+  {
+    "key": "WARHOG1",
+    "familyKey": "WARHOG",
+    "family": "Warhog",
+    "tier": 1,
+    "markup": "Your creatures have a 3% chance to avoid damage from attacks."
+  },
+  {
+    "key": "WARHOG2",
+    "familyKey": "WARHOG",
+    "family": "Warhog",
+    "tier": 2,
+    "markup": "Your creatures have a 3% chance to avoid damage from spells."
+  },
+  {
+    "key": "WARHOG3",
+    "familyKey": "WARHOG",
+    "family": "Warhog",
+    "tier": 3,
+    "markup": "Your creatures have a 3% chance to avoid indirect damage."
+  },
+  {
+    "key": "NEPHILIM1",
+    "familyKey": "NEPHILIM",
+    "family": "Nephilim",
+    "tier": 1,
+    "markup": "Your creatures' Relics deal 5% more damage."
+  },
+  {
+    "key": "NEPHILIM2",
+    "familyKey": "NEPHILIM",
+    "family": "Nephilim",
+    "tier": 2,
+    "markup": "Your creatures' Relics deal 5% more damage."
+  },
+  {
+    "key": "NEPHILIM3",
+    "familyKey": "NEPHILIM",
+    "family": "Nephilim",
+    "tier": 3,
+    "markup": "Your creatures' Relics deal 5% more damage."
+  },
+  {
+    "key": "KRAKEN1",
+    "familyKey": "KRAKEN",
+    "family": "Kraken",
+    "tier": 1,
+    "markup": "You gain 30% more {RES_BRIMSTONE} from battles."
+  },
+  {
+    "key": "KRAKEN2",
+    "familyKey": "KRAKEN",
+    "family": "Kraken",
+    "tier": 2,
+    "markup": "Increases the base amount of {RES_BRIMSTONE} gained from battles by 15."
+  },
+  {
+    "key": "KRAKEN3",
+    "familyKey": "KRAKEN",
+    "family": "Kraken",
+    "tier": 3,
+    "markup": "You have a 15% chance to gain double {RES_BRIMSTONE} from battles."
+  },
+  {
+    "key": "BEACON1",
+    "familyKey": "BEACON",
+    "family": "Beacon",
+    "tier": 1,
+    "markup": "Your creatures' Artifacts' \"Strength\" properties are 10% more powerful."
+  },
+  {
+    "key": "BEACON2",
+    "familyKey": "BEACON",
+    "family": "Beacon",
+    "tier": 2,
+    "markup": "Your creatures' Artifacts' \"Strength\" properties are 10% more powerful."
+  },
+  {
+    "key": "BEACON3",
+    "familyKey": "BEACON",
+    "family": "Beacon",
+    "tier": 3,
+    "markup": "Your creatures' Artifacts' \"Strength\" properties are 10% more powerful."
+  },
+  {
+    "key": "MYTHICANT1",
+    "familyKey": "MYTHICANT",
+    "family": "Mythicant",
+    "tier": 1,
+    "markup": "Your creatures' Relics heal for 5% more."
+  },
+  {
+    "key": "MYTHICANT2",
+    "familyKey": "MYTHICANT",
+    "family": "Mythicant",
+    "tier": 2,
+    "markup": "Your creatures' Relics heal for 5% more."
+  },
+  {
+    "key": "MYTHICANT3",
+    "familyKey": "MYTHICANT",
+    "family": "Mythicant",
+    "tier": 3,
+    "markup": "Your creatures' Relics heal for 5% more."
+  },
+  {
+    "key": "CALUMNIER1",
+    "familyKey": "CALUMNIER",
+    "family": "Calumnier",
+    "tier": 1,
+    "markup": "Your creatures gain 3% (additive) more benefit from their Personalities."
+  },
+  {
+    "key": "CALUMNIER2",
+    "familyKey": "CALUMNIER",
+    "family": "Calumnier",
+    "tier": 2,
+    "markup": "Your creatures gain 3% (additive) more benefit from their Personalities."
+  },
+  {
+    "key": "CALUMNIER3",
+    "familyKey": "CALUMNIER",
+    "family": "Calumnier",
+    "tier": 3,
+    "markup": "Your creatures gain 3% (additive) more benefit from their Personalities."
+  },
+  {
+    "key": "CATACLYSM1",
+    "familyKey": "CATACLYSM",
+    "family": "Cataclysm",
+    "tier": 1,
+    "markup": "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}."
+  },
+  {
+    "key": "CATACLYSM2",
+    "familyKey": "CATACLYSM",
+    "family": "Cataclysm",
+    "tier": 2,
+    "markup": "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}."
+  },
+  {
+    "key": "CATACLYSM3",
+    "familyKey": "CATACLYSM",
+    "family": "Cataclysm",
+    "tier": 3,
+    "markup": "Your creatures have a 10% chance for their {SPELL_ultimate} Gems to not consume {STAT_charges}."
+  },
+  {
+    "key": "EFFIGY1",
+    "familyKey": "EFFIGY",
+    "family": "Effigy",
+    "tier": 1,
+    "markup": "Your creatures take 3% less indirect damage."
+  },
+  {
+    "key": "EFFIGY2",
+    "familyKey": "EFFIGY",
+    "family": "Effigy",
+    "tier": 2,
+    "markup": "Your creatures take 3% less indirect damage."
+  },
+  {
+    "key": "EFFIGY3",
+    "familyKey": "EFFIGY",
+    "family": "Effigy",
+    "tier": 3,
+    "markup": "Your creatures take 3% less indirect damage."
+  },
+  {
+    "key": "EGGXOTIC1",
+    "familyKey": "EGGXOTIC",
+    "family": "Eggxotic",
+    "tier": 1,
+    "markup": "You have a 1% chance to receive treasure after battle."
+  },
+  {
+    "key": "EGGXOTIC2",
+    "familyKey": "EGGXOTIC",
+    "family": "Eggxotic",
+    "tier": 2,
+    "markup": "You have a 2% chance to receive treasure after battle."
+  },
+  {
+    "key": "EGGXOTIC3",
+    "familyKey": "EGGXOTIC",
+    "family": "Eggxotic",
+    "tier": 3,
+    "markup": "You have a 3% chance to receive treasure after battle."
+  },
+  {
+    "key": "LUCANIAN1",
+    "familyKey": "LUCANIAN",
+    "family": "Lucanian",
+    "tier": 1,
+    "markup": "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}."
+  },
+  {
+    "key": "LUCANIAN2",
+    "familyKey": "LUCANIAN",
+    "family": "Lucanian",
+    "tier": 2,
+    "markup": "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}."
+  },
+  {
+    "key": "LUCANIAN3",
+    "familyKey": "LUCANIAN",
+    "family": "Lucanian",
+    "tier": 3,
+    "markup": "Your creatures have 3% more {STAT_attack} and {STAT_intelligence}."
+  },
+  {
+    "key": "MARIONETTE1",
+    "familyKey": "MARIONETTE",
+    "family": "Marionette",
+    "tier": 1,
+    "markup": "Your creatures have a 2% chance to take another turn."
+  },
+  {
+    "key": "MARIONETTE2",
+    "familyKey": "MARIONETTE",
+    "family": "Marionette",
+    "tier": 2,
+    "markup": "Your creatures have a 2% chance to take another turn."
+  },
+  {
+    "key": "MARIONETTE3",
+    "familyKey": "MARIONETTE",
+    "family": "Marionette",
+    "tier": 3,
+    "markup": "Your creatures have a 2% chance to take another turn."
+  },
+  {
+    "key": "ROBODOMI1",
+    "familyKey": "ROBODOMI",
+    "family": "Robodomi",
+    "tier": 1,
+    "markup": "Your creatures have a 10% chance to avoid instant-kill effects."
+  },
+  {
+    "key": "ROBODOMI2",
+    "familyKey": "ROBODOMI",
+    "family": "Robodomi",
+    "tier": 2,
+    "markup": "Your creatures have a 10% chance to avoid instant-kill effects."
+  },
+  {
+    "key": "ROBODOMI3",
+    "familyKey": "ROBODOMI",
+    "family": "Robodomi",
+    "tier": 3,
+    "markup": "Your creatures have a 10% chance to avoid instant-kill effects."
+  },
+  {
+    "key": "SPACECAT1",
+    "familyKey": "SPACECAT",
+    "family": "Spacecat",
+    "tier": 1,
+    "markup": "Your creatures' Spell Gems that belong to other classes have 5% more potency."
+  },
+  {
+    "key": "SPACECAT2",
+    "familyKey": "SPACECAT",
+    "family": "Spacecat",
+    "tier": 2,
+    "markup": "Your creatures' Spell Gems that belong to other classes have 5% more potency."
+  },
+  {
+    "key": "SPACECAT3",
+    "familyKey": "SPACECAT",
+    "family": "Spacecat",
+    "tier": 3,
+    "markup": "Your creatures' Spell Gems that belong to other classes have 5% more potency."
+  },
+  {
+    "key": "SPELLJUGGLER1",
+    "familyKey": "SPELLJUGGLER",
+    "family": "Spelljuggler",
+    "tier": 1,
+    "markup": "Your creatures deal 1% more damage for each equipped permanent Spell Gem that belongs to another class."
+  },
+  {
+    "key": "SPELLJUGGLER2",
+    "familyKey": "SPELLJUGGLER",
+    "family": "Spelljuggler",
+    "tier": 2,
+    "markup": "Your creatures deal 1% more damage for each equipped permanent Spell Gem that belongs to another class."
+  },
+  {
+    "key": "SPELLJUGGLER3",
+    "familyKey": "SPELLJUGGLER",
+    "family": "Spelljuggler",
+    "tier": 3,
+    "markup": "Your creatures deal 1% more damage for each equipped permanent Spell Gem that belongs to another class."
+  },
+  {
+    "key": "ELEMENTASAUR1",
+    "familyKey": "ELEMENTASAUR",
+    "family": "Elementasaur",
+    "tier": 1,
+    "markup": "Your creatures' debuffs each have a 3% chance to be removed at the start of their turns."
+  },
+  {
+    "key": "ELEMENTASAUR2",
+    "familyKey": "ELEMENTASAUR",
+    "family": "Elementasaur",
+    "tier": 2,
+    "markup": "Your creatures' debuffs each have a 3% chance to be removed at the start of their turns."
+  },
+  {
+    "key": "ELEMENTASAUR3",
+    "familyKey": "ELEMENTASAUR",
+    "family": "Elementasaur",
+    "tier": 3,
+    "markup": "Your creatures' debuffs each have a 3% chance to be removed at the start of their turns."
+  },
+  {
+    "key": "MIRELING1",
+    "familyKey": "MIRELING",
+    "family": "Mireling",
+    "tier": 1,
+    "markup": "Your creatures deal 2% more damage for each unique class among your creatures."
+  },
+  {
+    "key": "MIRELING2",
+    "familyKey": "MIRELING",
+    "family": "Mireling",
+    "tier": 2,
+    "markup": "Your creatures deal 2% more damage for each unique class among your creatures."
+  },
+  {
+    "key": "MIRELING3",
+    "familyKey": "MIRELING",
+    "family": "Mireling",
+    "tier": 3,
+    "markup": "Your creatures deal 2% more damage for each unique class among your creatures."
+  },
+  {
+    "key": "UNDERDWELLER1",
+    "familyKey": "UNDERDWELLER",
+    "family": "Underdweller",
+    "tier": 1,
+    "markup": "Enemies with {CONDNAME_DEBUFF_FEAR} have a 3% chance to lose their turn."
+  },
+  {
+    "key": "UNDERDWELLER2",
+    "familyKey": "UNDERDWELLER",
+    "family": "Underdweller",
+    "tier": 2,
+    "markup": "Enemies with {CONDNAME_DEBUFF_FEAR} have 10% less {STAT_attack}."
+  },
+  {
+    "key": "UNDERDWELLER3",
+    "familyKey": "UNDERDWELLER",
+    "family": "Underdweller",
+    "tier": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_FEAR} have 10% less {STAT_intelligence}."
+  },
+  {
+    "key": "DENIZEN1",
+    "familyKey": "DENIZEN",
+    "family": "Denizen",
+    "tier": 1,
+    "markup": "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs."
+  },
+  {
+    "key": "DENIZEN2",
+    "familyKey": "DENIZEN",
+    "family": "Denizen",
+    "tier": 2,
+    "markup": "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs."
+  },
+  {
+    "key": "DENIZEN3",
+    "familyKey": "DENIZEN",
+    "family": "Denizen",
+    "tier": 3,
+    "markup": "Enemies take 10% more damage from their {CONDNAME_DEBUFF_MANIA} debuffs."
+  }
+]

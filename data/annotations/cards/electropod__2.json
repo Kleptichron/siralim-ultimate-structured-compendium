@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "card:electropods:1",
+  "id": "card:electropod:2",
   "rules": [
     {
       "trigger": {
@@ -11,16 +11,17 @@
         {
           "verb": "resource_gain",
           "magnitude": {
-            "amountPct": 30,
+            "amountFlat": 15,
             "direction": "up"
           },
           "params": {
             "resource": "Essence",
-            "from": "battles"
+            "from": "battles",
+            "base": true
           }
         }
       ]
     }
   ],
-  "textHash": "0cd713a8c017"
+  "textHash": "de3458557693"
 }

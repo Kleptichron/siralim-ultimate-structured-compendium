@@ -200,6 +200,26 @@
     "maxBonus": null,
     "openingGuess": null
   },
+  "debuff:mania": {
+    "statuses": {
+      "Mania": [
+        "mention"
+      ]
+    },
+    "stats": [
+      "Health"
+    ],
+    "allStats": false,
+    "percents": [
+      3
+    ],
+    "tiers": [],
+    "chance": null,
+    "doesNotStack": false,
+    "perRank": false,
+    "maxBonus": null,
+    "openingGuess": "passive"
+  },
   "debuff:poisoned": {
     "statuses": {
       "Poisoned": [

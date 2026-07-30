@@ -41,9 +41,15 @@ function chipsOf(rec) {
 
 test('every result chip finds the record it sits on', () => {
   let chips = 0;
+  let visited = 0;
+  const chipless = [];
   const bad = [];
   for (const rec of index.records) {
-    for (const entries of chipsOf(rec)) {
+    visited++;
+    const own = chipsOf(rec);
+    // A record carrying rules must offer at least one chip to click.
+    if (rec.rules?.length && own.length === 0) chipless.push(rec.id);
+    for (const entries of own) {
       chips++;
       // Queried against the one record rather than the corpus. runQuery is a
       // pure per-record filter with no cross-record state, so this is the same
@@ -54,7 +60,12 @@ test('every result chip finds the record it sits on', () => {
       }
     }
   }
-  assert.ok(chips > 15000, `expected the whole corpus, only saw ${chips} chips`);
+  // Guards that the loop really covered the corpus, without pinning a magic
+  // number: the old `chips > 15000` was really a proxy for "did this run at all",
+  // and it broke the first time annotation coverage legitimately changed rather
+  // than because anything was wrong.
+  assert.equal(visited, index.records.length, 'did not visit every record');
+  assert.deepEqual(chipless.slice(0, 5), [], `${chipless.length} records with rules offered no chip`);
   assert.deepEqual(bad.slice(0, 5), [], `${bad.length} of ${chips} chips lost their own record`);
 });
 

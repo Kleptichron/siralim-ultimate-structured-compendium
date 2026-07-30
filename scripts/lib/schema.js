@@ -367,6 +367,74 @@ export function statusInText(lex, name, text) {
   return (lex.statusForms[name] ?? [name]).some(form => termRegex(form).test(text));
 }
 
+// Collect every family/race an annotation names in a position facet derivation
+// reads. Mirrors referencedStatuses.
+export function referencedRaces(ann) {
+  const found = new Set();
+  const walk = v => {
+    if (Array.isArray(v)) return v.forEach(walk);
+    if (v && typeof v === 'object') {
+      for (const [k, val] of Object.entries(v)) {
+        if ((k === 'race' || k === 'sourceRace') && typeof val === 'string') found.add(val);
+        else if (k === 'races' && Array.isArray(val)) val.forEach(r => found.add(r));
+        else walk(val);
+      }
+    }
+  };
+  walk(ann.rules);
+  return found;
+}
+
+// The same both-ways evidence check as crossCheckStatuses, but against the game's
+// own markup instead of the prose.
+//
+// This is strictly better evidence where it exists. Prose matching has to guess
+// whether a capitalised word is a status, and needs an alias table to paper over
+// transcription variants; the game's string states outright that a given position
+// holds CONDNAME_DEBUFF_BURNED. It also separates the buff, debuff and minion
+// namespaces, which the display text renders as ordinary words — so "text
+// mentions Death" stops being ambiguous between the class, the minion and the
+// word.
+//
+// Only buff and debuff refs drive the unclaimed direction: minions are battle
+// entities reached through summon_minion, not statuses that get applied.
+export function crossCheckRefs(ann, record, lex) {
+  const errors = [];
+  if (!record.refs) return errors;
+  const waived = new Set(ann.waivedStatuses ?? []);
+  const asserted = new Set([...(record.refs.buffs ?? []), ...(record.refs.debuffs ?? [])]);
+  const claimed = referencedStatuses(ann);
+
+  for (const s of claimed) {
+    // A status the game did not type at any position in this string. Allowed only
+    // where the text names it in prose anyway (some effects describe a status
+    // without the game tagging it) — otherwise the annotation invented it.
+    if (!asserted.has(s) && !waived.has(s) && !statusInText(lex, s, record.text)) {
+      errors.push(`${record.id}: claims status "${s}" that the game's markup does not type and the text does not name`);
+    }
+  }
+  for (const s of asserted) {
+    if (!claimed.has(s) && !waived.has(s)) {
+      errors.push(`${record.id}: the game types "${s}" in this effect but the annotation neither references nor waives it`);
+    }
+  }
+  // Families the annotation checks must be families the game names here.
+  const refFamilies = new Set(record.refs.families ?? []);
+  if (refFamilies.size) {
+    for (const r of referencedRaces(ann)) {
+      if (!refFamilies.has(r) && !new RegExp(`\\b${r}`, 'i').test(record.text)) {
+        errors.push(`${record.id}: references family "${r}" that the game's markup does not type here`);
+      }
+    }
+  }
+  // A token the markup map could not resolve would silently become a missing
+  // ref, so it fails loudly instead.
+  for (const t of record.refs.unresolved ?? []) {
+    errors.push(`${record.id}: unresolved markup token {${t}} — extend the token map in extract-game-data.js`);
+  }
+  return errors;
+}
+
 // Both-ways status evidence check: every status the annotation claims must
 // appear in the text; every status in the text must be referenced or waived.
 // noText records (self-descriptive realm properties) match against their name

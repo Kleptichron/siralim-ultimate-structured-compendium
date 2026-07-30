@@ -1,0 +1,142 @@
+[
+  {
+    "key": "DEFENSEPENETRATION",
+    "name": "Defensepenetration",
+    "markup": "The spell ignores some of the target's {STAT_defense} when determining the damage dealt."
+  },
+  {
+    "key": "POTENCYHEALTH",
+    "name": "Potencyhealth",
+    "markup": "Part of the spell's potency is based on the caster's Current {STAT_health} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "CASTSONEXTRAENEMY",
+    "name": "Castsonextraenemy",
+    "markup": "The spell is cast on an additional creature."
+  },
+  {
+    "key": "CASTSTWICE",
+    "name": "Caststwice",
+    "markup": "Creature has a chance to cast the spell an additional time."
+  },
+  {
+    "key": "SHARED",
+    "name": "Shared",
+    "markup": "At the start of battle, your other creatures gain an [temporary]Ethereal copy of the Spell Gem, but it has only 1 {STAT_charge}."
+  },
+  {
+    "key": "MORECHARGES",
+    "name": "Morecharges",
+    "markup": "The Spell Gem has additional {STAT_charges}."
+  },
+  {
+    "key": "DURATION",
+    "name": "Duration",
+    "markup": "Increases the duration of buffs granted and debuffs afflicted by the Spell Gem."
+  },
+  {
+    "key": "INCREASEDDAMAGE",
+    "name": "Increaseddamage",
+    "markup": "The spell deals additional damage."
+  },
+  {
+    "key": "INCREASEDHEALING",
+    "name": "Increasedhealing",
+    "markup": "The spell heals for a greater amount."
+  },
+  {
+    "key": "STATPOTENCY",
+    "name": "Statpotency",
+    "markup": "The spell increases and decreases stats by a greater amount."
+  },
+  {
+    "key": "SWAPCHAOS",
+    "name": "Swapchaos",
+    "markup": "The Spell Gem's class is changed to {CLASS_Chaos}."
+  },
+  {
+    "key": "SWAPDEATH",
+    "name": "Swapdeath",
+    "markup": "The Spell Gem's class is changed to {CLASS_Death}."
+  },
+  {
+    "key": "SWAPLIFE",
+    "name": "Swaplife",
+    "markup": "The Spell Gem's class is changed to {CLASS_Life}."
+  },
+  {
+    "key": "SWAPSORCERY",
+    "name": "Swapsorcery",
+    "markup": "The Spell Gem's class is changed to {CLASS_Sorcery}."
+  },
+  {
+    "key": "SWAPNATURE",
+    "name": "Swapnature",
+    "markup": "The Spell Gem's class is changed to {CLASS_Nature}."
+  },
+  {
+    "key": "DEFENDAFTER",
+    "name": "Defendafter",
+    "markup": "Creature has a chance to {ACTION_defend} after it casts the spell."
+  },
+  {
+    "key": "PROVOKEAFTER",
+    "name": "Provokeafter",
+    "markup": "Creature has a chance to {ACTION_provoke} after it casts the spell."
+  },
+  {
+    "key": "ATTACKAFTER",
+    "name": "Attackafter",
+    "markup": "Creature has a chance to {ACTION_attack} a random enemy after it casts the spell."
+  },
+  {
+    "key": "MAGNETIC",
+    "name": "Magnetic",
+    "markup": "The spell's potency is increased by 15% for each of the same Spell Gem equipped by your party."
+  },
+  {
+    "key": "CASCADING",
+    "name": "Cascading",
+    "markup": "The spell's potency is increased by 5% for each {STAT_charge} the Spell Gem is missing."
+  },
+  {
+    "key": "SINGULAR",
+    "name": "Singular",
+    "markup": "The spell's potency is increased by 50% for each empty Spell Gem slot the creature has."
+  },
+  {
+    "key": "POTENCYDEFENSE",
+    "name": "Potencydefense",
+    "markup": "Part of the spell's potency is based on the caster's {STAT_defense} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "POTENCYSPEED",
+    "name": "Potencyspeed",
+    "markup": "Part of the spell's potency is based on the caster's {STAT_speed} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "POTENCYATTACK",
+    "name": "Potencyattack",
+    "markup": "Part of the spell's potency is based on the caster's {STAT_attack} instead of {STAT_intelligence}."
+  },
+  {
+    "key": "CASTONATTACK",
+    "name": "Castonattack",
+    "markup": "Creature has a chance to cast the spell after it {ACTION_attacks}."
+  },
+  {
+    "key": "CASTONDEFEND",
+    "name": "Castondefend",
+    "markup": "Creature has a chance to cast the spell after it {ACTION_defends}."
+  },
+  {
+    "key": "CASTONPROVOKE",
+    "name": "Castonprovoke",
+    "markup": "Creature has a chance to cast the spell after it {ACTION_provokes}."
+  },
+  {
+    "key": "CASTONHEAL",
+    "name": "Castonheal",
+    "markup": "Creature has a chance to cast the spell after it heals a creature."
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "key": "MONK",
+    "name": "Monk",
+    "markup": "A strong defense is unnecessary when your foe is unable to strike you in the first place. Monks grant their creatures unmatched agility, enabling them to dodge incoming attacks and spells, and respond with devastating counter-attacks.",
+    "playstyle": "As a Monk, you'll boost your creatures' chance to Dodge attacks and spells. When your creatures Dodge, they'll unleash a devastating counter-attack on the enemy."
+  },
+  {
+    "key": "ANIMATOR",
+    "name": "Animator",
+    "markup": "There's a fine line between genius and insanity, and it's difficult to say on what side of that line Animators reside. These fanatical magi spend their days perfecting their Animatus creations: unique creatures that grow more powerful as their master's dark experiments unveil new opportunities.",
+    "playstyle": "As an Animator, you will always have a unique creature in your party called an Animatus. Your entire battle strategy will likely focus on this creature. You can empower your Animatus, and even use your other creatures to make it stronger in combat."
+  },
+  {
+    "key": "TRICKSTER",
+    "name": "Trickster",
+    "markup": "Luck is not merely a matter of chance, but instead a force that can be manipulated to a clever man's will. Tricksters capitalize on this fact, enabling their creatures to re-roll the proverbial dice whenever fate doesn't turn out quite the way they hoped.",
+    "playstyle": "As a Trickster, you'll heavily inconvenience your enemies by preventing them from taking action. You'll also gain the ability to manipulate the element of luck - for example, if a positive effect has a chance to activate but fails to do so, you can try again."
+  },
+  {
+    "key": "HELLKNIGHT",
+    "name": "Hell Knight",
+    "markup": "Careful planning and uptight caution are nothing but a cause to doubt oneself. Hell Knights realize this fact, and instead opt to send their creatures charging headlong into battle, relying on brute strength and reckless attacks to ensure a swift victory.",
+    "playstyle": "As a Hell Knight, you'll favor creatures that specialize in attacking. Hell Knights grant their creatures increased critical damage and cause a variety of effects to occur when they attack. Hell Knights are surprisingly adept at spellcasting in a pinch, as well."
+  },
+  {
+    "key": "REAVER",
+    "name": "Reaver",
+    "markup": "Perseverance, an iron will, and a touch of insanity are the perfect recipe for victory. Reavers live and die by this mantra, instilling their creatures with a cold and calculated anger that allows them to grow more powerful during battle while their foes tire out.",
+    "playstyle": "As a Reaver, your creatures will gain massive benefits in combat as battles continue to drag on. If your creatures manage to survive for just a few extra turns, they'll be able to devastate your enemies."
+  },
+  {
+    "key": "INQUISITOR",
+    "name": "Inquisitor",
+    "markup": "Burn the witch, judge the heretic, and slay the non-believer. Inquisitors make use of healing effects just as much for offense as they do for defense. They enact justice on behalf of the gods, and no one will be spared from holy rapture.",
+    "playstyle": "As an Inquisitor, you'll have a solution at your disposal for every problem you encounter. In addition, Inquisitors are able to use healing effects for offensive purposes - for example, when your creatures heal enemies, they instead cause damage to them."
+  },
+  {
+    "key": "CLERIC",
+    "name": "Cleric",
+    "markup": "The best offense, as some say, is a good defense. Clerics protect their creatures with powerful healing abilities and steadfast barriers, ensuring that not even the most tenacious of foes can overcome them.",
+    "playstyle": "As a Cleric, you'll specialize in healing abilities, as well as buffing, resurrection, stat-boosting effects, and providing your creatures with protective barriers. Your creatures will be extremely difficult to kill."
+  },
+  {
+    "key": "DEFILER",
+    "name": "Defiler",
+    "markup": "The difference between good and evil is often a matter of perspective, but the morality of a Defiler is simple enough for anyone to decide. These dark magi take sadistic pleasure in afflicting their adversaries with crippling diseases, reducing them to weakened husks that no longer have the capacity to defend themselves.",
+    "playstyle": "As a Defiler, you'll specialize in debuffs and stat-reducing effects. Enemies will be so weak that your party will be able to easily pick them off, even if they were originally much more powerful than your creatures."
+  },
+  {
+    "key": "PALADIN",
+    "name": "Paladin",
+    "markup": "Eye for an eye, tooth for a tooth. Paladins are patient combatants who prefer to allow their enemies to strike first, and then return the favor tenfold with holy fury.",
+    "playstyle": "As a Paladin, your creatures will be able to endure even the most powerful of attacks. Each time your creatures take damage, they'll also damage their enemies."
+  },
+  {
+    "key": "DRUID",
+    "name": "Druid",
+    "markup": "Many people foolishly mistake a Druid's introversion for weakness. These magi believe that quality always trumps quantity on the battlefield. Contrary to tradition, they are often seen with fewer than six creatures at their disposal, but the havoc their limited numbers wreak when augmented by Druidic magic is a sight to behold.",
+    "playstyle": "As a Druid, you'll probably only want to have one (or up to four, later on) creatures in your party. Your creatures will gain massive benefits for being part of a smaller party."
+  },
+  {
+    "key": "TRIBALIST",
+    "name": "Tribalist",
+    "markup": "Strength in numbers. Tribalists prefer to use creatures that belong to the same race or class, and take full advantage of the synergy and camaraderie they offer each other.",
+    "playstyle": "As a Tribalist, you'll want to assemble a party of creatures that belong to the same race. This will provide them with significant benefits that are amplified by their racial synergies with each other."
+  },
+  {
+    "key": "SORCERER",
+    "name": "Sorcerer",
+    "markup": "Sorcerers are masters of controlling the battlefield. Why worry about offense or defense when your enemies can't move to begin with?",
+    "playstyle": "As a Sorcerer, you'll support your creatures by debilitating their enemies from afar. Generally, your enemies won't be able to act for the first few turns in battle as long as you're around."
+  },
+  {
+    "key": "CABALIST",
+    "name": "Cabalist",
+    "markup": "Cabalists can conjure Spell Gems out of thin air to be used by their creatures at any given moment. These magi prefer to employ high-risk, high-reward battle strategies to ensure their victory.",
+    "playstyle": "As a Cabalist, you'll enable your creatures to cast spells that they normally wouldn't have access to. While other people's creatures might run out of Spell Gem Charges, you'll be able to keep your creatures well-stocked with fresh Spell Gems at the start of every battle."
+  },
+  {
+    "key": "EVOKER",
+    "name": "Evoker",
+    "markup": "Evokers are the ultimate spellcasters. They excel at casting enhanced versions of spells multiple times in a row to overwhelm their enemies before they can act.",
+    "playstyle": "As an Evoker, you'll empower your creatures' spellcasting capabilities. Your creatures will be able to cast the same spell multiple times in one turn, and these spells will be much stronger than if they had cast them without your guidance."
+  },
+  {
+    "key": "NECROMANCER",
+    "name": "Necromancer",
+    "markup": "Necromancers prefer to overwhelm their foes by summoning minions to aid their creatures in battle. Enemies are often so perplexed by the number of undead monstrosities charging at them from across the battlefield that they're dead long before they realize what even happened.",
+    "playstyle": "As a Necromancer, you'll summon minions to aid your creatures in battle. These minions can do all kinds of things to support your creatures - they can cause damage, boost your creatures' stats, debuff enemies, and much more."
+  },
+  {
+    "key": "BLOODMAGE",
+    "name": "Bloodmage",
+    "markup": "The Bloodmage is a deranged spellcaster who is willing to do anything to overcome his foes - even at the cost of his own creatures' lives. This menacing spellcaster is adept at manipulating the lifeforce of allies and foes alike in his endless pursuit for power.",
+    "playstyle": "As a Bloodmage, your creatures will grow more powerful as they take damage. To facilitate these effects, the Bloodmage offers a variety of different ways to inflict damage on his own creatures."
+  },
+  {
+    "key": "FANATIC",
+    "name": "Fanatic",
+    "markup": "Fanatics devote their lives to serving the gods. From dusk until dawn, these magi toil away at a neverending list of demands to better serve each of the 30 gods of Rodia. Such devotion is not without purpose, however, for the Fanatic is able to call on the gods' power to serve him in his time of need.",
+    "playstyle": "As a Fanatic, you'll be able to take additional Avatar creatures with you on your journey and empower them and their Ultimate Spell Gems with potent magic. Fanatics also make use of Godspawn creatures and create powerful synergies between them and their Avatar allies."
+  },
+  {
+    "key": "WARDEN",
+    "name": "Warden",
+    "markup": "Wardens are wholly attuned to the needs of their creatures. These powerful magi empower their creatures with various boons to give them an edge over their opponents in battle.",
+    "playstyle": "As a Warden, you'll be able to grant your creatures every buff in existence. In addition, your creatures will grow stronger as they continue to accumulate more buffs."
+  },
+  {
+    "key": "ASTROLOGER",
+    "name": "Astrologer",
+    "markup": "Astrologers are calculating magi who specialize in creating a sound strategy before each battle. Oftentimes, their plans are so well-constructed that their creatures are able to take combat into their own hands without any further input from their master.",
+    "playstyle": "As an Astrologer, you'll plan most of your battle strategies before combat even begins. Astrologers allow their creatures to act on their own under certain conditions."
+  },
+  {
+    "key": "PURGATORIAN",
+    "name": "Purgatorian",
+    "markup": "Purgatorians blur the line between life and death. These mystical spellcasters are able to call upon the spirits of their slain creatures to continue fighting in the afterlife.",
+    "playstyle": "As a Purgatorian, your creatures are able to continue fighting even while they're dead. In fact, thanks to your powers, your creatures will be even stronger in the afterlife. Be careful not to let all your creatures die, though, or it's game over!"
+  },
+  {
+    "key": "SPELLWEAVER",
+    "name": "Spellweaver",
+    "markup": "Chaos, Death, Life, Nature, and Sorcery: the five components that gave birth to the land of Rodia. Spellweavers can call upon these elements to imbue their creatures with powerful inscriptions to decimate their foes in battle.",
+    "playstyle": "As a Spellweaver, your creatures can cast spells to produce Infusions which can be expended for powerful effects. After your creatures accumulate enough Infusions, they can cast the powerful Colorwave spell to annihilate their enemies."
+  },
+  {
+    "key": "RUNEKNIGHT",
+    "name": "Rune Knight",
+    "markup": "Rune Knights call upon their runic powers - Cor, Dun, Lua, Nax, and Sah - to bolster their creatures' strength and grant them powerful spells that are unavailable anywhere else.",
+    "playstyle": "As a Rune Knight, your creatures will have access to powerful Rune spells. Your creatures can cast these spells to create cumulative bonuses for your entire party."
+  },
+  {
+    "key": "HERBALIST",
+    "name": "Grovetender",
+    "markup": "Grovetenders take great pride in their Herbling companions, strongly preferring to focus the bulk of their efforts on this prized creature over all the others. This peculiar mage knows just the right techniques to bring out her Herbling's full potential as it transforms rapidly in combat to wreak havoc on its foes.",
+    "playstyle": "As a Grovetender, you will always have a unique creature in your party called an Herbling. During battle, your creatures' actions will fertilize the Herbling, causing it to rapidly evolve until it turns into an unstoppable force of nature."
+  },
+  {
+    "key": "DOOMBRINGER",
+    "name": "Doombringer",
+    "markup": "The Doombringer draws magic from the Bastion of the Void to fuel his creatures with vast amounts of power. Doombringers specialize in allowing their creatures to perform actions multiple times in a row.",
+    "playstyle": "As a Doombringer, your creatures' on-action effects (on-attack, on-cast, etc) can activate additional times, allowing you to chain brutal combos together to devastate your enemies."
+  },
+  {
+    "key": "PYROMANCER",
+    "name": "Pyromancer",
+    "markup": "Pyromancers quite literally thrive on watching the world burn. These maniacal magi ignite both friend and foe alike with a brilliant conflagration, causing their enemies to suffer gruesome deaths while empowering their allies with the power of flame.",
+    "playstyle": "As a Pyromancer, you'll make heavy use of the Burning debuff to deal damage to enemies over time. In addition, your own creatures will be afflicted with this debuff, but it will heal and empower them rather than dealing damage."
+  },
+  {
+    "key": "WITCHDOCTOR",
+    "name": "Witch Doctor",
+    "markup": "Witch Doctors are spiritual warriors who cast deadly hexes and curses on their enemies, forcing them to fight against each other.",
+    "playstyle": "As a Witch Doctor, you'll manipulate your foes into damaging each other and empowering your creatures to ensure victory."
+  },
+  {
+    "key": "DREAMSHADE",
+    "name": "Dreamshade",
+    "markup": "Dreamshades blur the line between dreams and reality. This mystical magi is adept at redirecting his foes' efforts for his own benefit.",
+    "playstyle": "As a Dreamshade, you'll utilize the Inverted debuff to cause your foes' damage to instead heal your creatures, and their healing effects to damage their allies."
+  },
+  {
+    "key": "ROYAL",
+    "name": "Royal",
+    "markup": "Authority is passed down through generations, but true power must be earned. A master of all professions, the Royal possesses the unique ability to combine the powers of other specializations at will.",
+    "playstyle": "As a Royal, you'll be able to use more Anointments than anyone else, allowing you to create your own, custom specialization."
+  },
+  {
+    "key": "WINDRUNNER",
+    "name": "Windrunner",
+    "markup": "Windrunners are vigilant sentinels who imbue their creatures with unmatched speed and vigor, allowing them to move so quickly that their opponents can't ever catch them.",
+    "playstyle": "As a Windrunner, you'll rely on the Speed stat to outplay your foes. This specialization also offers several ways to disable your enemies and prevent them from passing through your defenses."
+  },
+  {
+    "key": "SIEGEMASTER",
+    "name": "Siegemaster",
+    "markup": "The Siegemaster is a stalwart protector who amplifies the defenses of his creatures to keep them strong in battle.",
+    "playstyle": "As a Siegemaster, you'll protect your creatures with powerful defensive mechanisms while they reflect damage taken back on their attackers. This specialization makes great use of the Defend command in battle."
+  },
+  {
+    "key": "GRAVEBORN",
+    "name": "Graveborn",
+    "markup": "The Graveborn is a once-powerful warlock who was killed for his heresy and has since risen from the dead to wreak havoc on the living. This undead spellcaster is capable of bringing his creatures back from the dead with far greater power than before.",
+    "playstyle": "As a Graveborn, you'll bring empowered versions of your creatures back from the dead to wreak havoc on your enemies."
+  },
+  {
+    "key": "SHADOWBRINGER",
+    "name": "Shadowbringer",
+    "markup": "The presence of a Shadowbringer spells doom for all who cross its path. This ethereal being bends the light into darkness, sapping its foes' will to live from their hearts.",
+    "playstyle": "As a Shadowbringer, you'll utilize the Blighted debuff to damage your foes using numerous healing effects."
+  },
+  {
+    "key": "MIME",
+    "name": "Mime",
+    "markup": "While the Mime's own combat prowess leaves much to be desired, it excels at copying its opponent's actions, turning its enemies' strategy against them to assure victory.",
+    "playstyle": "As a Mime, you'll enable your creatures to copy the actions of your opponents and grow stronger based on how your enemies behave in battle."
+  },
+  {
+    "key": "GLADIATOR",
+    "name": "Gladiator",
+    "markup": "The Gladiator is a master of the arena, sporting tremendous proficiency with all manner of weapons. No sword, no axe, no bow is too difficult for this master of armaments to wield.",
+    "playstyle": "As a Gladiator, you'll utilize powerful Arsenal spells to bolster your forces and devastate your opponents. In addition, your creatures' Artifacts will become far stronger than normal."
+  },
+  {
+    "key": "BREWMASTER",
+    "name": "Brewmaster",
+    "markup": "The Brewmaster believes that no problem can't be solved with a full mug of beer... or six. This unexpected hero generously distributes all manner of ales and cocktails to friend and foe alike - but all should be wary when the time comes to pay the bill.",
+    "playstyle": "As a Brewmaster, you'll rely on Booze spells to... well... make everyone get really, really drunk."
+  },
+  {
+    "key": "TOXICOLOGIST",
+    "name": "Toxicologist",
+    "markup": "Toxicologists spend their days tarrying away at all manner of potions and elixirs that might serve their use in battle. These mad scientists care little for the well-being of their own creatures, equipping them with venomous toxins that grant them enhanced combat prowess at the cost of their own lives.",
+    "playstyle": "As a Toxicologist, you'll use the Poison debuff to inflict massive damage over time to your foes. You'll also Poison your own creatures to generate beneficial effects when they take damage."
+  },
+  {
+    "key": "ENGINEER",
+    "name": "Engineer",
+    "markup": "The Engineer's sole purpose in life is to build a bigger and better explosive than last time. This bombastic bombardier belays bombs to its opponent's backs, blasting them back to the bilgewater from whence they were born.",
+    "playstyle": "As an Engineer, you'll strap bombs to enemies and blow them to bits. The Engineer is also accompanied by their greatest invention: the Minibot minion!"
+  },
+  {
+    "key": "DEMONOLOGIST",
+    "name": "Demonologist",
+    "markup": "The Demonologist is a wicked summoner who conjures terrible demons from the depths of hell to aid his creatures in battle. This chaotic sorcerer uses Greater Demons to do his bidding while sacrificing Lesser Demons to empower his own creatures.",
+    "playstyle": "As a Demonologist, you'll summon powerful demons from the depths of hell to do your bidding."
+  },
+  {
+    "key": "DEPRIVED",
+    "name": "Deprived",
+    "markup": "The Deprived was born with nothing and will die with nothing. Cursed with the intelligence of a sponge and the physique of a sickly child, the Deprived must make do with what little fate has left him with.",
+    "playstyle": "As a Deprived, you'll lose access to your most significant sources of power, including Fused traits, Avatar creatures, and Relic effects. This is a Challenge Specialization, and it will not appear at the Goblet of Trials after you unlock it."
+  },
+  {
+    "key": "PARIAH",
+    "name": "Pariah",
+    "markup": "The Pariah is a social outcast who prefers to spend her days in solitude. Though her friends are few, she is resourceful enough to maintain her independence with some success.",
+    "playstyle": "As a Pariah, you'll be forced to fight using a limited number of creatures than usual. This is a Challenge Specialization, and it will not appear at the Goblet of Trials after you unlock it."
+  },
+  {
+    "key": "MERMAID",
+    "name": "Mermaid",
+    "markup": "Some creatures are blessed with protectors that guard them from harm no matter the cost. The Mermaid relies on her Benthic Guardian to shield her other creatures from danger, ensuring that her allies can fight without fear while her guardian bears the brunt of the enemy's fury.",
+    "playstyle": "As a Mermaid, you'll focus on healing your creatures and raising their defenses, making them incredibly durable. Your Benthic Guardian serves as the heart of your strategy, acting as both a shield and a conduit for your most powerful effects."
+  },
+  {
+    "key": "MESMERIST",
+    "name": "Mesmerist",
+    "markup": "A blade can cut the body, but the mind is far more fragile. The Mesmerist specializes in warping reality itself, putting her enemies to sleep, blinding them, and turning their own senses against them until they no longer know who - or what - they're fighting.",
+    "playstyle": "As a Mesmerist, you'll manipulate buffs and debuffs to disrupt your enemies while empowering your own creatures. Sleeping and Blind enemies suffer devastating penalties, while your creatures twist spells and status effects into unexpected weapons."
+  },
+  {
+    "key": "ANTIQUARIAN",
+    "name": "Antiquarian",
+    "markup": "Relics of the past hold secrets lost to time, and the Antiquarian is determined to uncover them all. This eccentric magi studies the ancient artifacts left behind by the gods themselves, empowering her creatures with forgotten blessings that even the gods have long since forsaken.",
+    "playstyle": "As an Antiquarian, you'll specialize in enhancing your creatures' Relics, unlocking hidden abilities that are unique to this specialization. Your creatures' Relics will gain new effects that no other specialization can access, allowing you to customize your team's playstyle in ways that go far beyond the ordinary."
+  }
+]

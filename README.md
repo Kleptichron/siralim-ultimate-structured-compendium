@@ -1,6 +1,6 @@
 # Siralim Ultimate Structured Compendium
 
-4,068 traits, spells, relics, perks, cards, minions, statuses and realm
+4,164 traits, spells, relics, perks, cards, minions, statuses and realm
 properties. Each one parsed out of prose into a structured rule model, behind a
 faceted search that runs entirely in your browser.
 
@@ -38,6 +38,15 @@ npm run build-index   # data/annotations -> web/public/index.json
 npm run dev           # http://localhost:5173
 ```
 
+`source/game/` is committed, so none of that needs the game installed. To pick
+up a patch:
+
+```bash
+npm run extract-game -- "C:/path/to/Siralim Ultimate"
+npm run import -- --dry-run   # what changed, before it rewrites anything
+npm run import
+```
+
 `npm test` builds the index, validates the corpus, then runs the regression
 suites. It takes about 30s. Two of the suites sweep every trigger × verb and
 verb × target combination through the real filter code, in both match modes.
@@ -45,8 +54,11 @@ verb × target combination through the real filter code, in both match modes.
 ## The pipeline
 
 ```
-source/*.csv                     community-compiled effect data, unmodified
-  │  npm run import              parse, assign stable ids, hash each text,
+<install>/localization/*.csv     the game's own string tables
+  │  npm run extract-game        English gameplay strings, markup intact
+  ▼                              (manual, needs the game, never runs in CI)
+source/game/*.json  +  source/*.csv     effect text  +  community metadata
+  │  npm run import              join by name, resolve markup, hash each text,
   ▼                              build lexicons, flag drift as stale
 data/normalized/*.json
   │  npm run extract             deterministic machine drafts + evidence
@@ -57,7 +69,7 @@ data/annotations/<source>/<id>.json    one file per record: the rule model
   ▼
   │  npm run build-index         derive flat facets from the rules
   ▼
-web/public/index.json            3.9 MB, 406 KB gzipped, everything the app needs
+web/public/index.json            3.6 MB, 393 KB gzipped, everything the app needs
 ```
 
 Three more commands. `npm run cluster` groups identical template shapes, so one
@@ -72,17 +84,29 @@ wrong answers.
 
 ## Data provenance
 
-`source/` is community-compiled effect data. `traits.csv` and `relics.csv` follow
-the column layout of the community-maintained *Siralim Ultimate Compendium*
-spreadsheet. `perks.csv` and `specializations.csv` come from a separate
-compilation. Years of player transcription went into these files, and this
-project is built on top of that work.
+Effect text and names come from the game. Siralim Ultimate ships its own
+localization tables at `<install>/localization/*.csv`, and `npm run extract-game`
+reads the English column into `source/game/`. That folder is committed, so a
+clean checkout builds the same site without the game installed.
+
+Everything else comes from community compilations in `source/`: which creature,
+family, class and material each trait belongs to, which specialization owns each
+perk, and numbers like charge costs and relic bonuses. The game's string tables
+don't carry any of that. `traits.csv` and `relics.csv` follow the column layout
+of the community-maintained *Siralim Ultimate Compendium* spreadsheet, and
+`perks.csv` and `specializations.csv` come from a separate compilation. Years of
+player transcription went into these files, and this project is built on top of
+that work.
+
+Patch 3.0 will expose the game's database files directly, which is where the
+relational data will come from once it lands.
 
 ## Layout
 
 | path | |
 |---|---|
-| `source/` | community-compiled effect data, eleven CSVs, untouched |
+| `source/game/` | the game's English gameplay strings, markup intact, vendored |
+| `source/` | community-compiled metadata, eleven CSVs, untouched |
 | `data/normalized/` | parsed records: stable id, name, text, textHash, meta |
 | `data/annotations/` | the rule model, one JSON per record |
 | `data/lexicon/` | statuses, classes, families, stats, aliases for source typos |

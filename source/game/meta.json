@@ -1,0 +1,20 @@
+{
+  "extractedOn": "2026-07-29",
+  "steamAppId": "1289810",
+  "steamBuildId": "20548371",
+  "depotUpdated": "2026-05-20",
+  "counts": {
+    "traits": 2120,
+    "spells": 747,
+    "cards": 465,
+    "perks": 661,
+    "relics": 310,
+    "statuses": 65,
+    "realmProperties": 58,
+    "specializations": 43,
+    "artifactMods": 64,
+    "spellGemProperties": 28,
+    "blessings": 622,
+    "families": 164
+  }
+}

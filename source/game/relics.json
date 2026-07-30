@@ -1,0 +1,2792 @@
+[
+  {
+    "key": "SURATHLI1",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 1,
+    "markup": "At the start of battle, the bearer gains {CONDNAME_BUFF_SHELL}."
+  },
+  {
+    "key": "SURATHLI2",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 2,
+    "markup": "The bearer gains 100% more healing."
+  },
+  {
+    "key": "SURATHLI3",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 3,
+    "markup": "At the start of its bearer's turn, this relic {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "SURATHLI4",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 4,
+    "markup": "After the bearer takes damage from an attack or spell, this relic {ACTION_casts} Healing on it."
+  },
+  {
+    "key": "SURATHLI5",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 5,
+    "markup": "This relic has a 10% chance to prevent damage dealt to its bearer."
+  },
+  {
+    "key": "SURATHLI6",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 6,
+    "markup": "The bearer gives 100% more healing."
+  },
+  {
+    "key": "SURATHLI7",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 7,
+    "markup": "After the bearer deals damage with an attack or spell, it gains a {CONDNAME_BUFF_BARRIER} equal to 5% of the damage dealt."
+  },
+  {
+    "key": "SURATHLI8",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 8,
+    "markup": "The first time the bearer dies in battle, this relic {ACTION_casts} Major Resurrection on it."
+  },
+  {
+    "key": "SURATHLI9",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 9,
+    "markup": "After this relic {ACTION_attacks} or {ACTION_casts} a spell, it gives its bearer {CONDNAME_BUFF_SHELL}."
+  },
+  {
+    "key": "SURATHLI10",
+    "relicKey": "SURATHLI",
+    "relicName": "Arbiter",
+    "relicTitle": "Arbiter, Holy Shield of Surathli",
+    "god": "Surathli",
+    "rank": 10,
+    "markup": "At the end of its bearer's turn, this relic {ACTION_casts} Holy Explosion."
+  },
+  {
+    "key": "AZURAL1",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks} or is {ACTION_attacked}, it has a 50% chance to afflict the enemy with {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "AZURAL2",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 2,
+    "markup": "Enemies deal 10% less damage to the bearer for each {CONDNAME_DEBUFF_FROZEN} enemy."
+  },
+  {
+    "key": "AZURAL3",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 3,
+    "markup": "At the start of its bearer's turn, this relic {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "AZURAL4",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 4,
+    "markup": "This relic and its bearer deal 35% more damage to {CONDNAME_DEBUFF_FROZEN} enemies."
+  },
+  {
+    "key": "AZURAL5",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 5,
+    "markup": "After the bearer takes damage, this relic has a 25% chance to {ACTION_cast} Black Ice."
+  },
+  {
+    "key": "AZURAL6",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 6,
+    "markup": "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_FROZEN}, this relic has a 25% chance to {ACTION_cast} Shatter on it."
+  },
+  {
+    "key": "AZURAL7",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 7,
+    "markup": "The bearer is immune to {CONDNAME_DEBUFF_FROZEN}."
+  },
+  {
+    "key": "AZURAL8",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 8,
+    "markup": "After the bearer takes damage, this relic increases its {STAT_defense} by 20%."
+  },
+  {
+    "key": "AZURAL9",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 9,
+    "markup": "The bearer {ACTION_attacks} {CONDNAME_DEBUFF_FROZEN} enemies 1 additional time."
+  },
+  {
+    "key": "AZURAL10",
+    "relicKey": "AZURAL",
+    "relicName": "Wintermaul",
+    "relicTitle": "Wintermaul, Great Hammer of Azural",
+    "god": "Azural",
+    "rank": 10,
+    "markup": "At the end of its bearer's turn, this relic {ACTION_casts} Snowstorm."
+  },
+  {
+    "key": "TORUN1",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks}, it has a 15% chance to send the target to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "TORUN2",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 2,
+    "markup": "This relic and its bearer deal 50% more damage to the bottom-most enemy on the {TIMELINE}."
+  },
+  {
+    "key": "TORUN3",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 3,
+    "markup": "At the start of its bearer's turn, this relic {ACTION_attacks} the bottom-most enemy on the {TIMELINE}."
+  },
+  {
+    "key": "TORUN4",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 4,
+    "markup": "After this relic or its bearer {ACTION_attack}, the bearer gains 20% {STAT_speed}."
+  },
+  {
+    "key": "TORUN5",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 5,
+    "markup": "After its bearer {ACTION_attacks}, this relic {ACTION_attacks} the same target."
+  },
+  {
+    "key": "TORUN6",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 6,
+    "markup": "The bearer is immune to {CONDNAME_DEBUFF_SNARED}."
+  },
+  {
+    "key": "TORUN7",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 7,
+    "markup": "This relic and its bearer's attacks and spells deal additional damage equal to 20% of their {STAT_speed}."
+  },
+  {
+    "key": "TORUN8",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 8,
+    "markup": "This relic and its bearer {ACTION_attack} enemies 1 additional time for each enemy between the bearer and its target on the {TIMELINE}."
+  },
+  {
+    "key": "TORUN9",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 9,
+    "markup": "This relic's attacks and spells ignore 25% of its target's {STAT_defense}."
+  },
+  {
+    "key": "TORUN10",
+    "relicKey": "TORUN",
+    "relicName": "ASSKICKER",
+    "relicTitle": "ASSKICKER, SPARE BOOT OF TORUN",
+    "god": "Torun",
+    "rank": 10,
+    "markup": "At the start of battle, this relic {ACTION_casts} Infernal Charge on its bearer."
+  },
+  {
+    "key": "AEOLIAN1",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 1,
+    "markup": "At the start of battle, the bearer gains {CONDNAME_BUFF_AGILE}."
+  },
+  {
+    "key": "AEOLIAN2",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 2,
+    "markup": "The bearer has an independent 25% chance to Dodge attacks."
+  },
+  {
+    "key": "AEOLIAN3",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 3,
+    "markup": "At the start of its bearer's turn, this relic {ACTION_attacks} a random enemy twice for 50% normal damage."
+  },
+  {
+    "key": "AEOLIAN4",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 4,
+    "markup": "The bearer's {CONDNAME_BUFF_AGILE} buff activates twice."
+  },
+  {
+    "key": "AEOLIAN5",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 5,
+    "markup": "At the start of battle, the bearer gains {CONDNAME_BUFF_SAVAGE}."
+  },
+  {
+    "key": "AEOLIAN6",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 6,
+    "markup": "The bearer has an independent 25% chance to deal critical damage."
+  },
+  {
+    "key": "AEOLIAN7",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 7,
+    "markup": "Enemies cannot move the bearer to the bottom of the {TIMELINE}."
+  },
+  {
+    "key": "AEOLIAN8",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 8,
+    "markup": "After the bearer Dodges an attack or deals critical damage, this relic {ACTION_attacks} the enemy twice for 50% normal damage."
+  },
+  {
+    "key": "AEOLIAN9",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 9,
+    "markup": "The bearer's {CONDNAME_BUFF_SAVAGE} buff activates twice."
+  },
+  {
+    "key": "AEOLIAN10",
+    "relicKey": "AEOLIAN",
+    "relicName": "Prime & Ventus",
+    "relicTitle": "Prime & Ventus, Claws of Aeolian",
+    "god": "Aeolian",
+    "rank": 10,
+    "markup": "This relic and its bearer deal 3% more damage for each time the bearer has {ACTION_attacked} or {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "EREBYSS1",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks} or is {ACTION_attacked}, it afflicts the enemy with {CONDNAME_DEBUFF_BLIND}."
+  },
+  {
+    "key": "EREBYSS2",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 2,
+    "markup": "The bearer takes 30% less damage from enemies with {CONDNAME_DEBUFF_BLIND}."
+  },
+  {
+    "key": "EREBYSS3",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 3,
+    "markup": "At the start of its bearer's turn, this relic {ACTION_attacks} enemies with {CONDNAME_DEBUFF_BLIND}. These attacks deal 15% less damage for each enemy it {ACTION_attacks} with this effect."
+  },
+  {
+    "key": "EREBYSS4",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 4,
+    "markup": "After the bearer {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_BLIND}, it afflicts the target with a random debuff."
+  },
+  {
+    "key": "EREBYSS5",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 5,
+    "markup": "The bearer's stat-reducing effects are 50% more potent when used on {CONDNAME_DEBUFF_BLIND} enemies."
+  },
+  {
+    "key": "EREBYSS6",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 6,
+    "markup": "The bearer is immune to {CONDNAME_DEBUFF_BLIND}."
+  },
+  {
+    "key": "EREBYSS7",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 7,
+    "markup": "This relic and its bearer deal 35% more damage to {CONDNAME_DEBUFF_BLIND} enemies."
+  },
+  {
+    "key": "EREBYSS8",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 8,
+    "markup": "{CONDNAME_DEBUFF_BLIND} enemies' spells that are {ACTION_cast} on the bearer are 50% less potent."
+  },
+  {
+    "key": "EREBYSS9",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 9,
+    "markup": "The bearer can {ACTION_cast} single-target spells on {CONDNAME_DEBUFF_BLIND} creatures without consuming any {STAT_charges}."
+  },
+  {
+    "key": "EREBYSS10",
+    "relicKey": "EREBYSS",
+    "relicName": "Rosenthorne",
+    "relicTitle": "Rosenthorne, Dark Blade of Erebyss",
+    "god": "Erebyss",
+    "rank": 10,
+    "markup": "After this relic {ACTION_attacks}, it has a 20% chance to {ACTION_cast} Murder of Crows for each enemy with {CONDNAME_DEBUFF_BLIND}."
+  },
+  {
+    "key": "FRIDEN1",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 1,
+    "markup": "After this relic or its bearer {ACTION_attacks}, it afflicts its target with {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "FRIDEN2",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 2,
+    "markup": "After the bearer is {ACTION_attacked}, this relic {ACTION_attacks} the enemy."
+  },
+  {
+    "key": "FRIDEN3",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 3,
+    "markup": "At the start of its bearer's turn, this relic {ACTION_casts} Minor Healing on each enemy with {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "FRIDEN4",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 4,
+    "markup": "The bearer is immune to {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "FRIDEN5",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 5,
+    "markup": "This relic and its bearer deal additional damage to enemies equal to 15% of the damage that enemy has received from {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "FRIDEN6",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 6,
+    "markup": "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_BLIGHT}, it also afflicts them with {CONDNAME_BUFF_MEND}."
+  },
+  {
+    "key": "FRIDEN7",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 7,
+    "markup": "This relic and its bearer give 50% more healing to enemies with {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "FRIDEN8",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 8,
+    "markup": "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_BLIGHT}, it also afflicts them with {CONDNAME_BUFF_LEECH}."
+  },
+  {
+    "key": "FRIDEN9",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 9,
+    "markup": "This relic {ACTION_casts} spells as if it has 30% more {STAT_intelligence} for each enemy with {CONDNAME_DEBUFF_BLIGHT}."
+  },
+  {
+    "key": "FRIDEN10",
+    "relicKey": "FRIDEN",
+    "relicName": "Lamora",
+    "relicTitle": "Lamora, Gilded Scimitar of Friden",
+    "god": "Friden",
+    "rank": 10,
+    "markup": "After the bearer {ACTION_casts} a healing spell on an enemy with {CONDNAME_DEBUFF_BLIGHT}, this relic {ACTION_casts} Major Healing on the target."
+  },
+  {
+    "key": "GONFURIAN1",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 1,
+    "markup": "At the start of battle, the bearer gains {CONDNAME_BUFF_PROFICIENT}."
+  },
+  {
+    "key": "GONFURIAN2",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 2,
+    "markup": "After the bearer {ACTION_attacks}, this relic {ACTION_attacks} the enemy as well."
+  },
+  {
+    "key": "GONFURIAN3",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 3,
+    "markup": "At the start of its bearer's turn, this relic gives one of your creatures {CONDNAME_BUFF_PROFICIENT}. It prioritizes the bearer."
+  },
+  {
+    "key": "GONFURIAN4",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 4,
+    "markup": "The bearer's {CONDNAME_BUFF_PROFICIENT} buff is 100% more effective."
+  },
+  {
+    "key": "GONFURIAN5",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 5,
+    "markup": "At the start of each enemy's turn, this relic has a 25% chance to {ACTION_attack} it."
+  },
+  {
+    "key": "GONFURIAN6",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 6,
+    "markup": "The bearer is immune to {CONDNAME_DEBUFF_DISARMED}."
+  },
+  {
+    "key": "GONFURIAN7",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 7,
+    "markup": "While the bearer has {CONDNAME_BUFF_PROFICIENT}, 25% of its {STAT_attack} is added to the potency of its spells."
+  },
+  {
+    "key": "GONFURIAN8",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 8,
+    "markup": "When this relic {ACTION_attacks}, it has a 25% chance to damage all enemies."
+  },
+  {
+    "key": "GONFURIAN9",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 9,
+    "markup": "The bearer's [slot_spell]Spell Slot has an independent 25% chance to activate."
+  },
+  {
+    "key": "GONFURIAN10",
+    "relicKey": "GONFURIAN",
+    "relicName": "Ferro",
+    "relicTitle": "Ferro, Great Axe of Gonfurian",
+    "god": "Gonfurian",
+    "rank": 10,
+    "markup": "At the start of battle, the bearer gains {CONDNAME_MINION_ANIMATEDWEAPON}."
+  },
+  {
+    "key": "LISTER1",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 1,
+    "markup": "At the start of battle, the bearer gains {CONDNAME_BUFF_MEND}."
+  },
+  {
+    "key": "LISTER2",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 2,
+    "markup": "The bearer takes 25% less damage from attacks."
+  },
+  {
+    "key": "LISTER3",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 3,
+    "markup": "The bearer {ACTION_defends} at the end of its turn."
+  },
+  {
+    "key": "LISTER4",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 4,
+    "markup": "At the start of each enemy's turn, this relic has a 10% chance to {ACTION_cast} Soothing Breeze.\""
+  },
+  {
+    "key": "LISTER5",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 5,
+    "markup": "After the bearer takes damage, this relic increases its Maximum {STAT_health} by 5%."
+  },
+  {
+    "key": "LISTER6",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 6,
+    "markup": "The bearer takes 25% less damage from spells."
+  },
+  {
+    "key": "LISTER7",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 7,
+    "markup": "The bearer deals additional damage equal to 20% of the healing it has received in the current battle."
+  },
+  {
+    "key": "LISTER8",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 8,
+    "markup": "At the start of the bearer's turn, this relic {ACTION_casts} Zephyr."
+  },
+  {
+    "key": "LISTER9",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 9,
+    "markup": "The bearer takes 25% less damage from all sources."
+  },
+  {
+    "key": "LISTER10",
+    "relicKey": "LISTER",
+    "relicName": "Salus",
+    "relicTitle": "Salus, Jade Guardian of Lister",
+    "god": "Lister",
+    "rank": 10,
+    "markup": "After the bearer takes damage, this relic deals damage to the enemy equal to 50% of the damage dealt."
+  },
+  {
+    "key": "MERAXIS1",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 1,
+    "markup": "At the start of battle, the bearer gains 50% {STAT_speed}."
+  },
+  {
+    "key": "MERAXIS2",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 2,
+    "markup": "At the start of each enemy's turn, this relic has a 20% chance to {ACTION_attack} that enemy."
+  },
+  {
+    "key": "MERAXIS3",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 3,
+    "markup": "At the start of the bearer's turn, this relic increases its {STAT_speed} by 20%."
+  },
+  {
+    "key": "MERAXIS4",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 4,
+    "markup": "The damage of the bearer's attacks is increased by 15% of its {STAT_speed}."
+  },
+  {
+    "key": "MERAXIS5",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 5,
+    "markup": "The bearer has a 25% chance to start battles at the top of the {TIMELINE}."
+  },
+  {
+    "key": "MERAXIS6",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 6,
+    "markup": "The bearer is immune to {CONDNAME_DEBUFF_FEAR}."
+  },
+  {
+    "key": "MERAXIS7",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 7,
+    "markup": "The potency of the bearer's spells is increased by 15% of its {STAT_speed}."
+  },
+  {
+    "key": "MERAXIS8",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 8,
+    "markup": "The bearer has additional {STAT_defense} equal to 15% of its {STAT_speed}."
+  },
+  {
+    "key": "MERAXIS9",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 9,
+    "markup": "After the bearer gains {STAT_speed}, it has a 30% chance to gain {CONDNAME_BUFF_REBIRTH}."
+  },
+  {
+    "key": "MERAXIS10",
+    "relicKey": "MERAXIS",
+    "relicName": "Petra & Aes",
+    "relicTitle": "Petra & Aes, War Drums of Meraxis",
+    "god": "Meraxis",
+    "rank": 10,
+    "markup": "After the bearer dodges, this relic {ACTION_casts} Earthquake."
+  },
+  {
+    "key": "REGALIS1",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks} an enemy, the enemy {ACTION_attacks} itself. The amount of damage dealt is based on the bearer's {STAT_attack}."
+  },
+  {
+    "key": "REGALIS2",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 2,
+    "markup": "After an enemy {ACTION_attacks} itself, this relic {ACTION_attacks} it as well."
+  },
+  {
+    "key": "REGALIS3",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 3,
+    "markup": "After an enemy {ACTION_casts} a healing spell, it {ACTION_casts} it on the bearer as well."
+  },
+  {
+    "key": "REGALIS4",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 4,
+    "markup": "After this relic or its bearer {ACTION_attacks} an enemy, it removes the enemy's {ACTION_defending} status."
+  },
+  {
+    "key": "REGALIS5",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 5,
+    "markup": "After this relic {ACTION_attacks}, it has a 50% chance to {ACTION_attack} an additional enemy. This effect can occur repeatedly."
+  },
+  {
+    "key": "REGALIS6",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 6,
+    "markup": "This relic and its bearer deal 30% more damage with attacks."
+  },
+  {
+    "key": "REGALIS7",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 7,
+    "markup": "After this relic or its bearer {ACTION_attacks} an enemy, they remove the enemy's {ACTION_provoking} status."
+  },
+  {
+    "key": "REGALIS8",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 8,
+    "markup": "After an enemy {ACTION_casts} a spell that grants a buff, it {ACTION_casts} it on the bearer as well."
+  },
+  {
+    "key": "REGALIS9",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 9,
+    "markup": "After this relic {ACTION_attacks}, it increases the bearer's {STAT_speed} by 5%."
+  },
+  {
+    "key": "REGALIS10",
+    "relicKey": "REGALIS",
+    "relicName": "Temptation",
+    "relicTitle": "Temptation, Bladed Whip of Regalis",
+    "god": "Regalis",
+    "rank": 10,
+    "markup": "After an enemy {ACTION_casts} a stat-boosting spell, it {ACTION_casts} it on the bearer as well."
+  },
+  {
+    "key": "TARTARITH1",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks} or is {ACTION_attacked}, it afflicts the enemy with {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "TARTARITH2",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 2,
+    "markup": "At the start of the bearer's turn, this relic afflicts a random enemy with {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "TARTARITH3",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 3,
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BLEED}, the bearer recovers {STAT_health} equal to 30% of the damage dealt."
+  },
+  {
+    "key": "TARTARITH4",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 4,
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BLEED}, this relic has a 25% chance to {ACTION_attack} it."
+  },
+  {
+    "key": "TARTARITH5",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 5,
+    "markup": "After this relic or its bearer {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_BLEED}, it has a 25% chance to take damage from this debuff immediately."
+  },
+  {
+    "key": "TARTARITH6",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 6,
+    "markup": "At the start of each enemy's turn, this relic has a 20% chance to {ACTION_cast} Mangle on it."
+  },
+  {
+    "key": "TARTARITH7",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 7,
+    "markup": "Enemies take 50% more damage from {CONDNAME_DEBUFF_BLEED}."
+  },
+  {
+    "key": "TARTARITH8",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 8,
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_BLEED}, the bearer has a 25% chance to {ACTION_attack} it."
+  },
+  {
+    "key": "TARTARITH9",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 9,
+    "markup": "When an enemy takes damage from {CONDNAME_DEBUFF_BLEED}, it has a 50% chance to continue taking damage from this debuff. This effect can occur repeatedly."
+  },
+  {
+    "key": "TARTARITH10",
+    "relicKey": "TARTARITH",
+    "relicName": "Fleshripper",
+    "relicTitle": "Fleshripper, Bloodied Cleaver of Tartarith",
+    "god": "Tartarith",
+    "rank": 10,
+    "markup": "After the bearer {ACTION_attacks} a target with {CONDNAME_DEBUFF_BLEED}, this relic {ACTION_casts} Lacerate on the target."
+  },
+  {
+    "key": "VERTRAAG1",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks}, it afflicts its target with {CONDNAME_DEBUFF_SCORN}."
+  },
+  {
+    "key": "VERTRAAG2",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 2,
+    "markup": "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SCORN}, this relic {ACTION_attacks} it."
+  },
+  {
+    "key": "VERTRAAG3",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 3,
+    "markup": "After the bearer {ACTION_casts} a single-target spell on an enemy, it afflicts the target with {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "VERTRAAG4",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 4,
+    "markup": "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SILENCE}, this relic {ACTION_casts} a random single-target spell on it."
+  },
+  {
+    "key": "VERTRAAG5",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 5,
+    "markup": "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SCORN} and the enemy already has {CONDNAME_DEBUFF_SILENCE}, this relic {ACTION_casts} Meteor Shower."
+  },
+  {
+    "key": "VERTRAAG6",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 6,
+    "markup": "After this relic {ACTION_casts} Meteor Shower, the bearer gains 10% {STAT_attack} or {STAT_intelligence}; whichever is lowest."
+  },
+  {
+    "key": "VERTRAAG7",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 7,
+    "markup": "This relic and its bearer deal 30% more damage to enemies with {CONDNAME_DEBUFF_SCORN} or {CONDNAME_DEBUFF_SILENCE}."
+  },
+  {
+    "key": "VERTRAAG8",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 8,
+    "markup": "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SILENCE} and the enemy already has {CONDNAME_DEBUFF_SCORN}, this relic {ACTION_casts} Meteor Shower."
+  },
+  {
+    "key": "VERTRAAG9",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 9,
+    "markup": "After the bearer afflicts an enemy with {CONDNAME_DEBUFF_SILENCE} or {CONDNAME_DEBUFF_SCORN}, the enemy loses one of its buffs."
+  },
+  {
+    "key": "VERTRAAG10",
+    "relicKey": "VERTRAAG",
+    "relicName": "Moonfire & Sunfury",
+    "relicTitle": "Moonfire & Sunfury, Mystic Orbs of Vertraag",
+    "god": "Vertraag",
+    "rank": 10,
+    "markup": "At the start of the bearer's turn, if at least one enemy has {CONDNAME_DEBUFF_SCORN} and one enemy has {CONDNAME_DEBUFF_SILENCE}, this relic {ACTION_casts} Planets."
+  },
+  {
+    "key": "VULCANAR1",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks} or {ACTION_casts} a single-target spell on an enemy, this relic {ACTION_attacks} that enemy."
+  },
+  {
+    "key": "VULCANAR2",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 2,
+    "markup": "After this relic {ACTION_attacks}, it afflicts its target with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "VULCANAR3",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 3,
+    "markup": "The bearer is healed instead of taking damage from {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "VULCANAR4",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 4,
+    "markup": "At the start of battle, this relic afflicts its bearer with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "VULCANAR5",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 5,
+    "markup": "After the bearer takes damage from an attack or spell, the enemy takes damage equal to 1 turn of the bearer's {CONDNAME_DEBUFF_BURNED} debuff."
+  },
+  {
+    "key": "VULCANAR6",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 6,
+    "markup": "The bearer deals 10% additional damage for each enemy afflicted with {CONDNAME_DEBUFF_BURNED}."
+  },
+  {
+    "key": "VULCANAR7",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 7,
+    "markup": "After the bearer deals damage to an enemy with an attack or spell, the enemy takes additional damage equal to 1 turn of the bearer's {CONDNAME_DEBUFF_BURNED} debuff."
+  },
+  {
+    "key": "VULCANAR8",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 8,
+    "markup": "After the bearer is killed, it deals damage to enemies equal to 5 turns of its {CONDNAME_DEBUFF_BURNED} debuff."
+  },
+  {
+    "key": "VULCANAR9",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 9,
+    "markup": "This relic and its bearer deal additional damage to enemies equal to 10% of the damage they've taken from {CONDNAME_DEBUFF_BURNED} in the current battle."
+  },
+  {
+    "key": "VULCANAR10",
+    "relicKey": "VULCANAR",
+    "relicName": "Blazefury",
+    "relicTitle": "Blazefury, Flaming Soul of Vulcanar",
+    "god": "Vulcanar",
+    "rank": 10,
+    "markup": "After the bearer is killed, it is resurrected with 20% {STAT_health} if it is afflicted with {CONDNAME_DEBUFF_BURNED}. This effect can activate a maximum of 3 times per battle."
+  },
+  {
+    "key": "YSEROS1",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_defends}, this relic afflicts a random enemy with {CONDNAME_DEBUFF_CONFUSED}."
+  },
+  {
+    "key": "YSEROS2",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 2,
+    "markup": "While the bearer is {ACTION_defending}, it cannot lose stats."
+  },
+  {
+    "key": "YSEROS3",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 3,
+    "markup": "When an enemy with {CONDNAME_DEBUFF_CONFUSED} would gain stats, it has a 50% chance to lose stats instead."
+  },
+  {
+    "key": "YSEROS4",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 4,
+    "markup": "At the end of the bearer's turn, this relic {ACTION_attacks} a random enemy with {CONDNAME_DEBUFF_CONFUSED}."
+  },
+  {
+    "key": "YSEROS5",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 5,
+    "markup": "Enemies' {CONDNAME_DEBUFF_CONFUSED} debuffs have an independent 20% chance to activate."
+  },
+  {
+    "key": "YSEROS6",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 6,
+    "markup": "While the bearer is {ACTION_defending}, enemies' {CONDNAME_DEBUFF_CONFUSED} debuffs have a 50% greater chance to activate."
+  },
+  {
+    "key": "YSEROS7",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 7,
+    "markup": "When an enemy with {CONDNAME_DEBUFF_CONFUSED} would be healed, it has a 50% chance to take damage instead."
+  },
+  {
+    "key": "YSEROS8",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 8,
+    "markup": "After this relic {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_CONFUSED}, the enemy {ACTION_attacks} itself."
+  },
+  {
+    "key": "YSEROS9",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 9,
+    "markup": "While the bearer is {ACTION_defending}, it has a 10% chance to avoid damage."
+  },
+  {
+    "key": "YSEROS10",
+    "relicKey": "YSEROS",
+    "relicName": "Starwrath",
+    "relicTitle": "Starwrath, Great Spear of Yseros",
+    "god": "Yseros",
+    "rank": 10,
+    "markup": "Enemies have a 10% chance to {ACTION_attack} and {ACTION_cast} spells as if they have {CONDNAME_DEBUFF_CONFUSED} even if they don't have this debuff."
+  },
+  {
+    "key": "ZONTE1",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 1,
+    "markup": "At the start of battle, this relic gives its bearer {CONDNAME_BUFF_ARCANE}."
+  },
+  {
+    "key": "ZONTE2",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 2,
+    "markup": "After the bearer {ACTION_casts} a spell, this relic {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "ZONTE3",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 3,
+    "markup": "While the bearer has {CONDNAME_BUFF_ARCANE}, its spells deal 100% more damage."
+  },
+  {
+    "key": "ZONTE4",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 4,
+    "markup": "After the bearer gains {CONDNAME_BUFF_ARCANE}, this relic {ACTION_casts} Snowstorm."
+  },
+  {
+    "key": "ZONTE5",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 5,
+    "markup": "After the bearer manually {ACTION_casts} a spell while it has {CONDNAME_BUFF_ARCANE}, it has a 30% chance for that Spell Gem to gain a {STAT_charge}."
+  },
+  {
+    "key": "ZONTE6",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 6,
+    "markup": "While the bearer has {CONDNAME_BUFF_ARCANE}, its spells heal for 100% more."
+  },
+  {
+    "key": "ZONTE7",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 7,
+    "markup": "After the bearer gains {CONDNAME_BUFF_ARCANE}, this relic {ACTION_casts} Firestorm."
+  },
+  {
+    "key": "ZONTE8",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 8,
+    "markup": "After the bearer manually {ACTION_casts} a spell, this relic has a 50% chance to give it {CONDNAME_BUFF_ARCANE}."
+  },
+  {
+    "key": "ZONTE9",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 9,
+    "markup": "While the bearer has {CONDNAME_BUFF_ARCANE}, its spells that affect stats are 100% more potent."
+  },
+  {
+    "key": "ZONTE10",
+    "relicKey": "ZONTE",
+    "relicName": "Triumvir",
+    "relicTitle": "Triumvir, Arcane Sceptre of Zonte",
+    "god": "Zonte",
+    "rank": 10,
+    "markup": "After the bearer gains {CONDNAME_BUFF_ARCANE}, this relic {ACTION_casts} Lightning Storm."
+  },
+  {
+    "key": "AURUM1",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 1,
+    "markup": "This relic and its bearer deal damage as if they are strong against the enemy's class."
+  },
+  {
+    "key": "AURUM2",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 2,
+    "markup": "The bearer can equip {CLASS_Chaos} Spell Gems."
+  },
+  {
+    "key": "AURUM3",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 3,
+    "markup": "The bearer takes damage as if it is strong against the enemy's class."
+  },
+  {
+    "key": "AURUM4",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 4,
+    "markup": "The bearer can equip {CLASS_Life} Spell Gems."
+  },
+  {
+    "key": "AURUM5",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 5,
+    "markup": "After the bearer {ACTION_casts} a spell, this relic {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "AURUM6",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 6,
+    "markup": "The bearer can equip {CLASS_Nature} Spell Gems."
+  },
+  {
+    "key": "AURUM7",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 7,
+    "markup": "At the start of battle, the bearer's class is changed to that of the top-most Spell Gem it has equipped."
+  },
+  {
+    "key": "AURUM8",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 8,
+    "markup": "The bearer can equip {CLASS_Death} Spell Gems."
+  },
+  {
+    "key": "AURUM9",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 9,
+    "markup": "After the bearer {ACTION_casts} a spell, this relic has a 10% chance to {ACTION_cast} each of the bearer's permanent spells that do not belong to its class."
+  },
+  {
+    "key": "AURUM10",
+    "relicKey": "AURUM",
+    "relicName": "Materium",
+    "relicTitle": "Materium, Shifting Gem of Aurum",
+    "god": "Aurum",
+    "rank": 10,
+    "markup": "The bearer can equip {CLASS_Sorcery} Spell Gems."
+  },
+  {
+    "key": "TENEBRIS1",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 1,
+    "markup": "At the start of battle, this relic gives the bearer {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "TENEBRIS2",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 2,
+    "markup": "After the bearer {ACTION_attacks} or {ACTION_casts} a single-target spell on an enemy, this relic {ACTION_attacks} the enemy."
+  },
+  {
+    "key": "TENEBRIS3",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 3,
+    "markup": "After this relic {ACTION_attacks}, the bearer has a 50% chance to gain {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "TENEBRIS4",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 4,
+    "markup": "After the bearer gains {CONDNAME_BUFF_INVISIBLE}, it gains 25% {STAT_intelligence}."
+  },
+  {
+    "key": "TENEBRIS5",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 5,
+    "markup": "After the bearer manually {ACTION_casts} a spell, it has a 50% chance to gain {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "TENEBRIS6",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 6,
+    "markup": "After the bearer is damaged by an attack or spell, it has a 50% chance to gain {CONDNAME_BUFF_INVISIBLE}."
+  },
+  {
+    "key": "TENEBRIS7",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 7,
+    "markup": "The damage of the bearer's attacks is based on its {STAT_intelligence}."
+  },
+  {
+    "key": "TENEBRIS8",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 8,
+    "markup": "This relic has additional {STAT_attack} equal to its bearer's {STAT_intelligence}."
+  },
+  {
+    "key": "TENEBRIS9",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 9,
+    "markup": "When the bearer takes damage, 50% of its {STAT_intelligence} is added to its {STAT_defense} to determine the amount of damage it receives."
+  },
+  {
+    "key": "TENEBRIS10",
+    "relicKey": "TENEBRIS",
+    "relicName": "Whisper",
+    "relicTitle": "Whisper, Shadow Staff of Tenebris",
+    "god": "Tenebris",
+    "rank": 10,
+    "markup": "At the end of the bearer's turn, this relic {ACTION_casts} Black Ice."
+  },
+  {
+    "key": "MORTEM1",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 1,
+    "markup": "After the bearer deals damage with an attack or spell, it is healed for 50% of the damage dealt."
+  },
+  {
+    "key": "MORTEM2",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 2,
+    "markup": "After the bearer {ACTION_attacks} or {ACTION_casts} a single-target spell on an enemy, this relic also {ACTION_attacks} that enemy."
+  },
+  {
+    "key": "MORTEM3",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 3,
+    "markup": "The bearer always has {CONDNAME_BUFF_LEECH}."
+  },
+  {
+    "key": "MORTEM4",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 4,
+    "markup": "When the bearer is healed, it gains Maximum {STAT_health} equal to 3% of the amount healed."
+  },
+  {
+    "key": "MORTEM5",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 5,
+    "markup": "After the bearer gains Maximum {STAT_health}, your other creatures gain Maximum {STAT_health} equal to 50% of this amount."
+  },
+  {
+    "key": "MORTEM6",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 6,
+    "markup": "The bearer always has {CONDNAME_BUFF_MEND}."
+  },
+  {
+    "key": "MORTEM7",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 7,
+    "markup": "The bearer gains 100% more Maximum {STAT_health} from stat-increasing effects."
+  },
+  {
+    "key": "MORTEM8",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 8,
+    "markup": "The potency of the bearer's spells is based on 50% of its Maximum {STAT_health} rather than {STAT_intelligence}."
+  },
+  {
+    "key": "MORTEM9",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 9,
+    "markup": "After this relic attacks, it {ACTION_casts} Blood Burst on the enemy."
+  },
+  {
+    "key": "MORTEM10",
+    "relicKey": "MORTEM",
+    "relicName": "Bloodseeker",
+    "relicTitle": "Bloodseeker, Hungering Dagger of Mortem",
+    "god": "Mortem",
+    "rank": 10,
+    "markup": "This relic and its bearer deal additional damage equal to 20% of the bearer's Maximum {STAT_health}."
+  },
+  {
+    "key": "APOCRANOX1",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks} or {ACTION_casts} a single-target spell on an enemy, this relic {ACTION_attacks} the enemy."
+  },
+  {
+    "key": "APOCRANOX2",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 2,
+    "markup": "This relic and its bearer {ACTION_attack} and {ACTION_cast} spells 1 additional time."
+  },
+  {
+    "key": "APOCRANOX3",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 3,
+    "markup": "After the bearer {ACTION_casts} a spell, this relic {ACTION_casts} a copy of that spell as well."
+  },
+  {
+    "key": "APOCRANOX4",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 4,
+    "markup": "This relic and its bearer deal 1% more damage for each time they have {ACTION_attacked} or {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "APOCRANOX5",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 5,
+    "markup": "This relic and its bearer have a 20% additional chance to deal critical damage for each consecutive time they {ACTION_attacked} or {ACTION_cast} a spell during the current turn."
+  },
+  {
+    "key": "APOCRANOX6",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 6,
+    "markup": "This relic and its bearer can {ACTION_attack} and {ACTION_cast} spells a maximum of 20 times per turn."
+  },
+  {
+    "key": "APOCRANOX7",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 7,
+    "markup": "This relic and its bearer {ACTION_attack} 1 additional time for each turn the bearer has taken in the current battle."
+  },
+  {
+    "key": "APOCRANOX8",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 8,
+    "markup": "This relic and its bearer deal 15% additional damage for each consecutive time the bearer has {ACTION_attacked} or {ACTION_cast} a spell during the current turn."
+  },
+  {
+    "key": "APOCRANOX9",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 9,
+    "markup": "This relic and its bearer {ACTION_cast} spells 1 additional time for each turn the bearer has taken in the current battle."
+  },
+  {
+    "key": "APOCRANOX10",
+    "relicKey": "APOCRANOX",
+    "relicName": "Thousand Needles",
+    "relicTitle": "Thousand Needles, Honed Bow of Apocranox",
+    "god": "Apocranox",
+    "rank": 10,
+    "markup": "When the bearer {ACTION_casts} a spell multiple times in one turn, each cast after the first one has a 50% chance to not cost any {STAT_charges}."
+  },
+  {
+    "key": "PERDITION1",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 1,
+    "markup": "After the bearer is {ACTION_attacked}, this relic {ACTION_attacks} the enemy."
+  },
+  {
+    "key": "PERDITION2",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 2,
+    "markup": "After the bearer {ACTION_provokes}, all enemies {ACTION_attack} it."
+  },
+  {
+    "key": "PERDITION3",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 3,
+    "markup": "After the bearer is {ACTION_attacked} while it is {ACTION_provoking}, it gains 10% Maximum {STAT_health}."
+  },
+  {
+    "key": "PERDITION4",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 4,
+    "markup": "The bearer has 50% more {STAT_defense} while it is {ACTION_provoking}."
+  },
+  {
+    "key": "PERDITION5",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 5,
+    "markup": "This relic {ACTION_attacks} 2 additional times."
+  },
+  {
+    "key": "PERDITION6",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 6,
+    "markup": "After the bearer is {ACTION_attacked} while it is {ACTION_provoking}, it recovers 20% {STAT_health}."
+  },
+  {
+    "key": "PERDITION7",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 7,
+    "markup": "The bearer takes 50% less damage from attacks."
+  },
+  {
+    "key": "PERDITION8",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 8,
+    "markup": "While the bearer is {ACTION_provoking}, this relic always deals critical damage."
+  },
+  {
+    "key": "PERDITION9",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 9,
+    "markup": "After the bearer is {ACTION_attacked} 3 times in one turn, this relic {ACTION_casts} 5 random Arrow spells."
+  },
+  {
+    "key": "PERDITION10",
+    "relicKey": "PERDITION",
+    "relicName": "Hanti & Jihi",
+    "relicTitle": "Hanti & Jihi, Sister Swords of Perdition",
+    "god": "Perdition",
+    "rank": 10,
+    "markup": "This relic and its bearer deal additional damage equal to 10% of the damage the bearer has received from attacks in the current battle."
+  },
+  {
+    "key": "VENEDON1",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks} or is {ACTION_attacked}, this relic also {ACTION_attacks} that enemy."
+  },
+  {
+    "key": "VENEDON2",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 2,
+    "markup": "After this relic {ACTION_attacks}, it afflicts its target with {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "VENEDON3",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 3,
+    "markup": "Enemies with {CONDNAME_DEBUFF_POISON} can't be healed."
+  },
+  {
+    "key": "VENEDON4",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 4,
+    "markup": "This relic's attacks always deal critical damage."
+  },
+  {
+    "key": "VENEDON5",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 5,
+    "markup": "The bearer deals 10% additional damage for each enemy afflicted with {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "VENEDON6",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 6,
+    "markup": "After an enemy {ACTION_defends} or {ACTION_provokes}, this relic afflicts it with {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "VENEDON7",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 7,
+    "markup": "After this relic {ACTION_attacks}, it increases the bearer's highest stat by 5%."
+  },
+  {
+    "key": "VENEDON8",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 8,
+    "markup": "This relic and its bearer deal additional damage to enemies equal to 10% of the damage they've taken from {CONDNAME_DEBUFF_POISON} in the current battle."
+  },
+  {
+    "key": "VENEDON9",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 9,
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_POISON}, it is afflicted with a random debuff."
+  },
+  {
+    "key": "VENEDON10",
+    "relicKey": "VENEDON",
+    "relicName": "Dusk & Dawn",
+    "relicTitle": "Dusk & Dawn, Dual Pistols of Venedon",
+    "god": "Venedon",
+    "rank": 10,
+    "markup": "This relic {ACTION_attacks} 1 additional time for each enemy afflicted with {CONDNAME_DEBUFF_POISON}."
+  },
+  {
+    "key": "CALIBAN1",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks} or is {ACTION_attacked}, it afflicts the enemy with {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "CALIBAN2",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 2,
+    "markup": "After the bearer {ACTION_attacks}, this relic {ACTION_attacks} the enemy as well."
+  },
+  {
+    "key": "CALIBAN3",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 3,
+    "markup": "After the bearer takes damage while it is {ACTION_defending} or {ACTION_provoking}, this relic {ACTION_casts} Petrify on the enemy."
+  },
+  {
+    "key": "CALIBAN4",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 4,
+    "markup": "After an enemy is afflicted with {CONDNAME_DEBUFF_STONE}, the bearer gains 15% Maximum {STAT_health}."
+  },
+  {
+    "key": "CALIBAN5",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 5,
+    "markup": "This relic and its bearer deal 100% more damage to enemies with {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "CALIBAN6",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 6,
+    "markup": "After the bearer {ACTION_defends} or {ACTION_provokes}, this relic {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "CALIBAN7",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 7,
+    "markup": "The bearer takes 50% less damage from enemies with {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "CALIBAN8",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 8,
+    "markup": "Enemies' resistance to {CONDNAME_DEBUFF_STONE} is ignored."
+  },
+  {
+    "key": "CALIBAN9",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 9,
+    "markup": "After this relic {ACTION_attacks} an enemy with {CONDNAME_DEBUFF_STONE}, it has a 10% chance to kill it."
+  },
+  {
+    "key": "CALIBAN10",
+    "relicKey": "CALIBAN",
+    "relicName": "Void Essence",
+    "relicTitle": "Void Essence, Dark Heart of Caliban",
+    "god": "Caliban",
+    "rank": 10,
+    "markup": "After the bearer is killed, this relic afflicts enemies with {CONDNAME_DEBUFF_STONE}."
+  },
+  {
+    "key": "ALEXANDRIA1",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 1,
+    "markup": "At the start of the bearer's turn (other than its first turn), this relic {ACTION_attacks} a random enemy for every 2 turns the bearer has taken in the current battle."
+  },
+  {
+    "key": "ALEXANDRIA2",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 2,
+    "markup": "This relic and its bearer have 10% more {STAT_attack} for each turn the bearer has taken in the current battle."
+  },
+  {
+    "key": "ALEXANDRIA3",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 3,
+    "markup": "At the end of each creature's turn, this relic has a 5% chance to {ACTION_cast} Timewalk on the bearer."
+  },
+  {
+    "key": "ALEXANDRIA4",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 4,
+    "markup": "This relic and its bearer have 10% more {STAT_intelligence} for each turn the bearer has taken in the current battle."
+  },
+  {
+    "key": "ALEXANDRIA5",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 5,
+    "markup": "This relic and its bearer deal 15% more damage for each turn the bearer has taken in the current battle."
+  },
+  {
+    "key": "ALEXANDRIA6",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 6,
+    "markup": "This relic and its bearer have 10% more {STAT_defense} for each turn the bearer has taken in the current battle."
+  },
+  {
+    "key": "ALEXANDRIA7",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 7,
+    "markup": "The bearer takes 10% less damage for each turn it has taken in the current battle."
+  },
+  {
+    "key": "ALEXANDRIA8",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 8,
+    "markup": "This relic and its bearer have 10% more {STAT_speed} for each turn the bearer has taken in the current battle."
+  },
+  {
+    "key": "ALEXANDRIA9",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 9,
+    "markup": "At the end of the bearer's turn (other than its first turn), this relic {ACTION_casts} Death Blossom."
+  },
+  {
+    "key": "ALEXANDRIA10",
+    "relicKey": "ALEXANDRIA",
+    "relicName": "Mutatias",
+    "relicTitle": "Mutatias, War Scissors of Alexandria",
+    "god": "Alexandria",
+    "rank": 10,
+    "markup": "The bearer takes 2 turns at a time."
+  },
+  {
+    "key": "ARIAMAKI1",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 1,
+    "markup": "After the bearer manually {ACTION_casts} a spell, this relic {ACTION_casts} a random spell as well."
+  },
+  {
+    "key": "ARIAMAKI2",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 2,
+    "markup": "The bearer deals 5% more damage with spells for each time it has {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "ARIAMAKI3",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 3,
+    "markup": "This relic and its bearer gain 5% more stats from all sources for each time this relic has {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "ARIAMAKI4",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 4,
+    "markup": "This relic and its bearer have 5% more {STAT_intelligence} for each time it and this relic have {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "ARIAMAKI5",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 5,
+    "markup": "The bearer's healing and stat-modifying spells have 10% more potency for each time this relic has {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "ARIAMAKI6",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 6,
+    "markup": "After this relic {ACTION_casts} a spell, it also {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "ARIAMAKI7",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 7,
+    "markup": "If the bearer has {ACTION_cast} spells at least 5 times in the current battle, its Spell Gems do not consume any {STAT_charges}."
+  },
+  {
+    "key": "ARIAMAKI8",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 8,
+    "markup": "The bearer takes 3% less damage for each time it and this relic have {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "ARIAMAKI9",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 9,
+    "markup": "If the bearer has {ACTION_cast} spells at least 10 times in the current battle, the potency of its attacks is based on 120% of its {STAT_intelligence} rather than its {STAT_attack}."
+  },
+  {
+    "key": "ARIAMAKI10",
+    "relicKey": "ARIAMAKI",
+    "relicName": "Ribcracker",
+    "relicTitle": "Ribcracker, Otherworldly Rod of Ariamaki",
+    "god": "Ariamaki",
+    "rank": 10,
+    "markup": "At the start of the bearer's turn, it {ACTION_casts} Glory."
+  },
+  {
+    "key": "GENAROS1",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 1,
+    "markup": "After the bearer is damaged by an attack or spell, this relic {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "GENAROS2",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 2,
+    "markup": "This relic and its bearer deal additional damage with attacks and spells equal to 10% of the damage the bearer has taken in the current battle."
+  },
+  {
+    "key": "GENAROS3",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 3,
+    "markup": "After the bearer takes damage, it recovers {STAT_health} equal to 50% of the amount of damage taken."
+  },
+  {
+    "key": "GENAROS4",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 4,
+    "markup": "At the end of the bearer's turn, it {ACTION_provokes} and gains 10% Current and Maximum {STAT_health}."
+  },
+  {
+    "key": "GENAROS5",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 5,
+    "markup": "The bearer gains 20% more Maximum {STAT_health} from stat-boosting effects."
+  },
+  {
+    "key": "GENAROS6",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 6,
+    "markup": "The bearer takes 3% less damage for each time it has been damaged in the current battle."
+  },
+  {
+    "key": "GENAROS7",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 7,
+    "markup": "After the bearer {ACTION_provokes}, this relic {ACTION_attacks} a random enemy."
+  },
+  {
+    "key": "GENAROS8",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 8,
+    "markup": "When the bearer {ACTION_attacks} or {ACTION_casts} a spell, the damage has a 35% chance to be based on its Current {STAT_health} instead of {STAT_attack} or {STAT_intelligence}."
+  },
+  {
+    "key": "GENAROS9",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 9,
+    "markup": "After the bearer takes damage from an attack or spell, a random enemy takes 20% of that damage as well."
+  },
+  {
+    "key": "GENAROS10",
+    "relicKey": "GENAROS",
+    "relicName": "Brambleskin",
+    "relicTitle": "Brambleskin, Spiked Carapace of Genaros",
+    "god": "Genaros",
+    "rank": 10,
+    "markup": "The first time the bearer is killed, it resurrects with 100% {STAT_health} and gains 50% stats (other than {STAT_health})."
+  },
+  {
+    "key": "MUSE1",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 1,
+    "markup": "At the start of battle, the bearer gains 3 stacks of {CONDNAME_MINION_ZOMBIE}."
+  },
+  {
+    "key": "MUSE2",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 2,
+    "markup": "At the start of the bearer's turn, this relic {ACTION_attacks} a random enemy for each minion the bearer has. These attacks deal 25% normal damage."
+  },
+  {
+    "key": "MUSE3",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 3,
+    "markup": "After this relic {ACTION_attacks}, the bearer gains 1 stack of {CONDNAME_MINION_SPIDERLING}."
+  },
+  {
+    "key": "MUSE4",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 4,
+    "markup": "The bearer deals 5% more damage for each minion stack it has."
+  },
+  {
+    "key": "MUSE5",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 5,
+    "markup": "The bearer's spells that interact with minions are {ACTION_cast} 2 additional times."
+  },
+  {
+    "key": "MUSE6",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 6,
+    "markup": "The bearer takes 3% less damage for each minion stack it has."
+  },
+  {
+    "key": "MUSE7",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 7,
+    "markup": "After this relic {ACTION_attacks}, the bearer gains 1 stack of {CONDNAME_MINION_UNSTABLEHORROR}."
+  },
+  {
+    "key": "MUSE8",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 8,
+    "markup": "After the bearer {ACTION_attacks} or {ACTION_casts} a spell, it gains 1 stack of {CONDNAME_MINION_DIREWOLF}."
+  },
+  {
+    "key": "MUSE9",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 9,
+    "markup": "After the bearer gains {CONDNAME_MINION_ZOMBIE}, {CONDNAME_MINION_SPIDERLING}, {CONDNAME_MINION_UNSTABLEHORROR}, or {CONDNAME_MINION_DIREWOLF}, it gains one of the four horsemen minions."
+  },
+  {
+    "key": "MUSE10",
+    "relicKey": "MUSE",
+    "relicName": "Ripplevein",
+    "relicTitle": "Ripplevein, Imbued Brush of Muse",
+    "god": "Muse",
+    "rank": 10,
+    "markup": "At the start of the bearer's turn, it {ACTION_casts} Crucifixion on a random enemy."
+  },
+  {
+    "key": "RECLUSA1",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks}, this relic {ACTION_attacks} the enemy as well."
+  },
+  {
+    "key": "RECLUSA2",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 2,
+    "markup": "After this relic {ACTION_attacks}, the bearer has a 35% chance to gain a random buff."
+  },
+  {
+    "key": "RECLUSA3",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 3,
+    "markup": "At the start of battle, the bearer gains 5 random Spell Gems, one from each class."
+  },
+  {
+    "key": "RECLUSA4",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 4,
+    "markup": "At the start of battle, the bearer gains a random trait that belongs to its race."
+  },
+  {
+    "key": "RECLUSA5",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 5,
+    "markup": "After the bearer manually {ACTION_casts} a spell, this relic casts a copy of that spell as well."
+  },
+  {
+    "key": "RECLUSA6",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 6,
+    "markup": "After this relic {ACTION_casts} a spell, a random enemy is afflicted with a random debuff."
+  },
+  {
+    "key": "RECLUSA7",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 7,
+    "markup": "At the start of the bearer's turn, it gains a random minion."
+  },
+  {
+    "key": "RECLUSA8",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 8,
+    "markup": "After this relic {ACTION_attacks}, its master gains 20% of a random stat."
+  },
+  {
+    "key": "RECLUSA9",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 9,
+    "markup": "After this relic {ACTION_casts} a spell, a random enemy loses a random stat equal to 30% of the bearer's highest stat."
+  },
+  {
+    "key": "RECLUSA10",
+    "relicKey": "RECLUSA",
+    "relicName": "Fatum & Fortuna",
+    "relicTitle": "Fatum & Fortuna, Loaded Dice of Reclusa",
+    "god": "Reclusa",
+    "rank": 10,
+    "markup": "At the end of the bearer's turn, this relic {ACTION_casts} 1 random spell for each turn its bearer has taken in the current battle."
+  },
+  {
+    "key": "ROBO1",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 1,
+    "markup": "At the end of each enemy's turn, this relic {ACTION_attacks} a random enemy if the bearer didn't take any damage."
+  },
+  {
+    "key": "ROBO2",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 2,
+    "markup": "After this relic {ACTION_attacks}, the bearer gains 10% {STAT_defense}."
+  },
+  {
+    "key": "ROBO3",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 3,
+    "markup": "The bearer gains 15% more {STAT_defense} and Maximum {STAT_health} from stat-boosting effects and can't lose these stats."
+  },
+  {
+    "key": "ROBO4",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 4,
+    "markup": "The bearer takes 30% less indirect damage."
+  },
+  {
+    "key": "ROBO5",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 5,
+    "markup": "After this relic {ACTION_attacks}, the bearer gains 10% Maximum {STAT_health}."
+  },
+  {
+    "key": "ROBO6",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 6,
+    "markup": "At the end of each enemy's turn, this relic has a 20% chance to {ACTION_cast} Stone Skin on the bearer."
+  },
+  {
+    "key": "ROBO7",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 7,
+    "markup": "The bearer takes 30% less damage from attacks and spells."
+  },
+  {
+    "key": "ROBO8",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 8,
+    "markup": "At the end of each ally's turn, this relic has a 20% chance to {ACTION_cast} Iron Skin on the bearer."
+  },
+  {
+    "key": "ROBO9",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 9,
+    "markup": "After the bearer gains Maximum {STAT_health}, it recovers {STAT_health} equal to 50% of the amount gained."
+  },
+  {
+    "key": "ROBO10",
+    "relicKey": "ROBO",
+    "relicName": "5740-NG",
+    "relicTitle": "5740-NG, Impenetrable Plate of 4080",
+    "god": "4080",
+    "rank": 10,
+    "markup": "The bearer has a 100% chance to avoid damage, minus 10% for each time this effect has activated in the current battle."
+  },
+  {
+    "key": "SHALLAN1",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 1,
+    "markup": "The bearer's on-attack or on-cast effects activate 1 additional time, depending on whether its {STAT_attack} or {STAT_intelligence} is higher."
+  },
+  {
+    "key": "SHALLAN2",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 2,
+    "markup": "After the bearer's on-attack or on-cast effects activate, this relic has a 25% chance to {ACTION_attack} a random enemy."
+  },
+  {
+    "key": "SHALLAN3",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 3,
+    "markup": "The bearer's on-defend or on-provoke effects activate 1 additional time, depending on whether its {STAT_defense} or {STAT_speed} is higher."
+  },
+  {
+    "key": "SHALLAN4",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 4,
+    "markup": "This relic and its bearer deal 5% more damage for each time the bearer's on-attack or on-cast effects activated."
+  },
+  {
+    "key": "SHALLAN5",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 5,
+    "markup": "This relic and its bearer's on-heal, on-debuff, and on-buff effects activate 1 additional time."
+  },
+  {
+    "key": "SHALLAN6",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 6,
+    "markup": "The bearer's on-attack or on-cast effects activate 1 additional time for every 5 times this relic has {ACTION_attacked} or {ACTION_cast} a spell in the current battle."
+  },
+  {
+    "key": "SHALLAN7",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 7,
+    "markup": "The bearer takes 3% less damage for each time its on-defend or on-provoke effects activated."
+  },
+  {
+    "key": "SHALLAN8",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 8,
+    "markup": "The bearer's on-resurrect and on-death effects activate 1 additional time."
+  },
+  {
+    "key": "SHALLAN9",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 9,
+    "markup": "This relic and its bearer have 5% more stats (other than {STAT_health}) for each time its on-resurrect or on-death effects activated."
+  },
+  {
+    "key": "SHALLAN10",
+    "relicKey": "SHALLAN",
+    "relicName": "Fable",
+    "relicTitle": "Fable, Mythical Stone of Shallan",
+    "god": "Shallan",
+    "rank": 10,
+    "markup": "After the bearer's on-attack or on-cast effects activate, this relic has a 10% chance to {ACTION_cast} Mega Magic."
+  },
+  {
+    "key": "TMEREMRGO1",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks}, this relic {ACTION_attacks} the enemy as well."
+  },
+  {
+    "key": "TMEREMRGO2",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 2,
+    "markup": "After this relic {ACTION_attacks}, it afflicts the enemy with {CONDNAME_DEBUFF_INVERTED}. The potency of this debuff is equal to 10% of the bearer's highest stat."
+  },
+  {
+    "key": "TMEREMRGO3",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 3,
+    "markup": "After an enemy takes damage from {CONDNAME_DEBUFF_INVERTED}, this relic heals the bearer for 50% {STAT_health}. If the bearer is dead, it is resurrected with 20% {STAT_health}."
+  },
+  {
+    "key": "TMEREMRGO4",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 4,
+    "markup": "The bearer takes less damage from attacks and spells equal to 20% of the enemy's {CONDNAME_DEBUFF_INVERTED} potency."
+  },
+  {
+    "key": "TMEREMRGO5",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 5,
+    "markup": "When an enemy's {CONDNAME_DEBUFF_INVERTED} potency would decrease, this relic has a 50% chance to prevent that from happening."
+  },
+  {
+    "key": "TMEREMRGO6",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 6,
+    "markup": "Enemies heal your creatures 1 additional time with {CONDNAME_DEBUFF_INVERTED}."
+  },
+  {
+    "key": "TMEREMRGO7",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 7,
+    "markup": "At the start of the bearer's turn, enemies' {CONDNAME_DEBUFF_INVERTED} debuffs gain 50% potency."
+  },
+  {
+    "key": "TMEREMRGO8",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 8,
+    "markup": "After the bearer manually {ACTION_casts} a spell, this relic {ACTION_casts} a random Morph Spell."
+  },
+  {
+    "key": "TMEREMRGO9",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 9,
+    "markup": "This relic and its bearer deal additional damage with attacks and spells equal to 20% of the enemy's {CONDNAME_DEBUFF_INVERTED} potency."
+  },
+  {
+    "key": "TMEREMRGO10",
+    "relicKey": "TMEREMRGO",
+    "relicName": "Amalgam",
+    "relicTitle": "Amalgam, Warped Mirror of T'mere M'rgo",
+    "god": "T'mere M'rgo",
+    "rank": 10,
+    "markup": "After an enemy's {CONDNAME_DEBUFF_INVERTED} debuff wears off, this relic afflicts it with {CONDNAME_DEBUFF_INVERTED} again. The potency of this debuff is equal to 30% of the bearer's highest stat."
+  },
+  {
+    "key": "ANNELTHA1",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 1,
+    "markup": "After the bearer {ACTION_attacks}, this relic {ACTION_attacks} the enemy as well."
+  },
+  {
+    "key": "ANNELTHA2",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 2,
+    "markup": "The bearer deals 5% more damage with attacks for each time it has {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "ANNELTHA3",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 3,
+    "markup": "This relic and its bearer gain 10% more stats from all sources for each time this relic has {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "ANNELTHA4",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 4,
+    "markup": "This relic and its bearer have 3% more {STAT_attack} for each time it and this relic have {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "ANNELTHA5",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 5,
+    "markup": "The bearer deals 5% more damage with attacks for each time this relic has {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "ANNELTHA6",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 6,
+    "markup": "If the bearer has {ACTION_attacked} at least 5 times in the current battle, it and this relic always deal critical damage with attacks."
+  },
+  {
+    "key": "ANNELTHA7",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 7,
+    "markup": "If the bearer has {ACTION_attacked} at least 5 times in the current battle, its Spell Gems do not consume any {STAT_charges}."
+  },
+  {
+    "key": "ANNELTHA8",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 8,
+    "markup": "The bearer takes 3% less damage for each time it and this relic have {ACTION_attacked} in the current battle."
+  },
+  {
+    "key": "ANNELTHA9",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 9,
+    "markup": "If the bearer has {ACTION_attacked} at least 10 times in the current battle, the potency of its spells is based on its {STAT_attack} rather than its {STAT_intelligence}."
+  },
+  {
+    "key": "ANNELTHA10",
+    "relicKey": "ANNELTHA",
+    "relicName": "Vitreous",
+    "relicTitle": "Vitreous, Crystal Eye of Anneltha",
+    "god": "Anneltha",
+    "rank": 10,
+    "markup": "At the start of the bearer's turn, this relic {ACTION_casts} Fury Swipes on the bearer."
+  }
+]

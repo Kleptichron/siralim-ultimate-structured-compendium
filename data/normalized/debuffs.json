@@ -3,11 +3,23 @@
     "id": "debuff:bleeding",
     "source": "debuffs",
     "name": "Bleeding",
-    "text": "Creatures with Bleeding take damage equal to 30% of their Current Health at the start of each turn.",
-    "textHash": "d50b3e9eae07",
+    "text": "Creatures with Bleeding take damage equal to 30% of their Current health at the start of each turn.",
+    "textHash": "4da7a49ea7ee",
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_BLEED} take damage equal to 30% of their Current {STAT_health} at the start of each turn.",
+    "refs": {
+      "statuses": [
+        "Bleeding"
+      ],
+      "debuffs": [
+        "Bleeding"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
@@ -19,72 +31,155 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_BLIGHT} cannot be healed and take damage from healing effects equal to 50% of the effect.",
+    "refs": {
+      "statuses": [
+        "Blighted"
+      ],
+      "debuffs": [
+        "Blighted"
+      ]
     }
   },
   {
     "id": "debuff:blind",
     "source": "debuffs",
     "name": "Blind",
-    "text": "Blind creatures cannot choose their targets when Attacking or Casting single-target spells.",
-    "textHash": "9531e7ec7dcb",
+    "text": "Blind creatures cannot choose their targets when attacking or casting single-target spells.",
+    "textHash": "cc7b4134cd9b",
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_DEBUFF_BLIND} creatures cannot choose their targets when {ACTION_attacking} or {ACTION_casting} single-target spells.",
+    "refs": {
+      "statuses": [
+        "Blind"
+      ],
+      "debuffs": [
+        "Blind"
+      ],
+      "actions": [
+        "attacking",
+        "casting"
+      ]
     }
   },
   {
     "id": "debuff:bomb",
     "source": "debuffs",
     "name": "Bomb",
-    "text": "At the start of a creature's turn, its Bomb detonates, dealing damage equal to 80% of the afflictor's Speed. Then, this debuff is removed.",
-    "textHash": "71370c33ae20",
+    "text": "At the start of a creature's turn, its Bomb detonates, dealing damage to the creature equal to 80% of the afflictor's speed. Then, this debuff is removed.",
+    "textHash": "399169e2349b",
     "meta": {
       "kind": "debuff",
       "defaultDuration": ""
+    },
+    "markup": "At the start of a creature's turn, its {CONDNAME_DEBUFF_BOMB} detonates, dealing damage to the creature equal to 80% of the afflictor's {STAT_speed}. Then, this debuff is removed.",
+    "refs": {
+      "statuses": [
+        "Bomb"
+      ],
+      "debuffs": [
+        "Bomb"
+      ],
+      "stats": [
+        "speed"
+      ]
     }
   },
   {
     "id": "debuff:burning",
     "source": "debuffs",
     "name": "Burning",
-    "text": "Creatures with Burning take damage based on the inflictor's Intelligence each turn.",
-    "textHash": "71ac3a307c68",
+    "text": "Creatures with Burning take damage based on the inflictor's intelligence each turn.",
+    "textHash": "5799ec68267d",
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_BURNED} take damage based on the inflictor's {STAT_intelligence} each turn.",
+    "refs": {
+      "statuses": [
+        "Burning"
+      ],
+      "debuffs": [
+        "Burning"
+      ],
+      "stats": [
+        "intelligence"
+      ]
     }
   },
   {
     "id": "debuff:confused",
     "source": "debuffs",
     "name": "Confused",
-    "text": "Confused creatures have a 50% chance to Attack or Cast harmful spells on their allies.",
-    "textHash": "96e9e3055520",
+    "text": "Confused creatures have a 50% chance to attack or cast harmful spells on their allies.",
+    "textHash": "5a061575c9a5",
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_DEBUFF_CONFUSED} creatures have a 50% chance to {ACTION_attack} or {ACTION_cast} harmful spells on their allies.",
+    "refs": {
+      "statuses": [
+        "Confused"
+      ],
+      "debuffs": [
+        "Confused"
+      ],
+      "actions": [
+        "attack",
+        "cast"
+      ]
     }
   },
   {
     "id": "debuff:cursed",
     "source": "debuffs",
     "name": "Cursed",
-    "text": "When creatures with Cursed deal damage with attacks or spells, they take damage equal to 100% of their target's Attack.",
-    "textHash": "4e10b9ef17bf",
+    "text": "When creatures with Cursed deal damage with attacks or spells, they take damage equal to 100% of their target's attack.",
+    "textHash": "0dca0cb44287",
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "When creatures with {CONDNAME_DEBUFF_CURSED} deal damage with attacks or spells, they take damage equal to 100% of their target's {STAT_attack}.",
+    "refs": {
+      "statuses": [
+        "Cursed"
+      ],
+      "debuffs": [
+        "Cursed"
+      ],
+      "stats": [
+        "attack"
+      ]
     }
   },
   {
     "id": "debuff:disarmed",
     "source": "debuffs",
     "name": "Disarmed",
-    "text": "Disarmed creatures lose the benefits from their equipped Artifact, other than Health.",
-    "textHash": "cb67203788b9",
+    "text": "Disarmed creatures lose the benefits from their equipped Artifact, other than health.",
+    "textHash": "5ac9821a4b03",
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_DEBUFF_DISARMED} creatures lose the benefits from their equipped Artifact, other than {STAT_health}.",
+    "refs": {
+      "statuses": [
+        "Disarmed"
+      ],
+      "debuffs": [
+        "Disarmed"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
@@ -96,6 +191,15 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_DEBUFF_FEAR} creatures cannot gain stats.",
+    "refs": {
+      "statuses": [
+        "Feared"
+      ],
+      "debuffs": [
+        "Feared"
+      ]
     }
   },
   {
@@ -107,6 +211,15 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": ""
+    },
+    "markup": "{CONDNAME_DEBUFF_FROZEN} creatures are unable to act until they thaw, and have a 25% chance to thaw at the start of their turn. This chance doubles after each of their turns.",
+    "refs": {
+      "statuses": [
+        "Frozen"
+      ],
+      "debuffs": [
+        "Frozen"
+      ]
     }
   },
   {
@@ -118,17 +231,61 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": ""
+    },
+    "markup": "{CONDNAME_DEBUFF_INVERTED} creatures heal enemies instead of damaging them with attacks and spells, and damage allies instead of healing them. This debuff is removed after enough damage or healing has been done to offset its potency.",
+    "refs": {
+      "statuses": [
+        "Inverted"
+      ],
+      "debuffs": [
+        "Inverted"
+      ]
+    }
+  },
+  {
+    "id": "debuff:mania",
+    "source": "debuffs",
+    "name": "Mania",
+    "text": "Creatures with Mania take damage at the end of their turn equal to 3% of the health all creatures had recovered when this debuff was applied.",
+    "textHash": "285757c6769a",
+    "meta": {
+      "kind": "debuff",
+      "defaultDuration": ""
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_MANIA} take damage at the end of their turn equal to 3% of the {STAT_health} all creatures had recovered when this debuff was applied.",
+    "refs": {
+      "statuses": [
+        "Mania"
+      ],
+      "debuffs": [
+        "Mania"
+      ],
+      "stats": [
+        "health"
+      ]
     }
   },
   {
     "id": "debuff:poisoned",
     "source": "debuffs",
     "name": "Poisoned",
-    "text": "Creatures with Poisoned take damage based on the inflictor's Attack each turn.",
-    "textHash": "144deefb9598",
+    "text": "Creatures with Poisoned take damage based on the inflictor's attack each turn.",
+    "textHash": "26f7d30d40e8",
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_POISON} take damage based on the inflictor's {STAT_attack} each turn.",
+    "refs": {
+      "statuses": [
+        "Poisoned"
+      ],
+      "debuffs": [
+        "Poisoned"
+      ],
+      "stats": [
+        "attack"
+      ]
     }
   },
   {
@@ -140,6 +297,17 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "1 Turn"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_SCORN} cannot attack. Overwrites {CONDNAME_DEBUFF_SILENCE}.",
+    "refs": {
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ]
     }
   },
   {
@@ -151,6 +319,17 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "1 Turn"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_SILENCE} cannot cast spells. Overwrites {CONDNAME_DEBUFF_SCORN}.",
+    "refs": {
+      "statuses": [
+        "Scorned",
+        "Silenced"
+      ],
+      "debuffs": [
+        "Scorned",
+        "Silenced"
+      ]
     }
   },
   {
@@ -162,6 +341,15 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_SLEEP} cannot act until they either take damage or this debuff wears off.",
+    "refs": {
+      "statuses": [
+        "Sleeping"
+      ],
+      "debuffs": [
+        "Sleeping"
+      ]
     }
   },
   {
@@ -173,6 +361,15 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_SNARED} are stuck at the bottom of the Timeline until they break free. They have a 10% chance to break free at the start of each creature's turn.",
+    "refs": {
+      "statuses": [
+        "Snared"
+      ],
+      "debuffs": [
+        "Snared"
+      ]
     }
   },
   {
@@ -184,6 +381,15 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "1 Turn"
+    },
+    "markup": "Creatures with {CONDNAME_DEBUFF_STONE} cannot dodge or deal critical damage.",
+    "refs": {
+      "statuses": [
+        "Stone"
+      ],
+      "debuffs": [
+        "Stone"
+      ]
     }
   },
   {
@@ -195,6 +401,15 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_DEBUFF_VULNERABLE} creatures take 50% more damage.",
+    "refs": {
+      "statuses": [
+        "Vulnerable"
+      ],
+      "debuffs": [
+        "Vulnerable"
+      ]
     }
   },
   {
@@ -206,6 +421,15 @@
     "meta": {
       "kind": "debuff",
       "defaultDuration": "3 Turns"
+    },
+    "markup": "{CONDNAME_DEBUFF_WEAK} creatures deal 50% less damage.",
+    "refs": {
+      "statuses": [
+        "Weak"
+      ],
+      "debuffs": [
+        "Weak"
+      ]
     }
   }
 ]

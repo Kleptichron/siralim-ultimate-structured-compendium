@@ -1,0 +1,4356 @@
+[
+  {
+    "key": "LIFE_1",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 1,
+    "markup": "[ad_mirrorball] Mirrorballs Reward 1 Emblem"
+  },
+  {
+    "key": "DEATH_1",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 1,
+    "markup": "[ptd_mushrooms] Mushrooms Decrease Enemies' Speed"
+  },
+  {
+    "key": "NATURE_1",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 1,
+    "markup": "[swm_treasure] 5% Chance for Treasure Piles to Spawn a Treasure Golem"
+  },
+  {
+    "key": "CHAOS_1",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 1,
+    "markup": "[gpn_rock] +50% Resources From Rocks"
+  },
+  {
+    "key": "SORCERY_1",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 1,
+    "markup": "[rfm_potion] Potions Afflict a Random Debuff"
+  },
+  {
+    "key": "GEM_1",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 1,
+    "markup": "[tol_bigtreasure] +50% Treasure From Large Treasure Chests"
+  },
+  {
+    "key": "VOID_1",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 1,
+    "markup": "[btv_relic] +50% Favor From Void Relics"
+  },
+  {
+    "key": "REACTOR_1",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 1,
+    "markup": "[cr_valve] +50% Favor From Valves"
+  },
+  {
+    "key": "BLOODBONE_1",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 1,
+    "markup": "[tw_bigchest] +50% Treasure From Large Treasure Chests"
+  },
+  {
+    "key": "GRASSLAND_1",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 1,
+    "markup": "[um_tent] +50% Treasure From Nomads"
+  },
+  {
+    "key": "DUNGEON_1",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 1,
+    "markup": "[tc_cage] +50% Treasure From Cages"
+  },
+  {
+    "key": "WINTER_1",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 1,
+    "markup": "[fc_tomb] +50% Treasure From Tombs"
+  },
+  {
+    "key": "ISLAND_1",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 1,
+    "markup": "[fe_imphut] +50% Treasure From Imp Huts"
+  },
+  {
+    "key": "DESERT_1",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 1,
+    "markup": "[bns_quicksand] +50% Favor From Quicksand Bosses"
+  },
+  {
+    "key": "AUTUMN_1",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 1,
+    "markup": "[bg_squash] Vomiting Squash Is More Rewarding"
+  },
+  {
+    "key": "PURGATORY_1",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 1,
+    "markup": "[su_brain] +50% Favor From Brains"
+  },
+  {
+    "key": "JUNGLE_1",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 1,
+    "markup": "[cj_totem] +50% Favor From Totems"
+  },
+  {
+    "key": "CAVE_1",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 1,
+    "markup": "[an_eggs] +50% Favor From Spider Eggs"
+  },
+  {
+    "key": "UNDERWATER_1",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 1,
+    "markup": "[wdsd_treasure] +50% Treasure From Large Treasure Chests"
+  },
+  {
+    "key": "FOREIGNKINGDOM_1",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 1,
+    "markup": "[kh_blood] Bloodstains Grant Health Boost"
+  },
+  {
+    "key": "SPACE_1",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 1,
+    "markup": "[ee_rift] +50% Favor From Rifts"
+  },
+  {
+    "key": "ALEXANDRIA_1",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 1,
+    "markup": "[dmr_gears] +1 Buffs From Piles of Gears"
+  },
+  {
+    "key": "ARIAMAKI_1",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 1,
+    "markup": "[lobab_robes] +50% Favor From Arbiter Robes"
+  },
+  {
+    "key": "GENAROS_1",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 1,
+    "markup": "[ob_monlith] Monoliths Grant Resistance to Debuffs In Next Battle"
+  },
+  {
+    "key": "MUSE_1",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 1,
+    "markup": "[ag_masochist] +50% Favor From Masochist Statues"
+  },
+  {
+    "key": "RECLUSA_1",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 1,
+    "markup": "[gh_bigslots] +1 Large Slot Machines Spawn"
+  },
+  {
+    "key": "ROBO_1",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 1,
+    "markup": "[fl_modrons] +50% Favor From Inactive Modrons"
+  },
+  {
+    "key": "SHALLAN_1",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 1,
+    "markup": "[fae_fountain] 25% Chance to Receive Emblem From Fae Fountains"
+  },
+  {
+    "key": "TMEREMRGO_1",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 1,
+    "markup": "[amg_brazier] +50% Favor From Neon Braziers"
+  },
+  {
+    "key": "ANNELTHA_1",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 1,
+    "markup": "[fdp_musiccrystals] Music Crystals Are More Rewarding"
+  },
+  {
+    "key": "GENERAL_2",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 2,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "LIFE_3",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 3,
+    "markup": "[ad_angelshrine] +2 Angel Shrines Spawn"
+  },
+  {
+    "key": "DEATH_3",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 3,
+    "markup": "[ptd_rock] +50% Resources From Rocks"
+  },
+  {
+    "key": "NATURE_3",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 3,
+    "markup": "[swm_flower] Flowers Decrease Enemies' Defense"
+  },
+  {
+    "key": "CHAOS_3",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 3,
+    "markup": "[gpn_minivolcano] Mini Volcanoes Afflict a Random Debuff"
+  },
+  {
+    "key": "SORCERY_3",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 3,
+    "markup": "[rfm_telescope] +50% Favor From Telescopes"
+  },
+  {
+    "key": "GEM_3",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 3,
+    "markup": "[tol_rainbowwell] +1 Buffs From Rainbow Wells"
+  },
+  {
+    "key": "VOID_3",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 3,
+    "markup": "[btv_portal] +50% Favor From Portal Bosses"
+  },
+  {
+    "key": "REACTOR_3",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 3,
+    "markup": "[cr_parchment] Parchment Grants Knowledge"
+  },
+  {
+    "key": "BLOODBONE_3",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 3,
+    "markup": "[tw_effigy] +50% Favor From Effigies"
+  },
+  {
+    "key": "GRASSLAND_3",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 3,
+    "markup": "[um_gems] +50% Treasure From Gem Piles"
+  },
+  {
+    "key": "DUNGEON_3",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 3,
+    "markup": "[tc_rack] +50% Favor From Torture Devices"
+  },
+  {
+    "key": "WINTER_3",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 3,
+    "markup": "[fc_campfire] Campfires Grant Health Boost"
+  },
+  {
+    "key": "ISLAND_3",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 3,
+    "markup": "[fe_moai] +50% Favor From Altars"
+  },
+  {
+    "key": "DESERT_3",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 3,
+    "markup": "[bns_tent] +50% Treasure From Tents"
+  },
+  {
+    "key": "AUTUMN_3",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 3,
+    "markup": "[bg_tent] +50% Treasure From Tents"
+  },
+  {
+    "key": "PURGATORY_3",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 3,
+    "markup": "[su_mirror] Mirrors Drop Treasure"
+  },
+  {
+    "key": "JUNGLE_3",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 3,
+    "markup": "[cj_imphut] +50% Favor From Imp Huts"
+  },
+  {
+    "key": "CAVE_3",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 3,
+    "markup": "[an_spider] +50% Favor From Spiderlings"
+  },
+  {
+    "key": "UNDERWATER_3",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 3,
+    "markup": "[wdsd_doubloon] +50% Favor From Doubloons"
+  },
+  {
+    "key": "FOREIGNKINGDOM_3",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 3,
+    "markup": "[kh_books] +1 Knowledge From Book Shelves"
+  },
+  {
+    "key": "SPACE_3",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 3,
+    "markup": "[ee_orbmoon] +1 Buff From Moon Orbs"
+  },
+  {
+    "key": "ALEXANDRIA_3",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 3,
+    "markup": "[dmr_scrap] +50% Favor From Scrap"
+  },
+  {
+    "key": "ARIAMAKI_3",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 3,
+    "markup": "[lobab_scaleleft] +1 Buff From Left-Tipping Scales"
+  },
+  {
+    "key": "GENAROS_3",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 3,
+    "markup": "[ot_orb] Gain Treasure From Mysterious Orbs"
+  },
+  {
+    "key": "MUSE_3",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 3,
+    "markup": "[ag_greenstatue] +50% Favor From Animation Statues"
+  },
+  {
+    "key": "RECLUSA_3",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 3,
+    "markup": "[gh_dwarf] +50% Favor From Drunken Gambling Dwarves"
+  },
+  {
+    "key": "ROBO_3",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 3,
+    "markup": "[fl_cog] +1 Shiny Cogs Spawn"
+  },
+  {
+    "key": "SHALLAN_3",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 3,
+    "markup": "[fae_dreamcatch] Dream Catchers Grant a Minion"
+  },
+  {
+    "key": "TMEREMRGO_3",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 3,
+    "markup": "[amg_roses] +50% Favor From Neon Roses"
+  },
+  {
+    "key": "ANNELTHA_3",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 3,
+    "markup": "[fdp_redmagnet] Red Magnetic Stones Decrease Enemies' Attack"
+  },
+  {
+    "key": "GENERAL_4",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 4,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "LIFE_5",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 5,
+    "markup": "[ad_plasmaportal] +50% Favor From Portal Bosses"
+  },
+  {
+    "key": "DEATH_5",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 5,
+    "markup": "[ptd_tombstone] 25% Chance to Receive Emblem From Tombstones"
+  },
+  {
+    "key": "NATURE_5",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 5,
+    "markup": "[swm_temple] +50% Favor From Temple Bosses"
+  },
+  {
+    "key": "CHAOS_5",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 5,
+    "markup": "[gpn_livingember] +50% Favor From Living Embers"
+  },
+  {
+    "key": "SORCERY_5",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 5,
+    "markup": "[rfm_splat] +50% Favor From Splat Pools"
+  },
+  {
+    "key": "GEM_5",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 5,
+    "markup": "[tol_portal] +50% Favor From Portal Bosses"
+  },
+  {
+    "key": "VOID_5",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 5,
+    "markup": "[btv_cache] 25% Chance to Receive Emblem From Caches"
+  },
+  {
+    "key": "REACTOR_5",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 5,
+    "markup": "[cr_potion] +1 Debuffs From Potions"
+  },
+  {
+    "key": "BLOODBONE_5",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 5,
+    "markup": "[tw_bones] +50% Favor From Charred Bones"
+  },
+  {
+    "key": "GRASSLAND_5",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 5,
+    "markup": "[um_feather] +50% Favor From Golden Feathers"
+  },
+  {
+    "key": "DUNGEON_5",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 5,
+    "markup": "[tc_maiden] Iron Maidens Grant Treasure"
+  },
+  {
+    "key": "WINTER_5",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 5,
+    "markup": "[fc_igloo] +50% Treasure From Igloos"
+  },
+  {
+    "key": "ISLAND_5",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 5,
+    "markup": "[fe_pineapple] +50% Favor From Pineapples"
+  },
+  {
+    "key": "DESERT_5",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 5,
+    "markup": "[bns_relic] +50% Favor From Relics"
+  },
+  {
+    "key": "AUTUMN_5",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 5,
+    "markup": "[bg_flute] +50% Favor From Flutes"
+  },
+  {
+    "key": "PURGATORY_5",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 5,
+    "markup": "[su_obelisk] +50% Favor From Obelisks"
+  },
+  {
+    "key": "JUNGLE_5",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 5,
+    "markup": "[cj_fruito] Vomiting Fruit Is More Rewarding"
+  },
+  {
+    "key": "CAVE_5",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 5,
+    "markup": "[an_webs] Victims Grant Health Boost"
+  },
+  {
+    "key": "UNDERWATER_5",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 5,
+    "markup": "[wdsd_mask] +50% Favor From Masks"
+  },
+  {
+    "key": "FOREIGNKINGDOM_5",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 5,
+    "markup": "[kh_potions] Potion Shelves Grant a Random Stat Boost"
+  },
+  {
+    "key": "SPACE_5",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 5,
+    "markup": "[ee_orbsun] +50% Favor From Sun Orbs"
+  },
+  {
+    "key": "ALEXANDRIA_5",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 5,
+    "markup": "[dmr_generator] 25% Chance to Receive Emblem From Generators"
+  },
+  {
+    "key": "ARIAMAKI_5",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 5,
+    "markup": "[lobab_scaleright] +1 Debuff From Right-Tipping Scales"
+  },
+  {
+    "key": "GENAROS_5",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 5,
+    "markup": "[ot_altar] +50% Favor From Bloodstained Altars"
+  },
+  {
+    "key": "MUSE_5",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 5,
+    "markup": "[ag_sculpture] Sculptures Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "RECLUSA_5",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 5,
+    "markup": "[gh_cards] +50% Favor From Decks of Cards"
+  },
+  {
+    "key": "ROBO_5",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 5,
+    "markup": "[fl_weapons] +1 Weapon Piles Spawn"
+  },
+  {
+    "key": "SHALLAN_5",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 5,
+    "markup": "[fae_fairy] +50% Favor From Mischievous Fae"
+  },
+  {
+    "key": "TMEREMRGO_5",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 5,
+    "markup": "[amg_eyeportal] +50% Favor From Eyes of T'mere M'rgo"
+  },
+  {
+    "key": "ANNELTHA_5",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 5,
+    "markup": "[fdp_bluemagnet] +1 Blue Magnetic Stones Spawn"
+  },
+  {
+    "key": "GENERAL_6",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 6,
+    "markup": "[chancetgolem] +50% Treasure Golem Spawn Chance"
+  },
+  {
+    "key": "LIFE_7",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 7,
+    "markup": "[ad_starpiece] Stars Are More Rewarding"
+  },
+  {
+    "key": "DEATH_7",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 7,
+    "markup": "[ptd_skulls] +50% Favor From Skull Pile Battles"
+  },
+  {
+    "key": "NATURE_7",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 7,
+    "markup": "[swm_hunters] 35% Chance to Receive Emblem From Hunter's Lodges"
+  },
+  {
+    "key": "CHAOS_7",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 7,
+    "markup": "[gpn_devilnest] +50% Favor From Apocalypse Nests"
+  },
+  {
+    "key": "SORCERY_7",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 7,
+    "markup": "[rfm_phaseportal] 35% Chance to Receive Emblem From Phase Portals"
+  },
+  {
+    "key": "GEM_7",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 7,
+    "markup": "[tol_horseshoe] +50% Favor From Horseshoe Battles"
+  },
+  {
+    "key": "VOID_7",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 7,
+    "markup": "[btv_shadowcage] 35% Chance to Receive Emblem From Shadow Lockers"
+  },
+  {
+    "key": "REACTOR_7",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 7,
+    "markup": "[cr_cache] 25% Chance to Receive Emblem From Caches"
+  },
+  {
+    "key": "BLOODBONE_7",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 7,
+    "markup": "[tw_geyser] Additional Stat Reduction From Geysers"
+  },
+  {
+    "key": "GRASSLAND_7",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 7,
+    "markup": "[um_totem] +50% Favor From Corrupted Totems"
+  },
+  {
+    "key": "DUNGEON_7",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 7,
+    "markup": "[tc_paper] +1 Knowledge Items From Parchment"
+  },
+  {
+    "key": "WINTER_7",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 7,
+    "markup": "[fc_yeti] +50% Favor From Frozen Yetis"
+  },
+  {
+    "key": "ISLAND_7",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 7,
+    "markup": "[fe_eggs] +50% Favor From Drake Eggs"
+  },
+  {
+    "key": "DESERT_7",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 7,
+    "markup": "[bns_oasis] Oases Are Never Mirages"
+  },
+  {
+    "key": "AUTUMN_7",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 7,
+    "markup": "[bg_cave] +50% Favor From Cove Boss Battles"
+  },
+  {
+    "key": "PURGATORY_7",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 7,
+    "markup": "[su_tithe] +50% Favor From Tithes"
+  },
+  {
+    "key": "JUNGLE_7",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 7,
+    "markup": "[cj_cairn] +50% Treasure From Cairns"
+  },
+  {
+    "key": "CAVE_7",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 7,
+    "markup": "[an_ichor] +1 Buffs From Ichor"
+  },
+  {
+    "key": "UNDERWATER_7",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 7,
+    "markup": "[wdsd_jellyfish] Jellyfish Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "FOREIGNKINGDOM_7",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 7,
+    "markup": "[kh_knight] Knights Decrease Enemies' Spell Gem Count In Next Battle"
+  },
+  {
+    "key": "SPACE_7",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 7,
+    "markup": "[ee_orbarcane] Arcane Orbs Grant an Emblem"
+  },
+  {
+    "key": "ALEXANDRIA_7",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 7,
+    "markup": "[dmr_portal] +50% Favor From Portal Bosses"
+  },
+  {
+    "key": "ARIAMAKI_7",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 7,
+    "markup": "[lobab_tarot] Tarot Card Collection Is More Rewarding"
+  },
+  {
+    "key": "GENAROS_7",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 7,
+    "markup": "[ot_bookshelf] 35% Chance to Receive Emblem From Bookshelves"
+  },
+  {
+    "key": "MUSE_7",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 7,
+    "markup": "[ag_paintbrush] +50% Favor From Animated Paintbrushes"
+  },
+  {
+    "key": "RECLUSA_7",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 7,
+    "markup": "[gh_smallslots] +1 Outcomes From Small Slot Machines"
+  },
+  {
+    "key": "ROBO_7",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 7,
+    "markup": "[fl_machine] +50% Favor From Inactive Automatons"
+  },
+  {
+    "key": "SHALLAN_7",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 7,
+    "markup": "[fae_treasure] +50% Treasure From Fae Caches"
+  },
+  {
+    "key": "TMEREMRGO_7",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 7,
+    "markup": "[amg_chimera] Abandoned Caves Grant Favor"
+  },
+  {
+    "key": "ANNELTHA_7",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 7,
+    "markup": "[fdp_glowingpit] +50% Favor From Glowing Pits"
+  },
+  {
+    "key": "GENERAL_8",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 8,
+    "markup": "[seefurther] Increased View Distance"
+  },
+  {
+    "key": "GENERAL_9",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 9,
+    "markup": "[revealshrines] Teleportation Shrine is Pre-Revealed at Start of Realm"
+  },
+  {
+    "key": "LIFE_10",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 10,
+    "markup": "[ad_fruitoflife] +50% Favor From Fruit of Life"
+  },
+  {
+    "key": "DEATH_10",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 10,
+    "markup": "[ptd_flower] +50% Favor From Death Blossoms"
+  },
+  {
+    "key": "NATURE_10",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 10,
+    "markup": "[swm_ims] +50% Favor From Im Caves"
+  },
+  {
+    "key": "CHAOS_10",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 10,
+    "markup": "[gpn_magmaball] Magma Orbs Decrease Enemies' Speed"
+  },
+  {
+    "key": "SORCERY_10",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 10,
+    "markup": "[rfm_alchemy] Alchemy Experiments Are More Rewarding"
+  },
+  {
+    "key": "GEM_10",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 10,
+    "markup": "[tol_cruncherdust] 35% Chance to Receive Emblem From Cruncher Dust"
+  },
+  {
+    "key": "VOID_10",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 10,
+    "markup": "[btv_wisps] 35% Chance to Receive Emblem From Wisps"
+  },
+  {
+    "key": "REACTOR_10",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 10,
+    "markup": "[cr_slime] 35% Chance to Receive Emblem From Concoctions"
+  },
+  {
+    "key": "BLOODBONE_10",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 10,
+    "markup": "[tw_bloodwell] +50% Favor From Blood Wells"
+  },
+  {
+    "key": "GRASSLAND_10",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 10,
+    "markup": "[um_effigy] Effigies Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "DUNGEON_10",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 10,
+    "markup": "[tc_scroll] Scrolls Reduce Enemies' Stats"
+  },
+  {
+    "key": "WINTER_10",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 10,
+    "markup": "[fc_grave] Mummy Graves Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "ISLAND_10",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 10,
+    "markup": "[fe_crab] Crabs Damage Enemies"
+  },
+  {
+    "key": "DESERT_10",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 10,
+    "markup": "[bns_treasure] +50% Treasure From Buried Treasure"
+  },
+  {
+    "key": "AUTUMN_10",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 10,
+    "markup": "[bg_trap] +50% Favor From Traps"
+  },
+  {
+    "key": "PURGATORY_10",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 10,
+    "markup": "[su_statueangel] +1 Buffs From Angel Statues"
+  },
+  {
+    "key": "JUNGLE_10",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 10,
+    "markup": "[cj_treeo] +1 Buffs From Orange Fruit Trees"
+  },
+  {
+    "key": "CAVE_10",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 10,
+    "markup": "[an_shrine] +1 Debuffs From Spider Shrines"
+  },
+  {
+    "key": "UNDERWATER_10",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 10,
+    "markup": "[wdsd_shipwreck] +50% Resources From Shipwrecks"
+  },
+  {
+    "key": "FOREIGNKINGDOM_10",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 10,
+    "markup": "[kh_arms] Coats of Arms Grant a Random Stat Boost"
+  },
+  {
+    "key": "SPACE_10",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 10,
+    "markup": "[ee_spire] Spires Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "ALEXANDRIA_10",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 10,
+    "markup": "[dmr_clock] +1 Clocks Spawn"
+  },
+  {
+    "key": "ARIAMAKI_10",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 10,
+    "markup": "[lobab_book] Bookshelves are Pre-Revealed at Start of Realm"
+  },
+  {
+    "key": "GENAROS_10",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 10,
+    "markup": "[ot_statue] Pristine Statues Drop Resources"
+  },
+  {
+    "key": "MUSE_10",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 10,
+    "markup": "[ag_portal] +50% Favor From Portal Bosses"
+  },
+  {
+    "key": "RECLUSA_10",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 10,
+    "markup": "[gh_gamewheel] +50% Favor From Portal Bosses"
+  },
+  {
+    "key": "ROBO_10",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 10,
+    "markup": "[fl_robohead] +50% Favor From Robot Assembly"
+  },
+  {
+    "key": "SHALLAN_10",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 10,
+    "markup": "[fae_fae] +50% Favor From Fae"
+  },
+  {
+    "key": "TMEREMRGO_10",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 10,
+    "markup": "[amg_redrune] Red Runestones Grant Knowledge"
+  },
+  {
+    "key": "ANNELTHA_10",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 10,
+    "markup": "[fdp_wormpit] +50% Favor From Pit Worm Pits"
+  },
+  {
+    "key": "GENERAL_11",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 11,
+    "markup": "[moreemblems] +1 Emblems Spawn"
+  },
+  {
+    "key": "GENERAL_12",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 12,
+    "markup": "[chancedumpling] +50% Dumpling Spawn Chance"
+  },
+  {
+    "key": "GENERAL_13",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 13,
+    "markup": "[morechests] +1 Treasure Chests Spawn"
+  },
+  {
+    "key": "GENERAL_14",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 14,
+    "markup": "[morenodes] +1 Resource Nodes Spawn"
+  },
+  {
+    "key": "LIFE_15",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 15,
+    "markup": "[ad_obelisk] +50% Favor From Obelisks"
+  },
+  {
+    "key": "DEATH_15",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 15,
+    "markup": "[ptd_skullcandle] Gain Treasure From Illuminated Skulls"
+  },
+  {
+    "key": "NATURE_15",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 15,
+    "markup": "[swm_obelisk] +50% Favor From Obelisks"
+  },
+  {
+    "key": "CHAOS_15",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 15,
+    "markup": "[gpn_nemesisshrine] +1 Nemesis Spawns From Nemesis Shrines"
+  },
+  {
+    "key": "SORCERY_15",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 15,
+    "markup": "[rfm_bookshelf] +50% Favor From Grimoire Shelves"
+  },
+  {
+    "key": "GEM_15",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 15,
+    "markup": "[tol_giantgem] +50% Favor From Giant Gems"
+  },
+  {
+    "key": "VOID_15",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 15,
+    "markup": "[btv_geyser] Additional Stat Reduction From Geysers"
+  },
+  {
+    "key": "REACTOR_15",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 15,
+    "markup": "[cr_sewer] +50% Favor From Sewers"
+  },
+  {
+    "key": "BLOODBONE_15",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 15,
+    "markup": "[tw_zits] Zits Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "GRASSLAND_15",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 15,
+    "markup": "[um_pinwheel] Pinwheels Reduce Enemies' Stats"
+  },
+  {
+    "key": "DUNGEON_15",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 15,
+    "markup": "[tc_well] Wells Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "WINTER_15",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 15,
+    "markup": "[fc_diamond] +50% Favor From Diamonds"
+  },
+  {
+    "key": "ISLAND_15",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 15,
+    "markup": "[fe_starfish] Starfish Grant a Speed Boost"
+  },
+  {
+    "key": "DESERT_15",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 15,
+    "markup": "[bns_shrine] Sand Shrines Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "AUTUMN_15",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 15,
+    "markup": "[bg_mushroom] Mushrooms Afflict Enemies With a Debuff"
+  },
+  {
+    "key": "PURGATORY_15",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 15,
+    "markup": "[su_statuedevil] +1 Debuffs From Demon Statues"
+  },
+  {
+    "key": "JUNGLE_15",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 15,
+    "markup": "[cj_treey] +1 Debuffs From Yellow Fruit Trees"
+  },
+  {
+    "key": "CAVE_15",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 15,
+    "markup": "[an_scroll] +1 Knowledge From Scrolls"
+  },
+  {
+    "key": "UNDERWATER_15",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 15,
+    "markup": "[wdsd_relic] +50% Treasure From Relics"
+  },
+  {
+    "key": "FOREIGNKINGDOM_15",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 15,
+    "markup": "[kh_satchel] +50% Treasure From Caches"
+  },
+  {
+    "key": "SPACE_15",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 15,
+    "markup": "[ee_meteor] Meteors Grant An Additional Effect"
+  },
+  {
+    "key": "ALEXANDRIA_15",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 15,
+    "markup": "[dmr_biggears] +50% Favor From Giant Gears"
+  },
+  {
+    "key": "ARIAMAKI_15",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 15,
+    "markup": "[lobab_horse] +50% Favor From Figurines"
+  },
+  {
+    "key": "GENAROS_15",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 15,
+    "markup": "[ot_vines] +50% Favor From Snaptrap Vines"
+  },
+  {
+    "key": "MUSE_15",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 15,
+    "markup": "[ag_bigtreasure] +50% Treasure From Large Treasure Chests"
+  },
+  {
+    "key": "RECLUSA_15",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 15,
+    "markup": "[gh_housecards] +50% Favor From Houses of Cards"
+  },
+  {
+    "key": "ROBO_15",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 15,
+    "markup": "[fl_circuit] Schematics Grant Intelligence Boost"
+  },
+  {
+    "key": "SHALLAN_15",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 15,
+    "markup": "[fae_orb] +50% Favor From Orbs"
+  },
+  {
+    "key": "TMEREMRGO_15",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 15,
+    "markup": "[amg_bluerune] Blue Runestones Drop Resources"
+  },
+  {
+    "key": "ANNELTHA_15",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 15,
+    "markup": "[fdp_bughive] +50% Favor From Waspid Hives"
+  },
+  {
+    "key": "GENERAL_16",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 16,
+    "markup": "[revealshrines] God Altar is Pre-revealed at Start of Realm"
+  },
+  {
+    "key": "GENERAL_17",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 17,
+    "markup": "[morebreakables] +1 Breakable Objects Spawn"
+  },
+  {
+    "key": "GENERAL_18",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 18,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_19",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 19,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "LIFE_20",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 20,
+    "markup": "[ad_mirrorball] Mirrorballs Grant a Buff"
+  },
+  {
+    "key": "DEATH_20",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 20,
+    "markup": "[ptd_mushrooms] Mushrooms Sometimes Refill Spell Gem Charges"
+  },
+  {
+    "key": "NATURE_20",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 20,
+    "markup": "[swm_treasure] 25% Chance to Receive Emblem From Treasure Piles"
+  },
+  {
+    "key": "CHAOS_20",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 20,
+    "markup": "[gpn_rock] Rocks Grant Additional Resources"
+  },
+  {
+    "key": "SORCERY_20",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 20,
+    "markup": "[rfm_potion] Potions Grant More Damage In Next Battle"
+  },
+  {
+    "key": "GEM_20",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 20,
+    "markup": "[tol_bigtreasure] Keys Are No Longer Required to Open Large Treasure Chests"
+  },
+  {
+    "key": "VOID_20",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 20,
+    "markup": "[btv_relic] Void Relics Grant a Buff"
+  },
+  {
+    "key": "REACTOR_20",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 20,
+    "markup": "[cr_valve] Valves Grant a Buff"
+  },
+  {
+    "key": "BLOODBONE_20",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 20,
+    "markup": "[tw_bigchest] Keys Are No Longer Required to Open Large Treasure Chests"
+  },
+  {
+    "key": "GRASSLAND_20",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 20,
+    "markup": "[um_tent] Nomads Grant Random Spell Gem"
+  },
+  {
+    "key": "DUNGEON_20",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 20,
+    "markup": "[tc_cage] 25% Chance to Receive Emblem From Cages"
+  },
+  {
+    "key": "WINTER_20",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 20,
+    "markup": "[fc_tomb] Tombs Decrease Enemies' Defense"
+  },
+  {
+    "key": "ISLAND_20",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 20,
+    "markup": "[fe_imphut] 35% Chance to Receive Emblem From Imp Huts"
+  },
+  {
+    "key": "DESERT_20",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 20,
+    "markup": "[bns_quicksand] More Treasure From The Barrens Boss Rooms"
+  },
+  {
+    "key": "AUTUMN_20",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 20,
+    "markup": "[bg_squash] Vomiting Squash Is More Rewarding"
+  },
+  {
+    "key": "PURGATORY_20",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 20,
+    "markup": "[su_statuemonarch] Additional Stat Reduction From King Shrines"
+  },
+  {
+    "key": "JUNGLE_20",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 20,
+    "markup": "[cj_treep] +1 Stat Boosts From Pink Fruit Trees"
+  },
+  {
+    "key": "CAVE_20",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 20,
+    "markup": "[an_eggs] 25% Chance to Receive Emblem From Spider Eggs"
+  },
+  {
+    "key": "UNDERWATER_20",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 20,
+    "markup": "[wdsd_treasure] Keys Are No Longer Required to Open Large Treasure Chests"
+  },
+  {
+    "key": "FOREIGNKINGDOM_20",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 20,
+    "markup": "[kh_blood] Bloodstains Grant Attack Boost"
+  },
+  {
+    "key": "SPACE_20",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 20,
+    "markup": "[ee_rift] Rifts Grant Timeline Priority In Next Battle"
+  },
+  {
+    "key": "ALEXANDRIA_20",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 20,
+    "markup": "[dmr_gears] 25% Chance to Receive Emblem From Piles of Gears"
+  },
+  {
+    "key": "ARIAMAKI_20",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 20,
+    "markup": "[lobab_robes] 25% Chance to Receive Emblem From Arbiter Robes"
+  },
+  {
+    "key": "GENAROS_20",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 20,
+    "markup": "[ob_monlith] 50% Chance to Receive Treasure From Monoliths"
+  },
+  {
+    "key": "MUSE_20",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 20,
+    "markup": "[ag_masochist] Masochist Statues Grant +1 Attacks In Next Battle"
+  },
+  {
+    "key": "RECLUSA_20",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 20,
+    "markup": "[gh_bigslots] +1 Tickets From Large Slot Machines"
+  },
+  {
+    "key": "ROBO_20",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 20,
+    "markup": "[fl_modrons] 35% Chance to Receive Emblem From Inactive Modrons"
+  },
+  {
+    "key": "SHALLAN_20",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 20,
+    "markup": "[fae_fountain] Additional Stat Reduction From Fae Fountains"
+  },
+  {
+    "key": "TMEREMRGO_20",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 20,
+    "markup": "[amg_brazier] 35% Chance to Receive Emblem From Neon Braziers"
+  },
+  {
+    "key": "ANNELTHA_20",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 20,
+    "markup": "[fdp_musiccrystals] Music Crystals Are More Rewarding"
+  },
+  {
+    "key": "GENERAL_21",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 21,
+    "markup": "[chancetgolem] +50% Treasure Golem Spawn Chance"
+  },
+  {
+    "key": "GENERAL_22",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 22,
+    "markup": "[morechests] +1 Treasure Chests Spawn"
+  },
+  {
+    "key": "GENERAL_23",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 23,
+    "markup": "[morenodes] +1 Resource Nodes Spawn"
+  },
+  {
+    "key": "GENERAL_24",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 24,
+    "markup": "[moreemblems] +1 Emblems Spawn"
+  },
+  {
+    "key": "LIFE_25",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 25,
+    "markup": "[ad_angelshrine] +2 Angel Shrines Spawn"
+  },
+  {
+    "key": "DEATH_25",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 25,
+    "markup": "[ptd_rock] Rocks Grant Additional Resources"
+  },
+  {
+    "key": "NATURE_25",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 25,
+    "markup": "[swm_flower] Flowers Grant 100% Critical Chance In Next Battle"
+  },
+  {
+    "key": "CHAOS_25",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 25,
+    "markup": "[gpn_minivolcano] Mini Volcanoes Decrease Enemies' Defense"
+  },
+  {
+    "key": "SORCERY_25",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 25,
+    "markup": "[rfm_telescope] Telescopes Sometimes Refill Spell Gem Charges"
+  },
+  {
+    "key": "GEM_25",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 25,
+    "markup": "[tol_rainbowwell] 25% Chance to Receive Emblem From Rainbow Wells"
+  },
+  {
+    "key": "VOID_25",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 25,
+    "markup": "[btv_portal] More Treasure From Bastion of the Void Boss Rooms"
+  },
+  {
+    "key": "REACTOR_25",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 25,
+    "markup": "[cr_parchment] Parchment Grants Intelligence Boost"
+  },
+  {
+    "key": "BLOODBONE_25",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 25,
+    "markup": "[tw_effigy] Effigies Grant a Minion"
+  },
+  {
+    "key": "GRASSLAND_25",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 25,
+    "markup": "[um_gems] 25% Chance to Receive Emblem From Gem Piles"
+  },
+  {
+    "key": "DUNGEON_25",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 25,
+    "markup": "[tc_rack] Torture Devices Drop Treasure"
+  },
+  {
+    "key": "WINTER_25",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 25,
+    "markup": "[fc_campfire] 25% Chance to Receive Emblem From Campfires"
+  },
+  {
+    "key": "ISLAND_25",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 25,
+    "markup": "[fe_moai] Altars Decrease Enemies' Defense"
+  },
+  {
+    "key": "DESERT_25",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 25,
+    "markup": "[bns_tent] 30% Chance to Receive Emblems From Tents"
+  },
+  {
+    "key": "AUTUMN_25",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 25,
+    "markup": "[bg_tent] 30% Chance to Receive Emblems From Tents"
+  },
+  {
+    "key": "PURGATORY_25",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 25,
+    "markup": "[su_brain] Brains Grant Intelligence Boost"
+  },
+  {
+    "key": "JUNGLE_25",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 25,
+    "markup": "[cj_totem] 25% Chance to Receive Emblem From Totems"
+  },
+  {
+    "key": "CAVE_25",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 25,
+    "markup": "[an_spider] 20% Chance to Receive Emblem From Spiderlings"
+  },
+  {
+    "key": "UNDERWATER_25",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 25,
+    "markup": "[wdsd_doubloon] 20% Chance to Receive Emblem From Doubloons"
+  },
+  {
+    "key": "FOREIGNKINGDOM_25",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 25,
+    "markup": "[kh_books] Book Shelves Grant Intelligence Boost"
+  },
+  {
+    "key": "SPACE_25",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 25,
+    "markup": "[ee_orbmoon] +1 Buffs From Moon Orbs"
+  },
+  {
+    "key": "ALEXANDRIA_25",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 25,
+    "markup": "[dmr_scrap] Scrap Grants Attack Boost"
+  },
+  {
+    "key": "ARIAMAKI_25",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 25,
+    "markup": "[lobab_scaleleft] 25% Chance to Receive Emblem From Left-Tipping Scales"
+  },
+  {
+    "key": "GENAROS_25",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 25,
+    "markup": "[ot_orb] Mysterious Orbs Grant a Minion"
+  },
+  {
+    "key": "MUSE_25",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 25,
+    "markup": "[ag_greenstatue] Animation Statues Grant +1 Casts In Next Battle"
+  },
+  {
+    "key": "RECLUSA_25",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 25,
+    "markup": "[gh_dwarf] 35% Chance to Receive Emblem From Drunken Gambling Dwarves"
+  },
+  {
+    "key": "ROBO_25",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 25,
+    "markup": "[fl_cog] +1 Debuffs From Shiny Cogs"
+  },
+  {
+    "key": "SHALLAN_25",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 25,
+    "markup": "[fae_dreamcatch] Dream Catchers Grant 100% Dodge Chance In Next Battle"
+  },
+  {
+    "key": "TMEREMRGO_25",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 25,
+    "markup": "[amg_roses] Neon Roses Grant Attack Boost"
+  },
+  {
+    "key": "ANNELTHA_25",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 25,
+    "markup": "[fdp_redmagnet] Red Magnetic Stones Decrease Enemies' Intelligence"
+  },
+  {
+    "key": "GENERAL_26",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 26,
+    "markup": "[noescapedumpling] -50% Chance For Dumplings to Flee"
+  },
+  {
+    "key": "GENERAL_27",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 27,
+    "markup": "[chancedumpling] +50% Dumpling Spawn Chance"
+  },
+  {
+    "key": "GENERAL_28",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 28,
+    "markup": "[morechests] +1 Treasure Chests Spawn"
+  },
+  {
+    "key": "GENERAL_29",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 29,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "LIFE_30",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 30,
+    "markup": "[ad_plasmaportal] Portal Bosses Grant Reduced Damage In Next Battle"
+  },
+  {
+    "key": "DEATH_30",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 30,
+    "markup": "[ptd_tombstone] +50% Treasure From Tombstones"
+  },
+  {
+    "key": "NATURE_30",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 30,
+    "markup": "[swm_temple] Temple Battles Grant Speed Boost"
+  },
+  {
+    "key": "CHAOS_30",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 30,
+    "markup": "[gpn_livingember] 20% Chance to Receive Emblem From Living Embers"
+  },
+  {
+    "key": "SORCERY_30",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 30,
+    "markup": "[rfm_splat] Splat Pools Drop Treasure"
+  },
+  {
+    "key": "GEM_30",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 30,
+    "markup": "[tol_portal] More Treasure From Temple of Lies Boss Rooms"
+  },
+  {
+    "key": "VOID_30",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 30,
+    "markup": "[btv_cache] +50% Treasure From Caches"
+  },
+  {
+    "key": "REACTOR_30",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 30,
+    "markup": "[cr_potion] Potions Grant a Minion"
+  },
+  {
+    "key": "BLOODBONE_30",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 30,
+    "markup": "[tw_bones] Charred Bones Grant a Buff"
+  },
+  {
+    "key": "GRASSLAND_30",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 30,
+    "markup": "[um_feather] -1 Golden Feather Chase Time"
+  },
+  {
+    "key": "DUNGEON_30",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 30,
+    "markup": "[tc_maiden] 25% Chance to Receive Emblem From Iron Maidens"
+  },
+  {
+    "key": "WINTER_30",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 30,
+    "markup": "[fc_igloo] 25% Chance to Receive Emblem From Igloos"
+  },
+  {
+    "key": "ISLAND_30",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 30,
+    "markup": "[fe_pineapple] Pineapples Grant Brimstone"
+  },
+  {
+    "key": "DESERT_30",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 30,
+    "markup": "[bns_relic] Relics Grant Crystal"
+  },
+  {
+    "key": "AUTUMN_30",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 30,
+    "markup": "[bg_flute] Flutes Drop Treasure"
+  },
+  {
+    "key": "PURGATORY_30",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 30,
+    "markup": "[su_mirror] 25% Chance to Receive Emblem From Mirrors"
+  },
+  {
+    "key": "JUNGLE_30",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 30,
+    "markup": "[cj_imphut] 35% Chance to Receive Emblem From Imp Huts"
+  },
+  {
+    "key": "CAVE_30",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 30,
+    "markup": "[an_webs] 5% Chance For Victims to Spawn Dumpling"
+  },
+  {
+    "key": "UNDERWATER_30",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 30,
+    "markup": "[wdsd_mask] 25% Chance to Receive Emblem From Masks"
+  },
+  {
+    "key": "FOREIGNKINGDOM_30",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 30,
+    "markup": "[kh_potions] 25% Chance to Receive Emblem From Potion Shelves"
+  },
+  {
+    "key": "SPACE_30",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 30,
+    "markup": "[ee_orbsun] Sun Orbs Grant an Emblem"
+  },
+  {
+    "key": "ALEXANDRIA_30",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 30,
+    "markup": "[dmr_generator] Generators Reveal a Massive Area"
+  },
+  {
+    "key": "ARIAMAKI_30",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 30,
+    "markup": "[lobab_scaleright] Right-Tipping Scales Reduce Enemies' Stats"
+  },
+  {
+    "key": "GENAROS_30",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 30,
+    "markup": "[ot_altar] Bloodstained Altars Damage Enemies"
+  },
+  {
+    "key": "MUSE_30",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 30,
+    "markup": "[ag_sculpture] Sculptures Grant Reduced Damage In Next Battle"
+  },
+  {
+    "key": "RECLUSA_30",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 30,
+    "markup": "[gh_cards] Decks of Cards Grant Intelligence Boost"
+  },
+  {
+    "key": "ROBO_30",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 30,
+    "markup": "[fl_weapons] Weapon Piles Grant a Minion"
+  },
+  {
+    "key": "SHALLAN_30",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 30,
+    "markup": "[fae_fairy] -1 Mischievous Fae Chase Time"
+  },
+  {
+    "key": "TMEREMRGO_30",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 30,
+    "markup": "[amg_eyeportal] More Treasure From Amalgam Gardens Boss Rooms"
+  },
+  {
+    "key": "ANNELTHA_30",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 30,
+    "markup": "[fdp_bluemagnet] Blue Magnetic Stones Grant 1 Additional Buff"
+  },
+  {
+    "key": "GENERAL_31",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 31,
+    "markup": "[seefurther] Increased View Distance"
+  },
+  {
+    "key": "GENERAL_32",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 32,
+    "markup": "[noescapetgolem] -50% Chance For Treasure Golems to Flee"
+  },
+  {
+    "key": "GENERAL_33",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 33,
+    "markup": "[morenemesis] +1 Nemesis Creatures Spawn"
+  },
+  {
+    "key": "GENERAL_34",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 34,
+    "markup": "[morenodes] +1 Resource Nodes Spawn"
+  },
+  {
+    "key": "LIFE_35",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 35,
+    "markup": "[ad_starpiece] +1 Stars Spawn"
+  },
+  {
+    "key": "DEATH_35",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 35,
+    "markup": "[ptd_skulls] Skull Piles Grant a Minion"
+  },
+  {
+    "key": "NATURE_35",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 35,
+    "markup": "[swm_hunters] +50% Favor From Hunter's Lodges"
+  },
+  {
+    "key": "CHAOS_35",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 35,
+    "markup": "[gpn_devilnest] Apocalypse Nests Grant Additional Damage In Next Battle"
+  },
+  {
+    "key": "SORCERY_35",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 35,
+    "markup": "[rfm_phaseportal] Phase Portals Drop Treasure"
+  },
+  {
+    "key": "GEM_35",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 35,
+    "markup": "[tol_horseshoe] 35% Chance to Receive Emblem From Horseshoe Battles"
+  },
+  {
+    "key": "VOID_35",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 35,
+    "markup": "[btv_shadowcage] +50% Favor From Shadow Lockers"
+  },
+  {
+    "key": "REACTOR_35",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 35,
+    "markup": "[cr_cache] +50% Treasure From Caches"
+  },
+  {
+    "key": "BLOODBONE_35",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 35,
+    "markup": "[tw_geyser] Additional Stat Reduction From Geysers"
+  },
+  {
+    "key": "GRASSLAND_35",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 35,
+    "markup": "[um_totem] Totems Grant Speed Boost"
+  },
+  {
+    "key": "DUNGEON_35",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 35,
+    "markup": "[tc_paper] +1 Knowledge Items From Parchment"
+  },
+  {
+    "key": "WINTER_35",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 35,
+    "markup": "[fc_yeti] 25% Chance to Receive Emblem From Frozen Yetis"
+  },
+  {
+    "key": "ISLAND_35",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 35,
+    "markup": "[fe_eggs] Drake Eggs Drop Treasure"
+  },
+  {
+    "key": "DESERT_35",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 35,
+    "markup": "[bns_oasis] Oases Are More Rewarding"
+  },
+  {
+    "key": "AUTUMN_35",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 35,
+    "markup": "[bg_cave] More Treasure From Blood Grove Boss Rooms"
+  },
+  {
+    "key": "PURGATORY_35",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 35,
+    "markup": "[su_obelisk] 25% Chance to Receive Emblem From Obelisks"
+  },
+  {
+    "key": "JUNGLE_35",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 35,
+    "markup": "[cj_fruitp] Vomiting Fruit Is More Rewarding"
+  },
+  {
+    "key": "CAVE_35",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 35,
+    "markup": "[an_ichor] Ichor Grants Defense Boost"
+  },
+  {
+    "key": "UNDERWATER_35",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 35,
+    "markup": "[wdsd_jellyfish] +2 Jellyfish Spawn"
+  },
+  {
+    "key": "FOREIGNKINGDOM_35",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 35,
+    "markup": "[kh_knight] Knights Grant Resistance to Debuffs In Next Battle"
+  },
+  {
+    "key": "SPACE_35",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 35,
+    "markup": "[ee_orbarcane] +100% Favor From Collecting All Orbs"
+  },
+  {
+    "key": "ALEXANDRIA_35",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 35,
+    "markup": "[dmr_portal] Portal Bosses Grant Reduced Damage In Next Battle"
+  },
+  {
+    "key": "ARIAMAKI_35",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 35,
+    "markup": "[lobab_tarot] Tarot Card Collection Is More Rewarding"
+  },
+  {
+    "key": "GENAROS_35",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 35,
+    "markup": "[ot_bookshelf] +50% Treasure From Bookshelves"
+  },
+  {
+    "key": "MUSE_35",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 35,
+    "markup": "[ag_paintbrush] -1 Animated Paintbrush Chase Time"
+  },
+  {
+    "key": "RECLUSA_35",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 35,
+    "markup": "[gh_smallslots] +1 Outcomes From Small Slot Machines"
+  },
+  {
+    "key": "ROBO_35",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 35,
+    "markup": "[fl_machine] 35% Chance to Receive Emblem From Inactive Automatons"
+  },
+  {
+    "key": "SHALLAN_35",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 35,
+    "markup": "[fae_treasure] 5% Chance For Fae Caches to Spawn a Treasure Golem"
+  },
+  {
+    "key": "TMEREMRGO_35",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 35,
+    "markup": "[amg_chimera] 25% Chance to Receive Emblem From Abandoned Caves"
+  },
+  {
+    "key": "ANNELTHA_35",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 35,
+    "markup": "[fdp_glowingpit] 50% Chance to Receive Emblem From Glowing Pits"
+  },
+  {
+    "key": "GENERAL_36",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 36,
+    "markup": "[morebreakables] +1 Breakable Objects Spawn"
+  },
+  {
+    "key": "GENERAL_37",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 37,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_38",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 38,
+    "markup": "[chancetgolem] +50% Treasure Golem Spawn Chance"
+  },
+  {
+    "key": "GENERAL_39",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 39,
+    "markup": "[morenodes] +1 Resource Nodes Spawn"
+  },
+  {
+    "key": "LIFE_40",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 40,
+    "markup": "[ad_fruitoflife] Fruit of Life Grants Power"
+  },
+  {
+    "key": "DEATH_40",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 40,
+    "markup": "[ptd_flower] Death Blossoms Sometimes Grant Stat Materials"
+  },
+  {
+    "key": "NATURE_40",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 40,
+    "markup": "[swm_ims] Im Caves Grant 100% Dodge Chance In Next Battle"
+  },
+  {
+    "key": "CHAOS_40",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 40,
+    "markup": "[gpn_magmaball] Magma Orbs Grant 100% Critical Chance In Next Battle"
+  },
+  {
+    "key": "SORCERY_40",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 40,
+    "markup": "[rfm_alchemy] Alchemy Experiments Are More Rewarding"
+  },
+  {
+    "key": "GEM_40",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 40,
+    "markup": "[tol_cruncherdust] +50% Favor From Cruncher Dust Battles"
+  },
+  {
+    "key": "VOID_40",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 40,
+    "markup": "[btv_wisps] +50% Favor From Wisp Battles"
+  },
+  {
+    "key": "REACTOR_40",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 40,
+    "markup": "[cr_slime] Concoctions Drop Treasure"
+  },
+  {
+    "key": "BLOODBONE_40",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 40,
+    "markup": "[tw_bloodwell] 35% Chance to Receive Emblem From Blood Wells"
+  },
+  {
+    "key": "GRASSLAND_40",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 40,
+    "markup": "[um_effigy] Effigies Grant Reduced Damage In Next Battle"
+  },
+  {
+    "key": "DUNGEON_40",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 40,
+    "markup": "[tc_scroll] Scrolls Grant 100% Critical Chance In Next Battle"
+  },
+  {
+    "key": "WINTER_40",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 40,
+    "markup": "[fc_grave] +50% Favor From Mummy Graves"
+  },
+  {
+    "key": "ISLAND_40",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 40,
+    "markup": "[fe_crab] Crabs Reduce Damage Taken In Next Battle"
+  },
+  {
+    "key": "DESERT_40",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 40,
+    "markup": "[bns_treasure] 25% Chance to Receive Emblem From Buried Treasure"
+  },
+  {
+    "key": "AUTUMN_40",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 40,
+    "markup": "[bg_trap] Traps Grant Essence"
+  },
+  {
+    "key": "PURGATORY_40",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 40,
+    "markup": "[su_tithe] Tithes Grant Granite"
+  },
+  {
+    "key": "JUNGLE_40",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 40,
+    "markup": "[cj_cairn] 25% Chance to Receive Emblem From Cairns"
+  },
+  {
+    "key": "CAVE_40",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 40,
+    "markup": "[an_shrine] Spider Shrines Damage Enemies"
+  },
+  {
+    "key": "UNDERWATER_40",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 40,
+    "markup": "[wdsd_shipwreck] Shipwrecks Grant 1 Additional Resource Type"
+  },
+  {
+    "key": "FOREIGNKINGDOM_40",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 40,
+    "markup": "[kh_arms] +2 Coats of Arms Spawn"
+  },
+  {
+    "key": "SPACE_40",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 40,
+    "markup": "[ee_spire] Spires Decrease Enemies' Stats"
+  },
+  {
+    "key": "ALEXANDRIA_40",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 40,
+    "markup": "[dmr_clock] Clocks Are More Rewarding"
+  },
+  {
+    "key": "ARIAMAKI_40",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 40,
+    "markup": "[lobab_book] Bookshelves Spawn Closer to You"
+  },
+  {
+    "key": "GENAROS_40",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 40,
+    "markup": "[ot_statue] Pristine Statues Grant Health Boost"
+  },
+  {
+    "key": "MUSE_40",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 40,
+    "markup": "[ag_portal] Portal Bosses Drop an Emblem"
+  },
+  {
+    "key": "RECLUSA_40",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 40,
+    "markup": "[gh_gamewheel] Portal Bosses Damage Enemies"
+  },
+  {
+    "key": "ROBO_40",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 40,
+    "markup": "[fl_robohead] Robot Assembly Grants All Stats Boost"
+  },
+  {
+    "key": "SHALLAN_40",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 40,
+    "markup": "[fae_fae] 35% Chance to Receive Emblem From Fae"
+  },
+  {
+    "key": "TMEREMRGO_40",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 40,
+    "markup": "[amg_redrune] +1 Red Runestones Spawn"
+  },
+  {
+    "key": "ANNELTHA_40",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 40,
+    "markup": "[fdp_wormpit] 5% Chance For Pit Worms Pits to Spawn a Treasure Golem"
+  },
+  {
+    "key": "GENERAL_41",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 41,
+    "markup": "[morebreakables] +1 Breakable Objects Spawn"
+  },
+  {
+    "key": "GENERAL_42",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 42,
+    "markup": "[morepandshrines] +100% Pandemonium Shrine Spawn Chance"
+  },
+  {
+    "key": "GENERAL_43",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 43,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_44",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 44,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "LIFE_45",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 45,
+    "markup": "[ad_obelisk] -50% Chance for Obelisks to Start Battles"
+  },
+  {
+    "key": "DEATH_45",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 45,
+    "markup": "[ptd_skullcandle] Illuminated Candles Make Next Battle Drop Treasure Chest"
+  },
+  {
+    "key": "NATURE_45",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 45,
+    "markup": "[swm_obelisk] Obelisks Grant a Random Buff"
+  },
+  {
+    "key": "CHAOS_45",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 45,
+    "markup": "[gpn_nemesisshrine] Nemesis Shrines Grant Emblem"
+  },
+  {
+    "key": "SORCERY_45",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 45,
+    "markup": "[rfm_bookshelf] Grimoire Shelves Drop Treasure"
+  },
+  {
+    "key": "GEM_45",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 45,
+    "markup": "[tol_giantgem] Giant Gems Grant 1 Ethereal Spell Gem"
+  },
+  {
+    "key": "VOID_45",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 45,
+    "markup": "[btv_geyser] Additional Stat Reduction From Geysers"
+  },
+  {
+    "key": "REACTOR_45",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 45,
+    "markup": "[cr_sewer] More Treasure From Caustic Reactor Boss Rooms"
+  },
+  {
+    "key": "BLOODBONE_45",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 45,
+    "markup": "[tw_zits] Zits Decrease Enemies' Intelligence"
+  },
+  {
+    "key": "GRASSLAND_45",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 45,
+    "markup": "[um_pinwheel] Pinwheels Kill Random Enemy In Next Battle"
+  },
+  {
+    "key": "DUNGEON_45",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 45,
+    "markup": "[tc_well] Wells Decrease Enemies' Health"
+  },
+  {
+    "key": "WINTER_45",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 45,
+    "markup": "[fc_diamond] Diamonds Grant Defense Boost"
+  },
+  {
+    "key": "ISLAND_45",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 45,
+    "markup": "[fe_starfish] Starfish Grant Increased Damage In Next Battle"
+  },
+  {
+    "key": "DESERT_45",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 45,
+    "markup": "[bns_shrine] Sand Shrines Grant Random Stat Boost"
+  },
+  {
+    "key": "AUTUMN_45",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 45,
+    "markup": "[bg_mushroom] +1 Mushrooms Spawn"
+  },
+  {
+    "key": "PURGATORY_45",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 45,
+    "markup": "[su_statueangel] Angel Statues Grant Health Boost"
+  },
+  {
+    "key": "JUNGLE_45",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 45,
+    "markup": "[cj_treeo] Orange Fruit Trees Grant Attack Boost"
+  },
+  {
+    "key": "CAVE_45",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 45,
+    "markup": "[an_scroll] Scrolls Grant Intelligence Boost"
+  },
+  {
+    "key": "UNDERWATER_45",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 45,
+    "markup": "[wdsd_relic] 25% Chance to Receive Emblem From Relics"
+  },
+  {
+    "key": "FOREIGNKINGDOM_45",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 45,
+    "markup": "[kh_satchel] 25% Chance to Receive Emblem From Caches"
+  },
+  {
+    "key": "SPACE_45",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 45,
+    "markup": "[ee_meteor] Meteors Grant An Additional Effect"
+  },
+  {
+    "key": "ALEXANDRIA_45",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 45,
+    "markup": "[dmr_biggears] Giant Gears Decrease Enemies' Attack"
+  },
+  {
+    "key": "ARIAMAKI_45",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 45,
+    "markup": "[lobab_horse] Figurines Grant Attack Boost"
+  },
+  {
+    "key": "GENAROS_45",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 45,
+    "markup": "[ot_vines] 35% Chance to Receive Emblem From Snaptrap Vines"
+  },
+  {
+    "key": "MUSE_45",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 45,
+    "markup": "[ag_bigtreasure] Keys Are No Longer Required to Open Large Treasure Chests"
+  },
+  {
+    "key": "RECLUSA_45",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 45,
+    "markup": "[gh_housecards] Houses of Cards Grant Speed Boost"
+  },
+  {
+    "key": "ROBO_45",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 45,
+    "markup": "[fl_circuit] Schematics Sometimes Refill Spell Gem Charges"
+  },
+  {
+    "key": "SHALLAN_45",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 45,
+    "markup": "[fae_orb] Orbs Decrease Enemies' Defense"
+  },
+  {
+    "key": "TMEREMRGO_45",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 45,
+    "markup": "[amg_bluerune] +1 Blue Runestones Spawn"
+  },
+  {
+    "key": "ANNELTHA_45",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 45,
+    "markup": "[fdp_bughive] Waspid Hives Drop Treasure"
+  },
+  {
+    "key": "GENERAL_46",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 46,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_47",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 47,
+    "markup": "[chancedumpling] +50% Dumpling Spawn Chance"
+  },
+  {
+    "key": "GENERAL_48",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 48,
+    "markup": "[morebreakables] +1 Breakable Objects Spawn"
+  },
+  {
+    "key": "GENERAL_49",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 49,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "LIFE_50",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 50,
+    "markup": "[ad_mirrorball] Gain Treasure From Mirrorballs"
+  },
+  {
+    "key": "DEATH_50",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 50,
+    "markup": "[ptd_mushrooms] Mushrooms Make Your Creatures Go First Next Battle"
+  },
+  {
+    "key": "NATURE_50",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 50,
+    "markup": "[swm_treasure] +50% Treasure From Treasure Piles"
+  },
+  {
+    "key": "CHAOS_50",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 50,
+    "markup": "[gpn_rock] 25% Chance for Double Resources From Rocks"
+  },
+  {
+    "key": "SORCERY_50",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 50,
+    "markup": "[rfm_potion] +2 Potions Spawn"
+  },
+  {
+    "key": "GEM_50",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 50,
+    "markup": "[tol_bigtreasure] +1 Large Treasure Chests Spawn"
+  },
+  {
+    "key": "VOID_50",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 50,
+    "markup": "[btv_relic] Void Relics Afflict a Random Debuff"
+  },
+  {
+    "key": "REACTOR_50",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 50,
+    "markup": "[cr_valve] Valves Decrease Enemies' Defense"
+  },
+  {
+    "key": "BLOODBONE_50",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 50,
+    "markup": "[tw_bigchest] +1 Large Treasure Chests Spawn"
+  },
+  {
+    "key": "GRASSLAND_50",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 50,
+    "markup": "[um_tent] Nomads Grant Treasure Chest In Next Battle"
+  },
+  {
+    "key": "DUNGEON_50",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 50,
+    "markup": "[tc_cage] Cages Kill a Random Enemy In Next Battle"
+  },
+  {
+    "key": "WINTER_50",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 50,
+    "markup": "[fc_tomb] Tombs Grant Treasure Chest After Next Battle"
+  },
+  {
+    "key": "ISLAND_50",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 50,
+    "markup": "[fe_imphut] Imp Huts Grant Attack Boost"
+  },
+  {
+    "key": "DESERT_50",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 50,
+    "markup": "[bns_quicksand] 35% Chance to Receive Emblem From Quicksand Bosses"
+  },
+  {
+    "key": "AUTUMN_50",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 50,
+    "markup": "[bg_squash] Vomiting Squash Is More Rewarding"
+  },
+  {
+    "key": "PURGATORY_50",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 50,
+    "markup": "[su_statuedevil] Demon Statues Grant Speed Boost"
+  },
+  {
+    "key": "JUNGLE_50",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 50,
+    "markup": "[cj_treey] Yellow Fruit Trees Grant Intelligence Boost"
+  },
+  {
+    "key": "CAVE_50",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 50,
+    "markup": "[an_eggs] 50% Chance to Receive Treasure From Spider Eggs"
+  },
+  {
+    "key": "UNDERWATER_50",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 50,
+    "markup": "[wdsd_treasure] +1 Large Treasure Chests Spawn"
+  },
+  {
+    "key": "FOREIGNKINGDOM_50",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 50,
+    "markup": "[kh_blood] Bloodstains Grant Speed Boost"
+  },
+  {
+    "key": "SPACE_50",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 50,
+    "markup": "[ee_rift] Rifts Grant a Treasure Chest In Next Battle"
+  },
+  {
+    "key": "ALEXANDRIA_50",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 50,
+    "markup": "[dmr_gears] 5% Chance For Piles of Gears To Spawn a Dumpling"
+  },
+  {
+    "key": "ARIAMAKI_50",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 50,
+    "markup": "[lobab_robes] Arbiter Robes Drop Treasure"
+  },
+  {
+    "key": "GENAROS_50",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 50,
+    "markup": "[ob_monlith] Monoliths Grant Treasure Chest In Next Battle"
+  },
+  {
+    "key": "MUSE_50",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 50,
+    "markup": "[ag_masochist] Masochist Statues Drop Treasure"
+  },
+  {
+    "key": "RECLUSA_50",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 50,
+    "markup": "[gh_bigslots] Large Slot Machines Grant Resources"
+  },
+  {
+    "key": "ROBO_50",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 50,
+    "markup": "[fl_modrons] Inactive Modrons Drop Treasure"
+  },
+  {
+    "key": "SHALLAN_50",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 50,
+    "markup": "[fae_fountain] Fae Fountains Sometimes Refill Spell Gem Charges"
+  },
+  {
+    "key": "TMEREMRGO_50",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 50,
+    "markup": "[amg_brazier] Neon Braziers Spawn a Nemesis Creature"
+  },
+  {
+    "key": "ANNELTHA_50",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 50,
+    "markup": "[fdp_musiccrystals] Music Crystals Are More Rewarding"
+  },
+  {
+    "key": "GENERAL_51",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 51,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "GENERAL_52",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 52,
+    "markup": "[morenemesis] +1 Nemesis Creatures Spawn"
+  },
+  {
+    "key": "GENERAL_53",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 53,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_54",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 54,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_55",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 55,
+    "markup": "[seefurther] Increased View Distance"
+  },
+  {
+    "key": "GENERAL_56",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 56,
+    "markup": "[noescapedumpling] Dumplings Never Flee"
+  },
+  {
+    "key": "GENERAL_57",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 57,
+    "markup": "[morebreakables] +1 Breakable Objects Spawn"
+  },
+  {
+    "key": "GENERAL_58",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 58,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_59",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 59,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "LIFE_60",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 60,
+    "markup": "[ad_angelshrine] Angel Shrines Grant Health Boost"
+  },
+  {
+    "key": "DEATH_60",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 60,
+    "markup": "[ptd_rock] 25% Chance for Double Resources From Rocks"
+  },
+  {
+    "key": "NATURE_60",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 60,
+    "markup": "[swm_flower] Flowers Grant Defense Boost"
+  },
+  {
+    "key": "CHAOS_60",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 60,
+    "markup": "[gpn_minivolcano] +2 Mini Volcanoes Spawn"
+  },
+  {
+    "key": "SORCERY_60",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 60,
+    "markup": "[rfm_telescope] Telescopes Reveal a Large Area"
+  },
+  {
+    "key": "GEM_60",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 60,
+    "markup": "[tol_rainbowwell] Rainbow Wells Grant Resistance to Debuffs In Next Battle"
+  },
+  {
+    "key": "VOID_60",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 60,
+    "markup": "[btv_portal] Portal Bosses Grant Defense Boost"
+  },
+  {
+    "key": "REACTOR_60",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 60,
+    "markup": "[cr_parchment] +100% Knowledge From Parchment"
+  },
+  {
+    "key": "BLOODBONE_60",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 60,
+    "markup": "[tw_effigy] Effigies Drop Treasure"
+  },
+  {
+    "key": "GRASSLAND_60",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 60,
+    "markup": "[um_gems] Gem Piles Grant 100% Critical Chance In Next Battle"
+  },
+  {
+    "key": "DUNGEON_60",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 60,
+    "markup": "[tc_rack] 25% Chance to Receive Emblem From Torture Devices"
+  },
+  {
+    "key": "WINTER_60",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 60,
+    "markup": "[fc_campfire] Campfires Drop Treasure"
+  },
+  {
+    "key": "ISLAND_60",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 60,
+    "markup": "[fe_moai] Altars Reduce Enemies' Spell Gem Count In Next Battle"
+  },
+  {
+    "key": "DESERT_60",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 60,
+    "markup": "[bns_tent] Tents Grant 100% Dodge Chance In Next Battle"
+  },
+  {
+    "key": "AUTUMN_60",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 60,
+    "markup": "[bg_tent] Tents Grant Timeline Priority In Next Battle"
+  },
+  {
+    "key": "PURGATORY_60",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 60,
+    "markup": "[su_statuemonarch] +1 Stat Boosts From King Statues"
+  },
+  {
+    "key": "JUNGLE_60",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 60,
+    "markup": "[cj_treep] +1 Stat Boosts From Pink Fruit Trees"
+  },
+  {
+    "key": "CAVE_60",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 60,
+    "markup": "[an_spider] Spiderlings Kill a Random Enemy In Next Battle"
+  },
+  {
+    "key": "UNDERWATER_60",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 60,
+    "markup": "[wdsd_doubloon] Doubloons Grant Treasure Chest In Next Battle"
+  },
+  {
+    "key": "FOREIGNKINGDOM_60",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 60,
+    "markup": "[kh_books] +1 Knowledge From Book Shelves"
+  },
+  {
+    "key": "SPACE_60",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 60,
+    "markup": "[ee_orbmoon] +1 Buffs From Moon Orbs"
+  },
+  {
+    "key": "ALEXANDRIA_60",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 60,
+    "markup": "[dmr_scrap] Scrap Grants Defense Boost"
+  },
+  {
+    "key": "ARIAMAKI_60",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 60,
+    "markup": "[lobab_scaleleft] 50% Chance to Receive Treasure From Left-Tipping Scales"
+  },
+  {
+    "key": "GENAROS_60",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 60,
+    "markup": "[ot_orb] Mysterious Orbs Reward 1 Emblem"
+  },
+  {
+    "key": "MUSE_60",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 60,
+    "markup": "[ag_greenstatue] Animation Statues Drop Treasure"
+  },
+  {
+    "key": "RECLUSA_60",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 60,
+    "markup": "[gh_dwarf] Drunken Gambling Dwarves Grant Timeline Priority In Next Battle"
+  },
+  {
+    "key": "ROBO_60",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 60,
+    "markup": "[fl_cog] Shiny Cogs Decrease Enemies' Stats"
+  },
+  {
+    "key": "SHALLAN_60",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 60,
+    "markup": "[fae_dreamcatch] +1 Dream Catchers Spawn"
+  },
+  {
+    "key": "TMEREMRGO_60",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 60,
+    "markup": "[amg_roses] Neon Roses Grant 100% Dodge Chance In Next Battle"
+  },
+  {
+    "key": "ANNELTHA_60",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 60,
+    "markup": "[fdp_redmagnet] Red Magnetic Stones Decrease Enemies' Speed"
+  },
+  {
+    "key": "GENERAL_61",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 61,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_62",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 62,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_63",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 63,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "GENERAL_64",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 64,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_65",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 65,
+    "markup": "[chancetgolem] +50% Treasure Golem Spawn Chance"
+  },
+  {
+    "key": "GENERAL_66",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 66,
+    "markup": "[noescapetgolem] Treasure Golems Never Flee"
+  },
+  {
+    "key": "GENERAL_67",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 67,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_68",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 68,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_69",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 69,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "LIFE_70",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 70,
+    "markup": "[ad_plasmaportal] More Treasure From Azure Dreams Boss Rooms"
+  },
+  {
+    "key": "DEATH_70",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 70,
+    "markup": "[ptd_tombstone] Tombstones Sometimes Grant Trait Materials"
+  },
+  {
+    "key": "NATURE_70",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 70,
+    "markup": "[swm_temple] More Treasure From The Swamplands Boss Rooms"
+  },
+  {
+    "key": "CHAOS_70",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 70,
+    "markup": "[gpn_livingember] Living Embers Grant Attack Boost"
+  },
+  {
+    "key": "SORCERY_70",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 70,
+    "markup": "[rfm_splat] Splat Pools Grant a Minion"
+  },
+  {
+    "key": "GEM_70",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 70,
+    "markup": "[tol_portal] Portal Bosses Grant Intelligence Boost"
+  },
+  {
+    "key": "VOID_70",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 70,
+    "markup": "[btv_cache] Caches Grant 100% Dodge Chance In Next Battle"
+  },
+  {
+    "key": "REACTOR_70",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 70,
+    "markup": "[cr_potion] Potions Grant a Stat Boost"
+  },
+  {
+    "key": "BLOODBONE_70",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 70,
+    "markup": "[tw_bones] Charred Bones Drop Treasure"
+  },
+  {
+    "key": "GRASSLAND_70",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 70,
+    "markup": "[um_feather] -1 Golden Feather Chase Time"
+  },
+  {
+    "key": "DUNGEON_70",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 70,
+    "markup": "[tc_maiden] 5% Chance for Iron Maidens to Spawn a Dumpling"
+  },
+  {
+    "key": "WINTER_70",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 70,
+    "markup": "[fc_igloo] Igloos Grant 100% Critical Chance In Next Battle"
+  },
+  {
+    "key": "ISLAND_70",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 70,
+    "markup": "[fe_pineapple] 20% Chance to Receive Emblem From Pineapples"
+  },
+  {
+    "key": "DESERT_70",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 70,
+    "markup": "[bns_relic] Relics Damage Enemies"
+  },
+  {
+    "key": "AUTUMN_70",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 70,
+    "markup": "[bg_flute] Flutes Grant +1 Attacks In Next Battle"
+  },
+  {
+    "key": "PURGATORY_70",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 70,
+    "markup": "[su_brain] Brains Drop Treasure"
+  },
+  {
+    "key": "JUNGLE_70",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 70,
+    "markup": "[cj_totem] Totems Decrease Enemies' Stats"
+  },
+  {
+    "key": "CAVE_70",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 70,
+    "markup": "[an_webs] 5% Chance For Victims to Spawn a Treasure Golem"
+  },
+  {
+    "key": "UNDERWATER_70",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 70,
+    "markup": "[wdsd_mask] Masks Decrease Enemies' Stats"
+  },
+  {
+    "key": "FOREIGNKINGDOM_70",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 70,
+    "markup": "[kh_potions] Potion Shelves Decrease Enemies' Stats"
+  },
+  {
+    "key": "SPACE_70",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 70,
+    "markup": "[ee_orbsun] Sun Orbs Drop Treasure"
+  },
+  {
+    "key": "ALEXANDRIA_70",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 70,
+    "markup": "[dmr_generator] Generators Damage Enemies"
+  },
+  {
+    "key": "ARIAMAKI_70",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 70,
+    "markup": "[lobab_scaleright] 50% Chance to Receive Treasure From Right-Tipping Scales"
+  },
+  {
+    "key": "GENAROS_70",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 70,
+    "markup": "[ot_altar] Bloodstained Altars Grant Speed Boost"
+  },
+  {
+    "key": "MUSE_70",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 70,
+    "markup": "[ag_sculpture] +2 Sculptures Spawn"
+  },
+  {
+    "key": "RECLUSA_70",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 70,
+    "markup": "[gh_cards] Decks of Cards Grant Treasure Chest After Next Battle"
+  },
+  {
+    "key": "ROBO_70",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 70,
+    "markup": "[fl_weapons] Weapon Piles Damage Enemies"
+  },
+  {
+    "key": "SHALLAN_70",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 70,
+    "markup": "[fae_fairy] -1 Mischievous Fae Chase Time"
+  },
+  {
+    "key": "TMEREMRGO_70",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 70,
+    "markup": "[amg_eyeportal] Eyes of T'mere M'rgo Grant Timeline Priority In Next Battle"
+  },
+  {
+    "key": "ANNELTHA_70",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 70,
+    "markup": "[fdp_bluemagnet] Blue Magnetic Stones Grant a Random Stat Boost"
+  },
+  {
+    "key": "GENERAL_71",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 71,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_72",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 72,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_73",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 73,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "GENERAL_74",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 74,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_75",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 75,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_76",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 76,
+    "markup": "[chancedumpling] +50% Dumpling Spawn Chance"
+  },
+  {
+    "key": "GENERAL_77",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 77,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_78",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 78,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_79",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 79,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "LIFE_80",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 80,
+    "markup": "[ad_starpiece] Stars Are More Rewarding"
+  },
+  {
+    "key": "DEATH_80",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 80,
+    "markup": "[ptd_skulls] 25% Chance to Receive Emblem From Skull Piles"
+  },
+  {
+    "key": "NATURE_80",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 80,
+    "markup": "[swm_hunters] Receive Treasure From Hunter's Lodges"
+  },
+  {
+    "key": "CHAOS_80",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 80,
+    "markup": "[gpn_devilnest] Receive Treasure From Apocalypse Nests"
+  },
+  {
+    "key": "SORCERY_80",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 80,
+    "markup": "[rfm_phaseportal] Phase Portals Reduce Enemies' Spell Gems By 3 In Next Battle"
+  },
+  {
+    "key": "GEM_80",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 80,
+    "markup": "[tol_horseshoe] Receive Treasure From Horseshoe Battles"
+  },
+  {
+    "key": "VOID_80",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 80,
+    "markup": "[btv_shadowcage] Receive Treasure From Shadow Locker Battles"
+  },
+  {
+    "key": "REACTOR_80",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 80,
+    "markup": "[cr_cache] Caches Kill Random Enemy In Next Battle"
+  },
+  {
+    "key": "BLOODBONE_80",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 80,
+    "markup": "[tw_geyser] Additional Stat Reduction From Geysers"
+  },
+  {
+    "key": "GRASSLAND_80",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 80,
+    "markup": "[um_totem] Corrupted Totems Grant Treasure"
+  },
+  {
+    "key": "DUNGEON_80",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 80,
+    "markup": "[tc_paper] +1 Knowledge Items From Parchment"
+  },
+  {
+    "key": "WINTER_80",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 80,
+    "markup": "[fc_yeti] Frozen Yetis Grant Resistance to Debuffs In Next Battle"
+  },
+  {
+    "key": "ISLAND_80",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 80,
+    "markup": "[fe_eggs] Drake Eggs Grant Timeline Priority In Next Battle"
+  },
+  {
+    "key": "DESERT_80",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 80,
+    "markup": "[bns_oasis] Oases Are More Rewarding"
+  },
+  {
+    "key": "AUTUMN_80",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 80,
+    "markup": "[bg_cave] Cove Boss Battles Grant +1 Casts In Next Battle"
+  },
+  {
+    "key": "PURGATORY_80",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 80,
+    "markup": "[su_mirror] Mirrors Grant Increased Damage In Next Battle"
+  },
+  {
+    "key": "JUNGLE_80",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 80,
+    "markup": "[cj_imphut] Imp Huts Damage Enemies"
+  },
+  {
+    "key": "CAVE_80",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 80,
+    "markup": "[an_ichor] 5% Chance For Ichor To Spawn a Dumpling"
+  },
+  {
+    "key": "UNDERWATER_80",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 80,
+    "markup": "[wdsd_jellyfish] Jellyfish Grant Resources"
+  },
+  {
+    "key": "FOREIGNKINGDOM_80",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 80,
+    "markup": "[kh_knight] Knights Kill Random Enemy In Next Battle"
+  },
+  {
+    "key": "SPACE_80",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 80,
+    "markup": "[ee_orbarcane] +100% Resources From Arcane Orbs"
+  },
+  {
+    "key": "ALEXANDRIA_80",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 80,
+    "markup": "[dmr_portal] More Treasure From Damarel Boss Rooms"
+  },
+  {
+    "key": "ARIAMAKI_80",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 80,
+    "markup": "[lobab_tarot] Tarot Card Collection Is More Rewarding"
+  },
+  {
+    "key": "GENAROS_80",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 80,
+    "markup": "[ot_bookshelf] Bookshelves Decrease Enemies' Attack"
+  },
+  {
+    "key": "MUSE_80",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 80,
+    "markup": "[ag_paintbrush] -1 Animated Paintbrush Chase Time"
+  },
+  {
+    "key": "RECLUSA_80",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 80,
+    "markup": "[gh_smallslots] Small Slot Machines Drop Treasure"
+  },
+  {
+    "key": "ROBO_80",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 80,
+    "markup": "[fl_machine] Inactive Automatons Drop Treasure"
+  },
+  {
+    "key": "SHALLAN_80",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 80,
+    "markup": "[fae_treasure] 25% Chance to Receive Emblem From Fae Caches"
+  },
+  {
+    "key": "TMEREMRGO_80",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 80,
+    "markup": "[amg_chimera] +50% Treasure From Abandoned Caves"
+  },
+  {
+    "key": "ANNELTHA_80",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 80,
+    "markup": "[fdp_glowingpit] Glowing Pits Drop Treasure"
+  },
+  {
+    "key": "GENERAL_81",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 81,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_82",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 82,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_83",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 83,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_84",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 84,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "GENERAL_85",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 85,
+    "markup": "[chancetgolem] +50% Treasure Golem Spawn Chance"
+  },
+  {
+    "key": "GENERAL_86",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 86,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_87",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 87,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_88",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 88,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "GENERAL_89",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 89,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "LIFE_90",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 90,
+    "markup": "[ad_fruitoflife] Fruit of Life Grants Defense Boost"
+  },
+  {
+    "key": "DEATH_90",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 90,
+    "markup": "[ptd_flower] Death Blossoms Grant Defense Boost"
+  },
+  {
+    "key": "NATURE_90",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 90,
+    "markup": "[swm_ims] Receive Treasure From Im Caves"
+  },
+  {
+    "key": "CHAOS_90",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 90,
+    "markup": "[gpn_magmaball] Magma Orbs Grant Attack Boost"
+  },
+  {
+    "key": "SORCERY_90",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 90,
+    "markup": "[rfm_alchemy] Alchemy Experiments Are More Rewarding"
+  },
+  {
+    "key": "GEM_90",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 90,
+    "markup": "[tol_cruncherdust] Receive Treasure From Cruncher Dust Battles"
+  },
+  {
+    "key": "VOID_90",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 90,
+    "markup": "[btv_wisps] Receive Treasure From Wisp Battles"
+  },
+  {
+    "key": "REACTOR_90",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 90,
+    "markup": "[cr_slime] 10% Chance for Concoctions to Spawn a Treasure Golem"
+  },
+  {
+    "key": "BLOODBONE_90",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 90,
+    "markup": "[tw_bloodwell] Blood Wells Grant Health Boost"
+  },
+  {
+    "key": "GRASSLAND_90",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 90,
+    "markup": "[um_effigy] +2 Effigies Spawn"
+  },
+  {
+    "key": "DUNGEON_90",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 90,
+    "markup": "[tc_scroll] Scrolls Grant Knowledge"
+  },
+  {
+    "key": "WINTER_90",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 90,
+    "markup": "[fc_grave] Mummy Graves Drop Treasure"
+  },
+  {
+    "key": "ISLAND_90",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 90,
+    "markup": "[fe_crab] Crabs Decrease Enemies' Defense"
+  },
+  {
+    "key": "DESERT_90",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 90,
+    "markup": "[bns_treasure] Buried Treasure Grants Treasure Chest After Next Battle"
+  },
+  {
+    "key": "AUTUMN_90",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 90,
+    "markup": "[bg_trap] Traps Damage Enemies"
+  },
+  {
+    "key": "PURGATORY_90",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 90,
+    "markup": "[su_obelisk] Obelisks Grant a Minion"
+  },
+  {
+    "key": "JUNGLE_90",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 90,
+    "markup": "[cj_fruity] Vomiting Fruit Is More Rewarding"
+  },
+  {
+    "key": "CAVE_90",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 90,
+    "markup": "[an_shrine] Spider Shrines Spawn a Nemesis Creature"
+  },
+  {
+    "key": "UNDERWATER_90",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 90,
+    "markup": "[wdsd_shipwreck] 50% Chance to Receive Double Resources From Shipwrecks"
+  },
+  {
+    "key": "FOREIGNKINGDOM_90",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 90,
+    "markup": "[kh_arms] Coats of Arms Drop Treasure"
+  },
+  {
+    "key": "SPACE_90",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 90,
+    "markup": "[ee_spire] Spires Grant a Random Stat Boost"
+  },
+  {
+    "key": "ALEXANDRIA_90",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 90,
+    "markup": "[dmr_clock] +1 Clocks Spawn"
+  },
+  {
+    "key": "ARIAMAKI_90",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 90,
+    "markup": "[lobab_book] +50% Treasure From Bookshelves"
+  },
+  {
+    "key": "GENAROS_90",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 90,
+    "markup": "[ot_statue] Pristine Statues Decrease Enemies' Speed"
+  },
+  {
+    "key": "MUSE_90",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 90,
+    "markup": "[ag_portal] More Treasure From Astral Gallery Boss Rooms"
+  },
+  {
+    "key": "RECLUSA_90",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 90,
+    "markup": "[gh_gamewheel] More Treasure From Gambler's Hive Boss Rooms"
+  },
+  {
+    "key": "ROBO_90",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 90,
+    "markup": "[fl_robohead] 15% Chance for Robot Assembly to Spawn a Treasure Golem"
+  },
+  {
+    "key": "SHALLAN_90",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 90,
+    "markup": "[fae_fae] Fae Drop Treasure"
+  },
+  {
+    "key": "TMEREMRGO_90",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 90,
+    "markup": "[amg_redrune] Red Runestones Kill Random Enemy In Next Battle"
+  },
+  {
+    "key": "ANNELTHA_90",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 90,
+    "markup": "[fdp_wormpit] Pit Worm Pits Drop Treasure"
+  },
+  {
+    "key": "GENERAL_91",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 91,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_92",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 92,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_93",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 93,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "GENERAL_94",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 94,
+    "markup": "[chancedumpling] +50% Dumpling Spawn Chance"
+  },
+  {
+    "key": "GENERAL_95",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 95,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_96",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 96,
+    "markup": "[moretreasure] +10% Treasure From All Sources"
+  },
+  {
+    "key": "GENERAL_97",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 97,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "GENERAL_98",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 98,
+    "markup": "[morenoderesources] +10% Resources From Resource Nodes"
+  },
+  {
+    "key": "GENERAL_99",
+    "patronKey": "GENERAL",
+    "patron": "General",
+    "tier": 99,
+    "markup": "[morebtlresources] +5% Resources From Battles"
+  },
+  {
+    "key": "LIFE_100",
+    "patronKey": "LIFE",
+    "patron": "Life",
+    "tier": 100,
+    "markup": "[ad_obelisk] Obelisks Sometimes Refill Spell Gem Charges"
+  },
+  {
+    "key": "DEATH_100",
+    "patronKey": "DEATH",
+    "patron": "Death",
+    "tier": 100,
+    "markup": "[ptd_skullcandle] Illuminated Candles Damage Enemies"
+  },
+  {
+    "key": "NATURE_100",
+    "patronKey": "NATURE",
+    "patron": "Nature",
+    "tier": 100,
+    "markup": "[swm_obelisk] Obelisks Sometimes Refill Spell Gem Charges"
+  },
+  {
+    "key": "CHAOS_100",
+    "patronKey": "CHAOS",
+    "patron": "Chaos",
+    "tier": 100,
+    "markup": "[gpn_nemesisshrine] Nemesis Shrines Kill Random Enemy In Next Battle"
+  },
+  {
+    "key": "SORCERY_100",
+    "patronKey": "SORCERY",
+    "patron": "Sorcery",
+    "tier": 100,
+    "markup": "[rfm_bookshelf] Grimoire Shelves Grant Intelligence Boost"
+  },
+  {
+    "key": "GEM_100",
+    "patronKey": "GEM",
+    "patron": "Temple of Lies",
+    "tier": 100,
+    "markup": "[tol_giantgem] Giant Gems Sometimes Refill Spell Gem Charges"
+  },
+  {
+    "key": "VOID_100",
+    "patronKey": "VOID",
+    "patron": "Bastion of the Void",
+    "tier": 100,
+    "markup": "[btv_geyser] Additional Stat Reduction From Geysers"
+  },
+  {
+    "key": "REACTOR_100",
+    "patronKey": "REACTOR",
+    "patron": "Caustic Reactor",
+    "tier": 100,
+    "markup": "[cr_sewer] 35% chance to Receive Emblem From Sewers"
+  },
+  {
+    "key": "BLOODBONE_100",
+    "patronKey": "BLOODBONE",
+    "patron": "Titan's Wound",
+    "tier": 100,
+    "markup": "[tw_zits] Zits Grant 100% Dodge Chance In Next Battle"
+  },
+  {
+    "key": "GRASSLAND_100",
+    "patronKey": "GRASSLAND",
+    "patron": "Unsullied Meadows",
+    "tier": 100,
+    "markup": "[um_pinwheel] Pinwheels Grant Timeline Priority In Next Battle"
+  },
+  {
+    "key": "DUNGEON_100",
+    "patronKey": "DUNGEON",
+    "patron": "Torture Chamber",
+    "tier": 100,
+    "markup": "[tc_well] Wells Decrease Enemies' Defense"
+  },
+  {
+    "key": "WINTER_100",
+    "patronKey": "WINTER",
+    "patron": "Winter",
+    "tier": 100,
+    "markup": "[fc_diamond] Diamonds Decrease Enemies' Defense"
+  },
+  {
+    "key": "ISLAND_100",
+    "patronKey": "ISLAND",
+    "patron": "Faraway Enclave",
+    "tier": 100,
+    "markup": "[fe_starfish] Starfish Grant Random Spell Gem"
+  },
+  {
+    "key": "DESERT_100",
+    "patronKey": "DESERT",
+    "patron": "The Barrens",
+    "tier": 100,
+    "markup": "[bns_shrine] Sand Shrines Decrease Enemies' Stats"
+  },
+  {
+    "key": "AUTUMN_100",
+    "patronKey": "AUTUMN",
+    "patron": "Blood Grove",
+    "tier": 100,
+    "markup": "[bg_mushroom] 30% Chance to Receive Emblem From Mushrooms"
+  },
+  {
+    "key": "PURGATORY_100",
+    "patronKey": "PURGATORY",
+    "patron": "Sanctum Umbra",
+    "tier": 100,
+    "markup": "[su_tithe] Tithes Damage Enemies"
+  },
+  {
+    "key": "JUNGLE_100",
+    "patronKey": "JUNGLE",
+    "patron": "Cutthroat Jungle",
+    "tier": 100,
+    "markup": "[cj_cairn] Cairns Grant Increased Damage In Next Battle"
+  },
+  {
+    "key": "CAVE_100",
+    "patronKey": "CAVE",
+    "patron": "Arachnid Nest",
+    "tier": 100,
+    "markup": "[an_scroll] +1 Knowledge From Scrolls"
+  },
+  {
+    "key": "UNDERWATER_100",
+    "patronKey": "UNDERWATER",
+    "patron": "Where the Dead Ships Dwell",
+    "tier": 100,
+    "markup": "[wdsd_relic] Relics Decrease Enemies' Stats"
+  },
+  {
+    "key": "FOREIGNKINGDOM_100",
+    "patronKey": "FOREIGNKINGDOM",
+    "patron": "Kingdom of Heretics",
+    "tier": 100,
+    "markup": "[kh_satchel] Caches Grant Random Stat Boost"
+  },
+  {
+    "key": "SPACE_100",
+    "patronKey": "SPACE",
+    "patron": "Eternity's End",
+    "tier": 100,
+    "markup": "[ee_meteor] Meteors Grant An Additional Effect"
+  },
+  {
+    "key": "ALEXANDRIA_100",
+    "patronKey": "ALEXANDRIA",
+    "patron": "Alexandria",
+    "tier": 100,
+    "markup": "[dmr_biggears] Giant Gears Decrease Enemies' Intelligence"
+  },
+  {
+    "key": "ARIAMAKI_100",
+    "patronKey": "ARIAMAKI",
+    "patron": "Ariamaki",
+    "tier": 100,
+    "markup": "[lobab_horse] Figurines Grant Speed Boost"
+  },
+  {
+    "key": "GENAROS_100",
+    "patronKey": "GENAROS",
+    "patron": "Genaros",
+    "tier": 100,
+    "markup": "[ot_vines] Snaptrap Vines Drop Treasure"
+  },
+  {
+    "key": "MUSE_100",
+    "patronKey": "MUSE",
+    "patron": "Muse",
+    "tier": 100,
+    "markup": "[ag_bigtreasure] +1 Large Treasure Chests Spawn"
+  },
+  {
+    "key": "RECLUSA_100",
+    "patronKey": "RECLUSA",
+    "patron": "Reclusa",
+    "tier": 100,
+    "markup": "[gh_housecards] Houses of Cards Drop Treasure"
+  },
+  {
+    "key": "ROBO_100",
+    "patronKey": "ROBO",
+    "patron": "Robo",
+    "tier": 100,
+    "markup": "[fl_circuit] Schematics Grant Random Spell Gem"
+  },
+  {
+    "key": "SHALLAN_100",
+    "patronKey": "SHALLAN",
+    "patron": "Shallan",
+    "tier": 100,
+    "markup": "[fae_orb] Orbs Decrease Enemies' Speed"
+  },
+  {
+    "key": "TMEREMRGO_100",
+    "patronKey": "TMEREMRGO",
+    "patron": "T'mere M'rgo",
+    "tier": 100,
+    "markup": "[amg_bluerune] Blue Runestones Damage Enemies"
+  },
+  {
+    "key": "ANNELTHA_100",
+    "patronKey": "ANNELTHA",
+    "patron": "Anneltha",
+    "tier": 100,
+    "markup": "[fdp_bughive] Waspid Hives Grant 100% Dodge Chance In Next Battle"
+  }
+]

@@ -57,7 +57,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health from stat-boosting effects and can't lose these stats",
+    "maxBonus": "health from stat-boosting effects and can't lose these stats",
     "openingGuess": null
   },
   "relic:5740-ng:r40": {
@@ -88,7 +88,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "after_attack"
   },
   "relic:5740-ng:r60": {
@@ -151,7 +151,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health, it recovers Health equal to 50% of the amount gained",
+    "maxBonus": "health, it recovers health equal to 50% of the amount gained",
     "openingGuess": null
   },
   "relic:amalgam:r10": {
@@ -811,7 +811,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": null
   },
   "relic:bloodseeker:r20": {
@@ -856,7 +856,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health equal to 3% of the amount healed",
+    "maxBonus": "health equal to 3% of the amount healed",
     "openingGuess": null
   },
   "relic:bloodseeker:r50": {
@@ -873,7 +873,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health, your other creatures gain Maximum Health equal to 50% of this amount",
+    "maxBonus": "health, your other creatures gain Maximum health equal to 50% of this amount",
     "openingGuess": null
   },
   "relic:bloodseeker:r60": {
@@ -906,7 +906,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health from stat-increasing effects",
+    "maxBonus": "health from stat-increasing effects",
     "openingGuess": null
   },
   "relic:bloodseeker:r80": {
@@ -924,7 +924,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health rather than Intelligence",
+    "maxBonus": "health rather than intelligence",
     "openingGuess": null
   },
   "relic:bloodseeker:r90": {
@@ -1014,7 +1014,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "end_of_turn"
   },
   "relic:brambleskin:r50": {
@@ -1031,7 +1031,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health from stat-boosting effects",
+    "maxBonus": "health from stat-boosting effects",
     "openingGuess": null
   },
   "relic:brambleskin:r60": {
@@ -1039,8 +1039,7 @@
     "stats": [],
     "allStats": false,
     "percents": [
-      3,
-      90
+      3
     ],
     "tiers": [],
     "chance": null,
@@ -1201,7 +1200,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "after_provoke"
   },
   "relic:dusk-and-dawn:r70": {
     "statuses": {},
@@ -1360,8 +1359,7 @@
     "stats": [],
     "allStats": false,
     "percents": [
-      3,
-      90
+      3
     ],
     "tiers": [],
     "chance": null,
@@ -1894,7 +1892,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "after_provoke"
   },
   "relic:hanti-and-jihi:r30": {
     "statuses": {},
@@ -1910,8 +1908,8 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
-    "openingGuess": null
+    "maxBonus": "health",
+    "openingGuess": "after_attacked"
   },
   "relic:hanti-and-jihi:r40": {
     "statuses": {},
@@ -1955,7 +1953,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "after_attacked"
   },
   "relic:hanti-and-jihi:r70": {
     "statuses": {},
@@ -1993,7 +1991,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": "after_cast"
+    "openingGuess": "after_attacked"
   },
   "relic:lamora:r10": {
     "statuses": {
@@ -2585,8 +2583,7 @@
     "stats": [],
     "allStats": false,
     "percents": [
-      10,
-      90
+      10
     ],
     "tiers": [],
     "chance": null,
@@ -3043,8 +3040,7 @@
     "stats": [],
     "allStats": false,
     "percents": [
-      3,
-      90
+      3
     ],
     "tiers": [],
     "chance": null,
@@ -3151,8 +3147,7 @@
     "stats": [],
     "allStats": false,
     "percents": [
-      3,
-      90
+      3
     ],
     "tiers": [],
     "chance": null,
@@ -3457,7 +3452,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health by 5%",
+    "maxBonus": "health by 5%",
     "openingGuess": "after_damaged"
   },
   "relic:salus:r60": {
@@ -3529,7 +3524,7 @@
     "doesNotStack": false,
     "perRank": false,
     "maxBonus": null,
-    "openingGuess": null
+    "openingGuess": "after_defend"
   },
   "relic:starwrath:r100": {
     "statuses": {
@@ -4228,8 +4223,7 @@
     "stats": [],
     "allStats": false,
     "percents": [
-      3,
-      90
+      3
     ],
     "tiers": [],
     "chance": null,
@@ -4329,7 +4323,7 @@
     "chance": null,
     "doesNotStack": false,
     "perRank": false,
-    "maxBonus": "Health",
+    "maxBonus": "health",
     "openingGuess": "after_afflicted"
   },
   "relic:void-essence:r50": {

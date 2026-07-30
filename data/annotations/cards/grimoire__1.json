@@ -1,14 +1,14 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "card:grimore:2",
+  "id": "card:grimoire:1",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "chance": 10,
+      "chance": 5,
       "actions": [
         {
           "verb": "status_modifier",
@@ -17,11 +17,11 @@
             "Arcane"
           ],
           "params": {
-            "effect": "not removed after casting a spell"
+            "effect": "grants the Spell Gem an extra Charge on activation"
           }
         }
       ]
     }
   ],
-  "textHash": "b2de87656cae"
+  "textHash": "f7cbc396c55b"
 }

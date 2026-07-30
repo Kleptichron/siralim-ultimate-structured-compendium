@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "spell:prismatic-channelling",
+  "id": "spell:ignis-fatuus",
   "rules": [
     {
       "trigger": {
@@ -10,17 +10,18 @@
       "actions": [
         {
           "verb": "deal_damage",
-          "target": "enemies",
+          "target": "target",
           "magnitude": {
-            "tier": "large"
+            "tier": "moderate",
+            "scaleRef": "spell_gems"
           },
           "params": {
-            "bonusPct": 20,
-            "per": "different class fighting on your side"
+            "bonusPct": 25,
+            "per": "Ethereal Spell Gem it has"
           }
         }
       ]
     }
   ],
-  "textHash": "9c060efe76df"
+  "textHash": "ea5a6a9f8cdf"
 }
