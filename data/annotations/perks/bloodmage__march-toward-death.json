@@ -17,10 +17,13 @@
             "direction": "up",
             "scaleStat": "missing_health",
             "scalePct": 50
+          },
+          "params": {
+            "source": "attacks and spells"
           }
         }
       ]
     }
   ],
-  "textHash": "e289decf7d40"
+  "textHash": "b5d6eb5206c1"
 }

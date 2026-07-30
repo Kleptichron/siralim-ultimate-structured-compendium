@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:escamotage",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "chance": 80,
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Shelled",
+            "Arcane"
+          ],
+          "params": {
+            "effect": "persists when it would be removed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "3b87b36fe00d"
+}

@@ -1,16 +1,13 @@
 {
-  "id": "perk:shadowbringer:shadow-sickness",
-  "textHash": "9e8f662c1595",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "always-have",
+  "provenance": "claude",
+  "id": "perk:shadowbringer:shadow-sickness",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "enemies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -24,5 +21,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "888398e8f8cf"
 }

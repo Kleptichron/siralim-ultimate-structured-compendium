@@ -1,16 +1,13 @@
 {
-  "id": "perk:hell-knight:indomitable",
-  "textHash": "e5b06c544658",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "immune-group",
+  "provenance": "claude",
+  "id": "perk:hell-knight:indomitable",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "prevent_status",
@@ -21,5 +18,9 @@
         }
       ]
     }
-  ]
+  ],
+  "waivedStatuses": [
+    "Silenced"
+  ],
+  "textHash": "240044e56d7d"
 }

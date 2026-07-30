@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:pusillanimity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_attack",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "action_state",
+          "who": "enemy",
+          "params": {
+            "state": "defending"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "enemy",
+          "params": {
+            "spell": "one of their spells that interacts with debuffs",
+            "limit": "once per creature per turn"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_dodge",
+        "subject": "enemy"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "allies",
+          "target": "trigger_subject",
+          "params": {
+            "spell": "one of their spells that interacts with debuffs",
+            "limit": "once per creature per turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "937505d08121"
+}

@@ -15,10 +15,11 @@
           "statuses": [
             "Berserk",
             "Leeching"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
   ],
-  "textHash": "e16d460c9c60"
+  "textHash": "4706c85e8815"
 }

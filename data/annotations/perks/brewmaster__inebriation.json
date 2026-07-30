@@ -22,6 +22,6 @@
       ]
     }
   ],
-  "notes": "Chance is 5% per time affected by a Booze spell this battle; rule.chance records the 80% cap.",
-  "textHash": "c9114e6ef747"
+  "notes": "Chance is 5% per time affected by a Booze Spell this battle; rule.chance records the 80% cap.",
+  "textHash": "bab09888455e"
 }

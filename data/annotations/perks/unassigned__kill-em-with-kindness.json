@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:kill-em-with-kindness",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statuses": [
+            "Mania"
+          ],
+          "statusKind": "debuff",
+          "qualifiers": [
+            "permanent"
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "end_of_turn",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "trigger_subject",
+          "statuses": [
+            "Mania"
+          ],
+          "params": {
+            "effect": "its potency is refreshed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "61f2996dc74e"
+}

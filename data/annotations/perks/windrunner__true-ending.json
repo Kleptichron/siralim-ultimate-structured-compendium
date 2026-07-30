@@ -13,7 +13,7 @@
           "verb": "activation_modifier",
           "target": "any",
           "params": {
-            "what": "on-death effects",
+            "what": "effects that activate when creatures die",
             "mode": "ignored"
           }
         }
@@ -21,5 +21,5 @@
     }
   ],
   "notes": "Does not affect the Born Again perk; does not work in boss battles.",
-  "textHash": "f55218cd9d1c"
+  "textHash": "f496b864d2cd"
 }

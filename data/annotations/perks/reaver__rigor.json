@@ -1,16 +1,13 @@
 {
-  "id": "perk:reaver:rigor",
-  "textHash": "adfbe04e33be",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "immune-group",
+  "provenance": "claude",
+  "id": "perk:reaver:rigor",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "prevent_status",
@@ -23,5 +20,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "adfbe04e33be"
 }

@@ -1,16 +1,13 @@
 {
-  "id": "perk:hell-knight:magma-diver",
-  "textHash": "d617b221591e",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "always-have",
+  "provenance": "claude",
+  "id": "perk:hell-knight:magma-diver",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -25,5 +22,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "4d2e7c4407ad"
 }

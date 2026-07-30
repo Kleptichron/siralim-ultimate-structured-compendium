@@ -1,16 +1,13 @@
 {
-  "id": "perk:windrunner:quick-hands",
-  "textHash": "329df6964640",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "immune-group",
+  "provenance": "claude",
+  "id": "perk:windrunner:quick-hands",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "prevent_status",
@@ -21,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "191d6a63efc3"
 }

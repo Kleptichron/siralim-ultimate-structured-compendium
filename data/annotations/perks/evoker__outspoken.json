@@ -1,16 +1,13 @@
 {
-  "id": "perk:evoker:outspoken",
-  "textHash": "fe9e21cf7008",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "immune-group",
+  "provenance": "claude",
+  "id": "perk:evoker:outspoken",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "prevent_status",
@@ -21,5 +18,9 @@
         }
       ]
     }
-  ]
+  ],
+  "waivedStatuses": [
+    "Scorned"
+  ],
+  "textHash": "fdec30a4670c"
 }

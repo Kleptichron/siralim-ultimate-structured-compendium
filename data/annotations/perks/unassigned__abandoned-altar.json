@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:abandoned-altar",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "relic",
+            "property": "Reliquary Upgrades"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ca6b5b3379be"
+}

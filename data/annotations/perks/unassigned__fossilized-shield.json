@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:fossilized-shield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down",
+            "scaleRef": "other",
+            "per": "time their Relic has attacked or cast"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "bf395d7f953f"
+}

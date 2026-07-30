@@ -17,12 +17,11 @@
             "amountPct": 10,
             "direction": "down",
             "scaleRef": "other",
-            "per": "buff gained from your Artifacts' Trick Slots",
-            "cap": 80
+            "per": "buff gained from your Artifacts' Trick Slots"
           }
         }
       ]
     }
   ],
-  "textHash": "1cb6031633c5"
+  "textHash": "a54e9ca28dd6"
 }

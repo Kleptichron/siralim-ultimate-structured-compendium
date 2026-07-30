@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:so-happy-i-could-die",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "enemies",
+          "stats": [
+            "all"
+          ],
+          "magnitude": {
+            "direction": "down",
+            "scaleRef": "healing_received",
+            "scalePct": 30
+          },
+          "params": {
+            "except": "health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "2dfff4ccaad4"
+}

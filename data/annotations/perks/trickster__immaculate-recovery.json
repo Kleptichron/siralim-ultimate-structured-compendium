@@ -18,10 +18,11 @@
           "statuses": [
             "Invisible",
             "Shelled"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
   ],
-  "textHash": "e82c0eb03904"
+  "textHash": "a8fcc7b2f3b1"
 }

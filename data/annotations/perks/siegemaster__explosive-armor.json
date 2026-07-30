@@ -30,7 +30,7 @@
             "scaleRef": "amount_gained"
           },
           "params": {
-            "absorbs": "the Defense gained"
+            "absorbs": "the same amount of defense"
           }
         },
         {
@@ -49,5 +49,5 @@
       ]
     }
   ],
-  "textHash": "3f6937214c8f"
+  "textHash": "cf91cc327c55"
 }

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:bountiful-seas",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "any",
+          "statuses": [
+            "Blighted"
+          ],
+          "params": {
+            "effect": "its effects are ignored"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "a06645fa33c1"
+}

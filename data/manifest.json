@@ -2747,22 +2747,22 @@
     },
     "perk:animator:dancing-blade": {
       "hash": "aaef972143a4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:animator:dark-anima": {
       "hash": "ebc8a72a65a6",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:animator:death-and-decay": {
       "hash": "d742f2b53af2",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:animator:desensitization": {
       "hash": "e355f9a637a4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:animator:endowment": {
@@ -2772,7 +2772,7 @@
     },
     "perk:animator:forbidden-magic": {
       "hash": "768104495ce4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:animator:forged-by-pain": {
@@ -2812,7 +2812,7 @@
     },
     "perk:astrologer:ascendant": {
       "hash": "ac928189de37",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:astrologer:cusp": {
@@ -2852,7 +2852,7 @@
     },
     "perk:astrologer:protostar": {
       "hash": "41092da26cb4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:astrologer:solar-eclipse": {
@@ -2862,7 +2862,7 @@
     },
     "perk:astrologer:stars-align": {
       "hash": "d65cc9411135",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:astrologer:stellar-blessing": {
@@ -2877,7 +2877,7 @@
     },
     "perk:astrologer:synastry": {
       "hash": "f5b2851d8670",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:astrologer:transit": {
@@ -2942,7 +2942,7 @@
     },
     "perk:bloodmage:march-toward-death": {
       "hash": "b5d6eb5206c1",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:bloodmage:masochistic-tendencies": {
@@ -2977,7 +2977,7 @@
     },
     "perk:brewmaster:autograt": {
       "hash": "13ac838b6da4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:brewmaster:brewmaster-s-handshake": {
@@ -3012,12 +3012,12 @@
     },
     "perk:brewmaster:inebriation": {
       "hash": "bab09888455e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:brewmaster:liquid-courage": {
       "hash": "2d67159173c6",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:brewmaster:muddle": {
@@ -3032,7 +3032,7 @@
     },
     "perk:brewmaster:numb-the-pain": {
       "hash": "3359470c6747",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:brewmaster:on-the-house": {
@@ -3047,7 +3047,7 @@
     },
     "perk:brewmaster:straight-up": {
       "hash": "b87bef9ec9ac",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:brewmaster:top-shelf": {
@@ -3067,7 +3067,7 @@
     },
     "perk:cabalist:embrace-the-arcane": {
       "hash": "b1b0a14d75ad",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:cabalist:familiar": {
@@ -3117,7 +3117,7 @@
     },
     "perk:cabalist:spellslinger": {
       "hash": "1b4def6b09cf",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:cabalist:temporal-concentration": {
@@ -3127,8 +3127,8 @@
     },
     "perk:cabalist:unshackled": {
       "hash": "fdec30a4670c",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cabalist:wild-magic": {
       "hash": "6ebda17cc098",
@@ -3142,8 +3142,8 @@
     },
     "perk:cleric:consecrated-ground": {
       "hash": "4f6f02f5b6c5",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:cleric:greater-healing": {
       "hash": "6404d9ca18e8",
@@ -3182,7 +3182,7 @@
     },
     "perk:cleric:luminesce": {
       "hash": "9a03eef6d80e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:cleric:overheal": {
@@ -3267,7 +3267,7 @@
     },
     "perk:defiler:impiety": {
       "hash": "7fd95c3b74c2",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:defiler:infirmity": {
@@ -3287,7 +3287,7 @@
     },
     "perk:defiler:nighttaker": {
       "hash": "31d7c9ce8119",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:defiler:tenderness": {
@@ -3312,12 +3312,12 @@
     },
     "perk:demonologist:brim-fiends": {
       "hash": "cb543fd7e5c7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:chaos-satyrs": {
       "hash": "e0c42dbbe872",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:demonic-consumption": {
@@ -3342,7 +3342,7 @@
     },
     "perk:demonologist:fire-imps": {
       "hash": "f1dc36d8cb61",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:inner-demons": {
@@ -3357,47 +3357,47 @@
     },
     "perk:demonologist:renounce-the-light": {
       "hash": "f1e8c6ba9b66",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:soul-shield": {
       "hash": "50c30f71c554",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:summon-asmodeus": {
       "hash": "03f659bf9cba",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:summon-beelzebub": {
       "hash": "2c315693acab",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:summon-belphegor": {
       "hash": "8c4dadfea16a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:summon-leviathan": {
       "hash": "b04e7de99db5",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:summon-lucifer": {
       "hash": "bdba2daea030",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:summon-mammon": {
       "hash": "852b88949af9",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:summon-satanachia": {
       "hash": "de094e61152c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:demonologist:void-shift": {
@@ -3437,7 +3437,7 @@
     },
     "perk:doombringer:detainment": {
       "hash": "9d2acdb6c24e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:doombringer:domination": {
@@ -3467,7 +3467,7 @@
     },
     "perk:doombringer:outburst": {
       "hash": "ef7c99829b3a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:doombringer:recklessness": {
@@ -3517,7 +3517,7 @@
     },
     "perk:dreamshade:damned-visions": {
       "hash": "886361a0ea7b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:dreamshade:delusion-of-grandeur": {
@@ -3537,7 +3537,7 @@
     },
     "perk:dreamshade:hallucination": {
       "hash": "c0fb24eee3c5",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:dreamshade:late-confessions": {
@@ -3547,8 +3547,8 @@
     },
     "perk:dreamshade:losing-touch": {
       "hash": "4f6f02f5b6c5",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:dreamshade:lost-in-the-echo": {
       "hash": "89af61b9047f",
@@ -3667,7 +3667,7 @@
     },
     "perk:engineer:dismantlement": {
       "hash": "1850b3d644f1",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:engineer:drone-bait": {
@@ -3717,7 +3717,7 @@
     },
     "perk:engineer:primed-and-ready": {
       "hash": "a993e1511fe2",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:engineer:prototype": {
@@ -3757,7 +3757,7 @@
     },
     "perk:evoker:echo": {
       "hash": "8d05a06b8323",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:evoker:efficiency": {
@@ -3787,8 +3787,8 @@
     },
     "perk:evoker:outspoken": {
       "hash": "fdec30a4670c",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:evoker:overload": {
       "hash": "a374df0ff5e9",
@@ -3852,7 +3852,7 @@
     },
     "perk:fanatic:multitheism": {
       "hash": "65caf973ed70",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:fanatic:nirvana": {
@@ -3932,8 +3932,8 @@
     },
     "perk:gladiator:grip-of-the-gods": {
       "hash": "191d6a63efc3",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:gladiator:helping-hand": {
       "hash": "e3439844cda7",
@@ -3967,7 +3967,7 @@
     },
     "perk:gladiator:taking-measure": {
       "hash": "a54e9ca28dd6",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:gladiator:turn-the-tables": {
@@ -3977,7 +3977,7 @@
     },
     "perk:gladiator:war-paint": {
       "hash": "adbaefff039f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:graveborn:carapace-that-protects": {
@@ -4002,7 +4002,7 @@
     },
     "perk:graveborn:dread-covenant": {
       "hash": "09352ab35a5a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:graveborn:eternal-legacy": {
@@ -4047,12 +4047,12 @@
     },
     "perk:graveborn:somnus": {
       "hash": "644959a9ed1e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:graveborn:unnatural-causes": {
       "hash": "f724eb1392af",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:graveborn:visitors-from-before": {
@@ -4067,7 +4067,7 @@
     },
     "perk:grovetender:angry-orchard": {
       "hash": "62d3ac628c62",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:grovetender:biodegradation": {
@@ -4132,7 +4132,7 @@
     },
     "perk:grovetender:symbiosis": {
       "hash": "84e3de23778a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:grovetender:synthetic-resin": {
@@ -4142,7 +4142,7 @@
     },
     "perk:hell-knight:blazing-soul": {
       "hash": "72797f4fe72a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:hell-knight:bolster": {
@@ -4167,7 +4167,7 @@
     },
     "perk:hell-knight:enduring-rage": {
       "hash": "f3cf653920b7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:hell-knight:executioner": {
@@ -4182,8 +4182,8 @@
     },
     "perk:hell-knight:indomitable": {
       "hash": "240044e56d7d",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:inner-focus": {
       "hash": "06ea9831c6fd",
@@ -4197,12 +4197,12 @@
     },
     "perk:hell-knight:magma-diver": {
       "hash": "4d2e7c4407ad",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:hell-knight:massacre": {
       "hash": "e058630b7b85",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:hell-knight:pyromania": {
@@ -4212,7 +4212,7 @@
     },
     "perk:hell-knight:reckless-abandon": {
       "hash": "caef39c03c66",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:hell-knight:touch-of-chaos": {
@@ -4222,7 +4222,7 @@
     },
     "perk:inquisitor:admonish": {
       "hash": "110df907e07b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:inquisitor:begrudge": {
@@ -4232,12 +4232,12 @@
     },
     "perk:inquisitor:berate": {
       "hash": "974d409dd1f3",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:inquisitor:castigate": {
       "hash": "192707dad647",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:inquisitor:censure": {
@@ -4247,7 +4247,7 @@
     },
     "perk:inquisitor:condemn": {
       "hash": "1b5e309914fd",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:inquisitor:contrition": {
@@ -4272,7 +4272,7 @@
     },
     "perk:inquisitor:heresy": {
       "hash": "7408facbcea4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:inquisitor:judgment": {
@@ -4297,17 +4297,17 @@
     },
     "perk:inquisitor:rebuke": {
       "hash": "728bc3bddba0",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:inquisitor:shining-force": {
       "hash": "81f87ec49e29",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:bewilderment": {
       "hash": "f47a9ac7ebca",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:mime:circus-walk": {
@@ -4352,7 +4352,7 @@
     },
     "perk:mime:mock": {
       "hash": "55e89eafb6bd",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:mime:pressure": {
@@ -4367,13 +4367,13 @@
     },
     "perk:mime:stationary-walk": {
       "hash": "3e04fd520fdd",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:mime:stillness-and-silence": {
       "hash": "0502c4ad107f",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:mime:the-lean": {
       "hash": "4f0900c6dc3a",
@@ -4467,7 +4467,7 @@
     },
     "perk:necromancer:amalgamation": {
       "hash": "7dcbcd1d23e2",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:necromancer:animated-dead": {
@@ -4482,7 +4482,7 @@
     },
     "perk:necromancer:conquest-s-triumph": {
       "hash": "4f064261185a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:necromancer:corpse-eater": {
@@ -4502,12 +4502,12 @@
     },
     "perk:necromancer:death-s-claim": {
       "hash": "9dfba3ed252f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:necromancer:famine-s-thirst": {
       "hash": "6e6ff71b3606",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:necromancer:four-horsemen": {
@@ -4542,7 +4542,7 @@
     },
     "perk:necromancer:war-s-victory": {
       "hash": "15c7e863d541",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:paladin:art-of-war": {
@@ -4717,7 +4717,7 @@
     },
     "perk:pyromancer:backdraft": {
       "hash": "61d9dff8f41c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:pyromancer:burn-out": {
@@ -4732,7 +4732,7 @@
     },
     "perk:pyromancer:cauterize": {
       "hash": "79747f57054a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:pyromancer:combustion": {
@@ -4747,17 +4747,17 @@
     },
     "perk:pyromancer:empowering-flames": {
       "hash": "a1561ab43361",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:pyromancer:firestarter": {
       "hash": "35bde3115772",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:pyromancer:flashover": {
       "hash": "72c444a9236f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:pyromancer:from-ashes": {
@@ -4782,7 +4782,7 @@
     },
     "perk:pyromancer:living-flame": {
       "hash": "ebed81893c88",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:pyromancer:pyroblast": {
@@ -4807,7 +4807,7 @@
     },
     "perk:reaver:mental-clarity": {
       "hash": "981a6327f5e9",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:reaver:mercurial": {
@@ -4832,7 +4832,7 @@
     },
     "perk:reaver:red-eye-fight": {
       "hash": "c3cb0670088e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:reaver:reign-of-chaos": {
@@ -4852,8 +4852,8 @@
     },
     "perk:reaver:rigor": {
       "hash": "adfbe04e33be",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:reaver:sap": {
       "hash": "ba920c260167",
@@ -4882,7 +4882,7 @@
     },
     "perk:royal:highborn": {
       "hash": "c26bf84e1d85",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:royal:master-of-all": {
@@ -4917,7 +4917,7 @@
     },
     "perk:rune-knight:diabolism": {
       "hash": "2c2ff132c428",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:rune-knight:discharge": {
@@ -4937,7 +4937,7 @@
     },
     "perk:rune-knight:inspirit": {
       "hash": "ebfbb1d6ef36",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:rune-knight:rune-of-cor": {
@@ -4972,17 +4972,17 @@
     },
     "perk:rune-knight:ruse": {
       "hash": "a2eb18ff92f0",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:rune-knight:undermine": {
       "hash": "91730adafb47",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:shadowbringer:arrogance-is-confidence": {
       "hash": "bd0145392a95",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:shadowbringer:ascent-of-the-damned": {
@@ -5002,7 +5002,7 @@
     },
     "perk:shadowbringer:doomsday": {
       "hash": "196900b86812",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:shadowbringer:dystopia": {
@@ -5027,7 +5027,7 @@
     },
     "perk:shadowbringer:leeches": {
       "hash": "94b5dd791056",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:shadowbringer:phantom-pain": {
@@ -5037,18 +5037,18 @@
     },
     "perk:shadowbringer:self-fulfilling-prophecy": {
       "hash": "45be0218e869",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:shadowbringer:shadow-mending": {
       "hash": "e79b3a28ac6c",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:shadow-sickness": {
       "hash": "888398e8f8cf",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:shadowbringer:touch-of-darkness": {
       "hash": "90852a170d78",
@@ -5067,17 +5067,17 @@
     },
     "perk:siegemaster:barricade": {
       "hash": "ec9f14b6516e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:siegemaster:defensive-stance": {
       "hash": "d52b134abc48",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:siegemaster:explosive-armor": {
       "hash": "cf91cc327c55",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:siegemaster:furious-protector": {
@@ -5097,8 +5097,8 @@
     },
     "perk:siegemaster:lucidity": {
       "hash": "2a581316edc6",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:siegemaster:no-weak-links": {
       "hash": "08b4c8605e53",
@@ -5152,7 +5152,7 @@
     },
     "perk:sorcerer:fade": {
       "hash": "908a9d9b0231",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:sorcerer:flabbergast": {
@@ -5167,8 +5167,8 @@
     },
     "perk:sorcerer:mental-fortitude": {
       "hash": "af9f6381edb0",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:sorcerer:perplex": {
       "hash": "4fc79ce900ba",
@@ -5182,7 +5182,7 @@
     },
     "perk:sorcerer:ruin": {
       "hash": "4ca531d4b14b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:sorcerer:singe": {
@@ -5197,22 +5197,22 @@
     },
     "perk:sorcerer:spell-of-frost": {
       "hash": "61e24c8f84c1",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:sorcerer:spell-of-roots": {
       "hash": "118ac587c85b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:sorcerer:spell-of-slumber": {
       "hash": "47eba0490d17",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:sorcerer:undertow": {
       "hash": "49bb7c0616c5",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:sorcerer:unity": {
@@ -5282,12 +5282,12 @@
     },
     "perk:spellweaver:sorcery-infusion": {
       "hash": "3cdf2ee51fa6",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:spellweaver:spectral-affinity": {
       "hash": "97432f1ec406",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:spellweaver:temporal-anomaly": {
@@ -5317,8 +5317,8 @@
     },
     "perk:toxicologist:carcinogen": {
       "hash": "27fd9cc93abb",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:toxicologist:chronic-illness": {
       "hash": "dd657be7badb",
@@ -5342,7 +5342,7 @@
     },
     "perk:toxicologist:inoculate": {
       "hash": "0393c5f8791c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:toxicologist:neurotoxicity": {
@@ -5412,7 +5412,7 @@
     },
     "perk:tribalist:gone-but-not-forgotten": {
       "hash": "3e2889edd742",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:tribalist:harbinger": {
@@ -5482,12 +5482,12 @@
     },
     "perk:trickster:immaculate-recovery": {
       "hash": "a8fcc7b2f3b1",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:trickster:intent-to-kill": {
       "hash": "d305dd6cafa1",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:trickster:nightstalker": {
@@ -5502,7 +5502,7 @@
     },
     "perk:trickster:prey": {
       "hash": "5d871873e102",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:trickster:rebound": {
@@ -5517,7 +5517,7 @@
     },
     "perk:trickster:spontaneity": {
       "hash": "5976b9511092",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:trickster:stratagem": {
@@ -5537,219 +5537,267 @@
     },
     "perk:trickster:whetbone": {
       "hash": "f449d49c41fa",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:abandoned-altar": {
       "hash": "ca6b5b3379be",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:alveary": {
       "hash": "969bd3a95459",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:anagnorisis": {
       "hash": "09e6f774cc81",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:ancient-synchronicity": {
       "hash": "181a2361d991",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:archaic-warspear": {
       "hash": "79688791ac36",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:beyond-the-veil": {
       "hash": "490e562ef92a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:bountiful-seas": {
       "hash": "a06645fa33c1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:bygone-enhancement": {
       "hash": "06aa83c6364e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:confident-facade": {
       "hash": "e28dbfd1ae24",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:corrupted-warhammer": {
       "hash": "af07a3beca71",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:derelict-blockade": {
       "hash": "78cdccc34249",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:displacement": {
       "hash": "823e9381acea",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:divine-dualwield": {
       "hash": "e06e76bb34d5",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:dream-eater": {
       "hash": "4913266f90ab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:epigraphy": {
       "hash": "ae2db6903010",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:escamotage": {
       "hash": "3b87b36fe00d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:forgotten-blessing": {
       "hash": "792ef4965d4d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:forsaken-wonder": {
       "hash": "07066e7768b4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:fossilized-shield": {
       "hash": "bf395d7f953f",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:fractionation": {
       "hash": "b504eea99737",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:gestalt-intelligence": {
       "hash": "927db01aba9a",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:happy-as-a-clam": {
       "hash": "e2dabbf44b01",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:high-tide": {
       "hash": "f6a04b4fc8f9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:hums-of-encouragement": {
       "hash": "463728a4c71d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:idolatry": {
       "hash": "8d37a774a9ed",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:impenetrable-shell": {
       "hash": "7a8476cf9b95",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:jubilation": {
       "hash": "1507a011358c",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:kill-em-with-kindness": {
       "hash": "61f2996dc74e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:last-of-the-ancients": {
       "hash": "438236a65862",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:low-tide": {
       "hash": "cc7fa219472e",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:mermaid-s-embrace": {
       "hash": "ae63a868a8c4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:oneirophrenia": {
       "hash": "4c39b8ad9594",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:pearl-keeper": {
       "hash": "e420219223ac",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:primeval-spellblade": {
       "hash": "5452c738cd9d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:primordial-curse": {
       "hash": "e663e547117b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:psychometry": {
       "hash": "de405c6efe36",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:pusillanimity": {
       "hash": "937505d08121",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:refractive-shell": {
       "hash": "ed65699f1107",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:rising-tide-raises-all-boats": {
       "hash": "5445fe524ce4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:scapegoat": {
       "hash": "69242b7ea72b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:sensory-deprivation": {
       "hash": "7e2c4d35091b",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:slam-shut": {
       "hash": "672e859b8e31",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:so-happy-i-could-die": {
       "hash": "2dfff4ccaad4",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:superstition": {
       "hash": "1c4eb8574bd1",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:taste-for-treasure": {
       "hash": "c3eed4dd6952",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:timeworn-attunement": {
       "hash": "b45ae3ce2bd9",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:traumatism": {
       "hash": "0130f182204d",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:unassigned:welcome-gift": {
       "hash": "5204ce9d9b00",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:alpha": {
       "hash": "d3ff757ef273",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:awareness": {
       "hash": "b2696ef79db6",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:bristle": {
       "hash": "ce94ad2151b5",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:convocation": {
       "hash": "c66c3a0a9b62",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:earthen-frenzy": {
@@ -5769,12 +5817,12 @@
     },
     "perk:warden:grove-ward": {
       "hash": "314fb666dd73",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:luster": {
       "hash": "8b5fa3df97f0",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:moment-of-clarity": {
@@ -5794,17 +5842,17 @@
     },
     "perk:warden:predator": {
       "hash": "e92500719f1f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:preparation": {
       "hash": "fa9873c64890",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:warden:primal-vengeance": {
       "hash": "4706c85e8815",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:soul-of-the-forest": {
@@ -5819,12 +5867,12 @@
     },
     "perk:warden:survival-of-the-fittest": {
       "hash": "f2f10bf4e423",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:warden:unending-boon": {
       "hash": "6241f53aee0a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:windrunner:accumulation": {
@@ -5874,8 +5922,8 @@
     },
     "perk:windrunner:quick-hands": {
       "hash": "191d6a63efc3",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:windrunner:retention": {
       "hash": "df37720399da",
@@ -5894,7 +5942,7 @@
     },
     "perk:windrunner:true-ending": {
       "hash": "f496b864d2cd",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:windrunner:velocity": {
@@ -5904,7 +5952,7 @@
     },
     "perk:windrunner:zoom": {
       "hash": "eabadc60d9c3",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:witch-doctor:backbite": {
@@ -5949,8 +5997,8 @@
     },
     "perk:witch-doctor:jinx": {
       "hash": "0502c4ad107f",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "perk:witch-doctor:maledict": {
       "hash": "5f910339d3df",
@@ -5959,7 +6007,7 @@
     },
     "perk:witch-doctor:mass-hysteria": {
       "hash": "9e517b5bc87c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:witch-doctor:mumbo-jumbo": {
@@ -5979,7 +6027,7 @@
     },
     "perk:witch-doctor:vision-quest": {
       "hash": "426989291afc",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "perk:witch-doctor:voodoo": {

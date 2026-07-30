@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:low-tide",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_timeline_move",
+        "subject": "allies",
+        "params": {
+          "to": "bottom"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "trigger_subject",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "amountPct": 30,
+            "direction": "up"
+          },
+          "params": {
+            "limit": "once per creature per turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "cc7fa219472e"
+}

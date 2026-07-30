@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:scapegoat",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "allies",
+        "params": {
+          "statusKind": "debuff"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "random_enemy",
+          "statusKind": "debuff",
+          "params": {
+            "which": "that debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "69242b7ea72b"
+}

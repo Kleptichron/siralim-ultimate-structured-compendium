@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:ancient-synchronicity",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "races": [
+              "Avatar",
+              "Godspawn"
+            ]
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "other",
+          "target": "allies",
+          "params": {
+            "what": "the Archaic Warspear, Forsaken Wonder, Timeworn Attunement, Primeval Spellblade and Primordial Curse perks",
+            "requires": "their corresponding Relic is equipped"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "181a2361d991"
+}

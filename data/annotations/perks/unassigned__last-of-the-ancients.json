@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:last-of-the-ancients",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "who": "allies",
+          "params": {
+            "what": "your creatures with a Relic equipped",
+            "exactly": 1
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "params": {
+            "equipment": "relic",
+            "effect": "your other creatures equip a copy of that Relic"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "438236a65862"
+}

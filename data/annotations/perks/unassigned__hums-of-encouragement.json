@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:hums-of-encouragement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_timeline_move",
+        "subject": "allies",
+        "params": {
+          "to": "bottom"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "other",
+          "target": "trigger_subject",
+          "params": {
+            "who": "your Guardian",
+            "spell": "Words of Encouragement"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "463728a4c71d"
+}

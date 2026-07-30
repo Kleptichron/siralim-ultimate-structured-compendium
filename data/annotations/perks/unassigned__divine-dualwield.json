@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:divine-dualwield",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "race_is",
+          "who": "allies",
+          "params": {
+            "races": [
+              "Avatar",
+              "Godspawn"
+            ]
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "their corresponding Relic's perks",
+            "even": "when that Relic is not equipped"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e06e76bb34d5"
+}

@@ -1,16 +1,13 @@
 {
-  "id": "perk:trickster:whetbone",
-  "textHash": "1fb6bd83bff5",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "always-have",
+  "provenance": "claude",
+  "id": "perk:trickster:whetbone",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -24,5 +21,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "f449d49c41fa"
 }

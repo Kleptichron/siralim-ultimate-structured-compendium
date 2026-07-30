@@ -24,14 +24,14 @@
         "type": "passive",
         "subject": "allies"
       },
-      "chance": 30,
+      "chance": 50,
       "actions": [
         {
           "verb": "status_modifier",
           "target": "allies",
           "statusKind": "buff",
           "params": {
-            "effect": "retained when forcefully removed"
+            "effect": "retained when forcefully removed, and its on-buff effects trigger"
           }
         }
       ]
@@ -40,6 +40,6 @@
   "waivedStatuses": [
     "Invisible"
   ],
-  "notes": "Text's Invisible is only an example of forceful removal.",
-  "textHash": "e2befaa658c8"
+  "notes": "The text's Invisible is only an example of forceful removal, not a status this perk applies.",
+  "textHash": "6241f53aee0a"
 }

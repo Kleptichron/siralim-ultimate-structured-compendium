@@ -17,8 +17,7 @@
             "amountPct": 5,
             "direction": "down",
             "scaleRef": "other",
-            "per": "time damaged by Bomb this battle",
-            "cap": 80
+            "per": "time damaged by Bomb this battle"
           },
           "statuses": [
             "Bomb"
@@ -27,5 +26,5 @@
       ]
     }
   ],
-  "textHash": "f60b4fc90aee"
+  "textHash": "1850b3d644f1"
 }

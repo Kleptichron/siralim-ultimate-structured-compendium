@@ -16,11 +16,12 @@
             "Splashing"
           ],
           "params": {
-            "effect": "deals its damage to all enemies"
-          }
+            "effect": "deals damage to all enemies"
+          },
+          "statusKind": "buff"
         }
       ]
     }
   ],
-  "textHash": "97888d355506"
+  "textHash": "e058630b7b85"
 }

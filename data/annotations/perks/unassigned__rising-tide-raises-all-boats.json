@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:rising-tide-raises-all-boats",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "any",
+          "flow": "taken",
+          "magnitude": {
+            "scaleRef": "damage_taken",
+            "scalePct": 30
+          },
+          "params": {
+            "of": "your Guardian",
+            "additional": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5445fe524ce4"
+}

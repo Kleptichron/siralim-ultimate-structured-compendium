@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:epigraphy",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "being resurrected",
+            "when": "killed by your creatures' Relics"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ae2db6903010"
+}

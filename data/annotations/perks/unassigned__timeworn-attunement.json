@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:timeworn-attunement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up"
+          },
+          "params": {
+            "what": "potency",
+            "which": "their Relics' spells"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b45ae3ce2bd9"
+}

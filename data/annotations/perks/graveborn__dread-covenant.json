@@ -17,12 +17,11 @@
             "amountPct": 25,
             "direction": "down",
             "scaleRef": "other",
-            "per": "resurrection this battle",
-            "cap": 80
+            "per": "resurrection this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "5e266d6ff417"
+  "textHash": "09352ab35a5a"
 }

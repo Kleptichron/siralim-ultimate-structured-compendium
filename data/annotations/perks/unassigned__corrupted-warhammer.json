@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:corrupted-warhammer",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 1,
+            "direction": "up",
+            "scaleRef": "other",
+            "per": "rank their Relic has"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "af07a3beca71"
+}

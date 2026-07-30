@@ -13,11 +13,11 @@
           "target": "allies",
           "params": {
             "what": "Rune spells",
-            "effect": "gain Magnetic, Increased Damage, and 24% Defense Penetration"
+            "effect": "granted powerful properties"
           }
         }
       ]
     }
   ],
-  "textHash": "a885acb0510c"
+  "textHash": "a2eb18ff92f0"
 }

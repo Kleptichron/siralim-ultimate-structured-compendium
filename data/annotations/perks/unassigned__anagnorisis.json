@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:anagnorisis",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "enemy",
+        "params": {
+          "statusKind": "buff",
+          "by": "your creatures"
+        }
+      },
+      "actions": [
+        {
+          "verb": "deal_damage",
+          "target": "trigger_subject",
+          "magnitude": {
+            "scaleStat": "Intelligence",
+            "scalePct": 50
+          },
+          "params": {
+            "of": "the creature that removed it",
+            "limit": "once per creature each turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "09e6f774cc81"
+}

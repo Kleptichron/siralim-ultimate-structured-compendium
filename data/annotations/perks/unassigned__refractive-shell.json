@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:refractive-shell",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "other",
+          "statusKind": "debuff",
+          "params": {
+            "who": "your Guardian and allies adjacent to it",
+            "nonBossBattles": "immune",
+            "bossBattles": "resistant"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ed65699f1107"
+}

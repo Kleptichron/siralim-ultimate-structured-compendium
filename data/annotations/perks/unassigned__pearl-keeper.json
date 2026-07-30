@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:pearl-keeper",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "your Guardian"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "other",
+          "statuses": [
+            "Taunting"
+          ],
+          "statusKind": "buff",
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "who": "your Guardian"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "your Guardian"
+        }
+      },
+      "actions": [
+        {
+          "verb": "redirect_target",
+          "target": "other",
+          "params": {
+            "who": "your Guardian",
+            "effect": "intercepts attacks and single-target spells aimed at adjacent allies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e420219223ac"
+}

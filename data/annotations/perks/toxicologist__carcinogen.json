@@ -1,16 +1,13 @@
 {
-  "id": "perk:toxicologist:carcinogen",
-  "textHash": "8991bcb8f176",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "always-have",
+  "provenance": "claude",
+  "id": "perk:toxicologist:carcinogen",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "enemies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -24,5 +21,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "27fd9cc93abb"
 }

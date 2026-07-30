@@ -19,7 +19,7 @@
             "amountPct": 10,
             "direction": "up",
             "scaleRef": "spell_gems",
-            "per": "non-Ethereal Arsenal Spell equipped"
+            "per": "permanent Arsenal Spell equipped"
           },
           "params": {
             "except": "Health"
@@ -28,5 +28,5 @@
       ]
     }
   ],
-  "textHash": "72a18b6e3849"
+  "textHash": "adbaefff039f"
 }

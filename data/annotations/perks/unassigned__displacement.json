@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:displacement",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statuses": [
+            "Shelled"
+          ],
+          "params": {
+            "effect": "can prevent indirect damage"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "823e9381acea"
+}

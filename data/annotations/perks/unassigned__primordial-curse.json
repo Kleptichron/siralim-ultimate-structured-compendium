@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:primordial-curse",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "params": {
+            "source": "your creatures' Relics",
+            "duration": "forever"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_afflicted",
+        "subject": "enemy",
+        "params": {
+          "source": "your Relics"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "enemies",
+          "statusKind": "debuff",
+          "params": {
+            "which": "that same debuff",
+            "to": "all other enemies"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e663e547117b"
+}

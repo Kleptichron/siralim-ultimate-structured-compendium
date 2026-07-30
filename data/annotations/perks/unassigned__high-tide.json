@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:high-tide",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "any"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "any",
+          "params": {
+            "effect": "healing effects can trigger even at full health"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "f6a04b4fc8f9"
+}

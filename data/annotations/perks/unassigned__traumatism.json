@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:traumatism",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "ally",
+          "params": {
+            "spell": "the top-most Dark Crystal Spell Gem they have equipped",
+            "which": "one of your other creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "0130f182204d"
+}

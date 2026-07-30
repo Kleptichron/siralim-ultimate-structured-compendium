@@ -6,7 +6,7 @@
     {
       "trigger": {
         "type": "passive",
-        "subject": "enemies"
+        "subject": "any"
       },
       "actions": [
         {
@@ -19,7 +19,7 @@
           },
           "params": {
             "what": "battle fatigue onset",
-            "effect": "starts N turns sooner"
+            "effect": "begins 1 turn sooner per rank"
           }
         }
       ]

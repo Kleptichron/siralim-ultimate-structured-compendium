@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:slam-shut",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_death",
+        "subject": "other",
+        "params": {
+          "who": "your Guardian or allies adjacent to it"
+        }
+      },
+      "conditions": [
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "resurrect",
+          "target": "trigger_subject",
+          "magnitude": {
+            "amountPct": 50
+          }
+        },
+        {
+          "verb": "cast",
+          "actor": "other",
+          "target": "trigger_subject",
+          "params": {
+            "who": "your Guardian",
+            "spell": "Chrysalis"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "672e859b8e31"
+}

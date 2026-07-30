@@ -17,25 +17,7 @@
           }
         }
       ]
-    },
-    {
-      "trigger": {
-        "type": "after_attack",
-        "subject": "allies",
-        "params": {
-          "first": "in battle"
-        }
-      },
-      "actions": [
-        {
-          "verb": "crit_chance_modifier",
-          "target": "trigger_subject",
-          "params": {
-            "kind": "guaranteed critical"
-          }
-        }
-      ]
     }
   ],
-  "textHash": "0c7ea3759c0f"
+  "textHash": "eabadc60d9c3"
 }

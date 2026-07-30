@@ -17,12 +17,11 @@
             "amountPct": 5,
             "direction": "down",
             "scaleRef": "other",
-            "per": "enemy spell cast this battle",
-            "cap": 80
+            "per": "enemy spell cast this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "22eb161585bc"
+  "textHash": "3e04fd520fdd"
 }

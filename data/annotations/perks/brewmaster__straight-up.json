@@ -6,19 +6,19 @@
     {
       "trigger": {
         "type": "passive",
-        "subject": "allies"
+        "subject": "any"
       },
       "actions": [
         {
           "verb": "spell_modifier",
-          "target": "allies",
+          "target": "any",
           "params": {
-            "what": "Booze spells",
+            "what": "Booze Spells",
             "effect": "cannot be Sealed"
           }
         }
       ]
     }
   ],
-  "textHash": "794912bb87ab"
+  "textHash": "b87bef9ec9ac"
 }

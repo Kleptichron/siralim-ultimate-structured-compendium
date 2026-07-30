@@ -1,16 +1,13 @@
 {
-  "id": "perk:warden:preparation",
-  "textHash": "414f9a0e2475",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "start-battle-gain",
+  "provenance": "claude",
+  "id": "perk:warden:preparation",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -22,5 +19,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "fa9873c64890"
 }

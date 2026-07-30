@@ -5,10 +5,9 @@
   "rules": [
     {
       "trigger": {
-        "type": "passive",
+        "type": "start_of_turn",
         "subject": "allies"
       },
-      "chance": 1,
       "actions": [
         {
           "verb": "cast",
@@ -17,13 +16,12 @@
             "random"
           ],
           "params": {
-            "spell": "a random Ethereal Spell Gem from their spell list",
-            "timing": "at random times during battle"
+            "spell": "one of their Ethereal Spell Gems",
+            "timing": "at random times during their turns"
           }
         }
       ]
     }
   ],
-  "notes": "Chance is 1% per rank; rule.chance records the max-rank value.",
-  "textHash": "638941af848d"
+  "textHash": "5976b9511092"
 }

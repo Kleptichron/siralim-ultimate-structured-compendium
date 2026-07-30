@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:oneirophrenia",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "other",
+          "who": "enemies",
+          "params": {
+            "status": "Sleeping",
+            "state": "resistant to it"
+          }
+        }
+      ],
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "taking their turn"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "4c39b8ad9594"
+}

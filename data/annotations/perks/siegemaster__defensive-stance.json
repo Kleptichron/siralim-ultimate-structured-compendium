@@ -17,12 +17,11 @@
             "amountPct": 5,
             "direction": "down",
             "scaleRef": "other",
-            "per": "Defend this battle",
-            "cap": 90
+            "per": "Defend this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "3b7cb1b3778b"
+  "textHash": "d52b134abc48"
 }

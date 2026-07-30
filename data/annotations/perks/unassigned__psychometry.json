@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:psychometry",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "source": "their Artifacts' Trick Slots"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "actor": "allies",
+          "target": "enemy",
+          "statusKind": "debuff",
+          "params": {
+            "source": "their Artifact's Trick Slots",
+            "which": "the enemy in their corresponding position"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "de405c6efe36"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:welcome-gift",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "allies",
+        "params": {
+          "first": "in battle"
+        }
+      },
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "trigger_subject",
+          "target": "trigger_subject",
+          "params": {
+            "spell": "Words of Encouragement"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "5204ce9d9b00"
+}

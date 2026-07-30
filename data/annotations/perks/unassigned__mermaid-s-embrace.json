@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:mermaid-s-embrace",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other"
+      },
+      "actions": [
+        {
+          "verb": "healing_modifier",
+          "target": "other",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 50,
+            "direction": "up"
+          },
+          "params": {
+            "who": "your Guardian and allies adjacent to it",
+            "source": "all sources"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "ae63a868a8c4"
+}

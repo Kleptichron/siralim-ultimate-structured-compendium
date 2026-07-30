@@ -38,5 +38,8 @@
       ]
     }
   ],
-  "textHash": "4e63b16cef2b"
+  "waivedStatuses": [
+    "Silenced"
+  ],
+  "textHash": "192707dad647"
 }

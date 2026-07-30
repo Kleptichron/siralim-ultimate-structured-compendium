@@ -15,19 +15,13 @@
         {
           "verb": "apply_status",
           "target": "trigger_subject",
-          "statuses": [
-            "Savage",
-            "Berserk",
-            "Shelled",
-            "Agile",
-            "Arcane"
-          ],
+          "statusKind": "buff",
           "params": {
-            "bySpell": "Cor: Savage, Dun: Berserk, Lua: Shelled, Nax: Agile, Sah: Arcane"
+            "which": "differs based on which Rune spell was cast"
           }
         }
       ]
     }
   ],
-  "textHash": "5996c8785220"
+  "textHash": "ebfbb1d6ef36"
 }

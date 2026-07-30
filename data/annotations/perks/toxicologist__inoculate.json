@@ -17,8 +17,7 @@
             "amountPct": 10,
             "direction": "down",
             "scaleRef": "other",
-            "per": "Poisoned damage taken this battle",
-            "cap": 80
+            "per": "Poisoned damage taken this battle"
           },
           "statuses": [
             "Poisoned"
@@ -30,5 +29,5 @@
       ]
     }
   ],
-  "textHash": "49c2505f18db"
+  "textHash": "0393c5f8791c"
 }

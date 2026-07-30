@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:happy-as-a-clam",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "magnitude": {
+            "amountPct": 5,
+            "direction": "down",
+            "scaleRef": "healing_received",
+            "per": "time they have been healed"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e2dabbf44b01"
+}

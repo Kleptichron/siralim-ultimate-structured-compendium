@@ -12,12 +12,12 @@
           "verb": "timeline_move",
           "target": "ally",
           "params": {
-            "which": "highest-Health creature",
+            "which": "your creature with the highest Maximum Health",
             "to": "top"
           }
         }
       ]
     }
   ],
-  "textHash": "8884f4ab16a1"
+  "textHash": "ac928189de37"
 }

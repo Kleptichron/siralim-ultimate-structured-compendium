@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:idolatry",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "their Relic's corresponding Ultimate Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "8d37a774a9ed"
+}

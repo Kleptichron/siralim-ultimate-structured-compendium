@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:alveary",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Arcane"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "effect": "their Spell Gems cannot be sealed"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_targeted_by_cast",
+        "subject": "allies",
+        "params": {
+          "by": "an enemy"
+        }
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "trigger_subject",
+          "params": {
+            "status": "Shelled"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "copy",
+          "target": "trigger_subject",
+          "params": {
+            "what": "that Spell Gem"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "969bd3a95459"
+}

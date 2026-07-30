@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:gestalt-intelligence",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_battle"
+      },
+      "actions": [
+        {
+          "verb": "grant_ability",
+          "target": "allies",
+          "params": {
+            "what": "Dark Crystal"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "params": {
+            "what": "Dark Crystal",
+            "effect": "targets all allies with matching Trick Slots on their Artifacts"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "927db01aba9a"
+}

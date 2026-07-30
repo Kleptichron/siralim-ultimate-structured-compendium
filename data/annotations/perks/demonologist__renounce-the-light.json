@@ -23,10 +23,18 @@
           "params": {
             "effect": "cannot gain minions unrelated to this specialization"
           }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "allies",
+          "params": {
+            "which": "Greater Demons",
+            "effect": "not removed on death"
+          }
         }
       ]
     }
   ],
-  "notes": "Text notes the perk is always active for this specialization regardless of Perk Points.",
-  "textHash": "54d7890f4613"
+  "notes": "Always active while the specialization is Demonologist, regardless of Perk Points.",
+  "textHash": "f1e8c6ba9b66"
 }

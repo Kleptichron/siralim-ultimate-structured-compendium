@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:archaic-warspear",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "dealt",
+          "params": {
+            "source": "their Relics' attacks and spells",
+            "ignoresDefensePct": 25
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "79688791ac36"
+}

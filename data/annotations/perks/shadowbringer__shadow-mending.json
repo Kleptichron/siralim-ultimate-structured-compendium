@@ -1,16 +1,13 @@
 {
-  "id": "perk:shadowbringer:shadow-mending",
-  "textHash": "1d870235c304",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "always-have",
+  "provenance": "claude",
+  "id": "perk:shadowbringer:shadow-mending",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "allies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -25,5 +22,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "e79b3a28ac6c"
 }

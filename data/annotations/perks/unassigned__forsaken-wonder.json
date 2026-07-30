@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:forsaken-wonder",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "source": "their Relics",
+            "duration": "forever"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_gains_buff",
+        "subject": "allies",
+        "params": {
+          "source": "your Relics"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "allies",
+          "statusKind": "buff",
+          "params": {
+            "which": "that same buff",
+            "to": "all your other creatures"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "07066e7768b4"
+}

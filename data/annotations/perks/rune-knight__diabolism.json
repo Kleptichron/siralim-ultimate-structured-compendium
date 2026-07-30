@@ -30,5 +30,8 @@
       ]
     }
   ],
-  "textHash": "55f66e66b223"
+  "waivedStatuses": [
+    "Scorned"
+  ],
+  "textHash": "2c2ff132c428"
 }

@@ -8,7 +8,7 @@
         "type": "passive",
         "subject": "allies"
       },
-      "chance": 30,
+      "chance": 10,
       "actions": [
         {
           "verb": "spell_modifier",
@@ -20,5 +20,5 @@
       ]
     }
   ],
-  "textHash": "09038dace975"
+  "textHash": "b1b0a14d75ad"
 }

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:confident-facade",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "allies",
+          "params": {
+            "status": "Arcane"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountPct": 100,
+            "direction": "up",
+            "scaleStat": "Intelligence"
+          },
+          "params": {
+            "effect": "casts as if their Intelligence were 100% higher"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "allies",
+          "flow": "taken",
+          "params": {
+            "asIf": "they had 0 Defense"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "e28dbfd1ae24"
+}

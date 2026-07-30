@@ -13,7 +13,7 @@
           "type": "count_comparison",
           "params": {
             "what": "turns the creature has taken",
-            "atLeast": 2
+            "atLeast": 3
           }
         }
       ],
@@ -29,5 +29,5 @@
       ]
     }
   ],
-  "textHash": "b708905f2ca2"
+  "textHash": "981a6327f5e9"
 }

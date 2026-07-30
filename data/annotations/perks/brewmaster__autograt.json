@@ -12,12 +12,12 @@
           "verb": "spell_modifier",
           "target": "allies",
           "params": {
-            "what": "Booze spells",
+            "what": "Ethereal Booze Spells",
             "effect": "gain 'Chance to Attack', 'Chance to Defend', and 'Chance to Provoke' properties"
           }
         }
       ]
     }
   ],
-  "textHash": "20e5cdb47bdc"
+  "textHash": "13ac838b6da4"
 }

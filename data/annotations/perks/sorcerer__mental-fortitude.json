@@ -1,15 +1,12 @@
 {
-  "id": "perk:sorcerer:mental-fortitude",
-  "textHash": "562e47a4ddfe",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "start-battle-gain",
+  "provenance": "claude",
+  "id": "perk:sorcerer:mental-fortitude",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "af9f6381edb0"
 }

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:taste-for-treasure",
+  "rules": [
+    {
+      "trigger": {
+        "type": "non_combat"
+      },
+      "actions": [
+        {
+          "verb": "limit_modifier",
+          "target": "other",
+          "magnitude": {
+            "amountFlat": 5,
+            "direction": "up"
+          },
+          "params": {
+            "who": "your Guardian",
+            "what": "equippable Spell Gems"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "c3eed4dd6952"
+}

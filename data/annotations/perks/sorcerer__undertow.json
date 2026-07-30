@@ -22,5 +22,5 @@
     }
   ],
   "notes": "Chance escalates +10% each turn and resets to 10% after activating; rule.chance records the base.",
-  "textHash": "667c667c3725"
+  "textHash": "49bb7c0616c5"
 }

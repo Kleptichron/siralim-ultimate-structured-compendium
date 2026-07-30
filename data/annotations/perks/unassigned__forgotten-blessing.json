@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:forgotten-blessing",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "equipment_modifier",
+          "target": "allies",
+          "magnitude": {
+            "amountFlat": 100,
+            "direction": "up"
+          },
+          "params": {
+            "equipment": "relic",
+            "property": "rank"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "The extra ranks do not unlock additional Relic perks.",
+  "textHash": "792ef4965d4d"
+}

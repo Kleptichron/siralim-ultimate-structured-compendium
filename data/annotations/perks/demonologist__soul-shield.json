@@ -17,12 +17,11 @@
             "amountPct": 3,
             "direction": "down",
             "scaleRef": "other",
-            "per": "time all your creatures' minions went away this battle",
-            "cap": 80
+            "per": "time all your creatures' minions went away this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "1ee97c30400a"
+  "textHash": "50c30f71c554"
 }

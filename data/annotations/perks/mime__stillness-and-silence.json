@@ -1,16 +1,13 @@
 {
-  "id": "perk:mime:stillness-and-silence",
-  "textHash": "873ab40591fa",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "always-have",
+  "provenance": "claude",
+  "id": "perk:mime:stillness-and-silence",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "enemies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -24,5 +21,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "0502c4ad107f"
 }

@@ -1,16 +1,13 @@
 {
-  "id": "perk:pyromancer:firestarter",
-  "textHash": "87e31d3689df",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "always-have",
+  "provenance": "claude",
+  "id": "perk:pyromancer:firestarter",
   "rules": [
     {
       "trigger": {
         "type": "passive",
         "subject": "enemies"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -24,5 +21,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "35bde3115772"
 }

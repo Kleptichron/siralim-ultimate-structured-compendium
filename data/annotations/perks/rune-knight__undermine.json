@@ -15,19 +15,13 @@
         {
           "verb": "apply_status",
           "target": "enemies",
-          "statuses": [
-            "Burning",
-            "Bleeding",
-            "Confused",
-            "Poisoned",
-            "Bomb"
-          ],
+          "statusKind": "debuff",
           "params": {
-            "bySpell": "Cor: Burning, Dun: Bleeding, Lua: Confused, Nax: Poisoned, Sah: Bomb"
+            "which": "differs based on which Rune spell was cast"
           }
         }
       ]
     }
   ],
-  "textHash": "8fa13eca2b33"
+  "textHash": "91730adafb47"
 }

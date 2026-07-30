@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:fractionation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "after_status_removed",
+        "subject": "enemy",
+        "params": {
+          "statuses": [
+            "Blind",
+            "Sleeping"
+          ]
+        }
+      },
+      "chance": 80,
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "trigger_subject",
+          "statuses": [
+            "Blind",
+            "Sleeping"
+          ],
+          "statusKind": "debuff",
+          "params": {
+            "again": true
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "b504eea99737"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:superstition",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "allies"
+      },
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "allies",
+          "statusKind": "debuff",
+          "params": {
+            "which": "the debuffs in their Artifact's first Trick Slot"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1c4eb8574bd1"
+}

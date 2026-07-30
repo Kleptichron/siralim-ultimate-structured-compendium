@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:impenetrable-shell",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "your Guardian"
+        }
+      },
+      "actions": [
+        {
+          "verb": "apply_status",
+          "target": "other",
+          "statuses": [
+            "Defensive"
+          ],
+          "statusKind": "buff",
+          "qualifiers": [
+            "permanent"
+          ],
+          "params": {
+            "who": "your Guardian"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "other",
+        "params": {
+          "who": "your Guardian"
+        }
+      },
+      "actions": [
+        {
+          "verb": "stat_change",
+          "target": "other",
+          "stats": [
+            "Defense"
+          ],
+          "magnitude": {
+            "direction": "up",
+            "scaleRef": "healing_received",
+            "scalePct": 10
+          },
+          "params": {
+            "who": "your Guardian",
+            "of": "the healing it has received this battle"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7a8476cf9b95"
+}

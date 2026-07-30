@@ -17,7 +17,7 @@
             "amountPct": 30,
             "direction": "up",
             "scaleRef": "other",
-            "per": "debuff or Sealed Spell Gem on the target"
+            "per": "debuff or Sealed Spell Gem the enemy has"
           },
           "params": {
             "source": "attacks and spells"
@@ -26,5 +26,5 @@
       ]
     }
   ],
-  "textHash": "f5cd472e6367"
+  "textHash": "7408facbcea4"
 }

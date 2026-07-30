@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:jubilation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "start_of_turn",
+        "subject": "any"
+      },
+      "conditions": [
+        {
+          "type": "stat_comparison",
+          "who": "other",
+          "params": {
+            "who": "your Guardian",
+            "stat": "Defense",
+            "atLeastPctOfBattleStart": 500
+          }
+        },
+        {
+          "type": "once_per_battle"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "any",
+          "target": "other",
+          "params": {
+            "who": "your Guardian",
+            "spell": "Words of Encouragement"
+          }
+        },
+        {
+          "verb": "deal_damage",
+          "target": "any",
+          "statuses": [
+            "Mania"
+          ],
+          "magnitude": {
+            "scaleRef": "status_potency",
+            "scalePct": 100
+          },
+          "params": {
+            "of": "their Mania debuff"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "1507a011358c"
+}

@@ -1,15 +1,12 @@
 {
-  "id": "perk:inquisitor:shining-force",
-  "textHash": "f4ade117c089",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "start-battle-gain",
+  "provenance": "claude",
+  "id": "perk:inquisitor:shining-force",
   "rules": [
     {
       "trigger": {
         "type": "start_of_battle"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "81f87ec49e29"
 }

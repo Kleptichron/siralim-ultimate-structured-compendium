@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:sensory-deprivation",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Blind"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_action",
+          "target": "enemies",
+          "params": {
+            "action": "casting anything but single-target spells, and only manually",
+            "battles": "non-boss"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "has_status",
+          "who": "enemies",
+          "params": {
+            "status": "Blind"
+          }
+        }
+      ],
+      "chance": 20,
+      "actions": [
+        {
+          "verb": "spell_modifier",
+          "target": "enemies",
+          "params": {
+            "effect": "their spells fizzle",
+            "battles": "boss"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "7e2c4d35091b"
+}

@@ -23,7 +23,7 @@
           "target": "enemies",
           "params": {
             "via": "attacks",
-            "battles": "normal"
+            "battles": "non-boss"
           }
         },
         {
@@ -35,12 +35,12 @@
             "direction": "up"
           },
           "params": {
-            "battles": "non-normal",
+            "battles": "boss",
             "source": "attacks"
           }
         }
       ]
     }
   ],
-  "textHash": "0df53d329d8d"
+  "textHash": "d65cc9411135"
 }

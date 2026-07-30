@@ -15,11 +15,11 @@
           },
           "params": {
             "what": "equippable Anointments",
-            "or": "5 if all other specializations are ascended"
+            "or": "5 if you have ascended all other specializations, excluding Challenge Specializations"
           }
         }
       ]
     }
   ],
-  "textHash": "33add8480371"
+  "textHash": "c26bf84e1d85"
 }

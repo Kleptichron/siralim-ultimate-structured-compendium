@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 13,
+  "provenance": "claude",
+  "id": "perk:unassigned:beyond-the-veil",
+  "rules": [
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "conditions": [
+        {
+          "type": "count_comparison",
+          "who": "enemies",
+          "params": {
+            "what": "buffs",
+            "atLeast": 10,
+            "reducedBy": "1 for each time they have lost a buff"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "prevent_status",
+          "target": "enemies",
+          "statusKind": "buff"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "passive",
+        "subject": "enemies"
+      },
+      "actions": [
+        {
+          "verb": "status_modifier",
+          "target": "enemies",
+          "statusKind": "buff",
+          "params": {
+            "effect": "counted as 1 additional buff for each time this effect has activated"
+          }
+        }
+      ]
+    }
+  ],
+  "textHash": "490e562ef92a"
+}

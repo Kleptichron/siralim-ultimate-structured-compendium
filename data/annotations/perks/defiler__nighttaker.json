@@ -17,12 +17,11 @@
             "amountPct": 5,
             "direction": "down",
             "scaleRef": "debuff_count",
-            "per": "debuff on the enemy",
-            "cap": 90
+            "per": "debuff on the enemy"
           }
         }
       ]
     }
   ],
-  "textHash": "01022f8fe86c"
+  "textHash": "31d7c9ce8119"
 }
