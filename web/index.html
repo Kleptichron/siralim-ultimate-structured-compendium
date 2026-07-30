@@ -38,6 +38,20 @@
     <input id="search" type="search" placeholder="Search names, creatures, effect text… ( / )" autocomplete="off">
     <button id="buildtoggle" type="button">Build</button>
     <span id="coverage" class="dim"></span>
+    <!-- Ko-fi's widget builds its button with document.write, so it has to run
+         during parse, right where the button belongs. Guarded on the global:
+         if the CDN is blocked or the page is opened off the filesystem the
+         script never defines it, and without the check the header would throw
+         instead of simply going without a button. -->
+    <span class="kofi">
+      <script src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+      <script>
+        if (window.kofiwidget2) {
+          kofiwidget2.init('Support me on Ko-fi', '#35a7ad', 'L8T6245K03');
+          kofiwidget2.draw();
+        }
+      </script>
+    </span>
   </header>
   <!-- One suggestion list per slot rule, so a slot only ever offers traits it
        can actually take. Innate and Fusion share the creature list. -->

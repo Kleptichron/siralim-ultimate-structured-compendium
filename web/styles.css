@@ -67,6 +67,19 @@ header {
   background: var(--panel); border-bottom: 1px solid var(--border);
   position: sticky; top: 0; z-index: 5;
 }
+
+/* Ko-fi ships its own stylesheet with the widget and sizes the button itself, so
+   nothing here touches its internals. #search stops growing at 560px, which
+   leaves slack that would otherwise pool AFTER the last item and float the
+   button off the right edge, so the auto margin collects it instead and pins
+   the pair to the corner. Both hide with #coverage on narrow screens, where the
+   header is already down to an icon and a search box. */
+#coverage { margin-left: auto; }
+.kofi { display: flex; align-items: center; flex: none; }
+/* Ko-fi's own stylesheet sets the label to #fff !important, which on our accent
+   is 2.88:1 and fails AA. The accent is unchanged; only the text flips to the
+   page background, which reads at about 6.3:1 on the same teal. */
+.kofi .kofitext { color: var(--bg) !important; text-shadow: none !important; }
 h1 { font-size: 1.15rem; margin: 0; color: var(--accent); white-space: nowrap; }
 #search {
   flex: 1; max-width: 560px; padding: 8px 13px; border-radius: 6px;
@@ -597,6 +610,20 @@ button.clear:hover { border-color: var(--accent); }
   main { padding: 12px 14px; max-width: none; }
   h1 { font-size: 1rem; }
   #coverage { display: none; }
+  /* The button survives on phones, but the label does not fit next to a search
+     box. The text is a bare text node beside the cup image inside .kofitext, so
+     there is nothing to hide: zeroing the font drops the words and leaves the
+     image, which carries its own !important sizing from Ko-fi's stylesheet. */
+  .kofi { margin-left: auto; }
+  .kofi .kofitext { font-size: 0; }
+  .kofi .kofiimg { margin-right: 0 !important; }
+  .kofi .kofi-button { min-width: 0 !important; padding: 2px 10px !important; }
+  /* Ko-fi wraps the anchor in .btn-container and gives that its own width, so
+     shrinking the button alone still leaves a 160px hole in the header. */
+  .kofi .btn-container { min-width: 0 !important; width: auto !important; }
+  /* Flex items default to min-width:auto, so the search box refuses to go below
+     its content width and pushes the header wider than the screen. */
+  #search { min-width: 0; }
   header { gap: 10px; padding: 0 12px; }
   .navlabel { display: none; } /* the icon carries it once space is tight */
   #resultbar { flex-wrap: wrap; }
