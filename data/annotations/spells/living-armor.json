@@ -14,8 +14,9 @@
           "statuses": [
             "Barrier"
           ],
+          "statusKind": "buff",
           "magnitude": {
-            "scaleStat": "Current Health",
+            "scaleStat": "Maximum Health",
             "scalePct": 100
           }
         }
@@ -23,5 +24,5 @@
     }
   ],
   "notes": "Arsenal Spell.",
-  "textHash": "e84411dbbbdb"
+  "textHash": "6f08700351ca"
 }

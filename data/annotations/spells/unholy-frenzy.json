@@ -1,15 +1,12 @@
 {
-  "id": "spell:unholy-frenzy",
-  "textHash": "e4dedc8b5808",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-gain",
+  "provenance": "claude",
+  "id": "spell:unholy-frenzy",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "e4dedc8b5808"
 }

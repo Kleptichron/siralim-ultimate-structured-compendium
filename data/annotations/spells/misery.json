@@ -1,15 +1,12 @@
 {
-  "id": "spell:misery",
-  "textHash": "c65e8b5abcc0",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-afflict",
+  "provenance": "claude",
+  "id": "spell:misery",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -24,5 +21,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "c65e8b5abcc0"
 }

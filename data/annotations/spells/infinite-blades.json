@@ -12,7 +12,7 @@
           "verb": "deal_damage",
           "target": "enemies",
           "magnitude": {
-            "tier": "moderate"
+            "tier": "large"
           },
           "params": {
             "times": 5
@@ -22,5 +22,5 @@
     }
   ],
   "notes": "Ultimate Spell.",
-  "textHash": "2f5ed9568634"
+  "textHash": "be3f8b753ea8"
 }

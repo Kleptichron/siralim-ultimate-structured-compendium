@@ -1,15 +1,12 @@
 {
-  "id": "spell:blistering-radiance",
-  "textHash": "16ccbad5e7a5",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:blistering-radiance",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "16ccbad5e7a5"
 }

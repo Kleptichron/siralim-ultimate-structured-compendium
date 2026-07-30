@@ -20,10 +20,14 @@
           "target": "target",
           "statuses": [
             "Bomb"
-          ]
+          ],
+          "params": {
+            "effect": "damage equal to the potency of its Bomb",
+            "then": "the debuff is removed"
+          }
         }
       ]
     }
   ],
-  "textHash": "af3a4f975c8e"
+  "textHash": "f8d2e58de008"
 }

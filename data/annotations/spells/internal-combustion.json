@@ -34,7 +34,8 @@
           "verb": "deal_damage",
           "target": "enemies",
           "magnitude": {
-            "tier": "moderate"
+            "scalePct": 25,
+            "scaleRef": "damage_dealt"
           },
           "params": {
             "others": true
@@ -46,6 +47,7 @@
           "statuses": [
             "Burning"
           ],
+          "statusKind": "debuff",
           "params": {
             "others": true
           }
@@ -53,6 +55,5 @@
       ]
     }
   ],
-  "notes": "On-kill rider has no condition type; condition other is honest here.",
-  "textHash": "7fc5f3584410"
+  "textHash": "997c3d79cfc4"
 }

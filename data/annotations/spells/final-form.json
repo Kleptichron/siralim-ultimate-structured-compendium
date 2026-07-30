@@ -15,10 +15,11 @@
             "Rebirth",
             "Protected",
             "Berserk"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
   ],
-  "textHash": "a0cfd0dd71e8"
+  "textHash": "f796b5aef317"
 }

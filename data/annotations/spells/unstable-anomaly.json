@@ -12,15 +12,17 @@
           "verb": "deal_damage",
           "target": "enemies",
           "magnitude": {
-            "tier": "small"
+            "tier": "small",
+            "scaleRef": "other",
+            "per": "spell your creatures have cast this battle"
           },
           "params": {
-            "multipliedBy": "spells your creatures have Cast this battle"
+            "multiplied": true
           }
         }
       ]
     }
   ],
   "notes": "Ultimate Spell.",
-  "textHash": "e904d497b023"
+  "textHash": "6331eed09b6e"
 }

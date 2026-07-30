@@ -1,15 +1,12 @@
 {
-  "id": "spell:elemental-wrath",
-  "textHash": "52b95680bac7",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:elemental-wrath",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "52b95680bac7"
 }

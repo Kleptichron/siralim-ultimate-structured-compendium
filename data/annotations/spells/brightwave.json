@@ -12,12 +12,12 @@
           "verb": "cast",
           "actor": "target",
           "params": {
-            "spells": "all of its healing spells",
+            "spells": "all its healing spells",
             "inYourFavor": true
           }
         }
       ]
     }
   ],
-  "textHash": "2b910954d349"
+  "textHash": "1e3a4ec5c94c"
 }

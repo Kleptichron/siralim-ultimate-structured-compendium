@@ -13,10 +13,16 @@
           "target": "target",
           "magnitude": {
             "tier": "large",
-            "scaleStat": "Current Health"
-          },
-          "params": {
-            "basis": "100% caster's Current Health instead of Intelligence"
+            "scaleStat": "highest_stat",
+            "scalePct": 100
+          }
+        },
+        {
+          "verb": "heal",
+          "target": "caster",
+          "magnitude": {
+            "scaleRef": "damage_dealt",
+            "scalePct": 50
           }
         },
         {
@@ -30,5 +36,5 @@
       ]
     }
   ],
-  "textHash": "e73a1c49c29a"
+  "textHash": "2dcfc21569cb"
 }

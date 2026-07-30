@@ -1,15 +1,12 @@
 {
-  "id": "spell:heaven-s-thunder",
-  "textHash": "852e66b0fa94",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:heaven-s-thunder",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "852e66b0fa94"
 }

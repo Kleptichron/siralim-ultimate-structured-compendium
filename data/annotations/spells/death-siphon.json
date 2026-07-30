@@ -10,7 +10,10 @@
       "actions": [
         {
           "verb": "kill",
-          "target": "target"
+          "target": "target",
+          "params": {
+            "which": "target ally"
+          }
         },
         {
           "verb": "stat_change",
@@ -27,11 +30,11 @@
             "scalePct": 50
           },
           "params": {
-            "of": "the killed target"
+            "of": "the killed ally"
           }
         }
       ]
     }
   ],
-  "textHash": "728cdd27a1aa"
+  "textHash": "f55c656541f1"
 }

@@ -1,15 +1,12 @@
 {
-  "id": "spell:psionic-blast",
-  "textHash": "9d3f3ad64f91",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:psionic-blast",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "9d3f3ad64f91"
 }

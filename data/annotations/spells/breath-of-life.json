@@ -13,13 +13,17 @@
           "target": "target",
           "magnitude": {
             "tier": "massive"
-          },
+          }
+        },
+        {
+          "verb": "resurrect",
+          "target": "target",
           "params": {
-            "evenIfDead": true
+            "instead": "if the target is dead"
           }
         }
       ]
     }
   ],
-  "textHash": "c1abafafb9db"
+  "textHash": "e94675995f60"
 }

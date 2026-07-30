@@ -15,11 +15,12 @@
             "random"
           ],
           "params": {
-            "what": "a random Spell Gem until end of battle"
+            "what": "a random Spell Gem",
+            "each": true
           }
         }
       ]
     }
   ],
-  "textHash": "420998d2c6af"
+  "textHash": "bb69211894e3"
 }

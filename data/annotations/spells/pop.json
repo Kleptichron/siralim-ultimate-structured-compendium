@@ -15,11 +15,11 @@
             "tier": "moderate"
           },
           "params": {
-            "times": "equal to casts of this Gem this battle"
+            "targets": "one enemy per time this Spell Gem has been cast this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "2c2019ad48d2"
+  "textHash": "fcb1963b3375"
 }

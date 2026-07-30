@@ -1,15 +1,12 @@
 {
-  "id": "spell:poison-gas",
-  "textHash": "1cb70cfa7f70",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-afflict",
+  "provenance": "claude",
+  "id": "spell:poison-gas",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "1cb70cfa7f70"
 }

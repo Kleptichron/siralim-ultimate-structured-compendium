@@ -13,7 +13,8 @@
           "target": "enemies",
           "statuses": [
             "Bleeding"
-          ]
+          ],
+          "statusKind": "debuff"
         },
         {
           "verb": "attack",
@@ -27,5 +28,5 @@
     }
   ],
   "notes": "Ultimate Spell.",
-  "textHash": "b409a0bedd73"
+  "textHash": "9b759515da21"
 }

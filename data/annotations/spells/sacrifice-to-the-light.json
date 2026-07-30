@@ -5,20 +5,20 @@
   "rules": [
     {
       "trigger": {
-        "type": "activated"
+        "type": "after_death",
+        "subject": "caster"
       },
       "actions": [
         {
           "verb": "resurrect",
           "target": "caster",
-          "params": {
-            "healthPct": 100,
-            "when": "the caster dies"
+          "magnitude": {
+            "amountPct": 100
           }
         }
       ]
     }
   ],
-  "notes": "Cannot be cast manually; only works in normal battles.",
-  "textHash": "9dbe532abb81"
+  "notes": "Cannot be cast manually.",
+  "textHash": "780f8df54a14"
 }

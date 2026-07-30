@@ -13,16 +13,16 @@
           "target": "enemies",
           "magnitude": {
             "tier": "moderate",
-            "scaleRef": "spell_gems"
+            "scaleRef": "spell_gems",
+            "per": "permanent Spell Gem the caster has equipped"
           },
           "params": {
-            "bonusPct": 20,
-            "per": "non-Ethereal Spell Gem the caster has equipped"
+            "bonusPct": 20
           }
         }
       ]
     }
   ],
   "notes": "Arsenal Spell.",
-  "textHash": "f55353fbdd00"
+  "textHash": "1385d65eea10"
 }

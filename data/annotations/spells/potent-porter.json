@@ -15,12 +15,12 @@
             "amountFlat": 2
           },
           "params": {
-            "spells": "2 of its non-Ethereal Spell Gems"
+            "spells": "its own permanent Spell Gems"
           }
         }
       ]
     }
   ],
   "notes": "Booze Spell.",
-  "textHash": "96acac6aea95"
+  "textHash": "84af79dad605"
 }

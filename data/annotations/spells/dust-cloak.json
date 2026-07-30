@@ -13,7 +13,8 @@
           "target": "allies",
           "statuses": [
             "Invisible"
-          ]
+          ],
+          "statusKind": "buff"
         },
         {
           "verb": "timeline_move",
@@ -25,5 +26,5 @@
       ]
     }
   ],
-  "textHash": "1a37af788529"
+  "textHash": "55490816c153"
 }

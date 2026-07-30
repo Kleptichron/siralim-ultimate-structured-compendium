@@ -44,13 +44,11 @@
           "statuses": [
             "Splashing"
           ],
-          "params": {
-            "otherwise": true
-          }
+          "statusKind": "buff"
         }
       ]
     }
   ],
   "notes": "Booze Spell.",
-  "textHash": "f27e2b415274"
+  "textHash": "0083ab1e541d"
 }

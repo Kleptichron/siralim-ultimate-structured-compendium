@@ -9,18 +9,27 @@
       },
       "actions": [
         {
-          "verb": "cast",
-          "actor": "caster",
+          "verb": "apply_status",
+          "target": "target",
+          "statuses": [
+            "Poisoned",
+            "Sleeping"
+          ],
+          "statusKind": "debuff"
+        },
+        {
+          "verb": "apply_status",
+          "target": "adjacent_enemies",
+          "statusKind": "debuff",
           "qualifiers": [
             "random"
           ],
           "params": {
-            "spell": "one of its other spells",
-            "targets": "completely random"
+            "anchor": "the target"
           }
         }
       ]
     }
   ],
-  "textHash": "79189ea1918d"
+  "textHash": "6d603a56be82"
 }

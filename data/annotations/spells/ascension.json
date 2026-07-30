@@ -19,8 +19,40 @@
           }
         }
       ]
+    },
+    {
+      "trigger": {
+        "type": "after_defend",
+        "subject": "caster"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "params": {
+            "spell": "this spell"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_provoke",
+        "subject": "caster"
+      },
+      "chance": 50,
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "params": {
+            "spell": "this spell"
+          }
+        }
+      ]
     }
   ],
-  "notes": "Cannot be cast manually; 50% chance to cast when the caster Defends or Provokes.",
-  "textHash": "af1bef458a3e"
+  "notes": "Cannot be cast manually.",
+  "textHash": "cc7a18f05c4e"
 }

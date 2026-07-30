@@ -12,13 +12,13 @@
           "verb": "deal_damage",
           "target": "target",
           "magnitude": {
-            "scaleRef": "other",
             "scalePct": 10,
+            "scaleRef": "other",
             "per": "Attack, Intelligence, Defense and Speed it lost this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "a3e567ea2e91"
+  "textHash": "115fee566ca0"
 }

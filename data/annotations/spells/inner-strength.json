@@ -19,11 +19,11 @@
             "direction": "up"
           },
           "params": {
-            "stat": "one of Attack/Intelligence/Speed/Defense at random"
+            "stat": "Attack, Intelligence, Speed or Defense, chosen at random"
           }
         }
       ]
     }
   ],
-  "textHash": "3713b8b53a12"
+  "textHash": "6c89c0af1960"
 }

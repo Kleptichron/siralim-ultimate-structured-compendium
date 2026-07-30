@@ -1,15 +1,12 @@
 {
-  "id": "spell:nourish",
-  "textHash": "5a59573e124e",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-gain",
+  "provenance": "claude",
+  "id": "spell:nourish",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "5a59573e124e"
 }

@@ -16,14 +16,14 @@
           ],
           "magnitude": {
             "scaleRef": "other",
-            "per": "creature of the same class as the caster"
+            "per": "creature on your side of the same class as the caster"
           },
           "params": {
-            "minion": "random minion"
+            "minion": "a random minion"
           }
         }
       ]
     }
   ],
-  "textHash": "f6ebcbae4842"
+  "textHash": "4b02a6dcf152"
 }

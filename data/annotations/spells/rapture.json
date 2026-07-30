@@ -1,15 +1,12 @@
 {
-  "id": "spell:rapture",
-  "textHash": "0683ef51e567",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:rapture",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -28,5 +25,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "0683ef51e567"
 }

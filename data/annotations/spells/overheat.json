@@ -1,7 +1,7 @@
 {
   "schemaVersion": 13,
   "provenance": "claude",
-  "id": "spell:mega-magic",
+  "id": "spell:overheat",
   "rules": [
     {
       "trigger": {
@@ -12,11 +12,16 @@
           "verb": "deal_damage",
           "target": "enemies",
           "magnitude": {
-            "tier": "large"
+            "tier": "small",
+            "scaleRef": "other",
+            "per": "charge this Spell Gem is missing"
+          },
+          "params": {
+            "bonusPct": 10
           }
         }
       ]
     }
   ],
-  "textHash": "52b95680bac7"
+  "textHash": "c1391a2430ab"
 }

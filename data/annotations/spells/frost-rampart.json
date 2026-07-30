@@ -1,15 +1,12 @@
 {
-  "id": "spell:frost-rampart",
-  "textHash": "88e29890d005",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-gain",
+  "provenance": "claude",
+  "id": "spell:frost-rampart",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "88e29890d005"
 }

@@ -1,15 +1,12 @@
 {
-  "id": "spell:finger-of-death",
-  "textHash": "d8d4b9d48e53",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:finger-of-death",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "d8d4b9d48e53"
 }

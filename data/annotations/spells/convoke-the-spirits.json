@@ -15,11 +15,11 @@
             "tier": "large"
           },
           "params": {
-            "classRule": "the spell's class is whatever class the target is weak against"
+            "classRule": "the spell's class counts as whatever class the target is weak against"
           }
         }
       ]
     }
   ],
-  "textHash": "82414e1b80a9"
+  "textHash": "92b161ef1c9c"
 }

@@ -16,7 +16,11 @@
           ],
           "magnitude": {
             "tier": "massive",
-            "direction": "up"
+            "direction": "up",
+            "scaleStat": "Defense"
+          },
+          "params": {
+            "basis": "the caster's Defense instead of Intelligence"
           }
         },
         {
@@ -24,11 +28,12 @@
           "target": "caster",
           "statuses": [
             "Shelled"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
   ],
   "notes": "Arsenal Spell.",
-  "textHash": "240faa328074"
+  "textHash": "a4439b3424f3"
 }

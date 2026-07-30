@@ -10,17 +10,14 @@
       "actions": [
         {
           "verb": "other",
-          "magnitude": {
-            "amountFlat": 1,
-            "direction": "up"
-          },
           "params": {
-            "what": "battle fatigue"
+            "what": "battle fatigue",
+            "effect": "doubled"
           }
         }
       ]
     }
   ],
   "notes": "Battle fatigue is a global battle system with no verb; other is honest here.",
-  "textHash": "26bb242248d4"
+  "textHash": "6676fd4e0dc0"
 }

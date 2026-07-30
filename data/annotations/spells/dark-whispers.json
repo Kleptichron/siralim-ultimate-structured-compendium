@@ -1,15 +1,12 @@
 {
-  "id": "spell:dark-whispers",
-  "textHash": "f148e12b9415",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-gain",
+  "provenance": "claude",
+  "id": "spell:dark-whispers",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "f148e12b9415"
 }

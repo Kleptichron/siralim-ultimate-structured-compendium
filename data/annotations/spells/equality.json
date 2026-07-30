@@ -15,11 +15,12 @@
             "all"
           ],
           "params": {
-            "effect": "stats are averaged"
+            "effect": "stats are averaged",
+            "except": "health"
           }
         }
       ]
     }
   ],
-  "textHash": "6f7a19b35bfc"
+  "textHash": "bf1fb6e29e46"
 }

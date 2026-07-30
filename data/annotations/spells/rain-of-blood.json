@@ -1,15 +1,12 @@
 {
-  "id": "spell:rain-of-blood",
-  "textHash": "43e114db6137",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-afflict",
+  "provenance": "claude",
+  "id": "spell:rain-of-blood",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "43e114db6137"
 }

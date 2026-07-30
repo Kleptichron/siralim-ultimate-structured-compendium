@@ -1,15 +1,12 @@
 {
-  "id": "spell:firedevil-s-rage",
-  "textHash": "ee2008b3535a",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-afflict",
+  "provenance": "claude",
+  "id": "spell:firedevil-s-rage",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "ee2008b3535a"
 }

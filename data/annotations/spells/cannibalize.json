@@ -24,10 +24,10 @@
       "conditions": [
         {
           "type": "comparison",
+          "who": "target",
           "params": {
-            "what": "class",
-            "of": "target",
-            "equals": "the caster's class"
+            "what": "race",
+            "equals": "the caster's race"
           }
         }
       ],
@@ -45,6 +45,5 @@
       ]
     }
   ],
-  "notes": "Dynamic class comparison has no condition type; condition other is honest here.",
-  "textHash": "ae7f59abbbcc"
+  "textHash": "6e1b04e89f41"
 }

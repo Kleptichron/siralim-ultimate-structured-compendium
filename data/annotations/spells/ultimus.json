@@ -10,17 +10,18 @@
       "actions": [
         {
           "verb": "deal_damage",
-          "target": "random_enemy",
+          "target": "enemies",
           "magnitude": {
             "tier": "massive"
           },
           "params": {
             "continuous": true,
-            "endChancePctAfterEach": 50
+            "endChancePctAfterEach": 50,
+            "then": "it jumps to the next enemy"
           }
         }
       ]
     }
   ],
-  "textHash": "a0a7213c7d86"
+  "textHash": "f5211be62246"
 }

@@ -10,7 +10,10 @@
       "actions": [
         {
           "verb": "kill",
-          "target": "target"
+          "target": "target",
+          "params": {
+            "which": "target ally"
+          }
         },
         {
           "verb": "steal_status",
@@ -33,11 +36,11 @@
             "scalePct": 100
           },
           "params": {
-            "of": "the killed target"
+            "of": "the killed ally"
           }
         }
       ]
     }
   ],
-  "textHash": "39f92c378f40"
+  "textHash": "6604dd85422c"
 }

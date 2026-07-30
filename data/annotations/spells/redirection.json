@@ -21,13 +21,10 @@
         },
         {
           "verb": "provoke",
-          "actor": "target",
-          "params": {
-            "then": true
-          }
+          "actor": "target"
         }
       ]
     }
   ],
-  "textHash": "72e497f83486"
+  "textHash": "95cf2eaa7fad"
 }

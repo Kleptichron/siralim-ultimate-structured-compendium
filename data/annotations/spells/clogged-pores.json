@@ -1,15 +1,12 @@
 {
-  "id": "spell:clogged-pores",
-  "textHash": "a95c2e21dc9a",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-afflict",
+  "provenance": "claude",
+  "id": "spell:clogged-pores",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -22,5 +19,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "a95c2e21dc9a"
 }

@@ -1,15 +1,12 @@
 {
-  "id": "spell:blinding-beam",
-  "textHash": "7cda1c5697ce",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:blinding-beam",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "7cda1c5697ce"
 }

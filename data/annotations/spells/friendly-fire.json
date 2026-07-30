@@ -13,11 +13,12 @@
           "actor": "target",
           "params": {
             "spell": "one of its single-target spells",
-            "on": "one of its allies"
+            "on": "one of its allies",
+            "except": "this spell"
           }
         }
       ]
     }
   ],
-  "textHash": "5ee99c1d44d3"
+  "textHash": "722cde141362"
 }

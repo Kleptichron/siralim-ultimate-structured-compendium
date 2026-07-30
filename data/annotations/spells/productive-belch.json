@@ -20,10 +20,11 @@
           "target": "target",
           "statuses": [
             "Disarmed"
-          ]
+          ],
+          "statusKind": "debuff"
         }
       ]
     }
   ],
-  "textHash": "2d5f27238abd"
+  "textHash": "2a5c3adc53ab"
 }

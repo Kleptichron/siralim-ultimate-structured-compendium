@@ -12,21 +12,17 @@
           "verb": "deal_damage",
           "target": "enemies",
           "magnitude": {
-            "tier": "moderate"
-          }
-        },
-        {
-          "verb": "deal_damage",
-          "target": "enemies",
-          "magnitude": {
             "tier": "moderate",
             "scaleRef": "other",
-            "per": "time this spell has been Cast this battle"
+            "per": "time this spell has been cast this battle"
+          },
+          "params": {
+            "bonusPct": 30
           }
         }
       ]
     }
   ],
   "notes": "Ultimate Spell.",
-  "textHash": "922eee041735"
+  "textHash": "e5796da54a17"
 }

@@ -1,15 +1,12 @@
 {
-  "id": "spell:sanctuary",
-  "textHash": "9868f8557741",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-gain",
+  "provenance": "claude",
+  "id": "spell:sanctuary",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -22,5 +19,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "9868f8557741"
 }

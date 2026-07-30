@@ -10,7 +10,10 @@
       "actions": [
         {
           "verb": "kill",
-          "target": "target"
+          "target": "target",
+          "params": {
+            "which": "target ally"
+          }
         },
         {
           "verb": "deal_damage",
@@ -20,11 +23,11 @@
             "scalePct": 25
           },
           "params": {
-            "of": "the killed target"
+            "of": "the killed ally"
           }
         }
       ]
     }
   ],
-  "textHash": "32f0dd4ddacc"
+  "textHash": "a6dac4fea315"
 }

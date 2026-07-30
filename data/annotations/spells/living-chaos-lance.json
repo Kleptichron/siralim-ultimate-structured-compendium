@@ -16,7 +16,7 @@
             "scaleStat": "Attack"
           },
           "params": {
-            "basis": "caster's Attack instead of Intelligence"
+            "basis": "the caster's Attack instead of Intelligence"
           }
         }
       ]
@@ -49,5 +49,5 @@
     }
   ],
   "notes": "Arsenal Spell.",
-  "textHash": "adbc93390bc0"
+  "textHash": "491d1aa99a86"
 }

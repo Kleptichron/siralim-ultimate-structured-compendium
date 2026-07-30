@@ -1,15 +1,12 @@
 {
-  "id": "spell:volcano",
-  "textHash": "0857c0f2f7b9",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:volcano",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "0857c0f2f7b9"
 }

@@ -1,15 +1,12 @@
 {
-  "id": "spell:harbinger-s-curse",
-  "textHash": "606c8f020a19",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:harbinger-s-curse",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -28,5 +25,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "606c8f020a19"
 }

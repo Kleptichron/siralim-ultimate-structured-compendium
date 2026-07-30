@@ -13,10 +13,22 @@
           "target": "target",
           "magnitude": {
             "tier": "large",
-            "scaleStat": "Attack"
+            "scaleStat": "highest_stat",
+            "scalePct": 100
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "target",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "down"
           },
           "params": {
-            "basis": "100% caster's Attack instead of Intelligence"
+            "stat": "a random stat"
           }
         },
         {
@@ -30,5 +42,5 @@
       ]
     }
   ],
-  "textHash": "6f3e57c098c1"
+  "textHash": "21049398ffd9"
 }

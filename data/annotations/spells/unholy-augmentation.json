@@ -1,15 +1,12 @@
 {
-  "id": "spell:unholy-augmentation",
-  "textHash": "9546d6b0974a",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-gain",
+  "provenance": "claude",
+  "id": "spell:unholy-augmentation",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "9546d6b0974a"
 }

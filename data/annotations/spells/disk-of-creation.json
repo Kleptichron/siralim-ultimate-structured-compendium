@@ -15,11 +15,12 @@
             "all"
           ],
           "params": {
-            "effect": "stat gains and losses removed"
+            "effect": "stat gains and losses are removed",
+            "except": "health"
           }
         }
       ]
     }
   ],
-  "textHash": "5319d3aa2ede"
+  "textHash": "ba5d66496c1b"
 }

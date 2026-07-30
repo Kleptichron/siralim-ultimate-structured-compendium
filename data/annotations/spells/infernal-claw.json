@@ -1,15 +1,12 @@
 {
-  "id": "spell:infernal-claw",
-  "textHash": "cddc08909c62",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:infernal-claw",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -29,5 +26,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "cddc08909c62"
 }

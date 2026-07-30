@@ -12,7 +12,7 @@
           "verb": "transform",
           "target": "target",
           "params": {
-            "what": "transformed into a same-race creature"
+            "what": "transformed into a creature of the same race"
           }
         },
         {
@@ -32,5 +32,6 @@
       ]
     }
   ],
-  "textHash": "f3f88250ab53"
+  "notes": "In boss battles this spell only works on your own creatures.",
+  "textHash": "20e382dcfc9a"
 }

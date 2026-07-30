@@ -1,15 +1,12 @@
 {
-  "id": "spell:entangling-roots",
-  "textHash": "59ce3bc9bbdd",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-afflict",
+  "provenance": "claude",
+  "id": "spell:entangling-roots",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -20,5 +17,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "59ce3bc9bbdd"
 }

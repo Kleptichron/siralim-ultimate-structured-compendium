@@ -21,11 +21,36 @@
           "target": "caster",
           "statuses": [
             "Shelled"
-          ]
+          ],
+          "statusKind": "buff"
+        }
+      ]
+    },
+    {
+      "trigger": {
+        "type": "after_damaged",
+        "subject": "caster"
+      },
+      "conditions": [
+        {
+          "type": "damage_threshold",
+          "who": "caster",
+          "params": {
+            "exceeds": "25% of its Maximum Health"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "verb": "cast",
+          "actor": "caster",
+          "params": {
+            "spell": "this spell"
+          }
         }
       ]
     }
   ],
-  "notes": "Cannot be cast manually; 100% chance to cast when the caster takes damage exceeding 25% of its Maximum Health.",
-  "textHash": "c189287b0643"
+  "notes": "Cannot be cast manually; the auto-cast is a certainty, not a chance.",
+  "textHash": "18616879a593"
 }

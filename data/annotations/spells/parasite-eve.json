@@ -12,13 +12,13 @@
           "verb": "deal_damage",
           "target": "enemies",
           "magnitude": {
-            "scaleRef": "healing_received",
             "scalePct": 10,
-            "per": "Health they recovered this battle"
+            "scaleRef": "other",
+            "per": "stat (other than health) they have gained this battle"
           }
         }
       ]
     }
   ],
-  "textHash": "848a76d8b4a2"
+  "textHash": "7abbda8a9eac"
 }

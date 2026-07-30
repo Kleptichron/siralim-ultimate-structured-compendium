@@ -17,7 +17,7 @@
           },
           "params": {
             "ignoresDefensePct": 30,
-            "basis": "100% caster's Speed instead of Intelligence"
+            "basis": "100% of the caster's Speed instead of Intelligence"
           }
         }
       ]
@@ -46,5 +46,5 @@
       ]
     }
   ],
-  "textHash": "6f91646f283b"
+  "textHash": "6aa5352695bb"
 }

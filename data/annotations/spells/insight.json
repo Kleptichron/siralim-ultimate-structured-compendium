@@ -13,7 +13,8 @@
           "target": "target",
           "statuses": [
             "Arcane"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     },
@@ -35,12 +36,11 @@
           "verb": "cast",
           "actor": "target",
           "params": {
-            "spell": "a non-Ethereal Spell Gem",
-            "instead": "of gaining Arcane"
+            "spell": "a permanent Spell Gem"
           }
         }
       ]
     }
   ],
-  "textHash": "b9a141310670"
+  "textHash": "2201dc462d84"
 }

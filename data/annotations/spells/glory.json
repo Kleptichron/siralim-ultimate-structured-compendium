@@ -7,19 +7,18 @@
       "trigger": {
         "type": "activated"
       },
-      "chance": 30,
       "actions": [
         {
           "verb": "cast",
           "actor": "caster",
           "params": {
-            "spells": "each other non-Ethereal Spell Gem",
-            "chanceEach": true,
+            "spells": "each of the caster's other permanent Spell Gems",
+            "chanceEach": 30,
             "maxCasts": 3
           }
         }
       ]
     }
   ],
-  "textHash": "05a0a0ce432b"
+  "textHash": "9b2e73f5a5e4"
 }

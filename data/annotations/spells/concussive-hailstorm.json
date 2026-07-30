@@ -1,15 +1,12 @@
 {
-  "id": "spell:concussive-hailstorm",
-  "textHash": "a3c43178e523",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:concussive-hailstorm",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -24,9 +21,17 @@
           "statuses": [
             "Confused",
             "Frozen"
-          ]
+          ],
+          "qualifiers": [
+            "random"
+          ],
+          "params": {
+            "oneOf": true
+          }
         }
       ]
     }
-  ]
+  ],
+  "notes": "The text says Confused or Frozen, so one of the two is applied, not both.",
+  "textHash": "a3c43178e523"
 }

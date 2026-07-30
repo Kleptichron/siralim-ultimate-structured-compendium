@@ -1,15 +1,12 @@
 {
-  "id": "spell:serendipity",
-  "textHash": "3f2ea0ac70bb",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-gain",
+  "provenance": "claude",
+  "id": "spell:serendipity",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -21,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "3f2ea0ac70bb"
 }

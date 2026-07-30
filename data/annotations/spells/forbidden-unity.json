@@ -10,21 +10,20 @@
       "actions": [
         {
           "verb": "cast",
-          "actor": "ally",
+          "actor": "allies",
           "params": {
-            "which": "your other creatures",
             "spell": "the Spell Gem in their first slot"
           }
         },
         {
           "verb": "spell_modifier",
-          "target": "ally",
+          "target": "allies",
           "params": {
-            "effect": "those Gems are then Sealed"
+            "effect": "those Spell Gems are then sealed"
           }
         }
       ]
     }
   ],
-  "textHash": "6a7b44ed18b2"
+  "textHash": "686ed878e072"
 }

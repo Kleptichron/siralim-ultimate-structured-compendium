@@ -13,15 +13,15 @@
           "target": "enemies",
           "magnitude": {
             "tier": "massive",
-            "scaleRef": "buff_count"
+            "scaleRef": "buff_count",
+            "per": "buff the caster has"
           },
           "params": {
-            "bonusPct": 10,
-            "per": "buff the caster has"
+            "bonusPct": 10
           }
         }
       ]
     }
   ],
-  "textHash": "f6ff847ff59d"
+  "textHash": "db7a6853ddb7"
 }

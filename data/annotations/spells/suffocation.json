@@ -1,15 +1,12 @@
 {
-  "id": "spell:suffocation",
-  "textHash": "d21f2e145174",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-afflict",
+  "provenance": "claude",
+  "id": "spell:suffocation",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -21,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "d21f2e145174"
 }

@@ -16,7 +16,11 @@
           ],
           "magnitude": {
             "tier": "massive",
-            "direction": "up"
+            "direction": "up",
+            "scaleStat": "Defense"
+          },
+          "params": {
+            "basis": "the caster's Defense instead of Intelligence"
           }
         },
         {
@@ -24,11 +28,12 @@
           "target": "caster",
           "statuses": [
             "Savage"
-          ]
+          ],
+          "statusKind": "buff"
         }
       ]
     }
   ],
   "notes": "Arsenal Spell.",
-  "textHash": "387a74484063"
+  "textHash": "395281e63acd"
 }

@@ -1,15 +1,12 @@
 {
-  "id": "spell:maelstrom",
-  "textHash": "23ebfc2d4a09",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-afflict",
+  "provenance": "claude",
+  "id": "spell:maelstrom",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "apply_status",
@@ -21,5 +18,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "23ebfc2d4a09"
 }

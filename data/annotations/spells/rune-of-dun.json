@@ -13,10 +13,18 @@
           "target": "target",
           "magnitude": {
             "tier": "large",
-            "scaleStat": "Defense"
-          },
+            "scaleStat": "highest_stat",
+            "scalePct": 100
+          }
+        },
+        {
+          "verb": "summon_minion",
+          "target": "caster",
+          "qualifiers": [
+            "random"
+          ],
           "params": {
-            "basis": "100% caster's Defense instead of Intelligence"
+            "minion": "a random minion"
           }
         },
         {
@@ -30,5 +38,5 @@
       ]
     }
   ],
-  "textHash": "9e3c9af11d95"
+  "textHash": "4e5d45e6bd92"
 }

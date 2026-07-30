@@ -12,7 +12,6 @@
           "verb": "stat_change",
           "target": "target",
           "stats": [
-            "Current Health",
             "Maximum Health"
           ],
           "magnitude": {
@@ -23,8 +22,5 @@
       ]
     }
   ],
-  "waivedStatuses": [
-    "Stone"
-  ],
-  "textHash": "fd93b13a6637"
+  "textHash": "a99569916cdd"
 }

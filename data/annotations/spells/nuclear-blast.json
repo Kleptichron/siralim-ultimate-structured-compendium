@@ -1,15 +1,12 @@
 {
-  "id": "spell:nuclear-blast",
-  "textHash": "b148d4ecd28b",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:nuclear-blast",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -29,5 +26,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "b148d4ecd28b"
 }

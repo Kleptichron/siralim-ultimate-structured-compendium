@@ -15,7 +15,7 @@
             "tier": "massive"
           },
           "params": {
-            "basis": "50% caster's Attack, 50% caster's Speed (instead of Intelligence)"
+            "basis": "50% of the caster's Attack and 50% of the caster's Speed instead of Intelligence"
           }
         }
       ]
@@ -36,5 +36,5 @@
       ]
     }
   ],
-  "textHash": "7ceafca474ec"
+  "textHash": "997615ef6a73"
 }

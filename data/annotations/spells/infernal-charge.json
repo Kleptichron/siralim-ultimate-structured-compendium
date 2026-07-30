@@ -13,11 +13,11 @@
           "actor": "target",
           "target": "random_enemy",
           "params": {
-            "damageBonusPct": 100
+            "damagePct": 200
           }
         }
       ]
     }
   ],
-  "textHash": "2a0b2e7ed491"
+  "textHash": "ee5b6b627644"
 }

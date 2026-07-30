@@ -15,11 +15,11 @@
             "tier": "small"
           },
           "params": {
-            "increasedBy": "the percentage the caster's Attack/Intelligence/Defense/Speed exceed the target's"
+            "increasedBy": "the percentage by which the caster's Attack, Intelligence, Defense and Speed exceed the target's"
           }
         }
       ]
     }
   ],
-  "textHash": "f78bb0425292"
+  "textHash": "fcc77f855f29"
 }

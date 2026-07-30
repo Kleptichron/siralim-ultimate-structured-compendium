@@ -12,7 +12,32 @@
           "verb": "deal_damage",
           "target": "target",
           "magnitude": {
-            "tier": "large"
+            "tier": "large",
+            "scaleStat": "highest_stat",
+            "scalePct": 100
+          }
+        },
+        {
+          "verb": "remove_status",
+          "target": "target",
+          "statusKind": "buff",
+          "params": {
+            "all": true
+          }
+        },
+        {
+          "verb": "minion_modifier",
+          "target": "target",
+          "params": {
+            "effect": "minions are removed"
+          }
+        },
+        {
+          "verb": "remove_status",
+          "target": "caster",
+          "statusKind": "debuff",
+          "params": {
+            "all": true
           }
         },
         {
@@ -26,5 +51,5 @@
       ]
     }
   ],
-  "textHash": "e6657839c477"
+  "textHash": "8c8555d327df"
 }

@@ -11,12 +11,16 @@
         {
           "verb": "deal_damage",
           "target": "enemies",
+          "magnitude": {
+            "tier": "small"
+          },
           "params": {
-            "scalesWith": "how low they are on the Timeline (lower = more damage)"
+            "bonusPct": 10,
+            "scalesWith": "how low they are on the Timeline"
           }
         }
       ]
     }
   ],
-  "textHash": "defb54e6f201"
+  "textHash": "8f79d7588576"
 }

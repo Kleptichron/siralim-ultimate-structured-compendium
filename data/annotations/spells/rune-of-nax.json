@@ -13,10 +13,22 @@
           "target": "target",
           "magnitude": {
             "tier": "large",
-            "scaleStat": "Speed"
+            "scaleStat": "highest_stat",
+            "scalePct": 100
+          }
+        },
+        {
+          "verb": "stat_change",
+          "target": "caster",
+          "qualifiers": [
+            "random"
+          ],
+          "magnitude": {
+            "tier": "moderate",
+            "direction": "up"
           },
           "params": {
-            "basis": "100% caster's Speed instead of Intelligence"
+            "stat": "a random stat"
           }
         },
         {
@@ -30,5 +42,5 @@
       ]
     }
   ],
-  "textHash": "fa96a8bec776"
+  "textHash": "01c082175516"
 }

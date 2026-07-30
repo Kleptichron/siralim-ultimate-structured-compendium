@@ -1,15 +1,12 @@
 {
-  "id": "spell:stasis-sword",
-  "textHash": "ff0c1ad5c03a",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:stasis-sword",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
@@ -27,5 +24,6 @@
         }
       ]
     }
-  ]
+  ],
+  "textHash": "ff0c1ad5c03a"
 }

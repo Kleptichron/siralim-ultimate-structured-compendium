@@ -16,11 +16,11 @@
           },
           "params": {
             "bounces": "to each of the target's allies at random",
-            "reducedPerBounce": true
+            "reducedPerBouncePct": 15
           }
         }
       ]
     }
   ],
-  "textHash": "b5b1ed3e65a1"
+  "textHash": "7c8e3be7866a"
 }

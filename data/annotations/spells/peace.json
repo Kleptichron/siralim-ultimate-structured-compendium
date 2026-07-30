@@ -18,8 +18,8 @@
             "direction": "down"
           },
           "params": {
-            "which": "Attack or Intelligence (whichever is higher)",
-            "setTo": "minimum value"
+            "which": "Attack or Intelligence, whichever is highest",
+            "setTo": "its minimum value"
           }
         },
         {
@@ -29,13 +29,14 @@
             "Scorned",
             "Silenced"
           ],
+          "statusKind": "debuff",
           "params": {
-            "bySide": "depending on which stat was unaffected"
+            "which": "depending on whether their Attack or Intelligence was unaffected"
           }
         }
       ]
     }
   ],
   "notes": "Ultimate Spell.",
-  "textHash": "14c710dc7957"
+  "textHash": "ea3a02bd12d8"
 }

@@ -13,14 +13,15 @@
           "target": "target",
           "magnitude": {
             "tier": "small",
-            "scaleRef": "buff_count"
+            "scaleRef": "buff_count",
+            "per": "buff the target has"
           },
           "params": {
-            "increasedBy": "the number of buffs the target has"
+            "bonusPct": 50
           }
         }
       ]
     }
   ],
-  "textHash": "0f229cbd9f77"
+  "textHash": "169d476b175e"
 }

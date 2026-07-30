@@ -12,11 +12,11 @@
           "verb": "transform",
           "target": "allies",
           "params": {
-            "what": "classes changed to the caster's class"
+            "what": "classes changed to match the caster"
           }
         }
       ]
     }
   ],
-  "textHash": "12c7741f8d77"
+  "textHash": "56d2d30618d1"
 }

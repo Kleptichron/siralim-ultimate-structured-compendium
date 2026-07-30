@@ -8154,13 +8154,13 @@
     },
     "spell:acid-bomb": {
       "hash": "f8d2e58de008",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:acid-breath": {
       "hash": "362bf57ad05e",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:acid-rain": {
       "hash": "0c6c8c1256f1",
@@ -8254,7 +8254,7 @@
     },
     "spell:ascension": {
       "hash": "cc7a18f05c4e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:astral-dimension": {
@@ -8279,7 +8279,7 @@
     },
     "spell:balance-in-all-things": {
       "hash": "ceecbdf4e859",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:bangin-bourbon": {
@@ -8329,8 +8329,8 @@
     },
     "spell:blastar-punch": {
       "hash": "2f0b0e9e62e7",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blastwave": {
       "hash": "0277056bc3d1",
@@ -8339,8 +8339,8 @@
     },
     "spell:blinding-beam": {
       "hash": "7cda1c5697ce",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blindside": {
       "hash": "2cb5269a2083",
@@ -8349,8 +8349,8 @@
     },
     "spell:blistering-radiance": {
       "hash": "16ccbad5e7a5",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:blitz-howl": {
       "hash": "78973e19f6a9",
@@ -8414,8 +8414,8 @@
     },
     "spell:boulder": {
       "hash": "d8d4b9d48e53",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:boulder-crush": {
       "hash": "1ef31f01d759",
@@ -8429,7 +8429,7 @@
     },
     "spell:breath-of-life": {
       "hash": "e94675995f60",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:brethren": {
@@ -8439,12 +8439,12 @@
     },
     "spell:brightwave": {
       "hash": "1e3a4ec5c94c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:butcher": {
       "hash": "111eed048f5e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:call-help": {
@@ -8454,12 +8454,12 @@
     },
     "spell:camouflage": {
       "hash": "56d2d30618d1",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:cannibalize": {
       "hash": "6e1b04e89f41",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:cauterize-wound": {
@@ -8469,7 +8469,7 @@
     },
     "spell:chain-lightning": {
       "hash": "7c8e3be7866a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:chainsaw": {
@@ -8514,7 +8514,7 @@
     },
     "spell:chaos-rift": {
       "hash": "4820d5cbdae2",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:chaos-spheres": {
@@ -8529,17 +8529,17 @@
     },
     "spell:charm-of-life": {
       "hash": "a27becca3c01",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:chastise": {
       "hash": "590611b77ccc",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:cherub-s-missile": {
       "hash": "6d603a56be82",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:chrysalis": {
@@ -8559,8 +8559,8 @@
     },
     "spell:clogged-pores": {
       "hash": "a95c2e21dc9a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:cloud-beam": {
       "hash": "acdfa44bcd68",
@@ -8574,7 +8574,7 @@
     },
     "spell:cloud-of-embers": {
       "hash": "8f79d7588576",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:cluster-bomb": {
@@ -8629,8 +8629,8 @@
     },
     "spell:concussive-hailstorm": {
       "hash": "a3c43178e523",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:condemn-light": {
       "hash": "608ac5279db5",
@@ -8664,8 +8664,8 @@
     },
     "spell:constriction": {
       "hash": "0c899d505dfa",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:contagion": {
       "hash": "1abd3b19ee37",
@@ -8684,12 +8684,12 @@
     },
     "spell:convoke-the-spirits": {
       "hash": "92b161ef1c9c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:corpse-explosion": {
       "hash": "646b52164951",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:corpse-shield": {
@@ -8699,8 +8699,8 @@
     },
     "spell:corruption": {
       "hash": "2f3f4eac3158",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:cosmic-ripple": {
       "hash": "a5de1f974f0d",
@@ -8719,8 +8719,8 @@
     },
     "spell:crackle": {
       "hash": "f0303b9e7ebf",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:cross-pollination": {
       "hash": "8de9d191098f",
@@ -8789,8 +8789,8 @@
     },
     "spell:damnation": {
       "hash": "812731847217",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:dark-crystal": {
       "hash": "66add90fe199",
@@ -8804,7 +8804,7 @@
     },
     "spell:dark-ritual": {
       "hash": "6604dd85422c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:dark-seraphim": {
@@ -8844,8 +8844,8 @@
     },
     "spell:dark-whispers": {
       "hash": "f148e12b9415",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:deadly-duel": {
       "hash": "835af3ce7350",
@@ -8859,7 +8859,7 @@
     },
     "spell:death-blossom": {
       "hash": "16d65c8bb9c4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:death-grip": {
@@ -8879,7 +8879,7 @@
     },
     "spell:death-siphon": {
       "hash": "f55c656541f1",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:debilitate": {
@@ -8894,8 +8894,8 @@
     },
     "spell:decay": {
       "hash": "98fd2b393866",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:deep-freeze": {
       "hash": "2abe854a5d8c",
@@ -8909,8 +8909,8 @@
     },
     "spell:defile": {
       "hash": "176a2fb8cdcd",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:defy-light": {
       "hash": "be1cc4846204",
@@ -8984,7 +8984,7 @@
     },
     "spell:devastating-throw": {
       "hash": "997615ef6a73",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:devastation": {
@@ -9014,7 +9014,7 @@
     },
     "spell:disk-of-creation": {
       "hash": "ba5d66496c1b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:dispel": {
@@ -9034,7 +9034,7 @@
     },
     "spell:divination": {
       "hash": "378d1c30ff55",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:divine-aegis": {
@@ -9069,7 +9069,7 @@
     },
     "spell:downburst": {
       "hash": "d56a08a5596b",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:drain-life": {
@@ -9084,8 +9084,8 @@
     },
     "spell:dreadblade": {
       "hash": "8a8c78a288a8",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:dream": {
       "hash": "340c040eeb4a",
@@ -9104,7 +9104,7 @@
     },
     "spell:dust-cloak": {
       "hash": "55490816c153",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:dying-wish": {
@@ -9169,13 +9169,13 @@
     },
     "spell:elemental-tome": {
       "hash": "bb69211894e3",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:elemental-wrath": {
       "hash": "52b95680bac7",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:emerald-power": {
       "hash": "0486b89aae38",
@@ -9189,7 +9189,7 @@
     },
     "spell:energize": {
       "hash": "6d4c9b9a5e4f",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:enfeeble": {
@@ -9219,8 +9219,8 @@
     },
     "spell:entangling-roots": {
       "hash": "59ce3bc9bbdd",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:entropic-swing": {
       "hash": "21442511c72a",
@@ -9239,7 +9239,7 @@
     },
     "spell:equality": {
       "hash": "bf1fb6e29e46",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:erratium": {
@@ -9264,7 +9264,7 @@
     },
     "spell:evil-eye": {
       "hash": "53aa311c015c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:eviscerate": {
@@ -9274,12 +9274,12 @@
     },
     "spell:evolution": {
       "hash": "20e382dcfc9a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:exhaustion": {
       "hash": "6676fd4e0dc0",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:expel": {
@@ -9344,8 +9344,8 @@
     },
     "spell:fiery-gleam": {
       "hash": "6627a0472bc7",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:fiery-stew": {
       "hash": "0f849a2f829a",
@@ -9354,13 +9354,13 @@
     },
     "spell:final-form": {
       "hash": "f796b5aef317",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:finger-of-death": {
       "hash": "d8d4b9d48e53",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:fire-arrow": {
       "hash": "1bc0c8b1c49a",
@@ -9369,8 +9369,8 @@
     },
     "spell:fireball": {
       "hash": "dfafab3bf8da",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:firebreath": {
       "hash": "7adc0f5272f9",
@@ -9379,13 +9379,13 @@
     },
     "spell:firedevil-s-rage": {
       "hash": "ee2008b3535a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:firestorm": {
       "hash": "b4c703827067",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:firewall": {
       "hash": "82f1f9fc3da1",
@@ -9399,8 +9399,8 @@
     },
     "spell:fist-of-heavens": {
       "hash": "d8d4b9d48e53",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:fist-of-torun": {
       "hash": "9f7f66572bdf",
@@ -9414,8 +9414,8 @@
     },
     "spell:flame-lash": {
       "hash": "cb9581efbafc",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:flameheart": {
       "hash": "b245f6bede3d",
@@ -9449,7 +9449,7 @@
     },
     "spell:forbidden-unity": {
       "hash": "686ed878e072",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:fortify": {
@@ -9484,7 +9484,7 @@
     },
     "spell:fragmenting-arrow": {
       "hash": "6aa5352695bb",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:freezing-sting": {
@@ -9494,7 +9494,7 @@
     },
     "spell:friendly-fire": {
       "hash": "722cde141362",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:frost-armor": {
@@ -9519,8 +9519,8 @@
     },
     "spell:frost-rampart": {
       "hash": "88e29890d005",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:frustration": {
       "hash": "53d09d9b200c",
@@ -9559,13 +9559,13 @@
     },
     "spell:genesis": {
       "hash": "c6b5c00596a7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:germinate": {
       "hash": "f024c2f614f7",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:ghostly-scimitar": {
       "hash": "c96f749defca",
@@ -9574,8 +9574,8 @@
     },
     "spell:ghoul-s-grip": {
       "hash": "8dcda0b5559c",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:giant-s-strength": {
       "hash": "629f0f980a2b",
@@ -9594,12 +9594,12 @@
     },
     "spell:glacier": {
       "hash": "caeb9665f058",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:glory": {
       "hash": "9b2e73f5a5e4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:godly-gin": {
@@ -9649,7 +9649,7 @@
     },
     "spell:gravity": {
       "hash": "a428db831695",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:greater-dispel": {
@@ -9679,8 +9679,8 @@
     },
     "spell:harbinger-s-curse": {
       "hash": "606c8f020a19",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:haste": {
       "hash": "2125989c0efd",
@@ -9714,8 +9714,8 @@
     },
     "spell:heaven-s-thunder": {
       "hash": "852e66b0fa94",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:hell-forge": {
       "hash": "c9bafa6a6870",
@@ -9724,12 +9724,12 @@
     },
     "spell:hellcry-punch": {
       "hash": "e24d659821eb",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:hemorrhage": {
       "hash": "1ed45f26efeb",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:herd-immunity": {
@@ -9769,8 +9769,8 @@
     },
     "spell:holy-explosion": {
       "hash": "a091ee8b4246",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:holy-fire": {
       "hash": "13176f6e99db",
@@ -9784,8 +9784,8 @@
     },
     "spell:holy-protection": {
       "hash": "b49520f60bea",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:holy-shock": {
       "hash": "ea77c56955b0",
@@ -9844,7 +9844,7 @@
     },
     "spell:hungering-void": {
       "hash": "e5796da54a17",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:hurling-of-rocks": {
@@ -9859,13 +9859,13 @@
     },
     "spell:ice-bolt": {
       "hash": "951586683373",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:icewolf-bite": {
       "hash": "32189e12eac0",
-      "status": "stale",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:icicle-rain": {
       "hash": "4c6b90487d03",
@@ -9894,8 +9894,8 @@
     },
     "spell:immolation-aura": {
       "hash": "23e63ff06bbc",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:impale": {
       "hash": "392c0d22059f",
@@ -9909,7 +9909,7 @@
     },
     "spell:implosion": {
       "hash": "169d476b175e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:improvised-recitation": {
@@ -9924,13 +9924,13 @@
     },
     "spell:infernal-charge": {
       "hash": "ee5b6b627644",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:infernal-claw": {
       "hash": "cddc08909c62",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:infernal-pillars": {
       "hash": "37497aadfd66",
@@ -9944,7 +9944,7 @@
     },
     "spell:infinite-blades": {
       "hash": "be3f8b753ea8",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:inner-destruction": {
@@ -9954,7 +9954,7 @@
     },
     "spell:inner-strength": {
       "hash": "6c89c0af1960",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:innervate": {
@@ -9969,7 +9969,7 @@
     },
     "spell:insight": {
       "hash": "2201dc462d84",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:insincerity": {
@@ -9979,7 +9979,7 @@
     },
     "spell:internal-combustion": {
       "hash": "997c3d79cfc4",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:intimidate": {
@@ -10089,7 +10089,7 @@
     },
     "spell:lightning-strike": {
       "hash": "d75b8046d051",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:lingering-insanity": {
@@ -10104,7 +10104,7 @@
     },
     "spell:living-armor": {
       "hash": "6f08700351ca",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:living-axe": {
@@ -10124,7 +10124,7 @@
     },
     "spell:living-chaos-lance": {
       "hash": "491d1aa99a86",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:living-chaos-shield": {
@@ -10134,12 +10134,12 @@
     },
     "spell:living-cloak": {
       "hash": "64d24d26c9c8",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:living-death-lance": {
       "hash": "003854f0d91a",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:living-death-shield": {
@@ -10149,12 +10149,12 @@
     },
     "spell:living-gauntlet": {
       "hash": "395281e63acd",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:living-heavy-shield": {
       "hash": "a4439b3424f3",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:living-helmet": {
@@ -10179,7 +10179,7 @@
     },
     "spell:living-nature-lance": {
       "hash": "0d3ee25cd440",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:living-nature-shield": {
@@ -10214,7 +10214,7 @@
     },
     "spell:living-staff": {
       "hash": "1385d65eea10",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:living-sword": {
@@ -10264,8 +10264,8 @@
     },
     "spell:maelstrom": {
       "hash": "23ebfc2d4a09",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:magic-jelly-beans": {
       "hash": "20b28473db37",
@@ -10274,8 +10274,8 @@
     },
     "spell:magic-missile": {
       "hash": "590611b77ccc",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:magic-suppression": {
       "hash": "6e3420f1b1f3",
@@ -10339,8 +10339,8 @@
     },
     "spell:mega-magic": {
       "hash": "52b95680bac7",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:mega-tsunami": {
       "hash": "1b6f53562633",
@@ -10399,8 +10399,8 @@
     },
     "spell:mind-blast": {
       "hash": "c946ed989aa5",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:mind-control": {
       "hash": "91a6b7f3e407",
@@ -10419,7 +10419,7 @@
     },
     "spell:mind-explosion": {
       "hash": "add6aadfde29",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:mind-fizzle": {
@@ -10459,8 +10459,8 @@
     },
     "spell:misery": {
       "hash": "c65e8b5abcc0",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:molten-armor": {
       "hash": "63e23bb6cda7",
@@ -10474,7 +10474,7 @@
     },
     "spell:momentum": {
       "hash": "c8d90239519c",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:morph-chaos": {
@@ -10569,8 +10569,8 @@
     },
     "spell:nightmare": {
       "hash": "1ce1c471e65f",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:nine-meteors": {
       "hash": "37ea542bcfaf",
@@ -10579,13 +10579,13 @@
     },
     "spell:nourish": {
       "hash": "5a59573e124e",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:nuclear-blast": {
       "hash": "b148d4ecd28b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:nutrition": {
       "hash": "f377453f36f1",
@@ -10609,7 +10609,8 @@
     },
     "spell:overheat": {
       "hash": "c1391a2430ab",
-      "status": "todo"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:pandemonium": {
       "hash": "1aa204a45aaf",
@@ -10623,13 +10624,13 @@
     },
     "spell:parasite-eve": {
       "hash": "7abbda8a9eac",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:parasites": {
       "hash": "f037f141bdc1",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:party-in-the-back": {
       "hash": "0edcc0ee92f0",
@@ -10638,7 +10639,7 @@
     },
     "spell:peace": {
       "hash": "ea3a02bd12d8",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:permafrost": {
@@ -10653,12 +10654,12 @@
     },
     "spell:petrify": {
       "hash": "0799504a0bef",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:phantasm": {
       "hash": "115fee566ca0",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:phoenix-burst": {
@@ -10683,8 +10684,8 @@
     },
     "spell:planets": {
       "hash": "52b95680bac7",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:poison-arrow": {
       "hash": "b4d7fba97d7b",
@@ -10693,8 +10694,8 @@
     },
     "spell:poison-gas": {
       "hash": "1cb70cfa7f70",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:polish": {
       "hash": "70893b45e80c",
@@ -10703,12 +10704,12 @@
     },
     "spell:pop": {
       "hash": "fcb1963b3375",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:potent-porter": {
       "hash": "84af79dad605",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:powered-blast": {
@@ -10728,7 +10729,7 @@
     },
     "spell:productive-belch": {
       "hash": "2a5c3adc53ab",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:profanity": {
@@ -10753,8 +10754,8 @@
     },
     "spell:psionic-blast": {
       "hash": "9d3f3ad64f91",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:psychic-rapture": {
       "hash": "4816eb462042",
@@ -10788,8 +10789,8 @@
     },
     "spell:putrescent-odor": {
       "hash": "94780b8ec0ce",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:pyroburst": {
       "hash": "bd511139e5c3",
@@ -10828,13 +10829,13 @@
     },
     "spell:rain-of-blood": {
       "hash": "43e114db6137",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:rapture": {
       "hash": "0683ef51e567",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:ravage": {
       "hash": "928a82e4e916",
@@ -10853,12 +10854,12 @@
     },
     "spell:reckoning": {
       "hash": "9f19fe441d59",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:redirection": {
       "hash": "95cf2eaa7fad",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:redoubt": {
@@ -10883,8 +10884,8 @@
     },
     "spell:rend": {
       "hash": "263ccbeeb8dc",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:replicate": {
       "hash": "40917c24b897",
@@ -10968,7 +10969,7 @@
     },
     "spell:ruby-power": {
       "hash": "aaaf7f61b994",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:ruin": {
@@ -10978,32 +10979,32 @@
     },
     "spell:rune-of-cor": {
       "hash": "21049398ffd9",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:rune-of-dun": {
       "hash": "4e5d45e6bd92",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:rune-of-lua": {
       "hash": "2dcfc21569cb",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:rune-of-nax": {
       "hash": "01c082175516",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:rune-of-sah": {
       "hash": "8c8555d327df",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:rupture": {
       "hash": "fcc77f855f29",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:ruse": {
@@ -11023,7 +11024,7 @@
     },
     "spell:sacrifice-to-the-light": {
       "hash": "780f8df54a14",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:saint-s-touch": {
@@ -11033,13 +11034,13 @@
     },
     "spell:sanctuary": {
       "hash": "9868f8557741",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:sandstorm": {
       "hash": "0057b393622a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:sapphire-power": {
       "hash": "5700abb94d44",
@@ -11058,7 +11059,7 @@
     },
     "spell:saving-grace": {
       "hash": "18616879a593",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:schism": {
@@ -11123,8 +11124,8 @@
     },
     "spell:serendipity": {
       "hash": "3f2ea0ac70bb",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:shadow-crash": {
       "hash": "998ceff6c08d",
@@ -11153,7 +11154,7 @@
     },
     "spell:shellbust": {
       "hash": "95423782f0eb",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:shield-bash": {
@@ -11218,8 +11219,8 @@
     },
     "spell:smoke-bomb": {
       "hash": "61329d27480d",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:sneak-attack": {
       "hash": "4b7f03901316",
@@ -11263,8 +11264,8 @@
     },
     "spell:soul-rage": {
       "hash": "efabc83e3f4b",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:soul-sacrifice": {
       "hash": "72ef7fbb5311",
@@ -11303,7 +11304,7 @@
     },
     "spell:spell-leak": {
       "hash": "f8433d1557ab",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:spell-lock": {
@@ -11318,12 +11319,12 @@
     },
     "spell:spell-ward": {
       "hash": "502c4fad3ec1",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:spicy-suds": {
       "hash": "0083ab1e541d",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:spirit-bond": {
@@ -11343,8 +11344,8 @@
     },
     "spell:split-punch": {
       "hash": "dd075088d656",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:splitting-arrow": {
       "hash": "41faf12c513e",
@@ -11373,7 +11374,7 @@
     },
     "spell:star-pact": {
       "hash": "db7a6853ddb7",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:starfire": {
@@ -11383,13 +11384,13 @@
     },
     "spell:stasis-sword": {
       "hash": "ff0c1ad5c03a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:steel-storm": {
       "hash": "e2d64562b775",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:stellar-flare": {
       "hash": "0a40b4ceb5fb",
@@ -11398,7 +11399,7 @@
     },
     "spell:stone-skin": {
       "hash": "a99569916cdd",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:stone-ward": {
@@ -11438,13 +11439,13 @@
     },
     "spell:sudden-death": {
       "hash": "a6dac4fea315",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:suffocation": {
       "hash": "d21f2e145174",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:summon-animated-gem": {
       "hash": "37a06cca7ef8",
@@ -11483,7 +11484,7 @@
     },
     "spell:summon-horde": {
       "hash": "4b02a6dcf152",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:summon-spiderlings": {
@@ -11528,8 +11529,8 @@
     },
     "spell:surrender-to-madness": {
       "hash": "e2760e2d2d46",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:tectonic-upheaval": {
       "hash": "be458646af06",
@@ -11543,7 +11544,7 @@
     },
     "spell:thoughts-and-prayers": {
       "hash": "c68a82ee7b56",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:time-stop": {
@@ -11573,7 +11574,7 @@
     },
     "spell:total-carnage": {
       "hash": "9b759515da21",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:toxic-frogmania": {
@@ -11628,7 +11629,7 @@
     },
     "spell:ultimus": {
       "hash": "f5211be62246",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:unbound-combustion": {
@@ -11638,8 +11639,8 @@
     },
     "spell:unholy-augmentation": {
       "hash": "9546d6b0974a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:unholy-confessions": {
       "hash": "de7fe153974a",
@@ -11648,8 +11649,8 @@
     },
     "spell:unholy-frenzy": {
       "hash": "e4dedc8b5808",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:unholy-rage": {
       "hash": "b84d4a1eb4c3",
@@ -11668,7 +11669,7 @@
     },
     "spell:unstable-anomaly": {
       "hash": "6331eed09b6e",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:unstable-equilibrium": {
@@ -11693,7 +11694,7 @@
     },
     "spell:uzi": {
       "hash": "1548269a60c5",
-      "status": "stale",
+      "status": "tagged",
       "provenance": "claude"
     },
     "spell:vaccination": {
@@ -11708,8 +11709,8 @@
     },
     "spell:vampirism": {
       "hash": "5824f76ec63a",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:verdant-spheres": {
       "hash": "e550a17c62af",
@@ -11718,8 +11719,8 @@
     },
     "spell:vertigo": {
       "hash": "c205e6e759fb",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:vilify": {
       "hash": "a48e347c0b87",
@@ -11753,8 +11754,8 @@
     },
     "spell:volcano": {
       "hash": "0857c0f2f7b9",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:voodoo": {
       "hash": "7e0dc7c774f7",
@@ -11788,8 +11789,8 @@
     },
     "spell:web": {
       "hash": "bc460233a333",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:whiplash": {
       "hash": "d57cfdd0bbf8",
@@ -11853,8 +11854,8 @@
     },
     "spell:wormrot": {
       "hash": "2d88fac6f539",
-      "status": "machine",
-      "provenance": "machine"
+      "status": "tagged",
+      "provenance": "claude"
     },
     "spell:wrath-of-nature": {
       "hash": "4ae277f185d0",

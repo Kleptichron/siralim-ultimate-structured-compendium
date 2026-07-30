@@ -12,11 +12,11 @@
           "verb": "spell_modifier",
           "target": "enemies",
           "params": {
-            "effect": "Ethereal Spell Gems destroyed"
+            "effect": "Ethereal Spell Gems are Sealed"
           }
         }
       ]
     }
   ],
-  "textHash": "a3ea6174c456"
+  "textHash": "f8433d1557ab"
 }

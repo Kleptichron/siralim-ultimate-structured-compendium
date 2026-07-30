@@ -1,21 +1,21 @@
 {
-  "id": "spell:icewolf-bite",
-  "textHash": "caeb9665f058",
   "schemaVersion": 13,
-  "provenance": "machine",
-  "machineTemplate": "spell-damage",
+  "provenance": "claude",
+  "id": "spell:icewolf-bite",
   "rules": [
     {
       "trigger": {
         "type": "activated"
       },
-      "conditions": [],
       "actions": [
         {
           "verb": "deal_damage",
           "target": "target",
           "magnitude": {
-            "tier": "large"
+            "tier": "moderate"
+          },
+          "params": {
+            "times": 2
           }
         },
         {
@@ -23,9 +23,11 @@
           "target": "target",
           "statuses": [
             "Frozen"
-          ]
+          ],
+          "statusKind": "debuff"
         }
       ]
     }
-  ]
+  ],
+  "textHash": "32189e12eac0"
 }
