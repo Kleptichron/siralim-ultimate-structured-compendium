@@ -1,5 +1,5 @@
 import {
-  PICKERS, SORTS, PAGE, EXCLUDABLE, emptyQuery, cloneQuery, runQuery, sortResults,
+  PICKERS, SORTS, PAGE, PAGE_SIZES, EXCLUDABLE, emptyQuery, cloneQuery, runQuery, sortResults,
   facetCounts, anyRuleScopedFilter, activeFilterCount, pctRangeActive,
   canUseAllMode, isAllMode, chipApplied, queryToHash, hashToQuery,
 } from './filter.js';
@@ -652,10 +652,20 @@ function renderResultBar() {
     : `${num(total)} result${total === 1 ? '' : 's'}`;
   const opts = SORTS.map(s =>
     `<option value="${s.id}" ${query.sort === s.id ? 'selected' : ''}>${s.label}</option>`).join('');
+  const perOpts = PAGE_SIZES.map(n =>
+    `<option value="${n}" ${query.perPage === n ? 'selected' : ''}>${n}</option>`).join('');
   $('#resultbar').innerHTML =
-    `<span>${count}</span><label class="sort">sort <select id="sort">${opts}</select></label>
+    `<span>${count}</span><label class="sort">show <select id="perpage">${perOpts}</select></label>
+     <label class="sort">sort <select id="sort">${opts}</select></label>
      <div class="bexport"><button class="bx" id="xtoggle" data-fk="x:toggle"
        aria-haspopup="menu" aria-expanded="false" ${total ? '' : 'disabled'}>Export…</button></div>`;
+  // Changing the reveal size starts the list again at that size rather than
+  // keeping a count that was chosen against the old one.
+  $('#perpage').onchange = e => {
+    query.perPage = Number(e.target.value);
+    query.shown = query.perPage;
+    render({ push: true });
+  };
   $('#sort').onchange = e => { query.sort = e.target.value; render({ push: true }); };
   $('#xtoggle').onclick = () => (isXMenuOpen() ? closeExportMenu() : openExportMenu());
 }
@@ -745,12 +755,12 @@ function renderMore() {
   const remaining = lastResults.length - Math.min(query.shown, lastResults.length);
   const el = $('#more');
   if (remaining <= 0) { el.innerHTML = ''; return; }
-  const next = Math.min(PAGE, remaining);
+  const next = Math.min(query.perPage, remaining);
   el.innerHTML = `
     <button class="showmore" data-fk="more:next">Show ${num(next)} more</button>
     ${remaining > next ? `<button class="showall" data-fk="more:all">Show all ${num(lastResults.length)}</button>` : ''}
     <span class="dim">${num(remaining)} not shown</span>`;
-  el.querySelector('.showmore').onclick = () => reveal(query.shown + PAGE);
+  el.querySelector('.showmore').onclick = () => reveal(query.shown + query.perPage);
   el.querySelector('.showall')?.addEventListener('click', () => reveal(lastResults.length));
 }
 
@@ -1203,7 +1213,7 @@ function paint() {
 }
 
 function render({ push = false } = {}) {
-  query.shown = PAGE; // a new query starts at the top
+  query.shown = query.perPage; // a new query starts at the top
   // Typing focuses the search box, which carries no focus key — so this is a
   // no-op there and only fires for the controls that rebuild themselves.
   const focused = captureFocus();

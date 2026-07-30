@@ -27,7 +27,11 @@ const RULE_SCOPED = [
 ];
 
 // How many results a reveal step adds, and the serialization default for it.
-export const PAGE = 250;
+// How many results are revealed at a time, both for the first batch and for
+// each "show more". Reader-settable, so it is part of the query and round-trips
+// through the URL like everything else.
+export const PAGE_SIZES = [10, 25, 50, 100];
+export const PAGE = PAGE_SIZES[1];   // 25
 
 // First entry is the default. 'relevance' with no text query is identical to
 // 'source', so the out-of-the-box order is unchanged until you actually search.
@@ -103,8 +107,10 @@ export function emptyQuery() {
     // does both, not that the record happens to contain each somewhere.
     sameRule: true,
     sort: SORTS[0].id,
-    // View state, not a filter: how many results have been revealed. Lives here
-    // so it round-trips through the URL with everything else.
+    // View state, not a filter: how many results have been revealed, and how
+    // many more each reveal adds. Both live here so they round-trip through the
+    // URL with everything else.
+    perPage: PAGE,
     shown: PAGE,
   };
 }
@@ -145,7 +151,8 @@ export function queryToHash(query) {
   if (pctRangeActive(query)) p.set('pct', `${query.pctMin ?? ''}-${query.pctMax ?? ''}`);
   if (query.allOf.size) p.set('all', [...query.allOf].sort().join(','));
   if (query.sort !== SORTS[0].id) p.set('sort', query.sort);
-  if (query.shown > PAGE) p.set('show', String(query.shown));
+  if (query.perPage !== PAGE) p.set('per', String(query.perPage));
+  if (query.shown > query.perPage) p.set('show', String(query.shown));
   // ',' ':' and '!' are all legal fragment characters — keep them literal so
   // the URL stays readable. Everything else keeps standard form encoding.
   return p.toString().replace(/%2C/g, ',').replace(/%3A/g, ':').replace(/%21/g, '!');
@@ -185,8 +192,12 @@ export function hashToQuery(hash) {
   if (SORTS.some(s => s.id === p.get('sort'))) query.sort = p.get('sort');
   // Clamp hard: a negative `show` would turn slice(0, n) into "drop the last n",
   // silently hiding results. Unparseable values fall back to the default.
+  // Only the offered sizes: an arbitrary ?per= would let a link render the
+  // whole corpus in one go, which is the thing the reveal exists to avoid.
+  const per = Number.parseInt(p.get('per') ?? '', 10);
+  query.perPage = PAGE_SIZES.includes(per) ? per : PAGE;
   const show = Number.parseInt(p.get('show') ?? '', 10);
-  query.shown = Number.isFinite(show) ? Math.max(PAGE, show) : PAGE;
+  query.shown = Number.isFinite(show) ? Math.max(query.perPage, show) : query.perPage;
   return query;
 }
 

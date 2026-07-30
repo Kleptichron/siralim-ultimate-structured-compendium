@@ -20,10 +20,12 @@
      sidebar stays aligned when the header's type size changes. */
   --header-h: 58px;
   --sidebar-w: 320px;
-  /* Sidebar plus the 1180px main caps at, so the two columns centre as a unit
-     instead of the results trailing off into empty space on a wide monitor. */
-  --layout-max: 1500px;
+  /* Sidebar plus its two 1px edges plus the 1180px main caps at, so the two
+     columns centre as a unit instead of the results trailing off into empty
+     space on a wide monitor. */
+  --layout-max: 1502px;
   --sidebar-pad: 14px;
+  --main-pad-x: 22px;
   /* Without this the browser paints light scrollbars and light dropdown menus
      over a dark page — it has no other way to know the theme. */
   color-scheme: dark;
@@ -69,9 +71,15 @@ header {
   height: var(--header-h);
   padding-block: 0;
   /* Full-bleed bar, centred contents: the padding absorbs whatever the viewport
-     has spare beyond --layout-max, so the search box and Ko-fi button sit over
-     the columns rather than hugging the window edges. */
-  padding-inline: max(18px, calc((100% - var(--layout-max)) / 2));
+     has spare beyond --layout-max, so the header sits over the columns rather
+     than hugging the window edges. The right side carries main's inline padding
+     as well, because that is what the Export button and the cards line up to;
+     without it the Ko-fi button overhangs them by exactly that much. */
+  padding-left: max(18px, calc((100% - var(--layout-max)) / 2));
+  /* The right gutter tracks the layout's own margin, which is zero once the
+     viewport is narrower than --layout-max, plus main's inline padding. Using
+     the 18px floor here instead would overshoot by 18px at those widths. */
+  padding-right: calc(max(0px, (100% - var(--layout-max)) / 2) + var(--main-pad-x));
   background: var(--panel); border-bottom: 1px solid var(--border);
   position: sticky; top: 0; z-index: 5;
 }
@@ -188,7 +196,7 @@ h1 { font-size: 1.15rem; margin: 0; color: var(--accent); white-space: nowrap; }
 #boot button:hover { border-color: var(--accent); color: var(--accent); }
 body:not(.ready) .layout { display: none; }
 
-.layout { display: grid; grid-template-columns: var(--sidebar-w) 1fr; gap: 0;
+.layout { display: grid; grid-template-columns: calc(var(--sidebar-w) + 2px) 1fr; gap: 0;
   max-width: var(--layout-max); margin-inline: auto; }
 /* Grid items default to min-width:auto, so one nowrap rule chip would widen the
    1fr column past the viewport and scroll the whole page sideways. */
@@ -227,7 +235,11 @@ body.nav-closed aside { border-right-width: 0; }
    scrollbar sits INSIDE the fixed-width content — on the aside it would eat
    ~11px of the content box and clip the counts off the right of every row. */
 aside {
-  border-right: 1px solid var(--border); overflow: hidden;
+  /* Both edges, not just the divider: once the layout is centred the sidebar no
+     longer sits against the window, so without a left edge it reads as content
+     floating in the margin rather than as a panel. */
+  border-right: 1px solid var(--border); border-left: 1px solid var(--border);
+  overflow: hidden;
   height: calc(100vh - var(--header-h));
   position: sticky; top: var(--header-h);
 }
@@ -240,7 +252,7 @@ aside {
    it parked in place while the results column advanced over it, which reads as
    the results covering the sidebar rather than the sidebar leaving. */
 body.nav-closed .facets-inner { transform: translateX(-100%); }
-main { padding: 16px 22px; max-width: 1180px; }
+main { padding: 16px var(--main-pad-x); max-width: 1180px; }
 
 /* The footer is the first and only place the page has an anchor, so link
    colours live here rather than in a global rule that styles nothing else. */

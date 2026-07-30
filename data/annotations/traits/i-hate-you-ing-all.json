@@ -24,6 +24,6 @@
   "flags": {
     "stacks": false
   },
-  "notes": "Joke text (all-caps); the mechanic is a flat enemy damage reduction.",
+  "notes": "A flat reduction to enemy damage.",
   "textHash": "667bbe19800c"
 }
