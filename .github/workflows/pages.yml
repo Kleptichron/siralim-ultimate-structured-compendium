@@ -33,6 +33,12 @@ jobs:
       - run: npm test
 
       - run: npm run build
+
+      # Boot the BUILT site in the runner's Chrome. `npm test` proves the
+      # corpus; this proves the page — a boot-time JS error or a broken index
+      # fetch otherwise deploys green and ships a blank site.
+      - run: npm run smoke
+
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

@@ -11,13 +11,14 @@
   <meta name="theme-color" content="#14161a">
   <!-- This site gets shared by pasting a link into a Discord or a subreddit, so
        the unfurled card is the first thing most readers see of it.
-       These two are the only absolute URLs in the build: crawlers resolve
-       og:image against nothing, so a relative path silently yields no image at
-       all, and og:url has to agree with it. Everything else stays relative via
-       base: './' (see vite.config.js), so moving to a custom domain means
-       editing these two lines and nothing else.
-       og.png is generated from scripts/og-card.html; regenerate it when the
-       record count in the copy goes stale. -->
+       Crawlers resolve og:image against nothing, so a relative path silently
+       yields no image at all, and og:url has to agree with it. The app itself
+       stays relative via base: './' (see vite.config.js); the full list of
+       files with the site URL baked in, for a custom-domain move, is: these
+       two lines, public/robots.txt, public/sitemap.xml and public/404.html.
+       og.png is generated from scripts/og-card.html; the record counts here
+       and there are asserted against the built index by meta.test.js, so a
+       data refresh fails the build instead of shipping stale copy. -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="SU Structured Compendium">
   <meta property="og:title" content="Siralim Ultimate Structured Compendium">

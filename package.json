@@ -16,9 +16,11 @@
     "dev": "vite web",
     "build": "vite build web",
     "test": "node scripts/build-index.js && node scripts/validate.js && node --test \"scripts/tests/*.test.js\"",
+    "smoke": "node scripts/smoke.js",
     "preview": "vite preview web"
   },
   "devDependencies": {
+    "puppeteer-core": "^25.4.0",
     "vite": "^5.0.0"
   }
 }
