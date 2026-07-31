@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kleptichron.github.io/siralim-ultimate-structured-compendium/sitemap.xml
