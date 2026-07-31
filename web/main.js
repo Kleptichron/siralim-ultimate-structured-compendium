@@ -303,9 +303,6 @@ async function boot() {
     if (e.shiftKey && (document.activeElement === first || onPanel)) { e.preventDefault(); last.focus(); }
     else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
   });
-  for (const el of document.querySelectorAll('#about [data-count]')) {
-    el.textContent = num(index.records.length);
-  }
 
   // Open on desktop, shut on phones where it would cover the results.
   setNav(!narrow());
