@@ -41,7 +41,7 @@ const VERB_INTERACTION = {
 // Canonical key order — keeps the built artifact byte-stable across runs.
 const FACET_KEYS = [
   'triggers', 'verbs', 'actors', 'targets', 'conditions', 'tiers', 'scaleStats',
-  'scaleRefs', 'qualifiers', 'flows', 'statusInteractions', 'statInteractions',
+  'scaleRefs', 'qualifiers', 'flows', 'timelineTo', 'statusInteractions', 'statInteractions',
   'classInteractions', 'raceInteractions',
   // Percentage magnitudes as "verb|pct" pairs, so a range query can be checked
   // per ACTION. Storing bare numbers made "damage_modifier at 100%+" match a
@@ -82,6 +82,10 @@ function deriveRuleBags(rule, ruleIndex) {
     // "cares about <class> SPELLS" reads the same key wherever it appears —
     // "after casting a Life spell" is as searchable as "amplifies Life spells".
     if (t.params?.spellClass) f.classInteractions.add(`${t.params.spellClass}|spells`);
+    // Where the move went, on both sides of the event: "fires when moved to
+    // the bottom" is as searchable as "sends to the bottom". Relative moves
+    // and shuffles carry no `to` and stay out — schema.js validates the value.
+    if (t.type === 'after_timeline_move' && t.params?.to) f.timelineTo.add(t.params.to);
     for (const c of rule.conditions ?? []) {
       f.conditions.add(c.type);
       for (const s of [...statusesOf(c.params?.status), ...statusesOf(c.params?.statuses)]) {
@@ -126,6 +130,7 @@ function deriveRuleBags(rule, ruleIndex) {
       if (a.actor) f.actors.add(resolve(a.actor));
       if (a.target) f.targets.add(resolve(a.target));
       if (a.flow) f.flows.add(a.flow);
+      if (a.verb === 'timeline_move' && a.params?.to) f.timelineTo.add(a.params.to);
       for (const q of a.qualifiers ?? []) f.qualifiers.add(q);
       const inter = VERB_INTERACTION[a.verb];
       for (const s of a.statuses ?? []) {
@@ -314,7 +319,7 @@ const index = {
   // Groups whose values have an inherent order the app should display them in,
   // rather than the by-frequency default. Shipped so the scale lives only in
   // the schema and is never retyped in the UI.
-  ordered: { tiers: TIERS, equip: EQUIP_FROM_SLOT.map(([, v]) => v) },
+  ordered: { tiers: TIERS, equip: EQUIP_FROM_SLOT.map(([, v]) => v), timelineTo: ['top', 'bottom'] },
   counts: { total: records.length, tagged: records.filter(r => r.rules).length },
   records,
 };

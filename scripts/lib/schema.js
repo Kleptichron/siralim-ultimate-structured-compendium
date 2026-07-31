@@ -178,6 +178,10 @@ export const QUALIFIERS = ['random', 'stolen', 'permanent'];
 export const STATUS_KINDS = ['buff', 'debuff'];
 // Direction of flow for damage_modifier / healing_modifier: outgoing vs incoming.
 export const FLOWS = ['dealt', 'taken'];
+// Absolute Timeline destinations, faceted from params.to on timeline_move
+// actions and after_timeline_move triggers. Relative moves ("one place down")
+// and shuffles stay in free-text params and carry no `to`.
+export const TIMELINE_TO = ['top', 'bottom'];
 const MAGNITUDE_KEYS = new Set([
   'amountPct', 'amountFlat', 'tier', 'scaleStat', 'scaleRef', 'scalePct',
   'per', 'perRank', 'direction', 'cap',
@@ -261,6 +265,10 @@ export function validateAnnotation(ann, record, lex, corpus) {
       if (t.params?.spellClass !== undefined && !lex.classes.includes(t.params.spellClass)) {
         re(`trigger params.spellClass "${t.params.spellClass}" not a class`);
       }
+      if (t.type === 'after_timeline_move' && t.params?.to !== undefined
+          && !TIMELINE_TO.includes(t.params.to)) {
+        re(`trigger params.to "${t.params.to}" not top|bottom`);
+      }
       // "defends or provokes" is two trigger types, not one plus a note. Burying
       // the second in params made it unsearchable and half-rendered.
       if (t.params?.alsoAfter !== undefined) {
@@ -341,6 +349,10 @@ export function validateAnnotation(ann, record, lex, corpus) {
       }
       if (a.params?.sourceRace !== undefined && !lex.families.includes(a.params.sourceRace)) {
         ae(`params.sourceRace "${a.params.sourceRace}" not a known family`);
+      }
+      if (a.verb === 'timeline_move' && a.params?.to !== undefined
+          && !TIMELINE_TO.includes(a.params.to)) {
+        ae(`params.to "${a.params.to}" not top|bottom`);
       }
       const m = a.magnitude;
       if (m !== undefined) {

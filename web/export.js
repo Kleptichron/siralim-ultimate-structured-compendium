@@ -57,6 +57,7 @@ const COLUMNS = [
   ['classes', r => pairs(r.facets?.classInteractions)],
   ['races', r => pairs(r.facets?.raceInteractions)],
   ['flow', r => list(r.facets?.flows)],
+  ['timeline move', r => list(r.facets?.timelineTo)],
   ['magnitude', r => list(r.facets?.tiers)],
   ['percents', r => (r.facets?.pcts ?? []).map(p => {
     const bar = p.lastIndexOf('|');

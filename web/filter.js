@@ -23,7 +23,7 @@ export const PICKERS = [
 // testing it against a single rule's bag would never match.
 const RULE_SCOPED = [
   'triggers', 'verbs', 'actors', 'targets',
-  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers',
+  'conditions', 'flows', 'timelineTo', 'scaleRefs', 'tiers', 'qualifiers',
 ];
 
 // How many results a reveal step adds, and the serialization default for it.
@@ -44,7 +44,7 @@ export const SORTS = [
 // Groups that support exclusion, i.e. every value-list group.
 export const EXCLUDABLE = [
   'types', 'triggers', 'verbs', 'actors', 'targets',
-  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'families', 'equip',
+  'conditions', 'flows', 'timelineTo', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'families', 'equip',
 ];
 
 // Properties of the whole record rather than of any one rule. `types` is
@@ -85,6 +85,7 @@ export function emptyQuery() {
     targets: new Set(),
     conditions: new Set(),
     flows: new Set(),
+    timelineTo: new Set(),
     scaleRefs: new Set(),
     tiers: new Set(),
     qualifiers: new Set(),
@@ -122,7 +123,7 @@ const SET_PARAMS = [
   ['src', 'types'], ['when', 'triggers'], ['do', 'verbs'],
   ['actor', 'actors'], ['target', 'targets'],
   // 'if' mirrors the IF keyword the rule chips render.
-  ['if', 'conditions'], ['flow', 'flows'], ['scales', 'scaleRefs'],
+  ['if', 'conditions'], ['flow', 'flows'], ['to', 'timelineTo'], ['scales', 'scaleRefs'],
   ['tier', 'tiers'], ['qual', 'qualifiers'], ['is', 'markers'],
   ['family', 'families'], ['slot', 'equip'],
 ];

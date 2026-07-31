@@ -149,6 +149,10 @@ function ruleHtml(rule, query, mark) {
   const parts = ['<span class="rk">when</span>'];
   const t = rule.trigger ?? {};
   parts.push(chip(t.type + (t.subject ? `: ${t.subject}` : ''), '', [['g', 'triggers', t.type]]));
+  // Where the move landed — the trigger only says a move happened.
+  if (t.type === 'after_timeline_move' && t.params?.to) {
+    parts.push(chip(`to ${t.params.to}`, '', [['g', 'timelineTo', t.params.to]]));
+  }
   for (const c of rule.conditions ?? []) {
     parts.push('<span class="rk">if</span>');
     const st = c.params?.status ?? (c.params?.statuses ?? []).join('/');
@@ -180,6 +184,11 @@ function ruleHtml(rule, query, mark) {
       a.actor && ['g', 'actors', resolve(a.actor)],
       a.target && ['g', 'targets', resolve(a.target)],
     ]));
+    // The destination was invisible on the card — "timeline_move" said a move
+    // happened but never which way.
+    if (a.verb === 'timeline_move' && a.params?.to) {
+      parts.push(chip(`to ${a.params.to}`, '', [['g', 'timelineTo', a.params.to]]));
+    }
     const inter = VERB_INTERACTION[a.verb];
     for (const s of a.statuses ?? []) {
       parts.push(chip(s, `st-${statusKind[s] ?? ''}`, [['p', 'status', s, inter ? inter(s) : 'interacts']]));

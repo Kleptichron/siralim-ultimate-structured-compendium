@@ -86,7 +86,7 @@ test('a chip narrows the corpus rather than matching everything', () => {
 
 test('a chip carries no filter it cannot act on', () => {
   const groups = new Set(['triggers', 'verbs', 'actors', 'targets', 'conditions', 'flows',
-    'tiers', 'qualifiers', 'scaleRefs', 'markers', 'families', 'types']);
+    'timelineTo', 'tiers', 'qualifiers', 'scaleRefs', 'markers', 'families', 'types']);
   const pickers = new Set(['status', 'stat', 'class', 'race']);
   const bad = [];
   for (const rec of index.records) {

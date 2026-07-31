@@ -394,17 +394,21 @@ function computeFacetOrder() {
 // every <details> the reader had opened. Not in the URL — it is a view
 // preference, not part of the query being shared.
 const collapsed = new Set([
-  'conditions', 'flows', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'pct', 'equip',
+  'conditions', 'flows', 'timelineTo', 'scaleRefs', 'tiers', 'qualifiers', 'markers', 'pct', 'equip',
   'class', 'race', // the two narrowest key pickers; status and stat stay open
 ]);
 
 // Short names for the summary chips, where the sidebar's headings are too long.
 const GROUP_LABEL = {
   types: 'source', triggers: 'when', verbs: 'action', actors: 'actor',
-  targets: 'target', conditions: 'if', flows: 'flow', scaleRefs: 'scales with',
+  targets: 'target', conditions: 'if', flows: 'flow', timelineTo: 'timeline',
+  scaleRefs: 'scales with',
   tiers: 'tier', qualifiers: 'qualifier', markers: '', families: 'family',
   equip: 'slot',
 };
+
+// The facet stores the destination; the label says the whole move.
+const TIMELINE_TO_LABELS = { top: 'to the top', bottom: 'to the bottom' };
 
 // The facet stores which slot RULE a trait satisfies, not the slot names:
 // innate and fusion accept exactly the same traits, so one value covers both.
@@ -583,6 +587,8 @@ function renderFacets() {
     ${facetGroupHtml('Condition', 'conditions', query.conditions, facetCounts(index.records, query, 'conditions'), v => v.replace(/_/g, ' '))}
     ${facetGroupHtml('Scales with', 'scaleRefs', query.scaleRefs, facetCounts(index.records, query, 'scaleRefs'), v => v.replace(/_/g, ' '))}
     ${facetGroupHtml('Damage / healing flow', 'flows', query.flows, facetCounts(index.records, query, 'flows'))}
+    ${facetGroupHtml('Timeline move', 'timelineTo', query.timelineTo, facetCounts(index.records, query, 'timelineTo'), v => TIMELINE_TO_LABELS[v] ?? v,
+      'Where a move lands, on either side of the event: effects that SEND a creature to the top or bottom, and effects that FIRE when one arrives there. Relative moves ("one place down") and shuffles carry no destination and are not listed.')}
     ${facetGroupHtml('Magnitude tier', 'tiers', query.tiers, facetCounts(index.records, query, 'tiers'))}
     ${pctRangeHtml()}
     ${facetGroupHtml('Qualifier', 'qualifiers', query.qualifiers, facetCounts(index.records, query, 'qualifiers'))}
@@ -882,7 +888,7 @@ const attr = s => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').repla
 function activeChips() {
   const chips = [];
   const add = (kind, label, off = false) => chips.push({ kind, label, off });
-  const LABELS = { markers: MARKER_LABELS, equip: EQUIP_LABELS };
+  const LABELS = { markers: MARKER_LABELS, equip: EQUIP_LABELS, timelineTo: TIMELINE_TO_LABELS };
   const valueLabel = (g, v) => LABELS[g]?.[v] ?? String(v).replace(/_/g, ' ');
   // Say "all" in the chip when the group demands every value — otherwise two
   // chips look identical whether they mean AND or OR.
