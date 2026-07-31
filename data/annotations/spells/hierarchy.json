@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "spell:hierarchy",
   "rules": [
@@ -13,9 +13,18 @@
           "actor": "any",
           "target": "random_any",
           "params": {
-            "vs": "a random creature on the opposite side",
-            "bonusPct": 25,
-            "per": "creature below the attacker on the Timeline"
+            "vs": "a random creature on the opposite side"
+          }
+        },
+        {
+          "verb": "damage_modifier",
+          "target": "any",
+          "flow": "dealt",
+          "magnitude": {
+            "amountPct": 25,
+            "direction": "up",
+            "scaleRef": "timeline_position",
+            "per": "creature below it on the Timeline"
           }
         }
       ]

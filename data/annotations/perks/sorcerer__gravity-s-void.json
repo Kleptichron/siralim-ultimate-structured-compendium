@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "perk:sorcerer:gravity-s-void",
   "rules": [
@@ -19,7 +19,7 @@
               "per": 1,
               "maxTotal": 15
             },
-            "scaleRef": "other",
+            "scaleRef": "timeline_position",
             "per": "creature between the two on the Timeline"
           }
         }

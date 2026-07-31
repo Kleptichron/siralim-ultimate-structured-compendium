@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "spell:mind-flay",
   "rules": [
@@ -12,10 +12,10 @@
           "verb": "deal_damage",
           "target": "target",
           "magnitude": {
-            "tier": "small"
-          },
-          "params": {
-            "bonusPct": 50,
+            "tier": "small",
+            "amountPct": 50,
+            "direction": "up",
+            "scaleRef": "timeline_position",
             "per": "creature between it and the caster on the Timeline"
           }
         }

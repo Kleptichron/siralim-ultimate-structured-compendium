@@ -1,4 +1,4 @@
-# Rule model (schema v13)
+# Rule model (schema v14)
 
 > v2 was frozen 2026-07-06; every change since is a numbered version with a
 > migration in [scripts/migrations/](../scripts/migrations/). Operational tagging
@@ -116,11 +116,11 @@ One `SCOPES` enum serves `trigger.subject`, `condition.who`, `action.actor` and
   default**; an absent actor is a claim, not an oversight. Verbs with an
   intrinsic performer (`attack`, `cast`) must name one, and the validator says so.
 
-## Enums (v13)
+## Enums (v14)
 
 Authoritative lists in [scripts/lib/schema.js](../scripts/lib/schema.js):
 `TRIGGER_TYPES` (34), `SCOPES` (20), `CONDITION_TYPES` (17), `ACTION_VERBS` (39),
-`TIERS` (5), `SCALE_SPECIALS` (8), `SCALE_REFS` (15), `QUALIFIERS`
+`TIERS` (5), `SCALE_SPECIALS` (8), `SCALE_REFS` (16), `QUALIFIERS`
 (random/stolen/permanent), `STATUS_KINDS` (buff/debuff), `FLOWS` (dealt/taken),
 `DIRECTIONS` (up/down), `PROVENANCE` (4).
 
@@ -192,6 +192,7 @@ that split disjunctions rather than version bumps.
 | 11 | `after_status_effect` | `0011` |
 | 12 | `after_timeline_move` | `0012` |
 | 13 | `battle_action` split into first-class `defend` and `provoke` verbs | `0014` |
+| 14 | scaleRef `timeline_position` (9 Timeline-count scalers, three of them de-params'd) | `0016` |
 
 ### How enum additions get decided
 

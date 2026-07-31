@@ -93,7 +93,15 @@ function magText(m) {
   if (m.amountFlat !== undefined) bits.push(String(m.amountFlat));
   if (m.direction) bits.push(m.direction === 'up' ? '▲' : '▼');
   if (m.scaleStat) bits.push(`${m.scalePct ?? ''}% of ${m.scaleStat}`);
-  if (m.scaleRef) bits.push(`${m.scalePct ?? ''}% of ${m.scaleRef.replace(/_/g, ' ')}`);
+  // "% of X" is the scalePct phrasing ("equal to 30% of damage dealt"). A
+  // count-shaped ref without one reads through `per` instead — "25% ▲ per
+  // creature below it on the Timeline" — so naming the ref again would only
+  // repeat it, and with no per at all the bare name says what it can.
+  if (m.scaleRef) {
+    const ref = m.scaleRef.replace(/_/g, ' ');
+    if (m.scalePct !== undefined) bits.push(`${m.scalePct}% of ${ref}`);
+    else if (!m.per) bits.push(ref);
+  }
   if (m.per) bits.push(`per ${m.per}`);
   if (m.perRank) bits.push(`${m.perRank.per ?? ''}/rank max ${m.perRank.maxTotal ?? '?'}`);
   if (m.cap !== undefined) bits.push(`cap ${m.cap}`);

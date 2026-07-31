@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "trait:butterfly-touch",
   "rules": [
@@ -16,7 +16,7 @@
           "magnitude": {
             "amountPct": 15,
             "direction": "down",
-            "scaleRef": "other",
+            "scaleRef": "timeline_position",
             "per": "creature between it and the enemy on the Timeline"
           }
         }

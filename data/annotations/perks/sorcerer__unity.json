@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "perk:sorcerer:unity",
   "rules": [
@@ -19,7 +19,7 @@
               "per": 2.5,
               "maxTotal": 20
             },
-            "scaleRef": "other",
+            "scaleRef": "timeline_position",
             "per": "consecutive adjacent ally on the Timeline"
           }
         }

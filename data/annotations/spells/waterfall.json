@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "spell:waterfall",
   "rules": [
@@ -12,10 +12,10 @@
           "verb": "deal_damage",
           "target": "enemies",
           "magnitude": {
-            "tier": "moderate"
-          },
-          "params": {
-            "bonusPct": 15,
+            "tier": "moderate",
+            "amountPct": 15,
+            "direction": "up",
+            "scaleRef": "timeline_position",
             "per": "creature above them on the Timeline"
           }
         }

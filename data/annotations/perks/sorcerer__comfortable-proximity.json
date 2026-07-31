@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "perk:sorcerer:comfortable-proximity",
   "rules": [
@@ -19,7 +19,7 @@
               "per": 1,
               "maxTotal": 10
             },
-            "scaleRef": "other",
+            "scaleRef": "timeline_position",
             "per": "creature between attacker and defender on the Timeline"
           }
         }

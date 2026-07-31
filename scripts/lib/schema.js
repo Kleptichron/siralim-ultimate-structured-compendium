@@ -4,7 +4,7 @@ import { termRegex } from './normalize.js';
 // searchable; anything nuanced goes in freeform `params` objects (display-only).
 // Bump SCHEMA_VERSION only with a migration note; annotations carry the version
 // they were written against.
-export const SCHEMA_VERSION = 13;
+export const SCHEMA_VERSION = 14;
 
 export const PROVENANCE = ['machine', 'template', 'claude', 'human'];
 
@@ -164,10 +164,14 @@ export const SCALE_SPECIALS = [
   'all', 'highest_stat', 'lowest_stat', 'total_stats', 'missing_health', 'level', 'rank', 'other',
 ];
 // Non-stat quantities effects scale with — searchable ("scales with damage dealt").
+// timeline_position covers every "for each creature below/above/between … on the
+// Timeline" count; magnitude.per keeps the exact anchor. Same word as the
+// condition type on purpose.
 export const SCALE_REFS = [
   'damage_dealt', 'damage_taken', 'healing_done', 'healing_received', 'amount_gained',
   'status_potency', 'minion_count', 'buff_count', 'debuff_count', 'turns_taken',
-  'dead_creatures', 'spell_gems', 'creatures_in_party', 'infusions', 'other',
+  'dead_creatures', 'spell_gems', 'creatures_in_party', 'infusions', 'timeline_position',
+  'other',
 ];
 // Searchable action qualifiers: narrow facts worth faceting on their own.
 export const QUALIFIERS = ['random', 'stolen', 'permanent'];

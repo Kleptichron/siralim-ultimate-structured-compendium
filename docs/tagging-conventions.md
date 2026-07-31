@@ -1,4 +1,4 @@
-# Tagging conventions (schema v13 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier, v11 after_status_effect, v12 after_timeline_move; 2026-07-29: v13 defend/provoke verbs)
+# Tagging conventions (schema v14 — v2 frozen 2026-07-06; extensions 2026-07-28: v3 verbs, v4 action_state, v5 crit rename + amplifies, v6 activation/limit verbs, v7 relic scope, v8 comparison/outcome conditions, v9 battle_action + event triggers, v10 trait_modifier, v11 after_status_effect, v12 after_timeline_move; 2026-07-29: v13 defend/provoke verbs; 2026-07-30: v14 timeline_position scaleRef)
 
 **Never park a searchable fact in `params`.** Nothing facets them, so anything
 that lands there is invisible to search and usually half-rendered on the card.
@@ -83,7 +83,12 @@ actor: enemy) — tag the indirection honestly and let the index do the resolvin
    - Event quantities → `magnitude.scaleRef`: damage_dealt | damage_taken | healing_done |
      healing_received | amount_gained | status_potency | minion_count | buff_count |
      debuff_count | turns_taken | dead_creatures | spell_gems | creatures_in_party |
-     infusions | other. Human-readable per-unit text goes in `magnitude.per`.
+     infusions | timeline_position | other. Human-readable per-unit text goes in
+     `magnitude.per`. `timeline_position` (v14) covers every "for each creature
+     below/above/between … on the Timeline" count — `per` keeps the exact anchor.
+     A spell whose OWN damage grows this way keeps the rider in the deal_damage
+     magnitude beside its tier (Mind Flay); a sentence about creatures dealing
+     more damage is its own damage_modifier action (Hierarchy, Ancient Buffoonery).
 8. **Damage/healing direction** → `action.flow`: `dealt` (outgoing) | `taken` (incoming).
    "Takes 30% less damage" = damage_modifier + flow taken + direction down.
 9. **Status behavior changes** ("Rebirth lasts forever", "potency +50%") → verb

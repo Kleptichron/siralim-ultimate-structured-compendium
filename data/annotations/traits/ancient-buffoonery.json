@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "trait:ancient-buffoonery",
   "rules": [
@@ -16,7 +16,7 @@
           "magnitude": {
             "amountPct": 15,
             "direction": "up",
-            "scaleRef": "other",
+            "scaleRef": "timeline_position",
             "per": "creature below it on the Timeline at battle start"
           }
         }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 13,
+  "schemaVersion": 14,
   "provenance": "claude",
   "id": "relic:asskicker:r80",
   "rules": [
@@ -15,7 +15,8 @@
           "target": "enemies",
           "magnitude": {
             "amountFlat": 1,
-            "per": "enemy between the bearer and its target on the Timeline"
+            "per": "enemy between the bearer and its target on the Timeline",
+            "scaleRef": "timeline_position"
           },
           "params": {
             "includesRelic": true,
