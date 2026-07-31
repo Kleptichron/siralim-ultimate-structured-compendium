@@ -572,7 +572,17 @@ mark.q {
 /* Which rule actually answered the query, when a record has several. */
 .rule.matched { box-shadow: inset 2px 0 0 var(--accent); }
 .rule.unmatched { opacity: .45; }
-.flags { margin-top: 7px; font-size: .875rem; color: var(--dim); }
+/* Flags left, report right. Baseline-aligned so the two font sizes sit on one
+   line instead of the smaller link floating mid-air. */
+.cfoot { display: flex; align-items: baseline; gap: 12px; margin-top: 7px; }
+.flags { font-size: .875rem; color: var(--dim); }
+/* Quiet on purpose: it is on every card, so it has to read as furniture until
+   you go looking for it. */
+.report {
+  margin-left: auto; flex: none; font-size: .75rem;
+  color: var(--dim); opacity: .75; text-decoration: none;
+}
+.report:hover { color: var(--accent); opacity: 1; text-decoration: underline; }
 button.clear {
   width: 100%; padding: 7px; margin-bottom: 14px; border-radius: 6px;
   background: var(--chip); color: var(--text); border: 1px solid var(--border);
@@ -595,6 +605,70 @@ button.clear:hover { border-color: var(--accent); }
 .samerule input { cursor: pointer; accent-color: var(--accent); width: 15px; height: 15px; }
 /* Idle when fewer than two rule-scoped filters are active — it changes nothing yet. */
 .samerule.idle { opacity: .5; }
+
+/* --- start view intro --- */
+#intro { margin: 2px 0 18px; }
+.intro-pitch { margin: 0 0 12px; max-width: 72ch; }
+.intro-pitch em { color: var(--accent); font-style: normal; font-weight: 600; }
+.introrow { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 7px; }
+.introq {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 12px; border-radius: 6px; font-size: .9375rem; text-decoration: none;
+  background: var(--chip); color: var(--text); border: 1px solid var(--border);
+}
+.introq:hover { border-color: var(--accent); color: var(--accent); }
+.introq .n {
+  padding: 0 7px; border-radius: 9px; font-size: .8125rem;
+  background: var(--chip-hit); color: var(--accent);
+}
+.intro-foot { margin: 10px 0 0; }
+/* A button that reads as a link — it opens a panel, so it must not pretend to
+   navigate, but sits mid-sentence where button chrome would be absurd. */
+.linky {
+  background: none; border: none; padding: 0; cursor: pointer; font: inherit;
+  color: var(--accent); text-decoration: underline;
+  text-decoration-thickness: 1px; text-underline-offset: 2px;
+}
+.linky:hover { text-decoration: none; }
+
+/* --- about panel --- */
+#abouttoggle {
+  flex: none; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;
+  font: inherit; font-size: .9375rem; line-height: 1;
+  background: var(--chip); color: var(--text); border: 1px solid var(--border);
+}
+#abouttoggle:hover { border-color: var(--accent); color: var(--accent); }
+/* The wrapper is scrim and scroll container both: on a short viewport the
+   PAGE must not scroll behind the panel, the panel scrolls within this. */
+#about {
+  position: fixed; inset: 0; z-index: 50; overflow-y: auto;
+  display: flex; align-items: flex-start; justify-content: center;
+  padding: 6vh 14px 24px; background: rgba(0, 0, 0, .55);
+}
+.about-panel {
+  max-width: 640px; width: 100%; outline: none;
+  background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+  padding: 18px 22px 22px; box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+}
+.about-head { display: flex; align-items: center; justify-content: space-between; }
+.about-head h2 { margin: 0; font-size: 1.0625rem; color: var(--accent); }
+.about-close {
+  width: 30px; height: 30px; border-radius: 6px; cursor: pointer; flex: none;
+  font: inherit; font-size: 1.2rem; line-height: 1;
+  background: var(--chip); color: var(--text); border: 1px solid var(--border);
+}
+.about-close:hover { border-color: var(--accent); color: var(--accent); }
+#about section { margin-top: 14px; }
+#about h3 {
+  font-size: .75rem; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--dim); margin: 0 0 5px;
+}
+#about p { margin: 0 0 8px; font-size: .9375rem; line-height: 1.55; }
+#about p:last-child { margin-bottom: 0; }
+kbd {
+  padding: 1px 7px; border-radius: 4px; font-size: .8125rem;
+  background: var(--chip); border: 1px solid var(--border);
+}
 
 /* ---------------------------------------------------------------------------
    Responsive overrides live LAST. Media queries add no specificity, so an
@@ -656,7 +730,9 @@ button.clear:hover { border-color: var(--accent); }
   #navtoggle { display: none; }
 }
 
-/* Phones proper: give the search box the width it needs. */
+/* Phones proper: give the search box the width it needs. The ? goes with the
+   title — the footer's "How this works" still opens the same panel. */
 @media (max-width: 460px) {
   h1 { display: none; }
+  #abouttoggle { display: none; }
 }

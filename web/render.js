@@ -222,6 +222,22 @@ function ruleHtml(rule, query, mark) {
   return `<div class="rule ${mark ?? ''}">${parts.join('')}</div>`;
 }
 
+// Where corrections go. A prefilled issue beats "open the repo and figure it
+// out": the reporter only has to say what looked wrong. The body carries the
+// id and a link back to the card, not the effect text — the text is one click
+// away, and URL-encoding it would triple every card's markup.
+const REPO = 'https://github.com/Kleptichron/siralim-ultimate-structured-compendium';
+
+function reportHref(rec) {
+  // cardHtml also runs under Node in the test suites, where location does not
+  // exist — and opened from the filesystem, origin is "null", not a URL.
+  const page = typeof location === 'undefined' ? '' : `${location.origin}${location.pathname}`;
+  const body = `Record: ${rec.name}\nId: \`${rec.id}\`\n`
+    + (page.startsWith('http') ? `Card: ${page}#id=${encodeURIComponent(rec.id)}\n` : '')
+    + '\nWhat looks wrong?\n';
+  return `${REPO}/issues/new?title=${encodeURIComponent(`Mistag: ${rec.name}`)}&body=${encodeURIComponent(body)}`;
+}
+
 export function cardHtml(rec, query) {
   const meta = metaHtml(rec, query.q);
   const badges = [`<span class="badge type">${rec.type}</span>`];
@@ -264,6 +280,10 @@ export function cardHtml(rec, query) {
     ${meta ? `<div class="meta">${meta}</div>` : ''}
     <div class="text">${hl(rec.text, query.q)}</div>
     ${rules}
-    ${flags.length ? `<div class="flags">${flags.join(' · ')}</div>` : ''}
+    <div class="cfoot">
+      ${flags.length ? `<div class="flags">${flags.join(' · ')}</div>` : ''}
+      <a class="report" data-rove target="_blank" rel="noopener"
+        href="${esc(reportHref(rec))}">report a mistake</a>
+    </div>
   </div>`;
 }

@@ -46,6 +46,9 @@
     <h1>SU Structured Compendium</h1>
     <input id="search" type="search" placeholder="Search names, creatures, effect text… ( / )" autocomplete="off">
     <button id="buildtoggle" type="button">Build</button>
+    <!-- Everything the title= tooltips say, reachable on touch. Icon-only is
+         fine here: the button's job is to explain, so tapping it explains it. -->
+    <button id="abouttoggle" class="about-open" type="button" aria-label="How this works">?</button>
     <!-- Ko-fi's widget builds its button with document.write, so it has to run
          during parse, right where the button belongs. Guarded on the global:
          if the CDN is blocked or the page is opened off the filesystem the
@@ -71,6 +74,54 @@
   <div id="say" class="sr-only" role="status" aria-live="polite"></div>
   <div id="addmenu" hidden role="dialog" aria-label="Add trait to build"></div>
   <div id="xmenu" hidden role="menu" aria-label="Export results" data-roving></div>
+  <!-- The wrapper is the scrim; clicking it (but not the panel) closes. The
+       panel is static HTML because it is a document, not a view of state — the
+       only dynamic bit is the record count, filled in at boot. -->
+  <div id="about" hidden>
+    <div class="about-panel" role="dialog" aria-modal="true" aria-labelledby="abouttitle" tabindex="-1">
+      <div class="about-head">
+        <h2 id="abouttitle">How this works</h2>
+        <button class="about-close" type="button" aria-label="Close">×</button>
+      </div>
+      <section>
+        <h3>What this is</h3>
+        <p>Every effect in Siralim Ultimate — <span data-count>4,000+</span> traits, spells,
+          perks, relics and more — tagged into rules: <span class="rk">when</span> a trigger,
+          <span class="rk">if</span> conditions, <span class="rk">do</span> actions. Filters
+          match the tags, not the wording. So "inflicts Burning" and "triggers off Burning"
+          are different searches, even where the game words them alike.</p>
+      </section>
+      <section>
+        <h3>Reading a card</h3>
+        <p>The grey box under the effect text is a rule. Click any chip in it to add that tag
+          to your search. When a card has several rules, the ones that match your search get
+          a teal edge.</p>
+        <p>Badges: <b>machine</b> — tagged automatically, not yet checked by hand.
+          <b>text changed</b> — the game's wording changed after tagging, so the old rules are
+          held back until re-checked. <b>untagged</b> — no rules yet.</p>
+      </section>
+      <section>
+        <h3>Filtering</h3>
+        <p>Sidebar rows cycle when clicked: include, exclude (red), off. The status, stat,
+          class and race groups pair a name with an interaction — pick Burning, then how the
+          effect has to relate to it: inflicts, removes, triggers off, and so on.</p>
+        <p><b>Match within a single action</b> is on by default. With two or more rule filters
+          set, one rule has to satisfy all of them — "start of battle" and "inflicts a debuff"
+          must be the same rule, not two strangers on one card. Untick it to match anywhere.</p>
+      </section>
+      <section>
+        <h3>Keyboard</h3>
+        <p>Press <kbd>/</kbd> to search. Each card and sidebar group is one Tab stop;
+          arrow keys move within it.</p>
+      </section>
+      <section>
+        <h3>Mistakes</h3>
+        <p>The tags were written by hand, with machine help, and some are wrong. Every card
+          has a <i>report a mistake</i> link that opens a prefilled GitHub issue. Use it
+          freely — a wrong chip is exactly the kind of report that helps.</p>
+      </section>
+    </div>
+  </div>
   <div id="boot" role="status" aria-live="polite">
     <div class="boot-msg">Loading compendium…</div>
     <div class="boot-track"><div class="boot-bar"></div></div>
@@ -88,6 +139,9 @@
   <div class="layout">
     <aside id="facets"><div class="facets-inner" id="facetsinner" tabindex="-1"></div></aside>
     <main>
+      <!-- Only until the query is first touched, then gone until the next
+           page load. Filled by renderIntro(): the example counts are live. -->
+      <div id="intro" hidden></div>
       <div id="resultbar" class="dim"></div>
       <!-- tabindex="-1": these are the regions focus falls back to when the
            control that was focused no longer exists after a re-render. -->
@@ -98,6 +152,9 @@
       <!-- Not hidden in build mode with the rest of main: the attribution is
            the site's, not the result list's. -->
       <footer>
+        <!-- The header's ? is hidden on the narrowest phones; this one is
+             always there. -->
+        <p><button class="linky about-open" type="button">How this works</button></p>
         <p>
           An unofficial fan project, not affiliated with Thylacine Studios.
           Siralim Ultimate and its effect text belong to them. Effect text and

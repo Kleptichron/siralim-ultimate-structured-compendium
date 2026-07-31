@@ -13,6 +13,7 @@ import {
   emptyBuild, buildToParam, buildFromParam,
   buildIsEmpty, buildWarnings, buildSummary, buildCount, saveBuild, loadBuild,
 } from './build.js';
+import { EXAMPLES } from './examples.js';
 
 // Cards render at roughly 20µs each, so a 250-card chunk costs ~5ms while the
 // full 4,068 costs ~110ms. Revealing in chunks AND resetting on every query
@@ -283,8 +284,28 @@ async function boot() {
     if (e.key !== 'Escape') return;
     closeAddMenu();
     closeExportMenu();
+    closeAbout();
   });
   addEventListener('resize', () => { closeAddMenu(); closeExportMenu(); });
+
+  // The intro's own opener is wired when the intro is built.
+  for (const b of document.querySelectorAll('.about-open')) b.onclick = openAbout;
+  $('#about .about-close').onclick = closeAbout;
+  $('#about').addEventListener('click', e => { if (!e.target.closest('.about-panel')) closeAbout(); });
+  // A minimal trap: Tab cycles through the panel's own controls rather than
+  // wandering into the page dimmed behind it.
+  $('#about').addEventListener('keydown', e => {
+    if (e.key !== 'Tab') return;
+    const items = [...$('#about').querySelectorAll('a[href], button')];
+    const first = items[0];
+    const last = items[items.length - 1];
+    const onPanel = document.activeElement === $('#about .about-panel');
+    if (e.shiftKey && (document.activeElement === first || onPanel)) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+  for (const el of document.querySelectorAll('#about [data-count]')) {
+    el.textContent = num(index.records.length);
+  }
 
   // Open on desktop, shut on phones where it would cover the results.
   setNav(!narrow());
@@ -626,6 +647,59 @@ function renderFacets() {
 }
 
 const num = n => n.toLocaleString();
+
+// --- the start view --------------------------------------------------------
+// Shown until the reader first touches the query, then gone for good: the
+// intro is for arrival, and popping back up on every "clear all" would nag.
+// No storage — a reload is a fresh arrival and gets it again. Arriving on a
+// shared link counts as touched, so it never interrupts one.
+// The example counts run real queries once and are cached — the corpus cannot
+// change under a session.
+let introDismissed = false;
+let exampleCounts = null;
+
+function renderIntro() {
+  const el = $('#intro');
+  if (query.recordId || activeFilterCount(query) > 0) introDismissed = true;
+  if (introDismissed) { el.hidden = true; return; }
+  if (!el.dataset.built) {
+    exampleCounts ??= EXAMPLES.map(ex => runQuery(index.records, hashToQuery(ex.hash)).length);
+    const rows = EXAMPLES.map((ex, i) => `
+      <div class="introrow">
+        <a class="introq" href="#${ex.hash}">${attr(ex.label)} <span class="n">${num(exampleCounts[i])}</span></a>
+        ${ex.note ? `<span class="dim">${attr(ex.note)}</span>` : ''}
+      </div>`).join('');
+    el.innerHTML = `
+      <p class="intro-pitch">Search ${num(index.records.length)} Siralim Ultimate effects by
+        what they <em>do</em>. Every trait, spell, perk and relic is tagged into rules —
+        <span class="rk">when</span> <span class="rk">if</span> <span class="rk">do</span> —
+        and the filters match the tags, not the wording. Try one:</p>
+      ${rows}
+      <p class="intro-foot dim">Or type a creature, trait or spell name.
+        <button class="linky about-open" type="button">How this works</button></p>`;
+    el.querySelector('.about-open').onclick = openAbout;
+    el.dataset.built = '1';
+  }
+  el.hidden = false;
+}
+
+// --- about panel ------------------------------------------------------------
+// The touch-reachable home of everything the title= tooltips say. Focus moves
+// into the panel on open and back to the opener on close; Tab wraps inside it.
+let aboutOpener = null;
+
+function openAbout() {
+  aboutOpener = document.activeElement;
+  $('#about').hidden = false;
+  $('#about .about-panel').focus();
+}
+
+function closeAbout() {
+  if ($('#about').hidden) return;
+  $('#about').hidden = true;
+  if (aboutOpener?.isConnected) aboutOpener.focus();
+  aboutOpener = null;
+}
 
 function renderResultBar() {
   // The bar is rebuilt on every paint, so an open menu would be left anchored
@@ -1191,7 +1265,7 @@ function renderMode({ push = false } = {}) {
 
 function applyMode() {
   $('#build').hidden = !buildMode;
-  for (const id of ['#resultbar', '#activefilters', '#results', '#more']) $(id).hidden = buildMode;
+  for (const id of ['#intro', '#resultbar', '#activefilters', '#results', '#more']) $(id).hidden = buildMode;
   document.body.classList.toggle('building', buildMode);
   $('#buildtoggle').classList.toggle('on', buildMode);
   syncBuildBadge();
@@ -1201,6 +1275,7 @@ function applyMode() {
 function paint() {
   lastResults = sortResults(runQuery(index.records, query), query);
   syncNavCount();
+  renderIntro();
   renderResultBar();
   renderActiveFilters();
   if (lastResults.length === 0) renderEmptyState();
