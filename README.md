@@ -96,7 +96,9 @@ don't carry any of that. `traits.csv` and `relics.csv` follow the column layout
 of the community-maintained *Siralim Ultimate Compendium* spreadsheet, and
 `perks.csv` and `specializations.csv` come from a separate compilation. Years of
 player transcription went into these files, and this project is built on top of
-that work.
+that work. The Compendium lives at
+[docs.google.com/spreadsheets/…](https://docs.google.com/spreadsheets/d/1qvWwf1fNB5jN8bJ8dFGAVzC7scgDCoBO-hglwjTT4iY/edit?usp=sharing);
+corrections for it go to its maintainers, not this repo.
 
 Patch 3.0 will expose the game's database files directly, which is where the
 relational data will come from once it lands.
